@@ -1,8 +1,10 @@
 import { Metadata } from 'next';
 import { FranchiseConfig } from '../franchise-config';
 import { ArticleData } from '../articles';
+import { locales } from '../i18n/config';
 
 const BASE_URL = 'https://popcodex.com';
+const ALL_LOCALES = locales;
 
 export function generateBaseMetadata(locale: string): Metadata {
   const titles: Record<string, string> = {
@@ -11,13 +13,15 @@ export function generateBaseMetadata(locale: string): Metadata {
     es: 'PopCodex — La enciclopedia de cultura pop',
     pt: 'PopCodex — A enciclopédia de cultura pop',
     it: "PopCodex — L'enciclopedia della cultura pop",
+    ko: 'PopCodex — 팝 컬처 백과사전',
   };
   const descriptions: Record<string, string> = {
-    fr: 'PopCodex est votre guide encyclopédique des univers de la pop culture : jeux vidéo, films, séries et comics. GTA VI, Fable, Wolverine et plus.',
-    en: 'PopCodex is your encyclopedic guide to pop culture universes: video games, movies, TV shows and comics. GTA VI, Fable, Wolverine and more.',
+    fr: 'PopCodex est votre guide encyclopédique des univers de la pop culture : jeux vidéo, films, séries et comics. GTA VI, Crimson Desert, Fable, Wolverine et plus.',
+    en: 'PopCodex is your encyclopedic guide to pop culture universes: video games, movies, TV shows and comics. GTA VI, Crimson Desert, Fable, Wolverine and more.',
     es: 'PopCodex es tu guía enciclopédica de los universos de la cultura pop: videojuegos, películas, series y cómics.',
     pt: 'PopCodex é o seu guia enciclopédico dos universos da cultura pop: videogames, filmes, séries e quadrinhos.',
     it: "PopCodex è la tua guida enciclopedica agli universi della cultura pop: videogiochi, film, serie TV e fumetti.",
+    ko: 'PopCodex는 비디오 게임, 영화, TV 시리즈, 만화 등 팝 컬처 세계의 백과사전 가이드입니다. GTA VI, 붉은사막, 페이블, 울버린 등.',
   };
   return {
     title: titles[locale] || titles.fr,
@@ -25,13 +29,7 @@ export function generateBaseMetadata(locale: string): Metadata {
     metadataBase: new URL(BASE_URL),
     alternates: {
       canonical: `${BASE_URL}/${locale}`,
-      languages: {
-        fr: `${BASE_URL}/fr`,
-        en: `${BASE_URL}/en`,
-        es: `${BASE_URL}/es`,
-        pt: `${BASE_URL}/pt`,
-        it: `${BASE_URL}/it`,
-      },
+      languages: Object.fromEntries(ALL_LOCALES.map(l => [l, `${BASE_URL}/${l}`])),
     },
     openGraph: {
       title: titles[locale] || titles.fr,
@@ -61,13 +59,7 @@ export function generateFranchiseMetadata(franchise: FranchiseConfig, locale: st
     description,
     alternates: {
       canonical: `${BASE_URL}/${locale}/${franchise.id}`,
-      languages: {
-        fr: `${BASE_URL}/fr/${franchise.id}`,
-        en: `${BASE_URL}/en/${franchise.id}`,
-        es: `${BASE_URL}/es/${franchise.id}`,
-        pt: `${BASE_URL}/pt/${franchise.id}`,
-        it: `${BASE_URL}/it/${franchise.id}`,
-      },
+      languages: Object.fromEntries(ALL_LOCALES.map(l => [l, `${BASE_URL}/${l}/${franchise.id}`])),
     },
     openGraph: {
       title,
@@ -91,7 +83,7 @@ export function generateArticleMetadata(article: ArticleData, franchise: Franchi
     alternates: {
       canonical: url,
       languages: Object.fromEntries(
-        ['fr', 'en', 'es', 'pt', 'it'].map(l => {
+        ALL_LOCALES.map(l => {
           const catSlug = franchise.categories.find(c => c.slug.fr === article.category)?.slug[l] || article.category;
           return [l, `${BASE_URL}/${l}/${franchise.id}/${catSlug}/${article.slug}`];
         })

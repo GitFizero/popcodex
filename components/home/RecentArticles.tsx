@@ -29,7 +29,7 @@ export default function RecentArticles() {
 
       <div className="flex gap-4 overflow-x-auto pb-4 -mx-4 px-4 sm:mx-0 sm:px-0 snap-x snap-mandatory">
         {articles.map((article, i) => {
-          const franchise = franchises[article.franchise];
+          const franchise = franchises[article.franchise as keyof typeof franchises];
           const catSlug = franchise.categories.find(c => c.slug.fr === article.category)?.slug[locale] || article.category;
           return (
             <motion.div

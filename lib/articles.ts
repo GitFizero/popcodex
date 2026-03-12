@@ -2,7 +2,7 @@ import { FranchiseId } from './franchise-config';
 
 export interface ArticleData {
   slug: string;
-  franchise: FranchiseId;
+  franchise: string;
   category: string;
   title: Record<string, string>;
   excerpt: Record<string, string>;
@@ -16,7 +16,8 @@ export interface ArticleData {
   relatedSlugs?: string[];
 }
 
-export const articles: ArticleData[] = [
+// Base articles (will be merged with franchise-specific imports)
+const baseArticles: ArticleData[] = [
   {
     slug: 'lucia-caminos',
     franchise: 'gta-vi',
@@ -808,6 +809,18 @@ Omega Red, real name Arkady Rossovich, is one of the confirmed antagonists in Ma
     tags: ['vilain', 'ennemi', 'wolverine', 'marvel'],
     relatedSlugs: ['logan'],
   },
+];
+
+// Import franchise-specific articles (will be populated by migration)
+let gtaViArticles: ArticleData[] = [];
+let crimsonDesertArticles: ArticleData[] = [];
+try { gtaViArticles = require('./articles-gta-vi').gtaViArticles || []; } catch {}
+try { crimsonDesertArticles = require('./articles-crimson-desert').crimsonDesertArticles || []; } catch {}
+
+export const articles: ArticleData[] = [
+  ...baseArticles,
+  ...gtaViArticles,
+  ...crimsonDesertArticles,
 ];
 
 export function getArticlesByFranchise(franchise: string): ArticleData[] {

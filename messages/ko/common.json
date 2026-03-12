@@ -1,0 +1,73 @@
+{
+  "site": {
+    "name": "PopCodex",
+    "tagline": "여러분이 좋아하는 세계의 백과사전",
+    "description": "PopCodex는 비디오 게임, 영화, TV 시리즈, 만화 등 팝 컬처 세계의 백과사전 가이드입니다."
+  },
+  "nav": {
+    "games": "비디오 게임",
+    "films": "영화",
+    "series": "TV 시리즈",
+    "search": "캐릭터, 장소, 무기 검색...",
+    "searchShort": "검색...",
+    "language": "언어",
+    "theme": "테마",
+    "menu": "메뉴",
+    "close": "닫기",
+    "comingSoon": "출시 예정",
+    "viewAll": "모두 보기",
+    "new": "신규",
+    "articles": "기사",
+    "home": "홈"
+  },
+  "hero": {
+    "title": "여러분이 좋아하는 세계의 백과사전",
+    "subtitle": "중요한 비디오 게임, 영화, TV 시리즈에 대한 가장 완벽한 위키를 탐험하세요."
+  },
+  "universe": {
+    "title": "세계 탐험",
+    "releaseDate": "출시일",
+    "articlesCount": "{count}개 기사"
+  },
+  "recent": {
+    "title": "최근 기사",
+    "readTime": "{minutes}분 읽기"
+  },
+  "footer": {
+    "disclaimer": "PopCodex는 비공식 커뮤니티 웹사이트입니다. 언급된 상표는 해당 소유자의 자산입니다.",
+    "legal": "법적 고지",
+    "privacy": "개인정보 처리방침",
+    "rights": "모든 권리 보유."
+  },
+  "franchise": {
+    "wikiProgress": "위키 진행률",
+    "lastUpdate": "최종 업데이트",
+    "totalArticles": "기사",
+    "relatedArticles": "관련 기사",
+    "disclaimer": "PopCodex는 비공식 커뮤니티 웹사이트입니다.",
+    "prev": "이전 기사",
+    "next": "다음 기사"
+  },
+  "article": {
+    "toc": "목차",
+    "updated": "업데이트",
+    "published": "게시일",
+    "readTime": "{minutes}분 읽기",
+    "author": "{name} 작성",
+    "showSpoiler": "스포일러 표시",
+    "hideSpoiler": "스포일러 숨기기"
+  },
+  "search": {
+    "title": "검색",
+    "placeholder": "캐릭터, 장소, 무기 검색...",
+    "noResults": "결과를 찾을 수 없습니다.",
+    "results": "{count}개 결과"
+  },
+  "accessibility": {
+    "skipToContent": "본문으로 건너뛰기",
+    "openMenu": "메뉴 열기",
+    "closeMenu": "메뉴 닫기",
+    "toggleTheme": "테마 전환",
+    "selectLanguage": "언어 변경"
+  }
+}
