@@ -10,6 +10,18 @@ export interface FranchiseTheme {
   accentColor: string;
   bgGradient: string;
   heroPattern?: string;
+  /** CSS class applied to the universe wrapper — drives the entire visual override */
+  cssClass: string;
+  /** Font stack for display/headings inside this universe */
+  fontDisplay: string;
+  /** Font stack for body text inside this universe */
+  fontBody: string;
+  /** Secondary accent (for dual-tone universes) */
+  accentSecondary?: string;
+  /** Card hover effect class */
+  cardEffect?: string;
+  /** Special overlay effect (scanlines, vignette, noise…) */
+  overlayEffect?: string;
 }
 
 export interface FranchiseConfig {
@@ -30,11 +42,17 @@ export const franchises: Record<FranchiseId, FranchiseConfig> = {
   'gta-vi': {
     id: 'gta-vi',
     mediaType: 'games',
-    accentColor: '#E85D3A',
+    accentColor: '#FF1493',
     theme: {
-      accentColor: '#E85D3A',
-      bgGradient: 'linear-gradient(135deg, #E85D3A06, #F4845F12, #E85D3A04)',
-      heroPattern: 'radial-gradient(ellipse at 70% 30%, #E85D3A08 0%, transparent 60%)',
+      accentColor: '#FF1493',
+      accentSecondary: '#00FFFF',
+      cssClass: 'universe-gta',
+      fontDisplay: '"Bebas Neue", sans-serif',
+      fontBody: '"DM Sans", sans-serif',
+      cardEffect: 'card-neon',
+      overlayEffect: 'overlay-scanlines',
+      bgGradient: 'linear-gradient(180deg, hsl(220 67% 2%) 0%, hsl(216 56% 4%) 30%, hsl(214 40% 7%) 100%)',
+      heroPattern: 'linear-gradient(hsl(189 100% 50% / 0.03) 1px, transparent 1px), linear-gradient(90deg, hsl(189 100% 50% / 0.03) 1px, transparent 1px)',
     },
     releaseDate: '2026-05-26',
     developer: 'Rockstar Games',
@@ -92,8 +110,14 @@ export const franchises: Record<FranchiseId, FranchiseConfig> = {
     accentColor: '#DC2626',
     theme: {
       accentColor: '#DC2626',
-      bgGradient: 'linear-gradient(135deg, #DC262604, #7F1D1D10, #DC262606)',
-      heroPattern: 'radial-gradient(ellipse at 50% 60%, #DC262608 0%, transparent 55%), radial-gradient(ellipse at 20% 20%, #92400E06 0%, transparent 50%)',
+      accentSecondary: '#D4A946',
+      cssClass: 'universe-crimson',
+      fontDisplay: '"Cinzel", serif',
+      fontBody: '"Crimson Text", serif',
+      cardEffect: 'card-medieval',
+      overlayEffect: 'overlay-vignette',
+      bgGradient: 'linear-gradient(180deg, hsl(10 50% 1.4%) 0%, hsl(20 33% 3.5%) 30%, hsl(22 33% 6%) 100%)',
+      heroPattern: 'radial-gradient(ellipse at 50% 60%, hsl(0 68% 32% / 0.06) 0%, transparent 55%), radial-gradient(ellipse at 20% 20%, hsl(36 49% 36% / 0.05) 0%, transparent 50%)',
     },
     releaseDate: '2026-03-28',
     developer: 'Pearl Abyss',
@@ -147,6 +171,10 @@ export const franchises: Record<FranchiseId, FranchiseConfig> = {
     accentColor: '#16A34A',
     theme: {
       accentColor: '#16A34A',
+      accentSecondary: '#A3E635',
+      cssClass: 'universe-fable',
+      fontDisplay: '"Bricolage Grotesque", sans-serif',
+      fontBody: '"Instrument Sans", sans-serif',
       bgGradient: 'linear-gradient(135deg, #16A34A05, #15803D10, #16A34A04)',
       heroPattern: 'radial-gradient(ellipse at 30% 70%, #16A34A08 0%, transparent 55%)',
     },
@@ -198,6 +226,10 @@ export const franchises: Record<FranchiseId, FranchiseConfig> = {
     accentColor: '#D97706',
     theme: {
       accentColor: '#D97706',
+      accentSecondary: '#EF4444',
+      cssClass: 'universe-wolverine',
+      fontDisplay: '"Bricolage Grotesque", sans-serif',
+      fontBody: '"Instrument Sans", sans-serif',
       bgGradient: 'linear-gradient(135deg, #D9770605, #92400E10, #D9770604)',
       heroPattern: 'radial-gradient(ellipse at 60% 40%, #D9770608 0%, transparent 55%)',
     },
