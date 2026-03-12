@@ -1,0 +1,144 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: var(--color-bg);
+  --color-foreground: var(--color-text);
+  --font-display: "Bricolage Grotesque", system-ui, sans-serif;
+  --font-body: "Instrument Sans", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  --radius-card: 16px;
+  --radius-button: 12px;
+  --radius-input: 12px;
+}
+
+/* === LIGHT THEME (default) === */
+:root {
+  --color-bg: #F8F6F3;
+  --color-bg-elevated: #FFFFFF;
+  --color-bg-subtle: #EFECE7;
+  --color-text: #1A1A1A;
+  --color-text-secondary: #6B6B6B;
+  --color-text-tertiary: #9B9B9B;
+  --color-border: rgba(0,0,0,0.06);
+  --color-border-hover: rgba(0,0,0,0.12);
+
+  --color-accent-default: #2563EB;
+  --color-accent-gta: #E85D3A;
+  --color-accent-fable: #16A34A;
+  --color-accent-wolverine: #D97706;
+
+  --color-accent: var(--color-accent-default);
+  --color-accent-light: color-mix(in srgb, var(--color-accent) 10%, white);
+  --color-accent-medium: color-mix(in srgb, var(--color-accent) 20%, white);
+}
+
+/* === DARK THEME === */
+[data-theme="dark"] {
+  --color-bg: #121212;
+  --color-bg-elevated: #1E1E1E;
+  --color-bg-subtle: #2A2A2A;
+  --color-text: #E8E8E8;
+  --color-text-secondary: #A0A0A0;
+  --color-text-tertiary: #707070;
+  --color-border: rgba(255,255,255,0.08);
+  --color-border-hover: rgba(255,255,255,0.15);
+}
+
+/* === FRANCHISE ACCENT OVERRIDES === */
+[data-franchise="gta-vi"] {
+  --color-accent: var(--color-accent-gta);
+}
+[data-franchise="fable"] {
+  --color-accent: var(--color-accent-fable);
+}
+[data-franchise="wolverine"] {
+  --color-accent: var(--color-accent-wolverine);
+}
+
+/* === BASE STYLES === */
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-body, 'Instrument Sans', sans-serif);
+  line-height: 1.7;
+  font-size: 16px;
+  transition: background-color 300ms ease, color 300ms ease;
+}
+
+/* Atmospheric background on homepage */
+.bg-atmosphere {
+  background:
+    radial-gradient(ellipse at 20% 50%, color-mix(in srgb, var(--color-accent) 4%, transparent) 0%, transparent 50%),
+    radial-gradient(ellipse at 80% 20%, color-mix(in srgb, var(--color-accent) 3%, transparent) 0%, transparent 50%),
+    var(--color-bg);
+}
+
+[data-theme="dark"] .bg-atmosphere {
+  background:
+    radial-gradient(ellipse at 20% 50%, color-mix(in srgb, var(--color-accent) 6%, transparent) 0%, transparent 50%),
+    radial-gradient(ellipse at 80% 20%, color-mix(in srgb, var(--color-accent) 4%, transparent) 0%, transparent 50%),
+    var(--color-bg);
+}
+
+/* Grain texture overlay */
+.bg-grain::before {
+  content: '';
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  opacity: 0.03;
+  pointer-events: none;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+  z-index: 0;
+}
+
+/* === TYPOGRAPHY === */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display, 'Bricolage Grotesque', sans-serif);
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+
+/* === ACCENT TRANSITIONS === */
+a, button, .accent-transition {
+  transition: color 300ms ease, background-color 300ms ease, border-color 300ms ease, transform 200ms ease, box-shadow 200ms ease;
+}
+
+/* === SCROLLBAR === */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-bg-subtle);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-text-tertiary);
+  border-radius: 4px;
+}
+
+/* === SKIP NAV === */
+.skip-nav {
+  position: absolute;
+  top: -100%;
+  left: 16px;
+  z-index: 100;
+  padding: 8px 16px;
+  background: var(--color-accent);
+  color: white;
+  border-radius: var(--radius-button);
+  font-weight: 600;
+  text-decoration: none;
+}
+.skip-nav:focus {
+  top: 16px;
+}
+
+/* === FOCUS VISIBLE === */
+*:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+/* === SELECTION === */
+::selection {
+  background: color-mix(in srgb, var(--color-accent) 25%, transparent);
+}

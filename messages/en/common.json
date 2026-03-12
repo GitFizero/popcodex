@@ -1,0 +1,73 @@
+{
+  "site": {
+    "name": "PopCodex",
+    "tagline": "The encyclopedia of your favorite universes",
+    "description": "PopCodex is your encyclopedic guide to pop culture universes: video games, movies, TV shows and comics."
+  },
+  "nav": {
+    "games": "Video Games",
+    "films": "Films",
+    "series": "TV Shows",
+    "search": "Search for a character, location, weapon...",
+    "searchShort": "Search...",
+    "language": "Language",
+    "theme": "Theme",
+    "menu": "Menu",
+    "close": "Close",
+    "comingSoon": "Coming Soon",
+    "viewAll": "View all",
+    "new": "New",
+    "articles": "articles",
+    "home": "Home"
+  },
+  "hero": {
+    "title": "The encyclopedia of your favorite universes",
+    "subtitle": "Explore the most complete wikis on the video games, movies and TV shows that matter."
+  },
+  "universe": {
+    "title": "Explore our universes",
+    "releaseDate": "Release",
+    "articlesCount": "{count} articles"
+  },
+  "recent": {
+    "title": "Recent articles",
+    "readTime": "{minutes} min read"
+  },
+  "footer": {
+    "disclaimer": "PopCodex is an unofficial community website. All trademarks belong to their respective owners.",
+    "legal": "Legal notice",
+    "privacy": "Privacy policy",
+    "rights": "All rights reserved."
+  },
+  "franchise": {
+    "wikiProgress": "Wiki progress",
+    "lastUpdate": "Last update",
+    "totalArticles": "Articles",
+    "relatedArticles": "Related articles",
+    "disclaimer": "PopCodex is an unofficial community website.",
+    "prev": "Previous article",
+    "next": "Next article"
+  },
+  "article": {
+    "toc": "Table of contents",
+    "updated": "Updated on",
+    "published": "Published on",
+    "readTime": "{minutes} min read",
+    "author": "By {name}",
+    "showSpoiler": "Show spoiler",
+    "hideSpoiler": "Hide spoiler"
+  },
+  "search": {
+    "title": "Search",
+    "placeholder": "Search for a character, location, weapon...",
+    "noResults": "No results found.",
+    "results": "{count} results"
+  },
+  "accessibility": {
+    "skipToContent": "Skip to main content",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "toggleTheme": "Toggle theme",
+    "selectLanguage": "Change language"
+  }
+}

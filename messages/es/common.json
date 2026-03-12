@@ -1,0 +1,73 @@
+{
+  "site": {
+    "name": "PopCodex",
+    "tagline": "La enciclopedia de tus universos favoritos",
+    "description": "PopCodex es tu guía enciclopédica de los universos de la cultura pop: videojuegos, películas, series y cómics."
+  },
+  "nav": {
+    "games": "Videojuegos",
+    "films": "Películas",
+    "series": "Series",
+    "search": "Buscar un personaje, un lugar, un arma...",
+    "searchShort": "Buscar...",
+    "language": "Idioma",
+    "theme": "Tema",
+    "menu": "Menú",
+    "close": "Cerrar",
+    "comingSoon": "Próximamente",
+    "viewAll": "Ver todos",
+    "new": "Nuevo",
+    "articles": "artículos",
+    "home": "Inicio"
+  },
+  "hero": {
+    "title": "La enciclopedia de tus universos favoritos",
+    "subtitle": "Explora los wikis más completos sobre los videojuegos, películas y series que importan."
+  },
+  "universe": {
+    "title": "Explora nuestros universos",
+    "releaseDate": "Lanzamiento",
+    "articlesCount": "{count} artículos"
+  },
+  "recent": {
+    "title": "Artículos recientes",
+    "readTime": "{minutes} min de lectura"
+  },
+  "footer": {
+    "disclaimer": "PopCodex es un sitio comunitario no oficial. Las marcas citadas pertenecen a sus respectivos propietarios.",
+    "legal": "Aviso legal",
+    "privacy": "Política de privacidad",
+    "rights": "Todos los derechos reservados."
+  },
+  "franchise": {
+    "wikiProgress": "Progreso del wiki",
+    "lastUpdate": "Última actualización",
+    "totalArticles": "Artículos",
+    "relatedArticles": "Artículos relacionados",
+    "disclaimer": "PopCodex es un sitio comunitario no oficial.",
+    "prev": "Artículo anterior",
+    "next": "Artículo siguiente"
+  },
+  "article": {
+    "toc": "Índice",
+    "updated": "Actualizado el",
+    "published": "Publicado el",
+    "readTime": "{minutes} min de lectura",
+    "author": "Por {name}",
+    "showSpoiler": "Mostrar spoiler",
+    "hideSpoiler": "Ocultar spoiler"
+  },
+  "search": {
+    "title": "Búsqueda",
+    "placeholder": "Buscar un personaje, un lugar, un arma...",
+    "noResults": "No se encontraron resultados.",
+    "results": "{count} resultados"
+  },
+  "accessibility": {
+    "skipToContent": "Ir al contenido principal",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
+    "toggleTheme": "Cambiar tema",
+    "selectLanguage": "Cambiar idioma"
+  }
+}

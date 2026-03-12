@@ -1,0 +1,73 @@
+{
+  "site": {
+    "name": "PopCodex",
+    "tagline": "L'encyclopédie de vos univers préférés",
+    "description": "PopCodex est votre guide encyclopédique des univers de la pop culture : jeux vidéo, films, séries et comics."
+  },
+  "nav": {
+    "games": "Jeux Vidéo",
+    "films": "Films",
+    "series": "Séries",
+    "search": "Rechercher un personnage, un lieu, une arme...",
+    "searchShort": "Rechercher...",
+    "language": "Langue",
+    "theme": "Thème",
+    "menu": "Menu",
+    "close": "Fermer",
+    "comingSoon": "Bientôt",
+    "viewAll": "Voir tous",
+    "new": "Nouveau",
+    "articles": "articles",
+    "home": "Accueil"
+  },
+  "hero": {
+    "title": "L'encyclopédie de vos univers préférés",
+    "subtitle": "Explorez les wikis les plus complets sur les jeux vidéo, films et séries qui comptent."
+  },
+  "universe": {
+    "title": "Explorez nos univers",
+    "releaseDate": "Sortie",
+    "articlesCount": "{count} articles"
+  },
+  "recent": {
+    "title": "Articles récents",
+    "readTime": "{minutes} min de lecture"
+  },
+  "footer": {
+    "disclaimer": "PopCodex est un site communautaire non officiel. Les marques citées appartiennent à leurs propriétaires respectifs.",
+    "legal": "Mentions légales",
+    "privacy": "Politique de confidentialité",
+    "rights": "Tous droits réservés."
+  },
+  "franchise": {
+    "wikiProgress": "Progression du wiki",
+    "lastUpdate": "Dernière mise à jour",
+    "totalArticles": "Articles",
+    "relatedArticles": "Articles connexes",
+    "disclaimer": "PopCodex est un site communautaire non officiel.",
+    "prev": "Article précédent",
+    "next": "Article suivant"
+  },
+  "article": {
+    "toc": "Sommaire",
+    "updated": "Mis à jour le",
+    "published": "Publié le",
+    "readTime": "{minutes} min de lecture",
+    "author": "Par {name}",
+    "showSpoiler": "Afficher le spoiler",
+    "hideSpoiler": "Masquer le spoiler"
+  },
+  "search": {
+    "title": "Recherche",
+    "placeholder": "Rechercher un personnage, un lieu, une arme...",
+    "noResults": "Aucun résultat trouvé.",
+    "results": "{count} résultats"
+  },
+  "accessibility": {
+    "skipToContent": "Aller au contenu principal",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu",
+    "toggleTheme": "Changer de thème",
+    "selectLanguage": "Changer de langue"
+  }
+}

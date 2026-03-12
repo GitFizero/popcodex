@@ -1,0 +1,73 @@
+{
+  "site": {
+    "name": "PopCodex",
+    "tagline": "L'enciclopedia dei tuoi universi preferiti",
+    "description": "PopCodex è la tua guida enciclopedica agli universi della cultura pop: videogiochi, film, serie TV e fumetti."
+  },
+  "nav": {
+    "games": "Videogiochi",
+    "films": "Film",
+    "series": "Serie TV",
+    "search": "Cerca un personaggio, un luogo, un'arma...",
+    "searchShort": "Cerca...",
+    "language": "Lingua",
+    "theme": "Tema",
+    "menu": "Menu",
+    "close": "Chiudi",
+    "comingSoon": "Prossimamente",
+    "viewAll": "Vedi tutti",
+    "new": "Nuovo",
+    "articles": "articoli",
+    "home": "Home"
+  },
+  "hero": {
+    "title": "L'enciclopedia dei tuoi universi preferiti",
+    "subtitle": "Esplora i wiki più completi sui videogiochi, film e serie TV che contano."
+  },
+  "universe": {
+    "title": "Esplora i nostri universi",
+    "releaseDate": "Uscita",
+    "articlesCount": "{count} articoli"
+  },
+  "recent": {
+    "title": "Articoli recenti",
+    "readTime": "{minutes} min di lettura"
+  },
+  "footer": {
+    "disclaimer": "PopCodex è un sito comunitario non ufficiale. I marchi citati appartengono ai rispettivi proprietari.",
+    "legal": "Note legali",
+    "privacy": "Politica sulla privacy",
+    "rights": "Tutti i diritti riservati."
+  },
+  "franchise": {
+    "wikiProgress": "Progresso del wiki",
+    "lastUpdate": "Ultimo aggiornamento",
+    "totalArticles": "Articoli",
+    "relatedArticles": "Articoli correlati",
+    "disclaimer": "PopCodex è un sito comunitario non ufficiale.",
+    "prev": "Articolo precedente",
+    "next": "Articolo successivo"
+  },
+  "article": {
+    "toc": "Indice",
+    "updated": "Aggiornato il",
+    "published": "Pubblicato il",
+    "readTime": "{minutes} min di lettura",
+    "author": "Di {name}",
+    "showSpoiler": "Mostra spoiler",
+    "hideSpoiler": "Nascondi spoiler"
+  },
+  "search": {
+    "title": "Ricerca",
+    "placeholder": "Cerca un personaggio, un luogo, un'arma...",
+    "noResults": "Nessun risultato trovato.",
+    "results": "{count} risultati"
+  },
+  "accessibility": {
+    "skipToContent": "Vai al contenuto principale",
+    "openMenu": "Apri menu",
+    "closeMenu": "Chiudi menu",
+    "toggleTheme": "Cambia tema",
+    "selectLanguage": "Cambia lingua"
+  }
+}
