@@ -320,6 +320,217 @@
 
 
 /* ================================================================
+   FABLE — ENCHANTED FOREST FANTASY
+   Green + golden light, Cinzel Decorative serif, whimsical yet dark,
+   volumetric mist, warm fairy-tale glow
+   ================================================================ */
+.universe-fable {
+  --color-bg: hsl(150 30% 3%);
+  --color-bg-elevated: hsl(140 20% 10%);
+  --color-bg-subtle: hsl(130 20% 6%);
+  --color-text: hsl(45 30% 90%);
+  --color-text-secondary: hsl(90 15% 65%);
+  --color-text-tertiary: hsl(100 10% 42%);
+  --color-border: hsl(120 20% 15% / 0.7);
+  --color-border-hover: hsl(90 25% 25% / 0.6);
+  --color-accent: #22C55E;
+  --color-accent-secondary: #FACC15;
+
+  color-scheme: dark;
+}
+
+/* Golden fairy-light text */
+.universe-fable .text-glow-gold {
+  color: #FACC15;
+  text-shadow:
+    0 0 8px hsl(45 100% 50% / 0.5),
+    0 0 30px hsl(45 100% 50% / 0.2);
+}
+
+/* Enchanted green glow */
+.universe-fable .text-glow-green {
+  color: #22C55E;
+  text-shadow:
+    0 0 8px hsl(142 72% 45% / 0.5),
+    0 0 30px hsl(142 72% 45% / 0.2);
+}
+
+/* Mist overlay */
+.overlay-fable-mist::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 50;
+  background:
+    radial-gradient(ellipse at 20% 90%, hsl(120 30% 20% / 0.12) 0%, transparent 50%),
+    radial-gradient(ellipse at 80% 80%, hsl(120 30% 20% / 0.08) 0%, transparent 40%),
+    radial-gradient(ellipse at center, transparent 60%, rgba(0,0,0,0.35) 100%);
+}
+
+/* Fable card — enchanted hover with green glow */
+.card-fable {
+  border: 1px solid hsl(120 20% 15% / 0.7);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+  transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 300ms, border-color 300ms;
+}
+.card-fable:hover {
+  transform: translateY(-6px) scale(1.01);
+  border-color: hsl(142 72% 45% / 0.3);
+  box-shadow:
+    0 8px 30px rgba(0,0,0,0.5),
+    0 0 25px hsl(142 72% 45% / 0.12),
+    0 0 50px hsl(45 100% 50% / 0.05);
+}
+
+/* Fable scrollbar */
+.universe-fable ::-webkit-scrollbar-thumb {
+  background: hsl(142 72% 45% / 0.3);
+  border-radius: 3px;
+}
+.universe-fable ::-webkit-scrollbar-thumb:hover {
+  background: hsl(142 72% 45% / 0.5);
+}
+
+/* Fable selection */
+.universe-fable ::selection {
+  background: hsl(142 72% 45% / 0.35);
+  color: hsl(45 30% 95%);
+}
+
+/* Fable badge */
+.universe-fable .badge-universe {
+  background: hsl(142 72% 45% / 0.12);
+  color: #22C55E;
+  border: 1px solid hsl(142 72% 45% / 0.25);
+  letter-spacing: 0.1em;
+}
+
+/* Fable category pills */
+.universe-fable .cat-pill {
+  border: 1px solid hsl(120 20% 20% / 0.5);
+  color: hsl(90 15% 65%);
+  letter-spacing: 0.06em;
+}
+.universe-fable .cat-pill:hover,
+.universe-fable .cat-pill-active {
+  border-color: hsl(142 72% 45% / 0.4);
+  color: #22C55E;
+  background: hsl(142 72% 45% / 0.08);
+}
+
+
+/* ================================================================
+   WOLVERINE — DARK NOIR CINEMATIC
+   Near-black + yellow/gold (iconic suit), red blood accent,
+   heavy grain, aggressive, Barlow Condensed bold, noir atmosphere
+   ================================================================ */
+.universe-wolverine {
+  --color-bg: hsl(0 0% 3%);
+  --color-bg-elevated: hsl(0 0% 9%);
+  --color-bg-subtle: hsl(40 5% 6%);
+  --color-text: hsl(40 20% 92%);
+  --color-text-secondary: hsl(40 10% 65%);
+  --color-text-tertiary: hsl(40 5% 40%);
+  --color-border: hsl(40 10% 12% / 0.8);
+  --color-border-hover: hsl(45 20% 22% / 0.6);
+  --color-accent: #EAB308;
+  --color-accent-secondary: #DC2626;
+
+  color-scheme: dark;
+}
+
+/* Wolverine claw slash accent text */
+.universe-wolverine .text-claw {
+  color: #EAB308;
+  text-shadow:
+    0 0 6px hsl(45 100% 50% / 0.6),
+    0 0 25px hsl(45 100% 50% / 0.15);
+}
+
+/* Blood red glow */
+.universe-wolverine .text-rage {
+  color: #DC2626;
+  text-shadow:
+    0 0 8px hsl(0 84% 50% / 0.6),
+    0 0 30px hsl(0 84% 50% / 0.15);
+}
+
+/* Heavy grain overlay */
+.overlay-grain-heavy::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 50;
+  opacity: 0.06;
+  mix-blend-mode: multiply;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence baseFrequency='0.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)' opacity='1'/%3E%3C/svg%3E");
+}
+
+/* Wolverine card — brutal hover with yellow slash glow */
+.card-wolverine {
+  border: 1px solid hsl(40 10% 12% / 0.8);
+  box-shadow: 0 8px 30px rgba(0,0,0,0.7);
+  transition: transform 200ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 200ms, border-color 200ms;
+}
+.card-wolverine:hover {
+  transform: translateY(-6px);
+  border-color: hsl(45 100% 50% / 0.3);
+  box-shadow:
+    0 8px 30px rgba(0,0,0,0.8),
+    0 0 25px hsl(45 100% 50% / 0.12),
+    0 0 0 1px hsl(45 100% 50% / 0.2);
+}
+
+/* Slash animation (decorative) */
+@keyframes claw-slash {
+  0% { clip-path: inset(0 100% 0 0); }
+  100% { clip-path: inset(0 0 0 0); }
+}
+
+/* Wolverine scrollbar */
+.universe-wolverine ::-webkit-scrollbar-thumb {
+  background: hsl(45 100% 50% / 0.3);
+  border-radius: 3px;
+}
+.universe-wolverine ::-webkit-scrollbar-thumb:hover {
+  background: hsl(45 100% 50% / 0.5);
+}
+
+/* Wolverine selection */
+.universe-wolverine ::selection {
+  background: hsl(45 100% 50% / 0.35);
+  color: #000;
+}
+
+/* Wolverine badge */
+.universe-wolverine .badge-universe {
+  background: hsl(45 100% 50% / 0.12);
+  color: #EAB308;
+  border: 1px solid hsl(45 100% 50% / 0.25);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 700;
+}
+
+/* Wolverine category pills */
+.universe-wolverine .cat-pill {
+  border: 1px solid hsl(40 10% 18% / 0.6);
+  color: hsl(40 10% 65%);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-weight: 600;
+}
+.universe-wolverine .cat-pill:hover,
+.universe-wolverine .cat-pill-active {
+  border-color: hsl(45 100% 50% / 0.4);
+  color: #EAB308;
+  background: hsl(45 100% 50% / 0.06);
+}
+
+
+/* ================================================================
    UNIVERSE ENTRANCE ANIMATIONS
    ================================================================ */
 

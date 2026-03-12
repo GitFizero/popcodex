@@ -15,6 +15,9 @@ function UniverseCard({ franchise, locale, large, index }: { franchise: Franchis
 
   const isGta = franchise.id === 'gta-vi';
   const isCrimson = franchise.id === 'crimson-desert';
+  const isFable = franchise.id === 'fable';
+  const isWolverine = franchise.id === 'wolverine';
+  const isImmersive = isGta || isCrimson || isFable || isWolverine;
   const secondaryColor = franchise.theme.accentSecondary || franchise.accentColor;
 
   return (
@@ -44,7 +47,11 @@ function UniverseCard({ franchise, locale, large, index }: { franchise: Franchis
               ? 'linear-gradient(180deg, hsl(220 67% 3%), hsl(216 56% 6%))'
               : isCrimson
                 ? 'linear-gradient(135deg, hsl(10 50% 3%), hsl(20 33% 6%))'
-                : `linear-gradient(135deg, ${franchise.accentColor}08, ${franchise.accentColor}20, ${franchise.accentColor}08)`,
+                : isFable
+                  ? 'linear-gradient(180deg, hsl(150 30% 3%), hsl(140 25% 7%))'
+                  : isWolverine
+                    ? 'linear-gradient(180deg, hsl(0 0% 3%), hsl(40 5% 7%))'
+                    : `linear-gradient(135deg, ${franchise.accentColor}08, ${franchise.accentColor}20, ${franchise.accentColor}08)`,
           }}
         >
           {/* GTA: neon grid + scanlines */}
@@ -76,22 +83,44 @@ function UniverseCard({ franchise, locale, large, index }: { franchise: Franchis
             />
           )}
 
+          {/* Fable: forest mist */}
+          {isFable && (
+            <div
+              className="absolute inset-0"
+              style={{
+                background: 'radial-gradient(ellipse at 30% 70%, hsl(120 30% 20% / 0.15) 0%, transparent 50%), radial-gradient(ellipse at center, transparent 50%, rgba(0,0,0,0.3) 100%)',
+              }}
+            />
+          )}
+
+          {/* Wolverine: noir vignette */}
+          {isWolverine && (
+            <div
+              className="absolute inset-0"
+              style={{
+                background: 'radial-gradient(ellipse at center, transparent 30%, rgba(0,0,0,0.5) 100%)',
+              }}
+            />
+          )}
+
           {/* Watermark text */}
           <div className="absolute inset-0 flex items-center justify-center">
             <span
               className={`font-bold ${isGta ? 'text-7xl sm:text-9xl' : 'text-6xl sm:text-8xl'}`}
               style={{
                 fontFamily: franchise.theme.fontDisplay,
-                color: isGta ? '#FF1493' : isCrimson ? '#D4A946' : franchise.accentColor,
-                opacity: isGta ? 0.12 : isCrimson ? 0.08 : 0.1,
-                letterSpacing: isGta ? '0.06em' : isCrimson ? '0.1em' : undefined,
-                textTransform: isGta || isCrimson ? 'uppercase' : undefined,
+                color: isGta ? '#FF1493' : isCrimson ? '#D4A946' : isFable ? '#FACC15' : isWolverine ? '#EAB308' : franchise.accentColor,
+                opacity: isGta ? 0.12 : isWolverine ? 0.1 : isCrimson || isFable ? 0.08 : 0.1,
+                letterSpacing: isImmersive ? '0.06em' : undefined,
+                textTransform: isImmersive ? 'uppercase' : undefined,
                 textShadow: isGta
                   ? '0 0 40px hsl(330 100% 56% / 0.3)'
-                  : undefined,
+                  : isWolverine
+                    ? '0 0 30px hsl(45 100% 50% / 0.2)'
+                    : undefined,
               }}
             >
-              {isGta ? 'VI' : isCrimson ? 'PYWEL' : (franchise.name[locale]?.split(' ')[0] || franchise.id.toUpperCase())}
+              {isGta ? 'VI' : isCrimson ? 'PYWEL' : isWolverine ? 'X' : isFable ? 'ALBION' : (franchise.name[locale]?.split(' ')[0] || franchise.id.toUpperCase())}
             </span>
           </div>
 
@@ -99,10 +128,10 @@ function UniverseCard({ franchise, locale, large, index }: { franchise: Franchis
           <div
             className="absolute bottom-0 left-0 right-0 h-[2px]"
             style={{
-              background: isGta || isCrimson
+              background: isImmersive
                 ? `linear-gradient(90deg, ${franchise.accentColor}, ${secondaryColor})`
                 : franchise.accentColor,
-              boxShadow: isGta ? `0 0 10px ${franchise.accentColor}60` : undefined,
+              boxShadow: isGta || isWolverine ? `0 0 10px ${franchise.accentColor}60` : undefined,
             }}
           />
         </div>
@@ -113,8 +142,8 @@ function UniverseCard({ franchise, locale, large, index }: { franchise: Franchis
               className="text-xl sm:text-2xl font-bold text-[var(--color-text)]"
               style={{
                 fontFamily: franchise.theme.fontDisplay,
-                letterSpacing: isGta ? '0.03em' : isCrimson ? '0.06em' : undefined,
-                textTransform: isGta || isCrimson ? 'uppercase' : undefined,
+                letterSpacing: isImmersive ? '0.04em' : undefined,
+                textTransform: isImmersive ? 'uppercase' : undefined,
               }}
             >
               {franchise.name[locale] || franchise.name.fr}
@@ -136,9 +165,9 @@ function UniverseCard({ franchise, locale, large, index }: { franchise: Franchis
                   background: `${franchise.accentColor}10`,
                   color: franchise.accentColor,
                   fontFamily: franchise.theme.fontDisplay,
-                  letterSpacing: isGta || isCrimson ? '0.04em' : undefined,
-                  textTransform: isGta || isCrimson ? 'uppercase' : undefined,
-                  fontSize: isGta || isCrimson ? '0.65rem' : undefined,
+                  letterSpacing: isImmersive ? '0.04em' : undefined,
+                  textTransform: isImmersive ? 'uppercase' : undefined,
+                  fontSize: isImmersive ? '0.65rem' : undefined,
                 }}
               >
                 {cat.label[locale] || cat.label.fr}
