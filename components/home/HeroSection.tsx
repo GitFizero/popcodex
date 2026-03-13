@@ -1,41 +1,83 @@
 'use client';
 
 import { useTranslations, useLocale } from 'next-intl';
-import { Search, ChevronDown } from 'lucide-react';
+import { ChevronDown } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { getAllFranchiseIds, franchises } from '@/lib/franchise-config';
 import Link from 'next/link';
 import { getArticlesByFranchise } from '@/lib/articles';
 
-/* Animated accent orbs that float around */
-function FloatingOrbs() {
+/* ---------- Star field background ---------- */
+function Starfield() {
+  // Generate deterministic star positions via simple math (no Math.random for SSR stability)
+  const stars: { x: number; y: number; r: number; delay: number; opacity: number }[] = [];
+  for (let i = 0; i < 120; i++) {
+    const seed = i * 7919; // prime
+    stars.push({
+      x: (seed * 13) % 100,
+      y: (seed * 17) % 100,
+      r: 0.3 + ((seed * 23) % 100) / 100 * 1.2,
+      delay: ((seed * 31) % 100) / 100 * 6,
+      opacity: 0.15 + ((seed * 37) % 100) / 100 * 0.7,
+    });
+  }
+  return (
+    <svg className="absolute inset-0 w-full h-full" preserveAspectRatio="none">
+      {stars.map((s, i) => (
+        <circle
+          key={i}
+          cx={`${s.x}%`}
+          cy={`${s.y}%`}
+          r={s.r}
+          fill="white"
+          opacity={s.opacity}
+        >
+          <animate
+            attributeName="opacity"
+            values={`${s.opacity};${s.opacity * 0.3};${s.opacity}`}
+            dur={`${3 + s.delay}s`}
+            begin={`${s.delay}s`}
+            repeatCount="indefinite"
+          />
+        </circle>
+      ))}
+    </svg>
+  );
+}
+
+/* ---------- Nebula blobs ---------- */
+function NebulaBlobs() {
   const allIds = getAllFranchiseIds();
+  const positions = [
+    { left: '10%', top: '15%', size: 500 },
+    { right: '5%', top: '25%', size: 450 },
+    { left: '30%', bottom: '10%', size: 400 },
+    { right: '25%', bottom: '20%', size: 350 },
+  ];
+
   return (
     <div className="absolute inset-0 overflow-hidden pointer-events-none">
       {allIds.map((id, i) => {
         const f = franchises[id];
-        const positions = [
-          { left: '15%', top: '20%' },
-          { right: '20%', top: '30%' },
-          { left: '25%', bottom: '25%' },
-          { right: '15%', bottom: '20%' },
-        ];
+        const pos = positions[i % positions.length];
         return (
           <motion.div
             key={id}
-            className="absolute w-64 h-64 rounded-full"
+            className="absolute rounded-full"
             style={{
-              ...positions[i],
-              background: `radial-gradient(circle, ${f.accentColor}12 0%, transparent 70%)`,
-              filter: 'blur(40px)',
+              ...pos,
+              width: pos.size,
+              height: pos.size,
+              background: `radial-gradient(circle, ${f.accentColor}18 0%, ${f.accentColor}06 40%, transparent 70%)`,
+              filter: 'blur(60px)',
             }}
             animate={{
-              y: [0, -20, 0, 15, 0],
-              x: [0, 10, -10, 5, 0],
-              scale: [1, 1.1, 0.95, 1.05, 1],
+              y: [0, -30, 0, 20, 0],
+              x: [0, 15, -15, 10, 0],
+              scale: [1, 1.15, 0.9, 1.08, 1],
             }}
             transition={{
-              duration: 12 + i * 2,
+              duration: 20 + i * 4,
               repeat: Infinity,
               ease: 'easeInOut',
             }}
@@ -46,52 +88,180 @@ function FloatingOrbs() {
   );
 }
 
+/* ---------- Universe portals — circular orbit around center ---------- */
+function UniversePortals() {
+  const locale = useLocale();
+  const allIds = getAllFranchiseIds();
+  const count = allIds.length;
+
+  return (
+    <div className="relative w-full max-w-2xl mx-auto aspect-square mt-8 hidden md:block">
+      {/* Orbit ring */}
+      <div className="absolute inset-[15%] rounded-full border border-white/[0.04]" />
+      <div className="absolute inset-[30%] rounded-full border border-white/[0.03]" />
+
+      {allIds.map((id, i) => {
+        const f = franchises[id];
+        const angle = (i / count) * Math.PI * 2 - Math.PI / 2;
+        const radius = 38; // % from center
+        const x = 50 + radius * Math.cos(angle);
+        const y = 50 + radius * Math.sin(angle);
+        const secondary = f.theme.accentSecondary || f.accentColor;
+
+        return (
+          <motion.div
+            key={id}
+            className="absolute -translate-x-1/2 -translate-y-1/2"
+            style={{ left: `${x}%`, top: `${y}%` }}
+            initial={{ opacity: 0, scale: 0 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ delay: 0.8 + i * 0.15, duration: 0.6, type: 'spring' }}
+          >
+            <Link
+              href={`/${locale}/${id}`}
+              className="group relative flex flex-col items-center gap-3 no-underline"
+            >
+              {/* Glow */}
+              <div
+                className="absolute -inset-4 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                style={{ background: `radial-gradient(circle, ${f.accentColor}30, transparent 70%)` }}
+              />
+
+              {/* Portal sphere */}
+              <div
+                className="relative w-16 h-16 lg:w-20 lg:h-20 rounded-full flex items-center justify-center transition-transform duration-300 group-hover:scale-110"
+                style={{
+                  background: `radial-gradient(circle at 35% 35%, ${f.accentColor}40, ${secondary}15 60%, transparent 100%)`,
+                  boxShadow: `0 0 30px ${f.accentColor}20, inset 0 0 20px ${f.accentColor}10`,
+                  border: `1.5px solid ${f.accentColor}30`,
+                }}
+              >
+                <span
+                  className="text-lg lg:text-xl font-bold"
+                  style={{
+                    fontFamily: f.theme.fontDisplay,
+                    color: f.accentColor,
+                    textShadow: `0 0 20px ${f.accentColor}60`,
+                  }}
+                >
+                  {id === 'gta-vi' ? 'VI' : id === 'crimson-desert' ? 'CD' : id === 'wolverine' ? 'X' : 'F'}
+                </span>
+              </div>
+
+              {/* Label */}
+              <span
+                className="text-[11px] font-medium tracking-wide text-white/50 group-hover:text-white/90 transition-colors whitespace-nowrap"
+                style={{ fontFamily: f.theme.fontDisplay }}
+              >
+                {f.name[locale] || f.name.fr}
+              </span>
+            </Link>
+          </motion.div>
+        );
+      })}
+
+      {/* Center core */}
+      <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
+        <motion.div
+          className="w-5 h-5 rounded-full bg-white/20"
+          animate={{ scale: [1, 1.4, 1], opacity: [0.3, 0.6, 0.3] }}
+          transition={{ duration: 4, repeat: Infinity, ease: 'easeInOut' }}
+          style={{ boxShadow: '0 0 40px rgba(255,255,255,0.15)' }}
+        />
+      </div>
+    </div>
+  );
+}
+
+/* ---------- Mobile universe pills ---------- */
+function MobileUniversePills() {
+  const locale = useLocale();
+  const allIds = getAllFranchiseIds();
+
+  return (
+    <div className="flex flex-wrap items-center justify-center gap-3 mt-10 md:hidden">
+      {allIds.map((id, i) => {
+        const f = franchises[id];
+        return (
+          <motion.div
+            key={id}
+            initial={{ opacity: 0, scale: 0.9 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ delay: 0.6 + i * 0.1 }}
+          >
+            <Link
+              href={`/${locale}/${id}`}
+              className="group inline-flex items-center gap-2 px-4 py-2.5 text-sm font-medium rounded-full transition-all duration-200 no-underline hover:-translate-y-0.5 border backdrop-blur-sm"
+              style={{
+                color: f.accentColor,
+                background: `${f.accentColor}08`,
+                borderColor: `${f.accentColor}20`,
+              }}
+            >
+              <span className="w-2 h-2 rounded-full" style={{ background: f.accentColor }} />
+              {f.name[locale] || f.name.fr}
+            </Link>
+          </motion.div>
+        );
+      })}
+    </div>
+  );
+}
+
+/* ========== MAIN HERO ========== */
 export default function HeroSection() {
   const t = useTranslations('hero');
-  const tNav = useTranslations('nav');
-  const tUniverse = useTranslations('universe');
   const locale = useLocale();
   const allFranchises = getAllFranchiseIds();
-
-  // Total article count
   const totalArticles = allFranchises.reduce((sum, id) => sum + getArticlesByFranchise(id).length, 0);
 
   return (
-    <section className="relative min-h-[95vh] flex flex-col items-center justify-center px-4 overflow-hidden">
-      {/* Background atmosphere */}
-      <div className="absolute inset-0 bg-atmosphere" />
-      <FloatingOrbs />
+    <section className="relative min-h-screen flex flex-col items-center justify-center px-4 overflow-hidden">
+      {/* Deep space background */}
+      <div
+        className="absolute inset-0"
+        style={{
+          background: 'radial-gradient(ellipse at 50% 40%, #0d0d1a 0%, #060610 50%, #020206 100%)',
+        }}
+      />
 
-      {/* Grain texture */}
-      <div className="absolute inset-0 bg-grain pointer-events-none" />
+      <Starfield />
+      <NebulaBlobs />
 
-      <div className="relative z-10 max-w-4xl mx-auto text-center">
+      {/* Subtle vignette */}
+      <div
+        className="absolute inset-0 pointer-events-none"
+        style={{ background: 'radial-gradient(ellipse at center, transparent 50%, rgba(0,0,0,0.5) 100%)' }}
+      />
+
+      {/* Content */}
+      <div className="relative z-10 text-center max-w-3xl mx-auto">
         {/* Badge */}
         <motion.div
           initial={{ opacity: 0, y: -10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="mb-6 inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-[var(--color-border)] bg-[var(--color-bg-elevated)]"
+          className="mb-8 inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-white/10 bg-white/[0.03] backdrop-blur-sm"
         >
-          <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
-          <span className="text-xs text-[var(--color-text-secondary)]">
+          <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
+          <span className="text-xs text-white/50">
             {totalArticles} {locale === 'en' ? 'articles across' : locale === 'es' ? 'artículos en' : 'articles sur'} {allFranchises.length} {locale === 'en' ? 'universes' : locale === 'es' ? 'universos' : 'univers'}
           </span>
         </motion.div>
 
         {/* Title */}
         <motion.h1
-          initial={{ opacity: 0, y: 20 }}
+          initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7, ease: 'easeOut', delay: 0.1 }}
-          className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold tracking-tight text-[var(--color-text)]"
+          transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1], delay: 0.1 }}
+          className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold tracking-tight"
           style={{ fontFamily: 'var(--font-display)', letterSpacing: '-0.03em', lineHeight: 0.95 }}
         >
-          Pop
+          <span className="text-white">Pop</span>
           <span
             className="bg-clip-text text-transparent"
             style={{
-              backgroundImage: `linear-gradient(135deg, ${franchises['gta-vi'].accentColor}, ${franchises['crimson-desert'].accentColor}, ${franchises['fable'].accentColor}, ${franchises['wolverine'].accentColor})`,
+              backgroundImage: `linear-gradient(135deg, #818CF8, #C084FC, #F472B6, #FB923C)`,
             }}
           >
             Codex
@@ -101,83 +271,31 @@ export default function HeroSection() {
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, ease: 'easeOut', delay: 0.2 }}
-          className="mt-6 text-lg sm:text-xl text-[var(--color-text-secondary)] max-w-xl mx-auto leading-relaxed"
+          transition={{ duration: 0.6, delay: 0.25 }}
+          className="mt-6 text-lg sm:text-xl text-white/50 max-w-lg mx-auto leading-relaxed"
         >
           {t('subtitle')}
         </motion.p>
 
-        {/* Search */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, ease: 'easeOut', delay: 0.3 }}
-          className="mt-10"
-        >
-          <button
-            onClick={() => {
-              window.dispatchEvent(new KeyboardEvent('keydown', { key: 'k', metaKey: true }));
-            }}
-            className="group flex items-center gap-3 mx-auto w-full max-w-md px-5 py-4 rounded-2xl bg-[var(--color-bg-elevated)] border border-[var(--color-border)] hover:border-[var(--color-border-hover)] shadow-sm hover:shadow-lg transition-all duration-300 cursor-text"
-          >
-            <Search className="w-5 h-5 text-[var(--color-text-tertiary)]" />
-            <span className="flex-1 text-left text-[var(--color-text-tertiary)] text-sm sm:text-base">
-              {tNav('search')}
-            </span>
-            <kbd className="hidden sm:inline-flex items-center gap-0.5 px-2 py-1 bg-[var(--color-bg-subtle)] rounded-lg text-[11px] font-mono text-[var(--color-text-tertiary)]">
-              <span className="text-xs">&#8984;</span>K
-            </kbd>
-          </button>
-        </motion.div>
+        {/* Universe portals (desktop) */}
+        <UniversePortals />
 
-        {/* Franchise quick pills */}
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 0.6, ease: 'easeOut', delay: 0.45 }}
-          className="mt-8 flex items-center justify-center gap-3 flex-wrap"
-        >
-          {allFranchises.map((id, i) => {
-            const f = franchises[id];
-            const count = getArticlesByFranchise(id).length;
-            return (
-              <motion.div
-                key={id}
-                initial={{ opacity: 0, scale: 0.9 }}
-                animate={{ opacity: 1, scale: 1 }}
-                transition={{ delay: 0.5 + i * 0.08 }}
-              >
-                <Link
-                  href={`/${locale}/${id}`}
-                  className="group inline-flex items-center gap-2 px-4 py-2 text-sm font-medium rounded-full transition-all duration-200 no-underline hover:-translate-y-0.5 hover:shadow-md border"
-                  style={{
-                    color: f.accentColor,
-                    background: `${f.accentColor}08`,
-                    borderColor: `${f.accentColor}15`,
-                  }}
-                >
-                  <span className="w-1.5 h-1.5 rounded-full" style={{ background: f.accentColor }} />
-                  {f.name[locale] || f.name.fr}
-                  <span className="text-[10px] opacity-60">{count}</span>
-                </Link>
-              </motion.div>
-            );
-          })}
-        </motion.div>
+        {/* Mobile pills */}
+        <MobileUniversePills />
       </div>
 
       {/* Scroll indicator */}
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ delay: 1.2 }}
+        transition={{ delay: 1.5 }}
         className="absolute bottom-8 left-1/2 -translate-x-1/2"
       >
         <motion.div
           animate={{ y: [0, 8, 0] }}
           transition={{ duration: 2, repeat: Infinity, ease: 'easeInOut' }}
         >
-          <ChevronDown className="w-5 h-5 text-[var(--color-text-tertiary)]" />
+          <ChevronDown className="w-5 h-5 text-white/20" />
         </motion.div>
       </motion.div>
     </section>

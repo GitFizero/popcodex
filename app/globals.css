@@ -12,9 +12,30 @@
 }
 
 /* ================================================================
-   LIGHT THEME (default — homepage / neutral)
+   DEFAULT THEME — Deep space dark (homepage / neutral)
    ================================================================ */
 :root {
+  --color-bg: #08080f;
+  --color-bg-elevated: #12121c;
+  --color-bg-subtle: #1a1a28;
+  --color-text: #E8E8F0;
+  --color-text-secondary: #9898B0;
+  --color-text-tertiary: #5E5E78;
+  --color-border: rgba(255,255,255,0.06);
+  --color-border-hover: rgba(255,255,255,0.12);
+  --color-accent-default: #818CF8;
+  --color-accent: var(--color-accent-default);
+  --color-accent-light: color-mix(in srgb, var(--color-accent) 10%, transparent);
+  --color-accent-medium: color-mix(in srgb, var(--color-accent) 20%, transparent);
+  --color-accent-secondary: var(--color-accent);
+
+  color-scheme: dark;
+}
+
+/* ================================================================
+   LIGHT THEME (optional)
+   ================================================================ */
+[data-theme="light"] {
   --color-bg: #F8F6F3;
   --color-bg-elevated: #FFFFFF;
   --color-bg-subtle: #EFECE7;
@@ -23,25 +44,10 @@
   --color-text-tertiary: #9B9B9B;
   --color-border: rgba(0,0,0,0.06);
   --color-border-hover: rgba(0,0,0,0.12);
-  --color-accent-default: #2563EB;
+  --color-accent-default: #6366F1;
   --color-accent: var(--color-accent-default);
-  --color-accent-light: color-mix(in srgb, var(--color-accent) 10%, white);
-  --color-accent-medium: color-mix(in srgb, var(--color-accent) 20%, white);
-  --color-accent-secondary: var(--color-accent);
-}
 
-/* ================================================================
-   DARK THEME (base — for homepage)
-   ================================================================ */
-[data-theme="dark"] {
-  --color-bg: #121212;
-  --color-bg-elevated: #1E1E1E;
-  --color-bg-subtle: #2A2A2A;
-  --color-text: #E8E8E8;
-  --color-text-secondary: #A0A0A0;
-  --color-text-tertiary: #707070;
-  --color-border: rgba(255,255,255,0.08);
-  --color-border-hover: rgba(255,255,255,0.15);
+  color-scheme: light;
 }
 
 
