@@ -43,10 +43,7 @@ export default async function LocaleLayout({
         style={{ fontFamily: '"Instrument Sans", system-ui, sans-serif' }}
       >
         <NextIntlClientProvider locale={locale} messages={messages}>
-          <a href="#main-content" className="skip-nav">
-            Skip to content
-          </a>
-          <Header />
+<Header />
           <main id="main-content">
             <UniverseTransition>
               {children}
