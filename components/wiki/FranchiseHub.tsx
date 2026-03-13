@@ -6,12 +6,18 @@ import { motion } from 'framer-motion';
 import { Calendar, FileText, ArrowRight, Clock, Gamepad2 } from 'lucide-react';
 import { FranchiseConfig } from '@/lib/franchise-config';
 import { ArticleData, getArticlesByFranchise } from '@/lib/articles';
+import GtaWikiHome from './GtaWikiHome';
+import CrimsonWikiHome from './CrimsonWikiHome';
 
 interface FranchiseHubProps {
   franchise: FranchiseConfig;
 }
 
 export default function FranchiseHub({ franchise }: FranchiseHubProps) {
+  // Delegate to franchise-specific homepages
+  if (franchise.id === 'gta-vi') return <GtaWikiHome franchise={franchise} />;
+  if (franchise.id === 'crimson-desert') return <CrimsonWikiHome franchise={franchise} />;
+
   const locale = useLocale();
   const t = useTranslations('franchise');
   const tUniverse = useTranslations('universe');
@@ -32,11 +38,8 @@ export default function FranchiseHub({ franchise }: FranchiseHubProps) {
 
   const accentColor = franchise.accentColor;
   const secondaryColor = franchise.theme.accentSecondary || accentColor;
-  const isGta = franchise.id === 'gta-vi';
-  const isCrimson = franchise.id === 'crimson-desert';
   const isFable = franchise.id === 'fable';
   const isWolverine = franchise.id === 'wolverine';
-  const isImmersive = isGta || isCrimson || isFable || isWolverine;
 
   return (
     <div
@@ -48,20 +51,12 @@ export default function FranchiseHub({ franchise }: FranchiseHubProps) {
     >
       {/* === HERO SECTION === */}
       <div className="relative overflow-hidden">
-        {/* Background pattern (grid for GTA, radial for Crimson) */}
+        {/* Background pattern */}
         {franchise.theme.heroPattern && (
           <div
-            className={`absolute inset-0 pointer-events-none ${isGta ? 'bg-universe-grid' : ''}`}
-            style={{
-              background: isGta ? undefined : franchise.theme.heroPattern,
-              backgroundSize: isGta ? '60px 60px' : undefined,
-            }}
+            className="absolute inset-0 pointer-events-none"
+            style={{ background: franchise.theme.heroPattern }}
           />
-        )}
-
-        {/* Noise texture for Crimson Desert */}
-        {isCrimson && (
-          <div className="absolute inset-0 pointer-events-none bg-noise-texture" />
         )}
 
         {/* Accent bar at top */}
@@ -71,9 +66,7 @@ export default function FranchiseHub({ franchise }: FranchiseHubProps) {
           transition={{ duration: 0.6, ease: 'easeOut' }}
           className="h-1 origin-left"
           style={{
-            background: isImmersive
-              ? `linear-gradient(90deg, ${accentColor}, ${secondaryColor})`
-              : accentColor,
+            background: `linear-gradient(90deg, ${accentColor}, ${secondaryColor})`,
           }}
         />
 
@@ -103,41 +96,37 @@ export default function FranchiseHub({ franchise }: FranchiseHubProps) {
             </span>
           </motion.div>
 
-          {/* TITLE — radically different per universe */}
+          {/* TITLE */}
           <motion.h1
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.15 }}
             className={`text-5xl sm:text-6xl lg:text-8xl font-bold ${
-              isGta ? 'neon-title neon-flicker'
-              : isCrimson ? 'text-gradient-gold shimmer'
-              : isFable ? 'text-glow-gold'
+              isFable ? 'text-glow-gold'
               : isWolverine ? 'text-claw'
               : ''
             }`}
             style={{
               fontFamily: franchise.theme.fontDisplay,
-              letterSpacing: isGta ? '0.04em' : isCrimson || isFable ? '0.08em' : isWolverine ? '0.04em' : '-0.03em',
-              color: isGta ? accentColor : isCrimson || isFable ? undefined : accentColor,
-              textTransform: isImmersive ? 'uppercase' : undefined,
+              letterSpacing: isFable ? '0.08em' : isWolverine ? '0.04em' : '-0.03em',
+              color: isFable ? undefined : accentColor,
+              textTransform: 'uppercase',
             }}
           >
             {franchise.name[locale] || franchise.name.fr}
           </motion.h1>
 
           {/* Subtitle decorative line */}
-          {isImmersive && (
-            <motion.div
-              initial={{ scaleX: 0 }}
-              animate={{ scaleX: 1 }}
-              transition={{ duration: 0.8, delay: 0.3, ease: 'easeOut' }}
-              className="h-[2px] max-w-md mt-4 origin-left"
-              style={{
-                background: `linear-gradient(90deg, ${secondaryColor}${isGta || isWolverine ? '' : '80'}, transparent)`,
-                boxShadow: isGta || isWolverine ? `0 0 15px ${secondaryColor}40` : undefined,
-              }}
-            />
-          )}
+          <motion.div
+            initial={{ scaleX: 0 }}
+            animate={{ scaleX: 1 }}
+            transition={{ duration: 0.8, delay: 0.3, ease: 'easeOut' }}
+            className="h-[2px] max-w-md mt-4 origin-left"
+            style={{
+              background: `linear-gradient(90deg, ${secondaryColor}${isWolverine ? '' : '80'}, transparent)`,
+              boxShadow: isWolverine ? `0 0 15px ${secondaryColor}40` : undefined,
+            }}
+          />
 
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -185,16 +174,16 @@ export default function FranchiseHub({ franchise }: FranchiseHubProps) {
           <div className="absolute right-0 bottom-0 overflow-hidden pointer-events-none select-none">
             <span
               className={`block text-[12rem] sm:text-[18rem] font-bold leading-none ${
-                isGta ? 'neon-title-alt' : isWolverine ? 'text-claw' : ''
+                isWolverine ? 'text-claw' : ''
               }`}
               style={{
                 fontFamily: franchise.theme.fontDisplay,
-                color: isGta || isWolverine ? undefined : isFable ? secondaryColor : accentColor,
-                opacity: isGta || isWolverine ? 0.05 : 0.03,
-                letterSpacing: isImmersive ? '0.05em' : undefined,
+                color: isWolverine ? undefined : isFable ? secondaryColor : accentColor,
+                opacity: isWolverine ? 0.05 : 0.03,
+                letterSpacing: '0.05em',
               }}
             >
-              {isGta ? 'VI' : isCrimson ? 'PYWEL' : isWolverine ? 'X' : isFable ? 'ALBION' : (franchise.name[locale]?.split(' ')[0] || franchise.id)}
+              {isWolverine ? 'X' : isFable ? 'ALBION' : (franchise.name[locale]?.split(' ')[0] || franchise.id)}
             </span>
           </div>
         </div>
@@ -256,7 +245,7 @@ export default function FranchiseHub({ franchise }: FranchiseHubProps) {
                 >
                   {/* Section header */}
                   <div className="flex items-center gap-3 mb-6">
-                    {isCrimson || isFable ? (
+                    {isFable ? (
                       <div
                         className="h-[2px] w-8"
                         style={{ background: `linear-gradient(90deg, ${secondaryColor}, transparent)` }}
@@ -265,9 +254,7 @@ export default function FranchiseHub({ franchise }: FranchiseHubProps) {
                       <div
                         className="w-1 h-6 rounded-full"
                         style={{
-                          background: isGta || isWolverine
-                            ? `linear-gradient(180deg, ${accentColor}, ${secondaryColor})`
-                            : accentColor,
+                          background: `linear-gradient(180deg, ${accentColor}, ${secondaryColor})`,
                         }}
                       />
                     )}
@@ -276,8 +263,8 @@ export default function FranchiseHub({ franchise }: FranchiseHubProps) {
                       style={{
                         fontFamily: franchise.theme.fontDisplay,
                         color: 'var(--color-text)',
-                        letterSpacing: isImmersive ? '0.06em' : undefined,
-                        textTransform: isImmersive ? 'uppercase' : undefined,
+                        letterSpacing: '0.06em',
+                        textTransform: 'uppercase',
                       }}
                     >
                       {cat.label[locale] || cat.label.fr}
@@ -306,7 +293,7 @@ export default function FranchiseHub({ franchise }: FranchiseHubProps) {
                             style={{
                               fontFamily: franchise.theme.fontDisplay,
                               color: 'var(--color-text)',
-                              letterSpacing: isImmersive ? '0.03em' : undefined,
+                              letterSpacing: '0.03em',
                             }}
                           >
                             <span className="group-hover:text-[var(--color-accent)] transition-colors">
@@ -332,7 +319,7 @@ export default function FranchiseHub({ franchise }: FranchiseHubProps) {
                             </span>
                             <ArrowRight
                               className="w-3.5 h-3.5 opacity-0 group-hover:opacity-100 transition-opacity"
-                              style={{ color: isGta ? secondaryColor : accentColor }}
+                              style={{ color: accentColor }}
                             />
                           </div>
                         </Link>
@@ -357,9 +344,7 @@ export default function FranchiseHub({ franchise }: FranchiseHubProps) {
                 <div
                   className="h-1"
                   style={{
-                    background: isGta || isCrimson
-                      ? `linear-gradient(90deg, ${accentColor}, ${secondaryColor})`
-                      : accentColor,
+                    background: `linear-gradient(90deg, ${accentColor}, ${secondaryColor})`,
                   }}
                 />
                 <div className="p-5">
@@ -368,19 +353,18 @@ export default function FranchiseHub({ franchise }: FranchiseHubProps) {
                     style={{
                       fontFamily: franchise.theme.fontDisplay,
                       color: 'var(--color-text)',
-                      letterSpacing: isImmersive ? '0.08em' : undefined,
-                      textTransform: isImmersive ? 'uppercase' : undefined,
+                      letterSpacing: '0.08em',
+                      textTransform: 'uppercase',
                     }}
                   >
                     {t('totalArticles')}
                   </h3>
                   <div
                     className={`text-4xl font-bold ${
-                      isGta ? 'neon-title' : isCrimson ? 'text-gradient-gold'
-                      : isFable ? 'text-glow-gold' : isWolverine ? 'text-claw' : ''
+                      isFable ? 'text-glow-gold' : isWolverine ? 'text-claw' : ''
                     }`}
                     style={{
-                      color: isGta ? accentColor : isCrimson || isFable ? undefined : accentColor,
+                      color: isFable ? undefined : accentColor,
                       fontFamily: franchise.theme.fontDisplay,
                     }}
                   >
@@ -405,9 +389,7 @@ export default function FranchiseHub({ franchise }: FranchiseHubProps) {
                         transition={{ duration: 1, delay: 0.5, ease: 'easeOut' }}
                         className="h-full rounded-full"
                         style={{
-                          background: isImmersive
-                            ? `linear-gradient(90deg, ${accentColor}, ${secondaryColor})`
-                            : accentColor,
+                          background: `linear-gradient(90deg, ${accentColor}, ${secondaryColor})`,
                         }}
                       />
                     </div>
