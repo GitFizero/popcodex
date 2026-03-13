@@ -237,7 +237,7 @@ export const franchises: Record<FranchiseId, FranchiseConfig> = {
       bgGradient: 'linear-gradient(180deg, hsl(0 0% 3%) 0%, hsl(0 0% 5%) 30%, hsl(40 5% 7%) 100%)',
       heroPattern: 'radial-gradient(ellipse at 70% 40%, hsl(45 100% 50% / 0.04) 0%, transparent 55%), radial-gradient(ellipse at 20% 80%, hsl(0 70% 40% / 0.03) 0%, transparent 50%)',
     },
-    releaseDate: '2026-09-15',
+    releaseDate: '2026-09-14',
     developer: 'Insomniac Games',
     publisher: 'Sony Interactive Entertainment',
     platforms: ['PS5'],

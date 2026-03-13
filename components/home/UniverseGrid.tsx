@@ -12,8 +12,8 @@ import { getArticlesByFranchise } from '@/lib/articles';
 const universeImages: Record<string, string> = {
   'gta-vi': '/images/gta-vi/jason-lucia-hero-landscape.jpg',
   'crimson-desert': '/images/crimson-desert/pywel-panorama.jpg',
-  fable: '/images/crimson-desert/forest-bridge.jpg', // placeholder — enchanted forest vibe
-  wolverine: '/images/gta-vi/jason-lucia-motel-landscape.jpg', // placeholder — dark noir vibe
+  fable: '/images/fable/hero-desktop.jpg',
+  wolverine: '/images/wolverine/hero-landscape.jpg',
 };
 
 function UniverseCard({
