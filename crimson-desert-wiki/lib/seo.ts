@@ -1,0 +1,326 @@
+import type { Lang } from '@/crimson-desert-wiki/context/I18nContext';
+
+/** Helper to pick localized SEO text */
+export type LangMap = Partial<Record<Lang, string>> & { fr: string; en: string };
+
+export const seo = {
+  index: {
+    title: {
+      fr: 'Crimson Desert Wiki | Date de Sortie 19 Mars 2026 PS5 PC Steam | Gameplay',
+      en: 'Crimson Desert Wiki | Release Date March 19 2026 | PS5 PC Steam Gameplay',
+      es: 'Crimson Desert Wiki | Fecha Lanzamiento 19 Marzo 2026 PS5 PC Steam',
+      it: 'Crimson Desert Wiki | Data Uscita 19 Marzo 2026 PS5 PC Steam | Gameplay',
+    } as LangMap,
+    desc: {
+      fr: 'Wiki fan Crimson Desert : date de sortie 19 mars 2026 sur PS5, Xbox Series X|S, PC Steam. 3 personnages jouables, 6 armes, monde ouvert de Pywel, combat et 5 chapitres. Pearl Abyss.',
+      en: 'Crimson Desert fan wiki: release date March 19, 2026 on PS5, Xbox Series X|S & PC Steam. 3 playable characters, 6 weapons, open world Pywel, combat system & 5-chapter story. Pearl Abyss.',
+      es: 'Wiki fan Crimson Desert: fecha 19 marzo 2026 en PS5, Xbox Series X|S, PC Steam. 3 personajes jugables, 6 armas, mundo abierto de Pywel, combate y 5 capítulos. Pearl Abyss.',
+      it: 'Wiki fan Crimson Desert: uscita 19 marzo 2026 su PS5, Xbox Series X|S, PC Steam. 3 personaggi giocabili, 6 armi, mondo aperto di Pywel, combattimento e 5 capitoli. Pearl Abyss.',
+    } as LangMap,
+  },
+  characters: {
+    title: {
+      fr: 'Personnages Crimson Desert | Kliff Macduff, Damiane, Oongka | Guide Complet',
+      en: 'Crimson Desert Characters | Kliff Macduff, Damiane, Oongka | Full Guide',
+      es: 'Personajes Crimson Desert | Kliff Macduff, Damiane, Oongka | Guía Completa',
+      it: 'Personaggi Crimson Desert | Kliff Macduff, Damiane, Oongka | Guida Completa',
+    } as LangMap,
+    desc: {
+      fr: 'Les 3 personnages jouables de Crimson Desert : Kliff Macduff (protagoniste, épée), Damiane (lames, vent), Oongka (force brute). Biographies, compétences, armes et PNJ. Sortie 19 mars 2026.',
+      en: 'All 3 playable Crimson Desert characters: Kliff Macduff (protagonist, sword), Damiane (blades, wind), Oongka (strength). Bios, skills, weapons & NPCs. Releasing March 19, 2026.',
+      es: 'Los 3 personajes jugables de Crimson Desert: Kliff Macduff (protagonista), Damiane (hojas, viento), Oongka (fuerza). Biografías, habilidades, armas y PNJ. 19 marzo 2026.',
+      it: 'I 3 personaggi giocabili di Crimson Desert: Kliff Macduff (protagonista), Damiane (lame, vento), Oongka (forza). Biografie, abilità, armi e NPC. 19 marzo 2026.',
+    } as LangMap,
+  },
+  story: {
+    title: {
+      fr: 'Histoire Crimson Desert | 5 Chapitres, Scénario & Lore Complet',
+      en: 'Crimson Desert Story | 5 Chapters, Plot & Complete Lore Guide',
+      es: 'Historia Crimson Desert | 5 Capítulos, Trama y Lore Completo',
+      it: 'Storia Crimson Desert | 5 Capitoli, Trama e Lore Completo',
+    } as LangMap,
+    desc: {
+      fr: "L'histoire de Crimson Desert en 5 chapitres : Nuit des Ours Noirs, continent de Pywel, Abysse. Kliff Macduff et les Crinières Grises. Durée 50-80h. Sortie PS5 PC 19 mars 2026.",
+      en: 'Crimson Desert story across 5 chapters: Night of the Black Bears, continent of Pywel, the Abysse. Kliff Macduff and the Greymanes. 50-80h gameplay. Release March 19, 2026.',
+      es: 'La historia de Crimson Desert en 5 capítulos: Noche de los Osos Negros, continente de Pywel, Abismo. Kliff Macduff y los Greymanes. 50-80h. 19 marzo 2026.',
+      it: 'La storia di Crimson Desert in 5 capitoli: Notte degli Orsi Neri, continente di Pywel, Abisso. Kliff Macduff e i Greymanes. 50-80h. 19 marzo 2026.',
+    } as LangMap,
+  },
+  world: {
+    title: {
+      fr: 'Carte Monde Ouvert Crimson Desert | 5 Régions de Pywel | Exploration',
+      en: 'Crimson Desert Open World Map | 5 Regions of Pywel | Exploration Guide',
+      es: 'Mapa Mundo Abierto Crimson Desert | 5 Regiones de Pywel | Exploración',
+      it: 'Mappa Mondo Aperto Crimson Desert | 5 Regioni di Pywel | Esplorazione',
+    } as LangMap,
+    desc: {
+      fr: "Carte du monde ouvert de Crimson Desert : Pywel et ses 5 régions (Hernand, Pailune, Déméniss, Délésyie, Désert Pourpre). Plus grand que Skyrim et RDR2. Sortie PS5 PC 19 mars 2026.",
+      en: "Crimson Desert open world map: Pywel and its 5 regions (Hernand, Pailune, Demeniss, Delesyie, Crimson Desert). Larger than Skyrim & RDR2. Release March 19, 2026.",
+      es: 'Mapa del mundo abierto de Crimson Desert: Pywel y sus 5 regiones. Más grande que Skyrim y RDR2. Lanzamiento 19 marzo 2026.',
+      it: 'Mappa del mondo aperto di Crimson Desert: Pywel e le sue 5 regioni. Più grande di Skyrim e RDR2. Uscita 19 marzo 2026.',
+    } as LangMap,
+  },
+  combat: {
+    title: {
+      fr: 'Combat Crimson Desert | 6 Armes, Magie, Boss & Skill Tree | Guide',
+      en: 'Crimson Desert Combat | 6 Weapons, Magic, Bosses & Skill Tree | Guide',
+      es: 'Combate Crimson Desert | 6 Armas, Magia, Jefes y Habilidades | Guía',
+      it: 'Combattimento Crimson Desert | 6 Armi, Magia, Boss e Abilità | Guida',
+    } as LangMap,
+    desc: {
+      fr: 'Système de combat Crimson Desert : 6 armes (épée, lance, arc, poings, robot, dragon), 3 magies élémentaires, skill tree et 4 boss épiques. Guide complet. Sortie 19 mars 2026.',
+      en: 'Crimson Desert combat system: 6 weapons (sword, spear, bow, fists, robot, dragon), 3 elemental magics, skill tree & 4 epic bosses. Full guide. Release March 19, 2026.',
+      es: 'Sistema de combate Crimson Desert: 6 armas, 3 magias elementales, árbol de habilidades y 4 jefes épicos. Guía completa. 19 marzo 2026.',
+      it: 'Sistema di combattimento Crimson Desert: 6 armi, 3 magie elementali, albero abilità e 4 boss epici. Guida completa. 19 marzo 2026.',
+    } as LangMap,
+  },
+  lore: {
+    title: {
+      fr: 'Encyclopédie Lore Crimson Desert | Factions, Abysse & Pywel',
+      en: 'Crimson Desert Lore Encyclopedia | Factions, Abysse & Pywel',
+      es: 'Enciclopedia Lore Crimson Desert | Facciones, Abismo y Pywel',
+      it: 'Enciclopedia Lore Crimson Desert | Fazioni, Abisso e Pywel',
+    } as LangMap,
+    desc: {
+      fr: "Encyclopédie du lore Crimson Desert : Greymanes, Ours Noirs, Abysse, continent de Pywel. Toutes les entrées cross-référencées. Sortie PS5 PC 19 mars 2026. Pearl Abyss.",
+      en: 'Crimson Desert lore encyclopedia: Greymanes, Black Bears, Abysse, Pywel continent. All cross-referenced entries. Release March 19, 2026. Pearl Abyss.',
+      es: 'Enciclopedia lore Crimson Desert: Greymanes, Osos Negros, Abismo, Pywel. Todas las entradas cruzadas. 19 marzo 2026. Pearl Abyss.',
+      it: 'Enciclopedia lore Crimson Desert: Greymanes, Orsi Neri, Abisso, Pywel. Tutte le voci con riferimenti incrociati. 19 marzo 2026.',
+    } as LangMap,
+  },
+  glossary: {
+    title: {
+      fr: 'Glossaire Crimson Desert | Tous les Termes du Jeu Expliqués',
+      en: 'Crimson Desert Glossary | All Game Terms Explained',
+      es: 'Glosario Crimson Desert | Todos los Términos del Juego Explicados',
+      it: 'Glossario Crimson Desert | Tutti i Termini del Gioco Spiegati',
+    } as LangMap,
+    desc: {
+      fr: 'Glossaire complet Crimson Desert : personnages, lieux, factions, mécaniques, créatures et objets. Dictionnaire du jeu Pearl Abyss. Sortie 19 mars 2026.',
+      en: 'Complete Crimson Desert glossary: characters, locations, factions, mechanics, creatures and items. Pearl Abyss game dictionary. Release March 19, 2026.',
+      es: 'Glosario completo Crimson Desert: personajes, lugares, facciones, mecánicas, criaturas y objetos. Diccionario Pearl Abyss. 19 marzo 2026.',
+      it: 'Glossario completo Crimson Desert: personaggi, luoghi, fazioni, meccaniche, creature e oggetti. Dizionario Pearl Abyss. 19 marzo 2026.',
+    } as LangMap,
+  },
+  guides: {
+    title: {
+      fr: 'Guides Crimson Desert | Armes, Boss, Débutant & Exploration',
+      en: 'Crimson Desert Guides | Weapons, Bosses, Beginner & Exploration',
+      es: 'Guías Crimson Desert | Armas, Jefes, Principiante y Exploración',
+      it: 'Guide Crimson Desert | Armi, Boss, Principiante ed Esplorazione',
+    } as LangMap,
+    desc: {
+      fr: 'Tous les guides Crimson Desert : armes et styles de combat, boss, astuces débutant, carte du monde et personnages. Stratégies complètes. Sortie 19 mars 2026.',
+      en: 'All Crimson Desert guides: weapons & combat styles, bosses, beginner tips, world map & characters. Complete strategies. Release March 19, 2026.',
+      es: 'Todas las guías Crimson Desert: armas, jefes, consejos principiante, mapa y personajes. Estrategias completas. 19 marzo 2026.',
+      it: 'Tutte le guide Crimson Desert: armi, boss, consigli principiante, mappa e personaggi. Strategie complete. 19 marzo 2026.',
+    } as LangMap,
+  },
+  gallery: {
+    title: {
+      fr: 'Galerie Crimson Desert | Screenshots Gameplay PS5 PC | Images',
+      en: 'Crimson Desert Gallery | Gameplay Screenshots PS5 PC | Images',
+      es: 'Galería Crimson Desert | Capturas Gameplay PS5 PC | Imágenes',
+      it: 'Galleria Crimson Desert | Screenshot Gameplay PS5 PC | Immagini',
+    } as LangMap,
+    desc: {
+      fr: 'Galerie de screenshots et images gameplay Crimson Desert sur PS5 et PC Steam. Paysages de Pywel, personnages, combat et boss. BlackSpace Engine. Sortie 19 mars 2026.',
+      en: 'Crimson Desert screenshot gallery and gameplay images on PS5 and PC. Pywel landscapes, characters, combat & bosses. BlackSpace Engine. Release March 19, 2026.',
+      es: 'Galería de capturas e imágenes gameplay Crimson Desert en PS5 y PC. Paisajes de Pywel, personajes, combate y jefes. 19 marzo 2026.',
+      it: 'Galleria screenshot e immagini gameplay Crimson Desert su PS5 e PC. Paesaggi di Pywel, personaggi, combattimento e boss. 19 marzo 2026.',
+    } as LangMap,
+  },
+  about: {
+    title: {
+      fr: 'À Propos — Crimson Desert Wiki Fan Non-Officiel',
+      en: 'About — Crimson Desert Unofficial Fan Wiki',
+      es: 'Acerca de — Crimson Desert Wiki Fan No Oficial',
+      it: 'Info — Crimson Desert Wiki Fan Non Ufficiale',
+    } as LangMap,
+    desc: {
+      fr: "Site fan non-officiel de Crimson Desert par Pearl Abyss. Ce site n'est pas affilié à Pearl Abyss.",
+      en: 'Unofficial Crimson Desert fan site by Pearl Abyss. Not affiliated with Pearl Abyss.',
+      es: 'Sitio fan no oficial de Crimson Desert por Pearl Abyss. No está afiliado a Pearl Abyss.',
+      it: 'Sito fan non ufficiale di Crimson Desert di Pearl Abyss. Non affiliato a Pearl Abyss.',
+    } as LangMap,
+  },
+  blog: {
+    title: {
+      fr: 'Blog Crimson Desert | Guides, Lore & Actualités | Wiki Fan',
+      en: 'Crimson Desert Blog | Guides, Lore & News | Fan Wiki',
+      es: 'Blog Crimson Desert | Guías, Lore y Noticias | Wiki Fan',
+      it: 'Blog Crimson Desert | Guide, Lore e Notizie | Wiki Fan',
+    } as LangMap,
+    desc: {
+      fr: 'Articles, guides et analyses Crimson Desert. Armes, boss, personnages, factions, easter eggs et cheat codes. Sortie 19 mars 2026 PS5 PC Steam. Pearl Abyss.',
+      en: 'Crimson Desert articles, guides & analysis. Weapons, bosses, characters, factions, easter eggs & cheat codes. Release March 19, 2026 PS5 PC Steam. Pearl Abyss.',
+      es: 'Artículos, guías y análisis Crimson Desert. Armas, jefes, personajes, facciones. 19 marzo 2026 PS5 PC Steam. Pearl Abyss.',
+      it: 'Articoli, guide e analisi Crimson Desert. Armi, boss, personaggi, fazioni. 19 marzo 2026 PS5 PC Steam. Pearl Abyss.',
+    } as LangMap,
+  },
+  buy: {
+    title: {
+      fr: 'Acheter Crimson Desert | Meilleur Prix PC PS5 Xbox | Édition Deluxe Steam',
+      en: 'Buy Crimson Desert | Best Price PC PS5 Xbox | Deluxe Edition Steam',
+      es: 'Comprar Crimson Desert | Mejor Precio PC PS5 Xbox | Edición Deluxe Steam',
+      it: 'Acquista Crimson Desert | Miglior Prezzo PC PS5 Xbox | Edizione Deluxe Steam',
+    } as LangMap,
+    desc: {
+      fr: 'Achetez Crimson Desert au meilleur prix : Deluxe Edition PC Steam, Xbox Series X|S. Comparez les prix. Sortie le 19 mars 2026. Pearl Abyss.',
+      en: 'Buy Crimson Desert at the best price: Deluxe Edition on PC Steam, Xbox Series X|S. Compare prices. Releasing March 19, 2026. Pearl Abyss.',
+      es: 'Compra Crimson Desert al mejor precio: Edición Deluxe PC Steam, Xbox Series X|S. Compara precios. 19 marzo 2026. Pearl Abyss.',
+      it: 'Acquista Crimson Desert al miglior prezzo: Edizione Deluxe PC Steam, Xbox Series X|S. Confronta prezzi. 19 marzo 2026. Pearl Abyss.',
+    } as LangMap,
+  },
+  privacy: {
+    title: {
+      fr: 'Politique de Confidentialité | Crimson Desert Wiki Fan',
+      en: 'Privacy Policy | Crimson Desert Fan Wiki',
+      es: 'Política de Privacidad | Crimson Desert Wiki Fan',
+      it: 'Informativa sulla Privacy | Crimson Desert Wiki Fan',
+    } as LangMap,
+    desc: {
+      fr: 'Politique de confidentialité du Wiki Fan Crimson Desert. Informations sur les cookies, Google AdSense et vos droits.',
+      en: 'Crimson Desert Fan Wiki privacy policy. Information about cookies, Google AdSense and your rights.',
+      es: 'Política de privacidad del Wiki Fan Crimson Desert. Información sobre cookies, Google AdSense y sus derechos.',
+      it: 'Informativa sulla privacy del Wiki Fan Crimson Desert. Informazioni su cookie, Google AdSense e i tuoi diritti.',
+    } as LangMap,
+  },
+  items: {
+    title: {
+      fr: 'Base de Données Objets Crimson Desert | Armes, Armures & Équipement',
+      en: 'Crimson Desert Item Database | Weapons, Armor & Equipment',
+      es: 'Base de Datos de Objetos Crimson Desert | Armas, Armaduras y Equipo',
+      it: 'Database Oggetti Crimson Desert | Armi, Armature e Equipaggiamento',
+    } as LangMap,
+    desc: {
+      fr: 'Base de données complète des objets de Crimson Desert : armes, armures, consommables et lieux d\'acquisition. Wiki fan.',
+      en: 'Complete Crimson Desert item database: weapons, armor, consumables and acquisition locations. Fan wiki.',
+      es: 'Base de datos completa de objetos Crimson Desert: armas, armaduras, consumibles y ubicaciones. Wiki fan.',
+      it: 'Database completo oggetti Crimson Desert: armi, armature, consumabili e località. Wiki fan.',
+    } as LangMap,
+  },
+  mounts: {
+    title: {
+      fr: 'Montures Crimson Desert | 29 Montures & Système d\'Apprivoisement',
+      en: 'Crimson Desert Mounts | 29 Mounts & Taming System',
+      es: 'Monturas Crimson Desert | 29 Monturas y Sistema de Domar',
+      it: 'Cavalcature Crimson Desert | 29 Cavalcature e Sistema di Addomesticamento',
+    } as LangMap,
+    desc: {
+      fr: 'Guide complet des 29 montures de Crimson Desert : système de stamina, apprivoisement et lieux d\'acquisition. Wiki fan.',
+      en: 'Complete guide to all 29 Crimson Desert mounts: stamina system, taming and acquisition locations. Fan wiki.',
+      es: 'Guía completa de las 29 monturas de Crimson Desert: sistema de stamina, domesticación y ubicaciones. Wiki fan.',
+      it: 'Guida completa alle 29 cavalcature di Crimson Desert: sistema stamina, addomesticamento e località. Wiki fan.',
+    } as LangMap,
+  },
+  quests: {
+    title: {
+      fr: 'Quêtes Crimson Desert | Chaînes de Quêtes, Prérequis & Récompenses',
+      en: 'Crimson Desert Quests | Quest Chains, Prerequisites & Rewards',
+      es: 'Misiones Crimson Desert | Cadenas de Misiones, Requisitos y Recompensas',
+      it: 'Missioni Crimson Desert | Catene di Missioni, Prerequisiti e Ricompense',
+    } as LangMap,
+    desc: {
+      fr: 'Toutes les quêtes de Crimson Desert : principales, secondaires et de faction. Prérequis, récompenses et quêtes liées. Wiki fan.',
+      en: 'All Crimson Desert quests: main, side and faction. Prerequisites, rewards and linked quests. Fan wiki.',
+      es: 'Todas las misiones de Crimson Desert: principales, secundarias y de facción. Requisitos, recompensas y misiones enlazadas. Wiki fan.',
+      it: 'Tutte le missioni di Crimson Desert: principali, secondarie e di fazione. Prerequisiti, ricompense e missioni collegate. Wiki fan.',
+    } as LangMap,
+  },
+  weapons: {
+    title: {
+      fr: 'Armes Crimson Desert | 8 Types d\'Armes, Épée, Arc, Hache, Mousquet | Guide 2026',
+      en: 'Crimson Desert Weapons | All 8 Weapon Types, Sword, Bow, Axe, Musket | Guide 2026',
+      es: 'Armas Crimson Desert | 8 Tipos de Armas, Espada, Arco, Hacha, Mosquete | Guía 2026',
+      it: 'Armi Crimson Desert | 8 Tipi di Armi, Spada, Arco, Ascia, Moschetto | Guida 2026',
+      ko: '크림슨 디저트 무기 | 8가지 무기 유형, 검, 활, 도끼, 머스킷 | 가이드 2026',
+    } as LangMap,
+    desc: {
+      fr: 'Guide complet des 8 armes de Crimson Desert : épée & bouclier, lance, grande épée, hache, doubles lames, arc, mousquet et mains nues. Changement d\'arme en combat. Pearl Abyss 2026.',
+      en: 'Complete guide to all 8 Crimson Desert weapons: sword & shield, spear, greatsword, axe, dual blades, bow, musket & unarmed. Mid-combat weapon switching. Pearl Abyss 2026.',
+      es: 'Guía completa de las 8 armas de Crimson Desert: espada y escudo, lanza, espadón, hacha, dobles espadas, arco, mosquete y puños. Cambio de arma en combate. Pearl Abyss 2026.',
+      it: 'Guida completa alle 8 armi di Crimson Desert: spada e scudo, lancia, spadone, ascia, doppie lame, arco, moschetto e mani nude. Cambio arma in combattimento. Pearl Abyss 2026.',
+      ko: '크림슨 디저트 8가지 무기 완벽 가이드: 검과 방패, 창, 대검, 도끼, 쌍검, 활, 머스킷, 맨손 전투. 전투 중 무기 전환. 펄어비스 2026.',
+    } as LangMap,
+  },
+  breadcrumb: {
+    home: { fr: 'Accueil', en: 'Home', es: 'Inicio', it: 'Home' } as LangMap,
+    characters: { fr: 'Personnages', en: 'Characters', es: 'Personajes', it: 'Personaggi' } as LangMap,
+    story: { fr: 'Histoire', en: 'Story', es: 'Historia', it: 'Storia' } as LangMap,
+    world: { fr: 'Monde', en: 'World', es: 'Mundo', it: 'Mondo' } as LangMap,
+    combat: { fr: 'Combat', en: 'Combat', es: 'Combate', it: 'Combattimento' } as LangMap,
+    lore: { fr: 'Lore', en: 'Lore', es: 'Saber', it: 'Sapere' } as LangMap,
+    glossary: { fr: 'Glossaire', en: 'Glossary', es: 'Glosario', it: 'Glossario' } as LangMap,
+    guides: { fr: 'Guides', en: 'Guides', es: 'Guías', it: 'Guide' } as LangMap,
+    gallery: { fr: 'Galerie', en: 'Gallery', es: 'Galería', it: 'Galleria' } as LangMap,
+    about: { fr: 'À Propos', en: 'About', es: 'Acerca de', it: 'Info' } as LangMap,
+    blog: { fr: 'Blog', en: 'Blog', es: 'Blog', it: 'Blog' } as LangMap,
+    buy: { fr: 'Acheter', en: 'Buy', es: 'Comprar', it: 'Acquista' } as LangMap,
+    privacy: { fr: 'Politique de confidentialité', en: 'Privacy Policy', es: 'Política de privacidad', it: 'Informativa sulla privacy' } as LangMap,
+    items: { fr: 'Objets', en: 'Items', es: 'Objetos', it: 'Oggetti' } as LangMap,
+    mounts: { fr: 'Montures', en: 'Mounts', es: 'Monturas', it: 'Cavalcature' } as LangMap,
+    quests: { fr: 'Quêtes', en: 'Quests', es: 'Misiones', it: 'Missioni' } as LangMap,
+    weapons: { fr: 'Armes', en: 'Weapons', es: 'Armas', it: 'Armi' } as LangMap,
+  },
+
+  /** FAQ items for Index page per language — optimized for AI/LLM search */
+  faq: {
+    fr: [
+      { question: 'Quelle est la date de sortie de Crimson Desert ?', answer: 'La date de sortie de Crimson Desert est le 19 mars 2026 sur PlayStation 5, Xbox Series X|S et PC (Steam).' },
+      { question: 'Crimson Desert sort-il sur PS5 ?', answer: 'Oui, Crimson Desert sort sur PS5 le 19 mars 2026, en même temps que les versions Xbox Series X|S et PC Steam.' },
+      { question: 'Crimson Desert est-il disponible sur Steam ?', answer: 'Oui, Crimson Desert sera disponible sur Steam dès sa sortie le 19 mars 2026. La page Steam est déjà active.' },
+      { question: 'Crimson Desert a-t-il un mode coop ou multijoueur ?', answer: 'Crimson Desert est principalement un jeu solo avec une campagne narrative. Des éléments coop optionnels sont prévus par Pearl Abyss.' },
+      { question: 'Quel est le gameplay de Crimson Desert ?', answer: 'Le gameplay combine action-aventure en monde ouvert, combat dynamique avec 6 types d\'armes (épée, lance, arc, poings, robot de guerre, dragon), magie élémentaire (feu, glace, vent) et une histoire en 5 chapitres.' },
+      { question: 'Qui est Kliff Macduff ?', answer: 'Kliff Macduff est le protagoniste principal de Crimson Desert. Fils de Martinus, il dirige les Crinières Grises (Greymanes), un groupe de mercenaires dispersé après la Nuit des Ours Noirs.' },
+      { question: 'Combien y a-t-il de personnages jouables ?', answer: 'Il y a 3 personnages jouables : Kliff Macduff (protagoniste, épée longue), Damiane (lames doubles, vent) et Oongka (force brute, terre).' },
+      { question: 'Crimson Desert est-il une suite de Black Desert Online ?', answer: 'Non. Crimson Desert est un jeu solo indépendant de Pearl Abyss. Il se déroule dans le même univers mais est une expérience narrative distincte. Aucun compte BDO nécessaire.' },
+      { question: 'Quelle est la durée de vie de Crimson Desert ?', answer: 'Pearl Abyss estime la durée de vie principale à 50-80 heures. La carte de Pywel est décrite comme plus grande que Skyrim et Red Dead Redemption 2.' },
+      { question: 'Quel moteur graphique utilise Crimson Desert ?', answer: 'Crimson Desert utilise le BlackSpace Engine, moteur propriétaire de Pearl Abyss. Il supporte le ray tracing sans perte notable de performances et rivalise avec l\'Unreal Engine 5.' },
+      { question: 'Quelles sont les armes dans Crimson Desert ?', answer: 'Il y a 6 types d\'armes : épée longue, lance, arc, mains nues (poings), robot de guerre (combinaison mécanisée) et dragon (combat aérien).' },
+      { question: 'Y a-t-il des boss dans Crimson Desert ?', answer: 'Oui, les boss majeurs incluent le Staglord (Déméniss), la Queen Stoneback Crab (Pailune), le Reed Devil (marais) et le White Horn (montagnes).' },
+      { question: 'Où se déroule Crimson Desert ?', answer: 'Le jeu se déroule sur le continent de Pywel, divisé en 5 régions : Hernand (ville centrale), Pailune (côtes et ruines), Déméniss (montagnes), Délésyie (forêts et château) et le Désert Pourpre.' },
+      { question: 'Peut-on acheter Crimson Desert en édition Deluxe ?', answer: 'Oui, l\'Édition Deluxe est disponible sur Steam (PC/Mac) et Microsoft Store (Xbox Series X|S). Elle inclut des cosmétiques premium et du contenu bonus.' },
+    ],
+    en: [
+      { question: 'When does Crimson Desert come out?', answer: 'Crimson Desert releases on March 19, 2026 on PlayStation 5, Xbox Series X|S, and PC (Steam).' },
+      { question: 'What platforms is Crimson Desert on?', answer: 'Crimson Desert launches on PS5, Xbox Series X|S, and PC via Steam and Microsoft Store. No Switch version announced.' },
+      { question: 'Is Crimson Desert on PS5?', answer: 'Yes, Crimson Desert launches day one on PS5 on March 19, 2026.' },
+      { question: 'Is Crimson Desert on Steam?', answer: 'Yes, Crimson Desert will be available on Steam from its release date, March 19, 2026. The Steam page is already live.' },
+      { question: 'Does Crimson Desert have multiplayer or co-op?', answer: 'Crimson Desert is primarily single-player with a narrative campaign. Optional multiplayer and co-op elements are planned by Pearl Abyss.' },
+      { question: 'What is Crimson Desert gameplay like?', answer: 'Open-world action-adventure with 6 weapon types (longsword, spear, bow, fists, war robot, dragon), 3 elemental magics (fire, ice, wind), skill tree, and a 5-chapter narrative.' },
+      { question: 'Who is Kliff Macduff?', answer: 'Kliff Macduff is the main protagonist. Son of Martinus, he leads the Greymanes mercenary band, scattered after the Night of the Black Bears.' },
+      { question: 'How many playable characters are there?', answer: 'Three: Kliff Macduff (protagonist, longsword), Damiane (dual blades, wind magic), and Oongka (heavy fighter, earth).' },
+      { question: 'Is Crimson Desert a sequel to Black Desert Online?', answer: 'No. It\'s a standalone single-player game set in the same universe. No BDO account or knowledge required.' },
+      { question: 'How long is Crimson Desert?', answer: 'Pearl Abyss estimates 50-80 hours of main content. The Pywel map is described as larger than Skyrim and Red Dead Redemption 2.' },
+      { question: 'What engine does Crimson Desert use?', answer: 'The BlackSpace Engine, Pearl Abyss\'s proprietary engine with ray tracing support, rivaling Unreal Engine 5.' },
+      { question: 'What weapons are in Crimson Desert?', answer: '6 weapon types: longsword, spear, bow, bare fists, war robot suit, and dragon mount for aerial combat.' },
+      { question: 'Are there boss fights?', answer: 'Yes, major bosses include Staglord (Demeniss), Queen Stoneback Crab (Pailune), Reed Devil (marshlands), and White Horn (mountains).' },
+      { question: 'Where is Crimson Desert set?', answer: 'The continent of Pywel, divided into 5 regions: Hernand, Pailune, Demeniss, Delesyie, and the Crimson Desert.' },
+    ],
+    es: [
+      { question: '¿Cuál es la fecha de lanzamiento de Crimson Desert?', answer: 'Crimson Desert se lanza el 19 de marzo de 2026 en PlayStation 5, Xbox Series X|S y PC (Steam).' },
+      { question: '¿En qué plataformas está Crimson Desert?', answer: 'PS5, Xbox Series X|S y PC (Steam y Microsoft Store). No hay versión de Switch anunciada.' },
+      { question: '¿Crimson Desert sale en PS5?', answer: 'Sí, Crimson Desert estará disponible en PS5 desde el 19 de marzo de 2026.' },
+      { question: '¿Crimson Desert está en Steam?', answer: 'Sí, disponible en Steam desde su lanzamiento el 19 de marzo de 2026.' },
+      { question: '¿Crimson Desert tiene modo cooperativo o multijugador?', answer: 'Es principalmente un juego para un jugador. Elementos coop opcionales están planeados por Pearl Abyss.' },
+      { question: '¿Cómo es el gameplay de Crimson Desert?', answer: 'Acción-aventura en mundo abierto con 6 tipos de armas, 3 magias elementales, árbol de habilidades y 5 capítulos narrativos.' },
+      { question: '¿Quién es Kliff Macduff?', answer: 'Protagonista principal. Hijo de Martinus, lidera los Greymanes, dispersados tras la Noche de los Osos Negros.' },
+      { question: '¿Cuántos personajes jugables hay?', answer: 'Tres: Kliff Macduff (espada), Damiane (hojas dobles, viento) y Oongka (fuerza bruta, tierra).' },
+      { question: '¿Crimson Desert es una secuela de Black Desert Online?', answer: 'No. Es un juego independiente en el mismo universo. No se necesita cuenta de BDO.' },
+      { question: '¿Cuánto dura Crimson Desert?', answer: 'Pearl Abyss estima 50-80 horas de contenido principal. El mapa es más grande que Skyrim y RDR2.' },
+    ],
+    it: [
+      { question: "Qual è la data di uscita di Crimson Desert?", answer: 'Crimson Desert esce il 19 marzo 2026 su PlayStation 5, Xbox Series X|S e PC (Steam).' },
+      { question: 'Su quali piattaforme esce Crimson Desert?', answer: 'PS5, Xbox Series X|S e PC (Steam e Microsoft Store). Nessuna versione Switch annunciata.' },
+      { question: 'Crimson Desert esce su PS5?', answer: 'Sì, Crimson Desert sarà disponibile su PS5 dal 19 marzo 2026.' },
+      { question: 'Crimson Desert è su Steam?', answer: 'Sì, disponibile su Steam dalla data di uscita, il 19 marzo 2026.' },
+      { question: 'Crimson Desert ha una modalità cooperativa o multigiocatore?', answer: 'È principalmente un gioco per giocatore singolo. Elementi coop opzionali sono previsti da Pearl Abyss.' },
+      { question: "Com'è il gameplay di Crimson Desert?", answer: 'Azione-avventura in mondo aperto con 6 tipi di armi, 3 magie elementali, albero abilità e 5 capitoli narrativi.' },
+      { question: 'Chi è Kliff Macduff?', answer: "Protagonista principale. Figlio di Martinus, guida i Greymanes, dispersi dopo la Notte degli Orsi Neri." },
+      { question: 'Quanti personaggi giocabili ci sono?', answer: 'Tre: Kliff Macduff (spada), Damiane (lame doppie, vento) e Oongka (forza bruta, terra).' },
+      { question: 'Crimson Desert è un sequel di Black Desert Online?', answer: 'No. È un gioco indipendente nello stesso universo. Non serve un account BDO.' },
+      { question: 'Quanto dura Crimson Desert?', answer: 'Pearl Abyss stima 50-80 ore di contenuto principale. La mappa è più grande di Skyrim e RDR2.' },
+    ],
+  } as Record<Lang, { question: string; answer: string }[]>,
+};
