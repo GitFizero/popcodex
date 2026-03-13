@@ -2,8 +2,8 @@ import type { Lang } from './i18n';
 
 export interface CharacterSEO {
   slug: string;
-  title: Record<Lang, string>;
-  description: Record<Lang, string>;
+  title: Record<string, string>;
+  description: Record<string, string>;
 }
 
 export const characterSEO: Record<string, CharacterSEO> = {

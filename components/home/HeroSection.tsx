@@ -152,8 +152,8 @@ export default function HeroSection() {
           className="mb-8 inline-flex items-center gap-2 px-5 py-2 rounded-full border border-white/10 bg-white/[0.04] backdrop-blur-sm"
         >
           <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-          <span className="text-xs text-white/60 tracking-wide">
-            {allFranchises.length} {locale === 'en' ? 'universes to explore' : locale === 'es' ? 'universos por explorar' : 'univers à explorer'}
+          <span className="text-xs text-white/80 tracking-wide">
+            {allFranchises.length} {locale === 'en' ? 'universes to explore' : locale === 'es' ? 'universos por explorar' : locale === 'pt' ? 'universos para explorar' : locale === 'ko' ? '탐험할 우주' : locale === 'it' ? 'universi da esplorare' : 'univers à explorer'}
           </span>
         </motion.div>
 
@@ -181,7 +181,7 @@ export default function HeroSection() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, ease: 'easeOut', delay: 0.3 }}
-          className="mt-6 text-lg sm:text-xl text-white/50 max-w-xl mx-auto leading-relaxed"
+          className="mt-6 text-lg sm:text-xl text-white/70 max-w-xl mx-auto leading-relaxed"
         >
           {t('subtitle')}
         </motion.p>
@@ -218,7 +218,7 @@ export default function HeroSection() {
                     boxShadow: { duration: 2 + i * 0.5, repeat: Infinity, ease: 'easeInOut' },
                   }}
                 />
-                <span className="text-[10px] text-white/30 group-hover:text-white/60 transition-colors tracking-wider uppercase font-medium whitespace-nowrap">
+                <span className="text-[10px] text-white/50 group-hover:text-white/80 transition-colors tracking-wider uppercase font-medium whitespace-nowrap">
                   {f.name[locale]?.split(' ').pop() || f.name.fr}
                 </span>
               </motion.div>
@@ -239,8 +239,8 @@ export default function HeroSection() {
           transition={{ duration: 2, repeat: Infinity, ease: 'easeInOut' }}
           className="flex flex-col items-center gap-2"
         >
-          <span className="text-[10px] text-white/20 tracking-[0.3em] uppercase">scroll</span>
-          <ChevronDown className="w-4 h-4 text-white/20" />
+          <span className="text-[10px] text-white/40 tracking-[0.3em] uppercase">scroll</span>
+          <ChevronDown className="w-4 h-4 text-white/40" />
         </motion.div>
       </motion.div>
     </section>

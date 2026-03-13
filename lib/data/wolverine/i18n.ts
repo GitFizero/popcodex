@@ -2,7 +2,7 @@
 
 import { useMemo } from 'react';
 
-export type Lang = 'fr' | 'en' | 'es' | 'it' | 'ko';
+export type Lang = 'fr' | 'en' | 'es' | 'pt' | 'it' | 'ko';
 
 export function tr(obj: Record<string, string>, lang: Lang): string {
   return obj[lang] || obj.en || obj.fr || '';
@@ -107,6 +107,24 @@ const translations: Record<Lang, Record<string, string>> = {
     'footer.disclaimer': "Este es un proyecto fan no oficial. Marvel's Wolverine y todos los personajes asociados son marcas registradas de Marvel Entertainment / Sony Interactive Entertainment.",
     'footer.made_with': 'Hecho con pasión por la comunidad PopCodex.',
   },
+  pt: {
+    'nav.home': 'INÍCIO',
+    'nav.story': 'HISTÓRIA',
+    'nav.characters': 'PERSONAGENS',
+    'nav.locations': 'LOCAIS',
+    'nav.powers': 'PODERES',
+    'nav.combat': 'GAMEPLAY',
+    'nav.enemies': 'INIMIGOS',
+    'nav.lore': 'LORE MARVEL',
+    'nav.gallery': 'GALERIA',
+    'nav.blog': 'BLOG',
+    'nav.about': 'SOBRE',
+    'nav.search': 'Pesquisar',
+    'nav.database': 'BASE DE DADOS',
+    'footer.desc': "Wiki fan não oficial dedicado a Marvel's Wolverine da Insomniac Games.",
+    'footer.disclaimer': "Este é um projeto fan não oficial. Marvel's Wolverine e todos os personagens associados são marcas registadas da Marvel Entertainment / Sony Interactive Entertainment.",
+    'footer.made_with': 'Feito com paixão pela comunidade PopCodex.',
+  },
   it: {
     'nav.home': 'HOME',
     'nav.story': 'STORIA',
@@ -146,7 +164,7 @@ const translations: Record<Lang, Record<string, string>> = {
 };
 
 export function useWolverineI18n(locale: string) {
-  const lang = (['fr', 'en', 'es', 'it', 'ko'].includes(locale) ? locale : 'en') as Lang;
+  const lang = (['fr', 'en', 'es', 'pt', 'it', 'ko'].includes(locale) ? locale : 'en') as Lang;
   const t = useMemo(() => {
     const dict = translations[lang] || translations.en;
     const fallback = translations.en;

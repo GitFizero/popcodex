@@ -47,14 +47,10 @@ export default function Logo() {
   return (
     <Link
       href={`/${locale}`}
-      className="group flex items-center gap-2 font-display text-xl sm:text-2xl font-bold tracking-tight no-underline"
-      style={{ fontFamily: 'var(--font-display)' }}
+      className="group flex items-center no-underline"
+      aria-label="PopCodex"
     >
-      <LogoMark />
-      <span className="text-[var(--color-text)]">Pop</span>
-      <span className="-ml-1.5 text-[var(--color-accent)] transition-colors duration-300 group-hover:brightness-110">
-        Codex
-      </span>
+      <LogoMark size={32} />
     </Link>
   );
 }

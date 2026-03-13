@@ -6,8 +6,9 @@ import { usePathname } from 'next/navigation';
 import { Search, X, Menu, Globe, ChevronDown } from 'lucide-react';
 import { useCrimsonI18n, type Lang } from '@/lib/data/crimson-desert/i18n';
 
-const LANG_CYCLE: Lang[] = ['fr', 'en', 'es', 'it', 'ko'];
-const LANG_LABELS: Record<Lang, string> = { fr: 'FR', en: 'EN', es: 'ES', it: 'IT', ko: '한국어' };
+const LANG_CYCLE: Lang[] = ['fr', 'en', 'es', 'pt', 'it', 'ko'];
+const LANG_FLAGS: Record<string, string> = { fr: '🇫🇷', en: '🇬🇧', es: '🇪🇸', pt: '🇧🇷', it: '🇮🇹', ko: '🇰🇷' };
+const LANG_LABELS: Record<string, string> = { fr: 'FR', en: 'EN', es: 'ES', pt: 'PT', it: 'IT', ko: '한국어' };
 
 interface CrimsonNavBarProps {
   locale: string;
@@ -49,6 +50,16 @@ const CrimsonNavBar = memo(({ locale, onSearchOpen }: CrimsonNavBarProps) => {
   }, []);
 
   useEffect(() => { setMobileOpen(false); setDbMenuOpen(false); }, [pathname]);
+
+  // Lock body scroll when mobile menu is open
+  useEffect(() => {
+    if (mobileOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = '';
+    }
+    return () => { document.body.style.overflow = ''; };
+  }, [mobileOpen]);
 
   useEffect(() => {
     if (!langMenuOpen) return;
@@ -144,15 +155,16 @@ const CrimsonNavBar = memo(({ locale, onSearchOpen }: CrimsonNavBarProps) => {
             <div className="relative">
               <button
                 onClick={(e) => { e.stopPropagation(); setLangMenuOpen(!langMenuOpen); }}
-                className="flex items-center gap-0.5 px-1.5 py-1 text-text-secondary hover:text-gold-bright transition-colors rounded"
+                className="flex items-center gap-1 px-1.5 py-1 text-text-secondary hover:text-gold-bright transition-colors rounded"
                 aria-label="Change language"
               >
-                <Globe size={13} />
-                <span className="font-ui text-[0.6rem] font-bold">{LANG_LABELS[locale as Lang] || locale.toUpperCase()}</span>
+                <span>{LANG_FLAGS[locale] || '🌐'}</span>
+                <span className="font-ui text-[0.6rem] font-bold">{LANG_LABELS[locale] || locale.toUpperCase()}</span>
+                <ChevronDown size={10} className={`transition-transform duration-200 ${langMenuOpen ? 'rotate-180' : ''}`} />
               </button>
               {langMenuOpen && (
                 <div
-                  className="absolute top-full right-0 mt-1 rounded-md overflow-hidden border border-gold-mid/30 shadow-xl"
+                  className="absolute top-full right-0 mt-1 rounded-md overflow-hidden border border-gold-mid/30 shadow-xl min-w-[150px]"
                   style={{ background: 'rgba(6, 4, 3, 0.95)', backdropFilter: 'blur(20px)' }}
                   onClick={e => e.stopPropagation()}
                 >
@@ -160,11 +172,12 @@ const CrimsonNavBar = memo(({ locale, onSearchOpen }: CrimsonNavBarProps) => {
                     <Link
                       key={l}
                       href={pathname.replace(`/${locale}/`, `/${l}/`)}
-                      className={`block w-full px-4 py-2 text-left font-ui text-[0.7rem] font-bold tracking-wider transition-colors
+                      className={`flex items-center gap-2 w-full px-4 py-2.5 text-left font-ui text-[0.7rem] font-bold tracking-wider transition-colors
                         ${l === locale ? 'text-gold-bright bg-raised/50' : 'text-text-secondary hover:text-gold-bright hover:bg-raised/30'}`}
                       onClick={() => setLangMenuOpen(false)}
                     >
-                      {l === 'fr' ? 'Français' : l === 'en' ? 'English' : l === 'es' ? 'Español' : l === 'it' ? 'Italiano' : '한국어'}
+                      <span>{LANG_FLAGS[l]}</span>
+                      {l === 'fr' ? 'Français' : l === 'en' ? 'English' : l === 'es' ? 'Español' : l === 'pt' ? 'Português' : l === 'it' ? 'Italiano' : '한국어'}
                     </Link>
                   ))}
                 </div>
@@ -194,10 +207,28 @@ const CrimsonNavBar = memo(({ locale, onSearchOpen }: CrimsonNavBarProps) => {
 
       {mobileOpen && (
         <div
-          className="fixed inset-0 z-[999] flex flex-col items-center justify-center gap-4 overflow-y-auto py-20"
+          className="fixed inset-0 z-[9999] flex flex-col items-center justify-center gap-4 overflow-y-auto py-20"
           style={{ background: 'rgba(6,4,3,0.97)', backdropFilter: 'blur(10px)' }}
           onClick={() => setMobileOpen(false)}
         >
+          {/* Language selector in mobile menu */}
+          <div className="flex flex-wrap justify-center gap-2 mb-4" onClick={e => e.stopPropagation()}>
+            {LANG_CYCLE.map(l => (
+              <Link
+                key={l}
+                href={pathname.replace(`/${locale}/`, `/${l}/`)}
+                className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full font-ui text-xs font-bold tracking-wider transition-all
+                  ${l === locale
+                    ? 'border border-gold-mid/50 text-gold-bright bg-gold-dark/30'
+                    : 'border border-smoke-light/30 text-text-secondary hover:text-gold-bright hover:border-gold-mid/40'
+                  }`}
+              >
+                <span>{LANG_FLAGS[l]}</span>
+                <span>{LANG_LABELS[l]}</span>
+              </Link>
+            ))}
+          </div>
+
           <Link href={base} className="font-heading text-[1.8rem] text-gold-bright transition-colors" onClick={e => e.stopPropagation()}>{t('nav.home')}</Link>
           {NAV_LINKS.map((link, i) => (
             <Link

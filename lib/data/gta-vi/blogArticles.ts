@@ -8,20 +8,20 @@ const coverViceCityPostcard = '/images/gta-vi/vice-city-postcard-landscape.jpg';
 
 export interface BlogArticle {
   id: string;
-  slug: Record<Lang, string>;
-  title: Record<Lang, string>;
-  excerpt: Record<Lang, string>;
-  content: Record<Lang, string>;
-  metaTitle: Record<Lang, string>;
-  metaDescription: Record<Lang, string>;
+  slug: Record<string, string>;
+  title: Record<string, string>;
+  excerpt: Record<string, string>;
+  content: Record<string, string>;
+  metaTitle: Record<string, string>;
+  metaDescription: Record<string, string>;
   coverImage: string;
-  coverAlt: Record<Lang, string>;
+  coverAlt: Record<string, string>;
   category: string;
   author: string;
   publishDate: string;
   updatedDate?: string;
   readingTime: number; // minutes
-  tags: Record<Lang, string[]>;
+  tags: Record<string, string[]>;
 }
 
 export const blogArticles: BlogArticle[] = [

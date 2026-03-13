@@ -7,8 +7,8 @@ import { useGtaI18n, type Lang } from '@/lib/data/gta-vi/i18n';
 import RevealOnScroll from '@/components/wiki/shared/RevealOnScroll';
 
 interface FAQItem {
-  question: Record<Lang, string>;
-  answer: Record<Lang, string>;
+  question: Partial<Record<Lang, string>> & { en: string };
+  answer: Partial<Record<Lang, string>> & { en: string };
   category: string;
 }
 
@@ -216,7 +216,7 @@ const faqData: FAQItem[] = [
   },
 ];
 
-const categoryLabels: Record<string, Record<Lang, string>> = {
+const categoryLabels: Record<string, Partial<Record<Lang, string>>> = {
   release: { fr: '📅 Date de Sortie & Plateformes', en: '📅 Release & Platforms', es: '📅 Lanzamiento y Plataformas', it: '📅 Uscita e Piattaforme' },
   characters: { fr: '👥 Personnages', en: '👥 Characters', es: '👥 Personajes', it: '👥 Personaggi' },
   map: { fr: '🗺️ Carte & Lieux', en: '🗺️ Map & Locations', es: '🗺️ Mapa y Ubicaciones', it: '🗺️ Mappa e Luoghi' },
@@ -228,7 +228,7 @@ const categoryLabels: Record<string, Record<Lang, string>> = {
 const categoryOrder = ['release', 'characters', 'map', 'story', 'gameplay', 'trailers'];
 
 const FAQPage = ({ locale }: { locale: string }) => {
-  const { lang, t } = useGtaI18n(locale);
+  const { lang, t, tr } = useGtaI18n(locale);
   const [openItems, setOpenItems] = useState<Set<number>>(new Set());
 
   const toggle = (idx: number) => {
@@ -245,10 +245,10 @@ const FAQPage = ({ locale }: { locale: string }) => {
     '@type': 'FAQPage',
     mainEntity: faqData.map(item => ({
       '@type': 'Question',
-      name: item.question[lang],
+      name: tr(item.question),
       acceptedAnswer: {
         '@type': 'Answer',
-        text: item.answer[lang].replace(/\*\*/g, '').replace(/\[([^\]]+)\]\([^)]+\)/g, '$1'),
+        text: tr(item.answer).replace(/\*\*/g, '').replace(/\[([^\]]+)\]\([^)]+\)/g, '$1'),
       },
     })),
   };
@@ -326,7 +326,7 @@ const FAQPage = ({ locale }: { locale: string }) => {
                           aria-expanded={isOpen}
                         >
                           <span className="font-barlow font-medium text-sm text-text-primary pr-4" data-speakable="true">
-                            {item.question[lang]}
+                            {tr(item.question)}
                           </span>
                           {isOpen ? (
                             <ChevronUp className="w-4 h-4 text-neon-cyan shrink-0" />
@@ -336,7 +336,7 @@ const FAQPage = ({ locale }: { locale: string }) => {
                         </button>
                         {isOpen && (
                           <div className="px-5 pb-4 font-barlow font-light text-sm text-text-secondary leading-relaxed" data-speakable="true">
-                            {renderMarkdown(item.answer[lang])}
+                            {renderMarkdown(tr(item.answer))}
                           </div>
                         )}
                       </div>

@@ -110,7 +110,7 @@ function UniverseCard({
                 style={{ color: franchise.accentColor }}
               >
                 {franchise.mediaType === 'games'
-                  ? locale === 'en' ? 'Game' : locale === 'es' ? 'Juego' : 'Jeu'
+                  ? ({ fr: 'Jeu', en: 'Game', es: 'Juego', pt: 'Jogo', it: 'Gioco', ko: '게임' }[locale] || 'Game')
                   : franchise.mediaType}
               </span>
             </div>
@@ -126,11 +126,11 @@ function UniverseCard({
               {franchise.name[locale] || franchise.name.fr}
             </h3>
 
-            <p className="mt-2 text-sm text-white/60 line-clamp-2 max-w-md leading-relaxed">
+            <p className="mt-2 text-sm text-white/70 line-clamp-2 max-w-md leading-relaxed">
               {franchise.description[locale] || franchise.description.fr}
             </p>
 
-            <div className="mt-4 flex items-center gap-4 text-xs text-white/40">
+            <div className="mt-4 flex items-center gap-4 text-xs text-white/60">
               <span>{t('articlesCount', { count: articleCount })}</span>
               <span className="flex items-center gap-1">
                 <Calendar className="w-3 h-3" />
@@ -144,7 +144,7 @@ function UniverseCard({
               style={{ color: franchise.accentColor }}
             >
               <span className="tracking-wide">
-                {locale === 'en' ? 'Explore' : locale === 'es' ? 'Explorar' : 'Explorer'}
+                {{ fr: 'Explorer', en: 'Explore', es: 'Explorar', pt: 'Explorar', it: 'Esplora', ko: '탐험하기' }[locale] || 'Explore'}
               </span>
               <ArrowRight className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" />
             </div>
@@ -187,11 +187,7 @@ export default function UniverseGrid() {
           {t('title')}
         </h2>
         <p className="mt-4 text-[var(--color-text-secondary)] max-w-lg mx-auto">
-          {locale === 'en'
-            ? 'Dive into the most complete wikis for the games that matter.'
-            : locale === 'es'
-              ? 'Sumérgete en los wikis más completos de los juegos que importan.'
-              : 'Plongez dans les wikis les plus complets sur les jeux qui comptent.'}
+          {{ fr: 'Plongez dans les wikis les plus complets sur les jeux qui comptent.', en: 'Dive into the most complete wikis for the games that matter.', es: 'Sumérgete en los wikis más completos de los juegos que importan.', pt: 'Mergulhe nos wikis mais completos dos jogos que importam.', it: 'Immergiti nei wiki più completi sui giochi che contano.', ko: '중요한 게임의 가장 완벽한 위키에 빠져보세요.' }[locale] || 'Dive into the most complete wikis for the games that matter.'}
         </p>
       </motion.div>
 

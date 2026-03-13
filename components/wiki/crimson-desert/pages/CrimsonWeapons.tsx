@@ -355,7 +355,7 @@ const CrimsonWeapons = ({ locale }: { locale: string }) => {
                   <div className="relative h-[300px] overflow-hidden">
                     <img
                       src={selectedWeapon.image}
-                      alt={`${selectedWeapon.name[lang] || selectedWeapon.name.en} \u2014 \u00A9 Pearl Abyss`}
+                      alt={`${(selectedWeapon.name as Record<string, string>)[lang] || selectedWeapon.name.en} \u2014 \u00A9 Pearl Abyss`}
                       className="w-full h-full object-cover opacity-50"
                       loading="lazy"
                       decoding="async"
@@ -364,7 +364,7 @@ const CrimsonWeapons = ({ locale }: { locale: string }) => {
                     <div className="absolute bottom-0 left-0 right-0 p-8">
                       <span className="text-4xl mr-3">{selectedWeapon.icon}</span>
                       <h2 className="font-display text-2xl sm:text-4xl text-gold-bright inline-block align-middle" style={{ textShadow: '0 0 30px hsl(var(--gold-glow))' }}>
-                        {selectedWeapon.name[lang] || selectedWeapon.name.en}
+                        {(selectedWeapon.name as Record<string, string>)[lang] || selectedWeapon.name.en}
                       </h2>
                       <div className="flex gap-4 mt-3">
                         <span className="font-ui text-[0.65rem] tracking-wider px-3 py-1 rounded border border-gold-mid/30 bg-gold-mid/10 text-gold-mid">
@@ -380,7 +380,7 @@ const CrimsonWeapons = ({ locale }: { locale: string }) => {
                   <div className="p-8">
                     {/* Description */}
                     <p className="font-body text-base text-text-primary leading-[1.8] mb-8">
-                      {selectedWeapon.description[lang] || selectedWeapon.description.en}
+                      {(selectedWeapon.description as Record<string, string>)[lang] || selectedWeapon.description.en}
                     </p>
 
                     {/* Stat bars */}
@@ -412,7 +412,7 @@ const CrimsonWeapons = ({ locale }: { locale: string }) => {
                     <div className="mt-8 mb-8">
                       <h3 className="font-heading text-sm tracking-[0.15em] text-gold-bright mb-3">{s('playstyle')}</h3>
                       <p className="font-body text-sm text-text-secondary leading-[1.8] border-l-2 border-gold-mid/30 pl-4 italic">
-                        {selectedWeapon.playstyle[lang] || selectedWeapon.playstyle.en}
+                        {(selectedWeapon.playstyle as Record<string, string>)[lang] || selectedWeapon.playstyle.en}
                       </p>
                     </div>
 
@@ -461,7 +461,7 @@ const CrimsonWeapons = ({ locale }: { locale: string }) => {
                       <div className="relative h-[180px] overflow-hidden">
                         <img
                           src={weapon.image}
-                          alt={`${weapon.name[lang] || weapon.name.en} \u2014 \u00A9 Pearl Abyss`}
+                          alt={`${(weapon.name as Record<string, string>)[lang] || weapon.name.en} \u2014 \u00A9 Pearl Abyss`}
                           className="w-full h-full object-cover opacity-40 group-hover:opacity-55 group-hover:scale-105 transition-all duration-700"
                           loading="lazy"
                           decoding="async"
@@ -473,7 +473,7 @@ const CrimsonWeapons = ({ locale }: { locale: string }) => {
                         <div className="flex items-center gap-2 mb-2">
                           <span className="text-xl">{weapon.icon}</span>
                           <h3 className="font-heading text-base text-gold-bright group-hover:drop-shadow-[0_0_15px_hsl(var(--gold-glow))] transition-all duration-300">
-                            {weapon.name[lang] || weapon.name.en}
+                            {(weapon.name as Record<string, string>)[lang] || weapon.name.en}
                           </h3>
                         </div>
                         <div className="flex gap-2 mb-3">

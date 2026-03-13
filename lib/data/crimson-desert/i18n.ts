@@ -2,12 +2,12 @@
 
 import { useMemo } from 'react';
 
-export type Lang = 'fr' | 'en' | 'es' | 'it' | 'ko';
+export type Lang = 'fr' | 'en' | 'es' | 'pt' | 'it' | 'ko';
 
 /** Translation object — fr and en required, others optional with fallback to en */
 export type Translations = { fr: string; en: string } & { [key: string]: string };
 
-const SUPPORTED_LANGS: Lang[] = ['fr', 'en', 'es', 'it', 'ko'];
+const SUPPORTED_LANGS: Lang[] = ['fr', 'en', 'es', 'pt', 'it', 'ko'];
 
 /** Get text from a Translations object for a given lang, with fallback */
 export function tr(obj: Translations | Record<string, string>, lang: Lang): string {
@@ -463,6 +463,73 @@ const translations: Record<Lang, Record<string, string>> = {
     'world.map.filters_title': 'Filtros de marcadores previstos', 'world.map.filter.resources': '⛏ Recursos', 'world.map.filter.quests': '📜 Misiones', 'world.map.filter.mounts': '🐴 Monturas', 'world.map.filter.skills': '⚡ Habilidades', 'world.map.filter.travel': '🏕 Viajes rápidos', 'world.map.filter.bosses': '💀 Jefes',
     'gallery.community_title': 'CAPTURAS DE PANTALLA DE LA COMUNIDAD', 'gallery.community_desc': 'Próximamente — Comparte tus capturas y mejores momentos.', 'gallery.community_coming': 'SECCIÓN COMUNITARIA EN PREPARACIÓN', 'gallery.community_features': 'Subida de capturas · Comentarios · Votos de la comunidad',
     'home.latest_articles': 'Últimos Artículos',
+  },
+  pt: {
+    'nav.home': 'INÍCIO', 'nav.story': 'HISTÓRIA', 'nav.characters': 'PERSONAGENS', 'nav.world': 'MUNDO', 'nav.combat': 'COMBATE', 'nav.weapons': 'ARMAS', 'nav.lore': 'SABER', 'nav.about': 'SOBRE', 'nav.fan_site': 'SITE FAN', 'nav.search': 'Pesquisar', 'nav.gallery': 'GALERIA',
+    'hero.eyebrow': 'PEARL ABYSS · 2026', 'hero.subtitle': 'ENCICLOPÉDIA FAN NÃO OFICIAL', 'hero.pill.arpg': '⚔ Action-RPG', 'hero.pill.openworld': '🗺 Mundo Aberto', 'hero.pill.lore': '📖 Lore Profundo', 'hero.cta.explore': 'EXPLORAR A WIKI', 'hero.cta.characters': 'CONHECER OS PERSONAGENS', 'hero.scroll': 'ROLAR',
+    'announce.text': '🗡 DATA DE LANÇAMENTO: 19 DE MARÇO DE 2026 · DISPONÍVEL NO PS5 · XBOX SERIES X|S · PC',
+    'stats.characters': 'Personagens jogáveis', 'stats.regions': 'Regiões de Pywel', 'stats.hours': 'Horas de conteúdo', 'stats.years': 'Anos de desenvolvimento',
+    'featured.explore': 'EXPLORAR', 'featured.story.title': 'A HISTÓRIA', 'featured.story.desc': 'Cinco capítulos de traição, sobrevivência e destino.', 'featured.characters.title': 'PERSONAGENS', 'featured.characters.desc': 'Conheça os heróis, vilões e enigmas de Pywel.', 'featured.world.title': 'O MUNDO', 'featured.world.desc': 'Percorra cinco regiões distintas.', 'featured.discover': 'Descobrir',
+    'home.characters.title': 'PERSONAGENS', 'home.characters.seeMore': 'VER TODOS OS PERSONAGENS',
+    'blog.title': 'BLOG', 'blog.subtitle': 'Guias, análises, teorias de lore e notícias sobre Crimson Desert.', 'blog.all': 'TODOS', 'blog.cat.guide': 'GUIA', 'blog.cat.lore': 'LORE', 'blog.cat.news': 'NOTÍCIAS', 'blog.cat.analysis': 'ANÁLISE', 'blog.min': 'min', 'blog.empty': 'Nenhum artigo ainda', 'blog.emptyDesc': 'Novos artigos em breve.', 'blog.backToList': 'Voltar ao blog', 'nav.blog': 'BLOG',
+    'recent.title': 'DOCUMENTADO RECENTEMENTE', 'recent.read': 'leitura', 'world.continent': 'O CONTINENTE DE PYWEL',
+    'chars.heroes': 'HERÓIS DE PYWEL', 'chars.all': 'TODOS', 'chars.playable': 'JOGÁVEL', 'chars.companion': 'COMPANHEIRO', 'chars.npc': 'NPC', 'chars.denizens': 'HABITANTES DE PYWEL',
+    'chars.tab.biography': 'BIOGRAFIA', 'chars.tab.combat': 'COMBATE', 'chars.tab.abilities': 'HABILIDADES', 'chars.tab.relationships': 'RELAÇÕES', 'chars.tab.quotes': 'CITAÇÕES',
+    'chars.faction': 'FACÇÃO', 'chars.origin': 'ORIGEM', 'chars.role': 'PAPEL', 'chars.weapon': 'ARMA', 'chars.affiliation': 'AFILIAÇÃO', 'chars.status': 'STATUS',
+    'chars.weapon_mastery': 'MAESTRIA DE ARMAS', 'chars.signature_moves': 'GOLPES ESPECIAIS', 'chars.ability_tree': 'ÁRVORE DE HABILIDADES', 'chars.elemental': 'AFINIDADES ELEMENTAIS',
+    'chars.no_relations': 'Sem relações documentadas.', 'chars.view_character': '→ Ver personagem', 'chars.documented': 'DOCUMENTADO', 'chars.unknown': 'DESCONHECIDO',
+    'story.title': 'A HISTÓRIA DE PYWEL', 'story.journey': 'A JORNADA', 'story.quick_nav': 'NAVEGAÇÃO RÁPIDA', 'story.spoiler_level': 'NÍVEL DE SPOILER',
+    'story.spoiler_free': '🔒 SEM SPOILERS', 'story.full_lore': '🔓 LORE COMPLETO', 'story.unlock': '🔓 DESBLOQUEAR SPOILERS', 'story.key_events': 'EVENTOS CHAVE', 'story.chapter': 'CAPÍTULO',
+    'world.title': 'O MUNDO DE PYWEL', 'world.overview': 'VISÃO GERAL', 'world.locations': 'LOCAIS', 'world.enemies': 'INIMIGOS', 'world.quests': 'MISSÕES',
+    'world.abysse.title': 'O ABISMO', 'world.abysse.desc': 'Uma dimensão paralela de caos e poder imenso.',
+    'world.abysse.rifts': 'Fissuras dimensionais', 'world.abysse.rifts.desc': 'Portais aparecem aleatoriamente, liberando criaturas de poder terrível.',
+    'world.abysse.time': 'Distorção temporal', 'world.abysse.time.desc': 'O tempo flui em espirais dentro do Abismo.',
+    'world.abysse.thought': 'Pensamento tornado real', 'world.abysse.thought.desc': 'As leis da física se dobram à vontade.',
+    'combat.title': 'DOMINAR A ARTE DA GUERRA', 'combat.weapons': 'SISTEMA DE ARMAS', 'combat.elements': 'MAGIA ELEMENTAL', 'combat.progression': 'SISTEMA DE PROGRESSÃO',
+    'combat.bosses': 'ADVERSÁRIOS FORMIDÁVEIS', 'combat.combos': 'CADEIAS DE COMBOS', 'combat.fire': 'ELEMENTO FOGO', 'combat.ice': 'ELEMENTO GELO', 'combat.wind': 'ELEMENTO VENTO',
+    'combat.fire.1': 'Incendiar armadilhas', 'combat.fire.2': 'Dano de queimadura contínuo', 'combat.fire.3': 'Reações em cadeia explosivas',
+    'combat.ice.1': 'Congelar inimigos', 'combat.ice.2': 'Criar plataformas de gelo', 'combat.ice.3': 'Quebrar para dano explosivo',
+    'combat.wind.1': 'Propulsão aérea', 'combat.wind.2': 'Combos aéreos', 'combat.wind.3': 'Manipulação empurrar/puxar',
+    'lore.title': 'BIBLIOTECA DO SABER', 'lore.search': 'Pesquisar na enciclopédia...', 'lore.all': 'TODOS', 'lore.characters': 'PERSONAGENS', 'lore.locations': 'LOCAIS',
+    'lore.factions': 'FACÇÕES', 'lore.items': 'ITENS', 'lore.events': 'EVENTOS', 'lore.alpha': 'A-Z', 'lore.category': 'CATEGORIA',
+    'lore.no_entries': 'Nenhuma entrada encontrada.', 'lore.select': 'Selecione uma entrada para ler seu lore completo', 'lore.back': '← Voltar à lista', 'lore.related': 'ENTRADAS RELACIONADAS', 'lore.updated': 'Atualizado:',
+    'about.title': 'SOBRE ESTA WIKI', 'about.disclaimer.title': 'Aviso oficial',
+    'about.disclaimer.text': 'Este site é uma enciclopédia fan <strong>não oficial</strong> dedicada a Crimson Desert pela Pearl Abyss.',
+    'about.disclaimer.sub': 'Este site foi criado por amor ao jogo.', 'about.mission.title': 'Sobre esta Wiki', 'about.mission.text': 'A Wiki de Crimson Desert foi criada para ser o recurso fan mais completo.',
+    'about.contribute.title': 'Como contribuir', 'about.contribute.text': 'Contribuições da comunidade são bem-vindas!',
+    'about.credits.title': 'Créditos', 'about.links.title': 'Links oficiais', 'about.trivia': 'VOCÊ SABIA?', 'about.images_credit': 'Imagens: © Pearl Abyss — Fan Kit oficial',
+    'footer.desc': 'Uma enciclopédia fan não oficial para Crimson Desert pela Pearl Abyss.', 'footer.navigation': 'NAVEGAÇÃO', 'footer.official': 'LINKS OFICIAIS', 'footer.official_site': 'Site oficial ↗',
+    'footer.dark_mode': '🌙 Modo escuro', 'footer.parchment': '📜 Modo pergaminho',
+    'footer.disclaimer': 'Site fan não oficial · Não afiliado à Pearl Abyss · Imagens do Fan Kit © Pearl Abyss · © 2026 Wiki Fan',
+    'footer.made_with': 'Feito com ❤️ por fãs, para fãs',
+    'search.placeholder': 'Pesquisar personagens, locais, lore...', 'search.no_results': 'Nenhum resultado encontrado para', 'search.navigate': 'Navegar', 'search.select': 'Selecionar', 'search.close': 'Fechar',
+    'common.loading': 'Carregando...', 'nav.buy': 'COMPRAR', 'buy.cta.title': '🎮 PRONTO PARA SE JUNTAR A PYWEL?', 'buy.cta.desc': 'Obtenha Crimson Desert pelo melhor preço agora.', 'buy.cta.button': 'COMPRAR O JOGO', 'common.strength': 'FORÇA', 'common.speed': 'VELOCIDADE', 'common.magic': 'MAGIA',
+    'cat.CHARACTER': 'PERSONAGEM', 'cat.LOCATION': 'LOCAL', 'cat.FACTION': 'FACÇÃO', 'cat.ITEM': 'ITEM', 'cat.EVENT': 'EVENTO',
+    'type.PHYSICAL': 'FÍSICO', 'type.ELEMENTAL': 'ELEMENTAL', 'type.MAGICAL': 'MÁGICO',
+    'rel.ALLY': 'ALIADO', 'rel.RIVAL': 'RIVAL', 'rel.MENTOR': 'MENTOR', 'rel.UNKNOWN': 'DESCONHECIDO', 'common.level': 'Nível',
+    'about.contact.title': 'Contacte-nos',
+    'about.contact.text': 'Para qualquer pergunta, sugestão ou pedido de remoção de conteúdo, contacte-nos por email. Respondemos normalmente em 48 horas.',
+    'footer.legal': 'LEGAL', 'footer.privacy': 'Política de privacidade', 'footer.contact': 'Contacto',
+    'privacy.title': 'POLÍTICA DE PRIVACIDADE',
+    'privacy.intro.title': 'Introdução', 'privacy.intro.text': 'O Wiki Fan Crimson Desert (pywelwiki.com) é um site fan não oficial. Respeitamos a sua privacidade e comprometemo-nos a proteger os seus dados pessoais.',
+    'privacy.data.title': 'Dados recolhidos', 'privacy.data.text': 'Este site não recolhe dados pessoais diretamente.',
+    'privacy.cookies.title': 'Cookies', 'privacy.cookies.text': 'Este site utiliza cookies técnicos e cookies de terceiros via Google AdSense.',
+    'privacy.ads.title': 'Google AdSense', 'privacy.ads.text': 'Este site utiliza Google AdSense para exibir publicidade.',
+    'privacy.rights.title': 'Os seus direitos', 'privacy.rights.text': 'Segundo o RGPD, tem direito de aceder, retificar ou eliminar os seus dados pessoais.',
+    'privacy.contact.title': 'Contacto', 'privacy.contact.text': 'Para qualquer pergunta sobre esta política de privacidade, pode contactar-nos:',
+    'privacy.updated': 'Última atualização: março 2026',
+    'nav.database': 'BASE DE DADOS', 'nav.db.items': 'Itens', 'nav.db.mounts': 'Montarias', 'nav.db.quests': 'Missões', 'nav.db.glossary': 'Glossário',
+    'items.title': 'BASE DE DADOS DE ITENS', 'items.subtitle': 'Armas, armaduras, consumíveis e itens chave. Base de dados em construção.', 'items.all': 'TODOS', 'items.acquisition': 'AQUISIÇÃO', 'items.stats': 'ESTATÍSTICAS', 'items.select': 'Selecione um item para ver seus detalhes',
+    'mounts.title': 'MONTARIAS DE PYWEL', 'mounts.taming_title': 'Sistema de domesticação', 'mounts.taming_desc': 'Em Crimson Desert, as montarias são domesticadas usando sua stamina.', 'mounts.total': 'TOTAL', 'mounts.documented': 'DOCUMENTADAS', 'mounts.unknown': 'DESCONHECIDAS', 'mounts.speed': 'Velocidade', 'mounts.awaiting': 'Aguardando informação',
+    'quests.title': 'MISSÕES DE PYWEL', 'quests.subtitle': 'Siga as cadeias de missões principais e secundárias.', 'quests.all': 'TODAS', 'quests.select': 'Selecione uma missão para ver seus detalhes', 'quests.prerequisites': 'PRÉ-REQUISITOS', 'quests.rewards': 'RECOMPENSAS',
+    'guides.title': 'GUIAS DO VIAJANTE', 'guides.subtitle': 'Dicas, estratégias e conhecimentos essenciais para sobreviver e prosperar no continente de Pywel.', 'guides.articles_title': 'GUIAS DO COMPÊNDIO', 'guides.articles_desc': 'Guias detalhados escritos pelos arquivistas do wiki.', 'guides.read_more': 'LER', 'guides.quick_tips': 'DICAS RÁPIDAS',
+    'guides.beginner': 'DICAS PARA INICIANTES', 'guides.beginner.tip1': 'Explore cada canto de Pailune antes de se aventurar mais longe.', 'guides.beginner.tip2': 'Domine o sistema de bloqueio acima de tudo.', 'guides.beginner.tip3': 'Recolha cada planta e mineral que encontrar.', 'guides.beginner.tip4': 'Fale com todos os NPCs — alguns só revelam missões ocultas após várias interações.',
+    'guides.combat': 'DICAS DE COMBATE', 'guides.combat.tip1': 'Troque de arma em pleno combate para encadear combos devastadores.', 'guides.combat.tip2': 'Estude os padrões de ataque dos chefes antes de enfrentá-los.', 'guides.combat.tip3': 'Use o ambiente a seu favor.', 'guides.combat.tip4': 'A stamina é o seu recurso mais valioso. Não abuse das esquivas.',
+    'guides.exploration': 'DICAS DE EXPLORAÇÃO', 'guides.exploration.tip1': 'Domestique uma montaria o mais cedo possível.', 'guides.exploration.tip2': 'Cavernas e masmorras ocultas geralmente contêm o melhor equipamento.', 'guides.exploration.tip3': 'O ciclo dia/noite afeta as criaturas, NPCs e eventos disponíveis.', 'guides.exploration.tip4': 'Desbloqueie os pontos de viagem rápida como prioridade.',
+    'guides.cta_quote': 'O conhecimento é o escudo mais resistente que um mercenário pode carregar.', 'guides.view_all_articles': 'VER TODOS OS ARTIGOS', 'nav.guides': 'GUIAS',
+    'world.map.filters_title': 'Filtros de marcadores previstos', 'world.map.filter.resources': '⛏ Recursos', 'world.map.filter.quests': '📜 Missões', 'world.map.filter.mounts': '🐴 Montarias', 'world.map.filter.skills': '⚡ Habilidades', 'world.map.filter.travel': '🏕 Viagens rápidas', 'world.map.filter.bosses': '💀 Chefes',
+    'gallery.community_title': 'CAPTURAS DE TELA DA COMUNIDADE', 'gallery.community_desc': 'Em breve — Compartilhe suas capturas e melhores momentos.', 'gallery.community_coming': 'SECÇÃO COMUNITÁRIA EM PREPARAÇÃO', 'gallery.community_features': 'Upload de capturas · Comentários · Votos da comunidade',
+    'home.latest_articles': 'Últimos Artigos',
   },
   it: {
     'nav.home': 'HOME', 'nav.story': 'STORIA', 'nav.characters': 'PERSONAGGI', 'nav.world': 'MONDO', 'nav.combat': 'COMBATTIMENTO', 'nav.weapons': 'ARMI', 'nav.lore': 'SAPERE', 'nav.about': 'INFO', 'nav.fan_site': 'SITO FAN', 'nav.search': 'Cerca', 'nav.gallery': 'GALLERIA',

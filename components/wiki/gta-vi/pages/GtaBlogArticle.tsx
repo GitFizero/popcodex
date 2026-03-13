@@ -8,7 +8,7 @@ import { useGtaI18n, type Lang } from '@/lib/data/gta-vi/i18n';
 import { useCallback, useMemo, useState } from 'react';
 
 // FAQ data for guide articles
-const articleFaqs: Record<string, Record<Lang, Array<{ q: string; a: string }>>> = {
+const articleFaqs: Record<string, Partial<Record<Lang, Array<{ q: string; a: string }>>>> = {
   'vice-city-map-all-confirmed-locations': {
     fr: [
       { q: 'Combien de zones sont confirmées sur la carte de GTA 6 ?', a: 'Au moins 7 zones majeures ont été confirmées : Vice City (Ocean Beach, Downtown, Little Havana), Leonida Keys, Grassrivers, Port Gellhorn, Ambrosia et Mount Kalaga.' },
@@ -144,7 +144,7 @@ const BlogArticlePage = ({ locale, slug }: { locale: string; slug: string }) => 
   if (!article) return null;
 
   // Build hreflang paths for this article
-  const hreflangPaths: Record<Lang, string> = {
+  const hreflangPaths: Partial<Record<Lang, string>> = {
     fr: `/blog/${article.slug.fr}`,
     en: `/blog/${article.slug.en}`,
     es: `/blog/${article.slug.es}`,

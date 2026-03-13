@@ -15,7 +15,9 @@ const langOptions: { code: Lang; label: string; flag: string }[] = [
   { code: 'fr', label: 'Français', flag: '🇫🇷' },
   { code: 'en', label: 'English', flag: '🇬🇧' },
   { code: 'es', label: 'Español', flag: '🇪🇸' },
+  { code: 'pt', label: 'Português', flag: '🇧🇷' },
   { code: 'it', label: 'Italiano', flag: '🇮🇹' },
+  { code: 'ko', label: '한국어', flag: '🇰🇷' },
 ];
 
 const GtaNavBar = ({ locale, onSearchOpen }: GtaNavBarProps) => {
@@ -51,6 +53,16 @@ const GtaNavBar = ({ locale, onSearchOpen }: GtaNavBarProps) => {
   }, []);
 
   useEffect(() => setMobileOpen(false), [pathname]);
+
+  // Lock body scroll when mobile menu is open
+  useEffect(() => {
+    if (mobileOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = '';
+    }
+    return () => { document.body.style.overflow = ''; };
+  }, [mobileOpen]);
 
   useEffect(() => {
     const handler = (e: MouseEvent) => {
@@ -107,7 +119,7 @@ const GtaNavBar = ({ locale, onSearchOpen }: GtaNavBarProps) => {
                 onClick={() => setLangMenuOpen(!langMenuOpen)}
                 className="flex items-center gap-1.5 px-2 py-1 text-text-secondary hover:text-neon-cyan transition-colors"
               >
-                <Globe size={14} />
+                <span>{langOptions.find(o => o.code === lang)?.flag || '🌐'}</span>
                 <span className="font-rajdhani text-[0.65rem] tracking-widest">{lang.toUpperCase()}</span>
               </button>
               {langMenuOpen && (
@@ -145,7 +157,7 @@ const GtaNavBar = ({ locale, onSearchOpen }: GtaNavBarProps) => {
       </nav>
 
       {mobileOpen && (
-        <div className="fixed inset-0 z-[999] bg-[hsl(220,67%,2%,0.98)] flex flex-col items-center justify-center gap-3 sm:gap-5 overflow-y-auto py-16">
+        <div className="fixed inset-0 z-[9999] bg-[hsl(220,67%,2%,0.98)] flex flex-col items-center justify-center gap-3 sm:gap-5 overflow-y-auto py-16">
           <div className="flex flex-wrap justify-center gap-2 mb-4">
             {langOptions.map(opt => (
               <button

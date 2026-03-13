@@ -2,7 +2,7 @@
 
 import { useMemo } from 'react';
 
-export type Lang = 'fr' | 'en' | 'es' | 'it';
+export type Lang = 'fr' | 'en' | 'es' | 'pt' | 'it' | 'ko';
 
 const translations: Record<Lang, Record<string, string>> = {
   fr: {
@@ -846,6 +846,18 @@ const translations: Record<Lang, Record<string, string>> = {
     'inline.mapComingSoon': 'MAPPA IN ARRIVO',
     'inline.mapComingSoonDesc': 'La mappa ufficiale dello stato di Leonida non è ancora stata rivelata da Rockstar Games. Sarà aggiunta qui non appena pubblicata.',
   },
+  pt: {
+    // Nav — Portuguese fallbacks to English for keys not listed
+    'nav.home': 'INÍCIO', 'nav.story': 'HISTÓRIA', 'nav.characters': 'PERSONAGENS', 'nav.vicecity': 'VICE CITY', 'nav.map': 'MAPA', 'nav.leonida': 'LEONIDA',
+    'nav.gameplay': 'GAMEPLAY', 'nav.gallery': 'GALERIA', 'nav.trailers': 'TRAILERS', 'nav.faq': 'FAQ', 'nav.buy': 'COMPRAR', 'nav.about': 'SOBRE', 'nav.contact': 'CONTACTO',
+    'nav.fansite': 'SITE FAN',
+  },
+  ko: {
+    // Nav — Korean fallbacks to English for keys not listed
+    'nav.home': '홈', 'nav.story': '스토리', 'nav.characters': '캐릭터', 'nav.vicecity': '바이스 시티', 'nav.map': '지도', 'nav.leonida': '레오니다',
+    'nav.gameplay': '게임플레이', 'nav.gallery': '갤러리', 'nav.trailers': '트레일러', 'nav.faq': 'FAQ', 'nav.buy': '구매', 'nav.about': '소개', 'nav.contact': '연락처',
+    'nav.fansite': '팬 위키',
+  },
 };
 
 /** Translate a record keyed by language */
@@ -855,7 +867,7 @@ export function tr<T>(map: Partial<Record<Lang, T>>, lang: Lang): T {
 
 /** Hook matching the original useLanguage() API */
 export function useGtaI18n(locale: string) {
-  const lang = (['fr', 'en', 'es', 'it'].includes(locale) ? locale : 'en') as Lang;
+  const lang = (['fr', 'en', 'es', 'pt', 'it', 'ko'].includes(locale) ? locale : 'en') as Lang;
 
   const t = useMemo(() => {
     return (key: string): string => {

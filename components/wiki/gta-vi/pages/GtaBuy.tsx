@@ -38,7 +38,7 @@ const platforms = [
 ];
 
 const BuyGame = ({ locale }: { locale: string }) => {
-  const { lang, t } = useGtaI18n(locale);
+  const { lang, t, tr } = useGtaI18n(locale);
 
   const title = {
     fr: 'Acheter GTA 6 — Meilleur Prix PS5, Xbox Series & PC | Leonida Wiki',
@@ -95,7 +95,7 @@ const BuyGame = ({ locale }: { locale: string }) => {
     '@type': 'BreadcrumbList',
     itemListElement: [
       { '@type': 'ListItem', position: 1, name: t('inline.home'), item: 'https://leonidawiki.com/' },
-      { '@type': 'ListItem', position: 2, name: heading[lang] },
+      { '@type': 'ListItem', position: 2, name: tr(heading) },
     ],
   };
 
@@ -103,7 +103,7 @@ const BuyGame = ({ locale }: { locale: string }) => {
     '@context': 'https://schema.org',
     '@type': 'Product',
     name: 'Grand Theft Auto VI',
-    description: description[lang],
+    description: tr(description),
     brand: { '@type': 'Brand', name: 'Rockstar Games' },
     category: 'Video Game',
     releaseDate: '2026-11-19',
@@ -132,8 +132,8 @@ const BuyGame = ({ locale }: { locale: string }) => {
     '@type': 'FAQPage',
     mainEntity: faqData.map(f => ({
       '@type': 'Question',
-      name: f.q[lang],
-      acceptedAnswer: { '@type': 'Answer', text: f.a[lang] },
+      name: tr(f.q),
+      acceptedAnswer: { '@type': 'Answer', text: tr(f.a) },
     })),
   };
 
@@ -158,10 +158,10 @@ const BuyGame = ({ locale }: { locale: string }) => {
         <section className="max-w-4xl mx-auto text-center mb-16">
           <p className="font-rajdhani text-[0.6rem] tracking-[0.4em] text-neon-cyan mb-4">ROCKSTAR GAMES · 19.11.2026</p>
           <h1 className="font-bebas text-[clamp(2.5rem,8vw,5rem)] neon-pink-text leading-none mb-4">
-            {heading[lang]}
+            {tr(heading)}
           </h1>
           <p className="font-barlow font-light italic text-sm text-text-secondary max-w-xl mx-auto">
-            {subtitle[lang]}
+            {tr(subtitle)}
           </p>
         </section>
 
@@ -182,10 +182,10 @@ const BuyGame = ({ locale }: { locale: string }) => {
                 </div>
                 <h2 className={`font-bebas text-2xl text-${p.color} mb-2`}>{p.name}</h2>
                 <span className={`inline-block font-rajdhani text-[0.5rem] px-2 py-0.5 rounded-full border border-${p.color}/30 text-${p.color} tracking-widest mb-4`}>
-                  {p.badge[lang]}
+                  {tr(p.badge)}
                 </span>
                 <span className={`font-barlow font-semibold text-xs px-5 py-2.5 rounded bg-${p.color} text-bg-void group-hover:shadow-[0_0_20px_hsl(var(--${p.color})/0.4)] transition-all flex items-center gap-2`}>
-                  {ctaText[lang]} <ExternalLink className="w-3.5 h-3.5" />
+                  {tr(ctaText)} <ExternalLink className="w-3.5 h-3.5" />
                 </span>
               </a>
             );
@@ -198,7 +198,7 @@ const BuyGame = ({ locale }: { locale: string }) => {
             {[ShieldCheck, Tag, Clock].map((Icon, i) => (
               <div key={i} className="flex items-center gap-2">
                 <Icon className="w-4 h-4 text-neon-cyan" />
-                <span className="font-rajdhani text-xs text-text-secondary tracking-wider">{trustPoints[lang][i]}</span>
+                <span className="font-rajdhani text-xs text-text-secondary tracking-wider">{tr(trustPoints)[i]}</span>
               </div>
             ))}
           </div>
@@ -211,11 +211,11 @@ const BuyGame = ({ locale }: { locale: string }) => {
             {faqData.map((faq, i) => (
               <details key={i} className="bg-[hsl(213,33%,13%)] rounded-lg border border-neon-cyan/10 group">
                 <summary className="font-barlow font-semibold text-sm text-text-primary p-4 cursor-pointer hover:text-neon-cyan transition-colors list-none flex justify-between items-center">
-                  {faq.q[lang]}
+                  {tr(faq.q)}
                   <span className="text-neon-cyan text-lg group-open:rotate-45 transition-transform">+</span>
                 </summary>
                 <div className="px-4 pb-4">
-                  <p className="font-dm text-xs text-text-secondary leading-relaxed">{faq.a[lang]}</p>
+                  <p className="font-dm text-xs text-text-secondary leading-relaxed">{tr(faq.a)}</p>
                 </div>
               </details>
             ))}
@@ -225,7 +225,7 @@ const BuyGame = ({ locale }: { locale: string }) => {
         {/* Affiliate notice */}
         <section className="max-w-2xl mx-auto text-center mb-8">
           <p className="font-rajdhani text-[0.5rem] text-text-muted-vice tracking-widest leading-relaxed">
-            {affiliateNotice[lang]}
+            {tr(affiliateNotice)}
           </p>
         </section>
 

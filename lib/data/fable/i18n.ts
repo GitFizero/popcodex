@@ -2,7 +2,7 @@
 
 import { useMemo } from 'react';
 
-export type Lang = 'fr' | 'en' | 'es' | 'it' | 'ko';
+export type Lang = 'fr' | 'en' | 'es' | 'pt' | 'it' | 'ko';
 
 export function tr(obj: Record<string, string>, lang: Lang): string {
   return obj[lang] || obj.en || obj.fr || '';
@@ -95,6 +95,14 @@ const translations: Record<Lang, Record<string, string>> = {
     'footer.disclaimer': "Este es un proyecto fan no oficial. Fable y todos los personajes asociados son marcas registradas de Xbox Game Studios / Microsoft Corporation.",
     'footer.made_with': 'Hecho con pasión por la comunidad PopCodex.',
   },
+  pt: {
+    'nav.home': 'INÍCIO', 'nav.story': 'HISTÓRIA', 'nav.characters': 'PERSONAGENS', 'nav.locations': 'LOCAIS',
+    'nav.creatures': 'CRIATURAS', 'nav.gameplay': 'GAMEPLAY', 'nav.classes': 'CLASSES', 'nav.lore': 'LORE',
+    'nav.gallery': 'GALERIA', 'nav.blog': 'BLOG', 'nav.about': 'SOBRE', 'nav.search': 'Pesquisar',
+    'footer.desc': "Wiki fan não oficial dedicado ao reboot de Fable pela Playground Games.",
+    'footer.disclaimer': "Este é um projeto fan não oficial. Fable e todos os personagens associados são marcas registadas da Xbox Game Studios / Microsoft Corporation.",
+    'footer.made_with': 'Feito com paixão pela comunidade PopCodex.',
+  },
   it: {
     'nav.home': 'HOME', 'nav.story': 'STORIA', 'nav.characters': 'PERSONAGGI', 'nav.locations': 'LUOGHI',
     'nav.creatures': 'CREATURE', 'nav.gameplay': 'GAMEPLAY', 'nav.classes': 'CLASSI', 'nav.lore': 'LORE',
@@ -114,7 +122,7 @@ const translations: Record<Lang, Record<string, string>> = {
 };
 
 export function useFableI18n(locale: string) {
-  const lang = (['fr', 'en', 'es', 'it', 'ko'].includes(locale) ? locale : 'en') as Lang;
+  const lang = (['fr', 'en', 'es', 'pt', 'it', 'ko'].includes(locale) ? locale : 'en') as Lang;
   const t = useMemo(() => {
     const dict = translations[lang] || translations.en;
     const fallback = translations.en;

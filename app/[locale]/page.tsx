@@ -7,6 +7,7 @@ import UniverseTransition from '@/components/ui/UniverseTransition';
 import HeroSection from '@/components/home/HeroSection';
 import UniverseGrid from '@/components/home/UniverseGrid';
 import RecentArticles from '@/components/home/RecentArticles';
+import HomeDarkMode from '@/components/home/HomeDarkMode';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
@@ -21,6 +22,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
 
   return (
     <>
+      <HomeDarkMode />
       <a href="#main-content" className="skip-nav">Skip to content</a>
       <Header />
       <main id="main-content">
@@ -32,7 +34,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
           <HeroSection />
           <div
             style={{
-              background: 'linear-gradient(180deg, #060612 0%, var(--color-bg) 15%)',
+              background: 'linear-gradient(180deg, #060612 0%, #121212 15%)',
             }}
           >
             <UniverseGrid />
