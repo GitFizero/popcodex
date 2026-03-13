@@ -12,36 +12,24 @@
 }
 
 /* ================================================================
-   LIGHT THEME (default — homepage / neutral)
+   DEFAULT THEME — DARK GALAXY / SPACE (homepage & neutral)
    ================================================================ */
 :root {
-  --color-bg: #F8F6F3;
-  --color-bg-elevated: #FFFFFF;
-  --color-bg-subtle: #EFECE7;
-  --color-text: #1A1A1A;
-  --color-text-secondary: #6B6B6B;
-  --color-text-tertiary: #9B9B9B;
-  --color-border: rgba(0,0,0,0.06);
-  --color-border-hover: rgba(0,0,0,0.12);
-  --color-accent-default: #2563EB;
+  --color-bg: #0a0a1a;
+  --color-bg-elevated: #12122a;
+  --color-bg-subtle: #0e0e22;
+  --color-text: #e4e4f0;
+  --color-text-secondary: #9898b8;
+  --color-text-tertiary: #5e5e80;
+  --color-border: rgba(130,130,220,0.1);
+  --color-border-hover: rgba(130,130,220,0.2);
+  --color-accent-default: #7c6cf0;
   --color-accent: var(--color-accent-default);
-  --color-accent-light: color-mix(in srgb, var(--color-accent) 10%, white);
-  --color-accent-medium: color-mix(in srgb, var(--color-accent) 20%, white);
-  --color-accent-secondary: var(--color-accent);
-}
+  --color-accent-light: color-mix(in srgb, var(--color-accent) 12%, transparent);
+  --color-accent-medium: color-mix(in srgb, var(--color-accent) 20%, transparent);
+  --color-accent-secondary: #38bdf8;
 
-/* ================================================================
-   DARK THEME (base — for homepage)
-   ================================================================ */
-[data-theme="dark"] {
-  --color-bg: #121212;
-  --color-bg-elevated: #1E1E1E;
-  --color-bg-subtle: #2A2A2A;
-  --color-text: #E8E8E8;
-  --color-text-secondary: #A0A0A0;
-  --color-text-tertiary: #707070;
-  --color-border: rgba(255,255,255,0.08);
-  --color-border-hover: rgba(255,255,255,0.15);
+  color-scheme: dark;
 }
 
 
@@ -94,7 +82,7 @@
   position: fixed;
   inset: 0;
   pointer-events: none;
-  z-index: 50;
+  z-index: 30;
   background: repeating-linear-gradient(
     0deg,
     transparent,
@@ -225,7 +213,7 @@
   position: fixed;
   inset: 0;
   pointer-events: none;
-  z-index: 50;
+  z-index: 30;
   background: radial-gradient(ellipse at center, transparent 50%, rgba(0,0,0,0.55) 100%);
 }
 
@@ -361,7 +349,7 @@
   position: fixed;
   inset: 0;
   pointer-events: none;
-  z-index: 50;
+  z-index: 30;
   background:
     radial-gradient(ellipse at 20% 90%, hsl(120 30% 20% / 0.12) 0%, transparent 50%),
     radial-gradient(ellipse at 80% 80%, hsl(120 30% 20% / 0.08) 0%, transparent 40%),
@@ -462,7 +450,7 @@
   position: fixed;
   inset: 0;
   pointer-events: none;
-  z-index: 50;
+  z-index: 30;
   opacity: 0.06;
   mix-blend-mode: multiply;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence baseFrequency='0.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)' opacity='1'/%3E%3C/svg%3E");
@@ -661,29 +649,23 @@ body {
   transition: background-color 400ms ease, color 400ms ease;
 }
 
-/* Atmospheric background on homepage */
+/* Atmospheric background — galaxy nebula */
 .bg-atmosphere {
   background:
-    radial-gradient(ellipse at 20% 50%, color-mix(in srgb, var(--color-accent) 4%, transparent) 0%, transparent 50%),
-    radial-gradient(ellipse at 80% 20%, color-mix(in srgb, var(--color-accent) 3%, transparent) 0%, transparent 50%),
+    radial-gradient(ellipse at 15% 30%, hsl(260 60% 20% / 0.3) 0%, transparent 50%),
+    radial-gradient(ellipse at 75% 60%, hsl(210 80% 25% / 0.2) 0%, transparent 50%),
+    radial-gradient(ellipse at 50% 80%, hsl(280 50% 15% / 0.15) 0%, transparent 40%),
     var(--color-bg);
 }
 
-[data-theme="dark"] .bg-atmosphere {
-  background:
-    radial-gradient(ellipse at 20% 50%, color-mix(in srgb, var(--color-accent) 6%, transparent) 0%, transparent 50%),
-    radial-gradient(ellipse at 80% 20%, color-mix(in srgb, var(--color-accent) 4%, transparent) 0%, transparent 50%),
-    var(--color-bg);
-}
-
-/* Grain texture overlay */
+/* Grain / stars texture overlay */
 .bg-grain::before {
   content: '';
   position: fixed;
   top: 0; left: 0; right: 0; bottom: 0;
-  opacity: 0.03;
+  opacity: 0.04;
   pointer-events: none;
-  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
   z-index: 0;
 }
 
@@ -709,6 +691,9 @@ a, button, .accent-transition {
 ::-webkit-scrollbar-thumb {
   background: var(--color-text-tertiary);
   border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-text-secondary);
 }
 
 /* === SKIP NAV === */

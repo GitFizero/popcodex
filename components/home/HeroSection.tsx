@@ -7,7 +7,7 @@ import { getAllFranchiseIds, franchises } from '@/lib/franchise-config';
 import Link from 'next/link';
 import { getArticlesByFranchise } from '@/lib/articles';
 
-/* Animated accent orbs that float around */
+/* Animated nebula orbs that float around */
 function FloatingOrbs() {
   const allIds = getAllFranchiseIds();
   return (
@@ -15,33 +15,92 @@ function FloatingOrbs() {
       {allIds.map((id, i) => {
         const f = franchises[id];
         const positions = [
-          { left: '15%', top: '20%' },
-          { right: '20%', top: '30%' },
-          { left: '25%', bottom: '25%' },
-          { right: '15%', bottom: '20%' },
+          { left: '10%', top: '15%' },
+          { right: '15%', top: '25%' },
+          { left: '20%', bottom: '20%' },
+          { right: '10%', bottom: '30%' },
         ];
         return (
           <motion.div
             key={id}
-            className="absolute w-64 h-64 rounded-full"
+            className="absolute w-72 h-72 rounded-full"
             style={{
               ...positions[i],
-              background: `radial-gradient(circle, ${f.accentColor}12 0%, transparent 70%)`,
-              filter: 'blur(40px)',
+              background: `radial-gradient(circle, ${f.accentColor}18 0%, ${f.accentColor}06 40%, transparent 70%)`,
+              filter: 'blur(50px)',
             }}
             animate={{
-              y: [0, -20, 0, 15, 0],
-              x: [0, 10, -10, 5, 0],
-              scale: [1, 1.1, 0.95, 1.05, 1],
+              y: [0, -25, 0, 20, 0],
+              x: [0, 12, -12, 8, 0],
+              scale: [1, 1.15, 0.9, 1.08, 1],
             }}
             transition={{
-              duration: 12 + i * 2,
+              duration: 14 + i * 3,
               repeat: Infinity,
               ease: 'easeInOut',
             }}
           />
         );
       })}
+
+      {/* Extra galaxy nebula blobs */}
+      <motion.div
+        className="absolute w-96 h-96 rounded-full"
+        style={{
+          left: '50%', top: '40%',
+          transform: 'translate(-50%, -50%)',
+          background: 'radial-gradient(circle, hsl(260 60% 40% / 0.08) 0%, transparent 60%)',
+          filter: 'blur(60px)',
+        }}
+        animate={{ scale: [1, 1.2, 1], opacity: [0.5, 0.8, 0.5] }}
+        transition={{ duration: 10, repeat: Infinity, ease: 'easeInOut' }}
+      />
+      <motion.div
+        className="absolute w-64 h-64 rounded-full"
+        style={{
+          right: '5%', top: '10%',
+          background: 'radial-gradient(circle, hsl(210 80% 50% / 0.06) 0%, transparent 60%)',
+          filter: 'blur(40px)',
+        }}
+        animate={{ y: [0, -15, 0], opacity: [0.4, 0.7, 0.4] }}
+        transition={{ duration: 8, repeat: Infinity, ease: 'easeInOut' }}
+      />
+    </div>
+  );
+}
+
+/* Tiny star particles */
+function StarField() {
+  const stars = Array.from({ length: 60 }, (_, i) => ({
+    left: `${Math.random() * 100}%`,
+    top: `${Math.random() * 100}%`,
+    size: 1 + Math.random() * 2,
+    delay: Math.random() * 4,
+    duration: 2 + Math.random() * 3,
+  }));
+
+  return (
+    <div className="absolute inset-0 overflow-hidden pointer-events-none">
+      {stars.map((star, i) => (
+        <motion.div
+          key={i}
+          className="absolute rounded-full"
+          style={{
+            left: star.left,
+            top: star.top,
+            width: star.size,
+            height: star.size,
+            background: `hsl(${220 + Math.random() * 60} ${50 + Math.random() * 40}% ${70 + Math.random() * 30}%)`,
+          }}
+          animate={{ opacity: [0.2, 0.8, 0.2] }}
+          transition={{
+            duration: star.duration,
+            delay: star.delay,
+            repeat: Infinity,
+            ease: 'easeInOut',
+          }}
+        />
+      ))}
     </div>
   );
 }
@@ -53,16 +112,16 @@ export default function HeroSection() {
   const locale = useLocale();
   const allFranchises = getAllFranchiseIds();
 
-  // Total article count
   const totalArticles = allFranchises.reduce((sum, id) => sum + getArticlesByFranchise(id).length, 0);
 
   return (
     <section className="relative min-h-[95vh] flex flex-col items-center justify-center px-4 overflow-hidden">
-      {/* Background atmosphere */}
+      {/* Background atmosphere — galaxy nebula */}
       <div className="absolute inset-0 bg-atmosphere" />
+      <StarField />
       <FloatingOrbs />
 
-      {/* Grain texture */}
+      {/* Grain / star dust texture */}
       <div className="absolute inset-0 bg-grain pointer-events-none" />
 
       <div className="relative z-10 max-w-4xl mx-auto text-center">
@@ -73,7 +132,7 @@ export default function HeroSection() {
           transition={{ duration: 0.5 }}
           className="mb-6 inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-[var(--color-border)] bg-[var(--color-bg-elevated)]"
         >
-          <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
+          <span className="w-2 h-2 rounded-full bg-[var(--color-accent)] animate-pulse" />
           <span className="text-xs text-[var(--color-text-secondary)]">
             {totalArticles} {locale === 'en' ? 'articles across' : locale === 'es' ? 'artículos en' : 'articles sur'} {allFranchises.length} {locale === 'en' ? 'universes' : locale === 'es' ? 'universos' : 'univers'}
           </span>
@@ -91,7 +150,7 @@ export default function HeroSection() {
           <span
             className="bg-clip-text text-transparent"
             style={{
-              backgroundImage: `linear-gradient(135deg, ${franchises['gta-vi'].accentColor}, ${franchises['crimson-desert'].accentColor}, ${franchises['fable'].accentColor}, ${franchises['wolverine'].accentColor})`,
+              backgroundImage: `linear-gradient(135deg, ${franchises['gta-vi'].accentColor}, #7c6cf0, ${franchises['fable'].accentColor}, ${franchises['wolverine'].accentColor})`,
             }}
           >
             Codex
@@ -152,8 +211,8 @@ export default function HeroSection() {
                   className="group inline-flex items-center gap-2 px-4 py-2 text-sm font-medium rounded-full transition-all duration-200 no-underline hover:-translate-y-0.5 hover:shadow-md border"
                   style={{
                     color: f.accentColor,
-                    background: `${f.accentColor}08`,
-                    borderColor: `${f.accentColor}15`,
+                    background: `${f.accentColor}0a`,
+                    borderColor: `${f.accentColor}20`,
                   }}
                 >
                   <span className="w-1.5 h-1.5 rounded-full" style={{ background: f.accentColor }} />

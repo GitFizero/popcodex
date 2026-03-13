@@ -18,6 +18,14 @@ export default function UniverseTransition({ children }: { children: React.React
   useEffect(() => {
     const current = franchiseId || null;
 
+    // Apply franchise CSS class to body so Header/Footer also get themed variables
+    if (franchise) {
+      document.body.classList.remove('universe-gta', 'universe-crimson', 'universe-fable', 'universe-wolverine');
+      document.body.classList.add(franchise.theme.cssClass);
+    } else {
+      document.body.classList.remove('universe-gta', 'universe-crimson', 'universe-fable', 'universe-wolverine');
+    }
+
     if (isFirstRender.current) {
       isFirstRender.current = false;
       prevFranchise.current = current;
@@ -33,7 +41,7 @@ export default function UniverseTransition({ children }: { children: React.React
       prevFranchise.current = current;
       return () => clearTimeout(timer);
     }
-  }, [franchiseId]);
+  }, [franchiseId, franchise]);
 
   return (
     <>

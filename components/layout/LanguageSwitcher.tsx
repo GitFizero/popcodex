@@ -1,9 +1,9 @@
 'use client';
 
-import { useState, useRef, useEffect } from 'react';
+import { useState, useRef, useEffect, useTransition } from 'react';
 import { useLocale, useTranslations } from 'next-intl';
 import { usePathname, useRouter } from 'next/navigation';
-import { ChevronDown } from 'lucide-react';
+import { ChevronDown, Globe, Loader2 } from 'lucide-react';
 import { locales, localeNames, localeFlags, Locale } from '@/lib/i18n/config';
 
 export default function LanguageSwitcher() {
@@ -12,6 +12,7 @@ export default function LanguageSwitcher() {
   const pathname = usePathname();
   const router = useRouter();
   const [open, setOpen] = useState(false);
+  const [isPending, startTransition] = useTransition();
   const ref = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -27,8 +28,11 @@ export default function LanguageSwitcher() {
   const switchLocale = (newLocale: Locale) => {
     const segments = pathname.split('/');
     segments[1] = newLocale;
-    router.push(segments.join('/'));
+    const newPath = segments.join('/');
     setOpen(false);
+    startTransition(() => {
+      router.replace(newPath);
+    });
   };
 
   return (
@@ -39,7 +43,11 @@ export default function LanguageSwitcher() {
         aria-expanded={open}
         className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-[var(--radius-button)] hover:bg-[var(--color-bg-subtle)] transition-colors text-sm font-medium text-[var(--color-text-secondary)]"
       >
-        <span>{localeFlags[locale as Locale]}</span>
+        {isPending ? (
+          <Loader2 className="w-3.5 h-3.5 animate-spin" />
+        ) : (
+          <Globe className="w-3.5 h-3.5" />
+        )}
         <span className="hidden sm:inline">{locale.toUpperCase()}</span>
         <ChevronDown className="w-3.5 h-3.5" />
       </button>

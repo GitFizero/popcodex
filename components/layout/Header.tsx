@@ -6,7 +6,6 @@ import { Search } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 import Logo from './Logo';
 import MegaMenu from './MegaMenu';
-import ThemeToggle from './ThemeToggle';
 import LanguageSwitcher from './LanguageSwitcher';
 import MobileNav from './MobileNav';
 import { getFranchiseById } from '@/lib/franchise-config';
@@ -48,9 +47,17 @@ export default function Header() {
       <header
         className={`fixed top-0 left-0 right-0 z-40 transition-all duration-300 ${
           scrolled
-            ? 'bg-[var(--color-bg)]/95 backdrop-blur-md border-b border-[var(--color-border)] shadow-sm'
+            ? 'backdrop-blur-xl border-b shadow-sm'
             : 'bg-transparent'
         }`}
+        style={{
+          ...(scrolled ? {
+            backgroundColor: franchise
+              ? `color-mix(in srgb, ${franchise.theme.bgGradient ? 'hsl(0 0% 5%)' : 'var(--color-bg)'} 92%, transparent)`
+              : 'rgba(10, 10, 26, 0.92)',
+            borderColor: franchise ? `${franchise.accentColor}15` : 'var(--color-border)',
+          } : {}),
+        }}
       >
         {franchise && (
           <div
@@ -81,7 +88,6 @@ export default function Header() {
               </button>
               <div className="hidden lg:flex items-center gap-1">
                 <LanguageSwitcher />
-                <ThemeToggle />
               </div>
               <MobileNav />
             </div>

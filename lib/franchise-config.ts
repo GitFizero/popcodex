@@ -112,7 +112,7 @@ export const franchises: Record<FranchiseId, FranchiseConfig> = {
       accentColor: '#DC2626',
       accentSecondary: '#D4A946',
       cssClass: 'universe-crimson',
-      fontDisplay: '"Cinzel", serif',
+      fontDisplay: '"Cinzel Decorative", "Cinzel", serif',
       fontBody: '"Crimson Text", serif',
       cardEffect: 'card-medieval',
       overlayEffect: 'overlay-vignette',

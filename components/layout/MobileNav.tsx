@@ -7,7 +7,6 @@ import { Menu, X, ChevronRight } from 'lucide-react';
 import { getFranchisesByMediaType } from '@/lib/franchise-config';
 import { getArticlesByFranchise } from '@/lib/articles';
 import Logo from './Logo';
-import ThemeToggle from './ThemeToggle';
 import LanguageSwitcher from './LanguageSwitcher';
 
 export default function MobileNav() {
@@ -90,9 +89,8 @@ export default function MobileNav() {
               </div>
             </nav>
 
-            <div className="p-4 border-t border-[var(--color-border)] flex items-center justify-between">
+            <div className="p-4 border-t border-[var(--color-border)] flex items-center">
               <LanguageSwitcher />
-              <ThemeToggle />
             </div>
           </div>
         </div>
