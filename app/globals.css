@@ -1,5 +1,4 @@
 @import "tailwindcss";
-@plugin "tailwindcss-animate";
 
 @theme inline {
   --color-background: var(--color-bg);
@@ -10,62 +9,6 @@
   --radius-card: 16px;
   --radius-button: 12px;
   --radius-input: 12px;
-
-  /* === Crimson Desert Wiki theme extensions === */
-  /* Font families */
-  --font-cdw-display: "Cinzel Decorative", serif;
-  --font-cdw-heading: "Cinzel", serif;
-  --font-cdw-body: "Crimson Text", serif;
-  --font-cdw-ui: "Rajdhani", sans-serif;
-  --font-cdw-lore: "IM Fell English", serif;
-
-  /* Custom colors for pywelwiki (shadcn-ui pattern) */
-  --color-cdw-border: hsl(var(--border));
-  --color-cdw-input: hsl(var(--input));
-  --color-cdw-ring: hsl(var(--ring));
-  --color-cdw-background: hsl(var(--background));
-  --color-cdw-foreground: hsl(var(--foreground));
-
-  --color-void: hsl(var(--bg-void));
-  --color-base: hsl(var(--bg-base));
-  --color-surface: hsl(var(--bg-surface));
-  --color-raised: hsl(var(--bg-raised));
-  --color-card-bg: hsl(var(--bg-card));
-  --color-card-bg-hover: hsl(var(--bg-card-hover));
-  --color-crimson-deep: hsl(var(--crimson-deep));
-  --color-crimson-core: hsl(var(--crimson-core));
-  --color-crimson-bright: hsl(var(--crimson-bright));
-  --color-crimson-fire: hsl(var(--crimson-fire));
-  --color-gold-dark: hsl(var(--gold-dark));
-  --color-gold-muted: hsl(var(--gold-muted));
-  --color-gold-mid: hsl(var(--gold-mid));
-  --color-gold-bright: hsl(var(--gold-bright));
-  --color-gold-shine: hsl(var(--gold-shine));
-  --color-sand-dark: hsl(var(--sand-dark));
-  --color-sand-mid: hsl(var(--sand-mid));
-  --color-sand-light: hsl(var(--sand-light));
-  --color-sand-pale: hsl(var(--sand-pale));
-  --color-smoke-dark: hsl(var(--smoke-dark));
-  --color-smoke-mid: hsl(var(--smoke-mid));
-  --color-smoke-light: hsl(var(--smoke-light));
-  --color-text-primary: hsl(var(--text-primary));
-  --color-text-secondary-cdw: hsl(var(--text-secondary));
-  --color-text-muted-custom: hsl(var(--text-muted));
-
-  /* Border radius */
-  --radius-lg: var(--radius);
-  --radius-md: calc(var(--radius) - 2px);
-  --radius-sm: calc(var(--radius) - 4px);
-
-  /* Animations */
-  --animate-accordion-down: cdw-accordion-down 0.2s ease-out;
-  --animate-accordion-up: cdw-accordion-up 0.2s ease-out;
-  --animate-fade-in-up: cdw-fade-in-up 0.7s cubic-bezier(0.16, 1, 0.3, 1) forwards;
-  --animate-slide-in-right: cdw-slide-in-right 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
-  --animate-slide-in-left: cdw-slide-in-left 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
-  --animate-scale-in: cdw-scale-in 0.3s ease-out forwards;
-  --animate-letter-space: cdw-letter-space 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
-  --animate-count-up: cdw-count-up 0.6s ease-out forwards;
 }
 
 /* ================================================================

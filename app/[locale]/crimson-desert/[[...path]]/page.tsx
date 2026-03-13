@@ -2,7 +2,6 @@
 
 import dynamic from 'next/dynamic';
 import { useParams } from 'next/navigation';
-import '@/crimson-desert-wiki/crimson-desert-wiki.css';
 
 const CrimsonDesertApp = dynamic(
   () => import('@/crimson-desert-wiki/App'),
@@ -22,5 +21,11 @@ export default function CrimsonDesertPage() {
   const params = useParams();
   const locale = params?.locale as string || 'fr';
 
-  return <CrimsonDesertApp basename={`/${locale}/crimson-desert`} />;
+  return (
+    <>
+      <link rel="stylesheet" href="/crimson-desert/pywelwiki.css" />
+      <link rel="stylesheet" href="/crimson-desert/overrides.css" />
+      <CrimsonDesertApp basename={`/${locale}/crimson-desert`} />
+    </>
+  );
 }
