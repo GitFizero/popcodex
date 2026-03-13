@@ -38,7 +38,7 @@ const StoryPage = ({ locale }: { locale: string }) => {
         <div className="max-w-3xl mx-auto space-y-4">
           {chapters.map((ch, i) => (
             <RevealOnScroll key={i}>
-              <div className={`bg-bg-card rounded-xl p-5 border border-${ch.color}/10 relative overflow-hidden`}>
+              <div className={`bg-[hsl(213,33%,13%)] rounded-xl p-5 border border-${ch.color}/10 relative overflow-hidden`}>
                 <div className={`absolute top-0 left-0 w-0.5 h-full bg-${ch.color}`} />
                 <span className={`font-rajdhani text-[0.5rem] text-${ch.color} tracking-widest`}>
                   {t('inline.chapter')} {ch.num}
@@ -50,7 +50,7 @@ const StoryPage = ({ locale }: { locale: string }) => {
           ))}
 
           <RevealOnScroll>
-            <div className="bg-bg-card rounded-xl p-5 border border-dashed border-text-muted-vice/20 relative overflow-hidden">
+            <div className="bg-[hsl(213,33%,13%)] rounded-xl p-5 border border-dashed border-text-muted-vice/20 relative overflow-hidden">
               <div className="blur-sm">
                 <span className="font-rajdhani text-[0.5rem] text-text-muted-vice tracking-widest">
                   {t('inline.chapter')} ???

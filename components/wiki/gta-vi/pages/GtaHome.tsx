@@ -2,6 +2,7 @@
 
 import { useEffect, useState, lazy, Suspense } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { useGtaI18n } from '@/lib/data/gta-vi/i18n';
 const heroLandscape = '/images/gta-vi/jason-lucia-02-landscape.jpg';
 import { characters } from '@/lib/data/gta-vi/characters';
@@ -47,18 +48,16 @@ const Index = ({ locale }: { locale: string }) => {
       {/* ══════ HERO ══════ */}
       <section className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden px-4">
         <div className="absolute inset-0">
-          <img 
-            src={heroLandscape} 
-            alt="Jason Duval et Lucia Caminos - Protagonistes de GTA VI Grand Theft Auto 6 - Artwork officiel Rockstar Games" 
-            className="w-full h-full object-cover object-top"
-            loading="eager"
-            fetchPriority="high"
-            decoding="async"
-            width={1920}
-            height={1080}
+          <Image
+            src={heroLandscape}
+            alt="Jason Duval et Lucia Caminos - Protagonistes de GTA VI Grand Theft Auto 6 - Artwork officiel Rockstar Games"
+            className="object-cover object-top"
+            fill
+            priority
+            sizes="100vw"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-bg-void via-bg-void/70 to-transparent" />
-          <div className="absolute inset-0 bg-gradient-to-b from-bg-void/60 via-transparent to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[hsl(220,67%,2%)] via-[hsl(220,67%,2%,0.7)] to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-b from-[hsl(220,67%,2%,0.6)] via-transparent to-transparent" />
         </div>
         <div className="absolute inset-0 bg-vignette pointer-events-none" />
 
@@ -112,7 +111,7 @@ const Index = ({ locale }: { locale: string }) => {
       {/* ══════ SYNOPSIS ══════ */}
       <RevealOnScroll>
         <section className="relative py-16 px-4">
-          <div className="relative max-w-2xl mx-auto border border-neon-pink/15 rounded-lg p-6 sm:p-10 bg-bg-raised/50">
+          <div className="relative max-w-2xl mx-auto border border-neon-pink/15 rounded-lg p-6 sm:p-10 bg-[hsl(214,36%,10%)]/50">
             <p className="font-barlow font-light text-base sm:text-lg text-text-primary italic leading-relaxed mb-4">
               {t('synopsis.text')}
             </p>
@@ -150,9 +149,9 @@ const Index = ({ locale }: { locale: string }) => {
       <RevealOnScroll>
         <section className="py-16 px-4">
           <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-6">
-            <Link href={`/${locale}/gta-vi/characters?id=lucia`} className="card-glow-pink bg-bg-card rounded-xl p-6 border border-neon-pink/10 group cursor-pointer">
+            <Link href={`/${locale}/gta-vi/characters?id=lucia`} className="card-glow-pink bg-[hsl(213,33%,13%)] rounded-xl p-6 border border-neon-pink/10 group cursor-pointer">
               <div className="flex items-center gap-3 mb-3">
-                <img src={characterImages.lucia.square} alt="Lucia Caminos" className="w-12 h-12 rounded-full object-cover border-2 border-neon-pink/30" />
+                <Image src={characterImages.lucia.square} alt="Lucia Caminos" width={48} height={48} className="w-12 h-12 rounded-full object-cover border-2 border-neon-pink/30" />
                 <div>
                   <h3 className="font-bebas text-xl neon-pink-text">LUCIA CAMINOS</h3>
                   <span className="font-rajdhani text-[0.55rem] px-2 py-0.5 rounded bg-neon-gold/20 text-neon-gold">{t('characters.playable')}</span>
@@ -166,9 +165,9 @@ const Index = ({ locale }: { locale: string }) => {
               </p>
             </Link>
 
-            <Link href={`/${locale}/gta-vi/characters?id=jason`} className="card-glow-cyan bg-bg-card rounded-xl p-6 border border-neon-cyan/10 group cursor-pointer">
+            <Link href={`/${locale}/gta-vi/characters?id=jason`} className="card-glow-cyan bg-[hsl(213,33%,13%)] rounded-xl p-6 border border-neon-cyan/10 group cursor-pointer">
               <div className="flex items-center gap-3 mb-3">
-                <img src={characterImages.jason.square} alt="Jason Duval" className="w-12 h-12 rounded-full object-cover border-2 border-neon-cyan/30" />
+                <Image src={characterImages.jason.square} alt="Jason Duval" width={48} height={48} className="w-12 h-12 rounded-full object-cover border-2 border-neon-cyan/30" />
                 <div>
                   <h3 className="font-bebas text-xl neon-cyan-text">JASON DUVAL</h3>
                   <span className="font-rajdhani text-[0.55rem] px-2 py-0.5 rounded bg-neon-gold/20 text-neon-gold">{t('characters.playable')}</span>
@@ -188,7 +187,7 @@ const Index = ({ locale }: { locale: string }) => {
       {/* ══════ ONLY IN LEONIDA ══════ */}
       <RevealOnScroll>
         <section className="relative py-20 px-4 overflow-hidden">
-          <div className="absolute inset-0 bg-gradient-to-t from-bg-void via-bg-surface to-bg-void" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[hsl(220,67%,2%)] via-[hsl(214,40%,7%)] to-[hsl(220,67%,2%)]" />
           <div className="relative z-10 text-center">
             <h2 className="font-bebas text-[clamp(2rem,6vw,4rem)] text-text-primary/10 mb-6">ONLY IN LEONIDA</h2>
             <p className="font-bebas text-2xl sm:text-4xl neon-pink-text neon-flicker mb-8">VICE CITY</p>
@@ -260,7 +259,7 @@ const Index = ({ locale }: { locale: string }) => {
             <h2 className="font-rajdhani text-xs neon-cyan-text tracking-widest mb-5">{t('eyefind.title')} <span className="animate-pulse">▌</span></h2>
             <div className="space-y-2">
               {eyefindPosts.map((post, i) => (
-                <div key={i} className="bg-bg-card rounded-lg p-3 border border-neon-cyan/5 hover:border-neon-cyan/15 transition-colors">
+                <div key={i} className="bg-[hsl(213,33%,13%)] rounded-lg p-3 border border-neon-cyan/5 hover:border-neon-cyan/15 transition-colors">
                   <span className="font-rajdhani text-[0.6rem] text-neon-cyan">{post.user}</span>
                   <p className="font-dm text-xs text-text-primary mt-1">{post.text}</p>
                   <span className="font-rajdhani text-[0.5rem] text-text-muted-vice">♥ {post.likes.toLocaleString()}</span>
@@ -279,22 +278,22 @@ const Index = ({ locale }: { locale: string }) => {
         <section className="py-16 px-4">
           <h2 className="font-bebas text-2xl sm:text-3xl text-text-primary text-center mb-10">{t('timeline.title')}</h2>
           <div className="max-w-3xl mx-auto grid sm:grid-cols-2 lg:grid-cols-4 gap-3">
-            <div className="bg-bg-card rounded-lg p-4 border border-neon-pink/15">
+            <div className="bg-[hsl(213,33%,13%)] rounded-lg p-4 border border-neon-pink/15">
               <span className="font-rajdhani text-[0.5rem] text-neon-pink tracking-widest">TRAILER 1</span>
               <h3 className="font-bebas text-lg text-text-primary mt-1">{t('inline.dec2023')}</h3>
               <p className="font-dm text-[0.6rem] text-text-muted-vice mt-1">"Love Is a Long Road"</p>
             </div>
-            <div className="bg-bg-card rounded-lg p-4 border border-neon-cyan/15">
+            <div className="bg-[hsl(213,33%,13%)] rounded-lg p-4 border border-neon-cyan/15">
               <span className="font-rajdhani text-[0.5rem] text-neon-cyan tracking-widest">TRAILER 2</span>
               <h3 className="font-bebas text-lg text-text-primary mt-1">{t('inline.may2025')}</h3>
               <p className="font-dm text-[0.6rem] text-text-muted-vice mt-1">475M {t('inline.views')}</p>
             </div>
-            <div className="bg-bg-card rounded-lg p-4 border border-dashed border-neon-orange/30">
+            <div className="bg-[hsl(213,33%,13%)] rounded-lg p-4 border border-dashed border-neon-orange/30">
               <span className="font-rajdhani text-[0.5rem] text-neon-orange tracking-widest">MARKETING</span>
               <h3 className="font-bebas text-lg text-text-primary mt-1">{t('inline.summer2026')}</h3>
               <span className="font-rajdhani text-[0.45rem] px-1.5 py-0.5 rounded bg-neon-orange/10 text-neon-orange inline-block">{t('inline.pending')}</span>
             </div>
-            <div className="bg-bg-card rounded-lg p-4 border border-neon-cyan/30" style={{ boxShadow: '0 0 15px hsl(var(--neon-cyan) / 0.1)' }}>
+            <div className="bg-[hsl(213,33%,13%)] rounded-lg p-4 border border-neon-cyan/30" style={{ boxShadow: '0 0 15px hsl(var(--neon-cyan) / 0.1)' }}>
               <span className="font-rajdhani text-[0.5rem] text-neon-cyan tracking-widest animate-pulse">{t('inline.release')}</span>
               <h3 className="font-bebas text-lg neon-cyan-text mt-1">{t('inline.nov2026')}</h3>
             </div>
@@ -313,19 +312,19 @@ const Index = ({ locale }: { locale: string }) => {
               {lang === 'fr' ? 'Précommandez au meilleur prix sur votre plateforme' : lang === 'es' ? 'Reserva al mejor precio en tu plataforma' : lang === 'it' ? 'Preordina al miglior prezzo sulla tua piattaforma' : 'Pre-order at the best price on your platform'}
             </p>
             <div className="grid sm:grid-cols-3 gap-4 mb-6">
-              <a href="https://www.instant-gaming.com/fr/15506-acheter-grand-theft-auto-vi-playstation-5-playstation-store/?igr=gamer-9c3b7dc" target="_blank" rel="noopener noreferrer nofollow" className="bg-bg-card rounded-xl p-4 border border-neon-cyan/15 hover:border-neon-cyan/40 transition-all hover:-translate-y-1 group">
+              <a href="https://www.instant-gaming.com/fr/15506-acheter-grand-theft-auto-vi-playstation-5-playstation-store/?igr=gamer-9c3b7dc" target="_blank" rel="noopener noreferrer nofollow" className="bg-[hsl(213,33%,13%)] rounded-xl p-4 border border-neon-cyan/15 hover:border-neon-cyan/40 transition-all hover:-translate-y-1 group">
                 <p className="font-bebas text-lg text-neon-cyan mb-1">PlayStation 5</p>
                 <span className="font-barlow font-semibold text-[0.65rem] px-4 py-1.5 rounded bg-neon-cyan text-bg-void inline-block group-hover:shadow-[0_0_15px_hsl(var(--neon-cyan)/0.3)] transition-all">
                   {lang === 'fr' ? 'ACHETER' : lang === 'es' ? 'COMPRAR' : lang === 'it' ? 'ACQUISTA' : 'BUY'}
                 </span>
               </a>
-              <a href="https://www.instant-gaming.com/fr/15505-acheter-grand-theft-auto-vi-xbox-series-x-s-microsoft-store/?igr=gamer-9c3b7dc" target="_blank" rel="noopener noreferrer nofollow" className="bg-bg-card rounded-xl p-4 border border-neon-green/15 hover:border-neon-green/40 transition-all hover:-translate-y-1 group">
+              <a href="https://www.instant-gaming.com/fr/15505-acheter-grand-theft-auto-vi-xbox-series-x-s-microsoft-store/?igr=gamer-9c3b7dc" target="_blank" rel="noopener noreferrer nofollow" className="bg-[hsl(213,33%,13%)] rounded-xl p-4 border border-neon-green/15 hover:border-neon-green/40 transition-all hover:-translate-y-1 group">
                 <p className="font-bebas text-lg text-neon-green mb-1">Xbox Series X|S</p>
                 <span className="font-barlow font-semibold text-[0.65rem] px-4 py-1.5 rounded bg-neon-green text-bg-void inline-block group-hover:shadow-[0_0_15px_hsl(var(--neon-green)/0.3)] transition-all">
                   {lang === 'fr' ? 'ACHETER' : lang === 'es' ? 'COMPRAR' : lang === 'it' ? 'ACQUISTA' : 'BUY'}
                 </span>
               </a>
-              <a href="https://www.instant-gaming.com/fr/2462-acheter-grand-theft-auto-vi-pc-rockstar/?igr=gamer-9c3b7dc" target="_blank" rel="noopener noreferrer nofollow" className="bg-bg-card rounded-xl p-4 border border-neon-orange/15 hover:border-neon-orange/40 transition-all hover:-translate-y-1 group">
+              <a href="https://www.instant-gaming.com/fr/2462-acheter-grand-theft-auto-vi-pc-rockstar/?igr=gamer-9c3b7dc" target="_blank" rel="noopener noreferrer nofollow" className="bg-[hsl(213,33%,13%)] rounded-xl p-4 border border-neon-orange/15 hover:border-neon-orange/40 transition-all hover:-translate-y-1 group">
                 <p className="font-bebas text-lg text-neon-orange mb-1">PC</p>
                 <span className="font-barlow font-semibold text-[0.65rem] px-4 py-1.5 rounded bg-neon-orange text-bg-void inline-block group-hover:shadow-[0_0_15px_hsl(var(--neon-orange)/0.3)] transition-all">
                   {lang === 'fr' ? 'ACHETER' : lang === 'es' ? 'COMPRAR' : lang === 'it' ? 'ACQUISTA' : 'BUY'}
@@ -351,7 +350,7 @@ const Index = ({ locale }: { locale: string }) => {
               <Link
                 key={article.id}
                 href={`/${locale}/gta-vi${getArticlePath(article, lang)}`}
-                className="group bg-bg-card rounded-xl overflow-hidden border border-white/5 hover:border-neon-cyan/20 transition-all hover:-translate-y-1"
+                className="group bg-[hsl(213,33%,13%)] rounded-xl overflow-hidden border border-white/5 hover:border-neon-cyan/20 transition-all hover:-translate-y-1"
               >
                 <div className="relative aspect-[16/9]">
                   <img

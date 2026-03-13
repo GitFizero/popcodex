@@ -36,7 +36,7 @@ const GameplayPage = ({ locale }: { locale: string }) => {
               </button>
             </div>
             <div className="grid md:grid-cols-2 gap-4">
-              <div className={`bg-bg-card rounded-xl p-5 border transition-all duration-500 ${
+              <div className={`bg-[hsl(213,33%,13%)] rounded-xl p-5 border transition-all duration-500 ${
                 activeProtag === 'lucia' ? 'border-neon-pink/30 scale-100 opacity-100' : 'border-neon-pink/5 scale-95 opacity-50'
               }`}>
                 <h3 className="font-bebas text-xl neon-pink-text mb-1">LUCIA CAMINOS</h3>
@@ -45,7 +45,7 @@ const GameplayPage = ({ locale }: { locale: string }) => {
                 </p>
                 <p className="font-marker text-xs text-neon-pink/50">"The only thing that matters..."</p>
               </div>
-              <div className={`bg-bg-card rounded-xl p-5 border transition-all duration-500 ${
+              <div className={`bg-[hsl(213,33%,13%)] rounded-xl p-5 border transition-all duration-500 ${
                 activeProtag === 'jason' ? 'border-neon-cyan/30 scale-100 opacity-100' : 'border-neon-cyan/5 scale-95 opacity-50'
               }`}>
                 <h3 className="font-bebas text-xl neon-cyan-text mb-1">JASON DUVAL</h3>
@@ -83,7 +83,7 @@ const GameplayPage = ({ locale }: { locale: string }) => {
       <RevealOnScroll>
         <section className="py-12 px-4">
           <h2 className="font-bebas text-2xl text-text-primary text-center mb-6">{t('gameplay.social')}</h2>
-          <div className="max-w-xl mx-auto bg-bg-card rounded-xl p-5 border border-neon-cyan/10">
+          <div className="max-w-xl mx-auto bg-[hsl(213,33%,13%)] rounded-xl p-5 border border-neon-cyan/10">
             <div className="flex gap-3 mb-3">
               <span className="font-rajdhani text-[0.6rem] text-neon-cyan tracking-widest">EYEFIND</span>
               <span className="font-rajdhani text-[0.6rem] text-text-muted-vice tracking-widest">WHIZ WIRELESS</span>
@@ -108,7 +108,7 @@ const GameplayPage = ({ locale }: { locale: string }) => {
               { call: 'FLASH 95.6', genre: 'Hip-Hop' },
               { call: 'OCEAN DRIVE', genre: 'Electronic' },
             ].map(r => (
-              <div key={r.call} className="bg-bg-card rounded-lg p-3 border border-neon-orange/10">
+              <div key={r.call} className="bg-[hsl(213,33%,13%)] rounded-lg p-3 border border-neon-orange/10">
                 <h3 className="font-bebas text-sm text-text-primary">{r.call}</h3>
                 <p className="font-rajdhani text-[0.55rem] text-text-muted-vice">{r.genre}</p>
                 <span className="font-rajdhani text-[0.45rem] px-1.5 py-0.5 rounded bg-neon-orange/10 text-neon-orange mt-1 inline-block tracking-widest">

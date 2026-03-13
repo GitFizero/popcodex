@@ -251,7 +251,7 @@ const BlogArticlePage = ({ locale, slug }: { locale: string; slug: string }) => 
             <span className="text-text-muted-vice">({tocItems.length})</span>
           </button>
           {tocOpen && (
-            <nav className="mt-3 p-4 rounded-lg bg-bg-card border border-neon-cyan/10" aria-label="Table of contents">
+            <nav className="mt-3 p-4 rounded-lg bg-[hsl(213,33%,13%)] border border-neon-cyan/10" aria-label="Table of contents">
               <ol className="space-y-1.5">
                 {tocItems.map((item, i) => (
                   <li key={item.id}>
@@ -291,7 +291,7 @@ const BlogArticlePage = ({ locale, slug }: { locale: string; slug: string }) => 
           </h2>
           <div className="space-y-4">
             {faqs.map((faq, i) => (
-              <details key={i} className="group bg-bg-card rounded-lg border border-neon-cyan/10 overflow-hidden">
+              <details key={i} className="group bg-[hsl(213,33%,13%)] rounded-lg border border-neon-cyan/10 overflow-hidden">
                 <summary className="font-barlow font-semibold text-xs text-text-primary p-4 cursor-pointer hover:text-neon-cyan transition-colors list-none flex items-center justify-between">
                   {faq.q}
                   <ChevronRight className="w-4 h-4 text-text-muted-vice transition-transform group-open:rotate-90" />
@@ -316,7 +316,7 @@ const BlogArticlePage = ({ locale, slug }: { locale: string; slug: string }) => 
               <Link
                 key={related.id}
                 href={`/${locale}/gta-vi${getArticlePath(related, lang)}`}
-                className="group bg-bg-card rounded-xl overflow-hidden border border-white/5 hover:border-neon-cyan/20 transition-all hover:-translate-y-1"
+                className="group bg-[hsl(213,33%,13%)] rounded-xl overflow-hidden border border-white/5 hover:border-neon-cyan/20 transition-all hover:-translate-y-1"
               >
                 <div className="relative aspect-[16/9]">
                   <img

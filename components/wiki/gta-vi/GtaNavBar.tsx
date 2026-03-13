@@ -111,13 +111,13 @@ const GtaNavBar = ({ locale, onSearchOpen }: GtaNavBarProps) => {
                 <span className="font-rajdhani text-[0.65rem] tracking-widest">{lang.toUpperCase()}</span>
               </button>
               {langMenuOpen && (
-                <div className="absolute right-0 top-full mt-1 bg-bg-card border border-neon-cyan/20 rounded-lg shadow-xl overflow-hidden min-w-[140px] z-50">
+                <div className="absolute right-0 top-full mt-1 bg-[hsl(213,33%,13%)] border border-neon-cyan/20 rounded-lg shadow-xl overflow-hidden min-w-[140px] z-50">
                   {langOptions.map(opt => (
                     <button
                       key={opt.code}
                       onClick={() => { switchLang(opt.code); setLangMenuOpen(false); }}
                       className={`w-full text-left px-3 py-2 flex items-center gap-2 font-rajdhani text-xs tracking-wider transition-colors ${
-                        lang === opt.code ? 'bg-neon-cyan/10 text-neon-cyan' : 'text-text-secondary hover:bg-bg-raised hover:text-text-primary'
+                        lang === opt.code ? 'bg-neon-cyan/10 text-neon-cyan' : 'text-text-secondary hover:bg-[hsl(214,36%,10%)] hover:text-text-primary'
                       }`}
                     >
                       <span>{opt.flag}</span>
@@ -145,7 +145,7 @@ const GtaNavBar = ({ locale, onSearchOpen }: GtaNavBarProps) => {
       </nav>
 
       {mobileOpen && (
-        <div className="fixed inset-0 z-[999] bg-bg-void/98 flex flex-col items-center justify-center gap-3 sm:gap-5 overflow-y-auto py-16">
+        <div className="fixed inset-0 z-[999] bg-[hsl(220,67%,2%,0.98)] flex flex-col items-center justify-center gap-3 sm:gap-5 overflow-y-auto py-16">
           <div className="flex flex-wrap justify-center gap-2 mb-4">
             {langOptions.map(opt => (
               <button

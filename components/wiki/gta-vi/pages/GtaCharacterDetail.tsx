@@ -77,7 +77,7 @@ const CharacterDetail = ({ locale, slug }: { locale: string; slug: string }) => 
     : characters.filter(c => c.id !== character.id).slice(0, 4);
 
   return (
-    <div className="min-h-screen bg-bg-void pt-20 pb-32">
+    <div className="min-h-screen bg-[hsl(220,67%,2%)] pt-20 pb-32">
       {/* SEO metadata handled by page.tsx */}
       <nav className="max-w-5xl mx-auto px-4 mb-6" aria-label="Breadcrumb">
         <ol className="flex items-center gap-1.5 font-rajdhani text-[0.6rem] text-text-muted-vice">
@@ -104,7 +104,7 @@ const CharacterDetail = ({ locale, slug }: { locale: string; slug: string }) => 
                   alt={`${character.name} - Personnage GTA VI Grand Theft Auto 6`}
                   className="w-full h-56 sm:h-72 md:h-80 object-cover object-top"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-bg-void via-bg-void/60 to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-[hsl(220,67%,2%)] via-[hsl(220,67%,2%,0.6)] to-transparent" />
                 <div className="absolute bottom-0 left-0 right-0 p-6 sm:p-8">
                   {character.badge && (
                     <span className="font-rajdhani text-[0.5rem] px-2 py-0.5 rounded bg-neon-gold/15 text-neon-gold mb-2 inline-block">
@@ -149,7 +149,7 @@ const CharacterDetail = ({ locale, slug }: { locale: string; slug: string }) => 
               <h2 className="font-bebas text-lg text-text-primary mb-3 text-center">
                 {t('inline.videoClip')}
               </h2>
-              <div className="rounded-xl overflow-hidden border border-border-subtle bg-bg-card">
+              <div className="rounded-xl overflow-hidden border border-border-subtle bg-[hsl(213,33%,13%)]">
                 <video
                   src={character.video}
                   controls
@@ -171,7 +171,7 @@ const CharacterDetail = ({ locale, slug }: { locale: string; slug: string }) => 
               className={`font-rajdhani text-[0.6rem] px-4 py-2 rounded tracking-widest whitespace-nowrap transition-colors ${
                 activeTab === tb
                   ? `bg-${character.colorClass}/15 text-${character.colorClass}`
-                  : 'bg-bg-card text-text-muted-vice hover:text-text-secondary border border-border-subtle'
+                  : 'bg-[hsl(213,33%,13%)] text-text-muted-vice hover:text-text-secondary border border-border-subtle'
               }`}
             >
               {tabLabels[tb]}
@@ -180,7 +180,7 @@ const CharacterDetail = ({ locale, slug }: { locale: string; slug: string }) => 
         </div>
 
         <RevealOnScroll>
-          <div className="bg-bg-card rounded-xl p-6 sm:p-8 border border-neon-cyan/5 min-h-[400px]">
+          <div className="bg-[hsl(213,33%,13%)] rounded-xl p-6 sm:p-8 border border-neon-cyan/5 min-h-[400px]">
             {activeTab === 'bio' && (
               <div>
                 <h2 className="font-bebas text-xl text-text-primary mb-4">
@@ -197,7 +197,7 @@ const CharacterDetail = ({ locale, slug }: { locale: string; slug: string }) => 
                 </h3>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                   {Object.entries(character.info).map(([k, v]) => (
-                    <div key={k} className="bg-bg-raised rounded-lg p-3">
+                    <div key={k} className="bg-[hsl(214,36%,10%)] rounded-lg p-3">
                       <span className="font-rajdhani text-[0.55rem] text-text-muted-vice tracking-widest">{k.toUpperCase()}</span>
                       <p className="font-dm text-xs text-text-primary mt-1">{v}</p>
                     </div>
@@ -242,7 +242,7 @@ const CharacterDetail = ({ locale, slug }: { locale: string; slug: string }) => 
                 </h2>
                 <div className="space-y-3">
                   {character.relations.map((r, i) => (
-                    <div key={i} className="flex items-center gap-3 bg-bg-raised rounded-lg p-4">
+                    <div key={i} className="flex items-center gap-3 bg-[hsl(214,36%,10%)] rounded-lg p-4">
                       <div className={`w-3 h-3 rounded-full bg-${r.color}`} />
                       <div>
                         <span className="font-barlow font-semibold text-sm text-text-primary">{r.name}</span>
@@ -270,7 +270,7 @@ const CharacterDetail = ({ locale, slug }: { locale: string; slug: string }) => 
                       key={i}
                       onClick={() => setCitationIdx(i)}
                       className={`w-2 h-2 rounded-full transition-colors ${
-                        i === citationIdx ? `bg-${character.colorClass}` : 'bg-bg-raised'
+                        i === citationIdx ? `bg-${character.colorClass}` : 'bg-[hsl(214,36%,10%)]'
                       }`}
                     />
                   ))}
@@ -319,7 +319,7 @@ const CharacterDetail = ({ locale, slug }: { locale: string; slug: string }) => 
                 <Link
                   key={c.id}
                   href={`/${locale}/gta-vi/characters/${cSeo.slug}`}
-                  className="group bg-bg-card rounded-lg p-4 border border-border-subtle hover:border-neon-cyan/20 transition-all"
+                  className="group bg-[hsl(213,33%,13%)] rounded-lg p-4 border border-border-subtle hover:border-neon-cyan/20 transition-all"
                 >
                   {c.imageSquare ? (
                     <img

@@ -2,185 +2,152 @@
 
 import { useTranslations, useLocale } from 'next-intl';
 import Link from 'next/link';
+import Image from 'next/image';
 import { motion } from 'framer-motion';
-import { ArrowRight, Calendar } from 'lucide-react';
+import { ArrowRight, Calendar, Sparkles } from 'lucide-react';
 import { getAllFranchiseIds, franchises, FranchiseConfig } from '@/lib/franchise-config';
 import { getArticlesByFranchise } from '@/lib/articles';
 
-function UniverseCard({ franchise, locale, large, index }: { franchise: FranchiseConfig; locale: string; large?: boolean; index: number }) {
+/* Image mapping per franchise */
+const universeImages: Record<string, string> = {
+  'gta-vi': '/images/gta-vi/jason-lucia-hero-landscape.jpg',
+  'crimson-desert': '/images/crimson-desert/pywel-panorama.jpg',
+  fable: '/images/crimson-desert/forest-bridge.jpg', // placeholder — enchanted forest vibe
+  wolverine: '/images/gta-vi/jason-lucia-motel-landscape.jpg', // placeholder — dark noir vibe
+};
+
+function UniverseCard({
+  franchise,
+  locale,
+  index,
+  featured,
+}: {
+  franchise: FranchiseConfig;
+  locale: string;
+  index: number;
+  featured?: boolean;
+}) {
   const t = useTranslations('universe');
   const articleCount = getArticlesByFranchise(franchise.id).length;
   const releaseDate = new Date(franchise.releaseDate);
-  const dateStr = releaseDate.toLocaleDateString(locale === 'en' ? 'en-US' : locale, { day: 'numeric', month: 'long', year: 'numeric' });
-
-  const isGta = franchise.id === 'gta-vi';
-  const isCrimson = franchise.id === 'crimson-desert';
-  const isFable = franchise.id === 'fable';
-  const isWolverine = franchise.id === 'wolverine';
-  const isImmersive = isGta || isCrimson || isFable || isWolverine;
+  const dateStr = releaseDate.toLocaleDateString(
+    locale === 'en' ? 'en-US' : locale,
+    { day: 'numeric', month: 'long', year: 'numeric' }
+  );
   const secondaryColor = franchise.theme.accentSecondary || franchise.accentColor;
+  const imageSrc = universeImages[franchise.id];
 
   return (
     <motion.div
-      initial={{ opacity: 0, y: 30 }}
+      initial={{ opacity: 0, y: 40 }}
       whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, margin: '-50px' }}
-      transition={{ duration: 0.5, ease: 'easeOut', delay: index * 0.1 }}
-      className={large ? 'sm:col-span-2' : ''}
+      viewport={{ once: true, margin: '-80px' }}
+      transition={{ duration: 0.6, ease: 'easeOut', delay: index * 0.12 }}
+      className={featured ? 'sm:col-span-2 lg:col-span-2' : ''}
     >
       <Link
         href={`/${locale}/${franchise.id}`}
-        className="group block rounded-[var(--radius-card)] border border-[var(--color-border)] hover:border-[var(--color-border-hover)] overflow-hidden bg-[var(--color-bg-elevated)] transition-all duration-300 hover:-translate-y-1 hover:shadow-lg no-underline"
+        className="group block relative rounded-2xl overflow-hidden no-underline transition-all duration-500 hover:-translate-y-2"
         style={{
-          boxShadow: isGta
-            ? `0 0 0 1px hsl(189 100% 50% / 0.06)`
-            : isCrimson
-              ? `0 8px 32px rgba(0,0,0,0.2)`
-              : undefined,
+          boxShadow: `0 4px 30px rgba(0,0,0,0.3), 0 0 0 1px ${franchise.accentColor}10`,
         }}
       >
-        {/* Visual preview area — teases the universe aesthetic */}
-        <div
-          className={`relative ${large ? 'h-48 sm:h-64' : 'h-40 sm:h-48'} overflow-hidden`}
-          style={{
-            background: isGta
-              ? 'linear-gradient(180deg, hsl(220 67% 3%), hsl(216 56% 6%))'
-              : isCrimson
-                ? 'linear-gradient(135deg, hsl(10 50% 3%), hsl(20 33% 6%))'
-                : isFable
-                  ? 'linear-gradient(180deg, hsl(150 30% 3%), hsl(140 25% 7%))'
-                  : isWolverine
-                    ? 'linear-gradient(180deg, hsl(0 0% 3%), hsl(40 5% 7%))'
-                    : `linear-gradient(135deg, ${franchise.accentColor}08, ${franchise.accentColor}20, ${franchise.accentColor}08)`,
-          }}
-        >
-          {/* GTA: neon grid + scanlines */}
-          {isGta && (
-            <>
-              <div
-                className="absolute inset-0 opacity-30"
-                style={{
-                  backgroundImage: 'linear-gradient(hsl(189 100% 50% / 0.06) 1px, transparent 1px), linear-gradient(90deg, hsl(189 100% 50% / 0.06) 1px, transparent 1px)',
-                  backgroundSize: '40px 40px',
-                }}
-              />
-              <div
-                className="absolute inset-0 opacity-20"
-                style={{
-                  background: 'repeating-linear-gradient(0deg, transparent, transparent 2px, hsl(206 100% 95% / 0.02) 2px, hsl(206 100% 95% / 0.02) 4px)',
-                }}
-              />
-            </>
-          )}
-
-          {/* Crimson Desert: noise + warm vignette */}
-          {isCrimson && (
+        {/* Image background */}
+        <div className={`relative ${featured ? 'h-72 sm:h-96' : 'h-64 sm:h-80'} overflow-hidden`}>
+          {imageSrc ? (
+            <Image
+              src={imageSrc}
+              alt={franchise.name[locale] || franchise.name.fr}
+              fill
+              className="object-cover transition-transform duration-700 group-hover:scale-105"
+              sizes={featured ? '(max-width: 768px) 100vw, 66vw' : '(max-width: 768px) 100vw, 33vw'}
+              loading={index < 2 ? 'eager' : 'lazy'}
+            />
+          ) : (
             <div
               className="absolute inset-0"
               style={{
-                background: 'radial-gradient(ellipse at center, transparent 40%, rgba(0,0,0,0.4) 100%)',
+                background: `linear-gradient(135deg, ${franchise.accentColor}20, ${secondaryColor}15, ${franchise.accentColor}08)`,
               }}
             />
           )}
 
-          {/* Fable: forest mist */}
-          {isFable && (
-            <div
-              className="absolute inset-0"
-              style={{
-                background: 'radial-gradient(ellipse at 30% 70%, hsl(120 30% 20% / 0.15) 0%, transparent 50%), radial-gradient(ellipse at center, transparent 50%, rgba(0,0,0,0.3) 100%)',
-              }}
-            />
-          )}
-
-          {/* Wolverine: noir vignette */}
-          {isWolverine && (
-            <div
-              className="absolute inset-0"
-              style={{
-                background: 'radial-gradient(ellipse at center, transparent 30%, rgba(0,0,0,0.5) 100%)',
-              }}
-            />
-          )}
-
-          {/* Watermark text */}
-          <div className="absolute inset-0 flex items-center justify-center">
-            <span
-              className={`font-bold ${isGta ? 'text-7xl sm:text-9xl' : 'text-6xl sm:text-8xl'}`}
-              style={{
-                fontFamily: franchise.theme.fontDisplay,
-                color: isGta ? '#FF1493' : isCrimson ? '#D4A946' : isFable ? '#FACC15' : isWolverine ? '#EAB308' : franchise.accentColor,
-                opacity: isGta ? 0.12 : isWolverine ? 0.1 : isCrimson || isFable ? 0.08 : 0.1,
-                letterSpacing: isImmersive ? '0.06em' : undefined,
-                textTransform: isImmersive ? 'uppercase' : undefined,
-                textShadow: isGta
-                  ? '0 0 40px hsl(330 100% 56% / 0.3)'
-                  : isWolverine
-                    ? '0 0 30px hsl(45 100% 50% / 0.2)'
-                    : undefined,
-              }}
-            >
-              {isGta ? 'VI' : isCrimson ? 'PYWEL' : isWolverine ? 'X' : isFable ? 'ALBION' : (franchise.name[locale]?.split(' ')[0] || franchise.id.toUpperCase())}
-            </span>
-          </div>
-
-          {/* Accent bar at bottom of preview */}
+          {/* Gradient overlay */}
           <div
-            className="absolute bottom-0 left-0 right-0 h-[2px]"
+            className="absolute inset-0 transition-opacity duration-500"
             style={{
-              background: isImmersive
-                ? `linear-gradient(90deg, ${franchise.accentColor}, ${secondaryColor})`
-                : franchise.accentColor,
-              boxShadow: isGta || isWolverine ? `0 0 10px ${franchise.accentColor}60` : undefined,
+              background: `linear-gradient(180deg, transparent 20%, rgba(0,0,0,0.4) 50%, rgba(0,0,0,0.85) 100%)`,
             }}
           />
-        </div>
 
-        <div className="p-5 sm:p-6">
-          <div className="flex items-start justify-between gap-4">
+          {/* Accent line — top */}
+          <motion.div
+            className="absolute top-0 left-0 right-0 h-[2px] origin-left"
+            style={{
+              background: `linear-gradient(90deg, ${franchise.accentColor}, ${secondaryColor})`,
+              boxShadow: `0 0 15px ${franchise.accentColor}60`,
+            }}
+            initial={{ scaleX: 0 }}
+            whileInView={{ scaleX: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8, delay: index * 0.12 + 0.3 }}
+          />
+
+          {/* Hover glow */}
+          <div
+            className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"
+            style={{
+              background: `radial-gradient(ellipse at 50% 80%, ${franchise.accentColor}15 0%, transparent 60%)`,
+            }}
+          />
+
+          {/* Content overlay */}
+          <div className="absolute bottom-0 left-0 right-0 p-6 sm:p-8">
+            <div className="flex items-center gap-2 mb-3">
+              <Sparkles className="w-3.5 h-3.5" style={{ color: franchise.accentColor }} />
+              <span
+                className="text-[10px] font-semibold tracking-[0.15em] uppercase"
+                style={{ color: franchise.accentColor }}
+              >
+                {franchise.mediaType === 'games'
+                  ? locale === 'en' ? 'Game' : locale === 'es' ? 'Juego' : 'Jeu'
+                  : franchise.mediaType}
+              </span>
+            </div>
+
             <h3
-              className="text-xl sm:text-2xl font-bold text-[var(--color-text)]"
+              className={`font-bold text-white ${featured ? 'text-3xl sm:text-4xl' : 'text-2xl sm:text-3xl'}`}
               style={{
                 fontFamily: franchise.theme.fontDisplay,
-                letterSpacing: isImmersive ? '0.04em' : undefined,
-                textTransform: isImmersive ? 'uppercase' : undefined,
+                letterSpacing: '0.04em',
+                textShadow: `0 2px 20px rgba(0,0,0,0.5)`,
               }}
             >
               {franchise.name[locale] || franchise.name.fr}
             </h3>
-            <ArrowRight
-              className="w-5 h-5 text-[var(--color-text-tertiary)] group-hover:translate-x-0.5 flex-shrink-0 mt-1 transition-all duration-200"
-              style={{
-                color: isGta ? secondaryColor : undefined,
-              }}
-            />
-          </div>
 
-          <div className="mt-3 flex flex-wrap items-center gap-2">
-            {franchise.categories.slice(0, 3).map((cat) => (
-              <span
-                key={cat.slug.fr}
-                className="text-xs px-2.5 py-1 rounded-full"
-                style={{
-                  background: `${franchise.accentColor}10`,
-                  color: franchise.accentColor,
-                  fontFamily: franchise.theme.fontDisplay,
-                  letterSpacing: isImmersive ? '0.04em' : undefined,
-                  textTransform: isImmersive ? 'uppercase' : undefined,
-                  fontSize: isImmersive ? '0.65rem' : undefined,
-                }}
-              >
-                {cat.label[locale] || cat.label.fr}
+            <p className="mt-2 text-sm text-white/60 line-clamp-2 max-w-md leading-relaxed">
+              {franchise.description[locale] || franchise.description.fr}
+            </p>
+
+            <div className="mt-4 flex items-center gap-4 text-xs text-white/40">
+              <span>{t('articlesCount', { count: articleCount })}</span>
+              <span className="flex items-center gap-1">
+                <Calendar className="w-3 h-3" />
+                {dateStr}
               </span>
-            ))}
-          </div>
+            </div>
 
-          <div className="mt-4 flex items-center gap-4 text-xs text-[var(--color-text-tertiary)]">
-            <span>{t('articlesCount', { count: articleCount })}</span>
-            <span className="flex items-center gap-1">
-              <Calendar className="w-3 h-3" />
-              {t('releaseDate')} : {dateStr}
-            </span>
+            {/* CTA arrow */}
+            <div
+              className="mt-5 inline-flex items-center gap-2 text-sm font-medium transition-all duration-300 group-hover:gap-3"
+              style={{ color: franchise.accentColor }}
+            >
+              <span className="tracking-wide">
+                {locale === 'en' ? 'Explore' : locale === 'es' ? 'Explorar' : 'Explorer'}
+              </span>
+              <ArrowRight className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" />
+            </div>
           </div>
         </div>
       </Link>
@@ -194,26 +161,49 @@ export default function UniverseGrid() {
   const allIds = getAllFranchiseIds();
 
   return (
-    <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
-      <motion.h2
+    <section className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-32">
+      {/* Section header */}
+      <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        transition={{ duration: 0.5, ease: 'easeOut' }}
-        className="text-2xl sm:text-3xl font-bold text-[var(--color-text)] mb-8 sm:mb-12"
-        style={{ fontFamily: 'var(--font-display)' }}
+        transition={{ duration: 0.6, ease: 'easeOut' }}
+        className="text-center mb-14 sm:mb-20"
       >
-        {t('title')}
-      </motion.h2>
+        <motion.div
+          initial={{ scaleX: 0 }}
+          whileInView={{ scaleX: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6, delay: 0.2 }}
+          className="w-12 h-[2px] mx-auto mb-6 origin-center"
+          style={{
+            background: 'linear-gradient(90deg, #FF1493, #a855f7, #00FFFF)',
+          }}
+        />
+        <h2
+          className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[var(--color-text)]"
+          style={{ fontFamily: 'var(--font-display)', letterSpacing: '-0.02em' }}
+        >
+          {t('title')}
+        </h2>
+        <p className="mt-4 text-[var(--color-text-secondary)] max-w-lg mx-auto">
+          {locale === 'en'
+            ? 'Dive into the most complete wikis for the games that matter.'
+            : locale === 'es'
+              ? 'Sumérgete en los wikis más completos de los juegos que importan.'
+              : 'Plongez dans les wikis les plus complets sur les jeux qui comptent.'}
+        </p>
+      </motion.div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 sm:gap-6">
+      {/* Grid layout — first card featured (large), rest standard */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {allIds.map((id, i) => (
           <UniverseCard
             key={id}
             franchise={franchises[id]}
             locale={locale}
-            large={i === 0}
             index={i}
+            featured={i === 0}
           />
         ))}
       </div>

@@ -67,7 +67,7 @@ const CharacterPage = ({ locale }: { locale: string }) => {
                   key={f}
                   onClick={() => setFilter(f)}
                   className={`font-rajdhani text-[0.55rem] px-2 py-1 rounded tracking-widest transition-colors ${
-                    filter === f ? 'bg-neon-pink/20 text-neon-pink' : 'bg-bg-raised text-text-muted-vice hover:text-text-secondary'
+                    filter === f ? 'bg-neon-pink/20 text-neon-pink' : 'bg-[hsl(214,36%,10%)] text-text-muted-vice hover:text-text-secondary'
                   }`}
                 >
                   {f === 'all' ? t('characters.all') : f === 'protagonist' ? t('characters.protagonists') : t('characters.secondary')}
@@ -83,8 +83,8 @@ const CharacterPage = ({ locale }: { locale: string }) => {
                   onClick={() => setSelectedId(c.id)}
                   className={`flex-shrink-0 flex items-center gap-2 px-3 py-2 rounded-lg transition-all ${
                     selectedId === c.id
-                      ? `bg-bg-card border border-${c.colorClass}/30`
-                      : 'bg-bg-surface border border-transparent'
+                      ? `bg-[hsl(213,33%,13%)] border border-${c.colorClass}/30`
+                      : 'bg-[hsl(214,40%,7%)] border border-transparent'
                   }`}
                 >
                   {characterImages[c.id] ? (
@@ -107,8 +107,8 @@ const CharacterPage = ({ locale }: { locale: string }) => {
                   onClick={() => setSelectedId(c.id)}
                   className={`w-full text-left px-3 py-2.5 rounded-lg transition-all ${
                     selectedId === c.id
-                      ? `bg-bg-card border border-${c.colorClass}/30`
-                      : 'bg-bg-surface hover:bg-bg-raised border border-transparent'
+                      ? `bg-[hsl(213,33%,13%)] border border-${c.colorClass}/30`
+                      : 'bg-[hsl(214,40%,7%)] hover:bg-[hsl(214,36%,10%)] border border-transparent'
                   }`}
                 >
                   <div className="flex items-center gap-2">
@@ -177,7 +177,7 @@ const CharacterPage = ({ locale }: { locale: string }) => {
                   className={`font-rajdhani text-[0.6rem] px-3 py-1.5 rounded tracking-widest whitespace-nowrap transition-colors ${
                     activeTab === t
                       ? `bg-${selected.colorClass}/15 text-${selected.colorClass}`
-                      : 'bg-bg-raised text-text-muted-vice hover:text-text-secondary'
+                      : 'bg-[hsl(214,36%,10%)] text-text-muted-vice hover:text-text-secondary'
                   }`}
                 >
                   {tabLabels[t]}
@@ -186,7 +186,7 @@ const CharacterPage = ({ locale }: { locale: string }) => {
             </div>
 
             {/* Tab content */}
-            <div className="bg-bg-card rounded-xl p-5 sm:p-6 border border-neon-cyan/5 min-h-[350px]">
+            <div className="bg-[hsl(213,33%,13%)] rounded-xl p-5 sm:p-6 border border-neon-cyan/5 min-h-[350px]">
               {activeTab === 'bio' && (
                 <div>
                   {selected.bio.map((p, i) => (
@@ -197,7 +197,7 @@ const CharacterPage = ({ locale }: { locale: string }) => {
                   )}
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 mt-6">
                     {Object.entries(selected.info).map(([k, v]) => (
-                      <div key={k} className="bg-bg-raised rounded-lg p-2.5">
+                      <div key={k} className="bg-[hsl(214,36%,10%)] rounded-lg p-2.5">
                         <span className="font-rajdhani text-[0.5rem] text-text-muted-vice tracking-widest">{k.toUpperCase()}</span>
                         <p className="font-dm text-xs text-text-primary mt-0.5">{v}</p>
                       </div>
@@ -234,7 +234,7 @@ const CharacterPage = ({ locale }: { locale: string }) => {
               {activeTab === 'relations' && (
                 <div className="space-y-2">
                   {selected.relations.map((r, i) => (
-                    <div key={i} className="flex items-center gap-3 bg-bg-raised rounded-lg p-3">
+                    <div key={i} className="flex items-center gap-3 bg-[hsl(214,36%,10%)] rounded-lg p-3">
                       <div className={`w-2 h-2 rounded-full bg-${r.color}`} />
                       <div>
                         <span className="font-barlow font-semibold text-xs text-text-primary">{r.name}</span>
@@ -258,7 +258,7 @@ const CharacterPage = ({ locale }: { locale: string }) => {
                         key={i}
                         onClick={() => setCitationIdx(i)}
                         className={`w-1.5 h-1.5 rounded-full transition-colors ${
-                          i === citationIdx ? `bg-${selected.colorClass}` : 'bg-bg-raised'
+                          i === citationIdx ? `bg-${selected.colorClass}` : 'bg-[hsl(214,36%,10%)]'
                         }`}
                       />
                     ))}

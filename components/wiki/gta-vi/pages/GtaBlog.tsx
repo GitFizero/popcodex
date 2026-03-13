@@ -79,7 +79,7 @@ const Blog = ({ locale }: { locale: string }) => {
                 <Link
                   key={article.id}
                   href={`/${locale}/gta-vi${getArticlePath(article, lang)}`}
-                  className="group bg-bg-card rounded-xl overflow-hidden border border-white/5 hover:border-neon-cyan/20 transition-all hover:-translate-y-1"
+                  className="group bg-[hsl(213,33%,13%)] rounded-xl overflow-hidden border border-white/5 hover:border-neon-cyan/20 transition-all hover:-translate-y-1"
                 >
                   <div className="relative aspect-[16/9]">
                     <img

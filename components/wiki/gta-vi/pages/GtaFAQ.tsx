@@ -318,7 +318,7 @@ const FAQPage = ({ locale }: { locale: string }) => {
                     return (
                       <div
                         key={globalIdx}
-                        className="border border-text-muted-vice/10 rounded-lg overflow-hidden bg-bg-card/30 hover:border-neon-cyan/20 transition-colors"
+                        className="border border-text-muted-vice/10 rounded-lg overflow-hidden bg-[hsl(213,33%,13%)]/30 hover:border-neon-cyan/20 transition-colors"
                       >
                         <button
                           onClick={() => toggle(globalIdx)}
@@ -352,7 +352,7 @@ const FAQPage = ({ locale }: { locale: string }) => {
       {/* CTA */}
       <RevealOnScroll>
         <section className="max-w-4xl mx-auto px-4 mt-16 text-center">
-          <div className="border border-neon-gold/20 rounded-xl p-8 bg-bg-card/20">
+          <div className="border border-neon-gold/20 rounded-xl p-8 bg-[hsl(213,33%,13%)]/20">
             <h2 className="font-bebas text-2xl text-neon-gold mb-3">
               {lang === 'fr' ? 'PRÊT À JOUER ?' : lang === 'en' ? 'READY TO PLAY?' : lang === 'es' ? '¿LISTO PARA JUGAR?' : 'PRONTO A GIOCARE?'}
             </h2>

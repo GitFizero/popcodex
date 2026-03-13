@@ -10,7 +10,7 @@ const AboutPage = ({ locale }: { locale: string }) => {
       {/* Legal Disclaimer */}
       <section className="py-12 px-4">
         <div className="max-w-2xl mx-auto">
-          <div className="bg-bg-card rounded-xl p-6 border border-destructive/20 relative overflow-hidden">
+          <div className="bg-[hsl(213,33%,13%)] rounded-xl p-6 border border-destructive/20 relative overflow-hidden">
             <div className="relative z-10">
               <h1 className="font-bebas text-2xl sm:text-3xl text-destructive mb-4 text-center">{t('about.legal')}</h1>
               
@@ -24,7 +24,7 @@ const AboutPage = ({ locale }: { locale: string }) => {
                 </p>
               </div>
 
-              <div className="mt-6 p-3 bg-bg-raised rounded-lg border border-neon-pink/10">
+              <div className="mt-6 p-3 bg-[hsl(214,36%,10%)] rounded-lg border border-neon-pink/10">
                 <p className="font-rajdhani text-[0.55rem] text-neon-pink tracking-widest text-center">
                   {t('footer.disclaimer')}
                 </p>
@@ -49,7 +49,7 @@ const AboutPage = ({ locale }: { locale: string }) => {
               { label: 'Trailer 1', url: t('inline.dec2023') },
               { label: 'Trailer 2', url: t('inline.may2025') },
             ].map(s => (
-              <div key={s.label} className="flex items-center gap-2 bg-bg-card rounded-lg p-2.5">
+              <div key={s.label} className="flex items-center gap-2 bg-[hsl(213,33%,13%)] rounded-lg p-2.5">
                 <span className="font-rajdhani text-[0.55rem] text-neon-cyan tracking-widest">{s.label.toUpperCase()}</span>
                 <span className="font-dm text-[0.6rem] text-text-muted-vice">{s.url}</span>
               </div>

@@ -156,7 +156,7 @@ const Gallery = ({ locale }: { locale: string }) => {
   ];
 
   return (
-    <div className="min-h-screen bg-bg-void pt-20 pb-32">
+    <div className="min-h-screen bg-[hsl(220,67%,2%)] pt-20 pb-32">
       {/* Header */}
       <section className="px-4 py-16">
         <div className="max-w-7xl mx-auto text-center">
@@ -183,7 +183,7 @@ const Gallery = ({ locale }: { locale: string }) => {
                 className={`px-4 sm:px-6 py-1.5 sm:py-2 rounded-full font-rajdhani text-xs sm:text-sm tracking-wider transition-all duration-300 ${
                   filter === f.key
                     ? 'bg-neon-pink text-white shadow-neon-pink'
-                    : 'bg-bg-card text-text-secondary hover:bg-bg-card-hover hover:text-text-primary border border-border-subtle'
+                    : 'bg-[hsl(213,33%,13%)] text-text-secondary hover:bg-[hsl(213,33%,13%)]-hover hover:text-text-primary border border-border-subtle'
                 }`}
               >
                 {f.label}
@@ -211,7 +211,7 @@ const Gallery = ({ locale }: { locale: string }) => {
                   alt={lang === 'fr' ? image.title : image.titleEn}
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-bg-void via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                <div className="absolute inset-0 bg-gradient-to-t from-[hsl(220,67%,2%)] via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <div className="w-14 h-14 rounded-full bg-neon-pink/20 backdrop-blur-sm flex items-center justify-center border border-neon-pink/50">
                     <ZoomIn className="w-6 h-6 text-neon-pink" />
@@ -224,7 +224,7 @@ const Gallery = ({ locale }: { locale: string }) => {
                   <p className="font-rajdhani text-[0.5rem] text-text-muted-vice tracking-widest mt-0.5">© ROCKSTAR GAMES</p>
                 </div>
                 {/* Always-visible credit */}
-                <div className="absolute top-2 right-2 font-rajdhani text-[0.45rem] px-1.5 py-0.5 rounded bg-bg-void/60 backdrop-blur-sm text-text-muted-vice tracking-widest pointer-events-none">
+                <div className="absolute top-2 right-2 font-rajdhani text-[0.45rem] px-1.5 py-0.5 rounded bg-[hsl(220,67%,2%,0.6)] backdrop-blur-sm text-text-muted-vice tracking-widest pointer-events-none">
                   © ROCKSTAR GAMES
                 </div>
               </div>
@@ -236,12 +236,12 @@ const Gallery = ({ locale }: { locale: string }) => {
       {/* Lightbox */}
       {selectedImage && (
         <div
-          className="fixed inset-0 z-50 bg-bg-void/95 backdrop-blur-xl flex items-center justify-center p-2 sm:p-4"
+          className="fixed inset-0 z-50 bg-[hsl(220,67%,2%,0.95)] backdrop-blur-xl flex items-center justify-center p-2 sm:p-4"
           onClick={() => setSelectedImage(null)}
         >
           {/* Close button */}
           <button
-            className="absolute top-3 right-3 sm:top-6 sm:right-6 w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-bg-card/80 backdrop-blur-sm flex items-center justify-center text-text-secondary hover:text-white hover:bg-neon-pink/20 transition-colors z-10"
+            className="absolute top-3 right-3 sm:top-6 sm:right-6 w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-[hsl(213,33%,13%)]/80 backdrop-blur-sm flex items-center justify-center text-text-secondary hover:text-white hover:bg-neon-pink/20 transition-colors z-10"
             onClick={() => setSelectedImage(null)}
           >
             <X className="w-5 h-5 sm:w-6 sm:h-6" />
@@ -249,13 +249,13 @@ const Gallery = ({ locale }: { locale: string }) => {
 
           {/* Navigation */}
           <button
-            className="absolute left-2 sm:left-4 md:left-8 bottom-16 sm:bottom-auto sm:top-1/2 sm:-translate-y-1/2 w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-bg-card/80 backdrop-blur-sm flex items-center justify-center text-text-secondary hover:text-white hover:bg-neon-cyan/20 transition-colors z-10"
+            className="absolute left-2 sm:left-4 md:left-8 bottom-16 sm:bottom-auto sm:top-1/2 sm:-translate-y-1/2 w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-[hsl(213,33%,13%)]/80 backdrop-blur-sm flex items-center justify-center text-text-secondary hover:text-white hover:bg-neon-cyan/20 transition-colors z-10"
             onClick={(e) => { e.stopPropagation(); navigateImage('prev'); }}
           >
             <ChevronLeft className="w-5 h-5 sm:w-6 sm:h-6" />
           </button>
           <button
-            className="absolute right-2 sm:right-4 md:right-8 bottom-16 sm:bottom-auto sm:top-1/2 sm:-translate-y-1/2 w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-bg-card/80 backdrop-blur-sm flex items-center justify-center text-text-secondary hover:text-white hover:bg-neon-cyan/20 transition-colors z-10"
+            className="absolute right-2 sm:right-4 md:right-8 bottom-16 sm:bottom-auto sm:top-1/2 sm:-translate-y-1/2 w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-[hsl(213,33%,13%)]/80 backdrop-blur-sm flex items-center justify-center text-text-secondary hover:text-white hover:bg-neon-cyan/20 transition-colors z-10"
             onClick={(e) => { e.stopPropagation(); navigateImage('next'); }}
           >
             <ChevronRight className="w-5 h-5 sm:w-6 sm:h-6" />
@@ -271,7 +271,7 @@ const Gallery = ({ locale }: { locale: string }) => {
               alt={lang === 'fr' ? selectedImage.title : selectedImage.titleEn}
               className="max-w-full max-h-[75vh] sm:max-h-[85vh] object-contain rounded-lg shadow-2xl"
             />
-            <div className="absolute bottom-0 left-0 right-0 p-3 sm:p-6 bg-gradient-to-t from-bg-void to-transparent">
+            <div className="absolute bottom-0 left-0 right-0 p-3 sm:p-6 bg-gradient-to-t from-[hsl(220,67%,2%)] to-transparent">
               <p className="font-barlow font-semibold text-white text-sm sm:text-lg text-center">
                 {lang === 'fr' ? selectedImage.title : selectedImage.titleEn}
               </p>

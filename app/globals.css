@@ -1070,7 +1070,16 @@ a, button, .accent-transition {
 
 .universe-gta h1, .universe-gta h2, .universe-gta h3, .universe-gta h4 {
   font-family: 'Bebas Neue', sans-serif;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+/* GTA body text — DM Sans for readability, slightly larger */
+.universe-gta p, .universe-gta li, .universe-gta span, .universe-gta td, .universe-gta dd {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1rem;
+  line-height: 1.75;
+  letter-spacing: 0.01em;
 }
 
 /* Below-fold performance optimization */

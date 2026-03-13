@@ -175,7 +175,7 @@ const BuyGame = ({ locale }: { locale: string }) => {
                 href={p.link}
                 target="_blank"
                 rel="noopener noreferrer nofollow"
-                className={`group relative bg-bg-card rounded-xl p-6 border border-${p.color}/15 hover:border-${p.color}/40 transition-all hover:-translate-y-1 hover:shadow-[0_0_30px_hsl(var(--${p.color})/0.15)] flex flex-col items-center text-center`}
+                className={`group relative bg-[hsl(213,33%,13%)] rounded-xl p-6 border border-${p.color}/15 hover:border-${p.color}/40 transition-all hover:-translate-y-1 hover:shadow-[0_0_30px_hsl(var(--${p.color})/0.15)] flex flex-col items-center text-center`}
               >
                 <div className={`w-16 h-16 rounded-full bg-${p.color}/10 flex items-center justify-center mb-4`}>
                   <Icon className={`w-8 h-8 text-${p.color}`} />
@@ -209,7 +209,7 @@ const BuyGame = ({ locale }: { locale: string }) => {
           <h2 className="font-bebas text-2xl sm:text-3xl text-text-primary text-center mb-8">FAQ</h2>
           <div className="space-y-4">
             {faqData.map((faq, i) => (
-              <details key={i} className="bg-bg-card rounded-lg border border-neon-cyan/10 group">
+              <details key={i} className="bg-[hsl(213,33%,13%)] rounded-lg border border-neon-cyan/10 group">
                 <summary className="font-barlow font-semibold text-sm text-text-primary p-4 cursor-pointer hover:text-neon-cyan transition-colors list-none flex justify-between items-center">
                   {faq.q[lang]}
                   <span className="text-neon-cyan text-lg group-open:rotate-45 transition-transform">+</span>

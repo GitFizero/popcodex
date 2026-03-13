@@ -65,7 +65,7 @@ const LeonidaPage = ({ locale }: { locale: string }) => {
           <h2 className="font-bebas text-2xl text-text-primary text-center mb-6">{t('lore.entities')}</h2>
           <div className="max-w-3xl mx-auto space-y-3">
             {entities.map(e => (
-              <div key={e.name} className="bg-bg-card rounded-lg p-4 border border-neon-cyan/5">
+              <div key={e.name} className="bg-[hsl(213,33%,13%)] rounded-lg p-4 border border-neon-cyan/5">
                 <div className="flex items-center gap-2 mb-1">
                   <h3 className="font-bebas text-lg text-text-primary">{e.name}</h3>
                   <span className={`font-rajdhani text-[0.45rem] px-1.5 py-0.5 rounded ${e.badgeColor} tracking-widest`}>{e.badge}</span>
@@ -82,7 +82,7 @@ const LeonidaPage = ({ locale }: { locale: string }) => {
           <h2 className="font-bebas text-2xl text-text-primary text-center mb-6">{t('lore.factions')}</h2>
           <div className="max-w-4xl mx-auto grid sm:grid-cols-2 gap-3">
             {factions.map(f => (
-              <div key={f.name} className={`bg-bg-card rounded-lg p-4 border border-${f.color}/10`}>
+              <div key={f.name} className={`bg-[hsl(213,33%,13%)] rounded-lg p-4 border border-${f.color}/10`}>
                 <h3 className={`font-bebas text-lg text-${f.color} mb-1`}>{f.name}</h3>
                 <p className="font-dm text-[0.65rem] text-text-secondary mb-1">{f.desc}</p>
                 <p className="font-rajdhani text-[0.5rem] text-text-muted-vice tracking-wider">{f.members}</p>

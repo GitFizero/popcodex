@@ -44,7 +44,7 @@ const Trailers = ({ locale }: { locale: string }) => {
   };
 
   return (
-    <div className="min-h-screen bg-bg-void pt-20 pb-32">
+    <div className="min-h-screen bg-[hsl(220,67%,2%)] pt-20 pb-32">
       <nav className="max-w-5xl mx-auto px-4 mb-6" aria-label="Breadcrumb">
         <ol className="flex items-center gap-1.5 font-rajdhani text-[0.6rem] text-text-muted-vice">
           <li><Link href="/" className="hover:text-text-secondary transition-colors">{t('inline.home')}</Link></li>
@@ -74,7 +74,7 @@ const Trailers = ({ locale }: { locale: string }) => {
         <div className="space-y-12">
           {trailers.map((trailer, index) => (
             <RevealOnScroll key={trailer.id}>
-              <article className="bg-bg-card rounded-xl border border-border-subtle overflow-hidden">
+              <article className="bg-[hsl(213,33%,13%)] rounded-xl border border-border-subtle overflow-hidden">
                 <div className="aspect-video">
                   <iframe
                     src={`https://www.youtube.com/embed/${trailer.youtubeId}`}

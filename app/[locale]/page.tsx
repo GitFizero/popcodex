@@ -30,8 +30,14 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
             dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
           />
           <HeroSection />
-          <UniverseGrid />
-          <RecentArticles />
+          <div
+            style={{
+              background: 'linear-gradient(180deg, #060612 0%, var(--color-bg) 15%)',
+            }}
+          >
+            <UniverseGrid />
+            <RecentArticles />
+          </div>
         </UniverseTransition>
       </main>
       <Footer />
