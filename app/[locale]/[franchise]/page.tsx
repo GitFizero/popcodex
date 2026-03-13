@@ -1,5 +1,5 @@
 import { setRequestLocale } from 'next-intl/server';
-import { notFound, redirect } from 'next/navigation';
+import { notFound } from 'next/navigation';
 import { getFranchiseById, getAllFranchiseIds } from '@/lib/franchise-config';
 import { generateFranchiseMetadata } from '@/lib/seo/metadata';
 import { generateVideoGameJsonLd, generateBreadcrumbJsonLd } from '@/lib/seo/jsonld';
@@ -32,9 +32,11 @@ export default async function FranchisePage({ params }: { params: Promise<{ loca
   const { locale, franchise: franchiseId } = await params;
   setRequestLocale(locale);
 
-  // Redirect to the dedicated wiki SPA
+  // Wiki franchises are handled by their own dedicated route
+  // (e.g. app/[locale]/crimson-desert/[[...path]]/page.tsx)
+  // If this route is reached anyway, bail out so Next.js falls through
   if (WIKI_FRANCHISES.includes(franchiseId)) {
-    redirect(`/${locale}/${franchiseId}`);
+    notFound();
   }
 
   const franchise = getFranchiseById(franchiseId);
