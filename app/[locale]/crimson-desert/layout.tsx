@@ -1,4 +1,5 @@
 import { setRequestLocale } from 'next-intl/server';
+import CrimsonShell from '@/components/wiki/crimson-desert/CrimsonShell';
 
 export default async function CrimsonDesertLayout({
   children,
@@ -11,8 +12,10 @@ export default async function CrimsonDesertLayout({
   setRequestLocale(locale);
 
   return (
-    <div className="universe-crimson overlay-vignette" style={{ minHeight: '100vh' }}>
-      {children}
+    <div className="universe-crimson" style={{ minHeight: '100vh', fontFamily: "'Crimson Text', serif" }}>
+      <CrimsonShell locale={locale}>
+        {children}
+      </CrimsonShell>
     </div>
   );
 }

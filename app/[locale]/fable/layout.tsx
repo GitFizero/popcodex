@@ -1,7 +1,7 @@
 import { setRequestLocale } from 'next-intl/server';
-import GtaShell from '@/components/wiki/gta-vi/GtaShell';
+import FableShell from '@/components/wiki/fable/FableShell';
 
-export default async function GtaViLayout({
+export default async function FableLayout({
   children,
   params,
 }: {
@@ -12,10 +12,10 @@ export default async function GtaViLayout({
   setRequestLocale(locale);
 
   return (
-    <div className="universe-gta" style={{ minHeight: '100vh', fontFamily: "'DM Sans', sans-serif" }}>
-      <GtaShell locale={locale}>
+    <div className="universe-fable" style={{ minHeight: '100vh', fontFamily: "'Crimson Text', serif" }}>
+      <FableShell locale={locale}>
         {children}
-      </GtaShell>
+      </FableShell>
     </div>
   );
 }

@@ -328,7 +328,7 @@
   inset: 0;
   pointer-events: none;
   z-index: 50;
-  background: radial-gradient(ellipse at center, transparent 50%, rgba(0,0,0,0.55) 100%);
+  background: radial-gradient(ellipse at center, transparent 50%, rgba(0,0,0,0.6) 100%);
 }
 
 /* Noise texture */
@@ -438,7 +438,24 @@
   --color-accent: #22C55E;
   --color-accent-secondary: #FACC15;
 
+  --font-display: 'Cinzel Decorative', serif;
+  --font-heading: 'Cinzel', serif;
+  --font-body: 'Crimson Text', serif;
+  --font-ui: 'Rajdhani', sans-serif;
+  --font-lore: 'IM Fell English', serif;
+  font-family: 'Crimson Text', serif;
+
   color-scheme: dark;
+}
+
+.universe-fable .font-display { font-family: 'Cinzel Decorative', serif; }
+.universe-fable .font-heading { font-family: 'Cinzel', serif; }
+.universe-fable .font-body { font-family: 'Crimson Text', serif; }
+.universe-fable .font-ui { font-family: 'Rajdhani', sans-serif; }
+
+.universe-fable h1, .universe-fable h2, .universe-fable h3, .universe-fable h4 {
+  font-family: 'Cinzel', serif;
+  letter-spacing: 0.02em;
 }
 
 /* Golden fairy-light text */
@@ -539,7 +556,24 @@
   --color-accent: #EAB308;
   --color-accent-secondary: #DC2626;
 
+  --font-display: 'Barlow Condensed', sans-serif;
+  --font-heading: 'Barlow Condensed', sans-serif;
+  --font-body: 'DM Sans', sans-serif;
+  --font-ui: 'Rajdhani', sans-serif;
+  font-family: 'DM Sans', sans-serif;
+
   color-scheme: dark;
+}
+
+.universe-wolverine .font-display { font-family: 'Barlow Condensed', sans-serif; }
+.universe-wolverine .font-heading { font-family: 'Barlow Condensed', sans-serif; }
+.universe-wolverine .font-body { font-family: 'DM Sans', sans-serif; }
+.universe-wolverine .font-ui { font-family: 'Rajdhani', sans-serif; }
+
+.universe-wolverine h1, .universe-wolverine h2, .universe-wolverine h3, .universe-wolverine h4 {
+  font-family: 'Barlow Condensed', sans-serif;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
 }
 
 /* Wolverine claw slash accent text */
