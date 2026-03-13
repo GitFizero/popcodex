@@ -1,15 +1,19 @@
 import { setRequestLocale } from 'next-intl/server';
-import { notFound } from 'next/navigation';
+import { notFound, redirect } from 'next/navigation';
 import { getFranchiseById, getAllFranchiseIds } from '@/lib/franchise-config';
 import { generateFranchiseMetadata } from '@/lib/seo/metadata';
 import { generateVideoGameJsonLd, generateBreadcrumbJsonLd } from '@/lib/seo/jsonld';
 import FranchiseHub from '@/components/wiki/FranchiseHub';
 import { locales } from '@/lib/i18n/config';
 
+// Crimson Desert is served by its own dedicated wiki SPA route
+const WIKI_FRANCHISES = ['crimson-desert'];
+
 export async function generateStaticParams() {
   const params: { locale: string; franchise: string }[] = [];
   for (const locale of locales) {
     for (const id of getAllFranchiseIds()) {
+      if (WIKI_FRANCHISES.includes(id)) continue;
       params.push({ locale, franchise: id });
     }
   }
@@ -18,6 +22,7 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string; franchise: string }> }) {
   const { locale, franchise: franchiseId } = await params;
+  if (WIKI_FRANCHISES.includes(franchiseId)) return {};
   const franchise = getFranchiseById(franchiseId);
   if (!franchise) return {};
   return generateFranchiseMetadata(franchise, locale);
@@ -26,6 +31,11 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 export default async function FranchisePage({ params }: { params: Promise<{ locale: string; franchise: string }> }) {
   const { locale, franchise: franchiseId } = await params;
   setRequestLocale(locale);
+
+  // Redirect to the dedicated wiki SPA
+  if (WIKI_FRANCHISES.includes(franchiseId)) {
+    redirect(`/${locale}/${franchiseId}`);
+  }
 
   const franchise = getFranchiseById(franchiseId);
   if (!franchise) notFound();
