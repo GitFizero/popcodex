@@ -9,6 +9,38 @@
   --radius-card: 16px;
   --radius-button: 12px;
   --radius-input: 12px;
+
+  /* === Crimson Desert color utilities (Pywelwiki) === */
+  --color-crimson-deep: hsl(0 71% 21%);
+  --color-crimson-core: hsl(0 68% 32%);
+  --color-crimson-bright: hsl(6 64% 46%);
+  --color-crimson-fire: hsl(14 80% 50%);
+  --color-gold-dark: hsl(36 43% 24%);
+  --color-gold-muted: hsl(36 49% 36%);
+  --color-gold-mid: hsl(42 53% 54%);
+  --color-gold-bright: hsl(45 72% 66%);
+  --color-gold-shine: hsl(50 100% 81%);
+  --color-sand-dark: hsl(20 18% 46%);
+  --color-sand-mid: hsl(28 28% 64%);
+  --color-sand-light: hsl(30 32% 76%);
+  --color-sand-pale: hsl(32 48% 85%);
+  --color-smoke-dark: hsl(28 24% 13%);
+  --color-smoke-mid: hsl(28 28% 22%);
+  --color-smoke-light: hsl(30 24% 34%);
+
+  /* === GTA VI color utilities (Leonidawiki) === */
+  --color-neon-pink: hsl(330 100% 56%);
+  --color-neon-cyan: hsl(189 100% 50%);
+  --color-neon-orange: hsl(24 100% 55%);
+  --color-neon-yellow: hsl(50 100% 50%);
+  --color-neon-purple: hsl(258 90% 66%);
+  --color-neon-green: hsl(153 100% 50%);
+  --color-neon-gold: hsl(43 100% 50%);
+  --color-vice-coral: hsl(0 100% 70%);
+  --color-vice-teal: hsl(174 58% 54%);
+  --color-vice-lavender: hsl(262 100% 83%);
+  --color-vice-peach: hsl(30 100% 64%);
+  --color-vice-sky: hsl(213 100% 73%);
 }
 
 /* ================================================================
@@ -61,7 +93,34 @@
   --color-accent: #FF1493;
   --color-accent-secondary: #00FFFF;
 
+  /* Leonidawiki CSS variables */
+  --neon-pink: 330 100% 56%;
+  --neon-cyan: 189 100% 50%;
+  --neon-orange: 24 100% 55%;
+  --neon-yellow: 50 100% 50%;
+  --neon-purple: 258 90% 66%;
+  --neon-green: 153 100% 50%;
+  --neon-gold: 43 100% 50%;
+  --vice-coral: 0 100% 70%;
+  --vice-teal: 174 58% 54%;
+  --vice-lavender: 262 100% 83%;
+  --vice-peach: 30 100% 64%;
+  --vice-sky: 213 100% 73%;
+  --bg-void: 220 67% 2%;
+  --bg-base: 216 56% 4%;
+  --bg-surface: 214 40% 7%;
+  --bg-raised: 214 36% 10%;
+  --bg-card: 213 33% 13%;
+  --bg-card-hover: 213 34% 17%;
+  --text-primary: 206 100% 95%;
+  --text-secondary-gta: 207 25% 75%;
+  --text-muted: 207 25% 55%;
+  --radius: 8px;
+  --font-display: 'Bebas Neue', sans-serif;
+  --font-body: 'DM Sans', sans-serif;
+
   color-scheme: dark;
+  font-family: 'DM Sans', sans-serif;
 }
 
 /* Neon text glow */
@@ -200,7 +259,50 @@
   --color-accent: #DC2626;
   --color-accent-secondary: #D4A946;
 
+  /* Pywelwiki CSS variables */
+  --bg-void: 10 50% 1.4%;
+  --bg-base: 20 33% 3.5%;
+  --bg-surface: 22 33% 6%;
+  --bg-raised: 24 30% 9%;
+  --bg-card: 25 33% 10.5%;
+  --bg-card-hover: 24 30% 13.5%;
+  --crimson-deep: 0 71% 21%;
+  --crimson-core: 0 68% 32%;
+  --crimson-bright: 6 64% 46%;
+  --crimson-fire: 14 80% 50%;
+  --crimson-glow: 6 64% 46% / 0.35;
+  --crimson-glow-strong: 14 80% 50% / 0.55;
+  --gold-dark: 36 43% 24%;
+  --gold-muted: 36 49% 36%;
+  --gold-mid: 42 53% 54%;
+  --gold-bright: 45 72% 66%;
+  --gold-shine: 50 100% 81%;
+  --gold-glow: 42 53% 54% / 0.3;
+  --sand-dark: 20 18% 46%;
+  --sand-mid: 28 28% 64%;
+  --sand-light: 30 32% 76%;
+  --sand-pale: 32 48% 85%;
+  --smoke-dark: 28 24% 13%;
+  --smoke-mid: 28 28% 22%;
+  --smoke-light: 30 24% 34%;
+  --text-primary: 34 40% 88%;
+  --text-secondary-cd: 28 26% 65%;
+  --text-muted: 30 20% 42%;
+  --border-subtle: 28 38% 16% / 0.8;
+  --border-mid: 36 47% 24% / 0.6;
+  --border-gold: 42 53% 54% / 0.4;
+  --border-crimson: 0 68% 32% / 0.5;
+  --shadow-card: 0 8px 32px rgba(0,0,0,0.6), 0 0 0 1px hsl(28 38% 16% / 0.5);
+  --shadow-glow-red: 0 0 40px hsl(6 64% 46% / 0.35), 0 0 80px hsla(0, 68%, 32%, 0.15);
+  --shadow-glow-gold: 0 0 30px hsl(42 53% 54% / 0.3), 0 0 60px hsla(42, 53%, 54%, 0.1);
+  --font-display: 'Cinzel Decorative', serif;
+  --font-heading: 'Cinzel', serif;
+  --font-body: 'Crimson Text', serif;
+  --font-ui: 'Rajdhani', sans-serif;
+  --font-lore: 'IM Fell English', serif;
+
   color-scheme: dark;
+  font-family: 'Crimson Text', serif;
 }
 
 /* Gold text gradient */
@@ -737,6 +839,269 @@ a, button, .accent-transition {
 /* === SELECTION === */
 ::selection {
   background: color-mix(in srgb, var(--color-accent) 25%, transparent);
+}
+
+/* ================================================================
+   CRIMSON DESERT — PYWELWIKI UTILITY CLASSES
+   ================================================================ */
+.universe-crimson .font-display { font-family: 'Cinzel Decorative', serif; }
+.universe-crimson .font-heading { font-family: 'Cinzel', serif; }
+.universe-crimson .font-body { font-family: 'Crimson Text', serif; }
+.universe-crimson .font-ui { font-family: 'Rajdhani', sans-serif; }
+.universe-crimson .font-lore { font-family: 'IM Fell English', serif; }
+
+.universe-crimson .bg-void { background: hsl(var(--bg-void)); }
+.universe-crimson .bg-surface { background: hsl(var(--bg-surface)); }
+.universe-crimson .bg-raised { background: hsl(var(--bg-raised)); }
+.universe-crimson .bg-card-bg { background: hsl(var(--bg-card)); }
+
+.universe-crimson .text-gold-bright { color: hsl(var(--gold-bright)); }
+.universe-crimson .text-gold-mid { color: hsl(var(--gold-mid)); }
+.universe-crimson .text-gold-muted { color: hsl(var(--gold-muted)); }
+.universe-crimson .text-gold-shine { color: hsl(var(--gold-shine)); }
+.universe-crimson .text-crimson-bright { color: hsl(var(--crimson-bright)); }
+.universe-crimson .text-crimson-core { color: hsl(var(--crimson-core)); }
+.universe-crimson .text-crimson-fire { color: hsl(var(--crimson-fire)); }
+.universe-crimson .text-sand-pale { color: hsl(var(--sand-pale)); }
+.universe-crimson .text-sand-light { color: hsl(var(--sand-light)); }
+.universe-crimson .text-text-secondary { color: hsl(var(--text-secondary-cd)); }
+.universe-crimson .text-text-muted-custom { color: hsl(var(--text-muted)); }
+
+.universe-crimson .bg-crimson-deep { background: hsl(var(--crimson-deep)); }
+.universe-crimson .bg-crimson-core { background: hsl(var(--crimson-core)); }
+.universe-crimson .bg-crimson-bright { background: hsl(var(--crimson-bright)); }
+.universe-crimson .bg-gold-dark { background: hsl(var(--gold-dark)); }
+.universe-crimson .bg-smoke-mid { background: hsl(var(--smoke-mid)); }
+
+.universe-crimson .border-gold-mid { border-color: hsl(var(--gold-mid)); }
+.universe-crimson .border-border { border-color: hsl(var(--border-subtle)); }
+
+.universe-crimson .card-hover {
+  transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 300ms, border-color 300ms;
+}
+.universe-crimson .card-hover:hover {
+  transform: translateY(-8px) scale(1.01);
+  box-shadow: var(--shadow-card), var(--shadow-glow-gold);
+}
+
+.universe-crimson .shimmer { position: relative; overflow: hidden; }
+.universe-crimson .shimmer::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(105deg, transparent 40%, hsla(45, 72%, 66%, 0.15) 45%, hsla(45, 72%, 66%, 0.25) 50%, hsla(45, 72%, 66%, 0.15) 55%, transparent 60%);
+  animation: shimmer-sweep 3s infinite;
+  pointer-events: none;
+}
+
+.universe-crimson .btn-primary {
+  background: hsl(var(--crimson-core));
+  color: hsl(var(--sand-pale));
+  font-family: 'Cinzel', serif;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  padding: 0.75rem 2rem;
+  border-radius: 6px;
+  transition: all 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+}
+.universe-crimson .btn-primary:hover {
+  background: hsl(var(--crimson-bright));
+  transform: scale(1.03);
+  box-shadow: var(--shadow-glow-red);
+}
+
+.universe-crimson .btn-outline {
+  background: transparent;
+  color: hsl(var(--text-secondary-cd));
+  font-family: 'Cinzel', serif;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  padding: 0.75rem 2rem;
+  border: 1px solid hsl(var(--border-gold));
+  border-radius: 6px;
+  transition: all 150ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.universe-crimson .btn-outline:hover {
+  background: hsl(var(--bg-raised));
+  color: hsl(var(--gold-bright));
+  border-color: hsl(var(--gold-bright));
+}
+
+.universe-crimson .vignette {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9999;
+  background: radial-gradient(ellipse at center, transparent 50%, rgba(0,0,0,0.6) 100%);
+}
+
+.universe-crimson .bg-noise {
+  position: relative;
+}
+.universe-crimson .bg-noise::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  opacity: 0.04;
+  mix-blend-mode: multiply;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence baseFrequency='0.65' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)' opacity='1'/%3E%3C/svg%3E");
+  pointer-events: none;
+  z-index: 0;
+}
+
+.universe-crimson .scrollbar-thin::-webkit-scrollbar { width: 6px; height: 6px; }
+.universe-crimson .scrollbar-thin::-webkit-scrollbar-track { background: hsl(var(--bg-surface)); }
+.universe-crimson .scrollbar-thin::-webkit-scrollbar-thumb { background: hsl(var(--smoke-mid)); border-radius: 3px; }
+
+.universe-crimson .stat-block-filled {
+  background: linear-gradient(135deg, hsl(var(--crimson-core)), hsl(var(--crimson-bright)));
+  border-radius: 2px;
+}
+.universe-crimson .stat-block-empty {
+  background: hsl(var(--bg-raised));
+  border: 1px solid hsl(var(--border-subtle));
+  border-radius: 2px;
+}
+
+.universe-crimson h1, .universe-crimson h2, .universe-crimson h3, .universe-crimson h4 {
+  font-family: 'Cinzel', serif;
+  letter-spacing: 0.02em;
+}
+
+/* ================================================================
+   GTA VI — LEONIDAWIKI UTILITY CLASSES
+   ================================================================ */
+.universe-gta .font-bebas { font-family: 'Bebas Neue', sans-serif; }
+.universe-gta .font-barlow { font-family: 'Barlow Condensed', sans-serif; }
+.universe-gta .font-dm { font-family: 'DM Sans', sans-serif; }
+.universe-gta .font-rajdhani { font-family: 'Rajdhani', sans-serif; }
+.universe-gta .font-marker { font-family: 'Permanent Marker', cursive; }
+.universe-gta .font-courier { font-family: 'Courier Prime', monospace; }
+
+.universe-gta .bg-void { background: hsl(var(--bg-void)); }
+.universe-gta .bg-surface { background: hsl(var(--bg-surface)); }
+.universe-gta .bg-raised { background: hsl(var(--bg-raised)); }
+.universe-gta .bg-card-bg { background: hsl(var(--bg-card)); }
+
+.universe-gta .text-neon-pink { color: hsl(var(--neon-pink)); }
+.universe-gta .text-neon-cyan { color: hsl(var(--neon-cyan)); }
+.universe-gta .text-neon-orange { color: hsl(var(--neon-orange)); }
+.universe-gta .text-neon-yellow { color: hsl(var(--neon-yellow)); }
+.universe-gta .text-neon-purple { color: hsl(var(--neon-purple)); }
+.universe-gta .text-neon-green { color: hsl(var(--neon-green)); }
+.universe-gta .text-neon-gold { color: hsl(var(--neon-gold)); }
+.universe-gta .text-vice-coral { color: hsl(var(--vice-coral)); }
+.universe-gta .text-vice-teal { color: hsl(var(--vice-teal)); }
+.universe-gta .text-text-secondary { color: hsl(var(--text-secondary-gta)); }
+.universe-gta .text-text-muted-custom { color: hsl(var(--text-muted)); }
+
+.universe-gta .bg-neon-pink { background: hsl(var(--neon-pink)); }
+.universe-gta .bg-neon-cyan { background: hsl(var(--neon-cyan)); }
+.universe-gta .bg-neon-orange { background: hsl(var(--neon-orange)); }
+.universe-gta .bg-neon-purple { background: hsl(var(--neon-purple)); }
+.universe-gta .bg-neon-gold { background: hsl(var(--neon-gold)); }
+
+.universe-gta .neon-pink-text {
+  color: hsl(var(--neon-pink));
+  text-shadow: 0 0 10px hsl(var(--neon-pink) / 0.7), 0 0 40px hsl(var(--neon-pink) / 0.3), 0 0 80px hsl(var(--neon-pink) / 0.1);
+}
+.universe-gta .neon-cyan-text {
+  color: hsl(var(--neon-cyan));
+  text-shadow: 0 0 10px hsl(var(--neon-cyan) / 0.7), 0 0 40px hsl(var(--neon-cyan) / 0.3), 0 0 80px hsl(var(--neon-cyan) / 0.1);
+}
+.universe-gta .neon-orange-text {
+  color: hsl(var(--neon-orange));
+  text-shadow: 0 0 10px hsl(var(--neon-orange) / 0.7), 0 0 40px hsl(var(--neon-orange) / 0.3);
+}
+.universe-gta .neon-purple-text {
+  color: hsl(var(--neon-purple));
+  text-shadow: 0 0 10px hsl(var(--neon-purple) / 0.7), 0 0 40px hsl(var(--neon-purple) / 0.3);
+}
+.universe-gta .neon-gold-text {
+  color: hsl(var(--neon-gold));
+  text-shadow: 0 0 10px hsl(var(--neon-gold) / 0.7), 0 0 40px hsl(var(--neon-gold) / 0.3);
+}
+
+.universe-gta .card-glow-pink:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0 30px hsl(var(--neon-pink) / 0.3), 0 0 60px hsl(var(--neon-pink) / 0.1);
+}
+.universe-gta .card-glow-cyan:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0 30px hsl(var(--neon-cyan) / 0.3), 0 0 60px hsl(var(--neon-cyan) / 0.1);
+}
+
+.universe-gta .bg-grid {
+  background-image:
+    linear-gradient(hsl(var(--neon-cyan) / 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, hsl(var(--neon-cyan) / 0.04) 1px, transparent 1px);
+  background-size: 60px 60px;
+}
+
+.universe-gta .bg-vignette {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9999;
+  background: radial-gradient(ellipse at center, transparent 50%, rgba(0,0,0,0.6) 100%);
+}
+
+.universe-gta .bg-scanlines {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9998;
+  background: repeating-linear-gradient(0deg, transparent, transparent 2px, hsl(var(--text-primary) / 0.015) 2px, hsl(var(--text-primary) / 0.015) 4px);
+  animation: scanline-drift 12s linear infinite;
+}
+
+.universe-gta .dossier-paper {
+  background: hsl(var(--bg-card));
+  border: 1px solid hsl(var(--neon-cyan) / 0.15);
+  border-radius: 4px;
+  position: relative;
+}
+
+.universe-gta .scrollbar-thin::-webkit-scrollbar { width: 6px; }
+.universe-gta .scrollbar-thin::-webkit-scrollbar-track { background: hsl(var(--bg-surface)); }
+.universe-gta .scrollbar-thin::-webkit-scrollbar-thumb { background: hsl(var(--neon-pink) / 0.4); border-radius: 3px; }
+
+.universe-gta h1, .universe-gta h2, .universe-gta h3, .universe-gta h4 {
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 0.02em;
+}
+
+/* Below-fold performance optimization */
+.content-defer {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 400px;
+}
+
+/* Reveal animation classes */
+.reveal-hidden {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1), transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.reveal-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Ticker scroll animation */
+@keyframes ticker-scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+/* Float up animation */
+@keyframes float-up {
+  0% { transform: translateY(0); opacity: 0; }
+  10% { opacity: 0.8; }
+  90% { opacity: 0.8; }
+  100% { transform: translateY(-100vh); opacity: 0; }
 }
 
 /* === REDUCED MOTION === */

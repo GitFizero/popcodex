@@ -28,7 +28,7 @@ export default async function LocaleLayout({
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link
-          href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:wght@400;600;700&family=DM+Sans:wght@400;500;600;700&family=Cinzel:wght@400;600;700&family=Cinzel+Decorative:wght@400;700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400&family=IM+Fell+English:ital@0;1&family=Rajdhani:wght@400;500;600;700&family=Bricolage+Grotesque:wght@400;600;700&family=Instrument+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Noto+Sans+KR:wght@400;500;700&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:wght@400;600;700&family=DM+Sans:wght@400;500;600;700&family=Cinzel:wght@400;600;700&family=Cinzel+Decorative:wght@400;700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400&family=IM+Fell+English:ital@0;1&family=Rajdhani:wght@400;500;600;700&family=Bricolage+Grotesque:wght@400;600;700&family=Instrument+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Noto+Sans+KR:wght@400;500;700&family=Permanent+Marker&family=Courier+Prime:wght@400;700&display=swap"
           rel="stylesheet"
         />
       </head>
@@ -37,16 +37,7 @@ export default async function LocaleLayout({
         style={{ fontFamily: '"Instrument Sans", system-ui, sans-serif' }}
       >
         <NextIntlClientProvider locale={locale} messages={messages}>
-          <a href="#main-content" className="skip-nav">
-            Skip to content
-          </a>
-          <Header />
-          <main id="main-content">
-            <UniverseTransition>
-              {children}
-            </UniverseTransition>
-          </main>
-          <Footer />
+          {children}
         </NextIntlClientProvider>
       </body>
     </html>
