@@ -31,19 +31,38 @@ function UniverseCard({ franchise, locale, index }: { franchise: FranchiseConfig
       >
         {/* Visual preview — full-width cinematic banner */}
         <div className="relative h-52 sm:h-64 overflow-hidden">
-          {/* Base gradient */}
+          {/* Cover image or fallback gradient */}
+          {franchise.coverImage ? (
+            <img
+              src={franchise.coverImage}
+              alt={franchise.name[locale] || franchise.name.fr}
+              className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+              loading="lazy"
+            />
+          ) : (
+            <>
+              <div
+                className="absolute inset-0"
+                style={{
+                  background: `linear-gradient(135deg, ${franchise.accentColor}10, ${secondary}08 50%, ${franchise.accentColor}05 100%)`,
+                }}
+              />
+              <div
+                className="absolute inset-0 opacity-30"
+                style={{
+                  backgroundImage: `radial-gradient(circle at 30% 40%, ${franchise.accentColor}15 0%, transparent 50%), radial-gradient(circle at 70% 60%, ${secondary}10 0%, transparent 40%)`,
+                }}
+              />
+            </>
+          )}
+
+          {/* Dark overlay for text readability */}
           <div
             className="absolute inset-0"
             style={{
-              background: `linear-gradient(135deg, ${franchise.accentColor}10, ${secondary}08 50%, ${franchise.accentColor}05 100%)`,
-            }}
-          />
-
-          {/* Atmospheric noise */}
-          <div
-            className="absolute inset-0 opacity-30"
-            style={{
-              backgroundImage: `radial-gradient(circle at 30% 40%, ${franchise.accentColor}15 0%, transparent 50%), radial-gradient(circle at 70% 60%, ${secondary}10 0%, transparent 40%)`,
+              background: franchise.coverImage
+                ? `linear-gradient(to bottom, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.5) 100%)`
+                : 'none',
             }}
           />
 
@@ -53,8 +72,8 @@ function UniverseCard({ franchise, locale, index }: { franchise: FranchiseConfig
               className="font-bold text-8xl sm:text-9xl transition-transform duration-700 group-hover:scale-110"
               style={{
                 fontFamily: franchise.theme.fontDisplay,
-                color: franchise.accentColor,
-                opacity: 0.07,
+                color: franchise.coverImage ? 'white' : franchise.accentColor,
+                opacity: franchise.coverImage ? 0.15 : 0.07,
                 letterSpacing: '0.06em',
                 textTransform: 'uppercase',
               }}

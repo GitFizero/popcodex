@@ -224,6 +224,7 @@ const sectionTexts = {
     es: 'Una de las mecánicas más destacadas de Crimson Desert es la posibilidad de cambiar de arma en pleno combate. Las secuencias de gameplay muestran transiciones fluidas de espada a arco, o de espadón a dobles espadas, sin romper el ritmo.',
     it: "Una delle meccaniche più notevoli di Crimson Desert è la possibilità di cambiare arma durante il combattimento. Le sequenze di gameplay mostrano transizioni fluide dalla spada all'arco, o dallo spadone alle doppie lame, senza interruzione del ritmo.",
     ko: '크림슨 디저트의 가장 주목할 만한 메카닉 중 하나는 전투 중 무기를 전환할 수 있는 능력입니다. 게임플레이 시퀀스에서 검에서 활로, 또는 대검에서 쌍검으로 리듬을 깨지 않고 유연하게 전환하는 모습을 보여줍니다.',
+    pt: 'Uma das mecânicas mais notáveis de Crimson Desert é a capacidade de trocar de arma durante o combate. Sequências de gameplay mostram transições fluidas de espada para arco, ou de espadão para lâminas duplas, sem quebrar o ritmo. Essa mecânica incentiva a experimentação e a adaptação em tempo real.',
   } as L,
   envTitle: {
     fr: "Interaction avec l'environnement",
@@ -231,6 +232,7 @@ const sectionTexts = {
     es: 'Interacción con el entorno',
     it: "Interazione con l'ambiente",
     ko: '환경 상호작용',
+    pt: 'Interação com o ambiente',
   } as L,
   envDesc: {
     fr: "Le système de combat repose sur un moteur physique avancé. Les armes lourdes font chanceler les ennemis, les objets de l'environnement peuvent être utilisés comme armes improvisées, et le terrain influence directement le déroulement des combats.",
@@ -238,6 +240,7 @@ const sectionTexts = {
     es: 'El sistema de combate se apoya en un motor de físicas avanzado. Las armas pesadas hacen tambalear a los enemigos, los objetos del entorno pueden usarse como armas improvisadas y el terreno influye directamente en el desarrollo de los combates.',
     it: "Il sistema di combattimento si basa su un motore fisico avanzato. Le armi pesanti fanno barcollare i nemici, gli oggetti dell'ambiente possono essere usati come armi improvvisate e il terreno influenza direttamente lo svolgimento dei combattimenti.",
     ko: '전투 시스템은 고급 물리 엔진에 의존합니다. 무거운 무기는 적을 비틀거리게 하고, 환경 오브젝트를 즉석 무기로 사용할 수 있으며, 지형이 전투 전개에 직접 영향을 미칩니다.',
+    pt: 'O sistema de combate depende de um motor de física avançado. Armas pesadas fazem os inimigos cambalear, objetos do ambiente podem servir como armas improvisadas, e o terreno influencia diretamente como os combates se desenrolam.',
   } as L,
   sourceNote: {
     fr: "Toutes les informations sur cette page proviennent de séquences de gameplay officielles et de communications de Pearl Abyss.",
@@ -245,6 +248,7 @@ const sectionTexts = {
     es: 'Toda la información de esta página proviene de secuencias de gameplay oficiales y comunicaciones de Pearl Abyss.',
     it: 'Tutte le informazioni di questa pagina provengono da sequenze di gameplay ufficiali e comunicazioni di Pearl Abyss.',
     ko: '이 페이지의 모든 정보는 공식 게임플레이 영상과 펄어비스 공식 발표에서 가져왔습니다.',
+    pt: 'Todas as informações nesta página provêm de filmagens oficiais de gameplay e comunicações da Pearl Abyss.',
   } as L,
 };
 
@@ -258,6 +262,7 @@ const WeaponsPage = () => {
     es: 'ARMAS DE CRIMSON DESERT',
     it: 'ARMI DI CRIMSON DESERT',
     ko: '크림슨 디저트 무기',
+    pt: 'ARMAS DE CRIMSON DESERT',
   } as L;
 
   const subtitle = {
@@ -266,17 +271,18 @@ const WeaponsPage = () => {
     es: '8 tipos de armas confirmados',
     it: '8 tipi di armi confermati',
     ko: '8가지 확인된 무기 유형',
+    pt: '8 tipos de armas confirmados',
   } as L;
 
-  const meleeLabel = { fr: 'ARMES DE MÊLÉE', en: 'MELEE WEAPONS', es: 'ARMAS CUERPO A CUERPO', it: 'ARMI DA MISCHIA', ko: '근접 무기' } as L;
-  const rangedLabel = { fr: 'ARMES À DISTANCE', en: 'RANGED WEAPONS', es: 'ARMAS A DISTANCIA', it: 'ARMI A DISTANZA', ko: '원거리 무기' } as L;
-  const mechanicsLabel = { fr: 'MÉCANIQUES DE COMBAT', en: 'COMBAT MECHANICS', es: 'MECÁNICAS DE COMBATE', it: 'MECCANICHE DI COMBATTIMENTO', ko: '전투 메카닉' } as L;
+  const meleeLabel = { fr: 'ARMES DE MÊLÉE', en: 'MELEE WEAPONS', es: 'ARMAS CUERPO A CUERPO', it: 'ARMI DA MISCHIA', ko: '근접 무기', pt: 'ARMAS CORPO A CORPO' } as L;
+  const rangedLabel = { fr: 'ARMES À DISTANCE', en: 'RANGED WEAPONS', es: 'ARMAS A DISTANCIA', it: 'ARMI A DISTANZA', ko: '원거리 무기', pt: 'ARMAS À DISTÂNCIA' } as L;
+  const mechanicsLabel = { fr: 'MÉCANIQUES DE COMBAT', en: 'COMBAT MECHANICS', es: 'MECÁNICAS DE COMBATE', it: 'MECCANICHE DI COMBATTIMENTO', ko: '전투 메카닉', pt: 'MECÂNICAS DE COMBATE' } as L;
 
   const meleeWeapons = weapons.filter(w => !['bow', 'musket'].includes(w.id));
   const rangedWeapons = weapons.filter(w => ['bow', 'musket'].includes(w.id));
 
-  const blogLink = { fr: 'Lire le guide complet des armes →', en: 'Read the full weapons guide →', es: 'Leer la guía completa de armas →', it: 'Leggi la guida completa alle armi →', ko: '무기 가이드 전체 읽기 →' } as L;
-  const combatLink = { fr: 'Voir la page Combat →', en: 'See the Combat page →', es: 'Ver la página de Combate →', it: 'Vedi la pagina Combattimento →', ko: '전투 페이지 보기 →' } as L;
+  const blogLink = { fr: 'Lire le guide complet des armes →', en: 'Read the full weapons guide →', es: 'Leer la guía completa de armas →', it: 'Leggi la guida completa alle armi →', ko: '무기 가이드 전체 읽기 →', pt: 'Leia o guia completo de armas →' } as L;
+  const combatLink = { fr: 'Voir la page Combat →', en: 'See the Combat page →', es: 'Ver la página de Combate →', it: 'Vedi la pagina Combattimento →', ko: '전투 페이지 보기 →', pt: 'Ver a página de Combate →' } as L;
 
   return (
     <main id="main-content" className="relative z-10 min-h-screen pt-20">

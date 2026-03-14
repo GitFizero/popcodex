@@ -2,7 +2,7 @@ import { useState, useEffect, useCallback, memo } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { useApp } from '@/crimson-desert-wiki/context/AppContext';
 import { useI18n, type Lang } from '@/crimson-desert-wiki/context/I18nContext';
-import { Search, X, Menu, Globe, Moon, Sun, ChevronDown } from 'lucide-react';
+import { Search, X, Menu, Globe, Moon, Sun, ChevronDown, ArrowLeft } from 'lucide-react';
 
 const LANG_CYCLE: Lang[] = ['fr', 'en', 'es', 'pt', 'it', 'ko'];
 const LANG_LABELS: Record<Lang, string> = { fr: 'FR', en: 'EN', es: 'ES', pt: 'PT', it: 'IT', ko: '한국어' };
@@ -80,12 +80,22 @@ const NavBar = memo(() => {
         aria-label="Navigation principale"
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-14">
-          <Link to="/" className="flex items-center gap-2 group focus-gold" aria-label="Accueil">
-            <span className="text-lg font-display text-gold-bright group-hover:scale-105 transition-transform duration-300">
-              ⚔ CD
-            </span>
-            {isCheater && <span className="font-ui text-[0.55rem] tracking-wider px-1.5 py-0.5 rounded-full bg-gold-bright text-void animate-pulse">CHEATER</span>}
-          </Link>
+          <div className="flex items-center gap-3">
+            <a
+              href="/fr"
+              className="flex items-center gap-1 px-2 py-1 rounded-md font-ui text-[0.65rem] tracking-wider transition-all duration-200 border border-border-gold/20 hover:border-border-gold/40 hover:bg-raised/30 text-text-secondary hover:text-gold-bright"
+              title="Retour à PopCodex"
+            >
+              <ArrowLeft size={12} />
+              <span className="hidden sm:inline">PopCodex</span>
+            </a>
+            <Link to="/" className="flex items-center gap-2 group focus-gold" aria-label="Accueil">
+              <span className="text-lg font-display text-gold-bright group-hover:scale-105 transition-transform duration-300">
+                ⚔ CD
+              </span>
+              {isCheater && <span className="font-ui text-[0.55rem] tracking-wider px-1.5 py-0.5 rounded-full bg-gold-bright text-void animate-pulse">CHEATER</span>}
+            </Link>
+          </div>
 
           <div className="hidden xl:flex items-center gap-5">
             {NAV_LINKS.map(link => {

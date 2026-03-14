@@ -36,6 +36,8 @@ export interface FranchiseConfig {
   name: Record<string, string>;
   description: Record<string, string>;
   categories: FranchiseCategory[];
+  /** Cover image path for homepage cards (relative to /public) */
+  coverImage?: string;
 }
 
 export const franchises: Record<FranchiseId, FranchiseConfig> = {
@@ -43,6 +45,7 @@ export const franchises: Record<FranchiseId, FranchiseConfig> = {
     id: 'gta-vi',
     mediaType: 'games',
     accentColor: '#FF1493',
+    coverImage: '/gta-vi/jason-lucia-hero-landscape.jpg',
     theme: {
       accentColor: '#FF1493',
       accentSecondary: '#00FFFF',
@@ -108,6 +111,7 @@ export const franchises: Record<FranchiseId, FranchiseConfig> = {
     id: 'crimson-desert',
     mediaType: 'games',
     accentColor: '#DC2626',
+    coverImage: '/crimson-desert/pywel-panorama.jpg',
     theme: {
       accentColor: '#DC2626',
       accentSecondary: '#D4A946',

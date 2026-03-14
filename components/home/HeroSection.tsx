@@ -241,20 +241,45 @@ export default function HeroSection() {
           initial={{ opacity: 0, y: -10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="mb-8 inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-white/10 bg-white/[0.03] backdrop-blur-sm"
+          className="mb-10 inline-flex items-center gap-2 px-5 py-2 rounded-full border border-white/10 bg-white/[0.03] backdrop-blur-sm"
         >
-          <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
-          <span className="text-xs text-white/50">
-            {totalArticles} {locale === 'en' ? 'articles across' : locale === 'es' ? 'artículos en' : 'articles sur'} {allFranchises.length} {locale === 'en' ? 'universes' : locale === 'es' ? 'universos' : 'univers'}
+          <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
+          <span className="text-sm text-white/60">
+            {allFranchises.length} {locale === 'en' ? 'universes to explore' : locale === 'es' ? 'universos por explorar' : locale === 'pt' ? 'universos para explorar' : 'univers à explorer'}
           </span>
+        </motion.div>
+
+        {/* PopCodex portal logo */}
+        <motion.div
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
+          className="flex justify-center mb-8"
+        >
+          <svg
+            viewBox="0 0 80 80"
+            width={80}
+            height={80}
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            className="block"
+            role="img"
+            aria-hidden="true"
+          >
+            <circle cx="40" cy="40" r="32" stroke="#818CF8" strokeWidth="1.5" opacity="0.2" />
+            <circle cx="40" cy="40" r="22" stroke="#C084FC" strokeWidth="1.5" opacity="0.4" />
+            <circle cx="40" cy="40" r="12" stroke="#F472B6" strokeWidth="2" opacity="0.7" />
+            <circle cx="40" cy="40" r="4" fill="#F472B6" opacity="1" />
+            <circle cx="40" cy="12" r="3" fill="#C084FC" opacity="0.7" />
+          </svg>
         </motion.div>
 
         {/* Title */}
         <motion.h1
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1], delay: 0.1 }}
-          className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold tracking-tight"
+          transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1], delay: 0.15 }}
+          className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-bold tracking-tight"
           style={{ fontFamily: 'var(--font-display)', letterSpacing: '-0.03em', lineHeight: 0.95 }}
         >
           <span className="text-white">Pop</span>
@@ -271,8 +296,8 @@ export default function HeroSection() {
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.25 }}
-          className="mt-6 text-lg sm:text-xl text-white/50 max-w-lg mx-auto leading-relaxed"
+          transition={{ duration: 0.6, delay: 0.3 }}
+          className="mt-8 text-lg sm:text-xl text-white/50 max-w-lg mx-auto leading-relaxed"
         >
           {t('subtitle')}
         </motion.p>

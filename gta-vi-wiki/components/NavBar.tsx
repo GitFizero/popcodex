@@ -2,7 +2,7 @@ import { useState, useEffect, useCallback, memo } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { useApp } from '@/gta-vi-wiki/context/AppContext';
 import { useI18n, type Lang } from '@/gta-vi-wiki/context/I18nContext';
-import { Search, X, Menu, Globe, ChevronDown } from 'lucide-react';
+import { Search, X, Menu, Globe, ChevronDown, ArrowLeft } from 'lucide-react';
 
 const LANG_CYCLE: Lang[] = ['fr', 'en', 'es', 'pt', 'it', 'ko'];
 const LANG_LABELS: Record<Lang, string> = { fr: 'FR', en: 'EN', es: 'ES', pt: 'PT', it: 'IT', ko: 'KO' };
@@ -73,12 +73,23 @@ const NavBar = memo(() => {
         aria-label="Main navigation"
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-14">
-          <Link to="/" className="flex items-center gap-2 group" aria-label="Home">
-            <span className="text-lg font-bold tracking-wider group-hover:scale-105 transition-transform duration-300" style={{ color: '#FF1493', textShadow: '0 0 10px rgba(255, 20, 147, 0.6)' }}>
-              GTA VI
-            </span>
-            <span className="text-xs tracking-[0.15em] uppercase" style={{ color: '#00FFFF' }}>{t('nav.fan_site')}</span>
-          </Link>
+          <div className="flex items-center gap-3">
+            <a
+              href="/fr"
+              className="flex items-center gap-1 px-2 py-1 rounded-md text-[0.65rem] tracking-wider transition-all duration-200 border border-white/10 hover:border-white/25 hover:bg-white/5"
+              style={{ color: 'rgba(255,255,255,0.5)' }}
+              title="Retour à PopCodex"
+            >
+              <ArrowLeft size={12} />
+              <span className="hidden sm:inline">PopCodex</span>
+            </a>
+            <Link to="/" className="flex items-center gap-2 group" aria-label="Home">
+              <span className="text-lg font-bold tracking-wider group-hover:scale-105 transition-transform duration-300" style={{ color: '#FF1493', textShadow: '0 0 10px rgba(255, 20, 147, 0.6)' }}>
+                GTA VI
+              </span>
+              <span className="text-xs tracking-[0.15em] uppercase" style={{ color: '#00FFFF' }}>{t('nav.fan_site')}</span>
+            </Link>
+          </div>
 
           <div className="hidden xl:flex items-center gap-5">
             {NAV_LINKS.map(link => {
