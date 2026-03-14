@@ -253,36 +253,7 @@ export default function HeroSection() {
                 backgroundImage: 'linear-gradient(135deg, #818CF8, #C084FC, #F472B6, #FB923C)',
               }}
             >
-              C
-            </span>
-            {/* Portal logo as the "O" */}
-            <motion.span
-              className="inline-flex items-baseline justify-center relative"
-              initial={{ opacity: 0, scale: 0.5 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.6, delay: 0.3, type: 'spring' }}
-            >
-              <svg
-                viewBox="0 0 80 80"
-                className="w-[0.72em] h-[0.72em]"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-                aria-hidden="true"
-              >
-                <circle cx="40" cy="40" r="32" stroke="#A78BFA" strokeWidth="2" opacity="0.3" />
-                <circle cx="40" cy="40" r="22" stroke="#C084FC" strokeWidth="2" opacity="0.5" />
-                <circle cx="40" cy="40" r="12" stroke="#F472B6" strokeWidth="2.5" opacity="0.8" />
-                <circle cx="40" cy="40" r="4" fill="#F472B6" />
-                <circle cx="40" cy="12" r="3" fill="#C084FC" opacity="0.8" />
-              </svg>
-            </motion.span>
-            <span
-              className="bg-clip-text text-transparent"
-              style={{
-                backgroundImage: 'linear-gradient(135deg, #C084FC, #F472B6, #FB923C)',
-              }}
-            >
-              dex
+              Codex
             </span>
           </motion.h1>
 

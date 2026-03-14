@@ -10,10 +10,12 @@ export function generateStaticParams() {
 }
 
 // Critical fonts: display + body fonts needed for initial render
-const CRITICAL_FONTS = 'https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bricolage+Grotesque:wght@400;600;700&family=Cinzel:wght@400;600;700&family=Cinzel+Decorative:wght@400;700&family=DM+Sans:wght@400;500;600;700&family=Instrument+Sans:wght@400;500;600;700&display=swap';
+// Only load 2 critical fonts synchronously (body + display), defer the rest
+const CRITICAL_FONTS = 'https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;700&family=Instrument+Sans:wght@400;500;600;700&display=swap';
 
 // Non-critical fonts: loaded asynchronously after page render
-const DEFERRED_FONTS = 'https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400&family=IM+Fell+English:ital@0;1&family=Rajdhani:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Noto+Sans+KR:wght@400;500;700&display=swap';
+// Deferred fonts: all remaining fonts loaded after initial paint
+const DEFERRED_FONTS = 'https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel:wght@400;600;700&family=Cinzel+Decorative:wght@400;700&family=DM+Sans:wght@400;500;600;700&family=Barlow+Condensed:wght@400;600;700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400&family=IM+Fell+English:ital@0;1&family=Rajdhani:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Noto+Sans+KR:wght@400;500;700&display=swap';
 
 export default async function LocaleLayout({
   children,
