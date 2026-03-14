@@ -11,13 +11,13 @@ import type { Lang } from '@/crimson-desert-wiki/context/I18nContext';
 type CatFilter = 'ALL' | GlossaryEntry['category'];
 
 const categoryLabels: Record<CatFilter, Record<Lang, string>> = {
-  ALL: { fr: 'Tout', en: 'All', es: 'Todo', it: 'Tutto', ko: '전체' },
-  CHARACTER: { fr: 'Personnages', en: 'Characters', es: 'Personajes', it: 'Personaggi', ko: '캐릭터' },
-  LOCATION: { fr: 'Lieux', en: 'Locations', es: 'Lugares', it: 'Luoghi', ko: '지역' },
-  FACTION: { fr: 'Factions', en: 'Factions', es: 'Facciones', it: 'Fazioni', ko: '세력' },
-  MECHANIC: { fr: 'Mécaniques', en: 'Mechanics', es: 'Mecánicas', it: 'Meccaniche', ko: '메카닉' },
-  CREATURE: { fr: 'Créatures', en: 'Creatures', es: 'Criaturas', it: 'Creature', ko: '크리처' },
-  ITEM: { fr: 'Objets', en: 'Items', es: 'Objetos', it: 'Oggetti', ko: '아이템' },
+  ALL: { fr: 'Tout', en: 'All', es: 'Todo', it: 'Tutto', ko: '전체', pt: 'Todos' },
+  CHARACTER: { fr: 'Personnages', en: 'Characters', es: 'Personajes', it: 'Personaggi', ko: '캐릭터', pt: 'Personagens' },
+  LOCATION: { fr: 'Lieux', en: 'Locations', es: 'Lugares', it: 'Luoghi', ko: '지역', pt: 'Locais' },
+  FACTION: { fr: 'Factions', en: 'Factions', es: 'Facciones', it: 'Fazioni', ko: '세력', pt: 'Facções' },
+  MECHANIC: { fr: 'Mécaniques', en: 'Mechanics', es: 'Mecánicas', it: 'Meccaniche', ko: '메카닉', pt: 'Mecânicas' },
+  CREATURE: { fr: 'Créatures', en: 'Creatures', es: 'Criaturas', it: 'Creature', ko: '크리처', pt: 'Criaturas' },
+  ITEM: { fr: 'Objets', en: 'Items', es: 'Objetos', it: 'Oggetti', ko: '아이템', pt: 'Itens' },
 };
 
 const categoryColors: Record<string, string> = {
@@ -31,6 +31,7 @@ const pageTitles: Record<Lang, string> = {
   es: 'Glosario Crimson Desert | Todos los términos del juego explicados',
   it: 'Glossario Crimson Desert | Tutti i termini del gioco spiegati',
   ko: 'Crimson Desert 용어집 | 모든 게임 용어 설명',
+  pt: 'Glossário Crimson Desert | Todos os termos do jogo explicados',
 };
 
 const pageDescs: Record<Lang, string> = {
@@ -39,6 +40,7 @@ const pageDescs: Record<Lang, string> = {
   es: 'Glosario completo de Crimson Desert: personajes, lugares, facciones, mecánicas de juego y criaturas. Todos los términos del juego explicados. Pearl Abyss 2026.',
   it: 'Glossario completo di Crimson Desert: personaggi, luoghi, fazioni, meccaniche di gioco e creature. Tutti i termini del gioco spiegati. Pearl Abyss 2026.',
   ko: '크림슨 디저트 완전 용어집: 캐릭터, 지역, 세력, 게임 메카닉 및 크리처. 모든 게임 용어 설명. Pearl Abyss 2026.',
+  pt: 'Glossário completo de Crimson Desert: personagens, locais, facções, mecânicas de jogo e criaturas. Todos os termos do jogo explicados. Pearl Abyss 2026.',
 };
 
 const Glossary = () => {

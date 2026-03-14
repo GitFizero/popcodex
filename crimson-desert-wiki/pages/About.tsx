@@ -38,6 +38,12 @@ const triviaAll: Record<Lang, string[]> = {
     "플레이어는 메뉴 조작 없이 전투 중에 무기를 교체할 수 있습니다.",
     "오픈 월드에는 전투와 탐험에 영향을 미치는 동적 날씨 시스템이 있습니다.",
   ],
+  pt: [
+    "Crimson Desert foi originalmente anunciado como uma prequela de Black Desert Online antes de se tornar um jogo independente.",
+    "O jogo está em desenvolvimento há mais de 7 anos na Pearl Abyss.",
+    "Os jogadores podem trocar de arma durante o combate sem nenhuma interação com menus.",
+    "O mundo aberto possui clima dinâmico que afeta o combate e a exploração.",
+  ],
 };
 
 const creditRoles: Record<Lang, { role: string; name: string }[]> = {
@@ -75,6 +81,13 @@ const creditRoles: Record<Lang, { role: string; name: string }[]> = {
     { role: '디자인 & 개발', name: 'Fan Dev Team' },
     { role: '콘텐츠 검증', name: 'Pywel Cartographers Guild' },
     { role: '게임 이미지', name: '© Pearl Abyss — 공식 팬 키트' },
+  ],
+  pt: [
+    { role: 'Editor principal', name: 'Contribuidores da comunidade' },
+    { role: 'Pesquisa de Lore', name: 'The Greymane Scholars' },
+    { role: 'Design e Desenvolvimento', name: 'Fan Dev Team' },
+    { role: 'Verificação de conteúdo', name: 'Pywel Cartographers Guild' },
+    { role: 'Imagens do jogo', name: '© Pearl Abyss — Kit de Fã oficial' },
   ],
 };
 

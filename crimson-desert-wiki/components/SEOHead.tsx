@@ -31,6 +31,7 @@ const LOCALE_MAP: Record<Lang, string> = {
   fr: 'fr_FR',
   en: 'en_US',
   es: 'es_ES',
+  pt: 'pt_BR',
   it: 'it_IT',
   ko: 'ko_KR',
 };
@@ -39,6 +40,7 @@ const KEYWORDS: Record<Lang, string> = {
   fr: 'crimson desert, crimson desert date de sortie, crimson desert ps5, crimson desert gameplay, crimson desert coop, crimson desert steam, crimson desert sortie, crimson desert date de sortie ps5, pearl abyss, kliff macduff, pywel, crimson desert wiki',
   en: 'crimson desert, crimson desert release date, crimson desert ps5, crimson desert gameplay, crimson desert game, crimson desert multiplayer, crimson desert platforms, when does crimson desert come out, crimson desert release, pearl abyss, kliff macduff, pywel, crimson desert wiki',
   es: 'crimson desert, crimson desert fecha de lanzamiento, crimson desert ps5, crimson desert gameplay, crimson desert juego, crimson desert multijugador, crimson desert plataformas, crimson desert lanzamiento, pearl abyss, kliff macduff, pywel, crimson desert wiki',
+  pt: 'crimson desert, crimson desert data de lancamento, crimson desert ps5, crimson desert gameplay, crimson desert jogo, crimson desert multiplayer, crimson desert plataformas, crimson desert lancamento, pearl abyss, kliff macduff, pywel, crimson desert wiki',
   it: 'crimson desert, crimson desert data di uscita, crimson desert ps5, crimson desert gameplay, crimson desert gioco, crimson desert multigiocatore, crimson desert piattaforme, crimson desert uscita, pearl abyss, kliff macduff, pywel, crimson desert wiki',
   ko: '크림슨 디저트, 크림슨 디저트 출시일, 크림슨 디저트 PS5, 크림슨 디저트 게임플레이, 크림슨 디저트 게임, 크림슨 디저트 멀티플레이, 크림슨 디저트 플랫폼, 크림슨 디저트 출시, 펄어비스, 클리프 맥더프, 파이웰, 크림슨 디저트 위키',
 };
