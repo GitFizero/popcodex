@@ -17,54 +17,74 @@ export const fableArticles: ArticleData[] = [
     content: {
       fr: `## Le monde d'Albion
 
-Albion est un vaste royaume médiéval-fantastique qui sert de cadre à la série Fable depuis ses débuts. Dans ce reboot par Playground Games, Albion renaît avec une fidélité visuelle impressionnante grâce au moteur ForzaTech, habituellement utilisé pour la série Forza.
+Albion est un vaste royaume médiéval-fantastique qui sert de cadre à la série Fable depuis ses débuts. Dans ce reboot par Playground Games, Albion renaît avec une fidélité visuelle impressionnante grâce au moteur ForzaTech, habituellement utilisé pour la série Forza. Le monde est décrit comme un **« conte de fées »**, pas de la fantasy épique — une distinction importante qui définit l'atmosphère unique de Fable.
 
-## Géographie
+## Lieux clés
 
-Albion est composé de régions variées : des forêts enchantées aux villages pittoresques, des marécages sinistres aux châteaux imposants. Chaque zone possède son propre écosystème, ses habitants et ses dangers.
+### Briar Hill — Le village natal du héros
+
+**Briar Hill** est le petit village pastoral où le héros grandit avec sa grand-mère. Niché dans les collines verdoyantes d'Albion, c'est un havre de paix isolé. C'est le point de départ de l'aventure — et c'est la malédiction qui transforme ses habitants en pierre qui déclenche la quête du héros.
+
+### Bowerstone — La capitale
+
+**Bowerstone** fait son grand retour en tant que capitale d'Albion. La ville contient le **Fairfax Castle** et la **Heroes' Guild** (Guilde des Héros), deux lieux emblématiques de la franchise. Bowerstone est une cité animée avec ses marchands, ses tavernes et ses intrigues politiques.
+
+## Géographie variée
+
+Albion est composé de régions diverses : **villes animées**, **forêts enchantées**, **montagnes imposantes** et **marécages sinistres**. Chaque zone possède son propre écosystème, ses habitants et ses dangers.
+
+## Exploration à cheval
+
+Playground Games a confirmé l'**exploration à cheval sans chargements visibles**. Le joueur peut traverser Albion de bout en bout sans écran de chargement, profitant d'une transition fluide entre les zones. Le moteur ForzaTech, conçu pour le streaming de données à haute vitesse dans Forza, rend cette prouesse technique possible.
 
 ## Magie et mystère
 
-La magie imprègne chaque recoin d'Albion. Des lignes de force mystiques parcourent le territoire, alimentant les pouvoirs des Héros et des créatures magiques. Les Guildes des Héros, autrefois puissantes, ont décliné, laissant place à une ère de chaos et d'aventure.
+La magie imprègne chaque recoin d'Albion. Des lignes de force mystiques parcourent le territoire, alimentant les pouvoirs des Héros et des créatures magiques.
 
 ## Un monde vivant
 
-Playground Games promet un Albion plus vivant que jamais. Les PNJ ont leurs propres routines, les saisons changent, et les choix du joueur influencent visiblement l'état du monde — des villages prospères aux ruines désolées.
+Les PNJ ont leurs propres routines, les saisons changent, et les choix du joueur influencent visiblement l'état du monde — des villages prospères aux ruines désolées.
 
 ## Sortie confirmée sur PS5
 
 Le reboot de Fable sortira à l'automne 2026 sur Xbox Series X/S, PC et PS5. La version PlayStation a été confirmée par Sony en janvier 2026.`,
-      en: `## The world of Albion
+      en: `## The World of Albion
 
-Albion is a vast medieval-fantasy kingdom that has served as the setting for the Fable series since its inception. In this reboot by Playground Games, Albion is reborn with impressive visual fidelity thanks to the ForzaTech engine.
+Albion is a vast medieval-fantasy kingdom that has served as the setting for the Fable series since its inception. In this reboot by Playground Games, Albion is reborn with impressive visual fidelity thanks to the ForzaTech engine. The world is described as a **"fairy tale"**, not epic fantasy — an important distinction that defines Fable's unique atmosphere.
 
-## Geography
+## Key Locations
 
-Albion consists of varied regions: from enchanted forests to picturesque villages, sinister swamps to imposing castles. Each zone has its own ecosystem, inhabitants, and dangers.
+### Briar Hill — The Hero's Hometown
 
-## Magic and mystery
+**Briar Hill** is the small pastoral village where the hero grows up with their grandmother. The curse that turns its inhabitants to stone triggers the hero's quest.
 
-Magic permeates every corner of Albion. Mystical ley lines run through the territory, powering the abilities of Heroes and magical creatures.
+### Bowerstone — The Capital
 
-## A living world
+**Bowerstone** returns as Albion's capital, featuring **Fairfax Castle** and the **Heroes' Guild**, two iconic franchise locations.
 
-Playground Games promises a more alive Albion than ever. NPCs have their own routines, seasons change, and player choices visibly influence the state of the world.
+## Varied Geography
 
-## PS5 release confirmed
+Albion features **bustling towns**, **enchanted forests**, **imposing mountains** and **sinister swamps**.
+
+## Horse Exploration
+
+Playground Games confirmed **seamless horse exploration with no visible loading screens**. The ForzaTech engine makes this possible.
+
+## PS5 Release Confirmed
 
 The Fable reboot will release in autumn 2026 on Xbox Series X/S, PC and PS5.`,
       es: `## El mundo de Albion
 
-Albion es un vasto reino medieval-fantástico que sirve de escenario para Fable. En este reboot de Playground Games, Albion renace con el motor ForzaTech. Saldrá en otoño de 2026.`,
+Albion es un vasto reino medieval-fantástico descrito como un **"cuento de hadas"**. Lugares clave: **Briar Hill** (aldea natal del héroe), **Bowerstone** (capital con Fairfax Castle y la Guilde des Héros). Exploración a caballo sin cargas visibles. Saldrá en otoño de 2026 en Xbox Series X/S, PC y PS5.`,
       pt: `## O mundo de Albion
 
-Albion é um vasto reino medieval-fantástico que serve de cenário para Fable. Neste reboot da Playground Games, Albion renasce com o motor ForzaTech. Lançamento no outono de 2026.`,
+Albion é um vasto reino medieval-fantástico descrito como um **"conto de fadas"**. Locais-chave: **Briar Hill** (aldeia natal do herói), **Bowerstone** (capital com Fairfax Castle e a Guilda dos Heróis). Exploração a cavalo sem telas de carregamento. Lançamento no outono de 2026 em Xbox Series X/S, PC e PS5.`,
       it: `## Il mondo di Albion
 
-Albion è un vasto regno medievale-fantasy che fa da sfondo a Fable. In questo reboot di Playground Games, Albion rinasce con il motore ForzaTech. Uscita nell'autunno 2026.`,
+Albion è un vasto regno medievale-fantasy descritto come una **"fiaba"**. Luoghi chiave: **Briar Hill** (villaggio natale dell'eroe), **Bowerstone** (capitale con Fairfax Castle e la Gilda degli Eroi). Esplorazione a cavallo senza schermate di caricamento. Uscita nell'autunno 2026 su Xbox Series X/S, PC e PS5.`,
       ko: `## 알비온의 세계
 
-알비온은 Fable 시리즈의 배경이 되는 중세 판타지 왕국입니다. Playground Games의 리부트에서 ForzaTech 엔진으로 새롭게 탄생합니다. 2026년 가을 출시 예정.`,
+알비온은 **"동화"**로 묘사되는 중세 판타지 왕국입니다. 주요 장소: **브라이어 힐** (영웅의 고향 마을), **바워스톤** (Fairfax Castle과 영웅 길드가 있는 수도). 로딩 화면 없는 말 탐험. 2026년 가을 Xbox Series X/S, PC, PS5에서 출시.`,
     },
     infobox: { 'Type': 'Monde ouvert', 'Univers': 'Fable', 'Moteur': 'ForzaTech', 'Développeur': 'Playground Games', 'Sortie': 'Automne 2026' },
     author: "L'équipe PopCodex",
@@ -524,5 +544,143 @@ Fable은 서사적 영웅주의와 기발한 유머를 혼합한 독특한 톤�
     readTime: 3,
     tags: ['humour', 'lore', 'fable', 'britannique'],
     relatedSlugs: ['albion', 'heros-d-albion'],
+  },
+  {
+    slug: 'faut-il-avoir-joue-anciens-fable',
+    franchise: 'fable',
+    category: 'lore',
+    title: {
+      fr: 'Faut-il avoir joué aux anciens Fable pour comprendre le reboot ?',
+      en: 'Do You Need to Play Old Fable Games to Understand the Reboot?',
+      es: '¿Hay que haber jugado los antiguos Fable para entender el reboot?',
+      pt: 'Precisa ter jogado os Fable antigos para entender o reboot?',
+      it: 'Bisogna aver giocato ai vecchi Fable per capire il reboot?',
+      ko: '리부트를 이해하려면 이전 Fable을 플레이해야 하나요?',
+    },
+    excerpt: {
+      fr: "Non ! Le nouveau Fable est un reboot complet, pas une suite. Nouvelle histoire dans Albion, pas de continuité avec la trilogie Lionhead. Accessible aux nouveaux joueurs.",
+      en: "No! The new Fable is a full reboot, not a sequel. New story in Albion, no continuity with the Lionhead trilogy. Accessible to new players.",
+      es: "¡No! El nuevo Fable es un reboot completo, no una secuela. Nueva historia en Albion, sin continuidad con la trilogía de Lionhead. Accesible para nuevos jugadores.",
+      pt: "Não! O novo Fable é um reboot completo, não uma sequência. Nova história em Albion, sem continuidade com a trilogia da Lionhead. Acessível para novos jogadores.",
+      it: "No! Il nuovo Fable è un reboot completo, non un sequel. Nuova storia ad Albion, nessuna continuità con la trilogia Lionhead. Accessibile ai nuovi giocatori.",
+      ko: "아닙니다! 새 Fable은 후속작이 아닌 완전한 리부트입니다. 알비온의 새로운 이야기, Lionhead 삼부작과의 연속성 없음. 신규 플레이어도 접근 가능.",
+    },
+    content: {
+      fr: `## La réponse courte : non
+
+Le nouveau Fable de Playground Games est un **reboot**, pas une suite. Vous n'avez absolument **pas besoin d'avoir joué aux anciens jeux** pour profiter pleinement de cette nouvelle aventure dans Albion.
+
+## Un reboot, pas une suite
+
+Le terme « reboot » signifie que Playground Games repart de zéro. Il n'y a **pas de continuité narrative** avec la trilogie originale de Lionhead Studios (Fable, Fable II, Fable III). L'histoire est entièrement nouvelle, avec de nouveaux personnages, un nouveau héros et un nouvel arc narratif.
+
+## Ce qui revient des anciens jeux
+
+Si Fable 2026 est un reboot, il **revisite certains éléments emblématiques** du lore et des lieux de la franchise :
+
+- **Albion** — le royaume reste le cadre de l'aventure, mais réinventé
+- **Bowerstone** — la capitale revient, avec le Fairfax Castle et la Guilde des Héros
+- **Le système de moralité** — un pilier fondamental de la série, modernisé
+- **Les Héros** — le concept de lignées héroïques est conservé
+- **Le ton humoristique** — l'humour britannique décalé, marque de fabrique de la série
+- **Les créatures** — Balverines, Hobbes et autres créatures iconiques reviennent
+
+Ces éléments seront réintroduits dans leur contexte, donc aucune connaissance préalable n'est nécessaire.
+
+## Peter Molyneux non impliqué
+
+Peter Molyneux, le créateur original de Fable et fondateur de Lionhead Studios, **n'est pas impliqué** dans ce reboot. Le jeu est développé par **Playground Games** (studio connu pour la série Forza Horizon), sous la supervision de Xbox Game Studios.
+
+## Accessible aux nouveaux joueurs
+
+Playground Games a explicitement conçu Fable 2026 comme une **porte d'entrée accessible** pour les nouveaux joueurs. Le jeu est pensé pour être compris et apprécié sans aucune connaissance de la franchise. C'est le moment idéal pour découvrir l'univers de Fable.
+
+## Et si vous avez joué aux anciens ?
+
+Les vétérans de la franchise retrouveront de nombreux **clins d'œil et références** aux jeux originaux. Les lieux revisités, les créatures familières et le ton caractéristique de la série créeront un sentiment de nostalgie agréable, sans que ces références soient nécessaires à la compréhension de l'histoire.`,
+      en: `## The Short Answer: No
+
+Playground Games' new Fable is a **reboot**, not a sequel. You absolutely **do not need to have played the old games** to fully enjoy this new adventure in Albion.
+
+## A Reboot, Not a Sequel
+
+"Reboot" means Playground Games starts from scratch. There is **no narrative continuity** with Lionhead Studios' original trilogy (Fable, Fable II, Fable III). The story is entirely new, with new characters, a new hero and a new narrative arc.
+
+## What Returns from Old Games
+
+While a reboot, Fable 2026 **revisits iconic elements** from the franchise:
+
+- **Albion** — the kingdom remains but is reimagined
+- **Bowerstone** — the capital returns with Fairfax Castle and the Heroes' Guild
+- **The morality system** — a franchise pillar, modernized
+- **Heroes** — the concept of heroic lineages is preserved
+- **British humor** — the series' trademark quirky tone
+- **Creatures** — Balverines, Hobbes and other iconic creatures return
+
+## Peter Molyneux Not Involved
+
+Peter Molyneux, Fable's original creator, is **not involved** in this reboot. The game is developed by **Playground Games** (known for Forza Horizon).
+
+## Accessible to New Players
+
+Playground Games explicitly designed Fable 2026 as an **accessible entry point** for newcomers. The perfect time to discover Fable's universe.`,
+      es: `## La respuesta corta: no
+
+El nuevo Fable es un **reboot**, no una secuela. **No es necesario haber jugado a los juegos anteriores**. No hay continuidad narrativa con la trilogía original de Lionhead Studios.
+
+## Lo que vuelve
+
+Albion, Bowerstone, el sistema de moralidad, los Héroes, el humor británico y criaturas como Balverines y Hobbes regresan, pero reimaginados. Peter Molyneux **no está involucrado**.
+
+## Accesible para nuevos jugadores
+
+Playground Games diseñó el juego como una puerta de entrada accesible para nuevos jugadores.`,
+      pt: `## A resposta curta: não
+
+O novo Fable é um **reboot**, não uma sequência. **Não é necessário ter jogado os jogos anteriores**. Não há continuidade narrativa com a trilogia original da Lionhead Studios.
+
+## O que retorna
+
+Albion, Bowerstone, o sistema de moralidade, os Heróis, o humor britânico e criaturas como Balverines e Hobbes retornam, mas reimaginados. Peter Molyneux **não está envolvido**.
+
+## Acessível para novos jogadores
+
+Playground Games projetou o jogo como um ponto de entrada acessível para novos jogadores.`,
+      it: `## La risposta breve: no
+
+Il nuovo Fable è un **reboot**, non un sequel. **Non è necessario aver giocato ai giochi precedenti**. Non c'è continuità narrativa con la trilogia originale di Lionhead Studios.
+
+## Cosa ritorna
+
+Albion, Bowerstone, il sistema di moralità, gli Eroi, l'umorismo britannico e creature come Balverines e Hobbes tornano, ma reimaginati. Peter Molyneux **non è coinvolto**.
+
+## Accessibile ai nuovi giocatori
+
+Playground Games ha progettato il gioco come un punto d'ingresso accessibile per i nuovi giocatori.`,
+      ko: `## 짧은 답변: 아닙니다
+
+새 Fable은 후속작이 아닌 **리부트**입니다. **이전 게임을 플레이할 필요가 없습니다**. Lionhead Studios의 오리지널 삼부작과 서사적 연속성이 없습니다.
+
+## 돌아오는 요소
+
+알비온, 바워스톤, 도덕 시스템, 영웅, 영국식 유머, 발버린과 홉스 같은 크리처가 재해석되어 돌아옵니다. Peter Molyneux는 **참여하지 않습니다**.
+
+## 신규 플레이어도 접근 가능
+
+Playground Games는 신규 플레이어를 위한 접근 가능한 진입점으로 게임을 설계했습니다.`,
+    },
+    infobox: {
+      'Type': 'Reboot (pas une suite)',
+      'Studio original': 'Lionhead Studios (fermé en 2016)',
+      'Studio actuel': 'Playground Games',
+      'Peter Molyneux': 'Non impliqué',
+      'Prérequis': 'Aucun — accessible aux nouveaux joueurs',
+    },
+    author: "L'équipe PopCodex",
+    publishedAt: '2026-03-14',
+    updatedAt: '2026-03-14',
+    readTime: 4,
+    tags: ['fable', 'lore', 'reboot', 'guide', 'debutant'],
+    relatedSlugs: ['albion', 'heros-d-albion', 'humour-fable', 'systeme-combat'],
   },
 ];

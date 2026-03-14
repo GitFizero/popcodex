@@ -2737,4 +2737,358 @@ GTA VI 트레일러는 YouTube의 모든 조회수 기록을 깨며 수십억 �
     tags: ["trailers gta 6","vidéos officielles","rockstar games","trailer 1","trailer 2","gameplay"],
     relatedSlugs: ["gta-6-screenshots-officiels","gta-6-artwork-wallpapers-officiels"],
   },
+
+  // ---- GTA 6 : Tout ce que les leaks révèlent sur le gameplay ----
+  {
+    slug: 'gta-6-leaks-gameplay',
+    franchise: 'gta-vi',
+    category: 'gameplay',
+    title: {
+      fr: 'GTA VI : tout ce que les leaks révèlent sur le gameplay',
+      en: 'GTA VI: Everything Leaks Reveal About Gameplay',
+      es: 'GTA VI: todo lo que las filtraciones revelan sobre el gameplay',
+      pt: 'GTA VI: tudo que os vazamentos revelam sobre o gameplay',
+      it: 'GTA VI: tutto ciò che i leak rivelano sul gameplay',
+      ko: 'GTA VI: 유출로 밝혀진 게임플레이 정보 총정리',
+    },
+    excerpt: {
+      fr: "Synthèse des fuites et leaks sur le gameplay de GTA VI : système de recherche à 6 étoiles, jauge de relation, évolution du poids, zones sous-marines et plus. Infos officielles vs leaks.",
+      en: "Summary of GTA VI gameplay leaks: 6-star wanted system, relationship gauge, weight evolution, underwater zones and more. Official info vs leaks.",
+      es: "Resumen de las filtraciones de gameplay de GTA VI: sistema de búsqueda de 6 estrellas, barra de relación, evolución de peso, zonas submarinas y más.",
+      pt: "Resumo dos vazamentos de gameplay de GTA VI: sistema de procurado de 6 estrelas, medidor de relacionamento, evolução de peso, zonas subaquáticas e mais.",
+      it: "Riepilogo dei leak sul gameplay di GTA VI: sistema di ricerca a 6 stelle, barra relazione, evoluzione peso, zone sottomarine e altro.",
+      ko: "GTA VI 게임플레이 유출 총정리: 6성 수배 시스템, 관계 게이지, 체중 변화, 수중 구역 등.",
+    },
+    content: {
+      fr: `## Avertissement
+
+Cet article compile des informations issues de **fuites (leaks)** et de sources non officielles. Sauf mention contraire, ces éléments n'ont **pas été confirmés officiellement** par Rockstar Games. Traitez ces informations avec prudence.
+
+## Système de recherche à 6 étoiles (confirmé)
+
+Le retour du système de recherche à **6 étoiles** a été confirmé par les trailers officiels. C'est un retour aux sources pour la franchise, GTA V ayant réduit le système à 5 étoiles. Le sixième niveau déclenche une réponse militaire massive, avec des véhicules blindés et des forces spéciales.
+
+## Jauge de relation inspirée de RDR2 (leak)
+
+⚠️ **Source : leak — non confirmé officiellement**
+
+Selon les fuites du mega-leak de 2022, GTA VI intégrerait un **système de relation entre Lucia et Jason** inspiré du compagnonnage dans Red Dead Redemption 2. Les interactions entre les deux protagonistes évolueraient en fonction des choix du joueur, affectant les dialogues, les missions disponibles et potentiellement la fin du jeu.
+
+## Évolution du poids des personnages (leak)
+
+⚠️ **Source : leak — non confirmé officiellement**
+
+Les personnages verraient leur **apparence physique évoluer** en fonction du gameplay : manger fréquemment ferait prendre du poids, tandis que l'exercice physique et le combat rapprocheraient d'un physique athlétique. Ce système rappelle celui de GTA: San Andreas mais avec un niveau de détail supérieur.
+
+## +700 boutiques et centres commerciaux visitables (leak)
+
+⚠️ **Source : leak — non confirmé officiellement**
+
+Le monde ouvert de Leonida contiendrait plus de **700 intérieurs visitables** : boutiques, centres commerciaux, restaurants, bars, salles de sport, etc. Ce chiffre, s'il est exact, représenterait un bond qualitatif majeur par rapport à GTA V.
+
+## Zones sous-marines explorables (confirmé via trailers)
+
+Les trailers officiels ont montré des séquences de **plongée sous-marine**, confirmant la présence de zones aquatiques explorables. Les eaux autour de Leonida — inspirées des côtes de Floride — abriteraient des épaves, de la faune marine (requins, dauphins) et potentiellement du contenu lié aux trafics maritimes.
+
+## Arsenal d'armes limité pour plus de réalisme (leak)
+
+⚠️ **Source : leak — non confirmé officiellement**
+
+Contrairement aux précédents GTA où le joueur pouvait transporter un arsenal entier, GTA VI limiterait le **nombre d'armes transportables** simultanément. Ce choix de design viserait plus de réalisme, obligeant le joueur à planifier ses chargements avant chaque mission, similaire à l'approche de Red Dead Redemption 2.
+
+## Synthèse : officiel vs leak
+
+| Élément | Statut |
+|---------|--------|
+| 6 étoiles de recherche | ✅ Confirmé |
+| Zones sous-marines | ✅ Confirmé (trailers) |
+| Jauge de relation | ⚠️ Leak non confirmé |
+| Évolution du poids | ⚠️ Leak non confirmé |
+| 700+ intérieurs | ⚠️ Leak non confirmé |
+| Arsenal limité | ⚠️ Leak non confirmé |`,
+      en: `## Disclaimer
+
+This article compiles information from **leaks** and unofficial sources. Unless otherwise noted, these elements have **not been officially confirmed** by Rockstar Games. Treat this information with caution.
+
+## 6-Star Wanted System (Confirmed)
+
+The return of the **6-star** wanted system was confirmed through official trailers. It's a return to form for the franchise, as GTA V reduced the system to 5 stars. The sixth level triggers a massive military response with armored vehicles and special forces.
+
+## RDR2-Inspired Relationship Gauge (Leak)
+
+⚠️ **Source: leak — not officially confirmed**
+
+According to the 2022 mega-leak, GTA VI would feature a **relationship system between Lucia and Jason** inspired by Red Dead Redemption 2's companionship. Interactions between the protagonists would evolve based on player choices, affecting dialogue, available missions and potentially the ending.
+
+## Character Weight Evolution (Leak)
+
+⚠️ **Source: leak — not officially confirmed**
+
+Characters would see their **physical appearance evolve** based on gameplay: frequent eating would cause weight gain, while exercise and combat would build an athletic physique. Similar to GTA: San Andreas but with greater detail.
+
+## 700+ Visitable Shops and Malls (Leak)
+
+⚠️ **Source: leak — not officially confirmed**
+
+Leonida's open world would contain over **700 visitable interiors**: shops, malls, restaurants, bars, gyms, etc.
+
+## Explorable Underwater Zones (Confirmed via Trailers)
+
+Official trailers showed **scuba diving** sequences, confirming explorable aquatic zones around Leonida.
+
+## Limited Weapon Arsenal for Realism (Leak)
+
+⚠️ **Source: leak — not officially confirmed**
+
+GTA VI would limit the **number of weapons carried** simultaneously, similar to RDR2's approach.
+
+## Summary: Official vs Leak
+
+| Element | Status |
+|---------|--------|
+| 6-star wanted | ✅ Confirmed |
+| Underwater zones | ✅ Confirmed (trailers) |
+| Relationship gauge | ⚠️ Unconfirmed leak |
+| Weight evolution | ⚠️ Unconfirmed leak |
+| 700+ interiors | ⚠️ Unconfirmed leak |
+| Limited arsenal | ⚠️ Unconfirmed leak |`,
+      es: `## Aviso
+
+Este artículo compila información de **filtraciones (leaks)** no confirmadas oficialmente por Rockstar Games.
+
+## Sistema de búsqueda de 6 estrellas (confirmado)
+
+Retorno del sistema de **6 estrellas** confirmado por los tráilers oficiales.
+
+## Otros leaks no confirmados
+
+- **Barra de relación** entre Lucia y Jason inspirada en RDR2
+- **Evolución del peso** de los personajes según el gameplay
+- **+700 interiores visitables** en Leonida
+- **Zonas submarinas** confirmadas vía tráilers
+- **Arsenal de armas limitado** para más realismo
+
+⚠️ Siempre distinguir entre información oficial y leaks no confirmados.`,
+      pt: `## Aviso
+
+Este artigo compila informações de **vazamentos (leaks)** não confirmados oficialmente pela Rockstar Games.
+
+## Sistema de procurado de 6 estrelas (confirmado)
+
+Retorno do sistema de **6 estrelas** confirmado pelos trailers oficiais.
+
+## Outros vazamentos não confirmados
+
+- **Medidor de relacionamento** entre Lucia e Jason inspirado em RDR2
+- **Evolução do peso** dos personagens conforme o gameplay
+- **+700 interiores visitáveis** em Leonida
+- **Zonas subaquáticas** confirmadas via trailers
+- **Arsenal de armas limitado** para mais realismo`,
+      it: `## Avvertenza
+
+Questo articolo raccoglie informazioni da **leak** non confermati ufficialmente da Rockstar Games.
+
+## Sistema di ricerca a 6 stelle (confermato)
+
+Ritorno del sistema a **6 stelle** confermato dai trailer ufficiali.
+
+## Altri leak non confermati
+
+- **Barra relazione** tra Lucia e Jason ispirata a RDR2
+- **Evoluzione del peso** dei personaggi in base al gameplay
+- **+700 interni visitabili** a Leonida
+- **Zone sottomarine** confermate via trailer
+- **Arsenale armi limitato** per più realismo`,
+      ko: `## 주의
+
+이 기사는 Rockstar Games에서 공식 확인하지 않은 **유출(leaks)** 정보를 정리한 것입니다.
+
+## 6성 수배 시스템 (확정)
+
+공식 트레일러를 통해 **6성** 수배 시스템 복귀가 확인되었습니다.
+
+## 기타 미확인 유출
+
+- RDR2에서 영감받은 Lucia와 Jason 간 **관계 게이지**
+- 게임플레이에 따른 캐릭터 **체중 변화**
+- Leonida에 **700개 이상 방문 가능 인테리어**
+- 트레일러를 통해 확인된 **수중 구역**
+- 더 많은 리얼리즘을 위한 **제한된 무기 보유**`,
+    },
+    infobox: {
+      'Étoiles': '6 (confirmé)',
+      'Zones sous-marines': 'Confirmé (trailers)',
+      'Jauge relation': 'Leak non confirmé',
+      'Intérieurs': '+700 (leak)',
+    },
+    author: "L'équipe PopCodex",
+    publishedAt: '2026-03-14',
+    updatedAt: '2026-03-14',
+    readTime: 7,
+    tags: ['gta-vi', 'gameplay', 'leaks', 'rumeurs', 'rockstar'],
+    relatedSlugs: ['lucia-caminos', 'jason-duval', 'carte-vice-city-gta-6-tous-les-lieux-confirmes'],
+  },
+
+  // ---- GTA 6 : prix, éditions et version PC ----
+  {
+    slug: 'gta-6-prix-editions-pc',
+    franchise: 'gta-vi',
+    category: 'actualites',
+    title: {
+      fr: 'GTA VI : prix, éditions et version PC — tout savoir',
+      en: 'GTA VI: Price, Editions and PC Version — Everything You Need to Know',
+      es: 'GTA VI: precio, ediciones y versión PC — todo lo que debes saber',
+      pt: 'GTA VI: preço, edições e versão PC — tudo o que precisa saber',
+      it: 'GTA VI: prezzo, edizioni e versione PC — tutto quello che devi sapere',
+      ko: 'GTA VI: 가격, 에디션 및 PC 버전 — 알아야 할 모든 것',
+    },
+    excerpt: {
+      fr: "GTA VI sortira le 19 novembre 2026 sur PS5 et Xbox Series X|S au prix de 70-80 €. La version PC est estimée 12 à 18 mois après. Point sur les éditions et le prix.",
+      en: "GTA VI launches November 19, 2026 on PS5 and Xbox Series X|S at $69.99-79.99. The PC version is estimated 12-18 months later. Details on editions and pricing.",
+      es: "GTA VI sale el 19 de noviembre de 2026 en PS5 y Xbox Series X|S a 70-80 €. La versión PC se estima 12-18 meses después. Detalles sobre ediciones y precio.",
+      pt: "GTA VI sai em 19 de novembro de 2026 no PS5 e Xbox Series X|S a 70-80 €. A versão PC estimada para 12-18 meses depois. Detalhes sobre edições e preço.",
+      it: "GTA VI esce il 19 novembre 2026 su PS5 e Xbox Series X|S a 70-80 €. La versione PC è stimata 12-18 mesi dopo. Dettagli su edizioni e prezzo.",
+      ko: "GTA VI는 2026년 11월 19일 PS5 및 Xbox Series X|S에서 69.99-79.99달러에 출시됩니다. PC 버전은 12-18개월 후 예상. 에디션 및 가격 정보.",
+    },
+    content: {
+      fr: `## Prix de GTA VI
+
+Le prix de GTA VI est attendu dans la fourchette de **70 à 80 €** pour l'édition standard, en ligne avec la tarification AAA actuelle. Take-Two Interactive, la maison mère de Rockstar Games, a précédemment indiqué que le prix refléterait la valeur du contenu proposé. Pour comparaison, les jeux AAA récents comme Spider-Man 2 ou Hogwarts Legacy se sont vendus à 79,99 € sur PS5.
+
+## Éditions disponibles
+
+À ce jour, Rockstar Games n'a **pas encore annoncé officiellement** les différentes éditions de GTA VI. Cependant, en se basant sur les pratiques habituelles de l'industrie et les précédents de Rockstar (RDR2, GTA V), voici ce qui est attendu :
+
+- **Édition Standard** (~70-80 €) — le jeu de base
+- **Édition Spéciale** (~90-100 €) — bonus cosmétiques et contenu en jeu
+- **Édition Ultimate/Collector** (~120-150 € ou plus) — éléments physiques, artbook, etc.
+
+⚠️ Ces éditions ne sont **pas encore confirmées**. Rockstar communiquera les détails officiels dans les mois précédant la sortie.
+
+## Plateformes au lancement : consoles uniquement
+
+GTA VI sera disponible au lancement **exclusivement sur consoles** :
+- **PlayStation 5**
+- **Xbox Series X|S**
+
+Pas de version PS4 ni Xbox One. Le jeu exploite pleinement les capacités du matériel de nouvelle génération.
+
+## Version PC : 12 à 18 mois après
+
+La **version PC de GTA VI** n'est **pas prévue au lancement**. En se basant sur le précédent de GTA V (sorti en septembre 2013 sur consoles, avril 2015 sur PC — soit 18 mois d'écart) et Red Dead Redemption 2 (octobre 2018 sur consoles, novembre 2019 sur PC — 13 mois), la version PC est estimée entre **fin 2027 et mi-2028**.
+
+Cette stratégie permet à Rockstar de :
+- Maximiser les ventes consoles au lancement
+- Optimiser le portage PC avec du temps supplémentaire
+- Créer un second événement commercial avec la sortie PC
+
+## Précommandes
+
+Les précommandes ne sont **pas encore ouvertes** à la date de rédaction de cet article (mars 2026). Elles seront probablement annoncées quelques mois avant la sortie de novembre 2026.
+
+## Résumé
+
+| Élément | Information |
+|---------|------------|
+| Sortie consoles | 19 novembre 2026 |
+| Prix estimé | 70-80 € (standard) |
+| Plateformes | PS5, Xbox Series X|S |
+| Version PC | Estimée fin 2027 / mi-2028 |
+| Éditions collector | Non encore annoncées |
+| Précommandes | Non encore ouvertes |`,
+      en: `## GTA VI Pricing
+
+GTA VI is expected to cost **$69.99-79.99** for the standard edition, in line with current AAA pricing. Take-Two Interactive has indicated the price will reflect the value of the content offered.
+
+## Available Editions
+
+Rockstar Games has **not yet officially announced** GTA VI editions. Based on industry practices and Rockstar's history (RDR2, GTA V), expected editions include:
+
+- **Standard Edition** (~$69.99) — base game
+- **Special Edition** (~$89.99-99.99) — cosmetic bonuses and in-game content
+- **Ultimate/Collector Edition** (~$119.99-149.99+) — physical items, artbook, etc.
+
+⚠️ These editions are **not yet confirmed**.
+
+## Launch Platforms: Consoles Only
+
+GTA VI launches **exclusively on consoles**:
+- **PlayStation 5**
+- **Xbox Series X|S**
+
+No PS4, no Xbox One. The game fully leverages next-gen hardware.
+
+## PC Version: 12-18 Months Later
+
+The **PC version** is **not planned for launch**. Based on GTA V (18-month gap) and RDR2 (13-month gap), the PC version is estimated between **late 2027 and mid-2028**.
+
+## Summary
+
+| Element | Information |
+|---------|------------|
+| Console launch | November 19, 2026 |
+| Estimated price | $69.99-79.99 (standard) |
+| Platforms | PS5, Xbox Series X|S |
+| PC version | Est. late 2027 / mid-2028 |
+| Collector editions | Not yet announced |
+| Pre-orders | Not yet open |`,
+      es: `## Precio de GTA VI
+
+El precio esperado es de **70-80 €** para la edición estándar. Las ediciones especiales y collector **no han sido anunciadas oficialmente**.
+
+## Plataformas al lanzamiento
+
+Solo **PS5 y Xbox Series X|S**. Sin PS4 ni Xbox One. La **versión PC** se estima **12-18 meses después** (finales de 2027 / mediados de 2028), basándose en los precedentes de GTA V y RDR2.
+
+## Resumen
+
+Sortie : 19 de noviembre de 2026. Precio : 70-80 €. PC : finales de 2027 / mediados de 2028.`,
+      pt: `## Preço de GTA VI
+
+O preço esperado é de **70-80 €** para a edição padrão. As edições especiais e collector **não foram anunciadas oficialmente**.
+
+## Plataformas no lançamento
+
+Apenas **PS5 e Xbox Series X|S**. Sem PS4 nem Xbox One. A **versão PC** é estimada **12-18 meses depois** (final de 2027 / meados de 2028), com base nos precedentes de GTA V e RDR2.
+
+## Resumo
+
+Lançamento: 19 de novembro de 2026. Preço: 70-80 €. PC: final de 2027 / meados de 2028.`,
+      it: `## Prezzo di GTA VI
+
+Il prezzo previsto è di **70-80 €** per l'edizione standard. Le edizioni speciali e collector **non sono state ancora annunciate**.
+
+## Piattaforme al lancio
+
+Solo **PS5 e Xbox Series X|S**. Niente PS4 né Xbox One. La **versione PC** è stimata **12-18 mesi dopo** (fine 2027 / metà 2028), basandosi sui precedenti di GTA V e RDR2.
+
+## Riepilogo
+
+Uscita: 19 novembre 2026. Prezzo: 70-80 €. PC: fine 2027 / metà 2028.`,
+      ko: `## GTA VI 가격
+
+스탠다드 에디션 예상 가격은 **69.99-79.99달러**입니다. 특별판 및 컬렉터 에디션은 **아직 공식 발표되지 않았습니다**.
+
+## 출시 플랫폼
+
+**PS5 및 Xbox Series X|S**만 해당. PS4, Xbox One 없음. **PC 버전**은 GTA V와 RDR2 선례에 따라 **12-18개월 후** (2027년 말 / 2028년 중반) 예상.
+
+## 요약
+
+출시: 2026년 11월 19일. 가격: 69.99-79.99달러. PC: 2027년 말 / 2028년 중반.`,
+    },
+    infobox: {
+      'Sortie': '19 novembre 2026',
+      'Prix': '70-80 € (estimé)',
+      'Plateformes': 'PS5, Xbox Series X|S',
+      'Version PC': 'Estimée fin 2027 / mi-2028',
+      'Éditions': 'Non encore annoncées',
+    },
+    author: "L'équipe PopCodex",
+    publishedAt: '2026-03-14',
+    updatedAt: '2026-03-14',
+    readTime: 5,
+    tags: ['gta-vi', 'actualites', 'prix', 'editions', 'pc', 'rockstar'],
+    relatedSlugs: ['lucia-caminos', 'jason-duval', 'gta-6-leaks-gameplay'],
+  },
 ];

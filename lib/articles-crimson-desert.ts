@@ -82,44 +82,146 @@ Kliff è un combattente versatile in prima linea che impugna spadone, lancia e a
       ko: 'Damiane',
     },
     excerpt: {
-      fr: "Combattante agile des Crinières Grises, spécialisée dans les doubles lames.",
-      en: "Agile Greymane fighter specializing in dual blades.",
-      es: "Luchadora ágil de los Greymanes, especializada en dobles espadas.",
-      pt: "Combattante agile des Crinières Grises, spécialisée dans les doubles lames.",
-      it: "Combattente agile dei Greymanes, specializzata nelle doppie lame.",
-      ko: "쌍검에 특화된 그레이메인의 민첩한 전투원.",
+      fr: "Damiane est un personnage jouable de type glass cannon dans Crimson Desert. Haute agilité, faible HP, elle manie la rapière, la claymore, le mousquet et les sorts à distance.",
+      en: "Damiane is a glass cannon playable character in Crimson Desert. High agility, low HP, she wields rapier, claymore, musket and ranged spells.",
+      es: "Damiane es un personaje jugable tipo glass cannon en Crimson Desert. Alta agilidad, pocos HP, maneja estoque, claymore, mosquete y hechizos a distancia.",
+      pt: "Damiane é uma personagem jogável do tipo glass cannon em Crimson Desert. Alta agilidade, poucos HP, usa florete, claymore, mosquete e feitiços à distância.",
+      it: "Damiane è un personaggio giocabile di tipo glass cannon in Crimson Desert. Alta agilità, pochi HP, impugna stocco, claymore, moschetto e incantesimi a distanza.",
+      ko: "다미안은 크림슨 디저트의 글래스 캐논 플레이어블 캐릭터입니다. 높은 민첩성, 낮은 HP, 레이피어, 클레이모어, 머스킷, 원거리 주문을 사용합니다.",
     },
     content: {
-      fr: `## Damiane — Lame Jumelle des Crinières Grises
+      fr: `## Damiane — Glass cannon des Crinières Grises
 
-Damiane est un personnage jouable de Crimson Desert et membre des Crinières Grises. Combattante agile et mortelle, elle se spécialise dans le maniement des doubles lames, faisant d'elle une force redoutable au corps à corps. Son style de combat repose sur la vitesse et l'enchaînement rapide de coups, lui permettant de submerger ses adversaires avant qu'ils ne puissent riposter.`,
-      en: `## Damiane — Twin Blade of the Greymanes
+Damiane est un personnage jouable de Crimson Desert et membre des Crinières Grises. Archétype de la **glass cannon**, elle se distingue par une **haute agilité** et une puissance offensive redoutable, compensées par des **HP faibles**. Elle récompense les joueurs agressifs capables d'esquiver et de punir avec précision.
 
-Damiane is a playable character in Crimson Desert and a member of the Greymanes. An agile and deadly fighter, she specializes in wielding dual blades, making her a formidable force in close-quarters combat. Her fighting style relies on speed and rapid attack chains, allowing her to overwhelm opponents before they can retaliate.`,
-      es: `## Damiane — Hoja Gemela de los Greymanes
+## Arsenal varié
 
-Damiane es un personaje jugable en Crimson Desert y miembro de los Greymanes. Luchadora ágil y mortal, se especializa en el manejo de dobles espadas, convirtiéndola en una fuerza formidable en combate cuerpo a cuerpo. Su estilo de combate se basa en la velocidad y las cadenas de ataques rápidos, permitiéndole abrumar a sus oponentes antes de que puedan contraatacar.`,
-      pt: `## Damiane — Lame Jumelle des Crinières Grises
+Contrairement à Kliff qui se concentre sur l'épée et la lance, Damiane dispose d'un arsenal plus éclectique :
 
-Damiane est un personnage jouable de Crimson Desert et membre des Crinières Grises. Combattante agile et mortelle, elle se spécialise dans le maniement des doubles lames, faisant d'elle une force redoutable au corps à corps. Son style de combat repose sur la vitesse et l'enchaînement rapide de coups, lui permettant de submerger ses adversaires avant qu'ils ne puissent riposter.`,
-      it: `## Damiane — Lama Gemella dei Greymanes
+- **Rapière** — arme principale pour des estocades rapides et précises
+- **Claymore deux mains** — pour des coups dévastateurs en combat rapproché
+- **Bouclier** — utilisable pour la parade et le contre
+- **Mousquet** — arme à feu à longue portée pour l'engagement à distance
+- **Pistolet** — arme de poing pour des tirs rapides
+- **Sorts à distance** — capacités magiques pour le contrôle de zone
 
-Damiane è un personaggio giocabile in Crimson Desert e membro dei Greymanes. Combattente agile e letale, è specializzata nell'uso delle doppie lame, rendendola una forza formidabile nel combattimento ravvicinato. Il suo stile di combattimento si basa sulla velocità e sulle catene di attacchi rapidi, permettendole di sopraffare gli avversari prima che possano reagire.`,
-      ko: `## 다미안 — 그레이메인의 쌍검사
+## Comment débloquer Damiane
 
-다미안은 크림슨 디저트의 플레이어블 캐릭터이자 그레이메인의 일원입니다. 민첩하고 치명적인 전투원으로 쌍검 사용에 특화되어 있어 근접전에서 무시무시한 전력을 발휘합니다. 그녀의 전투 스타일은 속도와 빠른 연속 공격에 기반하여, 적이 반격하기 전에 압도합니다.`,
+Damiane n'est pas disponible dès le début du jeu. Elle se **débloque après le prologue de Kliff**, qui dure environ **4 à 5 heures de jeu**. Une fois débloquée, le joueur peut **switch à la volée** entre les personnages jouables, un système comparable à celui de GTA 5.
+
+## Rôle dans le jeu
+
+Le rôle de Damiane est **limité à l'exploration et aux quêtes secondaires**. L'histoire principale reste exclusivement jouable avec Kliff. Cela offre une variété de gameplay bienvenue sans compromettre la cohérence narrative du récit principal.
+
+## Style de jeu recommandé
+
+Damiane est idéale pour les joueurs qui préfèrent un style **hit-and-run**. Sa faible résistance aux dégâts oblige à maîtriser les esquives et le timing des parades au bouclier. En contrepartie, ses combos de rapière et ses sorts à distance permettent de dominer les affrontements si bien exécutés.`,
+      en: `## Damiane — Glass Cannon of the Greymanes
+
+Damiane is a playable character in Crimson Desert and a member of the Greymanes. A quintessential **glass cannon**, she boasts **high agility** and devastating offensive power, offset by **low HP**. She rewards aggressive players who can dodge and punish with precision.
+
+## Varied Arsenal
+
+Unlike Kliff who focuses on sword and lance, Damiane has a more eclectic arsenal:
+
+- **Rapier** — main weapon for fast, precise thrusts
+- **Two-handed claymore** — for devastating close-range strikes
+- **Shield** — usable for parrying and countering
+- **Musket** — long-range firearm for distant engagements
+- **Pistol** — handgun for quick shots
+- **Ranged spells** — magical abilities for zone control
+
+## How to Unlock Damiane
+
+Damiane is not available from the start. She **unlocks after Kliff's prologue**, which lasts approximately **4 to 5 hours**. Once unlocked, players can **switch on the fly** between playable characters, similar to the system in GTA 5.
+
+## Role in the Game
+
+Damiane's role is **limited to exploration and side quests**. The main story remains exclusively playable with Kliff. This provides welcome gameplay variety without compromising the main narrative's coherence.
+
+## Recommended Playstyle
+
+Damiane is ideal for players who prefer a **hit-and-run** style. Her low damage resistance requires mastering dodges and shield parry timing. In return, her rapier combos and ranged spells allow domination when well-executed.`,
+      es: `## Damiane — Glass cannon de los Greymanes
+
+Damiane es un personaje jugable en Crimson Desert y miembro de los Greymanes. Arquetipo de **glass cannon**, destaca por su **alta agilidad** y poder ofensivo devastador, compensados por **pocos HP**.
+
+## Arsenal variado
+
+- **Estoque** — arma principal para estocadas rápidas y precisas
+- **Claymore a dos manos** — para golpes devastadores en combate cercano
+- **Escudo** — utilizable para paradas y contras
+- **Mosquete** — arma de fuego de largo alcance
+- **Pistola** — arma de mano para disparos rápidos
+- **Hechizos a distancia** — capacidades mágicas de control de zona
+
+## Cómo desbloquear a Damiane
+
+Se **desbloquea tras el prólogo de Kliff** (~4-5 horas). Después se puede **cambiar al vuelo** entre personajes, similar a GTA 5. Su rol se **limita a la exploración y misiones secundarias**.`,
+      pt: `## Damiane — Glass cannon dos Greymanes
+
+Damiane é uma personagem jogável em Crimson Desert e membro dos Greymanes. Arquétipo de **glass cannon**, destaca-se pela **alta agilidade** e poder ofensivo devastador, compensados por **poucos HP**.
+
+## Arsenal variado
+
+- **Florete** — arma principal para estocadas rápidas
+- **Claymore de duas mãos** — para golpes devastadores
+- **Escudo** — utilizável para bloqueio e contra-ataque
+- **Mosquete** — arma de fogo de longo alcance
+- **Pistola** — arma de mão para tiros rápidos
+- **Feitiços à distância** — habilidades mágicas de controle de área
+
+## Como desbloquear Damiane
+
+**Desbloqueada após o prólogo de Kliff** (~4-5 horas). Depois é possível **trocar em tempo real** entre personagens, similar ao GTA 5. Seu papel se **limita à exploração e missões secundárias**.`,
+      it: `## Damiane — Glass cannon dei Greymanes
+
+Damiane è un personaggio giocabile in Crimson Desert e membro dei Greymanes. Archetipo della **glass cannon**, si distingue per **alta agilità** e potenza offensiva devastante, compensate da **pochi HP**.
+
+## Arsenale variegato
+
+- **Stocco** — arma principale per affondi rapidi e precisi
+- **Claymore a due mani** — per colpi devastanti in combattimento ravvicinato
+- **Scudo** — utilizzabile per parate e contrattacchi
+- **Moschetto** — arma da fuoco a lunga gittata
+- **Pistola** — arma da pugno per spari rapidi
+- **Incantesimi a distanza** — abilità magiche di controllo zona
+
+## Come sbloccare Damiane
+
+Si **sblocca dopo il prologo di Kliff** (~4-5 ore). Dopo si può **cambiare al volo** tra personaggi, simile a GTA 5. Il suo ruolo è **limitato all'esplorazione e missioni secondarie**.`,
+      ko: `## 다미안 — 그레이메인의 글래스 캐논
+
+다미안은 크림슨 디저트의 플레이어블 캐릭터이자 그레이메인의 일원입니다. **글래스 캐논** 원형으로, **높은 민첩성**과 파괴적인 공격력을 자랑하지만 **낮은 HP**가 약점입니다.
+
+## 다양한 무기
+
+- **레이피어** — 빠르고 정확한 찌르기용 주무기
+- **양손 클레이모어** — 근접 전투에서 파괴적 일격
+- **방패** — 패리와 카운터에 사용
+- **머스킷** — 장거리 화기
+- **권총** — 빠른 사격용 핸드건
+- **원거리 주문** — 구역 제어용 마법
+
+## 다미안 해금 방법
+
+**클리프의 프롤로그 이후 해금** (~4-5시간). 이후 GTA 5처럼 **즉석 전환** 가능. 역할은 **탐험과 사이드 퀘스트에 제한**.`,
     },
     infobox: {
-      Faction: 'Crinières Grises',
-      Arme: 'Doubles lames / Dual Blades',
-      Type: 'Jouable',
+      Faction: 'Crinières Grises / Greymanes',
+      Type: 'Glass cannon — Jouable',
+      Armes: 'Rapière, Claymore, Bouclier, Mousquet, Pistolet, Sorts',
+      'HP': 'Faible',
+      'Agilité': 'Élevée',
+      'Déblocage': 'Après prologue Kliff (~4-5h)',
+      'Rôle': 'Exploration et quêtes secondaires',
     },
-    author: 'PopCodex',
+    author: "L'équipe PopCodex",
     publishedAt: '2026-03-08',
-    updatedAt: '2026-03-08',
-    readTime: 3,
-    tags: ['crimson-desert', 'personnage', 'greymanes', 'damiane'],
-    relatedSlugs: ['kliff', 'oongka'],
+    updatedAt: '2026-03-14',
+    readTime: 5,
+    tags: ['crimson-desert', 'personnage', 'greymanes', 'damiane', 'glass-cannon'],
+    relatedSlugs: ['kliff', 'oongka', 'debloquer-personnages'],
   },
   {
     slug: 'oongka',
@@ -134,44 +236,123 @@ Damiane è un personaggio giocabile in Crimson Desert e membro dei Greymanes. Co
       ko: 'Oongka',
     },
     excerpt: {
-      fr: "Colosse des Crinières Grises, spécialisé dans les armes lourdes et le combat à mains nues.",
-      en: "Greymane colossus specializing in heavy weapons and unarmed combat.",
-      es: "Coloso de los Greymanes, especializado en armas pesadas y combate cuerpo a cuerpo.",
-      pt: "Colosse des Crinières Grises, spécialisé dans les armes lourdes et le combat à mains nues.",
-      it: "Colosso dei Greymanes, specializzato in armi pesanti e combattimento a mani nude.",
-      ko: "대형 무기와 맨손 전투에 특화된 그레이메인의 거대한 전사.",
+      fr: "Oongka est un personnage jouable de type brute dans Crimson Desert. Haute force et défense, faible agilité. Il manie une hache gigantesque et inflige des attaques de zone dévastatrices.",
+      en: "Oongka is a brute-type playable character in Crimson Desert. High strength and defense, low agility. He wields a massive axe and deals devastating area attacks.",
+      es: "Oongka es un personaje jugable tipo bruto en Crimson Desert. Alta fuerza y defensa, baja agilidad. Maneja un hacha gigantesca y realiza ataques de área devastadores.",
+      pt: "Oongka é um personagem jogável do tipo bruto em Crimson Desert. Alta força e defesa, baixa agilidade. Empunha um machado gigantesco e desfere ataques de área devastadores.",
+      it: "Oongka è un personaggio giocabile di tipo bruto in Crimson Desert. Alta forza e difesa, bassa agilità. Impugna un'ascia gigantesca e infligge attacchi ad area devastanti.",
+      ko: "웅카는 크림슨 디저트의 브루트 타입 플레이어블 캐릭터입니다. 높은 힘과 방어력, 낮은 민첩성. 거대한 도끼로 파괴적인 광역 공격을 합니다.",
     },
     content: {
-      fr: `## Oongka — Le Colosse des Crinières Grises
+      fr: `## Oongka — La Brute des Crinières Grises
 
-Oongka est un personnage jouable de Crimson Desert et l'un des membres les plus imposants des Crinières Grises. Véritable force de la nature, il se spécialise dans le combat à mains nues et les armes lourdes, capable d'écraser ses ennemis par la force brute seule. Sa stature massive et sa puissance inégalée en font le bouclier humain de la bande.`,
-      en: `## Oongka — The Greymane Colossus
+Oongka est un personnage jouable de Crimson Desert et l'un des membres les plus imposants des Crinières Grises. C'est un **orc brute** dont le profil est l'exact opposé de Damiane : là où elle privilégie la vitesse, Oongka mise sur la **haute force** et une **défense massive**, au détriment d'une **agilité très faible**.
 
-Oongka is a playable character in Crimson Desert and one of the most imposing members of the Greymanes. A true force of nature, he specializes in unarmed combat and heavy weapons, capable of crushing enemies through sheer brute force alone. His massive stature and unmatched power make him the human shield of the band.`,
-      es: `## Oongka — El Coloso de los Greymanes
+## Arsenal et style de combat
 
-Oongka es un personaje jugable en Crimson Desert y uno de los miembros más imponentes de los Greymanes. Una verdadera fuerza de la naturaleza, se especializa en combate cuerpo a cuerpo y armas pesadas, capaz de aplastar enemigos con pura fuerza bruta. Su estatura masiva y su poder inigualable lo convierten en el escudo humano de la banda.`,
-      pt: `## Oongka — Le Colosse des Crinières Grises
+L'arme signature d'Oongka est une **hache gigantesque** qu'il manie avec une aisance terrifiante malgré son poids. Son style de combat est centré sur les **attaques de zone (AoE)**, capables de faucher plusieurs ennemis en un seul coup. Chaque swing est lent mais dévastateur, créant un style de jeu basé sur le positionnement et le timing plutôt que sur les réflexes.
 
-Oongka est un personnage jouable de Crimson Desert et l'un des membres les plus imposants des Crinières Grises. Véritable force de la nature, il se spécialise dans le combat à mains nues et les armes lourdes, capable d'écraser ses ennemis par la force brute seule. Sa stature massive et sa puissance inégalée en font le bouclier humain de la bande.`,
-      it: `## Oongka — Il Colosso dei Greymanes
+## Limitation : pas de monture dragon
 
-Oongka è un personaggio giocabile in Crimson Desert e uno dei membri più imponenti dei Greymanes. Una vera forza della natura, è specializzato nel combattimento a mani nude e nelle armi pesanti, capace di schiacciare i nemici con la sola forza bruta. La sua statura massiccia e la sua potenza ineguagliabile lo rendono lo scudo umano della banda.`,
-      ko: `## 웅카 — 그레이메인의 거인
+Contrairement à **Kliff** qui peut monter les dragons au cours de l'aventure, **Oongka ne peut PAS monter les dragons**. Sa corpulence massive et sa nature d'orc l'en empêchent, ce qui réduit ses options de traversée aérienne. Le joueur devra compter sur les déplacements terrestres avec ce personnage.
 
-웅카는 크림슨 디저트의 플레이어블 캐릭터이자 그레이메인에서 가장 거대한 일원 중 하나입니다. 자연의 힘 그 자체로, 맨손 전투와 대형 무기에 특화되어 순수한 완력만으로 적을 분쇄할 수 있습니다. 그의 거대한 체격과 비할 데 없는 힘은 그를 부대의 인간 방패로 만듭니다.`,
+## Comment débloquer Oongka
+
+Comme Damiane, Oongka se **débloque après le prologue de Kliff** (~4-5 heures de jeu). Le déblocage est progressif : Damiane est disponible en premier, puis Oongka. Une fois débloqué, le joueur peut **switch à la volée** entre les personnages jouables, à la manière de GTA 5.
+
+## Rôle dans le jeu
+
+Le rôle d'Oongka est **limité à l'exploration et aux quêtes secondaires**. Comme Damiane, l'histoire principale reste exclusivement jouable avec Kliff. Oongka excelle dans le combat contre les hordes d'ennemis grâce à ses attaques de zone.
+
+## Quand choisir Oongka ?
+
+Oongka est le choix idéal pour les joueurs qui préfèrent un style **tank** et qui aiment le spectacle des attaques puissantes. Face à un groupe d'ennemis, ses coups de hache balaient littéralement tout sur leur passage. En revanche, face à des ennemis rapides et agiles, sa lenteur peut être un handicap sérieux.`,
+      en: `## Oongka — The Greymane Brute
+
+Oongka is a playable character in Crimson Desert and one of the most imposing members of the Greymanes. A **brute orc** whose profile is the exact opposite of Damiane: where she favors speed, Oongka relies on **high strength** and **massive defense**, at the cost of **very low agility**.
+
+## Arsenal and Combat Style
+
+Oongka's signature weapon is a **massive axe** that he wields with terrifying ease despite its weight. His combat style centers on **area-of-effect (AoE) attacks**, capable of mowing down multiple enemies in a single swing. Each strike is slow but devastating, creating a playstyle built on positioning and timing rather than reflexes.
+
+## Limitation: No Dragon Mounting
+
+Unlike **Kliff** who can ride dragons during the adventure, **Oongka cannot mount dragons**. His massive build and orc nature prevent it, limiting his aerial traversal options. Players must rely on ground movement with this character.
+
+## How to Unlock Oongka
+
+Like Damiane, Oongka **unlocks after Kliff's prologue** (~4-5 hours). Unlocking is progressive: Damiane becomes available first, then Oongka. Once unlocked, players can **switch on the fly** between playable characters, similar to GTA 5.
+
+## Role in the Game
+
+Oongka's role is **limited to exploration and side quests**. Like Damiane, the main story remains exclusively playable with Kliff. Oongka excels in combat against enemy hordes thanks to his area attacks.
+
+## When to Choose Oongka?
+
+Oongka is ideal for players who prefer a **tank** style. Against groups of enemies, his axe swings literally sweep everything in their path. Against fast, agile enemies however, his slowness can be a serious handicap.`,
+      es: `## Oongka — La Bruta de los Greymanes
+
+Oongka es un personaje jugable en Crimson Desert. Un **orco bruto** con **alta fuerza** y **defensa masiva**, pero **agilidad muy baja**. Su arma firma es un **hacha gigantesca** centrada en **ataques de área (AoE)**.
+
+## Limitaciones
+
+**No puede montar dragones** a diferencia de Kliff. Se **desbloquea tras el prólogo de Kliff** (~4-5h), después de Damiane. Su rol se **limita a exploración y misiones secundarias**. Cambio al vuelo disponible, similar a GTA 5.
+
+## Cuándo elegir a Oongka
+
+Ideal para jugadores que prefieren un estilo **tanque**. Excelente contra grupos de enemigos gracias a sus ataques de área, pero vulnerable frente a enemigos rápidos.`,
+      pt: `## Oongka — O Bruto dos Greymanes
+
+Oongka é um personagem jogável em Crimson Desert. Um **orc bruto** com **alta força** e **defesa massiva**, mas **agilidade muito baixa**. Sua arma principal é um **machado gigantesco** focado em **ataques de área (AoE)**.
+
+## Limitações
+
+**Não pode montar dragões** ao contrário de Kliff. Se **desbloqueia após o prólogo de Kliff** (~4-5h), depois de Damiane. Seu papel se **limita a exploração e missões secundárias**. Troca em tempo real disponível, similar ao GTA 5.
+
+## Quando escolher Oongka
+
+Ideal para jogadores que preferem estilo **tanque**. Excelente contra grupos de inimigos, mas vulnerável contra inimigos rápidos.`,
+      it: `## Oongka — Il Bruto dei Greymanes
+
+Oongka è un personaggio giocabile in Crimson Desert. Un **orco bruto** con **alta forza** e **difesa massiccia**, ma **agilità molto bassa**. La sua arma firma è un'**ascia gigantesca** incentrata su **attacchi ad area (AoE)**.
+
+## Limitazioni
+
+**Non può cavalcare i draghi** a differenza di Kliff. Si **sblocca dopo il prologo di Kliff** (~4-5h), dopo Damiane. Il suo ruolo è **limitato all'esplorazione e missioni secondarie**. Cambio al volo disponibile, simile a GTA 5.
+
+## Quando scegliere Oongka
+
+Ideale per giocatori che preferiscono uno stile **tank**. Eccellente contro gruppi di nemici grazie agli attacchi ad area, ma vulnerabile contro nemici rapidi.`,
+      ko: `## 웅카 — 그레이메인의 브루트
+
+웅카는 크림슨 디저트의 플레이어블 캐릭터입니다. **높은 힘**과 **거대한 방어력**을 가진 **오크 브루트**이지만 **민첩성이 매우 낮습니다**. 시그니처 무기는 **광역 공격(AoE)**에 집중하는 **거대한 도끼**입니다.
+
+## 제한 사항
+
+클리프와 달리 **드래곤 탑승 불가**. **클리프의 프롤로그 이후 해금** (~4-5시간), 다미안 다음에 해금. 역할은 **탐험과 사이드 퀘스트에 제한**. GTA 5처럼 즉석 전환 가능.
+
+## 웅카 선택 시기
+
+**탱크** 스타일을 선호하는 플레이어에게 이상적. 광역 공격으로 적 무리에 탁월하지만, 빠른 적에게는 취약.`,
     },
     infobox: {
-      Faction: 'Crinières Grises',
-      Arme: 'Mains nues Armes lourdes / Bare Hands Heavy Weapons',
-      Type: 'Jouable',
+      Faction: 'Crinières Grises / Greymanes',
+      Type: 'Brute / Tank — Jouable',
+      Race: 'Orc',
+      Arme: 'Hache gigantesque (AoE)',
+      'Force': 'Élevée',
+      'Défense': 'Élevée',
+      'Agilité': 'Faible',
+      'Dragon': 'Non (ne peut pas monter)',
+      'Déblocage': 'Après prologue Kliff (~4-5h)',
+      'Rôle': 'Exploration et quêtes secondaires',
     },
-    author: 'PopCodex',
+    author: "L'équipe PopCodex",
     publishedAt: '2026-03-08',
-    updatedAt: '2026-03-08',
-    readTime: 3,
-    tags: ['crimson-desert', 'personnage', 'greymanes', 'oongka'],
-    relatedSlugs: ['kliff', 'damiane'],
+    updatedAt: '2026-03-14',
+    readTime: 5,
+    tags: ['crimson-desert', 'personnage', 'greymanes', 'oongka', 'brute', 'tank'],
+    relatedSlugs: ['kliff', 'damiane', 'debloquer-personnages'],
   },
   {
     slug: 'hexe-marie',
@@ -1023,5 +1204,430 @@ PC (Steam, Epic), PlayStation 5, Xbox Series X|S — 시한부 독점 없음.`,
     readTime: 4,
     tags: ['crimson-desert', 'guide', 'preload', 'lancement', 'horaires'],
     relatedSlugs: ['performance-technique', 'pywel-continent'],
+  },
+  {
+    slug: 'debloquer-personnages',
+    franchise: 'crimson-desert',
+    category: 'guides',
+    title: {
+      fr: 'Comment débloquer les personnages dans Crimson Desert',
+      en: 'How to Unlock Characters in Crimson Desert',
+      es: 'Cómo desbloquear personajes en Crimson Desert',
+      pt: 'Como desbloquear personagens em Crimson Desert',
+      it: 'Come sbloccare i personaggi in Crimson Desert',
+      ko: '크림슨 디저트에서 캐릭터 해금하는 방법',
+    },
+    excerpt: {
+      fr: "Guide complet pour débloquer Damiane et Oongka dans Crimson Desert : prologue obligatoire avec Kliff, ordre de déblocage et système de switch à la volée.",
+      en: "Complete guide to unlocking Damiane and Oongka in Crimson Desert: mandatory Kliff prologue, unlock order and on-the-fly switching system.",
+      es: "Guía completa para desbloquear a Damiane y Oongka en Crimson Desert: prólogo obligatorio con Kliff, orden de desbloqueo y sistema de cambio al vuelo.",
+      pt: "Guia completo para desbloquear Damiane e Oongka em Crimson Desert: prólogo obrigatório com Kliff, ordem de desbloqueio e sistema de troca em tempo real.",
+      it: "Guida completa per sbloccare Damiane e Oongka in Crimson Desert: prologo obbligatorio con Kliff, ordine di sblocco e sistema di cambio al volo.",
+      ko: "크림슨 디저트에서 다미안과 웅카 해금 완전 가이드: 클리프 프롤로그 필수, 해금 순서 및 즉석 전환 시스템.",
+    },
+    content: {
+      fr: `## Prologue obligatoire avec Kliff
+
+Crimson Desert commence par un **prologue obligatoire avec Kliff**, le chef des Crinières Grises. Cette introduction dure environ **4 à 5 heures de jeu** et pose les bases de l'histoire : la chute de Pailune, la Nuit des Ours Noirs, et le début de la quête pour réunir les Crinières Grises à travers Pywel.
+
+Durant ce prologue, Kliff est le seul personnage jouable. Vous apprendrez les mécaniques de combat de base, l'exploration du monde ouvert et les systèmes de progression.
+
+## Ordre de déblocage
+
+Le déblocage des personnages supplémentaires est **progressif** et lié à l'avancement dans l'histoire :
+
+1. **Kliff** — disponible dès le début (prologue)
+2. **Damiane** — débloquée en premier après la fin du prologue
+3. **Oongka** — débloqué après Damiane, un peu plus tard dans l'aventure
+
+Chaque personnage se débloque à un moment précis du scénario. Il n'est pas possible de les obtenir plus tôt.
+
+## Système de switch à la volée
+
+Une fois les personnages débloqués, vous pouvez **switch entre eux à la volée** en monde ouvert, un système directement inspiré de **GTA 5** et son trio Michael/Franklin/Trevor. Le changement est fluide et vous permet d'adapter votre style de combat à chaque situation.
+
+## Kliff seul pour l'histoire principale
+
+Point crucial : **l'histoire principale est exclusivement jouable avec Kliff**. Damiane et Oongka sont réservés à :
+
+- **L'exploration** du monde ouvert de Pywel
+- **Les quêtes secondaires**
+- **Les combats libres** et activités annexes
+
+Cette restriction narrative garantit une cohérence dans le récit centré sur Kliff, tout en offrant de la variété dans le gameplay annexe.
+
+## Quel personnage choisir pour l'exploration ?
+
+| Personnage | Force | Faiblesse | Idéal pour |
+|------------|-------|-----------|-----------|
+| Kliff | Polyvalent, dragons | Aucune restriction | Tout type de contenu |
+| Damiane | Agilité, DPS élevé | HP faibles | Combat contre boss solo |
+| Oongka | Défense, AoE | Lent, pas de dragon | Combats contre hordes |`,
+      en: `## Mandatory Kliff Prologue
+
+Crimson Desert begins with a **mandatory prologue as Kliff**, leader of the Greymanes. This introduction lasts approximately **4 to 5 hours** and establishes the story foundations: the fall of Pailune, the Night of the Black Bears, and the quest to reunite the Greymanes across Pywel.
+
+During this prologue, Kliff is the only playable character. You'll learn basic combat mechanics, open world exploration and progression systems.
+
+## Unlock Order
+
+Additional character unlocking is **progressive** and tied to story advancement:
+
+1. **Kliff** — available from the start (prologue)
+2. **Damiane** — unlocked first after the prologue ends
+3. **Oongka** — unlocked after Damiane, slightly later in the adventure
+
+## On-the-Fly Switching System
+
+Once unlocked, you can **switch between characters on the fly** in the open world, a system directly inspired by **GTA 5** and its Michael/Franklin/Trevor trio. The switch is seamless and lets you adapt your combat style to each situation.
+
+## Kliff Only for Main Story
+
+Crucially: **the main story is exclusively playable with Kliff**. Damiane and Oongka are reserved for:
+
+- **Exploration** of Pywel's open world
+- **Side quests**
+- **Free combat** and side activities
+
+## Which Character for Exploration?
+
+| Character | Strength | Weakness | Ideal for |
+|-----------|----------|----------|-----------|
+| Kliff | Versatile, dragons | No restrictions | All content |
+| Damiane | Agility, high DPS | Low HP | Solo boss fights |
+| Oongka | Defense, AoE | Slow, no dragons | Horde combat |`,
+      es: `## Prólogo obligatorio con Kliff
+
+Crimson Desert empieza con un **prólogo obligatorio con Kliff** (~4-5 horas). Durante este, Kliff es el único personaje jugable.
+
+## Orden de desbloqueo
+
+1. **Kliff** — disponible desde el inicio
+2. **Damiane** — desbloqueada primero tras el prólogo
+3. **Oongka** — desbloqueado después de Damiane
+
+## Sistema de cambio al vuelo
+
+Cambio entre personajes en mundo abierto al estilo **GTA 5**. **La historia principal solo se juega con Kliff**. Damiane y Oongka están limitados a exploración y misiones secundarias.`,
+      pt: `## Prólogo obrigatório com Kliff
+
+Crimson Desert começa com um **prólogo obrigatório com Kliff** (~4-5 horas). Durante este, Kliff é o único personagem jogável.
+
+## Ordem de desbloqueio
+
+1. **Kliff** — disponível desde o início
+2. **Damiane** — desbloqueada primeiro após o prólogo
+3. **Oongka** — desbloqueado depois de Damiane
+
+## Sistema de troca em tempo real
+
+Troca entre personagens no mundo aberto ao estilo **GTA 5**. **A história principal só é jogável com Kliff**. Damiane e Oongka são limitados à exploração e missões secundárias.`,
+      it: `## Prologo obbligatorio con Kliff
+
+Crimson Desert inizia con un **prologo obbligatorio con Kliff** (~4-5 ore). Durante questo, Kliff è l'unico personaggio giocabile.
+
+## Ordine di sblocco
+
+1. **Kliff** — disponibile dall'inizio
+2. **Damiane** — sbloccata per prima dopo il prologo
+3. **Oongka** — sbloccato dopo Damiane
+
+## Sistema di cambio al volo
+
+Cambio tra personaggi nel mondo aperto in stile **GTA 5**. **La storia principale si gioca solo con Kliff**. Damiane e Oongka sono limitati a esplorazione e missioni secondarie.`,
+      ko: `## 클리프 프롤로그 필수
+
+크림슨 디저트는 **클리프와의 필수 프롤로그** (~4-5시간)로 시작됩니다. 이 동안 클리프만 플레이 가능합니다.
+
+## 해금 순서
+
+1. **클리프** — 처음부터 이용 가능
+2. **다미안** — 프롤로그 후 먼저 해금
+3. **웅카** — 다미안 이후 해금
+
+## 즉석 전환 시스템
+
+**GTA 5** 스타일로 오픈 월드에서 캐릭터 간 즉석 전환. **메인 스토리는 클리프로만 플레이 가능**. 다미안과 웅카는 탐험과 사이드 퀘스트에 제한.`,
+    },
+    infobox: {
+      'Prologue': 'Kliff (~4-5h obligatoire)',
+      'Ordre': 'Kliff → Damiane → Oongka',
+      'Switch': 'À la volée (style GTA 5)',
+      'Histoire principale': 'Kliff uniquement',
+    },
+    author: "L'équipe PopCodex",
+    publishedAt: '2026-03-14',
+    updatedAt: '2026-03-14',
+    readTime: 5,
+    tags: ['crimson-desert', 'guide', 'personnages', 'deblocage', 'kliff', 'damiane', 'oongka'],
+    relatedSlugs: ['kliff', 'damiane', 'oongka'],
+  },
+  {
+    slug: 'heure-sortie-telechargement',
+    franchise: 'crimson-desert',
+    category: 'actualites',
+    title: {
+      fr: 'Crimson Desert : heure de sortie et taille du téléchargement',
+      en: 'Crimson Desert: Launch Time and Download Size',
+      es: 'Crimson Desert: hora de lanzamiento y tamaño de descarga',
+      pt: 'Crimson Desert: horário de lançamento e tamanho do download',
+      it: 'Crimson Desert: orario di lancio e dimensione del download',
+      ko: '크림슨 디저트: 출시 시간 및 다운로드 크기',
+    },
+    excerpt: {
+      fr: "Crimson Desert sort le 19 mars 2026 à 23h heure de Paris. La version physique PS5 nécessite un téléchargement de +48 Go pour jouer hors ligne. Toutes les infos.",
+      en: "Crimson Desert launches March 19, 2026 at 11 PM CET. The physical PS5 version requires a 48+ GB download to play offline. All the details.",
+      es: "Crimson Desert sale el 19 de marzo de 2026 a las 23h CET. La versión física de PS5 requiere una descarga de +48 GB para jugar sin conexión.",
+      pt: "Crimson Desert sai em 19 de março de 2026 às 23h CET. A versão física do PS5 requer download de +48 GB para jogar offline.",
+      it: "Crimson Desert esce il 19 marzo 2026 alle 23:00 CET. La versione fisica PS5 richiede un download di +48 GB per giocare offline.",
+      ko: "크림슨 디저트는 2026년 3월 19일 CET 오후 11시에 출시됩니다. PS5 물리 버전은 오프라인 플레이를 위해 48 GB 이상의 다운로드가 필요합니다.",
+    },
+    content: {
+      fr: `## Date et heure de sortie
+
+Crimson Desert sort le **19 mars 2026** avec un lancement simultané mondial. En France (heure de Paris, CET), le jeu sera disponible à **23h00**. Voici les horaires pour les autres régions :
+
+| Région | Heure | Date |
+|--------|-------|------|
+| US West (PT) | 15h00 | 19 mars |
+| US East (ET) | 18h00 | 19 mars |
+| Royaume-Uni (GMT) | 22h00 | 19 mars |
+| **France / Europe centrale (CET)** | **23h00** | **19 mars** |
+| Japon / Corée (JST/KST) | 7h00 | 20 mars |
+
+## Version physique PS5 : téléchargement obligatoire
+
+Information importante pour les acheteurs de la version physique sur PS5 : le disque Blu-ray ne contient **pas l'intégralité du jeu**. Un **téléchargement obligatoire de plus de 48 Go** est nécessaire pour pouvoir jouer, même hors ligne. Cela signifie que même avec le disque, une connexion internet est requise pour la première installation.
+
+Cette situation s'explique par la taille totale du jeu qui dépasse la capacité d'un disque Blu-ray standard. Le disque contient une partie des données, et le reste doit être téléchargé.
+
+## Plateformes au lancement
+
+Crimson Desert sera disponible dès le day one sur :
+
+- **PC** — via Steam (et potentiellement d'autres launchers)
+- **PlayStation 5**
+- **Xbox Series X|S**
+- **macOS** — support confirmé
+
+## Taille totale du jeu
+
+La taille totale d'installation est estimée à environ **150 Go** sur toutes les plateformes. Assurez-vous d'avoir suffisamment d'espace libre sur votre SSD avant le lancement.
+
+## Conseils pratiques
+
+- Activez le **préchargement** dès le 17 mars (48h avant)
+- Prévoyez au moins **150 Go** d'espace libre
+- Sur PS5 physique, prévoyez une connexion internet pour les **48+ Go** supplémentaires
+- Privilégiez un **SSD** pour des temps de chargement optimaux`,
+      en: `## Release Date and Time
+
+Crimson Desert launches **March 19, 2026** with a simultaneous worldwide release. Here are the times by region:
+
+| Region | Time | Date |
+|--------|------|------|
+| US West (PT) | 3:00 PM | March 19 |
+| US East (ET) | 6:00 PM | March 19 |
+| United Kingdom (GMT) | 10:00 PM | March 19 |
+| **Central Europe (CET)** | **11:00 PM** | **March 19** |
+| Japan / Korea (JST/KST) | 7:00 AM | March 20 |
+
+## Physical PS5 Version: Mandatory Download
+
+Important for physical PS5 buyers: the Blu-ray disc does **not contain the entire game**. A **mandatory download of over 48 GB** is required to play, even offline. An internet connection is needed for first installation.
+
+## Platforms at Launch
+
+- **PC** — via Steam
+- **PlayStation 5**
+- **Xbox Series X|S**
+- **macOS** — confirmed support
+
+## Total Game Size
+
+Total installation size is estimated at approximately **150 GB** across all platforms.
+
+## Practical Tips
+
+- Enable **preloading** from March 17 (48h before)
+- Ensure at least **150 GB** of free space
+- On physical PS5, plan for an internet connection for the **48+ GB** additional download
+- Use an **SSD** for optimal loading times`,
+      es: `## Fecha y hora de lanzamiento
+
+Crimson Desert sale el **19 de marzo de 2026** con lanzamiento simultáneo mundial. En Europa central (CET): **23:00**.
+
+## Versión física PS5: descarga obligatoria
+
+El disco Blu-ray **no contiene todo el juego**. Se necesita una **descarga obligatoria de +48 GB** para jugar, incluso sin conexión. Plataformas: PC, PS5, Xbox Series X|S, macOS. Tamaño total: ~150 GB.`,
+      pt: `## Data e horário de lançamento
+
+Crimson Desert sai em **19 de março de 2026** com lançamento simultâneo mundial. Na Europa central (CET): **23h00**.
+
+## Versão física PS5: download obrigatório
+
+O disco Blu-ray **não contém o jogo completo**. É necessário um **download obrigatório de +48 GB** para jogar, mesmo offline. Plataformas: PC, PS5, Xbox Series X|S, macOS. Tamanho total: ~150 GB.`,
+      it: `## Data e orario di lancio
+
+Crimson Desert esce il **19 marzo 2026** con lancio simultaneo mondiale. In Europa centrale (CET): **23:00**.
+
+## Versione fisica PS5: download obbligatorio
+
+Il disco Blu-ray **non contiene l'intero gioco**. È necessario un **download obbligatorio di +48 GB** per giocare, anche offline. Piattaforme: PC, PS5, Xbox Series X|S, macOS. Dimensione totale: ~150 GB.`,
+      ko: `## 출시 날짜 및 시간
+
+크림슨 디저트는 **2026년 3월 19일** 전 세계 동시 출시됩니다. 중앙 유럽 시간(CET): **오후 11시**. 한국/일본: **3월 20일 오전 7시**.
+
+## PS5 물리 버전: 필수 다운로드
+
+블루레이 디스크에 **전체 게임이 포함되지 않습니다**. 오프라인 플레이를 위해서도 **48 GB 이상 필수 다운로드**가 필요합니다. 플랫폼: PC, PS5, Xbox Series X|S, macOS. 총 크기: ~150 GB.`,
+    },
+    infobox: {
+      'Sortie': '19 mars 2026 (23h CET)',
+      'Téléchargement PS5 physique': '+48 Go obligatoire',
+      'Taille totale': '~150 Go',
+      'Plateformes': 'PC, PS5, Xbox Series X|S, macOS',
+    },
+    author: "L'équipe PopCodex",
+    publishedAt: '2026-03-14',
+    updatedAt: '2026-03-14',
+    readTime: 4,
+    tags: ['crimson-desert', 'actualites', 'sortie', 'telechargement', 'ps5'],
+    relatedSlugs: ['preload-horaires-lancement', 'performance-technique', 'denuvo-pc'],
+  },
+  {
+    slug: 'denuvo-pc',
+    franchise: 'crimson-desert',
+    category: 'actualites',
+    title: {
+      fr: 'Crimson Desert sur PC : Denuvo confirmé — ce que ça change',
+      en: 'Crimson Desert on PC: Denuvo Confirmed — What It Means',
+      es: 'Crimson Desert en PC: Denuvo confirmado — qué cambia',
+      pt: 'Crimson Desert no PC: Denuvo confirmado — o que muda',
+      it: 'Crimson Desert su PC: Denuvo confermato — cosa cambia',
+      ko: '크림슨 디저트 PC: Denuvo 확정 — 변화점',
+    },
+    excerpt: {
+      fr: "Pearl Abyss confirme l'utilisation de Denuvo comme DRM pour la version PC de Crimson Desert, à quelques jours de la sortie. Analyse de l'impact potentiel sur les performances.",
+      en: "Pearl Abyss confirms Denuvo DRM for Crimson Desert's PC version, just days before launch. Analysis of potential performance impact.",
+      es: "Pearl Abyss confirma el uso de Denuvo como DRM para la versión de PC de Crimson Desert, a pocos días del lanzamiento. Análisis del impacto potencial en el rendimiento.",
+      pt: "Pearl Abyss confirma o uso do Denuvo como DRM para a versão PC de Crimson Desert, a poucos dias do lançamento. Análise do impacto potencial no desempenho.",
+      it: "Pearl Abyss conferma l'uso di Denuvo come DRM per la versione PC di Crimson Desert, a pochi giorni dal lancio. Analisi dell'impatto potenziale sulle prestazioni.",
+      ko: "Pearl Abyss가 크림슨 디저트 PC 버전의 Denuvo DRM 사용을 출시 며칠 전 확정했습니다. 성능 영향 분석.",
+    },
+    content: {
+      fr: `## Denuvo confirmé pour Crimson Desert PC
+
+À quelques jours seulement de la sortie de Crimson Desert (19 mars 2026), Pearl Abyss a confirmé que la version PC du jeu utilisera **Denuvo Anti-Tamper** comme système de protection (DRM). Cette annonce, bien que tardive, s'inscrit dans une tendance courante de l'industrie où les éditeurs communiquent sur le DRM peu avant le lancement.
+
+## Qu'est-ce que Denuvo ?
+
+Denuvo est un **logiciel anti-piratage** développé par Irdeto, utilisé par de nombreux éditeurs de jeux AAA. Il s'agit d'un système anti-tamper qui se greffe sur l'exécutable du jeu pour empêcher la copie et la modification non autorisée du logiciel.
+
+## Impact potentiel sur les performances
+
+La question récurrente autour de Denuvo concerne son **impact sur les performances**. Les avis divergent :
+
+**Arguments contre Denuvo :**
+- Augmentation potentielle des temps de chargement
+- Utilisation CPU légèrement supérieure due aux vérifications en arrière-plan
+- Certains jeux ont connu des améliorations de performances après le retrait de Denuvo (Doom Eternal, etc.)
+- Nécessité d'une connexion internet périodique pour la validation de licence
+
+**Arguments pour Denuvo :**
+- Les versions modernes de Denuvo ont un impact mesurable mais minime selon les tests indépendants
+- L'impact varie considérablement d'un jeu à l'autre selon l'implémentation
+- Protection efficace contre le piratage durant les premières semaines critiques de vente
+
+## Contexte : une polémique habituelle
+
+L'utilisation de Denuvo dans les jeux AAA est **systématiquement controversée** dans la communauté PC gaming. Chaque annonce de Denuvo déclenche un débat entre partisans de la protection des ventes et défenseurs de la liberté des acheteurs légitimes.
+
+Pour Crimson Desert, l'annonce tardive a alimenté les critiques, certains joueurs estimant que cette information aurait dû être communiquée plus tôt, notamment pour ceux qui ont pré-commandé sur PC.
+
+## Ce que ça signifie concrètement pour les joueurs
+
+- **Connexion internet requise** périodiquement pour valider la licence
+- **Impact sur les performances** probable mais difficile à quantifier avant les tests indépendants
+- **Pas d'impact** sur les versions console (PS5, Xbox Series X|S)
+- Pearl Abyss pourrait **retirer Denuvo** ultérieurement, comme l'ont fait d'autres éditeurs après la fenêtre de lancement`,
+      en: `## Denuvo Confirmed for Crimson Desert PC
+
+Just days before Crimson Desert's launch (March 19, 2026), Pearl Abyss confirmed that the PC version will use **Denuvo Anti-Tamper** as its DRM system. This late announcement follows a common industry trend of communicating about DRM shortly before launch.
+
+## What Is Denuvo?
+
+Denuvo is an **anti-piracy software** developed by Irdeto, used by many AAA publishers. It's an anti-tamper system that attaches to the game executable to prevent unauthorized copying and modification.
+
+## Potential Performance Impact
+
+The recurring question around Denuvo concerns its **performance impact**:
+
+**Arguments against Denuvo:**
+- Potential increase in loading times
+- Slightly higher CPU usage due to background checks
+- Some games saw performance improvements after Denuvo removal (Doom Eternal, etc.)
+- Periodic internet connection required for license validation
+
+**Arguments for Denuvo:**
+- Modern Denuvo versions have measurable but minimal impact according to independent tests
+- Impact varies significantly between games depending on implementation
+- Effective piracy protection during critical first weeks of sales
+
+## What It Means for Players
+
+- **Internet connection required** periodically for license validation
+- **Performance impact** likely but hard to quantify before independent testing
+- **No impact** on console versions (PS5, Xbox Series X|S)
+- Pearl Abyss may **remove Denuvo** later, as other publishers have done after the launch window`,
+      es: `## Denuvo confirmado para Crimson Desert PC
+
+A pocos días del lanzamiento, Pearl Abyss confirmó que la versión PC usará **Denuvo Anti-Tamper** como DRM. El impacto potencial en el rendimiento es debatido: posible aumento de tiempos de carga y uso de CPU, pero las versiones modernas de Denuvo tienen un impacto mínimo según tests independientes.
+
+## Qué significa para los jugadores
+
+- Conexión a internet requerida periódicamente
+- Sin impacto en versiones de consola
+- Pearl Abyss podría retirar Denuvo posteriormente`,
+      pt: `## Denuvo confirmado para Crimson Desert PC
+
+A poucos dias do lançamento, Pearl Abyss confirmou que a versão PC usará **Denuvo Anti-Tamper** como DRM. O impacto potencial no desempenho é debatido: possível aumento nos tempos de carregamento e uso de CPU, mas versões modernas do Denuvo têm impacto mínimo segundo testes independentes.
+
+## O que significa para os jogadores
+
+- Conexão à internet necessária periodicamente
+- Sem impacto nas versões console
+- Pearl Abyss pode remover o Denuvo posteriormente`,
+      it: `## Denuvo confermato per Crimson Desert PC
+
+A pochi giorni dal lancio, Pearl Abyss ha confermato che la versione PC utilizzerà **Denuvo Anti-Tamper** come DRM. L'impatto potenziale sulle prestazioni è dibattuto: possibile aumento dei tempi di caricamento e uso CPU, ma le versioni moderne di Denuvo hanno un impatto minimo secondo test indipendenti.
+
+## Cosa significa per i giocatori
+
+- Connessione internet richiesta periodicamente
+- Nessun impatto sulle versioni console
+- Pearl Abyss potrebbe rimuovere Denuvo successivamente`,
+      ko: `## 크림슨 디저트 PC Denuvo 확정
+
+출시 며칠 전, Pearl Abyss가 PC 버전에 **Denuvo Anti-Tamper** DRM 사용을 확정했습니다. 성능 영향은 논쟁 중: 로딩 시간과 CPU 사용량 증가 가능성이 있지만, 최신 Denuvo 버전은 독립 테스트에 따르면 영향이 최소합니다.
+
+## 플레이어에게 미치는 영향
+
+- 라이선스 검증을 위해 주기적으로 인터넷 연결 필요
+- 콘솔 버전에는 영향 없음
+- Pearl Abyss가 향후 Denuvo를 제거할 수 있음`,
+    },
+    infobox: {
+      'DRM': 'Denuvo Anti-Tamper',
+      'Plateforme': 'PC uniquement',
+      'Éditeur': 'Pearl Abyss',
+      'Annonce': 'Mars 2026 (quelques jours avant sortie)',
+    },
+    author: "L'équipe PopCodex",
+    publishedAt: '2026-03-14',
+    updatedAt: '2026-03-14',
+    readTime: 5,
+    tags: ['crimson-desert', 'actualites', 'denuvo', 'drm', 'pc', 'performance'],
+    relatedSlugs: ['performance-technique', 'heure-sortie-telechargement', 'preload-horaires-lancement'],
   },
 ];

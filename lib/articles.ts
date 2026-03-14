@@ -1408,11 +1408,15 @@ Devastato ma determinato, l'eroe lascia le rovine pietrificate per indagare sull
     content: {
       fr: `## Un système réinventé
 
-Le système de moralité de Fable a été **entièrement repensé** par Playground Games, comme révélé lors du Xbox Developer Direct de janvier 2026. Contrairement aux anciens Fable où le système était relativement binaire (bon/mauvais avec des conséquences cosmétiques comme des cornes ou un halo), le nouveau système promet une approche bien plus nuancée et profonde.
+Le système de moralité de Fable a été **entièrement repensé** par Playground Games, comme révélé lors du Xbox Developer Direct de janvier 2026. La nouveauté fondamentale : il ne s'agit **pas d'une simple jauge glissante bien/mal**. Le système est **basé sur la perception des PNJ**, pas sur une valeur absolue. Chaque PNJ juge les actions du joueur différemment selon sa propre personnalité, ses valeurs et son vécu.
+
+## Perception individuelle des PNJ
+
+C'est le changement le plus radical par rapport aux anciens Fable : **chaque PNJ évalue les actions du héros selon son propre cadre moral**. Un marchand peut approuver un acte que le garde du village condamne. Un voleur peut admirer un cambriolage audacieux tandis qu'un prêtre le maudit. Il n'y a plus de jugement universel — la moralité est relative et contextuelle.
 
 ## Évolution par rapport aux anciens Fable
 
-Dans les Fable originaux de Lionhead Studios, la moralité se manifestait principalement par des **changements d'apparence** : un héros vertueux brillait d'une aura dorée et attirait les papillons, tandis qu'un héros maléfique développait des cornes, des yeux rouges et une peau pâle. Le nouveau Fable conserve cette tradition visuelle mais l'enrichit considérablement.
+Dans les Fable originaux de Lionhead Studios, la moralité se manifestait principalement par des **changements d'apparence** : un héros vertueux brillait d'une aura dorée et attirait les papillons, tandis qu'un héros maléfique développait des cornes, des yeux rouges et une peau pâle. Le nouveau Fable conserve cette tradition visuelle mais l'enrichit considérablement. C'est un retour d'un élément fondamental de la trilogie originale, entièrement modernisé.
 
 ## Impact sur le monde d'Albion
 
@@ -1427,10 +1431,11 @@ Les choix moraux du joueur ont désormais des **conséquences tangibles sur le m
 
 Les PNJ réagissent de manière **dynamique et mémorable** aux choix du joueur :
 
-- Les habitants fuient ou accourent selon la réputation du héros
+- Chaque PNJ a sa propre **perception morale** — pas de jugement universel
+- Les habitants fuient ou accourent selon la réputation du héros auprès d'eux
 - Les marchands ajustent leurs prix et leur inventaire
 - Des PNJ alliés peuvent devenir hostiles après certaines décisions
-- Des romances et amitiés se nouent ou se brisent selon la moralité
+- Des romances et amitiés se nouent ou se brisent selon la moralité perçue
 
 ## Zones grises et dilemmes
 
