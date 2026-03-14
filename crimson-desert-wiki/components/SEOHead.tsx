@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import type { Lang } from '@/crimson-desert-wiki/context/I18nContext';
 
-const DOMAIN = 'https://pywelwiki.com';
+const DOMAIN = 'https://popcodex.com';
 
 interface BreadcrumbItem {
   name: string;
