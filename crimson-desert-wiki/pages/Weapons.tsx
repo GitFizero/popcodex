@@ -157,14 +157,15 @@ const weapons: WeaponInfo[] = [
   },
   {
     id: 'musket',
-    name: { fr: 'Mousquet', en: 'Musket', es: 'Mosquete', it: 'Moschetto', ko: '머스킷' },
-    category: { fr: 'Distance — Puissance', en: 'Ranged — Power', es: 'Distancia — Potencia', it: 'Distanza — Potenza', ko: '원거리 — 파워' },
+    name: { fr: 'Mousquet', en: 'Musket', es: 'Mosquete', it: 'Moschetto', ko: '머스킷', pt: 'Mosquete' },
+    category: { fr: 'Distance — Puissance', en: 'Ranged — Power', es: 'Distancia — Potencia', it: 'Distanza — Potenza', ko: '원거리 — 파워', pt: 'Distância — Poder' },
     description: {
       fr: "Le mousquet représente une option à distance unique dans l'univers médiéval-fantastique. Plus puissant que l'arc par tir, il offre des dégâts concentrés sur un seul impact.",
       en: "The musket represents a unique ranged option in the medieval-fantasy setting. More powerful than the bow per shot, it delivers concentrated damage in a single impact.",
       es: 'El mosquete representa una opción a distancia única en el universo medieval-fantástico. Más poderoso que el arco por disparo, ofrece daño concentrado en un solo impacto.',
       it: "Il moschetto rappresenta un'opzione a distanza unica nell'universo medievale-fantastico. Più potente dell'arco per singolo colpo, offre danni concentrati in un solo impatto.",
       ko: '머스킷은 중세 판타지 세계에서 독특한 원거리 옵션입니다. 활보다 한 발당 더 강력하며, 단일 충격에 집중된 피해를 줍니다.',
+      pt: 'O mosquete representa uma opção de distância única no cenário medieval-fantástico. Mais poderoso que o arco por disparo, oferece dano concentrado em um único impacto.',
     },
     playstyle: {
       fr: "Arme de précision avec un temps de rechargement plus long. Idéale pour ouvrir un combat ou punir les ouvertures.",
@@ -172,19 +173,21 @@ const weapons: WeaponInfo[] = [
       es: 'Arma de precisión con tiempo de recarga más largo. Ideal para abrir un combate o castigar las aperturas del enemigo.',
       it: "Arma di precisione con tempo di ricarica più lungo. Ideale per aprire un combattimento o punire le aperture del nemico.",
       ko: '재장전 시간이 더 긴 정밀 무기. 전투를 시작하거나 빈틈을 노리는 데 이상적.',
+      pt: 'Arma de precisão com tempo de recarga mais longo. Ideal para abrir um combate ou punir aberturas.',
     },
     icon: '🔫',
   },
   {
     id: 'unarmed',
-    name: { fr: 'Mains nues et prises', en: 'Unarmed & Grapples', es: 'Puños y agarres', it: 'Mani nude e prese', ko: '맨손 전투와 그래플' },
-    category: { fr: 'Mêlée — Physique', en: 'Melee — Physical', es: 'Cuerpo a cuerpo — Físico', it: 'Mischia — Fisico', ko: '근접 — 물리' },
+    name: { fr: 'Mains nues et prises', en: 'Unarmed & Grapples', es: 'Puños y agarres', it: 'Mani nude e prese', ko: '맨손 전투와 그래플', pt: 'Desarmado e agarrões' },
+    category: { fr: 'Mêlée — Physique', en: 'Melee — Physical', es: 'Cuerpo a cuerpo — Físico', it: 'Mischia — Fisico', ko: '근접 — 물리', pt: 'Corpo a corpo — Físico' },
     description: {
       fr: "Le combat à mains nues et les prises ajoutent une dimension physique brute au système de combat. Les démonstrations montrent Kliff saisissant ses ennemis pour les projeter, les plaquer au sol ou les précipiter du haut des falaises.",
       en: "Unarmed combat and grappling add a raw physical dimension. Gameplay demonstrations show Kliff grabbing enemies to throw them, slam them to the ground, or hurl them off cliffsides.",
       es: 'El combate a puño limpio y los agarres añaden una dimensión física bruta. Las demostraciones muestran a Kliff agarrando enemigos para lanzarlos, estrellarlos contra el suelo o precipitarlos desde acantilados.',
       it: "Il combattimento a mani nude e le prese aggiungono una dimensione fisica bruta. Le dimostrazioni mostrano Kliff che afferra i nemici per scagliarli, schiacciarli al suolo o precipitarli dalle scogliere.",
       ko: '맨손 전투와 그래플은 원시적인 물리적 차원을 추가합니다. 게임플레이 시연에서 클리프가 적을 잡아 던지고, 바닥에 내리치고, 절벽에서 떨어뜨리는 모습을 보여줍니다.',
+      pt: 'Combate desarmado e agarrões adicionam uma dimensão física bruta. Demonstrações de gameplay mostram Kliff agarrando inimigos para arremessá-los, esmagá-los no chão ou jogá-los de penhascos.',
     },
     playstyle: {
       fr: "Intègre pleinement la physique de l'environnement. Moments de combat spectaculaires et imprévisibles.",
@@ -192,6 +195,7 @@ const weapons: WeaponInfo[] = [
       es: 'Integra plenamente la física del entorno. Momentos de combate espectaculares e impredecibles.',
       it: "Integra pienamente la fisica dell'ambiente. Momenti di combattimento spettacolari e imprevedibili.",
       ko: '환경 물리를 완전히 통합. 화려하고 예측 불가능한 전투 순간.',
+      pt: 'Integra plenamente a física do ambiente. Momentos de combate espetaculares e imprevisíveis.',
     },
     icon: '👊',
   },
@@ -204,6 +208,7 @@ const sectionTexts = {
     es: 'Crimson Desert presenta 8 tipos de armas confirmados, cada uno con su propio estilo de combate. El juego de Pearl Abyss apuesta por la fluidez, las transiciones dinámicas entre armas y la interacción con el entorno.',
     it: "Crimson Desert presenta 8 tipi di armi confermati, ciascuno con il proprio stile di combattimento. Il gioco di Pearl Abyss punta sulla fluidità, le transizioni dinamiche tra armi e l'interazione con l'ambiente.",
     ko: '크림슨 디저트는 각각 고유한 전투 스타일을 가진 8가지 확인된 무기 유형을 제공합니다. 펄어비스의 게임은 유연한 무기 사용, 전투 중 동적 무기 전환, 환경과의 상호작용을 강조합니다.',
+    pt: 'Crimson Desert apresenta 8 tipos de armas confirmados, cada um com seu próprio estilo de combate. O jogo da Pearl Abyss enfatiza o uso fluido de armas, troca dinâmica de armas durante o combate e interação com o ambiente.',
   } as L,
   switchingTitle: {
     fr: 'Changement d\'arme en combat',
@@ -211,6 +216,7 @@ const sectionTexts = {
     es: 'Cambio de arma en combate',
     it: 'Cambio arma in combattimento',
     ko: '전투 중 무기 전환',
+    pt: 'Troca de arma durante o combate',
   } as L,
   switchingDesc: {
     fr: "L'une des mécaniques les plus remarquables de Crimson Desert est la possibilité de changer d'arme en plein combat. Les séquences de gameplay montrent des transitions fluides d'une épée à un arc, ou d'une grande épée à des doubles lames, sans rupture de rythme. Cette mécanique encourage l'expérimentation et l'adaptation en temps réel.",
