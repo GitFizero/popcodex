@@ -10,46 +10,51 @@ interface GalleryImage {
   id: string;
   src: string;
   alt: { fr: string; en: string; es?: string };
-  category: 'characters' | 'locations' | 'vehicles' | 'activities' | 'nightlife';
+  category: 'protagonists' | 'characters' | 'locations' | 'map';
   width: number;
   height: number;
 }
 
 const GALLERY_IMAGES: GalleryImage[] = [
-  // Characters
-  { id: 'lucia-portrait', src: '/gta-vi/lucia-portrait.jpg', alt: { fr: 'Lucia Caminos, protagoniste de GTA VI', en: 'Lucia Caminos, GTA VI protagonist', es: 'Lucia Caminos, protagonista de GTA VI' }, category: 'characters', width: 1920, height: 1080 },
-  { id: 'jason-portrait', src: '/gta-vi/jason-portrait.jpg', alt: { fr: 'Jason Duval, protagoniste de GTA VI', en: 'Jason Duval, GTA VI protagonist', es: 'Jason Duval, protagonista de GTA VI' }, category: 'characters', width: 1920, height: 1080 },
-  { id: 'lucia-jason-duo', src: '/gta-vi/lucia-jason-duo.jpg', alt: { fr: 'Lucia et Jason ensemble dans Vice City', en: 'Lucia and Jason together in Vice City', es: 'Lucia y Jason juntos en Vice City' }, category: 'characters', width: 1920, height: 1080 },
+  // Protagonists — Jason & Lucia
+  { id: 'jason-lucia-hero-landscape', src: '/gta-vi/jason-lucia-hero-landscape.jpg', alt: { fr: 'Jason et Lucia, les deux protagonistes de GTA VI', en: 'Jason and Lucia, the two GTA VI protagonists', es: 'Jason y Lucia, los dos protagonistas de GTA VI' }, category: 'protagonists', width: 1920, height: 1080 },
+  { id: 'jason-lucia-01-landscape', src: '/gta-vi/jason-lucia-01-landscape.jpg', alt: { fr: 'Jason et Lucia dans Vice City', en: 'Jason and Lucia in Vice City', es: 'Jason y Lucia en Vice City' }, category: 'protagonists', width: 1920, height: 1080 },
+  { id: 'jason-lucia-02-landscape', src: '/gta-vi/jason-lucia-02-landscape.jpg', alt: { fr: 'Jason et Lucia — screenshot officiel GTA VI', en: 'Jason and Lucia — official GTA VI screenshot', es: 'Jason y Lucia — captura oficial GTA VI' }, category: 'protagonists', width: 1920, height: 1080 },
+  { id: 'jason-lucia-02-logos-landscape', src: '/gta-vi/jason-lucia-02-logos-landscape.jpg', alt: { fr: 'Jason et Lucia avec le logo GTA VI', en: 'Jason and Lucia with GTA VI logo', es: 'Jason y Lucia con el logo GTA VI' }, category: 'protagonists', width: 1920, height: 1080 },
+  { id: 'jason-lucia-motel-landscape', src: '/gta-vi/jason-lucia-motel-landscape.jpg', alt: { fr: 'Jason et Lucia devant un motel de Vice City', en: 'Jason and Lucia in front of a Vice City motel', es: 'Jason y Lucia frente a un motel de Vice City' }, category: 'protagonists', width: 1920, height: 1080 },
 
-  // Locations
-  { id: 'vice-city-skyline', src: '/gta-vi/vice-city-skyline.jpg', alt: { fr: 'Skyline de Vice City au coucher du soleil', en: 'Vice City skyline at sunset', es: 'Horizonte de Vice City al atardecer' }, category: 'locations', width: 1920, height: 1080 },
-  { id: 'ocean-beach', src: '/gta-vi/ocean-beach.jpg', alt: { fr: 'Ocean Beach de Vice City, front de mer art deco', en: 'Vice City Ocean Beach, art deco waterfront', es: 'Ocean Beach de Vice City, frente maritimo art deco' }, category: 'locations', width: 1920, height: 1080 },
-  { id: 'leonida-keys', src: '/gta-vi/leonida-keys.jpg', alt: { fr: 'Les Leonida Keys, iles tropicales', en: 'Leonida Keys, tropical islands', es: 'Las Leonida Keys, islas tropicales' }, category: 'locations', width: 1920, height: 1080 },
-  { id: 'grassrivers', src: '/gta-vi/grassrivers.jpg', alt: { fr: 'Les marecages de Grassrivers, Everglades de Leonida', en: 'Grassrivers swamps, Leonida Everglades', es: 'Los pantanos de Grassrivers, Everglades de Leonida' }, category: 'locations', width: 1920, height: 1080 },
-  { id: 'port-gellhorn', src: '/gta-vi/port-gellhorn.jpg', alt: { fr: 'Port Gellhorn, zone industrielle portuaire', en: 'Port Gellhorn, industrial harbor zone', es: 'Port Gellhorn, zona industrial portuaria' }, category: 'locations', width: 1920, height: 1080 },
+  // Secondary Characters
+  { id: 'boobie-ike-landscape', src: '/gta-vi/boobie-ike-landscape.jpg', alt: { fr: 'Boobie Ike, personnage secondaire de GTA VI', en: 'Boobie Ike, GTA VI secondary character', es: 'Boobie Ike, personaje secundario de GTA VI' }, category: 'characters', width: 1920, height: 1080 },
+  { id: 'boobie-ike-portrait', src: '/gta-vi/boobie-ike-portrait.jpg', alt: { fr: 'Portrait de Boobie Ike', en: 'Boobie Ike portrait', es: 'Retrato de Boobie Ike' }, category: 'characters', width: 1080, height: 1350 },
+  { id: 'cal-hampton-landscape', src: '/gta-vi/cal-hampton-landscape.jpg', alt: { fr: 'Cal Hampton, personnage de GTA VI', en: 'Cal Hampton, GTA VI character', es: 'Cal Hampton, personaje de GTA VI' }, category: 'characters', width: 1920, height: 1080 },
+  { id: 'cal-hampton-portrait', src: '/gta-vi/cal-hampton-portrait.jpg', alt: { fr: 'Portrait de Cal Hampton', en: 'Cal Hampton portrait', es: 'Retrato de Cal Hampton' }, category: 'characters', width: 1080, height: 1350 },
+  { id: 'brian-heder-landscape', src: '/gta-vi/brian-heder-landscape.jpg', alt: { fr: 'Brian Heder, personnage de GTA VI', en: 'Brian Heder, GTA VI character', es: 'Brian Heder, personaje de GTA VI' }, category: 'characters', width: 1920, height: 1080 },
+  { id: 'brian-heder-portrait', src: '/gta-vi/brian-heder-portrait.jpg', alt: { fr: 'Portrait de Brian Heder', en: 'Brian Heder portrait', es: 'Retrato de Brian Heder' }, category: 'characters', width: 1080, height: 1350 },
+  { id: 'drequan-priest-landscape', src: '/gta-vi/drequan-priest-landscape.jpg', alt: { fr: "Dre'Quan Priest, personnage de GTA VI", en: "Dre'Quan Priest, GTA VI character", es: "Dre'Quan Priest, personaje de GTA VI" }, category: 'characters', width: 1920, height: 1080 },
+  { id: 'drequan-priest-portrait', src: '/gta-vi/drequan-priest-portrait.jpg', alt: { fr: "Portrait de Dre'Quan Priest", en: "Dre'Quan Priest portrait", es: "Retrato de Dre'Quan Priest" }, category: 'characters', width: 1080, height: 1350 },
+  { id: 'raul-bautista-landscape', src: '/gta-vi/raul-bautista-landscape.jpg', alt: { fr: 'Raul Bautista, personnage de GTA VI', en: 'Raul Bautista, GTA VI character', es: 'Raul Bautista, personaje de GTA VI' }, category: 'characters', width: 1920, height: 1080 },
+  { id: 'raul-bautista-portrait', src: '/gta-vi/raul-bautista-portrait.jpg', alt: { fr: 'Portrait de Raul Bautista', en: 'Raul Bautista portrait', es: 'Retrato de Raul Bautista' }, category: 'characters', width: 1080, height: 1350 },
+  { id: 'real-dimez-landscape', src: '/gta-vi/real-dimez-landscape.jpg', alt: { fr: 'Real Dimez, personnage de GTA VI', en: 'Real Dimez, GTA VI character', es: 'Real Dimez, personaje de GTA VI' }, category: 'characters', width: 1920, height: 1080 },
+  { id: 'real-dimez-portrait', src: '/gta-vi/real-dimez-portrait.jpg', alt: { fr: 'Portrait de Real Dimez', en: 'Real Dimez portrait', es: 'Retrato de Real Dimez' }, category: 'characters', width: 1080, height: 1350 },
 
-  // Vehicles
-  { id: 'sports-car', src: '/gta-vi/sports-car.jpg', alt: { fr: 'Voiture de sport dans les rues de Vice City', en: 'Sports car in Vice City streets', es: 'Coche deportivo en las calles de Vice City' }, category: 'vehicles', width: 1920, height: 1080 },
-  { id: 'speedboat', src: '/gta-vi/speedboat.jpg', alt: { fr: 'Bateau rapide dans la baie de Vice City', en: 'Speedboat in Vice City bay', es: 'Lancha rapida en la bahia de Vice City' }, category: 'vehicles', width: 1920, height: 1080 },
-  { id: 'motorcycle', src: '/gta-vi/motorcycle.jpg', alt: { fr: 'Moto sur Ocean Drive', en: 'Motorcycle on Ocean Drive', es: 'Moto en Ocean Drive' }, category: 'vehicles', width: 1920, height: 1080 },
+  // Locations — Leonida regions
+  { id: 'vice-city-landscape', src: '/gta-vi/vice-city-postcard-landscape.jpg', alt: { fr: 'Vice City, la metropole neon de Leonida', en: 'Vice City, the neon metropolis of Leonida', es: 'Vice City, la metropolis neon de Leonida' }, category: 'locations', width: 1920, height: 1080 },
+  { id: 'leonida-keys-landscape', src: '/gta-vi/leonida-keys-postcard-landscape.jpg', alt: { fr: 'Les Leonida Keys, iles tropicales', en: 'Leonida Keys, tropical islands', es: 'Las Leonida Keys, islas tropicales' }, category: 'locations', width: 1920, height: 1080 },
+  { id: 'grassrivers-landscape', src: '/gta-vi/grassrivers-postcard-landscape.jpg', alt: { fr: 'Les Grassrivers, marecages de Leonida', en: 'Grassrivers, Leonida swamplands', es: 'Los Grassrivers, pantanos de Leonida' }, category: 'locations', width: 1920, height: 1080 },
+  { id: 'port-gellhorn-landscape', src: '/gta-vi/port-gellhorn-postcard-landscape.jpg', alt: { fr: 'Port Gellhorn, zone industrielle portuaire', en: 'Port Gellhorn, industrial harbor zone', es: 'Port Gellhorn, zona industrial portuaria' }, category: 'locations', width: 1920, height: 1080 },
+  { id: 'ambrosia-landscape', src: '/gta-vi/ambrosia-postcard-landscape.jpg', alt: { fr: 'Ambrosia County, campagne rurale de Leonida', en: 'Ambrosia County, rural countryside of Leonida', es: 'Ambrosia County, campo rural de Leonida' }, category: 'locations', width: 1920, height: 1080 },
+  { id: 'mount-kalaga-landscape', src: '/gta-vi/mount-kalaga-postcard-landscape.jpg', alt: { fr: 'Mount Kalaga, forets montagneuses de Leonida', en: 'Mount Kalaga, mountainous forests of Leonida', es: 'Mount Kalaga, bosques montanosos de Leonida' }, category: 'locations', width: 1920, height: 1080 },
 
-  // Activities
-  { id: 'heist-planning', src: '/gta-vi/heist-planning.jpg', alt: { fr: 'Preparation de braquage par Lucia et Jason', en: 'Heist planning by Lucia and Jason', es: 'Planificacion de atraco por Lucia y Jason' }, category: 'activities', width: 1920, height: 1080 },
-  { id: 'fishing', src: '/gta-vi/fishing.jpg', alt: { fr: 'Peche en mer dans les Leonida Keys', en: 'Deep sea fishing in Leonida Keys', es: 'Pesca en mar en las Leonida Keys' }, category: 'activities', width: 1920, height: 1080 },
-  { id: 'diving', src: '/gta-vi/diving.jpg', alt: { fr: 'Plongee sous-marine pres des Keys', en: 'Scuba diving near the Keys', es: 'Buceo cerca de las Keys' }, category: 'activities', width: 1920, height: 1080 },
-
-  // Nightlife
-  { id: 'nightclub', src: '/gta-vi/nightclub.jpg', alt: { fr: 'Club de nuit neon a Vice City', en: 'Neon nightclub in Vice City', es: 'Club nocturno neon en Vice City' }, category: 'nightlife', width: 1920, height: 1080 },
-  { id: 'south-beach-night', src: '/gta-vi/south-beach-night.jpg', alt: { fr: 'South Beach la nuit, ambiance neon', en: 'South Beach at night, neon vibes', es: 'South Beach de noche, ambiente neon' }, category: 'nightlife', width: 1920, height: 1080 },
+  // Map
+  { id: 'vice-city-map-guide', src: '/gta-vi/gta6-vice-city-map-guide.jpg', alt: { fr: 'Guide de la carte de Vice City — GTA VI', en: 'Vice City map guide — GTA VI', es: 'Guia del mapa de Vice City — GTA VI' }, category: 'map', width: 1920, height: 1080 },
 ];
 
 const CATEGORIES = [
   { id: 'all', label: { fr: 'Tout', en: 'All', es: 'Todo' } },
+  { id: 'protagonists', label: { fr: 'Protagonistes', en: 'Protagonists', es: 'Protagonistas' } },
   { id: 'characters', label: { fr: 'Personnages', en: 'Characters', es: 'Personajes' } },
   { id: 'locations', label: { fr: 'Lieux', en: 'Locations', es: 'Lugares' } },
-  { id: 'vehicles', label: { fr: 'Vehicules', en: 'Vehicles', es: 'Vehiculos' } },
-  { id: 'activities', label: { fr: 'Activites', en: 'Activities', es: 'Actividades' } },
-  { id: 'nightlife', label: { fr: 'Vie nocturne', en: 'Nightlife', es: 'Vida nocturna' } },
+  { id: 'map', label: { fr: 'Carte', en: 'Map', es: 'Mapa' } },
 ];
 
 const Lightbox = memo(({ image, onClose, lang }: { image: GalleryImage | null; onClose: () => void; lang: string }) => {
@@ -173,7 +178,7 @@ const Gallery = () => {
                   ? 'Explorez les screenshots officiels de GTA VI : Vice City, personnages, vehicules et bien plus.'
                   : lang === 'es'
                   ? 'Explora las capturas oficiales de GTA VI: Vice City, personajes, vehiculos y mucho mas.'
-                  : 'Explore official GTA VI screenshots: Vice City, characters, vehicles and more.'}
+                  : 'Explore official GTA VI screenshots: Vice City, characters, locations and more.'}
               </p>
             </header>
           </RevealOnScroll>
