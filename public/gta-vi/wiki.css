@@ -281,3 +281,31 @@
 .gta-vi-wiki .animate-fade-in-up { animation: fadeInUp 0.6s ease forwards; }
 .gta-vi-wiki .animate-fade-in { animation: fadeIn 0.4s ease forwards; }
 .gta-vi-wiki .animate-glow-pulse { animation: glowPulse 3s ease-in-out infinite; }
+
+/* Performance: content-visibility for off-screen cards */
+.gta-vi-wiki .card,
+.gta-vi-wiki section {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 300px;
+}
+
+/* Reduce motion for accessibility + performance */
+@media (prefers-reduced-motion: reduce) {
+  .gta-vi-wiki,
+  .gta-vi-wiki * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Optimize image rendering */
+.gta-vi-wiki img {
+  content-visibility: auto;
+  image-rendering: auto;
+}
+
+/* Font display optimization */
+.gta-vi-wiki {
+  text-rendering: optimizeSpeed;
+}

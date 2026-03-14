@@ -4,6 +4,7 @@ import { useI18n, tr } from '@/gta-vi-wiki/context/I18nContext';
 import RevealOnScroll from '@/gta-vi-wiki/components/RevealOnScroll';
 import NeonDivider from '@/gta-vi-wiki/components/NeonDivider';
 import SEOHead from '@/gta-vi-wiki/components/SEOHead';
+import { seo } from '@/gta-vi-wiki/lib/seo';
 import { blogArticles } from '@/gta-vi-wiki/data/blog';
 
 const Guides = () => {
@@ -14,10 +15,14 @@ const Guides = () => {
   return (
     <>
       <SEOHead
-        title={lang === 'fr' ? 'Guides GTA VI | Wiki Fan' : lang === 'es' ? 'Guias GTA VI | Wiki Fan' : 'GTA VI Guides | Fan Wiki'}
-        description={lang === 'fr' ? 'Tous les guides GTA VI : armes, vehicules, carte, personnages.' : 'All GTA VI guides: weapons, vehicles, map, characters.'}
+        title={(seo as any).guides?.title?.[lang] || (lang === 'fr' ? 'Guides GTA VI | Astuces, Strategies & Walkthrough' : lang === 'es' ? 'Guias GTA VI | Consejos y Estrategias' : 'GTA VI Guides | Tips, Strategies & Walkthrough')}
+        description={(seo as any).guides?.desc?.[lang] || (lang === 'fr' ? 'Guides complets GTA VI : astuces, strategies et walkthrough.' : 'Complete GTA VI guides: tips, strategies and walkthrough.')}
         path="/guides"
         lang={lang}
+        breadcrumbs={[
+          { name: seo.breadcrumb.home[lang], path: '/' },
+          { name: (seo.breadcrumb as any).guides?.[lang] || 'Guides', path: '/guides' },
+        ]}
       />
 
       <main id="main-content" className="min-h-screen pt-20 px-4" style={{ background: '#0a000f' }}>

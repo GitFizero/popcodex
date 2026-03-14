@@ -23,6 +23,8 @@ export default function GtaViPage() {
 
   return (
     <>
+      <link rel="preload" href="/gta-vi/wiki.css" as="style" />
+      <link rel="preload" href="/gta-vi/overrides.css" as="style" />
       <link rel="stylesheet" href="/gta-vi/wiki.css" />
       <link rel="stylesheet" href="/gta-vi/overrides.css" />
       <GtaViApp basename={`/${locale}/gta-vi`} />

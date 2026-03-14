@@ -30,6 +30,7 @@ const NavBar = memo(() => {
     { path: '/mounts', label: t('nav.db.mounts'), icon: '🚗' },
     { path: '/quests', label: t('nav.db.quests'), icon: '📋' },
     { path: '/glossary', label: t('nav.db.glossary'), icon: '📖' },
+    { path: '/gallery', label: lang === 'fr' ? 'Galerie' : lang === 'es' ? 'Galeria' : 'Gallery', icon: '🖼️' },
   ];
 
   useEffect(() => {
@@ -55,7 +56,7 @@ const NavBar = memo(() => {
   }, [dbMenuOpen]);
 
   const openSearch = useCallback(() => setSearchOpen(true), [setSearchOpen]);
-  const isDbActive = ['/items', '/mounts', '/quests', '/glossary'].includes(location.pathname);
+  const isDbActive = ['/items', '/mounts', '/quests', '/glossary', '/gallery'].includes(location.pathname);
 
   return (
     <>

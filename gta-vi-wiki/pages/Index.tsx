@@ -51,6 +51,7 @@ const Index = () => {
         path="/"
         lang={lang}
         faqItems={seo.faq[lang]}
+        includeVideoGameSchema
       />
 
       <main id="main-content">

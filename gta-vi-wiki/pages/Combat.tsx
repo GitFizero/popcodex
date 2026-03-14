@@ -36,13 +36,13 @@ const Combat = () => {
   return (
     <>
       <SEOHead
-        title={lang === 'fr' ? 'Combat GTA VI | Systeme de Combat' : lang === 'es' ? 'Combate GTA VI' : 'GTA VI Combat | Combat System'}
-        description={lang === 'fr' ? 'Guide du systeme de combat de GTA VI.' : 'GTA VI combat system guide.'}
+        title={(seo as any).combat?.title?.[lang] || (lang === 'fr' ? 'Systeme de Combat GTA VI | Mecaniques & Techniques' : lang === 'es' ? 'Sistema de Combate GTA VI' : 'GTA VI Combat System | Mechanics & Techniques')}
+        description={(seo as any).combat?.desc?.[lang] || (lang === 'fr' ? 'Guide du systeme de combat de GTA VI : mecaniques, techniques et strategies.' : 'GTA VI combat system guide: mechanics, techniques and strategies.')}
         path="/combat"
         lang={lang}
         breadcrumbs={[
           { name: seo.breadcrumb.home[lang], path: '/' },
-          { name: 'Combat', path: '/combat' },
+          { name: (seo.breadcrumb as any).combat?.[lang] || 'Combat', path: '/combat' },
         ]}
       />
 

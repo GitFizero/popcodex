@@ -25,6 +25,9 @@ interface SEOHeadProps {
   noindex?: boolean;
   lang?: Lang;
   jsonLd?: Record<string, unknown> | Record<string, unknown>[];
+  ogImage?: string;
+  includeVideoGameSchema?: boolean;
+  basePath?: string;
 }
 
 const LOCALE_MAP: Record<Lang, string> = {
@@ -51,9 +54,12 @@ const SEOHead = ({
   noindex = false,
   lang = 'en',
   jsonLd,
+  ogImage,
+  includeVideoGameSchema = false,
+  basePath = '',
 }: SEOHeadProps) => {
   const fullTitle = `${title} | GTA VI Wiki Fan`;
-  const canonicalUrl = `${DOMAIN}${path}`;
+  const canonicalUrl = `${DOMAIN}${basePath}${path}`;
 
   useEffect(() => {
     document.title = fullTitle;
@@ -87,10 +93,16 @@ const SEOHead = ({
     setMeta('name', 'robots', noindex ? 'noindex, follow' : 'index, follow');
     setMeta('name', 'keywords', KEYWORDS[lang]);
     setLink('canonical', canonicalUrl);
-    setLink('alternate', `${DOMAIN}${path}`, { hreflang: 'fr' });
-    setLink('alternate', `${DOMAIN}${path}`, { hreflang: 'en' });
-    setLink('alternate', `${DOMAIN}${path}`, { hreflang: 'es' });
-    setLink('alternate', `${DOMAIN}${path}`, { hreflang: 'x-default' });
+    setLink('alternate', `${DOMAIN}${basePath}${path}`, { hreflang: 'fr' });
+    setLink('alternate', `${DOMAIN}${basePath}${path}`, { hreflang: 'en' });
+    setLink('alternate', `${DOMAIN}${basePath}${path}`, { hreflang: 'es' });
+    setLink('alternate', `${DOMAIN}${basePath}${path}`, { hreflang: 'x-default' });
+
+    // Theme color
+    setMeta('name', 'theme-color', '#0a000f');
+
+    // Author
+    setMeta('name', 'author', 'PopCodex');
 
     setMeta('property', 'og:type', type);
     setMeta('property', 'og:site_name', 'GTA VI Fan Wiki');
@@ -102,6 +114,21 @@ const SEOHead = ({
     setMeta('name', 'twitter:card', 'summary_large_image');
     setMeta('name', 'twitter:title', fullTitle);
     setMeta('name', 'twitter:description', description);
+
+    // OG Image
+    if (ogImage) {
+      setMeta('property', 'og:image', ogImage);
+      setMeta('property', 'og:image:width', '1200');
+      setMeta('property', 'og:image:height', '630');
+      setMeta('name', 'twitter:image', ogImage);
+    }
+
+    // Article type extras
+    if (type === 'article') {
+      setMeta('property', 'article:author', 'PopCodex');
+      if (datePublished) setMeta('property', 'article:published_time', datePublished);
+      if (dateModified) setMeta('property', 'article:modified_time', dateModified);
+    }
 
     const existingScripts = document.querySelectorAll('script[data-seo-jsonld]');
     existingScripts.forEach(s => s.remove());
@@ -147,6 +174,23 @@ const SEOHead = ({
       });
     }
 
+    if (includeVideoGameSchema) {
+      schemas.push({
+        '@context': 'https://schema.org',
+        '@type': 'VideoGame',
+        name: 'Grand Theft Auto VI',
+        alternateName: 'GTA VI',
+        description: 'Open-world action-adventure game set in Leonida, featuring dual protagonists Lucia and Jason.',
+        gamePlatform: ['PlayStation 5', 'Xbox Series X|S'],
+        applicationCategory: 'Game',
+        operatingSystem: 'PlayStation 5, Xbox Series X|S',
+        publisher: { '@type': 'Organization', name: 'Rockstar Games' },
+        developer: { '@type': 'Organization', name: 'Rockstar North' },
+        datePublished: '2026-11-19',
+        genre: ['Action-adventure', 'Open world'],
+      });
+    }
+
     if (jsonLd) {
       if (Array.isArray(jsonLd)) schemas.push(...jsonLd);
       else schemas.push(jsonLd);
@@ -163,7 +207,7 @@ const SEOHead = ({
     return () => {
       document.querySelectorAll('script[data-seo-jsonld]').forEach(s => s.remove());
     };
-  }, [fullTitle, description, canonicalUrl, type, lang, noindex, breadcrumbs, faqItems, jsonLd, datePublished, dateModified, title, path]);
+  }, [fullTitle, description, canonicalUrl, type, lang, noindex, breadcrumbs, faqItems, jsonLd, datePublished, dateModified, title, path, ogImage, includeVideoGameSchema, basePath]);
 
   return null;
 };

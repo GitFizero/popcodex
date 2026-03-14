@@ -6,7 +6,7 @@ import NeonDivider from '@/gta-vi-wiki/components/NeonDivider';
 
 const Footer = memo(() => {
   const { toggleRetroMode, retroMode } = useApp();
-  const { t } = useI18n();
+  const { t, lang } = useI18n();
 
   return (
     <footer className="relative z-10 border-t" style={{ background: 'rgba(10, 0, 15, 0.95)', borderColor: 'rgba(255, 20, 147, 0.2)' }} role="contentinfo">
@@ -28,6 +28,7 @@ const Footer = memo(() => {
                 { to: '/world', label: t('nav.world') },
                 { to: '/weapons', label: t('nav.weapons') },
                 { to: '/lore', label: t('nav.lore') },
+                { to: '/gallery', label: lang === 'fr' ? 'Galerie' : lang === 'es' ? 'Galeria' : 'Gallery' },
                 { to: '/about', label: t('nav.about') },
               ].map(l => (
                 <Link key={l.to} to={l.to} className="text-sm transition-colors" style={{ color: 'rgba(255,255,255,0.5)' }}

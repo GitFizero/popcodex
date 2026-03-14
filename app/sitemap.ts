@@ -60,5 +60,25 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
   }
 
+  // GTA VI Wiki SPA pages
+  const gtaViPages = [
+    'characters', 'story', 'world', 'combat', 'lore', 'blog',
+    'guides', 'glossary', 'gallery', 'items', 'mounts', 'quests',
+    'weapons', 'about',
+  ];
+  for (const page of gtaViPages) {
+    for (const locale of locales) {
+      entries.push({
+        url: `${BASE_URL}/${locale}/gta-vi/${page}`,
+        lastModified: new Date(),
+        changeFrequency: 'weekly' as const,
+        priority: 0.7,
+        alternates: {
+          languages: Object.fromEntries(locales.map(l => [l, `${BASE_URL}/${l}/gta-vi/${page}`])),
+        },
+      });
+    }
+  }
+
   return entries;
 }

@@ -160,6 +160,42 @@ export const seo = {
       es: 'Guia completa de armas de GTA VI. Pistolas, rifles, SMG y mas. Rockstar Games 2026.',
     } as LangMap,
   },
+  gallery: {
+    title: {
+      fr: 'Galerie Screenshots GTA VI | Images Officielles Vice City & Leonida',
+      en: 'GTA VI Screenshot Gallery | Official Vice City & Leonida Images',
+      es: 'Galeria Capturas GTA VI | Imagenes Oficiales Vice City y Leonida',
+    } as LangMap,
+    desc: {
+      fr: 'Galerie complete de screenshots et images GTA VI : Vice City, personnages, vehicules, activites et vie nocturne. Rockstar Games 2026.',
+      en: 'Complete gallery of GTA VI screenshots and images: Vice City, characters, vehicles, activities, and nightlife. Rockstar Games 2026.',
+      es: 'Galeria completa de capturas e imagenes GTA VI: Vice City, personajes, vehiculos, actividades y vida nocturna. Rockstar Games 2026.',
+    } as LangMap,
+  },
+  guides: {
+    title: {
+      fr: 'Guides GTA VI | Astuces, Strategies & Walkthrough',
+      en: 'GTA VI Guides | Tips, Strategies & Walkthrough',
+      es: 'Guias GTA VI | Consejos, Estrategias y Walkthrough',
+    } as LangMap,
+    desc: {
+      fr: 'Guides complets GTA VI : astuces, strategies, walkthrough et tutoriels. Rockstar Games 2026.',
+      en: 'Complete GTA VI guides: tips, strategies, walkthrough and tutorials. Rockstar Games 2026.',
+      es: 'Guias completas GTA VI: consejos, estrategias, walkthrough y tutoriales. Rockstar Games 2026.',
+    } as LangMap,
+  },
+  combat: {
+    title: {
+      fr: 'Systeme de Combat GTA VI | Mecaniques & Techniques',
+      en: 'GTA VI Combat System | Mechanics & Techniques',
+      es: 'Sistema de Combate GTA VI | Mecanicas y Tecnicas',
+    } as LangMap,
+    desc: {
+      fr: 'Guide du systeme de combat de GTA VI : mecaniques, techniques et strategies. Rockstar Games 2026.',
+      en: 'GTA VI combat system guide: mechanics, techniques and strategies. Rockstar Games 2026.',
+      es: 'Guia del sistema de combate de GTA VI: mecanicas, tecnicas y estrategias. Rockstar Games 2026.',
+    } as LangMap,
+  },
   breadcrumb: {
     home: { fr: 'Accueil', en: 'Home', es: 'Inicio' } as LangMap,
     characters: { fr: 'Personnages', en: 'Characters', es: 'Personajes' } as LangMap,
@@ -174,6 +210,9 @@ export const seo = {
     vehicles: { fr: 'Vehicules', en: 'Vehicles', es: 'Vehiculos' } as LangMap,
     quests: { fr: 'Missions', en: 'Missions', es: 'Misiones' } as LangMap,
     weapons: { fr: 'Armes', en: 'Weapons', es: 'Armas' } as LangMap,
+    gallery: { fr: 'Galerie', en: 'Gallery', es: 'Galeria' } as LangMap,
+    guides: { fr: 'Guides', en: 'Guides', es: 'Guias' } as LangMap,
+    combat: { fr: 'Combat', en: 'Combat', es: 'Combate' } as LangMap,
   },
 
   faq: {
