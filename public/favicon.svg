@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
   <rect width="32" height="32" rx="8" fill="#0A0A12"/>
   <!-- Outer ring -->
-  <circle cx="16" cy="16" r="12" stroke="#6366F1" stroke-width="1.2" fill="none" opacity="0.3"/>
+  <circle cx="16" cy="16" r="12" stroke="#A78BFA" stroke-width="1.2" fill="none" opacity="0.3"/>
   <!-- Middle ring -->
-  <circle cx="16" cy="16" r="8" stroke="#818CF8" stroke-width="1.2" fill="none" opacity="0.5"/>
+  <circle cx="16" cy="16" r="8" stroke="#C084FC" stroke-width="1.2" fill="none" opacity="0.5"/>
   <!-- Inner ring -->
-  <circle cx="16" cy="16" r="4" stroke="#A5B4FC" stroke-width="1.5" fill="none" opacity="0.8"/>
+  <circle cx="16" cy="16" r="4" stroke="#F472B6" stroke-width="1.5" fill="none" opacity="0.8"/>
   <!-- Core -->
-  <circle cx="16" cy="16" r="1.8" fill="#C7D2FE"/>
+  <circle cx="16" cy="16" r="1.8" fill="#F472B6"/>
   <!-- Orbital dot -->
-  <circle cx="16" cy="5" r="1.2" fill="#818CF8" opacity="0.8"/>
+  <circle cx="16" cy="5" r="1.2" fill="#C084FC" opacity="0.8"/>
 </svg>

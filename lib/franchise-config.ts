@@ -173,6 +173,7 @@ export const franchises: Record<FranchiseId, FranchiseConfig> = {
     id: 'fable',
     mediaType: 'games',
     accentColor: '#22C55E',
+    coverImage: '/fable/cover-landscape.jpg',
     theme: {
       accentColor: '#22C55E',
       accentSecondary: '#FACC15',
@@ -230,6 +231,7 @@ export const franchises: Record<FranchiseId, FranchiseConfig> = {
     id: 'wolverine',
     mediaType: 'games',
     accentColor: '#EAB308',
+    coverImage: '/wolverine/cover-landscape.jpg',
     theme: {
       accentColor: '#EAB308',
       accentSecondary: '#DC2626',
