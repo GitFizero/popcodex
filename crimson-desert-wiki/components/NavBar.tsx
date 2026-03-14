@@ -68,7 +68,6 @@ const NavBar = memo(() => {
 
   return (
     <>
-      <a href="#main-content" className="skip-link focus-gold">Aller au contenu</a>
       <nav
         className="fixed top-[3px] left-0 w-full z-[1000] transition-all duration-[400ms]"
         style={{
