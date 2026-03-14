@@ -7,7 +7,7 @@ import FranchiseHub from '@/components/wiki/FranchiseHub';
 import { locales } from '@/lib/i18n/config';
 
 // Crimson Desert is served by its own dedicated wiki SPA route
-const WIKI_FRANCHISES = ['crimson-desert'];
+const WIKI_FRANCHISES = ['crimson-desert', 'gta-vi', 'fable', 'wolverine'];
 
 export async function generateStaticParams() {
   const params: { locale: string; franchise: string }[] = [];

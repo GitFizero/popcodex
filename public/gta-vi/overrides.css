@@ -1,0 +1,23 @@
+/* GTA VI Wiki — Override popcodex chrome */
+body:has(.gta-vi-wiki) > header,
+body:has(.gta-vi-wiki) > footer,
+body:has(.gta-vi-wiki) > div > header,
+body:has(.gta-vi-wiki) > div > footer {
+  display: none !important;
+}
+
+body:has(.gta-vi-wiki) {
+  background: hsl(220 67% 2%) !important;
+  font-family: 'DM Sans', sans-serif !important;
+}
+
+/* Neon glow keyframes */
+@keyframes neonPulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.7; }
+}
+
+@keyframes scanline {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(100vh); }
+}

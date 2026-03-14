@@ -1,0 +1,23 @@
+/* Fable Wiki — Override popcodex chrome */
+body:has(.fable-wiki) > header,
+body:has(.fable-wiki) > footer,
+body:has(.fable-wiki) > div > header,
+body:has(.fable-wiki) > div > footer {
+  display: none !important;
+}
+
+body:has(.fable-wiki) {
+  background: hsl(150 30% 3%) !important;
+  font-family: 'Crimson Text', serif !important;
+}
+
+/* Fairy tale glow */
+@keyframes fairyGlow {
+  0%, 100% { filter: brightness(1); }
+  50% { filter: brightness(1.2); }
+}
+
+@keyframes floatUp {
+  0% { transform: translateY(0) scale(1); opacity: 0.6; }
+  100% { transform: translateY(-100vh) scale(0.5); opacity: 0; }
+}
