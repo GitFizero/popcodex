@@ -250,7 +250,7 @@ Oongka est un personnage jouable de Crimson Desert et l'un des membres les plus 
 
 ## Arsenal et style de combat
 
-L'arme signature d'Oongka est une **hache gigantesque** qu'il manie avec une aisance terrifiante malgré son poids. Son style de combat est centré sur les **attaques de zone (AoE)**, capables de faucher plusieurs ennemis en un seul coup. Chaque swing est lent mais dévastateur, créant un style de jeu basé sur le positionnement et le timing plutôt que sur les réflexes.
+L'arme signature d'Oongka est une **hache gigantesque à deux mains** qu'il manie avec une aisance terrifiante. Son style de combat est centré sur les **attaques de zone (AoE)** et le crowd control. En plus de sa hache, il dispose d'un **canon monté au poignet** avec des capacités explosives, et de **prises de lutte** permettant d'agripper et projeter les ennemis. Chaque swing est lent mais dévastateur, créant un style de jeu basé sur le positionnement et le timing.
 
 ## Limitation : pas de monture dragon
 
@@ -273,7 +273,7 @@ Oongka is a playable character in Crimson Desert and one of the most imposing me
 
 ## Arsenal and Combat Style
 
-Oongka's signature weapon is a **massive axe** that he wields with terrifying ease despite its weight. His combat style centers on **area-of-effect (AoE) attacks**, capable of mowing down multiple enemies in a single swing. Each strike is slow but devastating, creating a playstyle built on positioning and timing rather than reflexes.
+Oongka's signature weapon is a **massive two-handed axe** wielded with terrifying ease. His combat style centers on **area-of-effect (AoE) attacks** and crowd control. Beyond his axe, he has a **wrist-mounted cannon** with explosive capabilities and **grappling moves** to grab and slam enemies. Each strike is slow but devastating, built on positioning and timing.
 
 ## Limitation: No Dragon Mounting
 
@@ -339,7 +339,7 @@ Ideale per giocatori che preferiscono uno stile **tank**. Eccellente contro grup
       Faction: 'Crinières Grises / Greymanes',
       Type: 'Brute / Tank — Jouable',
       Race: 'Orc',
-      Arme: 'Hache gigantesque (AoE)',
+      Arme: 'Hache gigantesque, Canon au poignet, Lutte',
       'Force': 'Élevée',
       'Défense': 'Élevée',
       'Agilité': 'Faible',
@@ -924,7 +924,7 @@ Sur PC, Crimson Desert supporte des résolutions allant jusqu'à la 4K native av
 
 ## Taille du jeu et installation
 
-Le jeu pèse environ **150 Go** sur toutes les plateformes, un poids conséquent justifié par l'immensité du monde ouvert de Pywel et la qualité des assets. Un SSD est fortement recommandé sur PC pour les temps de chargement.
+Le jeu pèse environ **125 Go** sur toutes les plateformes, un poids conséquent justifié par l'immensité du monde ouvert de Pywel et la qualité des assets. Un SSD est fortement recommandé sur PC pour les temps de chargement.
 
 ## Configurations PC recommandées
 
@@ -933,7 +933,7 @@ Le jeu pèse environ **150 Go** sur toutes les plateformes, un poids conséquent
 | CPU | Ryzen 5 3600 / i5-10400 | Ryzen 7 5800X / i7-12700 | Ryzen 9 7900X / i9-13900K |
 | GPU | RTX 3060 / RX 6600 XT | RTX 4070 / RX 7800 XT | RTX 4080 / RX 7900 XTX |
 | RAM | 16 Go | 32 Go | 32 Go |
-| Stockage | 150 Go SSD | 150 Go NVMe | 150 Go NVMe Gen4 |`,
+| Stockage | 125 Go SSD | 125 Go NVMe | 125 Go NVMe Gen4 |`,
       en: `## PS5 Performance
 
 On standard PlayStation 5, Crimson Desert offers two display modes. **Quality mode** targets native 1440p resolution with a stabilized **40-45 FPS** framerate. **Performance mode** lowers resolution to 1080p aiming for a smoother **60 FPS**, ideal for the game's demanding combat. Digital Foundry's analysis confirms that quality mode delivers impressive visuals despite the base console's limitations.
@@ -948,7 +948,7 @@ On PC, Crimson Desert supports resolutions up to native 4K with granular graphic
 
 ## Game Size and Installation
 
-The game weighs approximately **150 GB** across all platforms, a substantial size justified by the vastness of Pywel's open world and asset quality. An SSD is strongly recommended on PC for loading times.
+The game weighs approximately **125 GB** across all platforms, a substantial size justified by the vastness of Pywel's open world and asset quality. An SSD is strongly recommended on PC for loading times.
 
 ## Recommended PC Specifications
 
@@ -957,7 +957,7 @@ The game weighs approximately **150 GB** across all platforms, a substantial siz
 | CPU | Ryzen 5 3600 / i5-10400 | Ryzen 7 5800X / i7-12700 | Ryzen 9 7900X / i9-13900K |
 | GPU | RTX 3060 / RX 6600 XT | RTX 4070 / RX 7800 XT | RTX 4080 / RX 7900 XTX |
 | RAM | 16 GB | 32 GB | 32 GB |
-| Storage | 150 GB SSD | 150 GB NVMe | 150 GB NVMe Gen4 |`,
+| Storage | 125 GB SSD | 125 GB NVMe | 125 GB NVMe Gen4 |`,
       es: `## Rendimiento en PS5
 
 En PlayStation 5 estándar, Crimson Desert ofrece dos modos de visualización. El **modo calidad** apunta a resolución nativa 1440p con un framerate estabilizado de **40-45 FPS**. El **modo rendimiento** baja la resolución a 1080p buscando **60 FPS** más fluidos. El análisis de Digital Foundry confirma que el modo calidad ofrece un apartado visual impresionante.
@@ -972,7 +972,7 @@ En PC, el juego soporta hasta 4K nativo. Se recomienda una RTX 4070 / RX 7800 XT
 
 ## Tamaño del juego
 
-El juego pesa aproximadamente **150 GB** en todas las plataformas. Se recomienda SSD en PC.`,
+El juego pesa aproximadamente **125 GB** en todas las plataformas. Se recomienda SSD en PC.`,
       pt: `## Desempenho no PS5
 
 No PlayStation 5 padrão, Crimson Desert oferece dois modos de exibição. O **modo qualidade** mira resolução nativa 1440p com framerate estabilizado de **40-45 FPS**. O **modo desempenho** reduz a resolução para 1080p visando **60 FPS** mais fluidos. A análise da Digital Foundry confirma visuais impressionantes no modo qualidade.
@@ -987,7 +987,7 @@ No PC, o jogo suporta até 4K nativo. Recomenda-se uma RTX 4070 / RX 7800 XT mí
 
 ## Tamanho do jogo
 
-O jogo pesa aproximadamente **150 GB** em todas as plataformas. SSD é recomendado no PC.`,
+O jogo pesa aproximadamente **125 GB** em todas as plataformas. SSD é recomendado no PC.`,
       it: `## Prestazioni su PS5
 
 Su PlayStation 5 standard, Crimson Desert offre due modalità di visualizzazione. La **modalità qualità** punta a 1440p nativi con framerate stabilizzato a **40-45 FPS**. La **modalità prestazioni** abbassa la risoluzione a 1080p per puntare a **60 FPS** più fluidi. L'analisi di Digital Foundry conferma un comparto visivo impressionante in modalità qualità.
@@ -1002,7 +1002,7 @@ Su PC, il gioco supporta fino al 4K nativo. Si raccomanda una RTX 4070 / RX 7800
 
 ## Dimensioni del gioco
 
-Il gioco pesa circa **150 GB** su tutte le piattaforme. Un SSD è raccomandato su PC.`,
+Il gioco pesa circa **125 GB** su tutte le piattaforme. Un SSD è raccomandato su PC.`,
       ko: `## PS5 성능
 
 기본 PlayStation 5에서 크림슨 디저트는 두 가지 디스플레이 모드를 제공합니다. **품질 모드**는 네이티브 1440p 해상도에서 **40-45 FPS**를 안정적으로 유지합니다. **성능 모드**는 해상도를 1080p로 낮춰 **60 FPS**를 목표로 합니다. Digital Foundry 분석에 따르면 품질 모드에서도 인상적인 비주얼을 제공합니다.
@@ -1017,12 +1017,12 @@ PC에서는 네이티브 4K까지 지원합니다. 1440p 60 FPS 높은 설정에
 
 ## 게임 용량
 
-모든 플랫폼에서 약 **150 GB**입니다. PC에서는 SSD가 강력히 권장됩니다.`,
+모든 플랫폼에서 약 **125 GB**입니다. PC에서는 SSD가 강력히 권장됩니다.`,
     },
     infobox: {
       'PS5': '1440p / 40-45 FPS (qualité), 1080p / 60 FPS (perf)',
       'PS5 Pro': '4K upscalé / 60 FPS (PSSR)',
-      'Taille': '~150 Go',
+      'Taille': '~125 Go',
       'GPU recommandé': 'RTX 4070 / RX 7800 XT',
     },
     author: "L'équipe PopCodex",
@@ -1055,7 +1055,7 @@ PC에서는 네이티브 4K까지 지원합니다. 1440p 60 FPS 높은 설정에
     content: {
       fr: `## Préchargement
 
-Le préchargement de Crimson Desert sera disponible **48 heures avant le lancement**, soit à partir du **17 mars 2026** sur toutes les plateformes (PC, PS5, Xbox Series X|S). Cela laisse amplement le temps de télécharger les ~150 Go du jeu, même avec une connexion modeste. Sur PC (Steam et autres launchers), le préchargement sera chiffré et déverrouillé à l'heure de lancement.
+Le préchargement de Crimson Desert sera disponible **48 heures avant le lancement**, soit à partir du **17 mars 2026** sur toutes les plateformes (PC, PS5, Xbox Series X|S). Cela laisse amplement le temps de télécharger les ~125 Go du jeu, même avec une connexion modeste. Sur PC (Steam et autres launchers), le préchargement sera chiffré et déverrouillé à l'heure de lancement.
 
 ## Horaires de lancement par région
 
@@ -1081,12 +1081,12 @@ Il s'agit d'un lancement multiplateforme complet sans exclusivité temporaire.
 ## Conseils pour le jour J
 
 - Lancez le préchargement dès qu'il est disponible le 17 mars
-- Vérifiez que vous avez au moins 150 Go de libre sur votre SSD
+- Vérifiez que vous avez au moins 125 Go de libre sur votre SSD
 - Sur console, activez le mode repos pour que le téléchargement continue en veille
 - Le patch day one sera intégré au préchargement`,
       en: `## Preloading
 
-Crimson Desert preloading will be available **48 hours before launch**, starting **March 17, 2026** across all platforms (PC, PS5, Xbox Series X|S). This gives ample time to download the ~150 GB game even on modest connections. On PC (Steam and other launchers), the preload will be encrypted and unlocked at launch time.
+Crimson Desert preloading will be available **48 hours before launch**, starting **March 17, 2026** across all platforms (PC, PS5, Xbox Series X|S). This gives ample time to download the ~125 GB game even on modest connections. On PC (Steam and other launchers), the preload will be encrypted and unlocked at launch time.
 
 ## Launch Times by Region
 
@@ -1112,12 +1112,12 @@ This is a full multiplatform launch with no timed exclusivity.
 ## Day One Tips
 
 - Start preloading as soon as it becomes available on March 17
-- Ensure at least 150 GB of free space on your SSD
+- Ensure at least 125 GB of free space on your SSD
 - On console, enable rest mode so the download continues while idle
 - The day one patch will be included in the preload`,
       es: `## Precarga
 
-La precarga de Crimson Desert estará disponible **48 horas antes del lanzamiento**, a partir del **17 de marzo de 2026** en todas las plataformas. Esto da tiempo suficiente para descargar los ~150 GB del juego.
+La precarga de Crimson Desert estará disponible **48 horas antes del lanzamiento**, a partir del **17 de marzo de 2026** en todas las plataformas. Esto da tiempo suficiente para descargar los ~125 GB del juego.
 
 ## Horarios de lanzamiento por región
 
@@ -1136,7 +1136,7 @@ Crimson Desert usa un **lanzamiento simultáneo mundial** el 19 de marzo de 2026
 PC (Steam, Epic), PlayStation 5, Xbox Series X|S — sin exclusividad temporal.`,
       pt: `## Pré-download
 
-O pré-download de Crimson Desert estará disponível **48 horas antes do lançamento**, a partir de **17 de março de 2026** em todas as plataformas. Tempo suficiente para baixar os ~150 GB do jogo.
+O pré-download de Crimson Desert estará disponível **48 horas antes do lançamento**, a partir de **17 de março de 2026** em todas as plataformas. Tempo suficiente para baixar os ~125 GB do jogo.
 
 ## Horários de lançamento por região
 
@@ -1155,7 +1155,7 @@ Crimson Desert adota um **lançamento simultâneo mundial** em 19 de março de 2
 PC (Steam, Epic), PlayStation 5, Xbox Series X|S — sem exclusividade temporal.`,
       it: `## Preload
 
-Il preload di Crimson Desert sarà disponibile **48 ore prima del lancio**, a partire dal **17 marzo 2026** su tutte le piattaforme. Tempo sufficiente per scaricare i ~150 GB del gioco.
+Il preload di Crimson Desert sarà disponibile **48 ore prima del lancio**, a partire dal **17 marzo 2026** su tutte le piattaforme. Tempo sufficiente per scaricare i ~125 GB del gioco.
 
 ## Orari di lancio per regione
 
@@ -1174,7 +1174,7 @@ Crimson Desert adotta un **lancio simultaneo mondiale** il 19 marzo 2026:
 PC (Steam, Epic), PlayStation 5, Xbox Series X|S — senza esclusiva temporale.`,
       ko: `## 사전 다운로드
 
-크림슨 디저트 사전 다운로드는 **출시 48시간 전**인 **2026년 3월 17일**부터 모든 플랫폼에서 이용 가능합니다. ~150 GB의 게임을 다운로드할 충분한 시간이 제공됩니다.
+크림슨 디저트 사전 다운로드는 **출시 48시간 전**인 **2026년 3월 17일**부터 모든 플랫폼에서 이용 가능합니다. ~125 GB의 게임을 다운로드할 충분한 시간이 제공됩니다.
 
 ## 지역별 출시 시간
 
@@ -1196,7 +1196,7 @@ PC (Steam, Epic), PlayStation 5, Xbox Series X|S — 시한부 독점 없음.`,
       'Préchargement': '17 mars 2026 (48h avant)',
       'Lancement': '19 mars 2026 (simultané mondial)',
       'Plateformes': 'PC, PS5, Xbox Series X|S',
-      'Taille': '~150 Go',
+      'Taille': '~125 Go',
     },
     author: "L'équipe PopCodex",
     publishedAt: '2026-03-14',
@@ -1397,9 +1397,9 @@ Crimson Desert sort le **19 mars 2026** avec un lancement simultané mondial. En
 
 ## Version physique PS5 : téléchargement obligatoire
 
-Information importante pour les acheteurs de la version physique sur PS5 : le disque Blu-ray ne contient **pas l'intégralité du jeu**. Un **téléchargement obligatoire de plus de 48 Go** est nécessaire pour pouvoir jouer, même hors ligne. Cela signifie que même avec le disque, une connexion internet est requise pour la première installation.
+Information importante pour les acheteurs de la version physique sur PS5 : le disque Blu-ray contient environ **77 Go** de données, mais ce n'est **pas l'intégralité du jeu**. Un **téléchargement obligatoire de 48,24 Go** est nécessaire pour pouvoir jouer, même hors ligne (total : ~125 Go). Une fois ce téléchargement effectué, le jeu est **entièrement jouable hors ligne** sans connexion internet permanente.
 
-Cette situation s'explique par la taille totale du jeu qui dépasse la capacité d'un disque Blu-ray standard. Le disque contient une partie des données, et le reste doit être téléchargé.
+La capacité maximale d'un disque Blu-ray PS5 est de 100 Go, insuffisante pour le jeu complet. Pearl Abyss a confirmé sur son site officiel que le jeu ne tiendrait pas sur un seul disque.
 
 ## Plateformes au lancement
 
@@ -1412,12 +1412,12 @@ Crimson Desert sera disponible dès le day one sur :
 
 ## Taille totale du jeu
 
-La taille totale d'installation est estimée à environ **150 Go** sur toutes les plateformes. Assurez-vous d'avoir suffisamment d'espace libre sur votre SSD avant le lancement.
+La taille totale d'installation est estimée à environ **125 Go** sur toutes les plateformes. Assurez-vous d'avoir suffisamment d'espace libre sur votre SSD avant le lancement.
 
 ## Conseils pratiques
 
 - Activez le **préchargement** dès le 17 mars (48h avant)
-- Prévoyez au moins **150 Go** d'espace libre
+- Prévoyez au moins **125 Go** d'espace libre
 - Sur PS5 physique, prévoyez une connexion internet pour les **48+ Go** supplémentaires
 - Privilégiez un **SSD** pour des temps de chargement optimaux`,
       en: `## Release Date and Time
@@ -1434,7 +1434,7 @@ Crimson Desert launches **March 19, 2026** with a simultaneous worldwide release
 
 ## Physical PS5 Version: Mandatory Download
 
-Important for physical PS5 buyers: the Blu-ray disc does **not contain the entire game**. A **mandatory download of over 48 GB** is required to play, even offline. An internet connection is needed for first installation.
+Important for physical PS5 buyers: the Blu-ray disc contains approximately **77 GB**, but not the entire game. A **mandatory 48.24 GB download** is required to play, even offline (total: ~125 GB). Once downloaded, the game is **fully playable offline** with no persistent internet connection required.
 
 ## Platforms at Launch
 
@@ -1445,12 +1445,12 @@ Important for physical PS5 buyers: the Blu-ray disc does **not contain the entir
 
 ## Total Game Size
 
-Total installation size is estimated at approximately **150 GB** across all platforms.
+Total installation size is estimated at approximately **125 GB** across all platforms.
 
 ## Practical Tips
 
 - Enable **preloading** from March 17 (48h before)
-- Ensure at least **150 GB** of free space
+- Ensure at least **125 GB** of free space
 - On physical PS5, plan for an internet connection for the **48+ GB** additional download
 - Use an **SSD** for optimal loading times`,
       es: `## Fecha y hora de lanzamiento
@@ -1459,33 +1459,33 @@ Crimson Desert sale el **19 de marzo de 2026** con lanzamiento simultáneo mundi
 
 ## Versión física PS5: descarga obligatoria
 
-El disco Blu-ray **no contiene todo el juego**. Se necesita una **descarga obligatoria de +48 GB** para jugar, incluso sin conexión. Plataformas: PC, PS5, Xbox Series X|S, macOS. Tamaño total: ~150 GB.`,
+El disco Blu-ray **no contiene todo el juego**. Se necesita una **descarga obligatoria de +48 GB** para jugar, incluso sin conexión. Plataformas: PC, PS5, Xbox Series X|S, macOS. Tamaño total: ~125 GB.`,
       pt: `## Data e horário de lançamento
 
 Crimson Desert sai em **19 de março de 2026** com lançamento simultâneo mundial. Na Europa central (CET): **23h00**.
 
 ## Versão física PS5: download obrigatório
 
-O disco Blu-ray **não contém o jogo completo**. É necessário um **download obrigatório de +48 GB** para jogar, mesmo offline. Plataformas: PC, PS5, Xbox Series X|S, macOS. Tamanho total: ~150 GB.`,
+O disco Blu-ray **não contém o jogo completo**. É necessário um **download obrigatório de +48 GB** para jogar, mesmo offline. Plataformas: PC, PS5, Xbox Series X|S, macOS. Tamanho total: ~125 GB.`,
       it: `## Data e orario di lancio
 
 Crimson Desert esce il **19 marzo 2026** con lancio simultaneo mondiale. In Europa centrale (CET): **23:00**.
 
 ## Versione fisica PS5: download obbligatorio
 
-Il disco Blu-ray **non contiene l'intero gioco**. È necessario un **download obbligatorio di +48 GB** per giocare, anche offline. Piattaforme: PC, PS5, Xbox Series X|S, macOS. Dimensione totale: ~150 GB.`,
+Il disco Blu-ray **non contiene l'intero gioco**. È necessario un **download obbligatorio di +48 GB** per giocare, anche offline. Piattaforme: PC, PS5, Xbox Series X|S, macOS. Dimensione totale: ~125 GB.`,
       ko: `## 출시 날짜 및 시간
 
 크림슨 디저트는 **2026년 3월 19일** 전 세계 동시 출시됩니다. 중앙 유럽 시간(CET): **오후 11시**. 한국/일본: **3월 20일 오전 7시**.
 
 ## PS5 물리 버전: 필수 다운로드
 
-블루레이 디스크에 **전체 게임이 포함되지 않습니다**. 오프라인 플레이를 위해서도 **48 GB 이상 필수 다운로드**가 필요합니다. 플랫폼: PC, PS5, Xbox Series X|S, macOS. 총 크기: ~150 GB.`,
+블루레이 디스크에 **전체 게임이 포함되지 않습니다**. 오프라인 플레이를 위해서도 **48 GB 이상 필수 다운로드**가 필요합니다. 플랫폼: PC, PS5, Xbox Series X|S, macOS. 총 크기: ~125 GB.`,
     },
     infobox: {
       'Sortie': '19 mars 2026 (23h CET)',
-      'Téléchargement PS5 physique': '+48 Go obligatoire',
-      'Taille totale': '~150 Go',
+      'Téléchargement PS5 physique': '48,24 Go (disque = 77 Go)',
+      'Taille totale': '~125 Go (77 + 48)',
       'Plateformes': 'PC, PS5, Xbox Series X|S, macOS',
     },
     author: "L'équipe PopCodex",
@@ -1547,6 +1547,7 @@ Pour Crimson Desert, l'annonce tardive a alimenté les critiques, certains joueu
 
 ## Ce que ça signifie concrètement pour les joueurs
 
+- **Limite de 5 activations PC** par jour (changements de machine)
 - **Connexion internet requise** périodiquement pour valider la licence
 - **Impact sur les performances** probable mais difficile à quantifier avant les tests indépendants
 - **Pas d'impact** sur les versions console (PS5, Xbox Series X|S)
@@ -1576,6 +1577,7 @@ The recurring question around Denuvo concerns its **performance impact**:
 
 ## What It Means for Players
 
+- **Limit of 5 PC activations** per day (machine changes)
 - **Internet connection required** periodically for license validation
 - **Performance impact** likely but hard to quantify before independent testing
 - **No impact** on console versions (PS5, Xbox Series X|S)
