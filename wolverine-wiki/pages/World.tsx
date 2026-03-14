@@ -69,9 +69,17 @@ const WorldPage = () => {
           <div className="lg:w-[70%]">
             <div className="relative rounded-lg overflow-hidden border border-border p-6 mb-6"
               style={{ background: `linear-gradient(135deg, rgba(20,20,20,0.95), ${region.colorTheme.primary}15)` }}>
+              {region.image && (
+                <>
+                  <img src={region.image} alt={region.name} className="absolute inset-0 w-full h-full object-cover opacity-30" loading="lazy" />
+                  <div className="absolute inset-0 bg-gradient-to-r from-[rgba(20,20,20,0.95)] via-[rgba(20,20,20,0.8)] to-transparent" />
+                </>
+              )}
+              <div className="relative z-10">
               <h2 className="font-display text-2xl text-gold-bright">{region.name}</h2>
               <p className="font-ui text-xs tracking-[0.2em] mt-1" style={{ color: region.colorTheme.primary }}>{region.subtitle[lang]}</p>
               <p className="font-body text-sm text-text-secondary mt-4 leading-relaxed">{region.description[lang]}</p>
+              </div>
             </div>
 
             {/* Tabs */}

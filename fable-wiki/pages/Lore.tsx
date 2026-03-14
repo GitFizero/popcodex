@@ -101,6 +101,12 @@ const Lore = () => {
 
                   {isExpanded && (
                     <div className="px-5 pb-5 border-t border-emerald-900/20">
+                      {entry.image && (
+                        <div className="relative w-full h-40 rounded-lg overflow-hidden mt-4 mb-2">
+                          <img src={entry.image} alt={entry.title} className="w-full h-full object-cover" loading="lazy" />
+                          <div className="absolute inset-0 bg-gradient-to-t from-[hsl(150,30%,5%)] to-transparent opacity-60" />
+                        </div>
+                      )}
                       <div className="pt-4 font-body text-sm text-gray-300 leading-relaxed whitespace-pre-line">
                         {entry.content[lang]}
                       </div>

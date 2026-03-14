@@ -85,8 +85,12 @@ const CharactersPage = () => {
                 <button key={c.id} onClick={() => selectChar(c.id)}
                   className={`w-full text-left rounded-md p-3 transition-all duration-200 flex items-center gap-3
                     ${c.id === char.id ? 'bg-raised border-l-2 border-yellow-500' : 'hover:bg-raised/50'}`}>
-                  <div className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center border border-border" style={{ borderColor: c.colorTheme }}>
-                    <span className="text-sm">{c.name[0]}</span>
+                  <div className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center border border-border overflow-hidden" style={{ borderColor: c.colorTheme }}>
+                    {c.image ? (
+                      <img src={c.image} alt={c.name} className="w-full h-full object-cover" loading="lazy" />
+                    ) : (
+                      <span className="text-sm">{c.name[0]}</span>
+                    )}
                   </div>
                   <div className="flex-1 min-w-0">
                     <div className="font-heading text-sm text-text-primary truncate">{c.name}</div>
@@ -120,8 +124,12 @@ const CharactersPage = () => {
             {/* Character Header */}
             <div className="relative rounded-lg overflow-hidden border border-border p-6 mb-6" style={{ background: `linear-gradient(135deg, rgba(20,20,20,0.95), rgba(30,30,30,0.9))` }}>
               <div className="flex flex-col sm:flex-row gap-6">
-                <div className="w-24 h-24 rounded-lg bg-gray-800 flex items-center justify-center border-2" style={{ borderColor: char.colorTheme }}>
-                  <span className="text-3xl font-display" style={{ color: char.colorTheme }}>{char.name[0]}</span>
+                <div className="w-24 h-24 rounded-lg bg-gray-800 flex items-center justify-center border-2 overflow-hidden" style={{ borderColor: char.colorTheme }}>
+                  {char.image ? (
+                    <img src={char.image} alt={char.name} className="w-full h-full object-cover" loading="lazy" />
+                  ) : (
+                    <span className="text-3xl font-display" style={{ color: char.colorTheme }}>{char.name[0]}</span>
+                  )}
                 </div>
                 <div className="flex-1">
                   <h2 className="font-display text-2xl text-gold-bright">{char.name}</h2>

@@ -140,7 +140,11 @@ const Index = () => {
               <RevealOnScroll key={char.id} stagger={i * 150}>
                 <Link to="/characters" className="block group" title={`${char.name} — Wolverine Wiki`}>
                   <div className="relative rounded-lg overflow-hidden h-[380px] flex flex-col justify-end card-hover border border-border" style={{ boxShadow: 'var(--shadow-card)' }}>
-                    <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900" />
+                    {char.image ? (
+                      <img src={char.image} alt={char.name} className="absolute inset-0 w-full h-full object-cover" loading="lazy" />
+                    ) : (
+                      <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900" />
+                    )}
                     <div className="absolute inset-0 bg-gradient-to-t from-void via-void/70 to-transparent" />
                     <div className="relative z-10 p-6">
                       <span className="font-ui text-[0.6rem] tracking-[0.3em]" style={{ color: char.colorTheme }}>{tr(char.role, lang)}</span>

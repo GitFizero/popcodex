@@ -78,10 +78,18 @@ const World = () => {
         {/* Region detail */}
         <RevealOnScroll>
           <div className="mt-8 rounded-lg border border-emerald-900/30 bg-[hsl(150,30%,5%)] overflow-hidden">
-            <div className="p-6 border-b border-emerald-900/30" style={{ background: 'linear-gradient(135deg, hsl(150,30%,8%) 0%, hsl(150,30%,3%) 100%)' }}>
-              <span className="font-body text-[0.6rem] tracking-[0.3em] text-yellow-500">{tr(selectedRegion.subtitle, lang)}</span>
-              <h2 className="font-display text-3xl text-emerald-400 mt-1">{selectedRegion.name}</h2>
-              <p className="font-body text-sm text-gray-400 mt-3 leading-relaxed">{tr(selectedRegion.description, lang)}</p>
+            <div className="relative p-6 border-b border-emerald-900/30" style={{ background: 'linear-gradient(135deg, hsl(150,30%,8%) 0%, hsl(150,30%,3%) 100%)' }}>
+              {selectedRegion.image && (
+                <>
+                  <img src={selectedRegion.image} alt={selectedRegion.name} className="absolute inset-0 w-full h-full object-cover opacity-30" loading="lazy" />
+                  <div className="absolute inset-0 bg-gradient-to-r from-[hsl(150,30%,5%)] via-[hsla(150,30%,5%,0.8)] to-transparent" />
+                </>
+              )}
+              <div className="relative z-10">
+                <span className="font-body text-[0.6rem] tracking-[0.3em] text-yellow-500">{tr(selectedRegion.subtitle, lang)}</span>
+                <h2 className="font-display text-3xl text-emerald-400 mt-1">{selectedRegion.name}</h2>
+                <p className="font-body text-sm text-gray-400 mt-3 leading-relaxed">{tr(selectedRegion.description, lang)}</p>
+              </div>
             </div>
 
             <div className="flex overflow-x-auto border-b border-emerald-900/30">

@@ -243,7 +243,7 @@ export default function HeroSection() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1], delay: 0.1 }}
-            className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-bold tracking-tight flex items-baseline justify-center"
+            className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-bold tracking-tight flex items-center justify-center"
             style={{ fontFamily: 'var(--font-display)', letterSpacing: '-0.03em', lineHeight: 0.95 }}
           >
             <span className="text-white">Pop</span>
@@ -264,7 +264,7 @@ export default function HeroSection() {
             >
               <svg
                 viewBox="0 0 80 80"
-                className="w-[0.65em] h-[0.65em] relative top-[-0.05em]"
+                className="w-[0.72em] h-[0.72em]"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
                 aria-hidden="true"

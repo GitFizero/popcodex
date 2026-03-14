@@ -106,6 +106,12 @@ const LorePage = () => {
             {selected ? (
               <div className="bg-surface/50 border border-border rounded-lg p-6 sticky top-20">
                 <button onClick={() => setSelectedId(null)} className="font-ui text-xs text-text-muted-custom hover:text-gold-bright mb-4 lg:hidden">← {t('lore.back')}</button>
+                {selected.image && (
+                <div className="relative w-full h-40 rounded-lg overflow-hidden mb-4 -mt-1">
+                  <img src={selected.image} alt={selected.title} className="w-full h-full object-cover" loading="lazy" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-[rgba(20,20,20,0.8)] to-transparent" />
+                </div>
+              )}
                 <div className="flex items-center gap-3 mb-4">
                   <span className={`font-ui text-[0.6rem] tracking-wider px-2 py-0.5 rounded text-sand-pale ${categoryColors[selected.category]}`}>{t(`cat.${selected.category}`)}</span>
                   <span className="font-ui text-[0.55rem] text-text-muted-custom">{t('lore.updated')} {selected.lastUpdated}</span>

@@ -126,6 +126,9 @@ const Index = () => {
               <RevealOnScroll key={char.id} stagger={i * 150}>
                 <Link to="/characters" className="block group">
                   <div className="relative rounded-lg overflow-hidden h-[320px] flex flex-col justify-end border border-emerald-900/30 hover:border-emerald-700/50 transition-all duration-300" style={{ background: 'hsl(150 30% 6%)' }}>
+                    {char.image && (
+                      <img src={char.image} alt={char.name} className="absolute inset-0 w-full h-full object-cover" loading="lazy" />
+                    )}
                     <div className="absolute inset-0 bg-gradient-to-t from-[hsl(150,30%,3%)] via-transparent to-transparent" />
                     <div className="relative z-10 p-6">
                       <span className="font-body text-[0.6rem] tracking-[0.3em] text-yellow-500">{tr(char.role, lang)}</span>
