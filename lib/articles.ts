@@ -1408,67 +1408,62 @@ Devastato ma determinato, l'eroe lascia le rovine pietrificate per indagare sull
     content: {
       fr: `## Un système réinventé
 
-Le système de moralité de Fable a été **entièrement repensé** par Playground Games, comme révélé lors du Xbox Developer Direct de janvier 2026. La nouveauté fondamentale : il ne s'agit **pas d'une simple jauge glissante bien/mal**. Le système est **basé sur la perception des PNJ**, pas sur une valeur absolue. Chaque PNJ juge les actions du joueur différemment selon sa propre personnalité, ses valeurs et son vécu.
+Le système de moralité de Fable a été **entièrement repensé** par Playground Games, comme révélé lors du Xbox Developer Direct de janvier 2026. La jauge traditionnelle bien/mal est **abandonnée**. À la place, la réputation se construit par les **actions témoignées** : seuls les actes vus par des PNJ comptent. Chaque PNJ juge les actions du joueur différemment selon sa propre personnalité et ses valeurs.
 
 ## Perception individuelle des PNJ
 
-C'est le changement le plus radical par rapport aux anciens Fable : **chaque PNJ évalue les actions du héros selon son propre cadre moral**. Un marchand peut approuver un acte que le garde du village condamne. Un voleur peut admirer un cambriolage audacieux tandis qu'un prêtre le maudit. Il n'y a plus de jugement universel — la moralité est relative et contextuelle.
+C'est le changement le plus radical : **chaque PNJ évalue les actions du héros selon son propre cadre moral**. Une même action n'est pas objectivement morale ou immorale — tout dépend de qui regarde. Exemple emblématique : si un PNJ vous voit **donner un coup de pied à un poulet**, vous devenez connu comme le « Chicken Kicker » (botteur de poulets). Ce titre vous suit et influence les interactions sociales, les perspectives de mariage et les prix des marchands.
+
+## Identités régionales
+
+Le joueur peut développer des **identités différentes dans chaque région** d'Albion en fonction de ses actions locales. Un héros peut être adoré à Bowerstone et craint dans un village voisin. Cette mécanique encourage l'expérimentation et les multiples approches de jeu.
+
+## Le crieur public
+
+Innovation notable : le joueur peut **engager un crieur public** (town crier) pour modifier sa réputation dans une région. C'est un moyen humoristique et typiquement Fable de gérer sa renommée, en payant pour que vos exploits (ou méfaits) soient diffusés ou étouffés.
 
 ## Évolution par rapport aux anciens Fable
 
-Dans les Fable originaux de Lionhead Studios, la moralité se manifestait principalement par des **changements d'apparence** : un héros vertueux brillait d'une aura dorée et attirait les papillons, tandis qu'un héros maléfique développait des cornes, des yeux rouges et une peau pâle. Le nouveau Fable conserve cette tradition visuelle mais l'enrichit considérablement. C'est un retour d'un élément fondamental de la trilogie originale, entièrement modernisé.
-
-## Impact sur le monde d'Albion
-
-Les choix moraux du joueur ont désormais des **conséquences tangibles sur le monde** :
-
-- **Les villages évoluent** : un village prospère sous un héros bienveillant, tandis qu'il dépérit sous un héros tyrannique
-- **La faune et la flore réagissent** : la nature d'Albion reflète la moralité dominante du héros
-- **Les factions s'adaptent** : certains groupes deviennent alliés ou ennemis selon les choix
-- **Les quêtes changent** : des embranchements narratifs différents s'ouvrent selon l'alignement moral
+Dans les Fable originaux de Lionhead Studios, la moralité se manifestait principalement par des **changements d'apparence** : un héros vertueux brillait d'une aura dorée et attirait les papillons, tandis qu'un héros maléfique développait des cornes, des yeux rouges et une peau pâle. Le nouveau Fable abandonne cette jauge glissante pour un système plus organique basé sur le témoignage.
 
 ## Impact sur les PNJ
 
-Les PNJ réagissent de manière **dynamique et mémorable** aux choix du joueur :
+Les PNJ (**1 000+ artisanaux**, chacun doublé individuellement) réagissent de manière **dynamique et mémorable** :
 
 - Chaque PNJ a sa propre **perception morale** — pas de jugement universel
 - Les habitants fuient ou accourent selon la réputation du héros auprès d'eux
 - Les marchands ajustent leurs prix et leur inventaire
 - Des PNJ alliés peuvent devenir hostiles après certaines décisions
-- Des romances et amitiés se nouent ou se brisent selon la moralité perçue
-
-## Zones grises et dilemmes
-
-Playground Games a insisté sur l'importance des **zones grises morales**. Plutôt que des choix évidents entre bien et mal, le jeu présente des dilemmes complexes où les deux options ont des conséquences positives et négatives. Le joueur est confronté à des décisions véritablement difficiles qui façonnent son aventure de manière unique.`,
+- Des romances et mariages se nouent ou se brisent selon la moralité perçue`,
       en: `## A Reimagined System
 
-Fable's morality system has been **completely redesigned** by Playground Games, as revealed at the January 2026 Xbox Developer Direct. Unlike previous Fable games where the system was relatively binary (good/evil with cosmetic consequences like horns or a halo), the new system promises a far more nuanced and deep approach.
+Fable's morality system has been **completely redesigned** by Playground Games, as revealed at the January 2026 Xbox Developer Direct. The traditional good/evil slider is **abandoned**. Instead, reputation is earned through **witnessed actions** — only acts seen by NPCs count. Each NPC judges the player's actions differently based on their own personality and values.
+
+## Individual NPC Perception
+
+The most radical change: each NPC evaluates the hero's actions through their **own moral framework**. The same action is not objectively moral or immoral — it depends on who's watching. Iconic example: if an NPC sees you **kick a chicken**, you become known as the "Chicken Kicker." This title follows you and influences social interactions, marriage prospects and shop pricing.
+
+## Regional Identities
+
+Players can develop **different identities in each region** of Albion based on local actions. A hero can be adored in Bowerstone and feared in a neighboring village.
+
+## The Town Crier
+
+Notable innovation: players can **hire a town crier** to change their reputation in a region. A humorous and quintessentially Fable way to manage renown.
 
 ## Evolution from Previous Fable Games
 
-In Lionhead Studios' original Fable titles, morality primarily manifested through **appearance changes**: a virtuous hero glowed with a golden aura and attracted butterflies, while an evil hero grew horns, red eyes and pale skin. The new Fable preserves this visual tradition but enriches it considerably.
-
-## Impact on Albion
-
-Player moral choices now have **tangible consequences on the world**:
-
-- **Villages evolve**: a village thrives under a benevolent hero, while it withers under a tyrannical one
-- **Flora and fauna react**: Albion's nature reflects the hero's dominant morality
-- **Factions adapt**: certain groups become allies or enemies based on choices
-- **Quests change**: different narrative branches open based on moral alignment
+In Lionhead Studios' originals, morality manifested through **appearance changes**: golden aura and butterflies for virtue, horns and red eyes for evil. The new Fable abandons the sliding gauge for an organic system based on witnessed actions.
 
 ## Impact on NPCs
 
-NPCs react **dynamically and memorably** to player choices:
+NPCs (**1,000+ handcrafted**, each individually voice-acted) react **dynamically and memorably**:
 
-- Inhabitants flee or flock depending on the hero's reputation
+- Each NPC has their own **moral perception** — no universal judgment
+- Inhabitants flee or flock depending on the hero's local reputation
 - Merchants adjust prices and inventory
 - Allied NPCs can become hostile after certain decisions
-- Romances and friendships form or break based on morality
-
-## Gray Areas and Dilemmas
-
-Playground Games emphasized the importance of **moral gray areas**. Rather than obvious good-vs-evil choices, the game presents complex dilemmas where both options have positive and negative consequences.`,
+- Romances and marriages form or break based on perceived morality`,
       es: `## Un sistema reinventado
 
 El sistema de moralidad de Fable ha sido **completamente rediseñado** por Playground Games, como se reveló en el Xbox Developer Direct de enero de 2026. A diferencia de los Fable anteriores con un sistema relativamente binario, el nuevo sistema promete un enfoque mucho más matizado.

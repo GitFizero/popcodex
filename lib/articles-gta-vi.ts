@@ -2780,11 +2780,17 @@ Selon les fuites du mega-leak de 2022, GTA VI intégrerait un **système de rela
 
 Les personnages verraient leur **apparence physique évoluer** en fonction du gameplay : manger fréquemment ferait prendre du poids, tandis que l'exercice physique et le combat rapprocheraient d'un physique athlétique. Ce système rappelle celui de GTA: San Andreas mais avec un niveau de détail supérieur.
 
-## +700 boutiques et centres commerciaux visitables (leak)
+## +700 bâtiments accessibles (confirmé)
 
-⚠️ **Source : leak — non confirmé officiellement**
+Le monde ouvert de Leonida contient plus de **700 bâtiments accessibles** : boutiques, centres commerciaux, restaurants, bars, salles de sport, etc. Ce chiffre, confirmé par plusieurs sources, représente un bond qualitatif majeur par rapport à GTA V où les intérieurs étaient rares.
 
-Le monde ouvert de Leonida contiendrait plus de **700 intérieurs visitables** : boutiques, centres commerciaux, restaurants, bars, salles de sport, etc. Ce chiffre, s'il est exact, représenterait un bond qualitatif majeur par rapport à GTA V.
+## Police IA améliorée (confirmé)
+
+Les forces de l'ordre de Leonida disposent d'une **IA significativement améliorée**. Les policiers peuvent **mémoriser les visages**, les **véhicules** et les **délits passés** du joueur. Commettre des crimes répétés dans une même zone devient de plus en plus risqué, car la police vous reconnaîtra et réagira plus agressivement.
+
+## Météo dynamique : tempêtes tropicales (confirmé)
+
+La Floride de Leonida est soumise à des **conditions météorologiques dynamiques** incluant des **tempêtes tropicales et ouragans**. Ces événements réduisent la visibilité et modifient l'adhérence au sol, affectant directement la conduite et le combat. C'est un élément de gameplay, pas seulement cosmétique.
 
 ## Zones sous-marines explorables (confirmé via trailers)
 
@@ -2802,9 +2808,11 @@ Contrairement aux précédents GTA où le joueur pouvait transporter un arsenal 
 |---------|--------|
 | 6 étoiles de recherche | ✅ Confirmé |
 | Zones sous-marines | ✅ Confirmé (trailers) |
+| 700+ bâtiments accessibles | ✅ Confirmé |
+| Police IA améliorée | ✅ Confirmé |
+| Météo dynamique (ouragans) | ✅ Confirmé |
 | Jauge de relation | ⚠️ Leak non confirmé |
 | Évolution du poids | ⚠️ Leak non confirmé |
-| 700+ intérieurs | ⚠️ Leak non confirmé |
 | Arsenal limité | ⚠️ Leak non confirmé |`,
       en: `## Disclaimer
 
@@ -2826,11 +2834,17 @@ According to the 2022 mega-leak, GTA VI would feature a **relationship system be
 
 Characters would see their **physical appearance evolve** based on gameplay: frequent eating would cause weight gain, while exercise and combat would build an athletic physique. Similar to GTA: San Andreas but with greater detail.
 
-## 700+ Visitable Shops and Malls (Leak)
+## 700+ Enterable Buildings (Confirmed)
 
-⚠️ **Source: leak — not officially confirmed**
+Leonida's open world contains over **700 enterable buildings**: shops, malls, restaurants, bars, gyms, etc. — a massive leap from GTA V.
 
-Leonida's open world would contain over **700 visitable interiors**: shops, malls, restaurants, bars, gyms, etc.
+## Smarter Police AI (Confirmed)
+
+Law enforcement in Leonida features **significantly improved AI**. Cops can **remember faces**, **vehicles** and **past offenses**. Repeated crimes in the same area become increasingly risky.
+
+## Dynamic Weather: Tropical Storms (Confirmed)
+
+Leonida's Florida setting features **dynamic weather** including **tropical storms and hurricanes** that reduce visibility and alter ground grip, directly affecting driving and combat.
 
 ## Explorable Underwater Zones (Confirmed via Trailers)
 
@@ -2848,9 +2862,11 @@ GTA VI would limit the **number of weapons carried** simultaneously, similar to 
 |---------|--------|
 | 6-star wanted | ✅ Confirmed |
 | Underwater zones | ✅ Confirmed (trailers) |
+| 700+ enterable buildings | ✅ Confirmed |
+| Smarter police AI | ✅ Confirmed |
+| Dynamic weather (hurricanes) | ✅ Confirmed |
 | Relationship gauge | ⚠️ Unconfirmed leak |
 | Weight evolution | ⚠️ Unconfirmed leak |
-| 700+ interiors | ⚠️ Unconfirmed leak |
 | Limited arsenal | ⚠️ Unconfirmed leak |`,
       es: `## Aviso
 
@@ -2959,11 +2975,11 @@ Le prix de GTA VI est attendu dans la fourchette de **70 à 80 €** pour l'édi
 
 À ce jour, Rockstar Games n'a **pas encore annoncé officiellement** les différentes éditions de GTA VI. Cependant, en se basant sur les pratiques habituelles de l'industrie et les précédents de Rockstar (RDR2, GTA V), voici ce qui est attendu :
 
-- **Édition Standard** (~70-80 €) — le jeu de base
-- **Édition Spéciale** (~90-100 €) — bonus cosmétiques et contenu en jeu
-- **Édition Ultimate/Collector** (~120-150 € ou plus) — éléments physiques, artbook, etc.
+- **Édition Standard** (~69,99-79,99 €) — le jeu de base
+- **Éditions Spéciales** (~99,99-129,99 €) — bonus cosmétiques et contenu en jeu
+- **Éditions Collector** (~200-300+ €) — éléments physiques, artbook, figurines, etc.
 
-⚠️ Ces éditions ne sont **pas encore confirmées**. Rockstar communiquera les détails officiels dans les mois précédant la sortie.
+⚠️ Les détails précis des éditions ne sont **pas encore confirmés** par Rockstar. Les fourchettes de prix sont basées sur les pratiques de l'industrie et les prix habituels de Take-Two.
 
 ## Plateformes au lancement : consoles uniquement
 

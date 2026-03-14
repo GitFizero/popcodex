@@ -29,21 +29,21 @@ Albion est un vaste royaume médiéval-fantastique qui sert de cadre à la séri
 
 **Bowerstone** fait son grand retour en tant que capitale d'Albion. La ville contient le **Fairfax Castle** et la **Heroes' Guild** (Guilde des Héros), deux lieux emblématiques de la franchise. Bowerstone est une cité animée avec ses marchands, ses tavernes et ses intrigues politiques.
 
-## Géographie variée
+## Géographie variée — Pas de level-gating
 
-Albion est composé de régions diverses : **villes animées**, **forêts enchantées**, **montagnes imposantes** et **marécages sinistres**. Chaque zone possède son propre écosystème, ses habitants et ses dangers.
+Albion est composé de régions diverses : **villes animées**, **forêts mystérieuses**, **montagnes escarpées** et **marécages**. Point crucial : il n'y a **pas de level-gating** — le joueur peut visiter n'importe quelle région immédiatement après le début du jeu. La carte n'est volontairement **pas massive** (pas aussi grande qu'un monde Forza Horizon), privilégiant le détail et l'immersion à la taille brute. **Toutes les maisons du jeu sont accessibles**.
 
 ## Exploration à cheval
 
-Playground Games a confirmé l'**exploration à cheval sans chargements visibles**. Le joueur peut traverser Albion de bout en bout sans écran de chargement, profitant d'une transition fluide entre les zones. Le moteur ForzaTech, conçu pour le streaming de données à haute vitesse dans Forza, rend cette prouesse technique possible.
+Playground Games a confirmé l'**exploration à cheval sans chargements visibles**. Le joueur peut traverser Albion de bout en bout sans écran de chargement. Le moteur ForzaTech, conçu pour le streaming haute vitesse dans Forza, rend cette prouesse possible.
 
-## Magie et mystère
+## Un monde vivant — 1 000+ PNJ artisanaux
 
-La magie imprègne chaque recoin d'Albion. Des lignes de force mystiques parcourent le territoire, alimentant les pouvoirs des Héros et des créatures magiques.
+Albion abrite plus de **1 000 PNJ artisanaux**, chacun **doublé individuellement** avec ses propres routines quotidiennes (travail, repos, interactions sociales). Ce niveau de détail dans la simulation de population est inédit pour la franchise.
 
-## Un monde vivant
+## Créatures d'Albion
 
-Les PNJ ont leurs propres routines, les saisons changent, et les choix du joueur influencent visiblement l'état du monde — des villages prospères aux ruines désolées.
+Les ennemis classiques reviennent : **Hobbes**, **Hollow Men**, **Balverines**, **Trolls**. Nouvelle créature : le **Cockatrice**, un boss poulet cracheur de feu — parfaitement dans l'esprit décalé de Fable.
 
 ## Sortie confirmée sur PS5
 
@@ -589,7 +589,14 @@ Ces éléments seront réintroduits dans leur contexte, donc aucune connaissance
 
 ## Peter Molyneux non impliqué
 
-Peter Molyneux, le créateur original de Fable et fondateur de Lionhead Studios, **n'est pas impliqué** dans ce reboot. Le jeu est développé par **Playground Games** (studio connu pour la série Forza Horizon), sous la supervision de Xbox Game Studios.
+Peter Molyneux, le créateur original de Fable et fondateur de Lionhead Studios, **n'est pas impliqué** dans ce reboot. Le jeu est développé par **Playground Games** (Forza Horizon), avec le soutien d'**Eidos Montréal** (expérience du reboot de Tomb Raider), sous la supervision de Xbox Game Studios.
+
+## Ce qui ne revient PAS
+
+Certains éléments emblématiques des anciens jeux ont été **confirmés absents** :
+
+- **Pas de morphing du personnage** — votre héros ne change pas physiquement selon la moralité comme dans les anciens Fable
+- **Pas de chien** — le compagnon canin de Fable II et III ne revient pas dans ce reboot
 
 ## Accessible aux nouveaux joueurs
 
