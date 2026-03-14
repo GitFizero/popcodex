@@ -64,7 +64,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const gtaViPages = [
     'characters', 'story', 'world', 'combat', 'lore', 'blog',
     'guides', 'glossary', 'gallery', 'items', 'mounts', 'quests',
-    'weapons', 'about',
+    'weapons', 'trailers', 'about',
   ];
   for (const page of gtaViPages) {
     for (const locale of locales) {

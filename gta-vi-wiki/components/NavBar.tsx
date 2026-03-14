@@ -4,8 +4,8 @@ import { useApp } from '@/gta-vi-wiki/context/AppContext';
 import { useI18n, type Lang } from '@/gta-vi-wiki/context/I18nContext';
 import { Search, X, Menu, Globe, ChevronDown } from 'lucide-react';
 
-const LANG_CYCLE: Lang[] = ['fr', 'en', 'es'];
-const LANG_LABELS: Record<Lang, string> = { fr: 'FR', en: 'EN', es: 'ES' };
+const LANG_CYCLE: Lang[] = ['fr', 'en', 'es', 'pt', 'it', 'ko'];
+const LANG_LABELS: Record<Lang, string> = { fr: 'FR', en: 'EN', es: 'ES', pt: 'PT', it: 'IT', ko: 'KO' };
 
 const NavBar = memo(() => {
   const [scrolled, setScrolled] = useState(false);
@@ -31,6 +31,7 @@ const NavBar = memo(() => {
     { path: '/quests', label: t('nav.db.quests'), icon: '📋' },
     { path: '/glossary', label: t('nav.db.glossary'), icon: '📖' },
     { path: '/gallery', label: lang === 'fr' ? 'Galerie' : lang === 'es' ? 'Galeria' : 'Gallery', icon: '🖼️' },
+    { path: '/trailers', label: 'Trailers', icon: '🎬' },
   ];
 
   useEffect(() => {
@@ -56,7 +57,7 @@ const NavBar = memo(() => {
   }, [dbMenuOpen]);
 
   const openSearch = useCallback(() => setSearchOpen(true), [setSearchOpen]);
-  const isDbActive = ['/items', '/mounts', '/quests', '/glossary', '/gallery'].includes(location.pathname);
+  const isDbActive = ['/items', '/mounts', '/quests', '/glossary', '/gallery', '/trailers'].includes(location.pathname);
 
   return (
     <>
@@ -166,7 +167,7 @@ const NavBar = memo(() => {
                       className="block w-full px-4 py-2 text-left text-[0.7rem] font-bold tracking-wider transition-colors"
                       style={{ color: l === lang ? '#FF1493' : 'rgba(255,255,255,0.6)' }}
                     >
-                      {l === 'fr' ? 'Francais' : l === 'en' ? 'English' : 'Espanol'}
+                      {l === 'fr' ? 'Francais' : l === 'en' ? 'English' : l === 'es' ? 'Espanol' : l === 'pt' ? 'Portugues' : l === 'it' ? 'Italiano' : '한국어'}
                     </button>
                   ))}
                 </div>

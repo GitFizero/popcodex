@@ -28,6 +28,7 @@ const Quests = lazy(() => import('@/gta-vi-wiki/pages/Quests'));
 const About = lazy(() => import('@/gta-vi-wiki/pages/About'));
 const Buy = lazy(() => import('@/gta-vi-wiki/pages/Buy'));
 const Weapons = lazy(() => import('@/gta-vi-wiki/pages/Weapons'));
+const Trailers = lazy(() => import('@/gta-vi-wiki/pages/Trailers'));
 const PrivacyPolicy = lazy(() => import('@/gta-vi-wiki/pages/PrivacyPolicy'));
 const NotFound = lazy(() => import('@/gta-vi-wiki/pages/NotFound'));
 
@@ -70,6 +71,7 @@ const GtaViApp = ({ basename = '/' }: GtaViAppProps) => (
                   <Route path="/mounts" element={<Mounts />} />
                   <Route path="/quests" element={<Quests />} />
                   <Route path="/weapons" element={<Weapons />} />
+                  <Route path="/trailers" element={<Trailers />} />
                   <Route path="/buy" element={<Buy />} />
                   <Route path="/about" element={<About />} />
                   <Route path="/privacy" element={<PrivacyPolicy />} />

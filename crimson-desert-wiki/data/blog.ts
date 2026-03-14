@@ -4890,4 +4890,226 @@ Xbox Series X는 PS5와 유사한 성능으로 퍼포먼스/퀄리티 모드를 
     },
     relatedSlugs: ['all-weapons-combat-styles-crimson-desert', 'crimson-desert-post-embargo-all-new-info-2026'],
   },
+
+  // ─── ARTICLE — OFFICIAL TRAILER ───
+  {
+    id: 'official-trailer',
+    slug: 'crimson-desert-official-trailer-analysis',
+    category: 'NEWS',
+    coverImage: combatAction,
+    author: 'Pywel Wiki',
+    publishedAt: '2026-03-14',
+    readingTime: 6,
+    tags: [
+      { fr: 'trailer', en: 'trailer', es: 'tráiler', it: 'trailer' },
+      { fr: 'bande-annonce', en: 'announcement', es: 'anuncio', it: 'annuncio' },
+      { fr: 'Pearl Abyss', en: 'Pearl Abyss', es: 'Pearl Abyss', it: 'Pearl Abyss' },
+      { fr: 'gameplay', en: 'gameplay', es: 'gameplay', it: 'gameplay' },
+    ],
+    title: {
+      fr: 'Trailer officiel de Crimson Desert : analyse complète et détails révélés',
+      en: 'Crimson Desert Official Trailer: Full Analysis & Revealed Details',
+      es: 'Tráiler oficial de Crimson Desert: análisis completo y detalles revelados',
+      it: 'Trailer ufficiale di Crimson Desert: analisi completa e dettagli rivelati',
+      ko: '크림슨 디저트 공식 트레일러: 완전 분석 및 공개 세부 사항',
+    },
+    excerpt: {
+      fr: 'Analyse détaillée du trailer officiel de Crimson Desert par Pearl Abyss. Monde ouvert, combat, personnages et tout ce que la bande-annonce nous révèle.',
+      en: 'Detailed analysis of the official Crimson Desert trailer by Pearl Abyss. Open world, combat, characters, and everything the trailer reveals.',
+      es: 'Análisis detallado del tráiler oficial de Crimson Desert por Pearl Abyss. Mundo abierto, combate, personajes y todo lo que el tráiler nos revela.',
+      it: 'Analisi dettagliata del trailer ufficiale di Crimson Desert di Pearl Abyss. Mondo aperto, combattimento, personaggi e tutto ciò che il trailer ci rivela.',
+      ko: '펄어비스의 크림슨 디저트 공식 트레일러 상세 분석. 오픈 월드, 전투, 캐릭터 등 트레일러가 보여주는 모든 것.',
+    },
+    seoTitle: {
+      fr: 'Trailer Crimson Desert | Analyse Complète Bande-Annonce Officielle | 2026',
+      en: 'Crimson Desert Trailer | Full Official Trailer Analysis | 2026',
+      es: 'Tráiler Crimson Desert | Análisis Completo del Avance Oficial | 2026',
+      it: 'Trailer Crimson Desert | Analisi Completa Trailer Ufficiale | 2026',
+      ko: '크림슨 디저트 트레일러 | 공식 트레일러 완전 분석 | 2026',
+    },
+    seoDescription: {
+      fr: 'Analyse du trailer officiel de Crimson Desert : monde ouvert de Pywel, système de combat, personnages, boss fights et date de sortie. Pearl Abyss 2026.',
+      en: 'Analysis of the official Crimson Desert trailer: Pywel open world, combat system, characters, boss fights and release date. Pearl Abyss 2026.',
+      es: 'Análisis del tráiler oficial de Crimson Desert: mundo abierto de Pywel, sistema de combate, personajes, peleas contra jefes y fecha de lanzamiento. Pearl Abyss 2026.',
+      it: 'Analisi del trailer ufficiale di Crimson Desert: mondo aperto di Pywel, sistema di combattimento, personaggi, boss fight e data di uscita. Pearl Abyss 2026.',
+      ko: '크림슨 디저트 공식 트레일러 분석: 피웰 오픈 월드, 전투 시스템, 캐릭터, 보스 전투 및 출시일. 펄어비스 2026.',
+    },
+    content: {
+      fr: `Le trailer officiel de Crimson Desert a enfin été dévoilé par Pearl Abyss, et il ne déçoit pas. Plongeons dans une analyse détaillée de tout ce que cette bande-annonce révèle sur le jeu le plus attendu de 2026.
+
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:2rem 0;border-radius:12px;">
+<iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://www.youtube-nocookie.com/embed/VWIw_f8e9Pg" title="Crimson Desert — Trailer Officiel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+</div>
+
+## Un monde ouvert à couper le souffle
+
+Le trailer s'ouvre sur des plans panoramiques époustouflants du continent de Pywel. Des forêts brumeuses aux déserts écarlates, en passant par des villes médiévales vivantes, chaque environnement respire la vie et le détail. Pearl Abyss repousse les limites du moteur graphique qu'ils ont perfectionné avec Black Desert Online, et le résultat est visuellement spectaculaire.
+
+## Kliff et les Greymanes
+
+Le protagoniste Kliff est au centre du trailer, montrant à la fois sa vulnérabilité humaine et sa détermination. Les Greymanes, son groupe de mercenaires, sont présentés dans plusieurs scènes de groupe, suggérant une dynamique d'équipe riche qui influencera l'histoire.
+
+## Un système de combat viscéral
+
+Les séquences de combat confirment ce que les démonstrations précédentes laissaient entrevoir : un système de combat action-RPG fluide, brutal et satisfaisant. On aperçoit :
+
+- **Épée et bouclier** : des combos rapides avec des parades chronométrées
+- **Grande épée** : des frappes dévastatrices avec des animations lourdes
+- **Arc et mousquet** : des options de combat à distance tactiques
+- **Combat de boss** : des créatures massives nécessitant stratégie et timing
+
+## Les boss fights épiques
+
+Le trailer dévoile plusieurs affrontements contre des boss colossaux. Un cerf géant luminescent, un dragon des sables et ce qui semble être un gardien antique témoignent de l'ambition de Pearl Abyss en matière de combats épiques.
+
+## Date de sortie et plateformes
+
+Crimson Desert est prévu pour le **19 mars 2026** sur **PS5, Xbox Series X|S et PC**. Le jeu sera également disponible sur Mac, une première pour un titre AAA de cette envergure.
+
+## Conclusion
+
+Ce trailer confirme que Crimson Desert a le potentiel de redéfinir le genre action-RPG en monde ouvert. Avec un monde visuellement époustouflant, un combat viscéral et une histoire centrée sur des personnages attachants, Pearl Abyss semble prêt à livrer une expérience inoubliable.`,
+
+      en: `The official Crimson Desert trailer has finally been unveiled by Pearl Abyss, and it does not disappoint. Let's dive into a detailed analysis of everything this trailer reveals about the most anticipated game of 2026.
+
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:2rem 0;border-radius:12px;">
+<iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://www.youtube-nocookie.com/embed/VWIw_f8e9Pg" title="Crimson Desert — Official Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+</div>
+
+## A breathtaking open world
+
+The trailer opens with stunning panoramic shots of the continent of Pywel. From misty forests to scarlet deserts, through living medieval cities, every environment breathes life and detail. Pearl Abyss pushes the limits of the engine they perfected with Black Desert Online, and the result is visually spectacular.
+
+## Kliff and the Greymanes
+
+Protagonist Kliff is at the center of the trailer, showing both his human vulnerability and his determination. The Greymanes, his mercenary group, are featured in several group scenes, suggesting a rich team dynamic that will influence the story.
+
+## A visceral combat system
+
+The combat sequences confirm what previous demos hinted at: a fluid, brutal, and satisfying action-RPG combat system. We can see:
+
+- **Sword and shield**: quick combos with timed parries
+- **Greatsword**: devastating strikes with heavy animations
+- **Bow and musket**: tactical ranged combat options
+- **Boss combat**: massive creatures requiring strategy and timing
+
+## Epic boss fights
+
+The trailer reveals several encounters against colossal bosses. A luminescent giant stag, a sand dragon, and what appears to be an ancient guardian showcase Pearl Abyss's ambition for epic encounters.
+
+## Release date and platforms
+
+Crimson Desert is scheduled for **March 19, 2026** on **PS5, Xbox Series X|S, and PC**. The game will also be available on Mac, a first for a AAA title of this scale.
+
+## Conclusion
+
+This trailer confirms that Crimson Desert has the potential to redefine the open-world action-RPG genre. With a visually stunning world, visceral combat, and a story centered on compelling characters, Pearl Abyss seems ready to deliver an unforgettable experience.`,
+
+      es: `El tráiler oficial de Crimson Desert ha sido finalmente revelado por Pearl Abyss, y no decepciona. Analicemos en detalle todo lo que este tráiler nos revela sobre el juego más esperado de 2026.
+
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:2rem 0;border-radius:12px;">
+<iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://www.youtube-nocookie.com/embed/VWIw_f8e9Pg" title="Crimson Desert — Tráiler Oficial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+</div>
+
+## Un mundo abierto impresionante
+
+El tráiler se abre con tomas panorámicas impresionantes del continente de Pywel. Desde bosques brumosos hasta desiertos escarlata, pasando por ciudades medievales vivas, cada entorno respira vida y detalle. Pearl Abyss lleva al límite el motor gráfico que perfeccionaron con Black Desert Online.
+
+## Kliff y los Greymanes
+
+El protagonista Kliff está en el centro del tráiler, mostrando tanto su vulnerabilidad humana como su determinación. Los Greymanes, su grupo de mercenarios, aparecen en varias escenas grupales, sugiriendo una rica dinámica de equipo.
+
+## Un sistema de combate visceral
+
+Las secuencias de combate confirman un sistema de combate acción-RPG fluido, brutal y satisfactorio:
+
+- **Espada y escudo**: combos rápidos con paradas cronometradas
+- **Espadón**: golpes devastadores con animaciones pesadas
+- **Arco y mosquete**: opciones de combate a distancia tácticas
+- **Combate de jefes**: criaturas masivas que requieren estrategia y timing
+
+## Peleas de jefes épicas
+
+El tráiler revela varios enfrentamientos contra jefes colosales. Un ciervo gigante luminiscente, un dragón de arena y lo que parece ser un guardián antiguo demuestran la ambición de Pearl Abyss.
+
+## Fecha de lanzamiento y plataformas
+
+Crimson Desert está programado para el **19 de marzo de 2026** en **PS5, Xbox Series X|S y PC**. El juego también estará disponible en Mac.
+
+## Conclusión
+
+Este tráiler confirma que Crimson Desert tiene el potencial de redefinir el género acción-RPG en mundo abierto. Con un mundo visualmente impresionante, combate visceral y una historia centrada en personajes entrañables, Pearl Abyss parece listo para ofrecer una experiencia inolvidable.`,
+
+      it: `Il trailer ufficiale di Crimson Desert è stato finalmente svelato da Pearl Abyss, e non delude. Immergiamoci in un'analisi dettagliata di tutto ciò che questo trailer rivela sul gioco più atteso del 2026.
+
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:2rem 0;border-radius:12px;">
+<iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://www.youtube-nocookie.com/embed/VWIw_f8e9Pg" title="Crimson Desert — Trailer Ufficiale" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+</div>
+
+## Un mondo aperto mozzafiato
+
+Il trailer si apre con panoramiche mozzafiato del continente di Pywel. Dalle foreste nebbiose ai deserti scarlatti, passando per città medievali viventi, ogni ambiente respira vita e dettaglio.
+
+## Kliff e i Greymanes
+
+Il protagonista Kliff è al centro del trailer, mostrando sia la sua vulnerabilità umana che la sua determinazione. I Greymanes, il suo gruppo di mercenari, sono presenti in diverse scene di gruppo.
+
+## Un sistema di combattimento viscerale
+
+Le sequenze di combattimento confermano un sistema di combattimento action-RPG fluido, brutale e soddisfacente:
+
+- **Spada e scudo**: combo veloci con parate temporizzate
+- **Spadone**: colpi devastanti con animazioni pesanti
+- **Arco e moschetto**: opzioni di combattimento a distanza tattiche
+- **Combattimento con boss**: creature massicce che richiedono strategia e tempismo
+
+## Boss fight epiche
+
+Il trailer rivela diversi scontri contro boss colossali. Un cervo gigante luminescente, un drago delle sabbie e quello che sembra essere un guardiano antico mostrano l'ambizione di Pearl Abyss.
+
+## Data di uscita e piattaforme
+
+Crimson Desert è previsto per il **19 marzo 2026** su **PS5, Xbox Series X|S e PC**. Il gioco sarà disponibile anche su Mac.
+
+## Conclusione
+
+Questo trailer conferma che Crimson Desert ha il potenziale di ridefinire il genere action-RPG in mondo aperto. Con un mondo visivamente mozzafiato, combattimento viscerale e una storia incentrata su personaggi avvincenti, Pearl Abyss sembra pronto a offrire un'esperienza indimenticabile.`,
+
+      ko: `크림슨 디저트의 공식 트레일러가 마침내 펄어비스에 의해 공개되었으며, 기대를 저버리지 않습니다. 2026년 가장 기대되는 게임에 대해 이 트레일러가 보여주는 모든 것을 상세히 분석해 보겠습니다.
+
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:2rem 0;border-radius:12px;">
+<iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://www.youtube-nocookie.com/embed/VWIw_f8e9Pg" title="크림슨 디저트 — 공식 트레일러" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+</div>
+
+## 숨막히는 오픈 월드
+
+트레일러는 피웰 대륙의 놀라운 파노라마 장면으로 시작됩니다. 안개 낀 숲에서 주홍빛 사막까지, 살아있는 중세 도시를 지나며, 모든 환경이 생명력과 디테일로 가득합니다.
+
+## 클리프와 그레이메인즈
+
+주인공 클리프가 트레일러의 중심에 있으며, 인간적 취약성과 결단력을 모두 보여줍니다. 그의 용병 그룹인 그레이메인즈는 여러 그룹 장면에 등장하며, 풍부한 팀 역학을 암시합니다.
+
+## 본능적인 전투 시스템
+
+전투 시퀀스는 유동적이고 강렬하며 만족스러운 액션-RPG 전투 시스템을 확인시켜 줍니다:
+
+- **검과 방패**: 타이밍 패리와 함께하는 빠른 콤보
+- **대검**: 무거운 애니메이션의 파괴적인 타격
+- **활과 머스킷**: 전술적 원거리 전투 옵션
+- **보스 전투**: 전략과 타이밍이 필요한 거대 생물
+
+## 에픽 보스 전투
+
+트레일러는 거대한 보스들과의 여러 전투를 공개합니다. 발광하는 거대 사슴, 모래 드래곤, 그리고 고대 수호자로 보이는 존재가 펄어비스의 야심을 보여줍니다.
+
+## 출시일 및 플랫폼
+
+크림슨 디저트는 **2026년 3월 19일** **PS5, Xbox Series X|S, PC**에서 출시 예정입니다. Mac에서도 플레이할 수 있습니다.
+
+## 결론
+
+이 트레일러는 크림슨 디저트가 오픈 월드 액션-RPG 장르를 재정의할 잠재력을 가지고 있음을 확인시켜 줍니다. 시각적으로 놀라운 세계, 본능적인 전투, 매력적인 캐릭터 중심의 스토리로, 펄어비스는 잊을 수 없는 경험을 선사할 준비가 된 것 같습니다.`,
+    },
+    relatedSlugs: ['all-weapons-combat-styles-crimson-desert'],
+  },
 ];

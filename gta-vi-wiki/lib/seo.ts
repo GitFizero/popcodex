@@ -184,6 +184,18 @@ export const seo = {
       es: 'Guias completas GTA VI: consejos, estrategias, walkthrough y tutoriales. Rockstar Games 2026.',
     } as LangMap,
   },
+  trailers: {
+    title: {
+      fr: 'Trailers GTA VI | Bandes-Annonces Officielles Rockstar Games',
+      en: 'GTA VI Trailers | Official Rockstar Games Trailers',
+      es: 'Trailers GTA VI | Avances Oficiales de Rockstar Games',
+    } as LangMap,
+    desc: {
+      fr: 'Tous les trailers officiels de GTA VI par Rockstar Games. Bandes-annonces, gameplay et aperçus de Vice City et Leonida.',
+      en: 'All official GTA VI trailers by Rockstar Games. Trailers, gameplay, and previews of Vice City and Leonida.',
+      es: 'Todos los trailers oficiales de GTA VI de Rockstar Games. Avances, gameplay y vistas previas de Vice City y Leonida.',
+    } as LangMap,
+  },
   combat: {
     title: {
       fr: 'Systeme de Combat GTA VI | Mecaniques & Techniques',
@@ -213,6 +225,7 @@ export const seo = {
     gallery: { fr: 'Galerie', en: 'Gallery', es: 'Galeria' } as LangMap,
     guides: { fr: 'Guides', en: 'Guides', es: 'Guias' } as LangMap,
     combat: { fr: 'Combat', en: 'Combat', es: 'Combate' } as LangMap,
+    trailers: { fr: 'Trailers', en: 'Trailers', es: 'Trailers' } as LangMap,
   },
 
   faq: {

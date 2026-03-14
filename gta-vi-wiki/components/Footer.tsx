@@ -29,6 +29,7 @@ const Footer = memo(() => {
                 { to: '/weapons', label: t('nav.weapons') },
                 { to: '/lore', label: t('nav.lore') },
                 { to: '/gallery', label: lang === 'fr' ? 'Galerie' : lang === 'es' ? 'Galeria' : 'Gallery' },
+                { to: '/trailers', label: 'Trailers' },
                 { to: '/about', label: t('nav.about') },
               ].map(l => (
                 <Link key={l.to} to={l.to} className="text-sm transition-colors" style={{ color: 'rgba(255,255,255,0.5)' }}
