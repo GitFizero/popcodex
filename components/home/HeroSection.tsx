@@ -94,7 +94,7 @@ function UniversePortals() {
   const count = allIds.length;
 
   return (
-    <div className="relative w-full max-w-2xl mx-auto aspect-square mt-8 hidden md:block">
+    <div className="relative w-full max-w-md lg:max-w-lg mx-auto aspect-square hidden md:block">
       {/* Orbit ring */}
       <div className="absolute inset-[15%] rounded-full border border-white/[0.04]" />
       <div className="absolute inset-[30%] rounded-full border border-white/[0.03]" />
@@ -214,7 +214,7 @@ export default function HeroSection() {
   const allFranchises = getAllFranchiseIds();
 
   return (
-    <section className="relative min-h-screen flex flex-col items-center justify-center px-4 overflow-hidden">
+    <section className="relative overflow-hidden">
       {/* Deep space background */}
       <div
         className="absolute inset-0"
@@ -232,100 +232,105 @@ export default function HeroSection() {
         style={{ background: 'radial-gradient(ellipse at center, transparent 50%, rgba(0,0,0,0.5) 100%)' }}
       />
 
-      {/* Content */}
-      <div className="relative z-10 text-center max-w-3xl mx-auto">
-        {/* Title with portal logo as the O */}
-        <motion.h1
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1], delay: 0.1 }}
-          className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-bold tracking-tight flex items-center justify-center"
-          style={{ fontFamily: 'var(--font-display)', letterSpacing: '-0.03em', lineHeight: 0.95 }}
-        >
-          <span className="text-white">Pop</span>
-          <span
-            className="bg-clip-text text-transparent"
-            style={{
-              backgroundImage: 'linear-gradient(135deg, #818CF8, #C084FC, #F472B6, #FB923C)',
-            }}
+      {/* Content — two-part layout: title block centered in top half, portals below */}
+      <div className="relative z-10 w-full flex flex-col items-center min-h-screen">
+        {/* Spacer for fixed header */}
+        <div className="h-16 shrink-0" />
+
+        {/* Title block — centered in remaining space above portals */}
+        <div className="flex-1 flex flex-col items-center justify-center text-center max-w-3xl mx-auto px-4 py-12">
+          <motion.h1
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1], delay: 0.1 }}
+            className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-bold tracking-tight flex items-center justify-center"
+            style={{ fontFamily: 'var(--font-display)', letterSpacing: '-0.03em', lineHeight: 0.95 }}
           >
-            C
-          </span>
-          {/* Portal logo as the "O" */}
-          <motion.span
-            className="inline-flex items-center justify-center relative"
-            initial={{ opacity: 0, scale: 0.5 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.6, delay: 0.3, type: 'spring' }}
-          >
-            <svg
-              viewBox="0 0 80 80"
-              className="w-[0.7em] h-[0.7em]"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-              aria-hidden="true"
+            <span className="text-white">Pop</span>
+            <span
+              className="bg-clip-text text-transparent"
+              style={{
+                backgroundImage: 'linear-gradient(135deg, #818CF8, #C084FC, #F472B6, #FB923C)',
+              }}
             >
-              <circle cx="40" cy="40" r="32" stroke="#A78BFA" strokeWidth="2" opacity="0.3" />
-              <circle cx="40" cy="40" r="22" stroke="#C084FC" strokeWidth="2" opacity="0.5" />
-              <circle cx="40" cy="40" r="12" stroke="#F472B6" strokeWidth="2.5" opacity="0.8" />
-              <circle cx="40" cy="40" r="4" fill="#F472B6" />
-              <circle cx="40" cy="12" r="3" fill="#C084FC" opacity="0.8" />
-            </svg>
-          </motion.span>
-          <span
-            className="bg-clip-text text-transparent"
-            style={{
-              backgroundImage: 'linear-gradient(135deg, #C084FC, #F472B6, #FB923C)',
-            }}
+              C
+            </span>
+            {/* Portal logo as the "O" */}
+            <motion.span
+              className="inline-flex items-center justify-center relative"
+              initial={{ opacity: 0, scale: 0.5 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.6, delay: 0.3, type: 'spring' }}
+            >
+              <svg
+                viewBox="0 0 80 80"
+                className="w-[0.7em] h-[0.7em]"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
+              >
+                <circle cx="40" cy="40" r="32" stroke="#A78BFA" strokeWidth="2" opacity="0.3" />
+                <circle cx="40" cy="40" r="22" stroke="#C084FC" strokeWidth="2" opacity="0.5" />
+                <circle cx="40" cy="40" r="12" stroke="#F472B6" strokeWidth="2.5" opacity="0.8" />
+                <circle cx="40" cy="40" r="4" fill="#F472B6" />
+                <circle cx="40" cy="12" r="3" fill="#C084FC" opacity="0.8" />
+              </svg>
+            </motion.span>
+            <span
+              className="bg-clip-text text-transparent"
+              style={{
+                backgroundImage: 'linear-gradient(135deg, #C084FC, #F472B6, #FB923C)',
+              }}
+            >
+              dex
+            </span>
+          </motion.h1>
+
+          <motion.p
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.3 }}
+            className="mt-6 text-lg sm:text-xl text-white/50 max-w-lg mx-auto leading-relaxed"
           >
-            dex
-          </span>
-        </motion.h1>
+            {t('subtitle')}
+          </motion.p>
 
-        {/* Subtitle */}
-        <motion.p
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.3 }}
-          className="mt-8 text-lg sm:text-xl text-white/50 max-w-lg mx-auto leading-relaxed"
-        >
-          {t('subtitle')}
-        </motion.p>
+          <motion.div
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.5 }}
+            className="mt-6 inline-flex items-center gap-2 px-5 py-2 rounded-full border border-white/10 bg-white/[0.03] backdrop-blur-sm"
+          >
+            <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
+            <span className="text-sm text-white/60">
+              {allFranchises.length} {locale === 'en' ? 'universes to explore' : locale === 'es' ? 'universos por explorar' : locale === 'pt' ? 'universos para explorar' : 'univers à explorer'}
+            </span>
+          </motion.div>
 
-        {/* Badge — below subtitle */}
+          {/* Mobile pills */}
+          <MobileUniversePills />
+        </div>
+
+        {/* Universe portals — positioned in bottom portion */}
+        <div className="w-full shrink-0 pb-16">
+          <UniversePortals />
+        </div>
+
+        {/* Scroll indicator */}
         <motion.div
-          initial={{ opacity: 0, y: 10 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.5 }}
-          className="mt-8 inline-flex items-center gap-2 px-5 py-2 rounded-full border border-white/10 bg-white/[0.03] backdrop-blur-sm"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 1.5 }}
+          className="absolute bottom-8 left-1/2 -translate-x-1/2"
         >
-          <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-          <span className="text-sm text-white/60">
-            {allFranchises.length} {locale === 'en' ? 'universes to explore' : locale === 'es' ? 'universos por explorar' : locale === 'pt' ? 'universos para explorar' : 'univers à explorer'}
-          </span>
+          <motion.div
+            animate={{ y: [0, 8, 0] }}
+            transition={{ duration: 2, repeat: Infinity, ease: 'easeInOut' }}
+          >
+            <ChevronDown className="w-5 h-5 text-white/20" />
+          </motion.div>
         </motion.div>
-
-        {/* Universe portals (desktop) */}
-        <UniversePortals />
-
-        {/* Mobile pills */}
-        <MobileUniversePills />
       </div>
-
-      {/* Scroll indicator */}
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 1.5 }}
-        className="absolute bottom-8 left-1/2 -translate-x-1/2"
-      >
-        <motion.div
-          animate={{ y: [0, 8, 0] }}
-          transition={{ duration: 2, repeat: Infinity, ease: 'easeInOut' }}
-        >
-          <ChevronDown className="w-5 h-5 text-white/20" />
-        </motion.div>
-      </motion.div>
     </section>
   );
 }
