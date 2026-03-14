@@ -705,4 +705,323 @@ Pywel è il vasto continente che funge da ambientazione per Crimson Desert. Dila
     tags: ['crimson-desert', 'lore', 'pywel', 'monde'],
     relatedSlugs: ['hernand', 'pailune', 'demeniss', 'delesyie', 'desert-pourpre'],
   },
+  // ──────────────────────────────────────────────
+  //  GUIDES
+  // ──────────────────────────────────────────────
+  {
+    slug: 'performance-technique',
+    franchise: 'crimson-desert',
+    category: 'guides',
+    title: {
+      fr: 'Guide technique & Performance',
+      en: 'Technical Guide & Performance',
+      es: 'Guía técnica y rendimiento',
+      pt: 'Guia técnico e desempenho',
+      it: 'Guida tecnica e prestazioni',
+      ko: '기술 가이드 & 성능',
+    },
+    excerpt: {
+      fr: "Comparatif des performances PS5, PS5 Pro et PC pour Crimson Desert : résolution, framerate, taille du jeu et configurations recommandées.",
+      en: 'Performance comparison across PS5, PS5 Pro and PC for Crimson Desert: resolution, framerate, game size and recommended specs.',
+      es: 'Comparativa de rendimiento en PS5, PS5 Pro y PC para Crimson Desert: resolución, framerate, tamaño del juego y requisitos recomendados.',
+      pt: 'Comparativo de desempenho no PS5, PS5 Pro e PC para Crimson Desert: resolução, framerate, tamanho do jogo e configurações recomendadas.',
+      it: 'Confronto prestazioni su PS5, PS5 Pro e PC per Crimson Desert: risoluzione, framerate, dimensioni del gioco e specifiche consigliate.',
+      ko: '크림슨 디저트 PS5, PS5 Pro, PC 성능 비교: 해상도, 프레임레이트, 게임 용량, 권장 사양.',
+    },
+    content: {
+      fr: `## Performances sur PS5
+
+Sur PlayStation 5 standard, Crimson Desert propose deux modes d'affichage. Le **mode qualité** cible une résolution native de 1440p avec un framerate de **40 à 45 FPS** stabilisé. Le **mode performance** abaisse la résolution à 1080p pour viser un **60 FPS** plus fluide, idéal pour le combat exigeant du jeu. L'analyse Digital Foundry confirme que le mode qualité offre un rendu visuel impressionnant malgré la console de base.
+
+## Performances sur PS5 Pro
+
+La PS5 Pro tire parti du PSSR (PlayStation Spectral Super Resolution) pour offrir une **4K upscalée depuis une résolution interne de 1080p** tout en maintenant un framerate stable de **60 FPS**. L'upscaling est remarquablement propre avec peu d'artefacts visibles. C'est actuellement la meilleure expérience console pour Crimson Desert selon les analyses de Digital Foundry.
+
+## Performances sur PC
+
+Sur PC, Crimson Desert supporte des résolutions allant jusqu'à la 4K native avec des paramètres graphiques granulaires. Les configurations recommandées incluent un GPU de type RTX 4070 / RX 7800 XT minimum pour du 1440p à 60 FPS en réglages élevés. Le ray tracing est disponible mais exigeant, nécessitant au minimum une RTX 4080 pour une expérience fluide en 1440p.
+
+## Taille du jeu et installation
+
+Le jeu pèse environ **150 Go** sur toutes les plateformes, un poids conséquent justifié par l'immensité du monde ouvert de Pywel et la qualité des assets. Un SSD est fortement recommandé sur PC pour les temps de chargement.
+
+## Configurations PC recommandées
+
+| Composant | Minimum | Recommandé | Ultra |
+|-----------|---------|------------|-------|
+| CPU | Ryzen 5 3600 / i5-10400 | Ryzen 7 5800X / i7-12700 | Ryzen 9 7900X / i9-13900K |
+| GPU | RTX 3060 / RX 6600 XT | RTX 4070 / RX 7800 XT | RTX 4080 / RX 7900 XTX |
+| RAM | 16 Go | 32 Go | 32 Go |
+| Stockage | 150 Go SSD | 150 Go NVMe | 150 Go NVMe Gen4 |`,
+      en: `## PS5 Performance
+
+On standard PlayStation 5, Crimson Desert offers two display modes. **Quality mode** targets native 1440p resolution with a stabilized **40-45 FPS** framerate. **Performance mode** lowers resolution to 1080p aiming for a smoother **60 FPS**, ideal for the game's demanding combat. Digital Foundry's analysis confirms that quality mode delivers impressive visuals despite the base console's limitations.
+
+## PS5 Pro Performance
+
+The PS5 Pro leverages PSSR (PlayStation Spectral Super Resolution) to deliver **upscaled 4K from a 1080p internal resolution** while maintaining a stable **60 FPS**. The upscaling is remarkably clean with few visible artifacts. This is currently the best console experience for Crimson Desert according to Digital Foundry analysis.
+
+## PC Performance
+
+On PC, Crimson Desert supports resolutions up to native 4K with granular graphics settings. Recommended specifications include an RTX 4070 / RX 7800 XT GPU minimum for 1440p at 60 FPS on high settings. Ray tracing is available but demanding, requiring at minimum an RTX 4080 for smooth 1440p gameplay.
+
+## Game Size and Installation
+
+The game weighs approximately **150 GB** across all platforms, a substantial size justified by the vastness of Pywel's open world and asset quality. An SSD is strongly recommended on PC for loading times.
+
+## Recommended PC Specifications
+
+| Component | Minimum | Recommended | Ultra |
+|-----------|---------|-------------|-------|
+| CPU | Ryzen 5 3600 / i5-10400 | Ryzen 7 5800X / i7-12700 | Ryzen 9 7900X / i9-13900K |
+| GPU | RTX 3060 / RX 6600 XT | RTX 4070 / RX 7800 XT | RTX 4080 / RX 7900 XTX |
+| RAM | 16 GB | 32 GB | 32 GB |
+| Storage | 150 GB SSD | 150 GB NVMe | 150 GB NVMe Gen4 |`,
+      es: `## Rendimiento en PS5
+
+En PlayStation 5 estándar, Crimson Desert ofrece dos modos de visualización. El **modo calidad** apunta a resolución nativa 1440p con un framerate estabilizado de **40-45 FPS**. El **modo rendimiento** baja la resolución a 1080p buscando **60 FPS** más fluidos. El análisis de Digital Foundry confirma que el modo calidad ofrece un apartado visual impresionante.
+
+## Rendimiento en PS5 Pro
+
+La PS5 Pro utiliza PSSR para ofrecer **4K reescalado desde 1080p** manteniendo **60 FPS** estables. Es la mejor experiencia en consola según Digital Foundry.
+
+## Rendimiento en PC
+
+En PC, el juego soporta hasta 4K nativo. Se recomienda una RTX 4070 / RX 7800 XT mínimo para 1440p a 60 FPS en ajustes altos.
+
+## Tamaño del juego
+
+El juego pesa aproximadamente **150 GB** en todas las plataformas. Se recomienda SSD en PC.`,
+      pt: `## Desempenho no PS5
+
+No PlayStation 5 padrão, Crimson Desert oferece dois modos de exibição. O **modo qualidade** mira resolução nativa 1440p com framerate estabilizado de **40-45 FPS**. O **modo desempenho** reduz a resolução para 1080p visando **60 FPS** mais fluidos. A análise da Digital Foundry confirma visuais impressionantes no modo qualidade.
+
+## Desempenho no PS5 Pro
+
+O PS5 Pro utiliza PSSR para entregar **4K upscalado a partir de 1080p** mantendo **60 FPS** estáveis. É a melhor experiência em console segundo a Digital Foundry.
+
+## Desempenho no PC
+
+No PC, o jogo suporta até 4K nativo. Recomenda-se uma RTX 4070 / RX 7800 XT mínimo para 1440p a 60 FPS em configurações altas.
+
+## Tamanho do jogo
+
+O jogo pesa aproximadamente **150 GB** em todas as plataformas. SSD é recomendado no PC.`,
+      it: `## Prestazioni su PS5
+
+Su PlayStation 5 standard, Crimson Desert offre due modalità di visualizzazione. La **modalità qualità** punta a 1440p nativi con framerate stabilizzato a **40-45 FPS**. La **modalità prestazioni** abbassa la risoluzione a 1080p per puntare a **60 FPS** più fluidi. L'analisi di Digital Foundry conferma un comparto visivo impressionante in modalità qualità.
+
+## Prestazioni su PS5 Pro
+
+La PS5 Pro sfrutta il PSSR per offrire **4K upscalato da 1080p** mantenendo **60 FPS** stabili. È la migliore esperienza console secondo Digital Foundry.
+
+## Prestazioni su PC
+
+Su PC, il gioco supporta fino al 4K nativo. Si raccomanda una RTX 4070 / RX 7800 XT minimo per 1440p a 60 FPS con impostazioni alte.
+
+## Dimensioni del gioco
+
+Il gioco pesa circa **150 GB** su tutte le piattaforme. Un SSD è raccomandato su PC.`,
+      ko: `## PS5 성능
+
+기본 PlayStation 5에서 크림슨 디저트는 두 가지 디스플레이 모드를 제공합니다. **품질 모드**는 네이티브 1440p 해상도에서 **40-45 FPS**를 안정적으로 유지합니다. **성능 모드**는 해상도를 1080p로 낮춰 **60 FPS**를 목표로 합니다. Digital Foundry 분석에 따르면 품질 모드에서도 인상적인 비주얼을 제공합니다.
+
+## PS5 Pro 성능
+
+PS5 Pro는 PSSR을 활용하여 **1080p 내부 해상도에서 업스케일된 4K**를 안정적인 **60 FPS**로 제공합니다. Digital Foundry에 따르면 현재 최고의 콘솔 경험입니다.
+
+## PC 성능
+
+PC에서는 네이티브 4K까지 지원합니다. 1440p 60 FPS 높은 설정에는 최소 RTX 4070 / RX 7800 XT가 권장됩니다.
+
+## 게임 용량
+
+모든 플랫폼에서 약 **150 GB**입니다. PC에서는 SSD가 강력히 권장됩니다.`,
+    },
+    infobox: {
+      'PS5': '1440p / 40-45 FPS (qualité), 1080p / 60 FPS (perf)',
+      'PS5 Pro': '4K upscalé / 60 FPS (PSSR)',
+      'Taille': '~150 Go',
+      'GPU recommandé': 'RTX 4070 / RX 7800 XT',
+    },
+    author: "L'équipe PopCodex",
+    publishedAt: '2026-03-14',
+    updatedAt: '2026-03-14',
+    readTime: 6,
+    tags: ['crimson-desert', 'guide', 'performance', 'technique', 'ps5', 'pc'],
+    relatedSlugs: ['pywel-continent', 'kliff'],
+  },
+  {
+    slug: 'preload-horaires-lancement',
+    franchise: 'crimson-desert',
+    category: 'guides',
+    title: {
+      fr: 'Guide de préchargement & horaires de lancement',
+      en: 'Preload & Launch Times Guide',
+      es: 'Guía de precarga y horarios de lanzamiento',
+      pt: 'Guia de pré-download e horários de lançamento',
+      it: 'Guida al preload e orari di lancio',
+      ko: '사전 다운로드 및 출시 시간 가이드',
+    },
+    excerpt: {
+      fr: "Tout savoir sur le préchargement de Crimson Desert (48h avant), les horaires de lancement par région et les plateformes disponibles au day one.",
+      en: 'Everything about Crimson Desert preloading (48h before), launch times by region and available platforms on day one.',
+      es: 'Todo sobre la precarga de Crimson Desert (48h antes), horarios de lanzamiento por región y plataformas disponibles el día de lanzamiento.',
+      pt: 'Tudo sobre o pré-download de Crimson Desert (48h antes), horários de lançamento por região e plataformas disponíveis no dia de lançamento.',
+      it: 'Tutto sul preload di Crimson Desert (48h prima), orari di lancio per regione e piattaforme disponibili al day one.',
+      ko: '크림슨 디저트 사전 다운로드(48시간 전), 지역별 출시 시간 및 출시일 이용 가능 플랫폼 정보.',
+    },
+    content: {
+      fr: `## Préchargement
+
+Le préchargement de Crimson Desert sera disponible **48 heures avant le lancement**, soit à partir du **17 mars 2026** sur toutes les plateformes (PC, PS5, Xbox Series X|S). Cela laisse amplement le temps de télécharger les ~150 Go du jeu, même avec une connexion modeste. Sur PC (Steam et autres launchers), le préchargement sera chiffré et déverrouillé à l'heure de lancement.
+
+## Horaires de lancement par région
+
+Crimson Desert adopte un **lancement simultané mondial** le 19 mars 2026. Voici les horaires par fuseau :
+
+| Région | Heure locale | Date |
+|--------|-------------|------|
+| US West (PT) | 15h00 | 19 mars |
+| US East (ET) | 18h00 | 19 mars |
+| Royaume-Uni (GMT) | 22h00 | 19 mars |
+| Europe centrale (CET) | 23h00 | 19 mars |
+| Japon / Corée (JST/KST) | 7h00 | 20 mars |
+
+## Plateformes disponibles au lancement
+
+Crimson Desert sera disponible simultanément sur **trois plateformes** dès le day one :
+- **PC** (Steam, Epic Games Store)
+- **PlayStation 5**
+- **Xbox Series X|S**
+
+Il s'agit d'un lancement multiplateforme complet sans exclusivité temporaire.
+
+## Conseils pour le jour J
+
+- Lancez le préchargement dès qu'il est disponible le 17 mars
+- Vérifiez que vous avez au moins 150 Go de libre sur votre SSD
+- Sur console, activez le mode repos pour que le téléchargement continue en veille
+- Le patch day one sera intégré au préchargement`,
+      en: `## Preloading
+
+Crimson Desert preloading will be available **48 hours before launch**, starting **March 17, 2026** across all platforms (PC, PS5, Xbox Series X|S). This gives ample time to download the ~150 GB game even on modest connections. On PC (Steam and other launchers), the preload will be encrypted and unlocked at launch time.
+
+## Launch Times by Region
+
+Crimson Desert uses a **simultaneous worldwide launch** on March 19, 2026. Here are the times by timezone:
+
+| Region | Local Time | Date |
+|--------|-----------|------|
+| US West (PT) | 3:00 PM | March 19 |
+| US East (ET) | 6:00 PM | March 19 |
+| United Kingdom (GMT) | 10:00 PM | March 19 |
+| Central Europe (CET) | 11:00 PM | March 19 |
+| Japan / Korea (JST/KST) | 7:00 AM | March 20 |
+
+## Platforms Available at Launch
+
+Crimson Desert launches simultaneously on **three platforms** on day one:
+- **PC** (Steam, Epic Games Store)
+- **PlayStation 5**
+- **Xbox Series X|S**
+
+This is a full multiplatform launch with no timed exclusivity.
+
+## Day One Tips
+
+- Start preloading as soon as it becomes available on March 17
+- Ensure at least 150 GB of free space on your SSD
+- On console, enable rest mode so the download continues while idle
+- The day one patch will be included in the preload`,
+      es: `## Precarga
+
+La precarga de Crimson Desert estará disponible **48 horas antes del lanzamiento**, a partir del **17 de marzo de 2026** en todas las plataformas. Esto da tiempo suficiente para descargar los ~150 GB del juego.
+
+## Horarios de lanzamiento por región
+
+Crimson Desert usa un **lanzamiento simultáneo mundial** el 19 de marzo de 2026:
+
+| Región | Hora local | Fecha |
+|--------|-----------|-------|
+| US West (PT) | 15:00 | 19 de marzo |
+| US East (ET) | 18:00 | 19 de marzo |
+| Reino Unido (GMT) | 22:00 | 19 de marzo |
+| Europa central (CET) | 23:00 | 19 de marzo |
+| Japón / Corea (JST/KST) | 7:00 | 20 de marzo |
+
+## Plataformas disponibles
+
+PC (Steam, Epic), PlayStation 5, Xbox Series X|S — sin exclusividad temporal.`,
+      pt: `## Pré-download
+
+O pré-download de Crimson Desert estará disponível **48 horas antes do lançamento**, a partir de **17 de março de 2026** em todas as plataformas. Tempo suficiente para baixar os ~150 GB do jogo.
+
+## Horários de lançamento por região
+
+Crimson Desert adota um **lançamento simultâneo mundial** em 19 de março de 2026:
+
+| Região | Hora local | Data |
+|--------|-----------|------|
+| US West (PT) | 15h00 | 19 de março |
+| US East (ET) | 18h00 | 19 de março |
+| Reino Unido (GMT) | 22h00 | 19 de março |
+| Europa central (CET) | 23h00 | 19 de março |
+| Japão / Coreia (JST/KST) | 7h00 | 20 de março |
+
+## Plataformas disponíveis
+
+PC (Steam, Epic), PlayStation 5, Xbox Series X|S — sem exclusividade temporal.`,
+      it: `## Preload
+
+Il preload di Crimson Desert sarà disponibile **48 ore prima del lancio**, a partire dal **17 marzo 2026** su tutte le piattaforme. Tempo sufficiente per scaricare i ~150 GB del gioco.
+
+## Orari di lancio per regione
+
+Crimson Desert adotta un **lancio simultaneo mondiale** il 19 marzo 2026:
+
+| Regione | Ora locale | Data |
+|---------|-----------|------|
+| US West (PT) | 15:00 | 19 marzo |
+| US East (ET) | 18:00 | 19 marzo |
+| Regno Unito (GMT) | 22:00 | 19 marzo |
+| Europa centrale (CET) | 23:00 | 19 marzo |
+| Giappone / Corea (JST/KST) | 7:00 | 20 marzo |
+
+## Piattaforme disponibili
+
+PC (Steam, Epic), PlayStation 5, Xbox Series X|S — senza esclusiva temporale.`,
+      ko: `## 사전 다운로드
+
+크림슨 디저트 사전 다운로드는 **출시 48시간 전**인 **2026년 3월 17일**부터 모든 플랫폼에서 이용 가능합니다. ~150 GB의 게임을 다운로드할 충분한 시간이 제공됩니다.
+
+## 지역별 출시 시간
+
+크림슨 디저트는 2026년 3월 19일 **전 세계 동시 출시**됩니다:
+
+| 지역 | 현지 시간 | 날짜 |
+|------|----------|------|
+| US West (PT) | 오후 3시 | 3월 19일 |
+| US East (ET) | 오후 6시 | 3월 19일 |
+| 영국 (GMT) | 오후 10시 | 3월 19일 |
+| 중앙 유럽 (CET) | 오후 11시 | 3월 19일 |
+| 일본 / 한국 (JST/KST) | 오전 7시 | 3월 20일 |
+
+## 이용 가능 플랫폼
+
+PC (Steam, Epic), PlayStation 5, Xbox Series X|S — 시한부 독점 없음.`,
+    },
+    infobox: {
+      'Préchargement': '17 mars 2026 (48h avant)',
+      'Lancement': '19 mars 2026 (simultané mondial)',
+      'Plateformes': 'PC, PS5, Xbox Series X|S',
+      'Taille': '~150 Go',
+    },
+    author: "L'équipe PopCodex",
+    publishedAt: '2026-03-14',
+    updatedAt: '2026-03-14',
+    readTime: 4,
+    tags: ['crimson-desert', 'guide', 'preload', 'lancement', 'horaires'],
+    relatedSlugs: ['performance-technique', 'pywel-continent'],
+  },
 ];

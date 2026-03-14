@@ -57,7 +57,7 @@ export const franchises: Record<FranchiseId, FranchiseConfig> = {
       bgGradient: 'linear-gradient(180deg, hsl(220 67% 2%) 0%, hsl(216 56% 4%) 30%, hsl(214 40% 7%) 100%)',
       heroPattern: 'linear-gradient(hsl(189 100% 50% / 0.03) 1px, transparent 1px), linear-gradient(90deg, hsl(189 100% 50% / 0.03) 1px, transparent 1px)',
     },
-    releaseDate: '2026-05-26',
+    releaseDate: '2026-11-19',
     developer: 'Rockstar Games',
     publisher: 'Take-Two Interactive / Rockstar Games',
     platforms: ['PS5', 'Xbox Series X/S'],

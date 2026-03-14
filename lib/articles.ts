@@ -960,6 +960,596 @@ Omega Red는 Wolverine을 만든 Weapon X 프로그램의 러시아판인 소련
     tags: ['vilain', 'ennemi', 'wolverine', 'marvel'],
     relatedSlugs: ['logan'],
   },
+  // ──────────────────────────────────────────────
+  //  WOLVERINE — PERSONNAGES & LIEUX
+  // ──────────────────────────────────────────────
+  {
+    slug: 'mystique',
+    franchise: 'wolverine',
+    category: 'personnages',
+    title: {
+      fr: 'Mystique',
+      en: 'Mystique',
+      es: 'Mystique',
+      pt: 'Mystique',
+      it: 'Mystique',
+      ko: '미스틱',
+    },
+    excerpt: {
+      fr: "Mystique est une vilaine confirmée de Marvel's Wolverine. Métamorphe redoutable, elle joue un rôle central dans l'intrigue du jeu d'Insomniac Games.",
+      en: "Mystique is a confirmed villain in Marvel's Wolverine. A formidable shapeshifter, she plays a central role in Insomniac Games' storyline.",
+      es: "Mystique es una villana confirmada en Marvel's Wolverine. Una formidable metamorfa, desempeña un papel central en la trama del juego de Insomniac Games.",
+      pt: "Mystique é uma vilã confirmada em Marvel's Wolverine. Uma metamorfa formidável, ela desempenha um papel central na história do jogo da Insomniac Games.",
+      it: "Mystique è una villain confermata in Marvel's Wolverine. Formidabile metamorfa, gioca un ruolo centrale nella trama del gioco di Insomniac Games.",
+      ko: "미스틱은 마블 울버린의 확정 빌런입니다. 강력한 변신 능력을 가진 그녀는 인섬니악 게임즈의 스토리라인에서 핵심적인 역할을 합니다.",
+    },
+    content: {
+      fr: `## Mystique — Métamorphe et manipulatrice
+
+Raven Darkhölme, alias Mystique, est l'une des vilaines principales confirmées de Marvel's Wolverine. Sa capacité de **métamorphose** lui permet de prendre l'apparence de n'importe quel être humain, copiant leur voix, leurs traits et même leurs empreintes digitales. Dans le jeu d'Insomniac Games, elle utilise ce pouvoir pour infiltrer et manipuler, rendant chaque rencontre imprévisible.
+
+## Rôle dans l'histoire
+
+Mystique joue un rôle clé dans l'intrigue de Marvel's Wolverine. Fidèle à son personnage dans les comics, elle oscille entre alliée et ennemie, ses motivations restant floues jusqu'au dénouement. Son histoire est profondément liée à celle de Logan, avec qui elle partage un passé tumultueux. Elle est impliquée dans les machinations qui se trament dans les ruelles de Madripoor.
+
+## Relation avec les X-Men
+
+Dans l'univers Marvel d'Insomniac, Mystique entretient des relations complexes avec les X-Men. Mère biologique de Nightcrawler et mère adoptive de Rogue dans les comics, ses liens familiaux ajoutent des couches de tension dramatique. Sa rivalité avec Wolverine est particulièrement intense, leurs confrontations oscillant entre combat brutal et jeu psychologique.
+
+## Pouvoirs et capacités
+
+- **Métamorphose complète** : changement d'apparence instantané et parfait
+- **Combattante experte** : maîtrise de multiples arts martiaux
+- **Vieillissement ralenti** : apparence jeune malgré son âge réel
+- **Infiltratrice de génie** : capable de maintenir une couverture pendant des années`,
+      en: `## Mystique — Shapeshifter and Manipulator
+
+Raven Darkhölme, aka Mystique, is one of the confirmed main villains in Marvel's Wolverine. Her **shapeshifting** ability allows her to assume the appearance of any human, copying their voice, features and even fingerprints. In Insomniac Games' title, she uses this power to infiltrate and manipulate, making every encounter unpredictable.
+
+## Role in the Story
+
+Mystique plays a key role in Marvel's Wolverine storyline. True to her comic book character, she oscillates between ally and enemy, her motivations remaining unclear until the climax. Her history is deeply tied to Logan's, sharing a tumultuous past. She is involved in the schemes unfolding in the alleys of Madripoor.
+
+## Relationship with the X-Men
+
+In Insomniac's Marvel universe, Mystique maintains complex relationships with the X-Men. Biological mother of Nightcrawler and adoptive mother of Rogue in the comics, her family ties add layers of dramatic tension. Her rivalry with Wolverine is particularly intense, their confrontations oscillating between brutal combat and psychological games.
+
+## Powers and Abilities
+
+- **Complete shapeshifting**: instant and perfect appearance changes
+- **Expert combatant**: mastery of multiple martial arts
+- **Slowed aging**: youthful appearance despite her true age
+- **Master infiltrator**: capable of maintaining cover for years`,
+      es: `## Mystique — Metamorfa y manipuladora
+
+Raven Darkhölme, alias Mystique, es una de las villanas principales confirmadas en Marvel's Wolverine. Su capacidad de **metamorfosis** le permite adoptar la apariencia de cualquier ser humano. En el juego de Insomniac Games, utiliza este poder para infiltrarse y manipular.
+
+## Papel en la historia
+
+Mystique desempeña un papel clave en la trama. Oscila entre aliada y enemiga, sus motivaciones permanecen ambiguas. Su historia está profundamente ligada a la de Logan, con quien comparte un pasado tumultuoso en Madripoor.
+
+## Poderes y habilidades
+
+- **Metamorfosis completa**: cambio de apariencia instantáneo
+- **Combatiente experta**: dominio de múltiples artes marciales
+- **Envejecimiento ralentizado**: apariencia joven pese a su edad real
+- **Infiltradora maestra**: capaz de mantener una cobertura durante años`,
+      pt: `## Mystique — Metamorfa e manipuladora
+
+Raven Darkhölme, alias Mystique, é uma das vilãs principais confirmadas em Marvel's Wolverine. Sua capacidade de **metamorfose** permite assumir a aparência de qualquer ser humano. No jogo da Insomniac Games, ela usa esse poder para infiltrar e manipular.
+
+## Papel na história
+
+Mystique desempenha um papel chave na trama. Oscila entre aliada e inimiga, com motivações ambíguas. Sua história está profundamente ligada à de Logan, com quem compartilha um passado tumultuado em Madripoor.
+
+## Poderes e habilidades
+
+- **Metamorfose completa**: mudança de aparência instantânea
+- **Combatente especialista**: domínio de múltiplas artes marciais
+- **Envelhecimento retardado**: aparência jovem apesar da idade real
+- **Infiltradora mestra**: capaz de manter cobertura por anos`,
+      it: `## Mystique — Metamorfa e manipolatrice
+
+Raven Darkhölme, alias Mystique, è una delle villain principali confermate in Marvel's Wolverine. La sua capacità di **metamorfosi** le permette di assumere l'aspetto di qualsiasi essere umano. Nel gioco di Insomniac Games, usa questo potere per infiltrarsi e manipolare.
+
+## Ruolo nella storia
+
+Mystique gioca un ruolo chiave nella trama. Oscilla tra alleata e nemica, le sue motivazioni restano ambigue. La sua storia è profondamente legata a quella di Logan, con cui condivide un passato tumultuoso a Madripoor.
+
+## Poteri e abilità
+
+- **Metamorfosi completa**: cambio d'aspetto istantaneo
+- **Combattente esperta**: padronanza di molteplici arti marziali
+- **Invecchiamento rallentato**: aspetto giovane nonostante l'età reale
+- **Infiltratrice maestra**: capace di mantenere copertura per anni`,
+      ko: `## 미스틱 — 변신술사이자 조종자
+
+레이븐 다크홀름, 일명 미스틱은 마블 울버린의 확정 메인 빌런 중 한 명입니다. **변신** 능력으로 모든 인간의 외모를 완벽하게 복제할 수 있습니다. 인섬니악 게임즈의 작품에서 이 능력을 이용해 침투하고 조종합니다.
+
+## 스토리에서의 역할
+
+미스틱은 스토리라인에서 핵심적인 역할을 합니다. 아군과 적 사이를 오가며 동기가 불분명합니다. 마드리푸르의 뒷골목에서 벌어지는 음모에 관여합니다.
+
+## 능력
+
+- **완전한 변신**: 즉각적이고 완벽한 외모 변환
+- **전문 전투원**: 다양한 무술 숙달
+- **노화 지연**: 실제 나이에 비해 젊은 외모
+- **잠입 전문가**: 수년간 위장 유지 가능`,
+    },
+    infobox: {
+      'Alias': 'Raven Darkhölme',
+      'Espèce': 'Mutante',
+      'Pouvoir': 'Métamorphose',
+      'Affiliation': 'Variable (Brotherhood / indépendante)',
+      'Jeu': "Marvel's Wolverine",
+    },
+    author: "L'équipe PopCodex",
+    publishedAt: '2026-03-14',
+    updatedAt: '2026-03-14',
+    readTime: 5,
+    tags: ['vilaine', 'personnage', 'wolverine', 'marvel', 'x-men'],
+    relatedSlugs: ['logan', 'omega-red', 'madripoor'],
+  },
+  {
+    slug: 'madripoor',
+    franchise: 'wolverine',
+    category: 'lieux',
+    title: {
+      fr: 'Madripoor',
+      en: 'Madripoor',
+      es: 'Madripoor',
+      pt: 'Madripoor',
+      it: 'Madripoor',
+      ko: '마드리푸르',
+    },
+    excerpt: {
+      fr: "Madripoor est l'île fictive servant de lieu principal à Marvel's Wolverine. Divisée entre Hightown et Lowtown, elle est un carrefour de crime et de pouvoir dans l'univers Insomniac.",
+      en: "Madripoor is the fictional island serving as the main setting of Marvel's Wolverine. Split between Hightown and Lowtown, it's a crossroads of crime and power in Insomniac's universe.",
+      es: "Madripoor es la isla ficticia que sirve como escenario principal de Marvel's Wolverine. Dividida entre Hightown y Lowtown, es un cruce de crimen y poder en el universo Insomniac.",
+      pt: "Madripoor é a ilha fictícia que serve como cenário principal de Marvel's Wolverine. Dividida entre Hightown e Lowtown, é uma encruzilhada de crime e poder no universo Insomniac.",
+      it: "Madripoor è l'isola fittizia che funge da ambientazione principale di Marvel's Wolverine. Divisa tra Hightown e Lowtown, è un crocevia di crimine e potere nell'universo Insomniac.",
+      ko: "마드리푸르는 마블 울버린의 주요 배경이 되는 가상의 섬입니다. 하이타운과 로우타운으로 나뉘며, 인섬니악 유니버스에서 범죄와 권력의 교차로입니다.",
+    },
+    content: {
+      fr: `## Madripoor — L'île du crime
+
+Madripoor est une île-nation fictive du sud-est asiatique, servant de cadre principal à Marvel's Wolverine. Connue dans les comics Marvel comme un refuge pour criminels, mercenaires et figures de l'ombre, elle est le théâtre idéal pour les aventures brutales de Logan.
+
+## La dualité Hightown / Lowtown
+
+L'île est divisée en deux zones radicalement opposées :
+
+**Hightown** est le quartier opulent de Madripoor, avec ses gratte-ciels luxueux, ses casinos et ses résidences de milliardaires. Derrière cette façade brillante se cachent les véritables maîtres de l'île : magnats du crime, seigneurs de guerre et politiciens corrompus.
+
+**Lowtown** est le ventre sombre de l'île. Ruelles étroites, marchés noirs, bars clandestins et combats illégaux définissent ce quartier. C'est ici que Logan se sent le plus chez lui, naviguant dans un monde de violence et de survie. Le Princess Bar, un lieu emblématique des comics, devrait y figurer.
+
+## Importance dans le lore Wolverine
+
+Madripoor est intrinsèquement liée à l'histoire de Wolverine dans les comics. Logan y a opéré sous l'alias « Patch » pendant des années, portant un cache-œil pour dissimuler son identité. L'île représente une période clé de sa vie, entre ses missions avec les X-Men et ses aventures solitaires.
+
+## Connexion avec l'univers Insomniac
+
+Dans l'univers partagé d'Insomniac (Spider-Man, Spider-Man 2), Madripoor a déjà été mentionnée. Marvel's Wolverine approfondit cette connexion, intégrant l'île dans un univers Marvel cohérent. Des références aux événements de Spider-Man 2 et à d'autres héros Marvel sont attendues.`,
+      en: `## Madripoor — The Island of Crime
+
+Madripoor is a fictional island nation in Southeast Asia, serving as the main setting for Marvel's Wolverine. Known in Marvel comics as a haven for criminals, mercenaries and shadowy figures, it provides the perfect backdrop for Logan's brutal adventures.
+
+## The Hightown / Lowtown Duality
+
+The island is divided into two radically opposed zones:
+
+**Hightown** is Madripoor's opulent district, featuring luxurious skyscrapers, casinos and billionaire residences. Behind this gleaming facade lurk the island's true masters: crime lords, warlords and corrupt politicians.
+
+**Lowtown** is the island's dark underbelly. Narrow alleys, black markets, underground bars and illegal fights define this district. This is where Logan feels most at home, navigating a world of violence and survival. The Princess Bar, an iconic comic book location, is expected to feature prominently.
+
+## Importance in Wolverine Lore
+
+Madripoor is intrinsically linked to Wolverine's comic book history. Logan operated there under the alias "Patch" for years, wearing an eyepatch to conceal his identity. The island represents a key period in his life, between his X-Men missions and solo adventures.
+
+## Connection to Insomniac's Universe
+
+In Insomniac's shared universe (Spider-Man, Spider-Man 2), Madripoor has already been mentioned. Marvel's Wolverine deepens this connection, integrating the island into a cohesive Marvel universe. References to Spider-Man 2 events and other Marvel heroes are expected.`,
+      es: `## Madripoor — La isla del crimen
+
+Madripoor es una isla-nación ficticia del sudeste asiático, escenario principal de Marvel's Wolverine. Conocida en los cómics como refugio de criminales y mercenarios, es el telón de fondo perfecto para las aventuras brutales de Logan.
+
+## La dualidad Hightown / Lowtown
+
+**Hightown** es el distrito opulento con rascacielos lujosos, casinos y residencias de millonarios. Detrás de esta fachada brillante se esconden los verdaderos amos de la isla.
+
+**Lowtown** es el vientre oscuro de la isla. Callejones estrechos, mercados negros y peleas ilegales definen este barrio. Es aquí donde Logan se siente como en casa.
+
+## Importancia en el lore Wolverine
+
+Madripoor está intrínsecamente ligada a la historia de Wolverine en los cómics. Logan operó allí bajo el alias "Patch" durante años.
+
+## Conexión con el universo Insomniac
+
+En el universo compartido de Insomniac (Spider-Man, Spider-Man 2), Madripoor ya ha sido mencionada. Marvel's Wolverine profundiza esta conexión.`,
+      pt: `## Madripoor — A ilha do crime
+
+Madripoor é uma ilha-nação fictícia do sudeste asiático, cenário principal de Marvel's Wolverine. Conhecida nos quadrinhos como refúgio de criminosos e mercenários, é o cenário perfeito para as aventuras brutais de Logan.
+
+## A dualidade Hightown / Lowtown
+
+**Hightown** é o distrito opulento com arranha-céus luxuosos, cassinos e residências de bilionários. Por trás dessa fachada brilhante escondem-se os verdadeiros senhores da ilha.
+
+**Lowtown** é o ventre sombrio da ilha. Becos estreitos, mercados negros e lutas ilegais definem este bairro. É aqui que Logan se sente em casa.
+
+## Importância no lore Wolverine
+
+Madripoor está intrinsecamente ligada à história de Wolverine nos quadrinhos. Logan operou lá sob o pseudônimo "Patch" durante anos.
+
+## Conexão com o universo Insomniac
+
+No universo compartilhado da Insomniac (Spider-Man, Spider-Man 2), Madripoor já foi mencionada. Marvel's Wolverine aprofunda essa conexão.`,
+      it: `## Madripoor — L'isola del crimine
+
+Madripoor è un'isola-nazione fittizia del sud-est asiatico, ambientazione principale di Marvel's Wolverine. Conosciuta nei fumetti come rifugio per criminali e mercenari, è lo sfondo perfetto per le avventure brutali di Logan.
+
+## La dualità Hightown / Lowtown
+
+**Hightown** è il distretto opulento con grattacieli lussuosi, casinò e residenze miliardarie. Dietro questa facciata luccicante si nascondono i veri padroni dell'isola.
+
+**Lowtown** è il ventre oscuro dell'isola. Vicoli stretti, mercati neri e combattimenti illegali definiscono questo quartiere. È qui che Logan si sente a casa.
+
+## Importanza nel lore Wolverine
+
+Madripoor è intrinsecamente legata alla storia di Wolverine nei fumetti. Logan operò lì sotto l'alias "Patch" per anni.
+
+## Connessione con l'universo Insomniac
+
+Nell'universo condiviso di Insomniac (Spider-Man, Spider-Man 2), Madripoor è già stata menzionata. Marvel's Wolverine approfondisce questa connessione.`,
+      ko: `## 마드리푸르 — 범죄의 섬
+
+마드리푸르는 동남아시아의 가상 섬나라로, 마블 울버린의 주요 배경입니다. 마블 코믹스에서 범죄자와 용병의 은신처로 알려져 있으며, 로건의 잔혹한 모험에 완벽한 무대입니다.
+
+## 하이타운 / 로우타운의 이중성
+
+**하이타운**은 호화로운 고층 빌딩, 카지노, 억만장자 저택이 있는 부유한 지구입니다. 화려한 외관 뒤에는 섬의 진정한 지배자들이 숨어 있습니다.
+
+**로우타운**은 섬의 어두운 이면입니다. 좁은 골목, 암시장, 불법 싸움이 이 지구를 정의합니다. 로건이 가장 편안함을 느끼는 곳입니다.
+
+## 울버린 로어에서의 중요성
+
+마드리푸르는 코믹스에서 울버린의 역사와 깊이 연결되어 있습니다. 로건은 "패치"라는 가명으로 수년간 활동했습니다.
+
+## 인섬니악 유니버스와의 연결
+
+인섬니악의 공유 유니버스(스파이더맨, 스파이더맨 2)에서 마드리푸르는 이미 언급되었습니다. 마블 울버린은 이 연결을 심화합니다.`,
+    },
+    infobox: {
+      'Type': 'Île-nation fictive',
+      'Région': 'Sud-est asiatique',
+      'Zones': 'Hightown / Lowtown',
+      'Alias de Logan': 'Patch',
+      'Jeu': "Marvel's Wolverine",
+    },
+    author: "L'équipe PopCodex",
+    publishedAt: '2026-03-14',
+    updatedAt: '2026-03-14',
+    readTime: 5,
+    tags: ['lieu', 'wolverine', 'marvel', 'madripoor', 'insomniac'],
+    relatedSlugs: ['logan', 'mystique', 'omega-red'],
+  },
+  // ──────────────────────────────────────────────
+  //  FABLE — PERSONNAGES & GAMEPLAY
+  // ──────────────────────────────────────────────
+  {
+    slug: 'heros-briar-hill',
+    franchise: 'fable',
+    category: 'personnages',
+    title: {
+      fr: 'Le Héros de Briar Hill',
+      en: 'The Hero of Briar Hill',
+      es: 'El Héroe de Briar Hill',
+      pt: 'O Herói de Briar Hill',
+      it: "L'Eroe di Briar Hill",
+      ko: '브라이어 힐의 영웅',
+    },
+    excerpt: {
+      fr: "Le personnage jouable de Fable grandit à Briar Hill avant de découvrir ses pouvoirs héroïques. Une malédiction transforme son village en pierre, le poussant à partir en quête de réponses.",
+      en: "Fable's playable character grows up in Briar Hill before discovering their heroic powers. A curse turns their village to stone, driving them to seek answers.",
+      es: 'El personaje jugable de Fable crece en Briar Hill antes de descubrir sus poderes heroicos. Una maldición convierte su aldea en piedra, impulsándolo a buscar respuestas.',
+      pt: 'O personagem jogável de Fable cresce em Briar Hill antes de descobrir seus poderes heroicos. Uma maldição transforma sua aldeia em pedra, levando-o a buscar respostas.',
+      it: "Il personaggio giocabile di Fable cresce a Briar Hill prima di scoprire i suoi poteri eroici. Una maledizione trasforma il villaggio in pietra, spingendolo a cercare risposte.",
+      ko: '페이블의 플레이어 캐릭터는 브라이어 힐에서 자라며 영웅적 능력을 발견합니다. 저주가 마을을 돌로 변하게 하고, 답을 찾기 위한 여정이 시작됩니다.',
+    },
+    content: {
+      fr: `## Origines à Briar Hill
+
+Le héros de Fable commence son aventure dans le petit village pastoral de **Briar Hill**, niché dans les collines verdoyantes d'Albion. Élevé par sa grand-mère aimante, le protagoniste mène une vie simple et paisible, ignorant tout du destin héroïque qui l'attend. Le village est un havre de paix, isolé des dangers du monde extérieur.
+
+## La découverte des pouvoirs
+
+Au fil de l'enfance, le héros commence à manifester des **capacités extraordinaires** — des éclairs de magie incontrôlée, une force surhumaine dans les moments de stress, une connexion mystérieuse avec la nature d'Albion. Ces pouvoirs héroïques, héritage d'une lignée ancienne, s'éveillent progressivement et attirent l'attention de forces bienveillantes comme malveillantes.
+
+## Le saut temporel
+
+Un **saut temporel** fait avancer l'histoire de plusieurs années. Le héros, désormais adulte, a appris à mieux maîtriser ses dons mais reste à Briar Hill, tiraillé entre le devoir d'explorer son potentiel et l'attachement à sa vie paisible et à sa grand-mère.
+
+## La malédiction de pierre
+
+L'événement déclencheur du jeu survient lorsqu'une **malédiction dévastatrice** s'abat sur Briar Hill. Du jour au lendemain, les habitants du village — y compris la grand-mère du héros — sont transformés en pierre. Le village entier est figé dans un instant de terreur silencieuse. Seul le héros est épargné, protégé par ses pouvoirs naissants.
+
+## Le départ en quête
+
+Dévasté mais déterminé, le héros quitte les ruines pétrifiées de Briar Hill pour enquêter sur l'origine de la malédiction. Son voyage à travers Albion le mènera à découvrir les forces anciennes qui menacent le royaume, à rencontrer des alliés improbables et à affronter des ennemis redoutables. La quête pour sauver sa grand-mère et son village devient le moteur d'une aventure épique à travers tout Albion.`,
+      en: `## Origins in Briar Hill
+
+Fable's hero begins their adventure in the small pastoral village of **Briar Hill**, nestled in Albion's verdant hills. Raised by their loving grandmother, the protagonist leads a simple, peaceful life, unaware of the heroic destiny that awaits. The village is a haven of peace, isolated from the dangers of the outside world.
+
+## Discovering Powers
+
+Throughout childhood, the hero begins manifesting **extraordinary abilities** — flashes of uncontrolled magic, superhuman strength in moments of stress, a mysterious connection with Albion's nature. These heroic powers, inherited from an ancient lineage, gradually awaken and attract attention from both benevolent and malevolent forces.
+
+## The Time Skip
+
+A **time skip** advances the story by several years. The hero, now an adult, has learned to better control their gifts but remains in Briar Hill, torn between the duty to explore their potential and attachment to their peaceful life and grandmother.
+
+## The Stone Curse
+
+The game's inciting event occurs when a **devastating curse** strikes Briar Hill. Overnight, the villagers — including the hero's grandmother — are turned to stone. The entire village is frozen in a moment of silent terror. Only the hero is spared, protected by their nascent powers.
+
+## The Quest Begins
+
+Devastated but determined, the hero leaves the petrified ruins of Briar Hill to investigate the curse's origin. Their journey across Albion will lead them to discover ancient forces threatening the realm, meet unlikely allies and face formidable enemies.`,
+      es: `## Orígenes en Briar Hill
+
+El héroe de Fable comienza su aventura en la pequeña aldea pastoral de **Briar Hill**, en las colinas verdes de Albion. Criado por su abuela, lleva una vida simple ignorando su destino heroico.
+
+## Descubrimiento de poderes
+
+El héroe comienza a manifestar **capacidades extraordinarias**: destellos de magia, fuerza sobrehumana y una conexión misteriosa con la naturaleza de Albion. Estos poderes heredados se despiertan gradualmente.
+
+## El salto temporal
+
+Un **salto temporal** avanza la historia varios años. El héroe, ahora adulto, ha aprendido a controlar mejor sus dones pero permanece en Briar Hill.
+
+## La maldición de piedra
+
+Una **maldición devastadora** cae sobre Briar Hill. Los habitantes — incluyendo la abuela del héroe — se transforman en piedra. Solo el héroe es perdonado, protegido por sus poderes.
+
+## La partida
+
+Devastado pero determinado, el héroe deja las ruinas petrificadas para investigar el origen de la maldición a través de Albion.`,
+      pt: `## Origens em Briar Hill
+
+O herói de Fable começa sua aventura na pequena aldeia pastoral de **Briar Hill**, nas colinas verdes de Albion. Criado pela avó, leva uma vida simples ignorando seu destino heroico.
+
+## Descoberta dos poderes
+
+O herói começa a manifestar **capacidades extraordinárias**: lampejos de magia, força sobre-humana e uma conexão misteriosa com a natureza de Albion.
+
+## O salto temporal
+
+Um **salto temporal** avança a história vários anos. O herói, agora adulto, aprendeu a controlar melhor seus dons mas permanece em Briar Hill.
+
+## A maldição de pedra
+
+Uma **maldição devastadora** atinge Briar Hill. Os habitantes — incluindo a avó do herói — são transformados em pedra. Só o herói é poupado.
+
+## A partida
+
+Devastado mas determinado, o herói deixa as ruínas petrificadas para investigar a origem da maldição através de Albion.`,
+      it: `## Origini a Briar Hill
+
+L'eroe di Fable inizia la sua avventura nel piccolo villaggio pastorale di **Briar Hill**, nelle verdi colline di Albion. Cresciuto dalla nonna, conduce una vita semplice ignorando il suo destino eroico.
+
+## Scoperta dei poteri
+
+L'eroe inizia a manifestare **capacità straordinarie**: lampi di magia, forza sovrumana e una connessione misteriosa con la natura di Albion.
+
+## Il salto temporale
+
+Un **salto temporale** porta la storia avanti di diversi anni. L'eroe, ormai adulto, ha imparato a controllare meglio i suoi doni ma resta a Briar Hill.
+
+## La maledizione di pietra
+
+Una **maledizione devastante** colpisce Briar Hill. Gli abitanti — inclusa la nonna dell'eroe — vengono trasformati in pietra. Solo l'eroe viene risparmiato.
+
+## La partenza
+
+Devastato ma determinato, l'eroe lascia le rovine pietrificate per indagare sull'origine della maledizione attraverso Albion.`,
+      ko: `## 브라이어 힐에서의 시작
+
+페이블의 영웅은 알비온의 푸른 언덕에 자리한 작은 목가적 마을 **브라이어 힐**에서 모험을 시작합니다. 할머니의 손에 자란 주인공은 영웅적 운명을 모른 채 평화로운 삶을 살아갑니다.
+
+## 능력의 발견
+
+성장하면서 영웅은 **비범한 능력**을 발현하기 시작합니다: 제어되지 않는 마법의 섬광, 초인적 힘, 알비온의 자연과의 신비로운 연결.
+
+## 시간 건너뛰기
+
+**시간 건너뛰기**로 이야기가 수년 앞으로 진행됩니다. 성인이 된 영웅은 능력을 더 잘 제어할 수 있지만 여전히 브라이어 힐에 남아 있습니다.
+
+## 돌의 저주
+
+**파괴적인 저주**가 브라이어 힐을 덮칩니다. 할머니를 포함한 마을 주민들이 돌로 변합니다. 영웅만이 초기 능력에 의해 보호받아 살아남습니다.
+
+## 여정의 시작
+
+황폐하지만 결연한 영웅은 저주의 기원을 조사하기 위해 석화된 폐허를 떠나 알비온을 횡단합니다.`,
+    },
+    infobox: {
+      'Village': 'Briar Hill',
+      'Famille': 'Grand-mère (maudite en pierre)',
+      'Pouvoirs': 'Magie héroïque héréditaire',
+      'Jeu': 'Fable (Playground Games)',
+    },
+    author: "L'équipe PopCodex",
+    publishedAt: '2026-03-14',
+    updatedAt: '2026-03-14',
+    readTime: 5,
+    tags: ['personnage', 'fable', 'heros', 'briar-hill', 'albion'],
+    relatedSlugs: ['albion', 'systeme-moralite', 'style-weaving'],
+  },
+  {
+    slug: 'systeme-moralite',
+    franchise: 'fable',
+    category: 'gameplay',
+    title: {
+      fr: 'Système de moralité',
+      en: 'Morality System',
+      es: 'Sistema de moralidad',
+      pt: 'Sistema de moralidade',
+      it: 'Sistema di moralità',
+      ko: '도덕 시스템',
+    },
+    excerpt: {
+      fr: "Le nouveau système de moralité de Fable, révélé au Xbox Developer Direct de janvier 2026, réinvente la façon dont les choix du joueur impactent Albion et ses habitants.",
+      en: "Fable's new morality system, revealed at the January 2026 Xbox Developer Direct, reimagines how player choices impact Albion and its inhabitants.",
+      es: 'El nuevo sistema de moralidad de Fable, revelado en el Xbox Developer Direct de enero de 2026, reinventa cómo las decisiones del jugador impactan Albion y sus habitantes.',
+      pt: 'O novo sistema de moralidade de Fable, revelado no Xbox Developer Direct de janeiro de 2026, reinventa como as escolhas do jogador impactam Albion e seus habitantes.',
+      it: 'Il nuovo sistema di moralità di Fable, rivelato all\'Xbox Developer Direct di gennaio 2026, reinventa il modo in cui le scelte del giocatore impattano Albion e i suoi abitanti.',
+      ko: '2026년 1월 Xbox Developer Direct에서 공개된 페이블의 새로운 도덕 시스템은 플레이어의 선택이 알비온과 주민들에게 미치는 영향을 재구상합니다.',
+    },
+    content: {
+      fr: `## Un système réinventé
+
+Le système de moralité de Fable a été **entièrement repensé** par Playground Games, comme révélé lors du Xbox Developer Direct de janvier 2026. Contrairement aux anciens Fable où le système était relativement binaire (bon/mauvais avec des conséquences cosmétiques comme des cornes ou un halo), le nouveau système promet une approche bien plus nuancée et profonde.
+
+## Évolution par rapport aux anciens Fable
+
+Dans les Fable originaux de Lionhead Studios, la moralité se manifestait principalement par des **changements d'apparence** : un héros vertueux brillait d'une aura dorée et attirait les papillons, tandis qu'un héros maléfique développait des cornes, des yeux rouges et une peau pâle. Le nouveau Fable conserve cette tradition visuelle mais l'enrichit considérablement.
+
+## Impact sur le monde d'Albion
+
+Les choix moraux du joueur ont désormais des **conséquences tangibles sur le monde** :
+
+- **Les villages évoluent** : un village prospère sous un héros bienveillant, tandis qu'il dépérit sous un héros tyrannique
+- **La faune et la flore réagissent** : la nature d'Albion reflète la moralité dominante du héros
+- **Les factions s'adaptent** : certains groupes deviennent alliés ou ennemis selon les choix
+- **Les quêtes changent** : des embranchements narratifs différents s'ouvrent selon l'alignement moral
+
+## Impact sur les PNJ
+
+Les PNJ réagissent de manière **dynamique et mémorable** aux choix du joueur :
+
+- Les habitants fuient ou accourent selon la réputation du héros
+- Les marchands ajustent leurs prix et leur inventaire
+- Des PNJ alliés peuvent devenir hostiles après certaines décisions
+- Des romances et amitiés se nouent ou se brisent selon la moralité
+
+## Zones grises et dilemmes
+
+Playground Games a insisté sur l'importance des **zones grises morales**. Plutôt que des choix évidents entre bien et mal, le jeu présente des dilemmes complexes où les deux options ont des conséquences positives et négatives. Le joueur est confronté à des décisions véritablement difficiles qui façonnent son aventure de manière unique.`,
+      en: `## A Reimagined System
+
+Fable's morality system has been **completely redesigned** by Playground Games, as revealed at the January 2026 Xbox Developer Direct. Unlike previous Fable games where the system was relatively binary (good/evil with cosmetic consequences like horns or a halo), the new system promises a far more nuanced and deep approach.
+
+## Evolution from Previous Fable Games
+
+In Lionhead Studios' original Fable titles, morality primarily manifested through **appearance changes**: a virtuous hero glowed with a golden aura and attracted butterflies, while an evil hero grew horns, red eyes and pale skin. The new Fable preserves this visual tradition but enriches it considerably.
+
+## Impact on Albion
+
+Player moral choices now have **tangible consequences on the world**:
+
+- **Villages evolve**: a village thrives under a benevolent hero, while it withers under a tyrannical one
+- **Flora and fauna react**: Albion's nature reflects the hero's dominant morality
+- **Factions adapt**: certain groups become allies or enemies based on choices
+- **Quests change**: different narrative branches open based on moral alignment
+
+## Impact on NPCs
+
+NPCs react **dynamically and memorably** to player choices:
+
+- Inhabitants flee or flock depending on the hero's reputation
+- Merchants adjust prices and inventory
+- Allied NPCs can become hostile after certain decisions
+- Romances and friendships form or break based on morality
+
+## Gray Areas and Dilemmas
+
+Playground Games emphasized the importance of **moral gray areas**. Rather than obvious good-vs-evil choices, the game presents complex dilemmas where both options have positive and negative consequences.`,
+      es: `## Un sistema reinventado
+
+El sistema de moralidad de Fable ha sido **completamente rediseñado** por Playground Games, como se reveló en el Xbox Developer Direct de enero de 2026. A diferencia de los Fable anteriores con un sistema relativamente binario, el nuevo sistema promete un enfoque mucho más matizado.
+
+## Evolución respecto a los Fable anteriores
+
+En los Fable originales, la moralidad se manifestaba principalmente mediante **cambios de apariencia**: aura dorada y mariposas para el héroe virtuoso, cuernos y ojos rojos para el malvado. El nuevo Fable conserva esta tradición pero la enriquece.
+
+## Impacto en Albion
+
+- **Las aldeas evolucionan** según las acciones del héroe
+- **La fauna y flora reaccionan** a la moralidad dominante
+- **Las facciones se adaptan** según las decisiones
+- **Las misiones cambian** con diferentes ramificaciones narrativas
+
+## Impacto en los PNJ
+
+Los PNJ reaccionan dinámicamente: huyen o se acercan, los comerciantes ajustan precios, aliados pueden volverse hostiles tras ciertas decisiones.`,
+      pt: `## Um sistema reinventado
+
+O sistema de moralidade de Fable foi **completamente redesenhado** pela Playground Games, como revelado no Xbox Developer Direct de janeiro de 2026. Diferente dos Fable anteriores com um sistema relativamente binário, o novo sistema promete uma abordagem muito mais nuançada.
+
+## Evolução em relação aos Fable anteriores
+
+Nos Fable originais, a moralidade se manifestava principalmente por **mudanças de aparência**: aura dourada e borboletas para o herói virtuoso, chifres e olhos vermelhos para o malvado. O novo Fable preserva essa tradição mas a enriquece.
+
+## Impacto em Albion
+
+- **As vilas evoluem** de acordo com as ações do herói
+- **A fauna e flora reagem** à moralidade dominante
+- **As facções se adaptam** conforme as decisões
+- **As missões mudam** com ramificações narrativas diferentes
+
+## Impacto nos NPCs
+
+Os NPCs reagem dinamicamente: fogem ou se aproximam, comerciantes ajustam preços, aliados podem se tornar hostis após certas decisões.`,
+      it: `## Un sistema reinventato
+
+Il sistema di moralità di Fable è stato **completamente riprogettato** da Playground Games, come rivelato all'Xbox Developer Direct di gennaio 2026. A differenza dei Fable precedenti con un sistema relativamente binario, il nuovo sistema promette un approccio molto più sfumato.
+
+## Evoluzione rispetto ai Fable precedenti
+
+Nei Fable originali, la moralità si manifestava principalmente attraverso **cambiamenti estetici**: aura dorata e farfalle per l'eroe virtuoso, corna e occhi rossi per il malvagio. Il nuovo Fable preserva questa tradizione ma la arricchisce.
+
+## Impatto su Albion
+
+- **I villaggi evolvono** in base alle azioni dell'eroe
+- **Flora e fauna reagiscono** alla moralità dominante
+- **Le fazioni si adattano** in base alle scelte
+- **Le quest cambiano** con diverse ramificazioni narrative
+
+## Impatto sugli NPC
+
+Gli NPC reagiscono dinamicamente: fuggono o accorrono, i mercanti aggiustano i prezzi, alleati possono diventare ostili dopo certe decisioni.`,
+      ko: `## 재구상된 시스템
+
+페이블의 도덕 시스템은 2026년 1월 Xbox Developer Direct에서 공개된 것처럼 Playground Games에 의해 **완전히 재설계**되었습니다. 비교적 이분법적이었던 이전 페이블과 달리, 새로운 시스템은 훨씬 더 미묘한 접근을 약속합니다.
+
+## 이전 페이블과의 변화
+
+원작 페이블에서 도덕성은 주로 **외모 변화**로 나타났습니다: 선한 영웅은 황금 오라와 나비, 악한 영웅은 뿔과 붉은 눈. 새 페이블은 이 전통을 유지하되 크게 풍부하게 합니다.
+
+## 알비온에 미치는 영향
+
+- **마을이 진화**: 영웅의 행동에 따라 번영하거나 쇠퇴
+- **동식물이 반응**: 지배적인 도덕성을 반영
+- **세력이 적응**: 선택에 따라 동맹 또는 적
+- **퀘스트가 변화**: 도덕 성향에 따라 다른 분기
+
+## NPC에 미치는 영향
+
+NPC가 동적으로 반응: 도망하거나 모여들고, 상인이 가격 조정, 동맹이 적대적으로 변할 수 있음.`,
+    },
+    infobox: {
+      'Révélé': 'Xbox Developer Direct (janvier 2026)',
+      'Studio': 'Playground Games',
+      'Type': 'Système de choix moraux dynamiques',
+      'Jeu': 'Fable',
+    },
+    author: "L'équipe PopCodex",
+    publishedAt: '2026-03-14',
+    updatedAt: '2026-03-14',
+    readTime: 6,
+    tags: ['gameplay', 'fable', 'moralite', 'choix', 'albion'],
+    relatedSlugs: ['albion', 'heros-briar-hill', 'style-weaving'],
+  },
 ];
 
 // Import franchise-specific articles (will be populated by migration)
