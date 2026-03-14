@@ -58,6 +58,8 @@ const NavBar = memo(() => {
   const openSearch = useCallback(() => setSearchOpen(true), [setSearchOpen]);
   const isDbActive = ['/items', '/quests', '/glossary'].includes(location.pathname);
 
+  const isWikiMode = typeof window !== 'undefined' && new URLSearchParams(window.location.search).get('wiki') === 'true';
+
   return (
     <>
       <nav
@@ -72,14 +74,16 @@ const NavBar = memo(() => {
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-14">
           <div className="flex items-center gap-3">
-            <a
-              href="/fr"
-              className="flex items-center gap-1 px-2 py-1 rounded-md font-body text-[0.65rem] tracking-wider transition-all duration-200 border border-emerald-900/30 hover:border-emerald-700/50 hover:bg-emerald-900/10 text-gray-400 hover:text-emerald-400"
-              title="Retour à PopCodex"
-            >
-              <ArrowLeft size={12} />
-              <span className="hidden sm:inline">PopCodex</span>
-            </a>
+            {!isWikiMode && (
+              <a
+                href="/fr"
+                className="flex items-center gap-1 px-2 py-1 rounded-md font-body text-[0.65rem] tracking-wider transition-all duration-200 border border-emerald-900/30 hover:border-emerald-700/50 hover:bg-emerald-900/10 text-gray-400 hover:text-emerald-400"
+                title="Retour à PopCodex"
+              >
+                <ArrowLeft size={12} />
+                <span className="hidden sm:inline">PopCodex</span>
+              </a>
+            )}
             <Link to="/" className="flex items-center gap-2 group" aria-label="Home">
               <span className="text-lg font-display text-emerald-400 group-hover:scale-105 transition-transform duration-300">
                 Fable
@@ -154,7 +158,7 @@ const NavBar = memo(() => {
                     <button key={l} onClick={() => { setLang(l); setLangMenuOpen(false); }}
                       className={`block w-full px-4 py-2 text-left font-body text-[0.7rem] font-bold tracking-wider transition-colors
                         ${l === lang ? 'text-emerald-400 bg-emerald-900/20' : 'text-gray-400 hover:text-emerald-400 hover:bg-emerald-900/10'}`}>
-                      {l === 'fr' ? 'Francais' : 'English'}
+                      {l === 'fr' ? '🇫🇷 Français' : l === 'en' ? '🇬🇧 English' : l === 'es' ? '🇪🇸 Español' : l === 'pt' ? '🇧🇷 Português' : l === 'it' ? '🇮🇹 Italiano' : '🇰🇷 한국어'}
                     </button>
                   ))}
                 </div>

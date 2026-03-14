@@ -42,6 +42,7 @@ export const regions: Region[] = [
     enemies: ['Bandits', 'Hobbes'],
     quests: { fr: ['Rejoindre la Guilde', 'Le Marche Noir'], en: ['Join the Guild', 'The Black Market'] },
     mapPosition: { x: 50, y: 40 },
+    image: '/fable/screenshots/fable-bowerstone.jpg',
   },
   {
     id: 'briar-hill',
@@ -63,6 +64,7 @@ export const regions: Region[] = [
     enemies: [],
     quests: { fr: ['L\'Enfance du Heros', 'La Petrification'], en: ["The Hero's Childhood", 'The Petrification'] },
     mapPosition: { x: 30, y: 25 },
+    image: '/fable/screenshots/fable-hamlet.jpg',
   },
   {
     id: 'bloodstone',
@@ -83,6 +85,7 @@ export const regions: Region[] = [
     enemies: ['Pirates', 'Balverines', 'Bandits'],
     quests: { fr: ['L\'Or des Pirates'], en: ["Pirate's Gold"] },
     mapPosition: { x: 75, y: 70 },
+    image: '/fable/region-northcoast.jpg',
   },
   {
     id: 'fairfax',
@@ -104,6 +107,7 @@ export const regions: Region[] = [
     enemies: ['Hollow Men', 'Guards'],
     quests: { fr: ['Le Secret de Fairfax'], en: ["Fairfax's Secret"] },
     mapPosition: { x: 55, y: 30 },
+    image: '/fable/region-garden.jpg',
   },
   {
     id: 'the-wilds',
@@ -125,5 +129,6 @@ export const regions: Region[] = [
     enemies: ['Balverines', 'Hobbes', 'Trolls'],
     quests: { fr: ['La Chasse au Balverine', 'Le Roi des Hobbes'], en: ['The Balverine Hunt', 'The Hobbe King'] },
     mapPosition: { x: 25, y: 60 },
+    image: '/fable/region-forest.jpg',
   },
 ];

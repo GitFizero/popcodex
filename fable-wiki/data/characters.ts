@@ -89,6 +89,7 @@ export const characters: Character[] = [
       { characterId: 'stranger', type: 'RIVAL', description: { fr: 'Antagoniste qui a petrifie le village', en: 'Antagonist who petrified the village' } },
     ],
     loreEntries: ['heroes-guild', 'briar-hill', 'the-will'],
+    image: '/fable/hero-customisation.jpg',
   },
   {
     id: 'humphry',

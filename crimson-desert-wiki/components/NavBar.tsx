@@ -65,6 +65,7 @@ const NavBar = memo(() => {
   const openSearch = useCallback(() => setSearchOpen(true), [setSearchOpen]);
 
   const isDbActive = ['/items', '/mounts', '/quests', '/glossary'].includes(location.pathname);
+  const isWikiMode = typeof window !== 'undefined' && new URLSearchParams(window.location.search).get('wiki') === 'true';
 
   return (
     <>
@@ -80,14 +81,16 @@ const NavBar = memo(() => {
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-14">
           <div className="flex items-center gap-3">
-            <a
-              href="/fr"
-              className="flex items-center gap-1 px-2 py-1 rounded-md font-ui text-[0.65rem] tracking-wider transition-all duration-200 border border-border-gold/20 hover:border-border-gold/40 hover:bg-raised/30 text-text-secondary hover:text-gold-bright"
-              title="Retour à PopCodex"
-            >
-              <ArrowLeft size={12} />
-              <span className="hidden sm:inline">PopCodex</span>
-            </a>
+            {!isWikiMode && (
+              <a
+                href="/fr"
+                className="flex items-center gap-1 px-2 py-1 rounded-md font-ui text-[0.65rem] tracking-wider transition-all duration-200 border border-border-gold/20 hover:border-border-gold/40 hover:bg-raised/30 text-text-secondary hover:text-gold-bright"
+                title="Retour à PopCodex"
+              >
+                <ArrowLeft size={12} />
+                <span className="hidden sm:inline">PopCodex</span>
+              </a>
+            )}
             <Link to="/" className="flex items-center gap-2 group focus-gold" aria-label="Accueil">
               <span className="text-lg font-display text-gold-bright group-hover:scale-105 transition-transform duration-300">
                 ⚔ CD
@@ -180,7 +183,7 @@ const NavBar = memo(() => {
                       className={`block w-full px-4 py-2 text-left font-ui text-[0.7rem] font-bold tracking-wider transition-colors
                         ${l === lang ? 'text-gold-bright bg-raised/50' : 'text-text-secondary hover:text-gold-bright hover:bg-raised/30'}`}
                     >
-                      {l === 'fr' ? '🇫🇷 Français' : l === 'en' ? '🇬🇧 English' : l === 'es' ? '🇪🇸 Español' : l === 'it' ? '🇮🇹 Italiano' : '🇰🇷 한국어'}
+                      {l === 'fr' ? '🇫🇷 Français' : l === 'en' ? '🇬🇧 English' : l === 'es' ? '🇪🇸 Español' : l === 'pt' ? '🇧🇷 Português' : l === 'it' ? '🇮🇹 Italiano' : '🇰🇷 한국어'}
                     </button>
                   ))}
                 </div>

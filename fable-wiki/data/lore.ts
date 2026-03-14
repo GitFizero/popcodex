@@ -18,6 +18,7 @@ export const loreEntries: LoreEntry[] = [
     id: 'heroes-guild',
     title: "The Heroes' Guild",
     category: 'FACTION',
+    image: '/fable/region-bowerstone.jpg',
     excerpt: {
       fr: "L'institution legendaire qui forme les heros d'Albion depuis des siecles.",
       en: "The legendary institution that has trained Albion's heroes for centuries.",
@@ -35,6 +36,7 @@ export const loreEntries: LoreEntry[] = [
     id: 'old-kingdom',
     title: 'The Old Kingdom',
     category: 'EVENT',
+    image: '/fable/region-garden.jpg',
     excerpt: {
       fr: "L'ancienne civilisation qui a autrefois gouverne Albion avec une magie incommensurable.",
       en: 'The ancient civilization that once ruled Albion with immeasurable magic.',
@@ -69,6 +71,7 @@ export const loreEntries: LoreEntry[] = [
     id: 'balverines',
     title: 'Balverines',
     category: 'ITEM',
+    image: '/fable/creature-cockatrice.jpg',
     excerpt: {
       fr: "Les terrifiants loups-garous d'Albion, creatures de cauchemar hantant les forets.",
       en: "Albion's terrifying werewolves, nightmare creatures haunting the forests.",
@@ -86,6 +89,7 @@ export const loreEntries: LoreEntry[] = [
     id: 'hobbes',
     title: 'Hobbes',
     category: 'ITEM',
+    image: '/fable/creature-hobbe.jpg',
     excerpt: {
       fr: "Creatures gobelines vivant dans des terriers souterrains a travers Albion.",
       en: 'Goblin-like creatures dwelling in underground burrows across Albion.',
@@ -103,6 +107,7 @@ export const loreEntries: LoreEntry[] = [
     id: 'fairfax-castle',
     title: 'Fairfax Castle Legends',
     category: 'LOCATION',
+    image: '/fable/region-garden.jpg',
     excerpt: {
       fr: "L'ancienne forteresse recelant des secrets datant de l'Ancien Royaume.",
       en: 'The ancient fortress holding secrets dating back to the Old Kingdom.',
@@ -188,6 +193,7 @@ export const loreEntries: LoreEntry[] = [
     id: 'briar-hill-lore',
     title: 'Briar Hill',
     category: 'LOCATION',
+    image: '/fable/region-hamlet.jpg',
     excerpt: {
       fr: "Le paisible village natal du Heros, maintenant petrifie.",
       en: "The Hero's peaceful home village, now petrified.",
@@ -205,6 +211,7 @@ export const loreEntries: LoreEntry[] = [
     id: 'bowerstone-lore',
     title: 'Bowerstone',
     category: 'LOCATION',
+    image: '/fable/region-bowerstone.jpg',
     excerpt: {
       fr: "La capitale d'Albion, centre du commerce et de la Guilde des Heros.",
       en: "Albion's capital, hub of commerce and the Heroes' Guild.",
