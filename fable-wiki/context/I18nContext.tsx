@@ -1,11 +1,11 @@
 import React, { createContext, useContext, useState, useCallback, useEffect } from 'react';
 
-export type Lang = 'fr' | 'en';
+export type Lang = 'fr' | 'en' | 'es' | 'pt' | 'it' | 'ko';
 
 /** Translation object — fr and en required */
 export type Translations = { fr: string; en: string } & { [key: string]: string };
 
-const SUPPORTED_LANGS: Lang[] = ['fr', 'en'];
+const SUPPORTED_LANGS: Lang[] = ['fr', 'en', 'es', 'pt', 'it', 'ko'];
 
 function detectBrowserLang(): Lang {
   const stored = localStorage.getItem('fable-lang');
@@ -298,6 +298,10 @@ const translations: Record<Lang, Record<string, string>> = {
     'gallery.filter.characters': 'Characters',
     'gallery.filter.combat': 'Combat',
   },
+  es: {},
+  pt: {},
+  it: {},
+  ko: {},
 };
 
 export const I18nProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {

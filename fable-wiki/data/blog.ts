@@ -13,7 +13,7 @@ export interface BlogArticle {
   author: string;
   publishedAt: string;
   readingTime: number;
-  tags: { fr: string; en: string }[];
+  tags: { fr: string; en: string; es?: string; pt?: string; it?: string; ko?: string }[];
   seoTitle: Translations;
   seoDescription: Translations;
   relatedSlugs?: string[];

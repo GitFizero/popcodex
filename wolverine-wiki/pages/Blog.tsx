@@ -6,8 +6,7 @@ import RevealOnScroll from '@/wolverine-wiki/components/RevealOnScroll';
 import GoldDivider from '@/wolverine-wiki/components/GoldDivider';
 import SEOHead from '@/wolverine-wiki/components/SEOHead';
 import { seo } from '@/wolverine-wiki/lib/seo';
-
-const blogArticles: any[] = [];
+import { blogArticles } from '@/wolverine-wiki/data/blog';
 
 const CATEGORIES = ['all', 'guide', 'lore', 'news', 'analysis'] as const;
 

@@ -1,11 +1,11 @@
 import React, { createContext, useContext, useState, useCallback, useEffect } from 'react';
 
-export type Lang = 'fr' | 'en';
+export type Lang = 'fr' | 'en' | 'es' | 'pt' | 'it' | 'ko';
 
 /** Translation object — fr and en required */
 export type Translations = { fr: string; en: string } & { [key: string]: string };
 
-const SUPPORTED_LANGS: Lang[] = ['fr', 'en'];
+const SUPPORTED_LANGS: Lang[] = ['fr', 'en', 'es', 'pt', 'it', 'ko'];
 
 function detectBrowserLang(): Lang {
   const stored = localStorage.getItem('wolverine-lang');
@@ -490,6 +490,10 @@ const translations: Record<Lang, Record<string, string>> = {
     'gallery.community_desc': 'Share your screenshots after the game releases.',
     'gallery.community_features': 'Upload · Vote · Share',
   },
+  es: {},
+  pt: {},
+  it: {},
+  ko: {},
 };
 
 export const I18nProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
