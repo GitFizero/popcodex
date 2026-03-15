@@ -11,6 +11,28 @@ body:has(.gta-vi-wiki) {
   font-family: 'DM Sans', sans-serif !important;
 }
 
+/* Retro mode: fix selector — class is on <html>, not on .gta-vi-wiki */
+.retro-mode .gta-vi-wiki {
+  filter: contrast(1.1) saturate(1.3);
+}
+.retro-mode .gta-vi-wiki::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 1px,
+    rgba(255, 20, 147, 0.02) 1px,
+    rgba(255, 20, 147, 0.02) 2px
+  );
+  pointer-events: none;
+  z-index: 9998;
+}
+
 /* Neon glow keyframes */
 @keyframes neonPulse {
   0%, 100% { opacity: 1; }

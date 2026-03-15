@@ -11,6 +11,22 @@ body:has(.fable-wiki) {
   font-family: 'Crimson Text', serif !important;
 }
 
+/* Storybook mode: fix selector — class is on <html>, not on .fable-wiki */
+.storybook-mode .fable-wiki {
+  filter: sepia(0.2) contrast(1.05);
+}
+.storybook-mode .fable-wiki::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(ellipse at center, transparent 50%, rgba(139, 69, 19, 0.15) 100%);
+  pointer-events: none;
+  z-index: 9998;
+}
+
 /* Fairy tale glow */
 @keyframes fairyGlow {
   0%, 100% { filter: brightness(1); }

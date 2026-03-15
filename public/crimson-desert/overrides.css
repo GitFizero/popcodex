@@ -24,3 +24,23 @@ body:has(.crimson-desert-wiki) {
 .crimson-desert-wiki {
   min-height: 100vh;
 }
+
+/* Parchment mode: override with higher specificity than .crimson-desert-wiki */
+.parchment-mode .crimson-desert-wiki {
+  --bg-void: 38 30% 88%;
+  --bg-base: 36 28% 84%;
+  --bg-surface: 34 26% 80%;
+  --bg-raised: 32 24% 76%;
+  --bg-card: 30 28% 72%;
+  --bg-card-hover: 28 26% 68%;
+  --text-primary: 24 40% 15%;
+  --text-secondary: 28 22% 30%;
+  --text-muted: 30 18% 48%;
+  --border-subtle: 28 20% 60% / 0.5;
+  --border-mid: 36 30% 50% / 0.4;
+  --border-gold: 42 53% 40% / 0.5;
+}
+
+.parchment-mode body:has(.crimson-desert-wiki) {
+  background: hsl(38 30% 88%) !important;
+}

@@ -179,7 +179,7 @@ const NavBar = memo(() => {
       </nav>
 
       {mobileOpen && (
-        <div className="fixed inset-0 z-[999] flex flex-col items-center justify-center gap-4 overflow-y-auto py-20"
+        <div className="fixed inset-0 z-[999] flex flex-col items-center gap-4 overflow-y-auto pt-20 pb-8"
           style={{ background: 'rgba(3,10,5,0.97)', backdropFilter: 'blur(10px)' }}
           onClick={() => setMobileOpen(false)}>
           <Link to="/" className="font-heading text-[1.8rem] text-emerald-400 transition-colors" onClick={e => e.stopPropagation()}>{t('nav.home')}</Link>
