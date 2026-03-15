@@ -290,14 +290,15 @@ export default function CrimsonWikiHome({ franchise }: CrimsonWikiHomeProps) {
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.3 }}
-            className="text-gradient-gold shimmer text-6xl sm:text-7xl lg:text-9xl font-bold"
+            className="text-6xl sm:text-7xl lg:text-9xl font-bold leading-[0.9]"
             style={{
               fontFamily: franchise.theme.fontDisplay,
               letterSpacing: '0.08em',
               textTransform: 'uppercase',
             }}
           >
-            Crimson Desert
+            <span className="text-gradient-gold shimmer block">Crimson</span>
+            <span className="text-gradient-crimson block">Desert</span>
           </motion.h1>
 
           {/* Subtitle */}
