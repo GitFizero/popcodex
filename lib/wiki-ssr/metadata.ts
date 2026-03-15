@@ -45,7 +45,8 @@ export function generateWikiSectionMetadata(
 
   const title = sectionSeo.title[locale] || sectionSeo.title.en || sectionSeo.title.fr;
   const description = sectionSeo.desc[locale] || sectionSeo.desc.en || sectionSeo.desc.fr;
-  const path = section ? `/${locale}/${franchiseId}/${section}` : `/${locale}/${franchiseId}`;
+  const isIndex = !section || section === 'index';
+  const path = isIndex ? `/${locale}/${franchiseId}` : `/${locale}/${franchiseId}/${section}`;
   const image = ogImage || `${BASE_URL}/og-image.svg`;
 
   return {
@@ -54,7 +55,7 @@ export function generateWikiSectionMetadata(
     alternates: {
       canonical: `${BASE_URL}${path}`,
       languages: Object.fromEntries(
-        ALL_LOCALES.map(l => [l, `${BASE_URL}/${l}/${franchiseId}${section ? `/${section}` : ''}`])
+        ALL_LOCALES.map(l => [l, `${BASE_URL}/${l}/${franchiseId}${!isIndex ? `/${section}` : ''}`])
       ),
     },
     openGraph: {
