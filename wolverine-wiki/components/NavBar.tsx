@@ -4,8 +4,8 @@ import { useApp } from '@/wolverine-wiki/context/AppContext';
 import { useI18n, type Lang } from '@/wolverine-wiki/context/I18nContext';
 import { Search, X, Menu, Globe, Moon, Sun, ChevronDown, ArrowLeft } from 'lucide-react';
 
-const LANG_CYCLE: Lang[] = ['fr', 'en'];
-const LANG_LABELS: Record<Lang, string> = { fr: 'FR', en: 'EN' };
+const LANG_CYCLE: Lang[] = ['fr', 'en', 'es', 'pt', 'it', 'ko'];
+const LANG_LABELS: Record<Lang, string> = { fr: 'FR', en: 'EN', es: 'ES', pt: 'PT', it: 'IT', ko: 'KO' };
 
 const NavBar = memo(() => {
   const [scrolled, setScrolled] = useState(false);

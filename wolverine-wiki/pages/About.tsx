@@ -7,7 +7,7 @@ import { seo } from '@/wolverine-wiki/lib/seo';
 import { useState, useEffect } from 'react';
 import type { Lang } from '@/wolverine-wiki/context/I18nContext';
 
-const triviaAll: Record<Lang, string[]> = {
+const triviaAll: Partial<Record<Lang, string[]>> & { fr: string[]; en: string[] } = {
   fr: [
     "Marvel's Wolverine a ete annonce en septembre 2021 par Insomniac Games.",
     "Le jeu utilise le meme moteur graphique que Marvel's Spider-Man 2.",
@@ -22,7 +22,7 @@ const triviaAll: Record<Lang, string[]> = {
   ],
 };
 
-const creditRoles: Record<Lang, { role: string; name: string }[]> = {
+const creditRoles: Partial<Record<Lang, { role: string; name: string }[]>> & { fr: { role: string; name: string }[]; en: { role: string; name: string }[] } = {
   fr: [
     { role: 'Editeur principal', name: 'Contributeurs communautaires' },
     { role: 'Recherche Lore', name: 'X-Men Scholars' },

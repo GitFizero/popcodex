@@ -30,11 +30,19 @@ interface SEOHeadProps {
 const LOCALE_MAP: Record<Lang, string> = {
   fr: 'fr_FR',
   en: 'en_US',
+  es: 'es_ES',
+  pt: 'pt_BR',
+  it: 'it_IT',
+  ko: 'ko_KR',
 };
 
 const KEYWORDS: Record<Lang, string> = {
   fr: "wolverine, marvel's wolverine, wolverine date de sortie, wolverine ps5, wolverine gameplay, wolverine jeu, insomniac games, logan, weapon x, adamantium, wolverine wiki",
   en: "wolverine, marvel's wolverine, wolverine release date, wolverine ps5, wolverine gameplay, wolverine game, insomniac games, logan, weapon x, adamantium, wolverine wiki",
+  es: "wolverine, marvel's wolverine, wolverine fecha de lanzamiento, wolverine ps5, wolverine gameplay, insomniac games, logan, weapon x, adamantium",
+  pt: "wolverine, marvel's wolverine, wolverine data de lançamento, wolverine ps5, wolverine gameplay, insomniac games, logan, weapon x, adamantium",
+  it: "wolverine, marvel's wolverine, wolverine data di uscita, wolverine ps5, wolverine gameplay, insomniac games, logan, weapon x, adamantium",
+  ko: "울버린, 마블 울버린, 울버린 출시일, 울버린 PS5, 울버린 게임플레이, 인섬니악 게임즈, 로건, 웨폰 X, 아다만티움",
 };
 
 const SEOHead = ({
