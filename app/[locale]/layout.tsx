@@ -11,7 +11,7 @@ export function generateStaticParams() {
 
 // Critical fonts: display + body fonts needed for initial render
 // Only load 2 critical fonts synchronously (body + display), defer the rest
-const CRITICAL_FONTS = 'https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;700&family=Instrument+Sans:wght@400;500;600;700&display=swap';
+const CRITICAL_FONTS = 'https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;700&family=Instrument+Sans:wght@400;500;600;700&family=Cinzel+Decorative:wght@400;700&display=swap';
 
 // Non-critical fonts: loaded asynchronously after page render
 // Deferred fonts: all remaining fonts loaded after initial paint
@@ -42,13 +42,15 @@ export default async function LocaleLayout({
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         {/* Critical fonts - loaded synchronously for initial render */}
         <link href={CRITICAL_FONTS} rel="stylesheet" />
-        {/* Non-critical fonts - loaded asynchronously */}
+        {/* Non-critical fonts - loaded asynchronously via preload */}
+        <link
+          rel="preload"
+          href={DEFERRED_FONTS}
+          as="style"
+        />
         <link
           href={DEFERRED_FONTS}
           rel="stylesheet"
-          media="print"
-          // @ts-ignore - onLoad switches media to 'all' after load
-          onLoad="this.media='all'"
         />
         <noscript>
           <link href={DEFERRED_FONTS} rel="stylesheet" />
