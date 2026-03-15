@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next';
 import { locales } from '@/lib/i18n/config';
 import { getAllFranchiseIds } from '@/lib/franchise-config';
 
-const BASE_URL = 'https://popcodex.com';
+const BASE_URL = 'https://www.popcodex.com';
 
 // Wiki SPA section routes shared by all franchises
 const WIKI_SECTIONS = [
