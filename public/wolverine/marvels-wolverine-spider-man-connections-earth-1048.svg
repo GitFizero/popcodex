@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect width="1200" height="630" fill="#1a1a0a"/>
+  <rect x="0" y="0" width="1200" height="4" fill="#EAB308"/>
+  <rect x="0" y="626" width="1200" height="4" fill="#DC2626"/>
+  <!-- Web pattern (left side) -->
+  <line x1="480" y1="160" x2="480" y2="340" stroke="#DC2626" stroke-width="2" opacity="0.6"/>
+  <line x1="400" y1="250" x2="560" y2="250" stroke="#DC2626" stroke-width="2" opacity="0.6"/>
+  <line x1="420" y1="180" x2="540" y2="320" stroke="#DC2626" stroke-width="2" opacity="0.5"/>
+  <line x1="420" y1="320" x2="540" y2="180" stroke="#DC2626" stroke-width="2" opacity="0.5"/>
+  <!-- Web arcs -->
+  <path d="M440,190 Q480,200 520,190" fill="none" stroke="#DC2626" stroke-width="1.5" opacity="0.4"/>
+  <path d="M420,220 Q480,235 540,220" fill="none" stroke="#DC2626" stroke-width="1.5" opacity="0.4"/>
+  <path d="M420,280 Q480,265 540,280" fill="none" stroke="#DC2626" stroke-width="1.5" opacity="0.4"/>
+  <!-- Cross/connection symbol -->
+  <text x="600" y="265" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="48" fill="#EAB308" font-weight="bold">X</text>
+  <!-- Claw marks (right side) -->
+  <line x1="660" y1="180" x2="640" y2="320" stroke="#EAB308" stroke-width="6" stroke-linecap="round"/>
+  <line x1="700" y1="180" x2="680" y2="320" stroke="#EAB308" stroke-width="6" stroke-linecap="round"/>
+  <line x1="740" y1="180" x2="720" y2="320" stroke="#EAB308" stroke-width="6" stroke-linecap="round"/>
+  <!-- Game name -->
+  <text x="600" y="80" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#EAB308" letter-spacing="4" font-weight="bold">MARVEL'S WOLVERINE</text>
+  <!-- Title -->
+  <text x="600" y="440" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="52" fill="#EAB308" font-weight="bold">Earth-1048</text>
+  <!-- Subtitle -->
+  <text x="600" y="485" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#ffffff" opacity="0.5">Spider-Man Connections</text>
+  <!-- Watermark -->
+  <text x="1160" y="610" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#ffffff" opacity="0.2">PopCodex</text>
+</svg>

@@ -705,4 +705,922 @@ Pywel è il vasto continente che funge da ambientazione per Crimson Desert. Dila
     tags: ['crimson-desert', 'lore', 'pywel', 'monde'],
     relatedSlugs: ['hernand', 'pailune', 'demeniss', 'delesyie', 'desert-pourpre'],
   },
+
+  // ──────────────────────────────────────────────
+  //  ACTUALITÉS & GUIDES (5 nouveaux articles)
+  // ──────────────────────────────────────────────
+
+  {
+    slug: 'crimson-desert-release-times-preload-launch-faq',
+    franchise: 'crimson-desert',
+    category: 'actualites',
+    title: {
+      fr: 'Crimson Desert : horaires de sortie, préchargement et FAQ de lancement',
+      en: 'Crimson Desert: Release Times, Preload & Launch FAQ',
+      es: 'Crimson Desert: horarios de lanzamiento, precarga y FAQ',
+      pt: 'Crimson Desert: horários de lançamento, pré-download e FAQ',
+      it: 'Crimson Desert: orari di lancio, preload e FAQ',
+      ko: '크림슨 디저트: 출시 시간, 사전 다운로드 및 런칭 FAQ',
+    },
+    excerpt: {
+      fr: 'Tous les horaires de sortie de Crimson Desert par fuseau horaire, les détails du préchargement et les réponses aux questions fréquentes de lancement.',
+      en: 'All Crimson Desert release times by timezone, preload details and launch FAQ answers.',
+      es: 'Todos los horarios de lanzamiento de Crimson Desert por zona horaria, detalles de precarga y FAQ de lanzamiento.',
+      pt: 'Todos os horários de lançamento de Crimson Desert por fuso horário, detalhes de pré-download e FAQ de lançamento.',
+      it: 'Tutti gli orari di lancio di Crimson Desert per fuso orario, dettagli sul preload e FAQ di lancio.',
+      ko: '크림슨 디저트의 시간대별 출시 시간, 사전 다운로드 세부 사항 및 런칭 FAQ.',
+    },
+    content: {
+      fr: `## Horaires de sortie mondiale
+
+Crimson Desert sera lancé simultanément dans le monde entier le **19 mars 2026**. Pearl Abyss a opté pour un lancement global synchronisé, ce qui signifie que tous les joueurs, quelle que soit leur région, pourront accéder au jeu au même moment.
+
+### Tableau des horaires par fuseau horaire
+
+| Fuseau horaire | Date | Heure |
+|---|---|---|
+| PT (Los Angeles) | 19 mars 2026 | 15h00 |
+| MT (Denver) | 19 mars 2026 | 16h00 |
+| CT (Chicago) | 19 mars 2026 | 17h00 |
+| ET (New York) | 19 mars 2026 | 18h00 |
+| GMT (Londres) | 19 mars 2026 | 22h00 |
+| CET (Paris) | 19 mars 2026 | 23h00 |
+| JST (Tokyo) | 20 mars 2026 | 07h00 |
+| KST (Séoul) | 20 mars 2026 | 07h00 |
+| AEST (Sydney) | 20 mars 2026 | 09h00 |
+
+## Préchargement
+
+Le préchargement de Crimson Desert débute le **17 mars 2026 à 15h PT / 22h GMT**, soit deux jours avant le lancement. Le préchargement est disponible sur toutes les plateformes :
+
+- **PlayStation Store** : accessible directement depuis la bibliothèque PS5
+- **Xbox Store** : via le Microsoft Store sur Xbox Series X|S
+- **Microsoft Store** : pour la version PC Windows
+- **Steam** : via la bibliothèque Steam sur PC
+
+### Taille du jeu
+
+Le jeu pèse environ **150 Go** sur toutes les plateformes. Un **SSD est requis** pour garantir les performances optimales du moteur BlackSpace Engine. Pearl Abyss recommande de libérer au moins 200 Go d'espace pour accommoder le jeu et les futures mises à jour.
+
+## Patch Day 1
+
+Une **connexion internet est nécessaire** lors du premier lancement pour télécharger le patch Day 1 et effectuer la configuration initiale. Une fois cette étape complétée, le jeu est **jouable entièrement hors ligne** pour la campagne solo.
+
+Le patch Day 1 devrait inclure des corrections de bugs identifiés lors des dernières phases de test, ainsi que des ajustements de performances basés sur les retours des previews presse.
+
+## FAQ de lancement
+
+### Cross-save entre plateformes
+
+Il n'y a **pas de cross-save** entre les différentes plateformes. Si vous commencez une partie sur PS5, votre progression ne sera pas transférable sur PC ou Xbox, et vice versa. Pearl Abyss n'a pas annoncé de plans pour le cross-save à l'avenir.
+
+### Support des manettes
+
+Crimson Desert supporte les manettes **Xbox** et **DualSense** sur toutes les plateformes. Sur PC, les manettes doivent être connectées en **USB uniquement** — le Bluetooth n'est pas supporté au lancement. Les fonctionnalités haptiques de la DualSense sont pleinement exploitées sur PS5, avec des retours de vibration pour le combat et les adaptive triggers pour l'arc.
+
+### Langues disponibles
+
+Le jeu propose **14 langues** pour les textes et les sous-titres. Les voix complètes sont disponibles en trois langues :
+
+- **Anglais** (doublage complet)
+- **Coréen** (doublage complet)
+- **Chinois simplifié** (doublage complet)
+
+Les sous-titres couvrent le français, l'allemand, l'espagnol, le portugais, l'italien, le japonais, le turc, le thaï, l'indonésien et d'autres langues.
+
+### Configuration PC recommandée
+
+Pearl Abyss recommande un SSD NVMe, un processeur récent (Ryzen 7 ou Intel Core i7 de dernière génération) et au minimum 16 Go de RAM. La carte graphique recommandée est une RTX 3070 ou équivalent pour jouer en 1080p à 60 FPS.
+
+## Ce qu'il faut retenir
+
+Crimson Desert arrive le 19 mars 2026 avec un lancement mondial simultané. Pensez à lancer le préchargement dès le 17 mars pour être prêt le jour J. Le jeu pèse lourd (150 Go) et nécessite un SSD. Une fois le patch Day 1 installé, la campagne solo est entièrement jouable hors ligne.`,
+      en: `## Worldwide Release Times
+
+Crimson Desert launches simultaneously worldwide on **March 19, 2026**. Pearl Abyss chose a synchronized global launch, meaning all players can access the game at the same moment regardless of region.
+
+### Timezone Release Schedule
+
+| Timezone | Date | Time |
+|---|---|---|
+| PT (Los Angeles) | March 19, 2026 | 3:00 PM |
+| ET (New York) | March 19, 2026 | 6:00 PM |
+| GMT (London) | March 19, 2026 | 10:00 PM |
+| CET (Paris) | March 19, 2026 | 11:00 PM |
+| KST (Seoul) | March 20, 2026 | 7:00 AM |
+| AEST (Sydney) | March 20, 2026 | 9:00 AM |
+
+## Preload
+
+Preloading starts **March 17, 2026 at 3:00 PM PT / 10:00 PM GMT**, two days before launch. Available on all platforms: PlayStation Store, Xbox Store, Microsoft Store and Steam.
+
+### Game Size
+
+The game weighs approximately **150 GB** across all platforms. An **SSD is required** for optimal BlackSpace Engine performance. Pearl Abyss recommends at least 200 GB of free space for the game and future updates.
+
+## Day 1 Patch
+
+An **internet connection is required** for the initial setup and Day 1 patch download. Once completed, the single-player campaign is **fully playable offline**.
+
+## Launch FAQ
+
+### Cross-Save
+
+There is **no cross-save** between platforms. Your progress on PS5 won't transfer to PC or Xbox.
+
+### Controller Support
+
+Xbox and DualSense controllers are supported on all platforms. On PC, controllers must be connected via **USB only** — Bluetooth is not supported at launch. DualSense haptics are fully utilized on PS5.
+
+### Languages
+
+The game features **14 languages** for text and subtitles. Full voice acting is available in English, Korean and Simplified Chinese.
+
+### Recommended PC Specs
+
+Pearl Abyss recommends an NVMe SSD, a modern CPU (Ryzen 7 or latest gen Intel Core i7), 16 GB RAM minimum, and an RTX 3070 or equivalent for 1080p 60 FPS gameplay.`,
+      es: `## Horarios de lanzamiento mundial
+
+Crimson Desert se lanzará simultáneamente en todo el mundo el **19 de marzo de 2026**. Pearl Abyss ha optado por un lanzamiento global sincronizado.
+
+### Horarios por zona horaria
+
+| Zona horaria | Fecha | Hora |
+|---|---|---|
+| PT (Los Ángeles) | 19 marzo 2026 | 15:00 |
+| ET (Nueva York) | 19 marzo 2026 | 18:00 |
+| CET (Madrid) | 19 marzo 2026 | 23:00 |
+| KST (Seúl) | 20 marzo 2026 | 07:00 |
+
+## Precarga
+
+La precarga comienza el **17 de marzo de 2026 a las 15:00 PT**. Disponible en PlayStation Store, Xbox Store, Microsoft Store y Steam. El juego pesa aproximadamente **150 GB** y requiere SSD.
+
+## FAQ de lanzamiento
+
+- **Sin cross-save** entre plataformas
+- Soporte para mandos Xbox y DualSense (USB solo en PC)
+- **14 idiomas** de texto, voces completas en inglés, coreano y chino simplificado
+- Conexión a internet necesaria para el parche del día 1, luego jugable offline`,
+      pt: `## Horários de lançamento mundial
+
+Crimson Desert será lançado simultaneamente em todo o mundo em **19 de março de 2026**. A Pearl Abyss optou por um lançamento global sincronizado.
+
+### Horários por fuso horário
+
+| Fuso horário | Data | Hora |
+|---|---|---|
+| PT (Los Angeles) | 19 março 2026 | 15:00 |
+| BRT (Brasília) | 19 março 2026 | 19:00 |
+| GMT (Londres) | 19 março 2026 | 22:00 |
+| KST (Seul) | 20 março 2026 | 07:00 |
+
+## Pré-download
+
+O pré-download começa em **17 de março de 2026 às 15:00 PT**. Disponível na PlayStation Store, Xbox Store, Microsoft Store e Steam. O jogo pesa aproximadamente **150 GB** e requer SSD.
+
+## FAQ de lançamento
+
+- **Sem cross-save** entre plataformas
+- Suporte para controles Xbox e DualSense (USB apenas no PC)
+- **14 idiomas** de texto, vozes completas em inglês, coreano e chinês simplificado
+- Conexão à internet necessária para o patch do dia 1, depois jogável offline`,
+      it: `## Orari di lancio mondiale
+
+Crimson Desert sarà lanciato simultaneamente in tutto il mondo il **19 marzo 2026**. Pearl Abyss ha scelto un lancio globale sincronizzato.
+
+### Orari per fuso orario
+
+| Fuso orario | Data | Ora |
+|---|---|---|
+| PT (Los Angeles) | 19 marzo 2026 | 15:00 |
+| CET (Roma) | 19 marzo 2026 | 23:00 |
+| GMT (Londra) | 19 marzo 2026 | 22:00 |
+| KST (Seul) | 20 marzo 2026 | 07:00 |
+
+## Preload
+
+Il preload inizia il **17 marzo 2026 alle 15:00 PT**. Disponibile su PlayStation Store, Xbox Store, Microsoft Store e Steam. Il gioco pesa circa **150 GB** e richiede SSD.
+
+## FAQ di lancio
+
+- **Nessun cross-save** tra piattaforme
+- Supporto controller Xbox e DualSense (solo USB su PC)
+- **14 lingue** per i testi, doppiaggio completo in inglese, coreano e cinese semplificato
+- Connessione internet necessaria per la patch del giorno 1, poi giocabile offline`,
+      ko: `## 전 세계 동시 출시
+
+크림슨 디저트는 **2026년 3월 19일** 전 세계 동시 출시됩니다.
+
+### 시간대별 출시 시간
+
+| 시간대 | 날짜 | 시간 |
+|---|---|---|
+| PT (로스앤젤레스) | 2026년 3월 19일 | 오후 3시 |
+| KST (서울) | 2026년 3월 20일 | 오전 7시 |
+| GMT (런던) | 2026년 3월 19일 | 오후 10시 |
+
+## 사전 다운로드
+
+사전 다운로드는 **2026년 3월 17일 PT 오후 3시**에 시작됩니다. PlayStation Store, Xbox Store, Microsoft Store, Steam에서 이용 가능합니다. 게임 용량은 약 **150GB**이며 SSD가 필요합니다.
+
+## 런칭 FAQ
+
+- 플랫폼 간 **크로스 세이브 미지원**
+- Xbox 및 DualSense 컨트롤러 지원 (PC는 USB만 가능)
+- **14개 언어** 텍스트, 영어·한국어·중국어 간체 풀 더빙
+- Day 1 패치를 위한 인터넷 연결 필요, 이후 오프라인 플레이 가능`,
+    },
+    infobox: {
+      'Date de sortie': '19 mars 2026',
+      'Préchargement': '17 mars 2026',
+      'Taille': '~150 Go',
+      'Plateformes': 'PS5, Xbox, PC',
+      'SSD': 'Requis',
+    },
+    author: 'PopCodex',
+    publishedAt: '2026-03-15',
+    updatedAt: '2026-03-15',
+    readTime: 7,
+    tags: ['sortie', 'lancement', 'préchargement', 'horaires', 'FAQ'],
+    relatedSlugs: ['kliff', 'pailune', 'crimson-desert-editions-standard-deluxe-collector-compared'],
+  },
+
+  {
+    slug: 'crimson-desert-editions-standard-deluxe-collector-compared',
+    franchise: 'crimson-desert',
+    category: 'guides',
+    title: {
+      fr: 'Crimson Desert : comparatif des éditions Standard, Deluxe et Collector',
+      en: 'Crimson Desert: Standard vs Deluxe vs Collector Edition Compared',
+      es: 'Crimson Desert: comparativa de ediciones Standard, Deluxe y Collector',
+      pt: 'Crimson Desert: comparativo das edições Standard, Deluxe e Collector',
+      it: 'Crimson Desert: confronto edizioni Standard, Deluxe e Collector',
+      ko: '크림슨 디저트: 스탠다드 vs 디럭스 vs 컬렉터 에디션 비교',
+    },
+    excerpt: {
+      fr: 'Comparatif détaillé des trois éditions de Crimson Desert : Standard, Deluxe et Collector. Bonus, contenus exclusifs et quelle édition choisir.',
+      en: 'Detailed comparison of Crimson Desert\'s three editions: Standard, Deluxe and Collector. Bonuses, exclusive content and which edition to choose.',
+      es: 'Comparativa detallada de las tres ediciones de Crimson Desert: Standard, Deluxe y Collector.',
+      pt: 'Comparativo detalhado das três edições de Crimson Desert: Standard, Deluxe e Collector.',
+      it: 'Confronto dettagliato delle tre edizioni di Crimson Desert: Standard, Deluxe e Collector.',
+      ko: '크림슨 디저트 세 가지 에디션 상세 비교: 스탠다드, 디럭스, 컬렉터.',
+    },
+    content: {
+      fr: `## Les trois éditions de Crimson Desert
+
+Pearl Abyss propose Crimson Desert en trois éditions distinctes, chacune offrant un niveau de contenu différent. Voici un guide complet pour vous aider à choisir l'édition qui vous convient.
+
+## Tableau comparatif
+
+| Contenu | Standard | Deluxe | Collector |
+|---|---|---|---|
+| Jeu complet | ✅ | ✅ | ✅ |
+| Bouclier Khaled (préco) | ✅ | ✅ | ✅ |
+| Grotevant Plate Set (PS5) | ✅* | ✅* | ✅* |
+| Balgran Shield | ❌ | ✅ | ✅ |
+| Kairos Plate Set | ❌ | ✅ | ✅ |
+| Exclaire Horse Tack Set | ❌ | ✅ | ✅ |
+| Ultimate Pack | ❌ | ❌ | ✅ |
+| SteelBook | ❌ | ❌ | ✅ |
+| Photo Cards | ❌ | ❌ | ✅ |
+
+*\\* Uniquement sur PS5, toutes éditions*
+
+## Bonus de précommande
+
+Toutes les éditions bénéficient du même bonus de précommande : le **Bouclier Khaled** (Khaled Shield). C'est un bouclier décoratif in-game qui sera offert à tous les joueurs ayant précommandé le jeu, quelle que soit la plateforme.
+
+## Bonus exclusif PS5
+
+Le **Grotevant Plate Set** est un ensemble d'armure cosmétique offert exclusivement aux joueurs PS5. Ce bonus est disponible sur **toutes les éditions PS5** — pas uniquement la Deluxe ou la Collector. C'est un avantage supplémentaire pour les joueurs PlayStation qui s'ajoute au contenu de l'édition choisie.
+
+## Édition Standard
+
+L'édition Standard comprend le jeu complet de Crimson Desert. C'est le choix le plus accessible pour les joueurs qui souhaitent découvrir l'aventure sans extras supplémentaires. Elle est disponible en format physique et digital sur PS5, Xbox Series X|S et PC.
+
+### Prix
+
+Le prix standard n'a pas encore été officiellement annoncé par Pearl Abyss, mais devrait se situer autour du prix habituel des jeux AAA.
+
+## Édition Deluxe
+
+L'édition Deluxe comprend le jeu complet plus trois bonus cosmétiques exclusifs :
+
+- **Balgran Shield** : un bouclier au design unique inspiré des artefacts de Pywel
+- **Kairos Plate Set** : un ensemble d'armure complète avec un design distinctif
+- **Exclaire Horse Tack Set** : un ensemble de harnachement pour votre monture, incluant selle et caparaçon
+
+Ces objets sont purement cosmétiques et n'offrent aucun avantage de gameplay. Ils permettent de personnaliser l'apparence de Kliff et de sa monture dès le début de l'aventure.
+
+## Édition Collector
+
+L'édition Collector est la plus complète et inclut :
+
+- Tout le contenu de l'édition Deluxe
+- **Ultimate Pack** : un ensemble de contenus numériques exclusifs non vendus séparément, incluant des cosmétiques supplémentaires et des bonus in-game
+- **SteelBook** : un boîtier métallique collector avec un artwork exclusif de Crimson Desert
+- **Photo Cards** : un set de cartes illustrées mettant en scène les personnages et les paysages du jeu
+
+L'édition Collector est disponible en quantité limitée et uniquement en format physique.
+
+## Édition Mac
+
+Crimson Desert est également disponible sur Mac, mais **uniquement en édition Standard digitale**. Les éditions Deluxe et Collector ne sont pas proposées pour la plateforme Apple.
+
+## Le Deluxe Pack après le lancement
+
+Bonne nouvelle pour les joueurs qui ont acheté l'édition Standard : le **Deluxe Pack** sera vendu séparément après le lancement. Vous pourrez donc upgrader votre édition Standard vers le contenu Deluxe sans racheter le jeu. Le prix du Deluxe Pack séparé n'a pas encore été communiqué.
+
+## Quelle édition choisir ?
+
+- **Standard** : pour les joueurs qui veulent le jeu sans fioritures, au meilleur prix
+- **Deluxe** : pour les joueurs qui apprécient la personnalisation cosmétique dès le début
+- **Collector** : pour les fans inconditionnels qui veulent les objets physiques et l'Ultimate Pack exclusif
+
+Quelle que soit l'édition choisie, l'expérience de jeu reste identique. Les bonus sont purement cosmétiques et n'impactent pas la progression ou la difficulté.`,
+      en: `## The Three Editions of Crimson Desert
+
+Pearl Abyss offers Crimson Desert in three distinct editions. Here's a comprehensive guide to help you choose.
+
+## Comparison Table
+
+| Content | Standard | Deluxe | Collector |
+|---|---|---|---|
+| Full game | ✅ | ✅ | ✅ |
+| Khaled Shield (preorder) | ✅ | ✅ | ✅ |
+| Grotevant Plate Set (PS5) | ✅* | ✅* | ✅* |
+| Balgran Shield | ❌ | ✅ | ✅ |
+| Kairos Plate Set | ❌ | ✅ | ✅ |
+| Exclaire Horse Tack Set | ❌ | ✅ | ✅ |
+| Ultimate Pack | ❌ | ❌ | ✅ |
+| SteelBook | ❌ | ❌ | ✅ |
+| Photo Cards | ❌ | ❌ | ✅ |
+
+*\\* PS5 only, all editions*
+
+## Preorder Bonus
+
+All editions include the **Khaled Shield** as a preorder bonus — a decorative in-game shield for all preorder customers regardless of platform.
+
+## PS5 Exclusive Bonus
+
+The **Grotevant Plate Set** is a cosmetic armor set exclusive to PS5 players, available on **all PS5 editions**.
+
+## Standard Edition
+
+The Standard Edition includes the full Crimson Desert game. Available in physical and digital formats on PS5, Xbox Series X|S and PC.
+
+## Deluxe Edition
+
+Includes the full game plus three exclusive cosmetic bonuses: **Balgran Shield**, **Kairos Plate Set**, and **Exclaire Horse Tack Set**. All items are purely cosmetic.
+
+## Collector's Edition
+
+The most complete edition includes everything in Deluxe plus the **Ultimate Pack** (exclusive digital content not sold separately), a **SteelBook** with exclusive artwork, and **Photo Cards** featuring characters and landscapes.
+
+## Mac Edition
+
+Crimson Desert on Mac is available as **Standard digital only**. No Deluxe or Collector editions for Apple platforms.
+
+## Deluxe Pack Post-Launch
+
+The **Deluxe Pack** will be sold separately after launch, allowing Standard edition owners to upgrade without repurchasing the game.`,
+      es: `## Las tres ediciones de Crimson Desert
+
+Pearl Abyss ofrece Crimson Desert en tres ediciones: Standard, Deluxe y Collector.
+
+### Tabla comparativa
+
+| Contenido | Standard | Deluxe | Collector |
+|---|---|---|---|
+| Juego completo | ✅ | ✅ | ✅ |
+| Escudo Khaled (precompra) | ✅ | ✅ | ✅ |
+| Grotevant Plate Set (PS5) | ✅* | ✅* | ✅* |
+| Balgran Shield | ❌ | ✅ | ✅ |
+| Kairos Plate Set | ❌ | ✅ | ✅ |
+| Exclaire Horse Tack Set | ❌ | ✅ | ✅ |
+| Ultimate Pack | ❌ | ❌ | ✅ |
+| SteelBook + Photo Cards | ❌ | ❌ | ✅ |
+
+- **Bonus precompra**: Escudo Khaled para todas las ediciones
+- **Bonus exclusivo PS5**: Grotevant Plate Set
+- **Deluxe Pack** se venderá por separado después del lanzamiento
+- **Edición Mac**: solo Standard digital`,
+      pt: `## As três edições de Crimson Desert
+
+A Pearl Abyss oferece Crimson Desert em três edições: Standard, Deluxe e Collector.
+
+### Tabela comparativa
+
+| Conteúdo | Standard | Deluxe | Collector |
+|---|---|---|---|
+| Jogo completo | ✅ | ✅ | ✅ |
+| Escudo Khaled (pré-venda) | ✅ | ✅ | ✅ |
+| Grotevant Plate Set (PS5) | ✅* | ✅* | ✅* |
+| Balgran Shield | ❌ | ✅ | ✅ |
+| Kairos Plate Set | ❌ | ✅ | ✅ |
+| Exclaire Horse Tack Set | ❌ | ✅ | ✅ |
+| Ultimate Pack | ❌ | ❌ | ✅ |
+| SteelBook + Photo Cards | ❌ | ❌ | ✅ |
+
+- **Bônus pré-venda**: Escudo Khaled para todas as edições
+- **Bônus exclusivo PS5**: Grotevant Plate Set
+- **Deluxe Pack** será vendido separadamente após o lançamento
+- **Edição Mac**: apenas Standard digital`,
+      it: `## Le tre edizioni di Crimson Desert
+
+Pearl Abyss propone Crimson Desert in tre edizioni: Standard, Deluxe e Collector.
+
+### Tabella comparativa
+
+| Contenuto | Standard | Deluxe | Collector |
+|---|---|---|---|
+| Gioco completo | ✅ | ✅ | ✅ |
+| Scudo Khaled (preordine) | ✅ | ✅ | ✅ |
+| Grotevant Plate Set (PS5) | ✅* | ✅* | ✅* |
+| Balgran Shield | ❌ | ✅ | ✅ |
+| Kairos Plate Set | ❌ | ✅ | ✅ |
+| Exclaire Horse Tack Set | ❌ | ✅ | ✅ |
+| Ultimate Pack | ❌ | ❌ | ✅ |
+| SteelBook + Photo Cards | ❌ | ❌ | ✅ |
+
+- **Bonus preordine**: Scudo Khaled per tutte le edizioni
+- **Bonus esclusivo PS5**: Grotevant Plate Set
+- **Deluxe Pack** venduto separatamente dopo il lancio
+- **Edizione Mac**: solo Standard digitale`,
+      ko: `## 크림슨 디저트 세 가지 에디션
+
+펄어비스는 크림슨 디저트를 스탠다드, 디럭스, 컬렉터 세 가지 에디션으로 제공합니다.
+
+### 에디션 비교표
+
+| 콘텐츠 | 스탠다드 | 디럭스 | 컬렉터 |
+|---|---|---|---|
+| 전체 게임 | ✅ | ✅ | ✅ |
+| 칼레드 방패 (사전예약) | ✅ | ✅ | ✅ |
+| 그로테반트 갑옷 세트 (PS5) | ✅* | ✅* | ✅* |
+| 발그란 방패 | ❌ | ✅ | ✅ |
+| 카이로스 갑옷 세트 | ❌ | ✅ | ✅ |
+| 엑스클레어 말 장비 세트 | ❌ | ✅ | ✅ |
+| 얼티밋 팩 | ❌ | ❌ | ✅ |
+| 스틸북 + 포토카드 | ❌ | ❌ | ✅ |
+
+- **사전예약 보너스**: 모든 에디션 칼레드 방패
+- **PS5 독점 보너스**: 그로테반트 갑옷 세트
+- **디럭스 팩** 출시 후 별도 판매 예정
+- **Mac 에디션**: 스탠다드 디지털만 가능`,
+    },
+    infobox: {
+      'Éditions': 'Standard, Deluxe, Collector',
+      'Bonus préco': 'Khaled Shield',
+      'Bonus PS5': 'Grotevant Plate Set',
+      'Deluxe bonus': 'Balgran Shield, Kairos Plate Set, Exclaire Horse Tack Set',
+    },
+    author: 'PopCodex',
+    publishedAt: '2026-03-15',
+    updatedAt: '2026-03-15',
+    readTime: 6,
+    tags: ['éditions', 'précommande', 'collector', 'deluxe', 'bonus'],
+    relatedSlugs: ['kliff', 'crimson-desert-release-times-preload-launch-faq'],
+  },
+
+  {
+    slug: 'crimson-desert-first-impressions-previews-roundup',
+    franchise: 'crimson-desert',
+    category: 'actualites',
+    title: {
+      fr: 'Crimson Desert : premières impressions et synthèse des previews',
+      en: 'Crimson Desert: First Impressions & Preview Roundup',
+      es: 'Crimson Desert: primeras impresiones y resumen de previews',
+      pt: 'Crimson Desert: primeiras impressões e resumo das previews',
+      it: 'Crimson Desert: prime impressioni e sintesi delle preview',
+      ko: '크림슨 디저트: 첫 인상과 프리뷰 종합',
+    },
+    excerpt: {
+      fr: 'Synthèse des premières previews de Crimson Desert : combat salué, monde comparé à RDR2 et Zelda, PS5 Pro impressionnante. Le verdict de la presse.',
+      en: 'Crimson Desert preview roundup: combat praised, world compared to RDR2 and Zelda, impressive PS5 Pro performance. The press verdict.',
+      es: 'Resumen de las primeras previews de Crimson Desert: combate elogiado, mundo comparado con RDR2 y Zelda.',
+      pt: 'Resumo das primeiras previews de Crimson Desert: combate elogiado, mundo comparado a RDR2 e Zelda.',
+      it: 'Sintesi delle prime preview di Crimson Desert: combattimento lodato, mondo paragonato a RDR2 e Zelda.',
+      ko: '크림슨 디저트 프리뷰 종합: 전투 시스템 호평, RDR2·젤다와 비교되는 세계.',
+    },
+    content: {
+      fr: `## Le verdict de la presse spécialisée
+
+Les premières previews de Crimson Desert sont tombées et le consensus est largement positif. Après des sessions de jeu allant de 10 à plus de 50 heures, les journalistes de la presse spécialisée ont partagé leurs impressions sur ce qui pourrait être l'une des plus grosses surprises de 2026.
+
+## Un combat unanimement salué
+
+Le système de combat de Crimson Desert est le point qui fait l'unanimité parmi les testeurs. Plusieurs critiques l'ont comparé à un mélange entre **Devil May Cry** et **Ninja Gaiden** transposé dans un monde ouvert — une combinaison qu'aucun jeu n'avait réussi à atteindre jusqu'ici.
+
+Le système repose sur un concept original : Kliff peut **apprendre de nouvelles techniques en observant les ennemis**. Chaque adversaire possède un style de combat unique, et en étudiant leurs mouvements, le joueur débloque de nouveaux combos et capacités. Ce système de progression organique a été particulièrement apprécié pour sa cohérence narrative — au lieu de simplement gagner des points d'expérience, le joueur apprend réellement de ses rencontres.
+
+Les enchaînements sont décrits comme profonds et satisfaisants, avec un système de combos qui récompense la maîtrise sans être inaccessible aux débutants. Le jeu offre une variété d'armes — épée longue, lance, arc — chacune avec son propre set de mouvements.
+
+## Un monde qui rivalise avec les meilleurs
+
+La comparaison la plus fréquente pour le monde ouvert de Crimson Desert est un mélange entre **Red Dead Redemption 2** pour le niveau de détail environnemental et **The Legend of Zelda: Breath of the Wild** pour la verticalité et le sens de l'exploration.
+
+Le continent de Pywel impressionne par sa densité et sa diversité. Les testeurs rapportent qu'après **plus de 50 heures de jeu**, certains étaient **encore dans la première grande zone** — signe de la richesse du contenu proposé. Le monde est conçu pour récompenser l'exploration, avec des secrets, des quêtes annexes et des rencontres dynamiques à chaque détour.
+
+## PS5 Pro : une vitrine technologique
+
+Les retours concernant la version PS5 Pro sont particulièrement enthousiastes. Le PSSR amélioré (version 2) permet une **reconstruction 4K à haut framerate**, accompagnée de ray-tracing pour un éclairage réaliste. Les haptics de la DualSense ont été qualifiés d'excellents, avec des retours vibratoires distincts pour chaque type de choc en combat.
+
+## Points d'inquiétude
+
+Malgré l'enthousiasme général, plusieurs points d'amélioration ont été relevés :
+
+- **Puzzles sans indices** : les puzzles environnementaux ne fournissent aucune aide visuelle (pas de "yellow paint"). Certains testeurs ont trouvé cela rafraîchissant, d'autres frustrant
+- **Contrôles de mouvement** : le système de déplacement demande un temps d'adaptation, surtout pour l'escalade et la navigation en terrain vertical
+- **Inventaire confus** : l'interface de gestion des objets a été critiquée pour son manque de clarté
+- **Courbe d'apprentissage** : les 8 premières heures sont décrites comme particulièrement raides, le jeu ne tenant pas la main du joueur
+
+## L'avis d'un influenceur qui fait parler
+
+Un YouTubeur espagnol suivi par plus de 700 000 abonnés a partagé ses impressions en avance, qualifiant Crimson Desert de **"diamant brut"**. Selon lui, le jeu pourrait atteindre un score Metacritic de 80-85 en l'état, mais avec des correctifs ciblant les problèmes de qualité de vie, le potentiel monte à 90-95.
+
+## Pas de microtransactions
+
+Pearl Abyss a confirmé qu'il n'y aura **ni microtransactions ni cash shop cosmétique** au lancement. C'est un point rassurant pour les joueurs qui connaissent l'éditeur pour Black Desert Online, un MMO fortement monétisé. Crimson Desert adopte un modèle purement premium : vous achetez le jeu, vous avez tout le contenu.
+
+## Ce qu'il faut retenir
+
+Crimson Desert se positionne comme une potentielle révélation de 2026. Le combat est son atout majeur, le monde impressionne par sa richesse, et la PS5 Pro offre une expérience visuelle de premier plan. Les quelques réserves concernent l'ergonomie et la courbe d'apprentissage — des points qui pourraient être ajustés par des mises à jour post-lancement.`,
+      en: `## The Press Verdict
+
+Early Crimson Desert previews have landed and the consensus is overwhelmingly positive. After play sessions ranging from 10 to over 50 hours, journalists have shared their impressions on what could be one of 2026's biggest surprises.
+
+## Universally Praised Combat
+
+The combat system is the unanimous highlight. Multiple critics compared it to a blend of **Devil May Cry** and **Ninja Gaiden** in an open world — a combination no game had achieved before.
+
+The system features an original concept: Kliff can **learn new techniques by observing enemies**. Each adversary has a unique fighting style, and by studying their movements, players unlock new combos and abilities. This organic progression system was praised for its narrative coherence.
+
+## A World Rivaling the Best
+
+The most frequent comparisons are **Red Dead Redemption 2** for environmental detail and **Breath of the Wild** for verticality and exploration. Testers report that after **50+ hours**, some were **still in the first major zone** — testament to the content density.
+
+## PS5 Pro: A Technical Showcase
+
+PS5 Pro feedback is particularly enthusiastic. Enhanced PSSR v2 enables **4K reconstruction at high framerates** with ray-tracing. DualSense haptics were called excellent.
+
+## Concerns
+
+- **Puzzles without hints**: no "yellow paint" guidance — refreshing for some, frustrating for others
+- **Movement controls**: climbing and vertical navigation need adaptation
+- **Confusing inventory**: item management interface lacks clarity
+- **Steep learning curve**: first 8 hours are demanding
+
+## No Microtransactions
+
+Pearl Abyss confirmed **no microtransactions or cosmetic cash shop** at launch. A pure premium model.
+
+## A Spanish influencer with 700K+ subscribers called it a **"rough diamond"**, predicting 80-85 Metacritic with potential for 90-95 if QoL issues are addressed.`,
+      es: `## El veredicto de la prensa
+
+Las primeras previews de Crimson Desert son muy positivas. El **sistema de combate** ha sido comparado con Devil May Cry y Ninja Gaiden en mundo abierto. El mundo se compara con **RDR2** por su detalle y **Zelda BotW** por su verticalidad.
+
+Después de más de 50 horas, algunos testers aún estaban en la primera zona. La **PS5 Pro** impresiona con PSSR v2 y 4K reconstruido. Sin microtransacciones al lanzamiento.
+
+Preocupaciones: puzzles sin ayudas visuales, controles de movimiento, inventario confuso y curva de aprendizaje pronunciada en las primeras 8 horas.`,
+      pt: `## O veredicto da imprensa
+
+As primeiras previews de Crimson Desert são muito positivas. O **sistema de combate** foi comparado a Devil May Cry e Ninja Gaiden em mundo aberto. O mundo se compara a **RDR2** pelo nível de detalhe e **Zelda BotW** pela verticalidade.
+
+Após mais de 50 horas, alguns testadores ainda estavam na primeira zona. A **PS5 Pro** impressiona com PSSR v2 e 4K reconstruído. Sem microtransações no lançamento.
+
+Preocupações: puzzles sem dicas visuais, controles de movimento, inventário confuso e curva de aprendizado íngreme nas primeiras 8 horas.`,
+      it: `## Il verdetto della stampa
+
+Le prime preview di Crimson Desert sono molto positive. Il **sistema di combattimento** è stato paragonato a Devil May Cry e Ninja Gaiden in un mondo aperto. Il mondo viene paragonato a **RDR2** per il livello di dettaglio e **Zelda BotW** per la verticalità.
+
+Dopo oltre 50 ore, alcuni tester erano ancora nella prima zona. La **PS5 Pro** impressiona con PSSR v2 e 4K ricostruito. Nessuna microtransazione al lancio.
+
+Preoccupazioni: puzzle senza indizi, controlli di movimento, inventario confuso e curva di apprendimento ripida nelle prime 8 ore.`,
+      ko: `## 언론 평가
+
+크림슨 디저트의 첫 프리뷰는 압도적으로 긍정적입니다. **전투 시스템**은 오픈 월드에서의 데빌 메이 크라이와 닌자 가이덴의 조합으로 비교되었습니다. 세계는 **RDR2**의 디테일과 **젤다 BotW**의 수직성과 비교됩니다.
+
+50시간 이상 플레이 후에도 첫 번째 지역에 머무는 테스터도 있었습니다. **PS5 Pro**는 PSSR v2와 4K 재구성으로 인상적입니다. 출시 시 마이크로트랜잭션 없음.
+
+우려 사항: 힌트 없는 퍼즐, 이동 조작, 혼란스러운 인벤토리, 처음 8시간의 가파른 학습 곡선.`,
+    },
+    infobox: {
+      'Consensus': 'Très positif',
+      'Combat': 'Unanimement salué',
+      'Comparaisons': 'DMC + RDR2 + BotW',
+      'Metacritic estimé': '80-85 (potentiel 90+)',
+    },
+    author: 'PopCodex',
+    publishedAt: '2026-03-15',
+    updatedAt: '2026-03-15',
+    readTime: 8,
+    tags: ['preview', 'impressions', 'test', 'avis', 'presse'],
+    relatedSlugs: ['kliff', 'crimson-desert-ps5-pro-performance-pssr-analysis', 'crimson-desert-denuvo-drm-performance-controversy'],
+  },
+
+  {
+    slug: 'crimson-desert-denuvo-drm-performance-controversy',
+    franchise: 'crimson-desert',
+    category: 'actualites',
+    title: {
+      fr: 'Crimson Desert et Denuvo : performance et controverse DRM',
+      en: 'Crimson Desert & Denuvo: DRM Performance Controversy',
+      es: 'Crimson Desert y Denuvo: rendimiento y controversia DRM',
+      pt: 'Crimson Desert e Denuvo: desempenho e controvérsia DRM',
+      it: 'Crimson Desert e Denuvo: performance e controversia DRM',
+      ko: '크림슨 디저트와 데누보: DRM 성능 논란',
+    },
+    excerpt: {
+      fr: 'Crimson Desert intègre le DRM Denuvo au lancement. Pearl Abyss assure que les performances ne sont pas impactées. Analyse de la controverse.',
+      en: 'Crimson Desert includes Denuvo DRM at launch. Pearl Abyss claims no performance impact. Analysis of the controversy.',
+      es: 'Crimson Desert incluye el DRM Denuvo al lanzamiento. Pearl Abyss asegura que no afecta el rendimiento.',
+      pt: 'Crimson Desert inclui o DRM Denuvo no lançamento. Pearl Abyss afirma que não afeta o desempenho.',
+      it: 'Crimson Desert include il DRM Denuvo al lancio. Pearl Abyss afferma che non impatta le performance.',
+      ko: '크림슨 디저트는 출시 시 데누보 DRM을 포함합니다. 펄어비스는 성능에 영향이 없다고 주장합니다.',
+    },
+    content: {
+      fr: `## Denuvo dans Crimson Desert
+
+Pearl Abyss a confirmé que la version PC de Crimson Desert intègrera le système anti-piratage **Denuvo** au lancement. Cette annonce a provoqué des réactions contrastées dans la communauté PC gaming, Denuvo étant l'un des sujets les plus divisifs de l'industrie.
+
+## Qu'est-ce que Denuvo ?
+
+Denuvo Anti-Tamper est un système de protection contre la copie (DRM) développé par la société autrichienne Irdeto (anciennement Denuvo Software Solutions). Son objectif principal est de retarder le piratage des jeux vidéo pendant la fenêtre critique de lancement, quand la majorité des ventes ont lieu.
+
+Le système fonctionne en ajoutant une couche de vérification qui s'assure que la copie du jeu est légitime. Cette vérification nécessite des appels serveur périodiques, ce qui explique les préoccupations récurrentes concernant son impact sur les performances.
+
+## La position de Pearl Abyss
+
+Pearl Abyss a été proactif dans sa communication sur le sujet. Le studio coréen affirme que **les performances ne sont pas impactées** par l'intégration de Denuvo dans Crimson Desert. Selon eux, le **moteur propriétaire BlackSpace Engine** a été spécifiquement optimisé pour gérer la couche DRM sans surcoût mesurable en termes de performances.
+
+Le studio souligne que Denuvo est une mesure de protection temporaire visant à protéger les ventes au lancement, et n'exclut pas son retrait ultérieur — une pratique courante dans l'industrie.
+
+## Les arguments contre Denuvo
+
+Les critiques de Denuvo avancent plusieurs arguments :
+
+- **Impact sur les performances** : historiquement, certains jeux ont montré des améliorations de framerate après le retrait de Denuvo (Tekken 7, Resident Evil Village)
+- **Toujours en ligne** : les vérifications périodiques nécessitent une connexion internet, même pour les jeux solo
+- **Pérennité** : si les serveurs Denuvo ferment un jour, les jeux protégés pourraient devenir inaccessibles
+- **Perception** : les joueurs légitimes sont les seuls à subir les contraintes du DRM, les pirates finissant toujours par le contourner
+
+## Les arguments pour Denuvo
+
+De l'autre côté du débat :
+
+- **Protection au lancement** : Denuvo retarde le piratage de plusieurs semaines, voire mois, protégeant les ventes initiales
+- **Retrait possible** : de nombreux éditeurs retirent Denuvo après la fenêtre de lancement
+- **Impact négligeable** : les versions modernes de Denuvo sont plus légères que les premières itérations
+- **Nécessité économique** : pour un studio indépendant comme Pearl Abyss, protéger les ventes de son premier jeu AAA non-MMO est crucial
+
+## Les previews PC
+
+Les journalistes ayant testé la version PC de Crimson Desert n'ont **pas signalé de problèmes majeurs de performances** liés à Denuvo. Les sessions de preview se sont déroulées sur des configurations variées et le jeu a été jugé techniquement solide, avec un moteur BlackSpace Engine qui impressionne par son efficacité.
+
+Il est toutefois important de noter que les conditions de preview ne sont pas toujours représentatives de l'expérience finale des joueurs, et que les tests de performance indépendants après le lancement donneront une image plus complète.
+
+## Ce qu'il faut retenir
+
+La présence de Denuvo dans Crimson Desert est un fait qui divise la communauté. Pearl Abyss assure que l'impact est nul, les previews semblent le confirmer, mais seuls les benchmarks post-lancement donneront une réponse définitive. En attendant, le débat illustre les tensions persistantes entre protection des revenus et expérience utilisateur dans l'industrie du jeu vidéo.`,
+      en: `## Denuvo in Crimson Desert
+
+Pearl Abyss confirmed that Crimson Desert's PC version will include **Denuvo** anti-tamper DRM at launch. This announcement sparked mixed reactions in the PC gaming community.
+
+## What is Denuvo?
+
+Denuvo Anti-Tamper is a copy protection system (DRM) designed to delay game piracy during the critical launch window. It works by adding a verification layer that ensures the game copy is legitimate.
+
+## Pearl Abyss's Position
+
+Pearl Abyss states that **performance is not impacted** by Denuvo integration. Their proprietary **BlackSpace Engine** has been specifically optimized to handle the DRM layer without measurable performance overhead. They note it's a temporary protection measure and don't rule out removing it later.
+
+## Arguments Against Denuvo
+
+- **Performance impact**: some games have shown framerate improvements after Denuvo removal
+- **Always-online**: periodic checks require internet, even for single-player
+- **Longevity**: if Denuvo servers shut down, protected games could become inaccessible
+- **Perception**: legitimate players bear DRM constraints while pirates eventually bypass it
+
+## Arguments For Denuvo
+
+- **Launch protection**: delays piracy by weeks or months
+- **Removable**: many publishers remove it post-launch
+- **Modern versions**: lighter than early iterations
+- **Economic necessity**: protecting first-party AAA sales is crucial for Pearl Abyss
+
+## PC Preview Performance
+
+Journalists testing the PC version reported **no major Denuvo-related performance issues**. The BlackSpace Engine was praised for its efficiency across various configurations.`,
+      es: `## Denuvo en Crimson Desert
+
+Pearl Abyss ha confirmado que Crimson Desert incluirá **Denuvo DRM** en PC al lanzamiento. La comunidad tiene opiniones divididas.
+
+Pearl Abyss asegura que el rendimiento no se ve afectado gracias a la optimización del **BlackSpace Engine**. Las previews en PC no han reportado problemas significativos de rendimiento.
+
+El debate continúa: los críticos señalan posibles impactos de rendimiento y requisitos de conexión, mientras que los defensores argumentan la necesidad de proteger las ventas al lanzamiento.`,
+      pt: `## Denuvo em Crimson Desert
+
+A Pearl Abyss confirmou que Crimson Desert incluirá o **DRM Denuvo** no PC no lançamento. A comunidade tem opiniões divididas.
+
+A Pearl Abyss garante que o desempenho não é afetado graças à otimização do **BlackSpace Engine**. As previews no PC não relataram problemas significativos de desempenho.
+
+O debate continua: críticos apontam possíveis impactos de desempenho e requisitos de conexão, enquanto defensores argumentam a necessidade de proteger as vendas no lançamento.`,
+      it: `## Denuvo in Crimson Desert
+
+Pearl Abyss ha confermato che Crimson Desert includerà il **DRM Denuvo** su PC al lancio. La community ha opinioni divise.
+
+Pearl Abyss assicura che le performance non sono impattate grazie all'ottimizzazione del **BlackSpace Engine**. Le preview su PC non hanno segnalato problemi significativi di prestazioni.
+
+Il dibattito continua: i critici segnalano possibili impatti sulle performance e requisiti di connessione, mentre i sostenitori argomentano la necessità di proteggere le vendite al lancio.`,
+      ko: `## 크림슨 디저트의 데누보
+
+펄어비스는 크림슨 디저트 PC 버전에 **데누보 DRM**이 포함될 것이라고 확인했습니다. 커뮤니티의 반응은 엇갈립니다.
+
+펄어비스는 **블랙스페이스 엔진**의 최적화 덕분에 성능에 영향이 없다고 주장합니다. PC 프리뷰에서는 심각한 성능 문제가 보고되지 않았습니다.
+
+논쟁은 계속됩니다: 비판론자들은 성능 영향과 인터넷 연결 요구를 지적하고, 옹호론자들은 출시 시 판매 보호의 필요성을 주장합니다.`,
+    },
+    infobox: {
+      'DRM': 'Denuvo',
+      'Moteur': 'BlackSpace Engine',
+      'Impact perf.': 'Non confirmé',
+      'Plateforme': 'PC',
+    },
+    author: 'PopCodex',
+    publishedAt: '2026-03-15',
+    updatedAt: '2026-03-15',
+    readTime: 5,
+    tags: ['Denuvo', 'DRM', 'PC', 'performance', 'controverse'],
+    relatedSlugs: ['crimson-desert-ps5-pro-performance-pssr-analysis', 'crimson-desert-first-impressions-previews-roundup'],
+  },
+
+  {
+    slug: 'crimson-desert-ps5-pro-performance-pssr-analysis',
+    franchise: 'crimson-desert',
+    category: 'guides',
+    title: {
+      fr: 'Crimson Desert sur PS5 Pro : analyse des performances et PSSR',
+      en: 'Crimson Desert PS5 Pro: Performance Analysis & PSSR',
+      es: 'Crimson Desert en PS5 Pro: análisis de rendimiento y PSSR',
+      pt: 'Crimson Desert no PS5 Pro: análise de desempenho e PSSR',
+      it: 'Crimson Desert su PS5 Pro: analisi delle performance e PSSR',
+      ko: '크림슨 디저트 PS5 Pro: 성능 분석 및 PSSR',
+    },
+    excerpt: {
+      fr: 'Analyse technique de Crimson Desert sur PS5 Pro : PSSR v2, trois modes graphiques, ray-tracing et fonctionnalités DualSense. Digital Foundry impressionné.',
+      en: 'Technical analysis of Crimson Desert on PS5 Pro: PSSR v2, three graphics modes, ray-tracing and DualSense features. Digital Foundry impressed.',
+      es: 'Análisis técnico de Crimson Desert en PS5 Pro: PSSR v2, tres modos gráficos, ray-tracing y DualSense.',
+      pt: 'Análise técnica de Crimson Desert no PS5 Pro: PSSR v2, três modos gráficos, ray-tracing e DualSense.',
+      it: 'Analisi tecnica di Crimson Desert su PS5 Pro: PSSR v2, tre modalità grafiche, ray-tracing e DualSense.',
+      ko: '크림슨 디저트 PS5 Pro 기술 분석: PSSR v2, 세 가지 그래픽 모드, 레이트레이싱 및 DualSense.',
+    },
+    content: {
+      fr: `## PS5 Pro : l'analyse de Digital Foundry
+
+Digital Foundry a pu tester Crimson Desert sur PlayStation 5 Pro et les résultats sont impressionnants. Le jeu exploite pleinement les capacités supplémentaires de la console, offrant une expérience visuelle de premier plan.
+
+## Les trois modes graphiques
+
+Crimson Desert propose trois modes graphiques sur PS5 Pro, tous jugés solides par Digital Foundry :
+
+### Mode Optimal
+
+Le mode Optimal privilégie la fluidité et offre le framerate le plus élevé. C'est le mode recommandé pour les joueurs qui privilégient la réactivité, particulièrement importante dans un jeu d'action aussi exigeant que Crimson Desert.
+
+### Mode Balanced
+
+Le mode Balanced offre un compromis entre qualité visuelle et fluidité. C'est le mode par défaut qui conviendra à la majorité des joueurs, offrant une résolution élevée tout en maintenant un framerate confortable.
+
+### Mode Quality
+
+Le mode Quality pousse la qualité visuelle au maximum, avec la résolution la plus élevée et tous les effets graphiques activés. C'est le mode à choisir pour les joueurs qui privilégient le rendu visuel et qui sont prêts à accepter un framerate légèrement plus bas.
+
+## PSSR v2 : la reconstruction 4K nouvelle génération
+
+Crimson Desert est l'un des premiers jeux à exploiter la **version 2 du PSSR** (PlayStation Spectral Super Resolution). Cette technologie d'upscaling propriétaire de Sony permet de reconstruire une image en **4K à partir d'une résolution interne plus basse**, tout en maintenant un framerate élevé.
+
+La version 2 du PSSR apporte des améliorations significatives par rapport à la première itération :
+
+- Meilleure gestion des détails fins (cheveux, feuillage, textures complexes)
+- Réduction des artefacts de ghosting
+- Meilleure stabilité temporelle de l'image
+
+Digital Foundry a noté quelques **artefacts PSSR occasionnels** — principalement des scintillements sur les détails très fins comme la végétation distante — mais l'impression générale reste très positive.
+
+## Ray-tracing
+
+Crimson Desert exploite le ray-tracing sur PS5 Pro pour un **éclairage réaliste**. Les effets sont particulièrement notables dans les environnements intérieurs (grottes, donjons) et pendant les cycles jour-nuit. La lumière du soleil filtrant à travers les arbres crée des jeux d'ombres impressionnants qui renforcent l'immersion.
+
+## Comparaison PS5 standard vs PS5 Pro
+
+| Caractéristique | PS5 Standard | PS5 Pro |
+|---|---|---|
+| Résolution | Dynamique | 4K PSSR v2 |
+| Framerate (Quality) | 40-45 FPS | Supérieur |
+| Ray-tracing | Limité | Complet |
+| PSSR | Version 1 | Version 2 |
+
+La PS5 standard vise **40 à 45 FPS en mode Quality**, ce qui reste jouable mais en dessous de la fluidité offerte par la PS5 Pro. Pour les joueurs PS5 standard, le **FSR 3** (FidelityFX Super Resolution d'AMD) est utilisé comme solution d'upscaling alternative.
+
+## Xbox Series X|S
+
+Sur Xbox Series X|S, Crimson Desert utilise également le **FSR 3** pour l'upscaling. Les performances sont comparables à la PS5 standard, avec des modes graphiques similaires mais sans les avantages du PSSR.
+
+## Fonctionnalités DualSense
+
+Les fonctionnalités de la manette DualSense sont pleinement exploitées :
+
+- **Haptics en combat** : chaque choc d'arme produit un retour haptique distinct. Les parrys sont particulièrement satisfaisants avec un feedback net et précis
+- **Adaptive triggers pour l'arc** : bander l'arc crée une résistance progressive dans la gâchette R2, simulant la tension de la corde
+- **Retours environnementaux** : la pluie, le vent et les surfaces différentes produisent des sensations subtiles dans la manette
+
+## Ce qu'il faut retenir
+
+Crimson Desert sur PS5 Pro est une vitrine technologique. Le PSSR v2 offre une reconstruction 4K convaincante, le ray-tracing améliore l'éclairage, et les trois modes graphiques satisfont tous les profils de joueurs. Les fonctionnalités DualSense ajoutent une dimension sensorielle appréciable au combat déjà excellent.`,
+      en: `## PS5 Pro: Digital Foundry's Analysis
+
+Digital Foundry tested Crimson Desert on PlayStation 5 Pro with impressive results. The game fully exploits the console's additional capabilities.
+
+## Three Graphics Modes
+
+All three modes are considered solid:
+
+### Optimal Mode
+Prioritizes framerate for maximum responsiveness — recommended for action-focused players.
+
+### Balanced Mode
+The default compromise between visual quality and fluidity — suitable for most players.
+
+### Quality Mode
+Maximum visual quality with the highest resolution and all effects enabled.
+
+## PSSR v2: Next-Gen 4K Reconstruction
+
+Crimson Desert is among the first games to use **PSSR version 2**. This Sony upscaling technology reconstructs **4K images from lower internal resolution** while maintaining high framerates. V2 improvements include better fine detail handling, reduced ghosting artifacts, and improved temporal stability. Some **occasional PSSR artifacts** were noted on distant vegetation, but the overall impression is very positive.
+
+## Ray-Tracing
+
+Ray-tracing provides **realistic lighting**, particularly notable in interiors and during day-night cycles.
+
+## PS5 Standard vs PS5 Pro
+
+| Feature | PS5 Standard | PS5 Pro |
+|---|---|---|
+| Resolution | Dynamic | 4K PSSR v2 |
+| Framerate (Quality) | 40-45 FPS | Higher |
+| Ray-tracing | Limited | Full |
+
+PS5 standard uses **FSR 3** as an alternative upscaling solution. Xbox Series X|S also uses FSR 3.
+
+## DualSense Features
+
+- **Combat haptics**: distinct feedback for each weapon impact, satisfying parries
+- **Adaptive triggers for bow**: progressive resistance simulating string tension
+- **Environmental feedback**: rain, wind and surfaces produce subtle sensations`,
+      es: `## PS5 Pro: análisis de Digital Foundry
+
+Digital Foundry ha probado Crimson Desert en PS5 Pro con resultados impresionantes. El juego ofrece tres modos gráficos (Optimal, Balanced, Quality), todos sólidos.
+
+El **PSSR v2** proporciona reconstrucción 4K a alto framerate con ray-tracing para iluminación realista. La PS5 estándar apunta a 40-45 FPS en modo Quality con FSR 3.
+
+Las funciones de DualSense incluyen hápticos en combate, gatillos adaptativos para el arco y retroalimentación ambiental. Algunos artefactos PSSR ocasionales, pero la impresión general es muy positiva.`,
+      pt: `## PS5 Pro: análise da Digital Foundry
+
+A Digital Foundry testou Crimson Desert no PS5 Pro com resultados impressionantes. O jogo oferece três modos gráficos (Optimal, Balanced, Quality), todos sólidos.
+
+O **PSSR v2** proporciona reconstrução 4K a alto framerate com ray-tracing para iluminação realista. O PS5 padrão visa 40-45 FPS no modo Quality com FSR 3.
+
+As funcionalidades do DualSense incluem hápticos em combate, gatilhos adaptativos para o arco e feedback ambiental. Alguns artefatos PSSR ocasionais, mas a impressão geral é muito positiva.`,
+      it: `## PS5 Pro: l'analisi di Digital Foundry
+
+Digital Foundry ha testato Crimson Desert su PS5 Pro con risultati impressionanti. Il gioco offre tre modalità grafiche (Optimal, Balanced, Quality), tutte solide.
+
+Il **PSSR v2** fornisce ricostruzione 4K ad alto framerate con ray-tracing per illuminazione realistica. La PS5 standard punta a 40-45 FPS in modalità Quality con FSR 3.
+
+Le funzionalità DualSense includono feedback aptico in combattimento, trigger adattivi per l'arco e feedback ambientale. Alcuni artefatti PSSR occasionali, ma l'impressione generale è molto positiva.`,
+      ko: `## PS5 Pro: 디지털 파운드리 분석
+
+디지털 파운드리가 PS5 Pro에서 크림슨 디저트를 테스트했으며 결과는 인상적입니다. 세 가지 그래픽 모드(Optimal, Balanced, Quality)를 제공하며 모두 안정적입니다.
+
+**PSSR v2**는 높은 프레임레이트에서 4K 재구성을 제공하며 레이트레이싱으로 사실적인 조명을 구현합니다. 기본 PS5는 Quality 모드에서 40-45 FPS를 목표로 하며 FSR 3를 사용합니다.
+
+DualSense 기능에는 전투 햅틱, 활을 위한 어댑티브 트리거, 환경 피드백이 포함됩니다. 간헐적인 PSSR 아티팩트가 있지만 전반적인 인상은 매우 긍정적입니다.`,
+    },
+    infobox: {
+      'Console': 'PS5 Pro',
+      'Technologie': 'PSSR v2',
+      'Modes': 'Optimal, Balanced, Quality',
+      'Ray-tracing': 'Oui',
+      'Résolution': '4K reconstruit',
+    },
+    author: 'PopCodex',
+    publishedAt: '2026-03-15',
+    updatedAt: '2026-03-15',
+    readTime: 6,
+    tags: ['PS5 Pro', 'PSSR', 'performance', 'Digital Foundry', '4K'],
+    relatedSlugs: ['crimson-desert-first-impressions-previews-roundup', 'crimson-desert-denuvo-drm-performance-controversy'],
+  },
 ];

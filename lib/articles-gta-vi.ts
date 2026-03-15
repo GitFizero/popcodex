@@ -2112,4 +2112,709 @@ The backcountry of Leonida. Far from everything. Close to nothing legal.
     tags: ["codes triche gta 6","cheats","astuces","ps5","xbox","pc"],
     relatedSlugs: ["gta-6-toutes-les-armes-confirmees","gta-6-tous-les-vehicules-confirmes"],
   },
+
+  // ============================================================
+  // NOUVEAUX ARTICLES — GUIDES & ACTUALITÉS (5)
+  // ============================================================
+
+  {
+    slug: 'gta-6-release-date-everything-we-know',
+    franchise: 'gta-vi',
+    category: 'guides',
+    title: {
+      fr: 'GTA 6 : date de sortie, tout ce qu\'on sait en mars 2026',
+      en: 'GTA 6: Release Date & Everything We Know (March 2026)',
+      es: 'GTA 6: fecha de lanzamiento, todo lo que sabemos en marzo 2026',
+      pt: 'GTA 6: data de lançamento, tudo o que sabemos em março 2026',
+      it: 'GTA 6: data di uscita, tutto quello che sappiamo a marzo 2026',
+      ko: 'GTA 6: 출시일 및 2026년 3월 기준 총정리',
+    },
+    excerpt: {
+      fr: 'Tout ce qu\'on sait sur GTA 6 : date de sortie confirmée au 19 novembre 2026, protagonistes Lucia et Jason, Vice City et Leonida, moteur RAGE amélioré.',
+      en: 'Everything we know about GTA 6: release date confirmed November 19, 2026, protagonists Lucia and Jason, Vice City and Leonida, enhanced RAGE engine.',
+      es: 'Todo lo que sabemos sobre GTA 6: fecha de lanzamiento 19 de noviembre de 2026, protagonistas Lucia y Jason, Vice City y Leonida.',
+      pt: 'Tudo o que sabemos sobre GTA 6: data de lançamento 19 de novembro de 2026, protagonistas Lucia e Jason, Vice City e Leonida.',
+      it: 'Tutto su GTA 6: data di uscita 19 novembre 2026, protagonisti Lucia e Jason, Vice City e Leonida.',
+      ko: 'GTA 6 총정리: 2026년 11월 19일 출시 확정, 주인공 루시아와 제이슨, 바이스 시티와 레오니다.',
+    },
+    content: {
+      fr: `## Date de sortie officielle
+
+Grand Theft Auto VI sortira le **19 novembre 2026**. Cette date a été confirmée par Rockstar Games après deux reports successifs. Le jeu était initialement prévu pour 2025, puis repoussé à mai 2026, avant d'être finalement fixé à novembre 2026.
+
+Ce dernier report s'inscrit dans la philosophie de Rockstar : ne sortir un jeu que quand il est prêt. L'éditeur a une réputation de perfectionnisme qui s'est systématiquement traduite par des jeux de qualité exceptionnelle — Red Dead Redemption 2 avait lui aussi subi plusieurs reports avant de devenir l'un des jeux les plus acclamés de la génération.
+
+## Plateformes
+
+GTA 6 sortira sur **PlayStation 5** et **Xbox Series X|S** uniquement. Aucune version PS4 ou Xbox One n'est prévue. Quant à la version PC, Rockstar n'a rien annoncé officiellement, mais le pattern habituel de l'éditeur suggère une sortie PC **plusieurs mois après les consoles** — comme ce fut le cas pour GTA 5 (18 mois de décalage) et Red Dead Redemption 2 (13 mois).
+
+## Les protagonistes : Lucia et Jason
+
+GTA 6 marque un tournant historique pour la franchise avec son duo de protagonistes :
+
+### Lucia Caminos
+
+Lucia est la **première protagoniste féminine jouable** de l'histoire de Grand Theft Auto. Libérée du Leonida Penitentiary, elle rêve de la belle vie que sa mère imaginait depuis leurs jours à Liberty City. C'est une survivante intelligente et calculatrice.
+
+### Jason Duval
+
+Jason est l'autre moitié du duo. Ensemble, Lucia et Jason forment un **couple inspiré de Bonnie & Clyde**, naviguant dans le monde criminel de Leonida. Le joueur pourra **switcher entre les deux personnages** pendant le jeu, une mécanique qui rappelle GTA 5 mais limitée à deux protagonistes au lieu de trois.
+
+## Le cadre : Vice City et l'état de Leonida
+
+Le jeu se déroule dans une version fictive de la **Floride contemporaine** :
+
+- **Vice City** : la métropole principale, inspirée de Miami, avec ses gratte-ciels, plages et vie nocturne
+- **State of Leonida** : un état entier à explorer, incluant des zones rurales, des marécages (les Grassrivers, inspirés des Everglades) et un archipel tropical (les Leonida Keys)
+- **Époque** : les années 2020, avec une satire des réseaux sociaux, de la culture influenceur et du capitalisme tardif
+
+## Moteur RAGE amélioré
+
+GTA 6 utilise une version profondément améliorée du **RAGE engine** (Rockstar Advanced Game Engine). Les améliorations incluent un rendu des environnements et des personnages d'un réalisme inédit, une physique avancée, et une intelligence artificielle de PNJ plus sophistiquée. Un ancien employé sur Reddit a comparé le niveau de réalisme à celui de The Last of Us Part 2, mais dans un monde ouvert.
+
+## Campagne marketing
+
+Take-Two a confirmé qu'une campagne marketing d'envergure débutera durant **l'été 2026**. Le dernier trailer (trailer 2) date de 2024, et l'attente d'un troisième trailer ou d'une nouvelle présentation majeure alimente les spéculations.
+
+## Précommandes et prix
+
+Les **précommandes ne sont pas encore ouvertes**. Aucun prix officiel n'a été annoncé par Rockstar. Les analystes estiment un prix de **69,99 $** pour l'édition standard, avec potentiellement des éditions premium à prix supérieur. Les détails des éditions n'ont pas été révélés.
+
+## Ce qu'il faut retenir
+
+GTA 6 est l'un des jeux les plus attendus de l'histoire du jeu vidéo. Avec sa date calée au 19 novembre 2026, ses deux protagonistes iconiques et un Vice City moderne, Rockstar prépare ce qui pourrait redéfinir le standard de l'open world. La campagne marketing de l'été 2026 devrait lever le voile sur de nombreux détails encore inconnus.`,
+      en: `## Official Release Date
+
+Grand Theft Auto VI releases on **November 19, 2026**. This date was confirmed by Rockstar Games after two successive delays — originally planned for 2025, then pushed to May 2026, then to November 2026.
+
+## Platforms
+
+GTA 6 launches on **PlayStation 5** and **Xbox Series X|S** only. No PS4 or Xbox One versions. PC version likely several months after consoles, following Rockstar's usual pattern (GTA 5 had an 18-month gap, RDR2 had 13 months).
+
+## Protagonists: Lucia and Jason
+
+### Lucia Caminos
+The **first playable female protagonist** in GTA history. Released from Leonida Penitentiary, she's a smart and calculated survivalist.
+
+### Jason Duval
+Together with Lucia, they form a **Bonnie & Clyde-inspired duo**. Players can **switch between both characters** during gameplay.
+
+## Setting: Vice City and Leonida
+
+Set in a fictional version of **contemporary Florida**:
+- **Vice City**: the main metropolis, inspired by Miami
+- **State of Leonida**: an entire state to explore, including rural areas, swamps (Grassrivers) and tropical islands (Leonida Keys)
+- **Era**: the 2020s, with satire of social media and influencer culture
+
+## Enhanced RAGE Engine
+
+GTA 6 uses a deeply enhanced **RAGE engine** with unprecedented environmental realism, advanced physics and more sophisticated NPC AI.
+
+## Marketing Campaign
+
+Take-Two confirmed a major marketing campaign starting **summer 2026**. The last trailer (trailer 2) was released in 2024.
+
+## Preorders and Price
+
+**Preorders are not yet open.** No official price announced. Analysts estimate **$69.99** for the standard edition with potential premium editions at higher prices.`,
+      es: `## Fecha de lanzamiento
+
+GTA 6 se lanzará el **19 de noviembre de 2026**, tras dos aplazamientos (originalmente 2025, luego mayo 2026). Disponible en **PS5 y Xbox Series X|S** solamente, sin versión PS4/Xbox One. PC probablemente meses después.
+
+## Protagonistas
+
+**Lucia Caminos** es la primera protagonista femenina jugable de GTA. Junto a **Jason Duval**, forman un dúo inspirado en Bonnie & Clyde. Se puede alternar entre ambos personajes.
+
+## Ambientación
+
+Vice City y el estado de Leonida, una Florida ficticia contemporánea con sátira de redes sociales. Incluye la metrópolis, pantanos (Grassrivers) y un archipiélago tropical.
+
+## Motor y marketing
+
+Motor RAGE mejorado con realismo sin precedentes. Campaña de marketing prevista para verano 2026. Precompras aún no abiertas, precio estimado en 69,99$.`,
+      pt: `## Data de lançamento
+
+GTA 6 será lançado em **19 de novembro de 2026**, após dois adiamentos (originalmente 2025, depois maio 2026). Disponível em **PS5 e Xbox Series X|S** apenas, sem versão PS4/Xbox One. PC provavelmente meses depois.
+
+## Protagonistas
+
+**Lucia Caminos** é a primeira protagonista feminina jogável de GTA. Ao lado de **Jason Duval**, formam uma dupla inspirada em Bonnie & Clyde.
+
+## Cenário
+
+Vice City e o estado de Leonida, uma Flórida fictícia contemporânea com sátira de redes sociais. Inclui a metrópole, pântanos (Grassrivers) e um arquipélago tropical.
+
+## Motor e marketing
+
+Motor RAGE aprimorado. Campanha de marketing prevista para o verão de 2026. Pré-vendas ainda não abertas, preço estimado em US$ 69,99.`,
+      it: `## Data di uscita
+
+GTA 6 uscirà il **19 novembre 2026**, dopo due rinvii (inizialmente 2025, poi maggio 2026). Disponibile su **PS5 e Xbox Series X|S** soltanto, senza versione PS4/Xbox One. PC probabilmente mesi dopo.
+
+## Protagonisti
+
+**Lucia Caminos** è la prima protagonista femminile giocabile di GTA. Insieme a **Jason Duval**, formano un duo ispirato a Bonnie & Clyde.
+
+## Ambientazione
+
+Vice City e lo stato di Leonida, una Florida fittizia contemporanea con satira dei social media. Include la metropoli, paludi (Grassrivers) e un arcipelago tropicale.
+
+## Motore e marketing
+
+Motore RAGE migliorato. Campagna marketing prevista per l'estate 2026. Preordini non ancora aperti, prezzo stimato a 69,99$.`,
+      ko: `## 출시일
+
+GTA 6는 **2026년 11월 19일** 출시됩니다. 두 차례 연기(원래 2025년, 이후 2026년 5월) 후 확정되었습니다. **PS5와 Xbox Series X|S** 전용으로, PS4/Xbox One 버전은 없습니다. PC는 콘솔 출시 수개월 후 예상됩니다.
+
+## 주인공
+
+**루시아 카미노스**는 GTA 역사상 최초의 여성 주인공입니다. **제이슨 듀발**과 함께 보니 & 클라이드에서 영감받은 듀오를 형성합니다.
+
+## 배경
+
+바이스 시티와 레오니다 주, 현대 플로리다를 모델로 한 가상 세계. 소셜 미디어 풍자를 포함합니다.
+
+## 엔진 및 마케팅
+
+개선된 RAGE 엔진 사용. 2026년 여름 마케팅 캠페인 예정. 사전예약 미개시, 예상 가격 69.99달러.`,
+    },
+    infobox: {
+      'Date de sortie': '19 novembre 2026',
+      'Développeur': 'Rockstar Games',
+      'Plateformes': 'PS5, Xbox Series X|S',
+      'Protagonistes': 'Lucia & Jason',
+      'Lieu': 'Vice City / Leonida',
+      'Moteur': 'RAGE (amélioré)',
+    },
+    author: 'PopCodex',
+    publishedAt: '2026-03-15',
+    updatedAt: '2026-03-15',
+    readTime: 10,
+    tags: ['date de sortie', 'Rockstar', 'Vice City', 'Leonida', 'Lucia', 'Jason'],
+    relatedSlugs: ['lucia-caminos', 'jason-duval', 'vice-city', 'state-of-leonida'],
+  },
+
+  {
+    slug: 'gta-6-trailer-3-when-next-reveal-rumors-2026',
+    franchise: 'gta-vi',
+    category: 'actualites',
+    title: {
+      fr: 'GTA 6 : quand sort le trailer 3 ? Rumeurs et analyses',
+      en: 'GTA 6: When Is Trailer 3? Rumors & Analysis (2026)',
+      es: 'GTA 6: ¿cuándo sale el tráiler 3? Rumores y análisis',
+      pt: 'GTA 6: quando sai o trailer 3? Rumores e análises',
+      it: 'GTA 6: quando esce il trailer 3? Rumori e analisi',
+      ko: 'GTA 6: 트레일러 3은 언제? 루머와 분석',
+    },
+    excerpt: {
+      fr: 'Quand Rockstar dévoilera-t-il le trailer 3 de GTA 6 ? Analyse des indices : fin du roadmap GTA Online, fuites PlayStation, campagne marketing estivale.',
+      en: 'When will Rockstar reveal GTA 6 trailer 3? Analysis of clues: GTA Online roadmap end, PlayStation leaks, summer marketing campaign.',
+      es: '¿Cuándo revelará Rockstar el tráiler 3 de GTA 6? Análisis de los indicios.',
+      pt: 'Quando a Rockstar revelará o trailer 3 de GTA 6? Análise dos indícios.',
+      it: 'Quando Rockstar svelerà il trailer 3 di GTA 6? Analisi degli indizi.',
+      ko: '록스타는 언제 GTA 6 트레일러 3을 공개할까? 단서 분석.',
+    },
+    content: {
+      fr: `## L'attente du trailer 3
+
+Depuis la sortie du deuxième trailer de GTA 6 en 2024, la communauté gaming mondiale attend fébrilement le prochain aperçu du jeu le plus attendu de la décennie. Chaque jour sans annonce alimente les spéculations, les théories et parfois les frustrations.
+
+## Ce qu'on sait officiellement
+
+### Le dernier trailer
+
+Le second trailer de GTA 6 est sorti en **2024** et a offert un aperçu plus détaillé de Vice City, de l'état de Leonida, ainsi que des premiers moments de gameplay. Il a battu des records de vues sur YouTube, confirmant l'appétit colossal du public.
+
+### La campagne marketing
+
+Take-Two Interactive a confirmé lors de ses résultats financiers qu'une **campagne marketing d'envergure** débuterait durant **l'été 2026**. Cela suggère que le trailer 3 pourrait arriver soit en amont de cette campagne (comme teaser), soit comme pièce maîtresse du lancement marketing estival.
+
+## Les indices qui alimentent les rumeurs
+
+### La fin du roadmap GTA Online
+
+Le roadmap de contenu de **GTA Online s'arrête au 1er avril 2026**. C'est la première fois que Rockstar laisse un tel vide dans le calendrier de son jeu en ligne le plus profitable. Pour beaucoup, c'est le signe que l'équipe se concentre entièrement sur GTA 6, et que Rockstar pourrait avoir prévu une annonce majeure dans cette fenêtre.
+
+### Fuites PlayStation
+
+Des **identifiants liés à GTA 6** sont apparus brièvement dans la base de données du PlayStation Store avant d'être retirés. Ces entrées fantômes sont souvent le signe d'une préparation des pages produit en coulisses — un indicateur que les précommandes pourraient ouvrir bientôt.
+
+### Un ancien employé s'exprime
+
+Un prétendu ancien employé de Rockstar a partagé sur Reddit ses impressions sur le jeu, affirmant que le **niveau de réalisme est comparable à The Last of Us Part 2** mais dans un monde ouvert gigantesque. Cette affirmation, impossible à vérifier, a néanmoins alimenté l'enthousiasme de la communauté.
+
+## Quand peut-on raisonnablement attendre le trailer 3 ?
+
+### Scénario 1 : Avril-Mai 2026
+
+Un reveal en **avril ou mai 2026** serait légèrement en avance sur la campagne marketing estivale, mais Rockstar a l'habitude de créer l'événement quand personne ne s'y attend. La fin du roadmap GTA Online le 1er avril pourrait coïncider avec une annonce.
+
+### Scénario 2 : Juin 2026 (Summer Game Fest)
+
+Le **Summer Game Fest** en juin serait une plateforme idéale pour un reveal GTA 6 massif. Rockstar n'a pas l'habitude de participer aux événements tiers, mais la pression marketing de novembre pourrait changer les habitudes.
+
+### Scénario 3 : Événement Rockstar dédié
+
+Rockstar pourrait organiser son **propre événement** — un "Rockstar Direct" ou similaire — pour contrôler entièrement la narrative autour du reveal. C'est le scénario le plus cohérent avec la culture du studio.
+
+## Ce qu'il faut retenir
+
+Le trailer 3 de GTA 6 arrivera quelque part entre avril et l'été 2026, si le calendrier marketing de Take-Two est respecté. Les indices s'accumulent — fin du roadmap GTA Online, fuites PlayStation, campagne marketing confirmée — mais Rockstar reste imprévisible. Une seule certitude : quand ce trailer tombera, internet s'arrêtera.`,
+      en: `## Waiting for Trailer 3
+
+Since the second GTA 6 trailer in 2024, the gaming world has been eagerly awaiting the next look at the decade's most anticipated game.
+
+## What We Know Officially
+
+The second trailer released in **2024** broke YouTube view records. Take-Two confirmed a **major marketing campaign starting summer 2026**.
+
+## Clues Fueling Rumors
+
+### GTA Online Roadmap Ends
+
+The **GTA Online content roadmap ends April 1, 2026** — the first such gap, suggesting Rockstar is focusing entirely on GTA 6.
+
+### PlayStation Database Leaks
+
+**GTA 6 identifiers** briefly appeared in the PlayStation Store database before being removed — often a sign of product page preparation.
+
+### Former Employee Comments
+
+An alleged former Rockstar employee on Reddit claimed the game's **realism rivals The Last of Us Part 2** but in a massive open world.
+
+## When to Expect Trailer 3
+
+- **April-May 2026**: Slightly ahead of the summer campaign, but Rockstar loves surprises
+- **June 2026 (Summer Game Fest)**: An ideal platform for a massive reveal
+- **Dedicated Rockstar Event**: Most consistent with Rockstar's culture of controlling their narrative
+
+The trailer will likely arrive between April and summer 2026. When it drops, the internet will break.`,
+      es: `## La espera del tráiler 3
+
+El último tráiler (el segundo) salió en 2024. Take-Two confirmó una **campaña de marketing masiva para el verano de 2026**.
+
+Los indicios se acumulan: el roadmap de GTA Online termina el 1 de abril de 2026, aparecieron identificadores de GTA 6 en la base de datos de PlayStation, y un supuesto ex empleado habló del realismo comparable a TLOU2.
+
+El tráiler 3 podría llegar entre **abril y el verano de 2026**, posiblemente en un evento propio de Rockstar.`,
+      pt: `## A espera pelo trailer 3
+
+O último trailer (o segundo) saiu em 2024. A Take-Two confirmou uma **campanha de marketing massiva para o verão de 2026**.
+
+Os indícios se acumulam: o roadmap de GTA Online termina em 1º de abril de 2026, identificadores de GTA 6 apareceram na base de dados do PlayStation, e um suposto ex-funcionário falou de realismo comparável a TLOU2.
+
+O trailer 3 pode chegar entre **abril e o verão de 2026**, possivelmente em um evento próprio da Rockstar.`,
+      it: `## L'attesa del trailer 3
+
+L'ultimo trailer (il secondo) è uscito nel 2024. Take-Two ha confermato una **campagna marketing massiccia per l'estate 2026**.
+
+Gli indizi si accumulano: la roadmap di GTA Online finisce il 1° aprile 2026, identificatori di GTA 6 sono apparsi nel database PlayStation, e un presunto ex dipendente ha parlato di un realismo paragonabile a TLOU2.
+
+Il trailer 3 potrebbe arrivare tra **aprile e l'estate 2026**, possibilmente in un evento dedicato Rockstar.`,
+      ko: `## 트레일러 3 대기
+
+마지막 트레일러(두 번째)는 2024년에 공개되었습니다. Take-Two는 **2026년 여름 대규모 마케팅 캠페인**을 확인했습니다.
+
+단서가 쌓이고 있습니다: GTA Online 로드맵이 2026년 4월 1일에 종료, PlayStation 데이터베이스에 GTA 6 식별자 등장, 전 직원이 TLOU2에 비견되는 리얼리즘 언급.
+
+트레일러 3은 **2026년 4월에서 여름 사이** 공개될 가능성이 높습니다.`,
+    },
+    infobox: {
+      'Dernier trailer': 'Trailer 2 (2024)',
+      'Roadmap GTA Online': 'Fin 1er avril 2026',
+      'Campagne marketing': 'Été 2026',
+      'Sortie': '19 novembre 2026',
+    },
+    author: 'PopCodex',
+    publishedAt: '2026-03-15',
+    updatedAt: '2026-03-15',
+    readTime: 6,
+    tags: ['trailer', 'annonce', 'rumeurs', 'marketing', 'reveal'],
+    relatedSlugs: ['gta-6-release-date-everything-we-know', 'gta-6-impact-2026-gaming-calendar-empty-q4'],
+  },
+
+  {
+    slug: 'gta-6-price-editions-preorder-what-to-expect',
+    franchise: 'gta-vi',
+    category: 'guides',
+    title: {
+      fr: 'GTA 6 : prix, éditions et précommande — à quoi s\'attendre',
+      en: 'GTA 6: Price, Editions & Preorder — What to Expect',
+      es: 'GTA 6: precio, ediciones y reserva — qué esperar',
+      pt: 'GTA 6: preço, edições e pré-venda — o que esperar',
+      it: 'GTA 6: prezzo, edizioni e preordine — cosa aspettarsi',
+      ko: 'GTA 6: 가격, 에디션 및 사전예약 — 예상 정리',
+    },
+    excerpt: {
+      fr: 'Aucun prix officiel pour GTA 6, mais les analystes estiment 69,99$ en Standard. Précommandes pas encore ouvertes. Analyse des éditions possibles.',
+      en: 'No official GTA 6 price yet, but analysts estimate $69.99 Standard. Preorders not yet open. Analysis of possible editions.',
+      es: 'Sin precio oficial para GTA 6, pero los analistas estiman 69,99$ en Standard. Reservas aún no abiertas.',
+      pt: 'Sem preço oficial para GTA 6, mas analistas estimam US$ 69,99 Standard. Pré-vendas ainda não abertas.',
+      it: 'Nessun prezzo ufficiale per GTA 6, ma gli analisti stimano 69,99$ Standard. Preordini non ancora aperti.',
+      ko: 'GTA 6 공식 가격 미발표, 분석가들은 스탠다드 69.99달러 추정. 사전예약 미개시.',
+    },
+    content: {
+      fr: `## Prix de GTA 6 : ce qu'on sait
+
+À ce jour, **aucun prix officiel n'a été annoncé** par Rockstar Games pour Grand Theft Auto VI. C'est inhabituel à moins de 8 mois du lancement, mais cohérent avec la stratégie de communication ultra-contrôlée de Rockstar.
+
+## Estimations des analystes
+
+Les analystes de l'industrie s'accordent sur un prix probable de **69,99 $** (environ 69,99 €) pour l'édition standard — le prix désormais standard pour les jeux AAA nouvelle génération. Certains analystes n'excluent pas un prix plus élevé, potentiellement **79,99 $**, compte tenu de l'envergure exceptionnelle du projet et de l'attente démesurée des consommateurs.
+
+## Précommandes
+
+Les **précommandes ne sont pas encore ouvertes**. Rockstar est connu pour ouvrir les précommandes relativement tard dans le cycle marketing, souvent après un reveal majeur. Si la campagne marketing débute à l'été 2026, les précommandes pourraient ouvrir dans la foulée.
+
+## Éditions possibles
+
+En se basant sur le précédent de GTA 5, on peut anticiper un schéma d'éditions similaire :
+
+### Édition Standard
+Le jeu de base au prix standard. C'est ce que la majorité des joueurs achèteront.
+
+### Édition Spéciale / Deluxe
+Une édition premium avec des bonus in-game — potentiellement de l'argent en jeu bonus, des cosmétiques exclusifs ou un accès anticipé de quelques heures.
+
+### Édition Collector
+Une édition physique limitée avec des objets collector — Rockstar a proposé des sacs en toile, des cartes du monde et d'autres objets physiques dans le passé. Compte tenu de l'ampleur de GTA 6, une édition collector premium est très probable.
+
+## Game Pass Day One ?
+
+GTA 6 ne sera **très probablement pas sur le Game Pass au lancement**. Take-Two Interactive n'a jamais placé un titre GTA sur un service d'abonnement le jour du lancement, et les revenus projetés de GTA 6 (estimés à plus de 3 milliards de dollars) rendent un tel accord économiquement peu viable.
+
+## Version PC
+
+La version PC arrivera **probablement après les consoles**, suivant le pattern historique de Rockstar. GTA 5 avait mis 18 mois à arriver sur PC après les consoles, Red Dead Redemption 2 environ 13 mois. Les joueurs PC devront probablement patienter jusqu'en 2027 ou 2028.
+
+## Ce qu'il faut retenir
+
+Tout ce qui concerne le prix et les éditions de GTA 6 est basé sur des **estimations et des patterns passés**. Rien n'est confirmé par Rockstar. Les précommandes devraient ouvrir durant ou après la campagne marketing de l'été 2026. En attendant, gardez votre argent au chaud — les détails arrivent.`,
+      en: `## GTA 6 Price: What We Know
+
+**No official price has been announced** by Rockstar Games. This is unusual at less than 8 months from launch but consistent with Rockstar's ultra-controlled communication strategy.
+
+## Analyst Estimates
+
+Industry analysts expect **$69.99** for the standard edition — now the standard AAA price. Some don't rule out **$79.99** given the project's exceptional scope.
+
+## Preorders
+
+**Preorders are not yet open.** Rockstar typically opens preorders late, often after a major reveal. If the marketing campaign starts summer 2026, preorders may follow.
+
+## Possible Editions
+
+Based on GTA 5's precedent:
+- **Standard**: Base game at standard price
+- **Special/Deluxe**: Premium edition with in-game bonuses
+- **Collector's**: Limited physical edition with collector items
+
+## Game Pass Day One?
+
+GTA 6 will **very likely not be on Game Pass at launch**. Take-Two has never placed a GTA title on a subscription service day one.
+
+## PC Version
+
+The PC version will **likely arrive after consoles**, following Rockstar's historical pattern (GTA 5: 18-month gap, RDR2: 13 months).
+
+Everything about GTA 6 pricing is based on **estimates and past patterns**. Nothing is confirmed by Rockstar.`,
+      es: `## Precio de GTA 6
+
+**Sin precio oficial** anunciado por Rockstar. Los analistas estiman **69,99$** para la edición Standard, posiblemente hasta 79,99$.
+
+Las **reservas no están abiertas**. Basándose en GTA 5, se esperan ediciones Standard, Special/Deluxe y Collector. **No estará en Game Pass** al lanzamiento. La versión PC llegará probablemente meses después de las consolas.
+
+Todo se basa en estimaciones y patrones pasados. Nada confirmado por Rockstar.`,
+      pt: `## Preço de GTA 6
+
+**Sem preço oficial** anunciado pela Rockstar. Analistas estimam **US$ 69,99** para a edição Standard, possivelmente até US$ 79,99.
+
+As **pré-vendas não estão abertas**. Baseando-se em GTA 5, esperam-se edições Standard, Special/Deluxe e Collector. **Não estará no Game Pass** no lançamento. A versão PC chegará provavelmente meses depois dos consoles.
+
+Tudo baseado em estimativas e padrões passados. Nada confirmado pela Rockstar.`,
+      it: `## Prezzo di GTA 6
+
+**Nessun prezzo ufficiale** annunciato da Rockstar. Gli analisti stimano **69,99$** per l'edizione Standard, potenzialmente fino a 79,99$.
+
+I **preordini non sono aperti**. In base a GTA 5, si prevedono edizioni Standard, Special/Deluxe e Collector. **Non sarà su Game Pass** al lancio. La versione PC arriverà probabilmente mesi dopo le console.
+
+Tutto basato su stime e pattern passati. Nulla confermato da Rockstar.`,
+      ko: `## GTA 6 가격
+
+록스타의 **공식 가격 미발표**. 분석가들은 스탠다드 에디션 **69.99달러**, 최대 79.99달러를 추정합니다.
+
+**사전예약 미개시**. GTA 5를 기반으로 스탠다드, 스페셜/디럭스, 컬렉터 에디션이 예상됩니다. 출시 시 **게임 패스 불가**. PC 버전은 콘솔 출시 수개월 후 예상.
+
+모두 추정과 과거 패턴에 기반합니다. 록스타의 확인 사항은 없습니다.`,
+    },
+    infobox: {
+      'Prix estimé': '69,99$ (Standard)',
+      'Précommandes': 'Pas encore ouvertes',
+      'PC': 'Plus tard (pattern Rockstar)',
+      'Game Pass Day One': 'Très improbable',
+    },
+    author: 'PopCodex',
+    publishedAt: '2026-03-15',
+    updatedAt: '2026-03-15',
+    readTime: 6,
+    tags: ['prix', 'précommande', 'éditions', 'Game Pass'],
+    relatedSlugs: ['gta-6-release-date-everything-we-know', 'gta-6-xbox-game-pass-day-one-unlikely'],
+  },
+
+  {
+    slug: 'gta-6-impact-2026-gaming-calendar-empty-q4',
+    franchise: 'gta-vi',
+    category: 'actualites',
+    title: {
+      fr: 'GTA 6 et le calendrier gaming 2026 : le grand vide du Q4',
+      en: 'GTA 6 & the 2026 Gaming Calendar: The Q4 Void',
+      es: 'GTA 6 y el calendario gaming 2026: el gran vacío del Q4',
+      pt: 'GTA 6 e o calendário gaming 2026: o grande vazio do Q4',
+      it: 'GTA 6 e il calendario gaming 2026: il grande vuoto del Q4',
+      ko: 'GTA 6와 2026년 게임 캘린더: Q4의 거대한 공백',
+    },
+    excerpt: {
+      fr: 'GTA 6 en novembre 2026 a vidé le Q4 de tout concurrent AAA. L\'effet iceberg de Rockstar a forcé l\'industrie entière à replanifier.',
+      en: 'GTA 6 in November 2026 emptied Q4 of all AAA competitors. Rockstar\'s iceberg effect forced the entire industry to reschedule.',
+      es: 'GTA 6 en noviembre 2026 ha vaciado el Q4 de competidores AAA. El efecto iceberg de Rockstar.',
+      pt: 'GTA 6 em novembro 2026 esvaziou o Q4 de competidores AAA. O efeito iceberg da Rockstar.',
+      it: 'GTA 6 a novembre 2026 ha svuotato il Q4 di concorrenti AAA. L\'effetto iceberg di Rockstar.',
+      ko: '2026년 11월 GTA 6가 Q4에서 모든 AAA 경쟁작을 밀어냈습니다. 록스타의 빙산 효과.',
+    },
+    content: {
+      fr: `## Le phénomène GTA 6 et le calendrier 2026
+
+Le positionnement de GTA 6 au **19 novembre 2026** a créé un phénomène sans précédent dans l'industrie du jeu vidéo : un Q4 (octobre-décembre) quasi désertique, alors que cette période représente habituellement environ **40% des ventes annuelles** de l'industrie.
+
+## Un premier semestre surchargé
+
+Le contraste est saisissant. Le premier semestre 2026 est un des plus denses de l'histoire du gaming :
+
+- **Mars** : Crimson Desert (Pearl Abyss)
+- **Avril-Mai** : Marathon (Bungie), Saros
+- **Été** : Forza Horizon 6, et d'autres titres encore à annoncer
+
+Les éditeurs ont massivement déplacé leurs jeux vers le premier semestre pour éviter la confrontation directe avec GTA 6.
+
+## Wolverine et Fable : les rares courageux
+
+Quelques titres majeurs se sont positionnés dans la deuxième moitié de 2026 :
+
+- **Marvel's Wolverine** (15 septembre) : Insomniac Games a calé sa sortie deux mois avant GTA 6, laissant suffisamment de marge
+- **Fable** (automne 2026) : Playground Games vise une sortie automnale, mais sans date précise — probablement pour garder de la flexibilité
+
+## L'effet iceberg
+
+Les analystes parlent de **l'effet iceberg** : GTA 6 absorbe une part disproportionnée du budget entertainment des joueurs. Quand un jeu est prévu pour générer **plus de 3 milliards de dollars** au lancement, les autres éditeurs savent que chaque dollar dépensé pour GTA 6 est un dollar qui ne sera pas dépensé pour leur jeu.
+
+Cet effet va au-delà du simple lancement : GTA Online continuera probablement à monopoliser l'attention des joueurs pendant des mois, voire des années après le lancement.
+
+## Les deux reports ont doublé le chaos
+
+GTA 6 a été repoussé **deux fois** — d'abord de 2025 à mai 2026, puis de mai à novembre 2026. Chaque report a forcé les éditeurs concurrents à **replanifier deux fois** leurs propres calendriers, créant un effet de cascade dans toute l'industrie.
+
+Des jeux qui s'étaient positionnés pour éviter le premier créneau de GTA 6 se sont retrouvés à nouveau en conflit après le second report, provoquant une vague d'annulations et de reports en chaîne.
+
+## 2027 : la fuite en avant
+
+Plusieurs jeux majeurs qui auraient pu viser 2026 ont préféré la sécurité de 2027 :
+
+- **The Elder Scrolls VI** : aucune date, mais clairement pas 2026
+- **Marvel 1943: Rise of Hydra** : positionné pour 2027
+- **D'autres titres AAA** non encore annoncés préfèrent vraisemblablement 2027
+
+## Le risque : un report de trop ?
+
+La grande question reste : que se passe-t-il si Rockstar reporte **encore une fois** ? Le Q4 2026 serait alors vide pour rien, et les éditeurs qui ont fui cette fenêtre auraient perdu une opportunité commerciale significative. C'est le paradoxe de l'effet GTA : il modifie le marché même si le jeu n'est pas encore sorti.
+
+## Ce qu'il faut retenir
+
+GTA 6 a restructuré le calendrier gaming 2026 à lui seul. Le Q4 est un no man's land, le H1 est surchargé, et l'industrie entière a dû s'adapter deux fois à cause des reports. C'est un témoignage de l'influence culturelle et commerciale unique de la franchise Grand Theft Auto.`,
+      en: `## GTA 6's Impact on the 2026 Calendar
+
+GTA 6's **November 19, 2026** placement created an unprecedented phenomenon: a nearly empty Q4, when this period usually represents about **40% of annual industry sales**.
+
+## Overloaded First Half
+
+H1 2026 is packed: Crimson Desert (March), Marathon (Spring), Saros, Forza Horizon 6 (Summer). Publishers massively shifted releases to avoid direct competition with GTA 6.
+
+## The Brave Few
+
+- **Marvel's Wolverine** (September 15): positioned two months before GTA 6
+- **Fable** (Fall 2026): flexible autumn window
+
+## The Iceberg Effect
+
+Analysts describe the **"iceberg effect"**: GTA 6 absorbs a disproportionate share of players' entertainment budgets. With projected revenues of **$3 billion+** at launch, every dollar spent on GTA 6 is a dollar not spent elsewhere.
+
+## Double Delays, Double Chaos
+
+GTA 6 was delayed **twice** — 2025 to May 2026, then to November 2026. Each delay forced competitors to **reschedule twice**, creating industry-wide cascade effects.
+
+## The Risk
+
+What if Rockstar delays **again**? Q4 2026 would be empty for nothing. The GTA paradox: it reshapes the market before it even launches.`,
+      es: `## El impacto de GTA 6 en el calendario 2026
+
+GTA 6 en **noviembre 2026** ha vaciado el Q4 de competidores AAA, cuando este período representa normalmente el ~40% de las ventas anuales.
+
+El primer semestre está sobrecargado (Crimson Desert, Marathon, Saros, Forza Horizon 6). Wolverine (septiembre) y Fable (otoño) son los únicos valientes.
+
+Los analistas hablan del **"efecto iceberg"**: GTA 6 absorbe el presupuesto de los jugadores. Los dos aplazamientos forzaron a toda la industria a replanificar dos veces.`,
+      pt: `## O impacto de GTA 6 no calendário 2026
+
+GTA 6 em **novembro 2026** esvaziou o Q4 de concorrentes AAA, quando este período representa normalmente ~40% das vendas anuais.
+
+O primeiro semestre está sobrecarregado (Crimson Desert, Marathon, Saros, Forza Horizon 6). Wolverine (setembro) e Fable (outono) são os únicos corajosos.
+
+Analistas falam do **"efeito iceberg"**: GTA 6 absorve o orçamento dos jogadores. Os dois adiamentos forçaram toda a indústria a replanejar duas vezes.`,
+      it: `## L'impatto di GTA 6 sul calendario 2026
+
+GTA 6 a **novembre 2026** ha svuotato il Q4 di concorrenti AAA, quando questo periodo rappresenta normalmente ~40% delle vendite annuali.
+
+Il primo semestre è sovraccarico (Crimson Desert, Marathon, Saros, Forza Horizon 6). Wolverine (settembre) e Fable (autunno) sono i pochi coraggiosi.
+
+Gli analisti parlano dell'"effetto iceberg": GTA 6 assorbe il budget dei giocatori. I due rinvii hanno costretto tutta l'industria a ripianificare due volte.`,
+      ko: `## GTA 6가 2026년 캘린더에 미친 영향
+
+**2026년 11월** GTA 6는 Q4에서 모든 AAA 경쟁작을 밀어냈습니다. 이 시기는 보통 연간 매출의 ~40%를 차지합니다.
+
+상반기는 과밀(크림슨 디저트, 마라톤, 사로스, 포르자 호라이즌 6). 울버린(9월)과 페이블(가을)만이 용감하게 자리를 잡았습니다.
+
+분석가들은 **"빙산 효과"**를 말합니다: GTA 6가 플레이어의 예산을 흡수합니다. 두 차례 연기로 전체 업계가 두 번 일정을 조정해야 했습니다.`,
+    },
+    infobox: {
+      'Fenêtre GTA 6': 'Novembre 2026',
+      'Q4 2026': 'Quasi vide',
+      'Jeux H1 2026': 'Crimson Desert, Marathon, Saros...',
+      '"Effet iceberg"': 'GTA 6 absorbe le budget joueurs',
+    },
+    author: 'PopCodex',
+    publishedAt: '2026-03-15',
+    updatedAt: '2026-03-15',
+    readTime: 7,
+    tags: ['industrie', 'calendrier', 'Q4', 'impact', 'reports'],
+    relatedSlugs: ['gta-6-release-date-everything-we-know', 'gta-6-trailer-3-when-next-reveal-rumors-2026'],
+  },
+
+  {
+    slug: 'gta-6-xbox-game-pass-day-one-unlikely',
+    franchise: 'gta-vi',
+    category: 'actualites',
+    title: {
+      fr: 'GTA 6 sur le Game Pass : pourquoi c\'est (très) improbable',
+      en: 'GTA 6 on Game Pass: Why It\'s (Very) Unlikely',
+      es: 'GTA 6 en Game Pass: por qué es (muy) improbable',
+      pt: 'GTA 6 no Game Pass: por que é (muito) improvável',
+      it: 'GTA 6 su Game Pass: perché è (molto) improbabile',
+      ko: 'GTA 6 게임 패스: 왜 (매우) 가능성이 낮은가',
+    },
+    excerpt: {
+      fr: 'GTA 6 sera-t-il sur le Game Pass au lancement ? Analyse complète : modèle économique Take-Two, revenus projetés de 3 milliards $ et historique de la franchise.',
+      en: 'Will GTA 6 be on Game Pass at launch? Full analysis: Take-Two\'s business model, projected $3 billion revenue and franchise history.',
+      es: '¿Estará GTA 6 en Game Pass al lanzamiento? Análisis completo del modelo de negocio de Take-Two.',
+      pt: 'GTA 6 estará no Game Pass no lançamento? Análise completa do modelo de negócio da Take-Two.',
+      it: 'GTA 6 sarà su Game Pass al lancio? Analisi completa del modello di business di Take-Two.',
+      ko: 'GTA 6가 출시 시 게임 패스에 올까? Take-Two의 비즈니스 모델 전면 분석.',
+    },
+    content: {
+      fr: `## La question récurrente
+
+"GTA 6 sera-t-il sur le Game Pass ?" est l'une des questions les plus posées par les joueurs Xbox. La réponse courte : **très probablement pas au lancement**. Voici pourquoi.
+
+## L'historique Take-Two
+
+Take-Two Interactive, la maison-mère de Rockstar Games, n'a **jamais placé un jeu Grand Theft Auto sur un service d'abonnement le jour du lancement**. C'est un fait historique sans exception. Le modèle économique de la franchise GTA repose entièrement sur la **vente unitaire au plein tarif**.
+
+## Le modèle économique
+
+GTA est la franchise de divertissement la plus rentable de l'histoire. GTA 5 a généré plus de **8 milliards de dollars** depuis sa sortie en 2013. Ce succès repose sur deux piliers :
+
+### La vente unitaire
+
+GTA 5 s'est vendu à plus de 200 millions d'exemplaires à plein tarif. Chaque copie vendue génère un revenu direct et immédiat. Un accord Game Pass Day One signifierait renoncer à une partie significative de ces revenus directs.
+
+### GTA Online
+
+GTA Online génère des milliards grâce aux microtransactions (Shark Cards). Mais pour que les joueurs dépensent dans GTA Online, ils doivent d'abord acheter le jeu. Un accès gratuit via Game Pass réduirait la "barrière d'entrée" mais aussi le revenu par joueur.
+
+## Les revenus projetés de GTA 6
+
+Les analystes estiment que GTA 6 pourrait générer **plus de 3 milliards de dollars** dans ses premières semaines de vente. C'est un chiffre astronomique qu'aucun accord Game Pass ne pourrait compenser. Microsoft devrait payer une somme colossale — probablement plusieurs milliards — pour justifier un tel accord, ce qui semble économiquement irrationnel pour les deux parties.
+
+## La position de Take-Two
+
+Take-Two a été explicite sur sa relation avec les services d'abonnement. L'éditeur travaille **"occasionnellement"** avec ces services mais **"seulement quand c'est un bon deal économique"**. Pour GTA 6, le calcul est simple : aucun deal d'abonnement ne peut rivaliser avec les ventes directes projetées.
+
+## GTA 6 sur Game Pass... plus tard ?
+
+Cela ne signifie pas que GTA 6 ne sera **jamais** sur le Game Pass. GTA 5 a fini par rejoindre le service des années après sa sortie, quand les ventes avaient naturellement ralenti. On peut raisonnablement s'attendre à ce que GTA 6 suive le même chemin — mais pas avant 2029 ou 2030, au plus tôt.
+
+## Le jeu est bien sur Xbox
+
+Il est important de rappeler que GTA 6 est **confirmé sur Xbox Series X|S**. Le jeu sera disponible sur Xbox, il sera juste vendu au **plein prix**. L'absence du Game Pass ne signifie pas l'absence de la plateforme.
+
+## Ce qu'il faut retenir
+
+GTA 6 ne sera pas sur le Game Pass au lancement. Le modèle économique de Take-Two, les revenus projetés de plus de 3 milliards de dollars et l'historique de la franchise rendent un tel accord pratiquement impossible. Les joueurs Xbox pourront jouer à GTA 6 le jour de sa sortie — en l'achetant au plein tarif, comme tout le monde.`,
+      en: `## The Recurring Question
+
+"Will GTA 6 be on Game Pass?" is one of the most asked questions by Xbox players. Short answer: **very likely not at launch**.
+
+## Take-Two's Track Record
+
+Take-Two has **never placed a GTA game on a subscription service day one**. The franchise's business model relies entirely on **full-price unit sales**.
+
+## The Business Model
+
+GTA is the most profitable entertainment franchise in history. GTA 5 generated over **$8 billion** since 2013 through unit sales (200M+ copies) and GTA Online microtransactions.
+
+## Projected GTA 6 Revenue
+
+Analysts estimate **$3 billion+** in the first weeks. No Game Pass deal could compensate for those numbers.
+
+## Take-Two's Position
+
+Take-Two works **"occasionally"** with subscription services but **"only when it's a good economic deal."** For GTA 6, no subscription deal can rival projected direct sales.
+
+## Game Pass... Later?
+
+GTA 6 could join Game Pass **years after launch**, similar to how GTA 5 eventually did. But not before 2029-2030 at the earliest.
+
+## The Game IS on Xbox
+
+GTA 6 is **confirmed on Xbox Series X|S** — it will just be sold at **full price**. No Game Pass doesn't mean no Xbox.`,
+      es: `## ¿GTA 6 en Game Pass?
+
+**Muy improbable al lanzamiento.** Take-Two nunca ha puesto un GTA en un servicio de suscripción el día 1. El modelo de negocio se basa en ventas a precio completo. Con ingresos proyectados de **3 mil millones de dólares**, ningún acuerdo de Game Pass puede compensar.
+
+GTA 6 está **confirmado en Xbox Series X|S**, pero se venderá a precio completo. Podría llegar al Game Pass años después del lanzamiento, como hizo GTA 5.`,
+      pt: `## GTA 6 no Game Pass?
+
+**Muito improvável no lançamento.** A Take-Two nunca colocou um GTA em serviço de assinatura no dia 1. O modelo de negócio se baseia em vendas a preço cheio. Com receitas projetadas de **3 bilhões de dólares**, nenhum acordo de Game Pass pode compensar.
+
+GTA 6 está **confirmado no Xbox Series X|S**, mas será vendido a preço cheio. Pode chegar ao Game Pass anos após o lançamento, como fez GTA 5.`,
+      it: `## GTA 6 su Game Pass?
+
+**Molto improbabile al lancio.** Take-Two non ha mai messo un GTA su un servizio in abbonamento il giorno 1. Il modello di business si basa sulle vendite a prezzo pieno. Con ricavi previsti di **3 miliardi di dollari**, nessun accordo Game Pass può compensare.
+
+GTA 6 è **confermato su Xbox Series X|S**, ma sarà venduto a prezzo pieno. Potrebbe arrivare su Game Pass anni dopo il lancio, come ha fatto GTA 5.`,
+      ko: `## GTA 6 게임 패스?
+
+**출시 시 매우 가능성 낮음.** Take-Two는 GTA를 구독 서비스에 출시일에 올린 적이 없습니다. 비즈니스 모델은 정가 판매에 기반합니다. 예상 수익 **30억 달러 이상**으로, 어떤 게임 패스 계약도 보상할 수 없습니다.
+
+GTA 6는 **Xbox Series X|S에서 확정**되었지만 정가로 판매됩니다. GTA 5처럼 출시 수년 후 게임 패스에 올 수 있습니다.`,
+    },
+    infobox: {
+      'Game Pass Day One': 'Très improbable',
+      'Modèle Take-Two': 'Vente unitaire plein tarif',
+      'Revenus projetés': '3 milliards $+',
+      'GTA 5 sur GP': 'Oui, des années après',
+    },
+    author: 'PopCodex',
+    publishedAt: '2026-03-15',
+    updatedAt: '2026-03-15',
+    readTime: 5,
+    tags: ['Game Pass', 'Xbox', 'prix', 'abonnement'],
+    relatedSlugs: ['gta-6-release-date-everything-we-know', 'gta-6-price-editions-preorder-what-to-expect'],
+  },
 ];

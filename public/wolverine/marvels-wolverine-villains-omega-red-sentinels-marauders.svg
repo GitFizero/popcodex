@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect width="1200" height="630" fill="#1a1a0a"/>
+  <rect x="0" y="0" width="1200" height="4" fill="#EAB308"/>
+  <rect x="0" y="626" width="1200" height="4" fill="#DC2626"/>
+  <!-- Dark silhouettes - three villain figures -->
+  <!-- Left silhouette -->
+  <circle cx="480" cy="200" r="25" fill="#DC2626" opacity="0.6"/>
+  <rect x="460" y="225" width="40" height="70" rx="8" fill="#DC2626" opacity="0.5"/>
+  <rect x="455" y="230" width="50" height="8" rx="4" fill="#DC2626" opacity="0.4"/>
+  <!-- Center silhouette (larger/main villain) -->
+  <circle cx="600" cy="185" r="30" fill="#DC2626" opacity="0.8"/>
+  <rect x="575" y="215" width="50" height="85" rx="8" fill="#DC2626" opacity="0.7"/>
+  <rect x="568" y="222" width="64" height="8" rx="4" fill="#DC2626" opacity="0.5"/>
+  <!-- Right silhouette -->
+  <circle cx="720" cy="200" r="25" fill="#DC2626" opacity="0.6"/>
+  <rect x="700" y="225" width="40" height="70" rx="8" fill="#DC2626" opacity="0.5"/>
+  <rect x="695" y="230" width="50" height="8" rx="4" fill="#DC2626" opacity="0.4"/>
+  <!-- Glowing eyes -->
+  <circle cx="475" cy="197" r="3" fill="#EAB308"/>
+  <circle cx="485" cy="197" r="3" fill="#EAB308"/>
+  <circle cx="594" cy="182" r="4" fill="#EAB308"/>
+  <circle cx="606" cy="182" r="4" fill="#EAB308"/>
+  <circle cx="715" cy="197" r="3" fill="#EAB308"/>
+  <circle cx="725" cy="197" r="3" fill="#EAB308"/>
+  <!-- Game name -->
+  <text x="600" y="80" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#EAB308" letter-spacing="4" font-weight="bold">MARVEL'S WOLVERINE</text>
+  <!-- Title -->
+  <text x="600" y="440" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="52" fill="#EAB308" font-weight="bold">The Villains</text>
+  <!-- Subtitle -->
+  <text x="600" y="485" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#ffffff" opacity="0.5">Omega Red, Sentinels &amp; Marauders</text>
+  <!-- Watermark -->
+  <text x="1160" y="610" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#ffffff" opacity="0.2">PopCodex</text>
+</svg>

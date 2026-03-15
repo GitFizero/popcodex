@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect width="1200" height="630" fill="#1a1a0a"/>
+  <rect x="0" y="0" width="1200" height="4" fill="#EAB308"/>
+  <rect x="0" y="626" width="1200" height="4" fill="#DC2626"/>
+  <!-- Claw slash effect - dynamic curved slashes -->
+  <path d="M480,180 Q520,220 500,280 Q490,310 510,340" fill="none" stroke="#EAB308" stroke-width="7" stroke-linecap="round"/>
+  <path d="M530,170 Q570,210 550,270 Q540,300 560,330" fill="none" stroke="#EAB308" stroke-width="7" stroke-linecap="round"/>
+  <path d="M580,175 Q620,215 600,275 Q590,305 610,335" fill="none" stroke="#EAB308" stroke-width="7" stroke-linecap="round"/>
+  <!-- Impact sparks -->
+  <circle cx="650" cy="200" r="4" fill="#DC2626"/>
+  <circle cx="670" cy="230" r="3" fill="#DC2626"/>
+  <circle cx="660" cy="260" r="5" fill="#DC2626" opacity="0.7"/>
+  <circle cx="680" cy="290" r="3" fill="#DC2626" opacity="0.5"/>
+  <!-- Speed lines -->
+  <line x1="700" y1="210" x2="740" y2="200" stroke="#EAB308" stroke-width="2" opacity="0.4"/>
+  <line x1="700" y1="240" x2="750" y2="235" stroke="#EAB308" stroke-width="2" opacity="0.3"/>
+  <line x1="700" y1="270" x2="745" y2="268" stroke="#EAB308" stroke-width="2" opacity="0.3"/>
+  <!-- Game name -->
+  <text x="600" y="80" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#EAB308" letter-spacing="4" font-weight="bold">MARVEL'S WOLVERINE</text>
+  <!-- Title -->
+  <text x="600" y="440" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="48" fill="#EAB308" font-weight="bold">Gameplay &amp; Combat</text>
+  <!-- Subtitle -->
+  <text x="600" y="485" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#ffffff" opacity="0.5">Semi-Open World</text>
+  <!-- Watermark -->
+  <text x="1160" y="610" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#ffffff" opacity="0.2">PopCodex</text>
+</svg>

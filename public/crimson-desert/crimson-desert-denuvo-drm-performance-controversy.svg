@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect width="1200" height="630" fill="#1a0a0a"/>
+  <rect x="0" y="0" width="1200" height="4" fill="#DC2626"/>
+  <rect x="0" y="626" width="1200" height="4" fill="#D4A946"/>
+  <!-- Shield/Lock icon -->
+  <path d="M600 150 L660 180 L660 260 Q660 310 600 340 Q540 310 540 260 L540 180 Z" fill="none" stroke="#DC2626" stroke-width="5"/>
+  <!-- Lock body inside shield -->
+  <rect x="580" y="240" width="40" height="35" rx="4" fill="#D4A946"/>
+  <path d="M590 240 L590 225 Q590 210 600 210 Q610 210 610 225 L610 240" fill="none" stroke="#D4A946" stroke-width="4"/>
+  <circle cx="600" cy="255" r="4" fill="#1a0a0a"/>
+  <!-- Game name -->
+  <text x="600" y="80" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#DC2626" letter-spacing="4" font-weight="bold">CRIMSON DESERT</text>
+  <!-- Title -->
+  <text x="600" y="440" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="52" fill="#D4A946" font-weight="bold">Denuvo DRM</text>
+  <!-- Subtitle -->
+  <text x="600" y="485" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#ffffff" opacity="0.5">Performance &amp; Controversy</text>
+  <!-- Watermark -->
+  <text x="1160" y="610" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#ffffff" opacity="0.2">PopCodex</text>
+</svg>

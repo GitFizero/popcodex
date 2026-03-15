@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect width="1200" height="630" fill="#1a0a0a"/>
+  <rect x="0" y="0" width="1200" height="4" fill="#DC2626"/>
+  <rect x="0" y="626" width="1200" height="4" fill="#D4A946"/>
+  <!-- PS5 Pro text -->
+  <text x="600" y="190" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="36" fill="#DC2626" font-weight="bold">PS5 PRO</text>
+  <!-- Performance bars -->
+  <rect x="400" y="220" width="300" height="20" rx="4" fill="#DC2626" opacity="0.3"/>
+  <rect x="400" y="220" width="270" height="20" rx="4" fill="#DC2626"/>
+  <text x="380" y="236" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#D4A946">FPS</text>
+  <rect x="400" y="252" width="300" height="20" rx="4" fill="#D4A946" opacity="0.3"/>
+  <rect x="400" y="252" width="240" height="20" rx="4" fill="#D4A946"/>
+  <text x="380" y="268" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#D4A946">RES</text>
+  <rect x="400" y="284" width="300" height="20" rx="4" fill="#DC2626" opacity="0.3"/>
+  <rect x="400" y="284" width="290" height="20" rx="4" fill="#DC2626"/>
+  <text x="380" y="300" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#D4A946">PSSR</text>
+  <!-- Values -->
+  <text x="720" y="236" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#ffffff" opacity="0.7">60fps</text>
+  <text x="720" y="268" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#ffffff" opacity="0.7">4K</text>
+  <text x="720" y="300" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#ffffff" opacity="0.7">ON</text>
+  <!-- Game name -->
+  <text x="600" y="80" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#DC2626" letter-spacing="4" font-weight="bold">CRIMSON DESERT</text>
+  <!-- Title -->
+  <text x="600" y="440" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="52" fill="#D4A946" font-weight="bold">PS5 Pro Analysis</text>
+  <!-- Subtitle -->
+  <text x="600" y="485" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#ffffff" opacity="0.5">PSSR Performance Breakdown</text>
+  <!-- Watermark -->
+  <text x="1160" y="610" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#ffffff" opacity="0.2">PopCodex</text>
+</svg>

@@ -814,13 +814,19 @@ Omega Red, real name Arkady Rossovich, is one of the confirmed antagonists in Ma
 // Import franchise-specific articles (will be populated by migration)
 let gtaViArticles: ArticleData[] = [];
 let crimsonDesertArticles: ArticleData[] = [];
+let fableArticles: ArticleData[] = [];
+let wolverineArticles: ArticleData[] = [];
 try { gtaViArticles = require('./articles-gta-vi').gtaViArticles || []; } catch {}
 try { crimsonDesertArticles = require('./articles-crimson-desert').crimsonDesertArticles || []; } catch {}
+try { fableArticles = require('./articles-fable').fableArticles || []; } catch {}
+try { wolverineArticles = require('./articles-wolverine').wolverineArticles || []; } catch {}
 
 export const articles: ArticleData[] = [
   ...baseArticles,
   ...gtaViArticles,
   ...crimsonDesertArticles,
+  ...fableArticles,
+  ...wolverineArticles,
 ];
 
 export function getArticlesByFranchise(franchise: string): ArticleData[] {

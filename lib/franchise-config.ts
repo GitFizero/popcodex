@@ -220,6 +220,14 @@ export const franchises: Record<FranchiseId, FranchiseConfig> = {
         slug: { fr: 'lore', en: 'lore', es: 'lore', pt: 'lore', it: 'lore', ko: 'lore' },
         label: { fr: 'Lore', en: 'Lore', es: 'Lore', pt: 'Lore', it: 'Lore', ko: '로어' },
       },
+      {
+        slug: { fr: 'guides', en: 'guides', es: 'guias', pt: 'guias', it: 'guide', ko: 'guides' },
+        label: { fr: 'Guides', en: 'Guides', es: 'Guías', pt: 'Guias', it: 'Guide', ko: '가이드' },
+      },
+      {
+        slug: { fr: 'actualites', en: 'news', es: 'noticias', pt: 'noticias', it: 'notizie', ko: 'news' },
+        label: { fr: 'Actualités', en: 'News', es: 'Noticias', pt: 'Notícias', it: 'Notizie', ko: '뉴스' },
+      },
     ],
   },
   wolverine: {
@@ -277,6 +285,14 @@ export const franchises: Record<FranchiseId, FranchiseConfig> = {
       {
         slug: { fr: 'lore-marvel', en: 'marvel-lore', es: 'lore-marvel', pt: 'lore-marvel', it: 'lore-marvel', ko: 'marvel-lore' },
         label: { fr: 'Lore Marvel', en: 'Marvel Lore', es: 'Lore Marvel', pt: 'Lore Marvel', it: 'Lore Marvel', ko: '마블 로어' },
+      },
+      {
+        slug: { fr: 'guides', en: 'guides', es: 'guias', pt: 'guias', it: 'guide', ko: 'guides' },
+        label: { fr: 'Guides', en: 'Guides', es: 'Guías', pt: 'Guias', it: 'Guide', ko: '가이드' },
+      },
+      {
+        slug: { fr: 'actualites', en: 'news', es: 'noticias', pt: 'noticias', it: 'notizie', ko: 'news' },
+        label: { fr: 'Actualités', en: 'News', es: 'Noticias', pt: 'Notícias', it: 'Notizie', ko: '뉴스' },
       },
     ],
   },

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect width="1200" height="630" fill="#0a0a1a"/>
+  <rect x="0" y="0" width="1200" height="4" fill="#FF1493"/>
+  <rect x="0" y="626" width="1200" height="4" fill="#00FFFF"/>
+  <!-- Sunset circle -->
+  <circle cx="600" cy="240" r="70" fill="#FF1493" opacity="0.8"/>
+  <rect x="500" y="240" width="200" height="70" fill="#0a0a1a"/>
+  <!-- Sun reflection lines -->
+  <line x1="520" y1="255" x2="680" y2="255" stroke="#FF1493" stroke-width="2" opacity="0.5"/>
+  <line x1="530" y1="268" x2="670" y2="268" stroke="#FF1493" stroke-width="2" opacity="0.4"/>
+  <line x1="545" y1="281" x2="655" y2="281" stroke="#FF1493" stroke-width="2" opacity="0.3"/>
+  <line x1="560" y1="294" x2="640" y2="294" stroke="#FF1493" stroke-width="2" opacity="0.2"/>
+  <!-- Palm tree -->
+  <rect x="500" y="200" width="6" height="110" fill="#00FFFF" opacity="0.7"/>
+  <!-- Palm fronds -->
+  <path d="M503 200 Q520 180 540 190" fill="none" stroke="#00FFFF" stroke-width="3" opacity="0.7"/>
+  <path d="M503 200 Q480 175 460 185" fill="none" stroke="#00FFFF" stroke-width="3" opacity="0.7"/>
+  <path d="M503 200 Q525 190 545 200" fill="none" stroke="#00FFFF" stroke-width="2" opacity="0.5"/>
+  <path d="M503 200 Q475 185 455 195" fill="none" stroke="#00FFFF" stroke-width="2" opacity="0.5"/>
+  <!-- Game name -->
+  <text x="600" y="80" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#FF1493" letter-spacing="4" font-weight="bold">GTA VI</text>
+  <!-- Title -->
+  <text x="600" y="440" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="48" fill="#00FFFF" font-weight="bold">Everything We Know</text>
+  <!-- Subtitle -->
+  <text x="600" y="485" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#ffffff" opacity="0.5">Release Date &amp; Details</text>
+  <!-- Watermark -->
+  <text x="1160" y="610" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#ffffff" opacity="0.2">PopCodex</text>
+</svg>

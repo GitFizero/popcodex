@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect width="1200" height="630" fill="#0a0a1a"/>
+  <rect x="0" y="0" width="1200" height="4" fill="#FF1493"/>
+  <rect x="0" y="626" width="1200" height="4" fill="#00FFFF"/>
+  <!-- Game Pass logo shape (rounded rect) -->
+  <rect x="530" y="170" width="140" height="90" rx="20" fill="none" stroke="#00FFFF" stroke-width="4"/>
+  <text x="600" y="225" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#00FFFF" font-weight="bold">GAME PASS</text>
+  <!-- X mark over it -->
+  <line x1="510" y1="150" x2="690" y2="280" stroke="#FF1493" stroke-width="6" stroke-linecap="round"/>
+  <line x1="690" y1="150" x2="510" y2="280" stroke="#FF1493" stroke-width="6" stroke-linecap="round"/>
+  <!-- Game name -->
+  <text x="600" y="80" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#FF1493" letter-spacing="4" font-weight="bold">GTA VI</text>
+  <!-- Title -->
+  <text x="600" y="440" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="52" fill="#00FFFF" font-weight="bold">Game Pass?</text>
+  <!-- Subtitle -->
+  <text x="600" y="485" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#ffffff" opacity="0.5">Day One Unlikely</text>
+  <!-- Watermark -->
+  <text x="1160" y="610" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#ffffff" opacity="0.2">PopCodex</text>
+</svg>
