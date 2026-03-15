@@ -1,18 +1,48 @@
 import { Metadata } from 'next';
 import { setRequestLocale } from 'next-intl/server';
-import { getFranchiseById } from '@/lib/franchise-config';
-import { generateWikiMetadata } from '@/lib/seo/metadata';
+import { locales } from '@/lib/i18n/config';
+import { seo } from '@/wolverine-wiki/lib/seo';
+import {
+  generateWikiSectionMetadata,
+} from '@/lib/wiki-ssr/metadata';
+
+const FRANCHISE_ID = 'wolverine';
+const FRANCHISE_NAME = { fr: "Marvel's Wolverine", en: "Marvel's Wolverine" };
+const OG_IMAGE = 'https://popcodex.com/og-image.svg';
 
 type Props = {
   params: Promise<{ locale: string; path?: string[] }>;
   children: React.ReactNode;
 };
 
+export async function generateStaticParams() {
+  const sections = [
+    [], ['characters'], ['story'], ['world'], ['combat'], ['weapons'],
+    ['lore'], ['blog'], ['guides'], ['glossary'], ['gallery'],
+    ['items'], ['mounts'], ['quests'], ['buy'], ['about'], ['privacy'],
+  ];
+  return locales.flatMap(locale => sections.map(path => ({ locale, path })));
+}
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale, path } = await params;
-  const franchise = getFranchiseById('wolverine')!;
-  const wikiPage = path?.[0];
-  return generateWikiMetadata('wolverine', franchise, locale, wikiPage);
+  const section = path?.[0] || '';
+
+  type SeoEntry = { title: Record<string, string>; desc: Record<string, string> };
+  const seoMap: Record<string, SeoEntry> = {
+    '': seo.index, characters: seo.characters, story: seo.story, world: seo.world,
+    combat: seo.combat, weapons: (seo as any).weapons, lore: seo.lore, blog: (seo as any).blog,
+    guides: (seo as any).guides, glossary: (seo as any).glossary, gallery: (seo as any).gallery,
+    items: (seo as any).items, mounts: (seo as any).mounts, quests: (seo as any).quests,
+    buy: (seo as any).buy, about: seo.about, privacy: (seo as any).privacy,
+  };
+
+  const sectionSeo = seoMap[section];
+  if (sectionSeo) {
+    return generateWikiSectionMetadata(FRANCHISE_ID, FRANCHISE_NAME, { [section || 'index']: sectionSeo }, section || 'index', locale, OG_IMAGE);
+  }
+
+  return generateWikiSectionMetadata(FRANCHISE_ID, FRANCHISE_NAME, { index: seo.index }, 'index', locale, OG_IMAGE);
 }
 
 export default async function WolverineLayout({ params, children }: Props) {
