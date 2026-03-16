@@ -4,9 +4,28 @@ import RevealOnScroll from '@/wolverine-wiki/components/RevealOnScroll';
 import GoldDivider from '@/wolverine-wiki/components/GoldDivider';
 import SEOHead from '@/wolverine-wiki/components/SEOHead';
 import { seo } from '@/wolverine-wiki/lib/seo';
+import { ExternalLink, AlertTriangle } from 'lucide-react';
 
 const BuyPage = () => {
   const { t, lang } = useI18n();
+
+  const disclaimerTitle = {
+    fr: 'Liens d\'affiliation',
+    en: 'Affiliate links',
+    es: 'Enlaces de afiliación',
+    pt: 'Links de afiliação',
+    it: 'Link di affiliazione',
+    ko: '제휴 링크',
+  };
+
+  const disclaimerText = {
+    fr: 'Les liens ci-dessus sont des liens d\'affiliation. En achetant via ces liens, vous soutenez ce wiki fan sans surcoût pour vous. Merci ! ❤️',
+    en: 'The links above are affiliate links. By purchasing through these links, you support this fan wiki at no extra cost to you. Thank you! ❤️',
+    es: 'Los enlaces anteriores son enlaces de afiliación. Al comprar a través de ellos, apoyas esta wiki fan sin costo adicional. ¡Gracias! ❤️',
+    pt: 'Os links acima são links de afiliação. Ao comprar através destes links, você apoia esta wiki fan sem custo adicional. Obrigado! ❤️',
+    it: 'I link sopra sono link di affiliazione. Acquistando tramite questi link, sostieni questa wiki fan senza costi aggiuntivi. Grazie! ❤️',
+    ko: '위 링크는 제휴 링크입니다. 이 링크를 통해 구매하시면 추가 비용 없이 이 팬 위키를 지원하실 수 있습니다. 감사합니다! ❤️',
+  };
 
   return (
     <main id="main-content" className="relative z-10 min-h-screen pt-20">
@@ -31,9 +50,10 @@ const BuyPage = () => {
               <h2 className="font-display text-3xl sm:text-4xl text-gold-bright mb-4">{t('buy.cta.title')}</h2>
               <p className="font-body text-lg text-text-secondary mb-8 max-w-lg mx-auto">{t('buy.cta.desc')}</p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="https://store.playstation.com/" target="_blank" rel="noopener noreferrer"
+                <a href="https://www.instant-gaming.com/fr/13543-acheter-marvel-s-wolverine-playstation-5-playstation-store/?igr=gamer-9c3b7dc" target="_blank" rel="noopener noreferrer sponsored"
                   className="inline-flex items-center justify-center gap-2 px-8 py-3 rounded-lg font-heading text-sm tracking-[0.15em] bg-gradient-to-r from-yellow-700 to-yellow-600 text-black hover:from-yellow-500 hover:to-yellow-400 hover:shadow-[0_0_25px_rgba(234,179,8,0.4)] transition-all duration-300">
-                  PlayStation Store →
+                  {lang === 'fr' ? 'Voir le prix — PlayStation 5' : lang === 'es' ? 'Ver precio — PlayStation 5' : 'See price — PlayStation 5'}
+                  <ExternalLink size={14} />
                 </a>
               </div>
               <p className="font-ui text-xs text-text-muted-custom mt-8">
@@ -60,6 +80,17 @@ const BuyPage = () => {
                 <li className="font-body text-sm text-text-secondary flex items-center gap-2"><span className="text-yellow-500">✓</span> {lang === 'fr' ? 'Artbook numerique' : 'Digital artbook'}</li>
                 <li className="font-body text-sm text-text-secondary flex items-center gap-2"><span className="text-yellow-500">✓</span> {lang === 'fr' ? 'Acces anticipe' : 'Early access'}</li>
               </ul>
+            </div>
+          </div>
+        </RevealOnScroll>
+
+        {/* Affiliate disclaimer */}
+        <RevealOnScroll className="mt-12">
+          <div className="p-5 rounded-lg border border-yellow-500/20 bg-yellow-900/5 flex items-start gap-3">
+            <AlertTriangle size={18} className="text-yellow-500 flex-shrink-0 mt-0.5" />
+            <div>
+              <p className="font-heading text-xs tracking-[0.1em] text-yellow-500 mb-1">{(disclaimerTitle as any)[lang] || disclaimerTitle.en}</p>
+              <p className="font-body text-sm text-text-secondary leading-relaxed">{(disclaimerText as any)[lang] || disclaimerText.en}</p>
             </div>
           </div>
         </RevealOnScroll>
