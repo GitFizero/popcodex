@@ -3,7 +3,7 @@ import { FranchiseConfig } from '../franchise-config';
 import { ArticleData } from '../articles';
 import { locales } from '../i18n/config';
 
-const BASE_URL = 'https://popcodex.com';
+const BASE_URL = 'https://www.popcodex.com';
 const ALL_LOCALES = locales;
 
 export function generateBaseMetadata(locale: string): Metadata {

@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import type { Lang } from '@/fable-wiki/context/I18nContext';
 
-const DOMAIN = 'https://popcodex.com';
+const DOMAIN = 'https://www.popcodex.com';
 
 interface BreadcrumbItem { name: string; path: string; }
 interface FAQItem { question: string; answer: string; }

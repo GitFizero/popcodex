@@ -8,7 +8,7 @@ import {
 
 const FRANCHISE_ID = 'wolverine';
 const FRANCHISE_NAME = { fr: "Marvel's Wolverine", en: "Marvel's Wolverine" };
-const OG_IMAGE = 'https://popcodex.com/og-image.svg';
+const OG_IMAGE = 'https://www.popcodex.com/og-image.svg';
 
 type Props = {
   params: Promise<{ locale: string; path?: string[] }>;

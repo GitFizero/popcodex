@@ -7,7 +7,7 @@ import { blogArticles as crimsonBlogArticles } from '@/crimson-desert-wiki/data/
 import { blogArticles as wolverineBlogArticles } from '@/wolverine-wiki/data/blog';
 import { blogArticles as fableBlogArticles } from '@/fable-wiki/data/blog';
 
-const BASE_URL = 'https://popcodex.com';
+const BASE_URL = 'https://www.popcodex.com';
 
 interface SitemapEntry {
   url: string;

@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import { locales } from '@/lib/i18n/config';
 
-const BASE_URL = 'https://popcodex.com';
+const BASE_URL = 'https://www.popcodex.com';
 const ALL_LOCALES = locales;
 
 interface WikiSEOEntry {

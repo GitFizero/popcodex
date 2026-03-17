@@ -10,7 +10,7 @@ import {
 
 const FRANCHISE_ID = 'crimson-desert';
 const FRANCHISE_NAME = { fr: 'Crimson Desert', en: 'Crimson Desert' };
-const OG_IMAGE = 'https://popcodex.com/crimson-desert/pywel-panorama.jpg';
+const OG_IMAGE = 'https://www.popcodex.com/crimson-desert/pywel-panorama.jpg';
 
 type Props = {
   params: Promise<{ locale: string; path?: string[] }>;

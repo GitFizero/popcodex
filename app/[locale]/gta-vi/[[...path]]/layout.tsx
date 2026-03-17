@@ -10,7 +10,7 @@ import {
 
 const FRANCHISE_ID = 'gta-vi';
 const FRANCHISE_NAME = { fr: 'GTA VI', en: 'GTA VI' };
-const OG_IMAGE = 'https://popcodex.com/og-image.svg';
+const OG_IMAGE = 'https://www.popcodex.com/og-image.svg';
 
 type Props = {
   params: Promise<{ locale: string; path?: string[] }>;
