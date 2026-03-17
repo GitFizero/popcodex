@@ -2,6 +2,10 @@ import { NextResponse } from 'next/server';
 import { locales, defaultLocale } from '@/lib/i18n/config';
 import { getAllFranchiseIds, getFranchiseById } from '@/lib/franchise-config';
 import { getArticlesByFranchise } from '@/lib/articles';
+import { blogArticles as gtaBlogArticles } from '@/gta-vi-wiki/data/blog';
+import { blogArticles as crimsonBlogArticles } from '@/crimson-desert-wiki/data/blog';
+import { blogArticles as wolverineBlogArticles } from '@/wolverine-wiki/data/blog';
+import { blogArticles as fableBlogArticles } from '@/fable-wiki/data/blog';
 
 const BASE_URL = 'https://popcodex.com';
 
@@ -63,12 +67,12 @@ function buildEntries(): SitemapEntry[] {
     }
   }
 
-  // Wiki SPA pages
+  // Wiki SPA pages (all sections matching generateStaticParams)
   const wikiPages: Record<string, string[]> = {
-    'gta-vi': ['characters', 'story', 'world', 'combat', 'lore', 'blog', 'guides', 'glossary', 'gallery', 'weapons', 'trailers', 'about'],
-    'crimson-desert': ['characters', 'story', 'world', 'combat', 'lore', 'blog', 'guides', 'glossary', 'items', 'mounts', 'quests', 'weapons', 'about'],
-    'wolverine': ['characters', 'story', 'world', 'combat', 'lore', 'blog', 'guides', 'glossary', 'about'],
-    'fable': ['characters', 'story', 'world', 'combat', 'lore', 'blog', 'guides', 'glossary', 'items', 'mounts', 'quests', 'weapons', 'about'],
+    'gta-vi': ['characters', 'story', 'world', 'combat', 'lore', 'blog', 'guides', 'glossary', 'gallery', 'items', 'quests', 'weapons', 'trailers', 'buy', 'about'],
+    'crimson-desert': ['characters', 'story', 'world', 'combat', 'lore', 'blog', 'guides', 'glossary', 'gallery', 'items', 'mounts', 'quests', 'weapons', 'buy', 'about'],
+    'wolverine': ['characters', 'story', 'world', 'combat', 'lore', 'blog', 'guides', 'glossary', 'gallery', 'items', 'mounts', 'quests', 'weapons', 'buy', 'about'],
+    'fable': ['characters', 'story', 'world', 'combat', 'lore', 'blog', 'guides', 'glossary', 'gallery', 'items', 'mounts', 'quests', 'weapons', 'buy', 'about'],
   };
 
   for (const [wiki, pages] of Object.entries(wikiPages)) {
@@ -79,6 +83,26 @@ function buildEntries(): SitemapEntry[] {
         changefreq: 'weekly',
         priority: 0.7,
         alternates: Object.fromEntries(locales.map(l => [l, `${BASE_URL}/${l}/${wiki}/${page}`])),
+      });
+    }
+  }
+
+  // Wiki blog articles
+  const wikiBlogArticles: Record<string, { slug: string }[]> = {
+    'gta-vi': gtaBlogArticles,
+    'crimson-desert': crimsonBlogArticles,
+    'wolverine': wolverineBlogArticles,
+    'fable': fableBlogArticles,
+  };
+
+  for (const [wiki, articles] of Object.entries(wikiBlogArticles)) {
+    for (const article of articles) {
+      entries.push({
+        url: `${BASE_URL}/${defaultLocale}/${wiki}/blog/${article.slug}`,
+        lastmod: now,
+        changefreq: 'weekly',
+        priority: 0.6,
+        alternates: Object.fromEntries(locales.map(l => [l, `${BASE_URL}/${l}/${wiki}/blog/${article.slug}`])),
       });
     }
   }

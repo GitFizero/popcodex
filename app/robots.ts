@@ -42,7 +42,7 @@ export default function robots(): MetadataRoute.Robots {
         allow: '/',
       },
     ],
-    sitemap: 'https://www.popcodex.com/sitemap.xml',
-    host: 'https://www.popcodex.com',
+    sitemap: 'https://popcodex.com/sitemap.xml',
+    host: 'https://popcodex.com',
   };
 }
