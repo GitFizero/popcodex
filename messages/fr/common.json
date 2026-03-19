@@ -22,12 +22,14 @@
   },
   "hero": {
     "title": "L'encyclopédie de vos univers préférés",
-    "subtitle": "Explorez les wikis les plus complets sur les jeux vidéo, films et séries qui comptent."
+    "subtitle": "Explorez les wikis les plus complets sur les jeux vidéo, films et séries qui comptent.",
+    "universesCount": "{count} univers à explorer"
   },
   "universe": {
     "title": "Explorez nos univers",
     "releaseDate": "Sortie",
-    "articlesCount": "{count} articles"
+    "articlesCount": "{count} articles",
+    "subtitle": "Choisissez un univers et plongez dans son encyclopédie."
   },
   "recent": {
     "title": "Articles récents",
@@ -46,7 +48,10 @@
     "relatedArticles": "Articles connexes",
     "disclaimer": "PopCodex est un site communautaire non officiel.",
     "prev": "Article précédent",
-    "next": "Article suivant"
+    "next": "Article suivant",
+    "developer": "Développeur",
+    "platforms": "Plateformes",
+    "publisher": "Éditeur"
   },
   "article": {
     "toc": "Sommaire",

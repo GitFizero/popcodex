@@ -22,12 +22,14 @@
   },
   "hero": {
     "title": "여러분이 좋아하는 세계의 백과사전",
-    "subtitle": "중요한 비디오 게임, 영화, TV 시리즈에 대한 가장 완벽한 위키를 탐험하세요."
+    "subtitle": "중요한 비디오 게임, 영화, TV 시리즈에 대한 가장 완벽한 위키를 탐험하세요.",
+    "universesCount": "{count}개 세계 탐험"
   },
   "universe": {
     "title": "세계 탐험",
     "releaseDate": "출시일",
-    "articlesCount": "{count}개 기사"
+    "articlesCount": "{count}개 기사",
+    "subtitle": "세계를 선택하고 백과사전에 빠져보세요."
   },
   "recent": {
     "title": "최근 기사",
@@ -46,7 +48,10 @@
     "relatedArticles": "관련 기사",
     "disclaimer": "PopCodex는 비공식 커뮤니티 웹사이트입니다.",
     "prev": "이전 기사",
-    "next": "다음 기사"
+    "next": "다음 기사",
+    "developer": "개발사",
+    "platforms": "플랫폼",
+    "publisher": "퍼블리셔"
   },
   "article": {
     "toc": "목차",

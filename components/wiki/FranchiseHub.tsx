@@ -1,11 +1,12 @@
 'use client';
 
+import { useMemo } from 'react';
 import { useLocale, useTranslations } from 'next-intl';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { Calendar, FileText, ArrowRight, Clock, Gamepad2 } from 'lucide-react';
 import { FranchiseConfig } from '@/lib/franchise-config';
-import { ArticleData, getArticlesByFranchise } from '@/lib/articles';
+import { ArticleMeta, getArticlesMetaByFranchise } from '@/lib/articles';
 import GtaWikiHome from './GtaWikiHome';
 import CrimsonWikiHome from './CrimsonWikiHome';
 
@@ -22,19 +23,22 @@ export default function FranchiseHub({ franchise }: FranchiseHubProps) {
   const t = useTranslations('franchise');
   const tUniverse = useTranslations('universe');
   const tArticle = useTranslations('article');
-  const articles = getArticlesByFranchise(franchise.id);
+  const articles = getArticlesMetaByFranchise(franchise.id);
   const releaseDate = new Date(franchise.releaseDate).toLocaleDateString(
     locale === 'ko' ? 'ko-KR' : locale === 'en' ? 'en-US' : locale,
     { day: 'numeric', month: 'long', year: 'numeric' }
   );
 
-  const articlesByCategory: Record<string, ArticleData[]> = {};
-  articles.forEach(article => {
-    if (!articlesByCategory[article.category]) {
-      articlesByCategory[article.category] = [];
-    }
-    articlesByCategory[article.category].push(article);
-  });
+  const articlesByCategory = useMemo(() => {
+    const grouped: Record<string, ArticleMeta[]> = {};
+    articles.forEach(article => {
+      if (!grouped[article.category]) {
+        grouped[article.category] = [];
+      }
+      grouped[article.category].push(article);
+    });
+    return grouped;
+  }, [articles]);
 
   const accentColor = franchise.accentColor;
   const secondaryColor = franchise.theme.accentSecondary || accentColor;
@@ -178,7 +182,7 @@ export default function FranchiseHub({ franchise }: FranchiseHubProps) {
               }`}
               style={{
                 fontFamily: franchise.theme.fontDisplay,
-                color: isWolverine ? undefined : isFable ? secondaryColor : accentColor,
+                color: isFable ? secondaryColor : isWolverine ? undefined : accentColor,
                 opacity: isWolverine ? 0.05 : 0.03,
                 letterSpacing: '0.05em',
               }}
@@ -417,7 +421,7 @@ export default function FranchiseHub({ franchise }: FranchiseHubProps) {
                 <dl className="space-y-3 text-sm" style={{ fontFamily: franchise.theme.fontBody }}>
                   <div className="flex justify-between">
                     <dt style={{ color: 'var(--color-text-secondary)' }}>
-                      {locale === 'ko' ? '개발사' : locale === 'en' ? 'Developer' : 'Développeur'}
+                      {t('developer')}
                     </dt>
                     <dd className="font-medium" style={{ color: 'var(--color-text)' }}>
                       {franchise.developer}
@@ -425,7 +429,7 @@ export default function FranchiseHub({ franchise }: FranchiseHubProps) {
                   </div>
                   <div className="flex justify-between">
                     <dt style={{ color: 'var(--color-text-secondary)' }}>
-                      {locale === 'ko' ? '플랫폼' : locale === 'en' ? 'Platforms' : 'Plateformes'}
+                      {t('platforms')}
                     </dt>
                     <dd className="font-medium text-right" style={{ color: 'var(--color-text)' }}>
                       {franchise.platforms.join(', ')}
@@ -433,7 +437,7 @@ export default function FranchiseHub({ franchise }: FranchiseHubProps) {
                   </div>
                   <div className="flex justify-between">
                     <dt style={{ color: 'var(--color-text-secondary)' }}>
-                      {locale === 'ko' ? '퍼블리셔' : locale === 'en' ? 'Publisher' : 'Éditeur'}
+                      {t('publisher')}
                     </dt>
                     <dd className="font-medium text-right" style={{ color: 'var(--color-text)' }}>
                       {franchise.publisher}

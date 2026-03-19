@@ -4,7 +4,7 @@ import { useLocale, useTranslations } from 'next-intl';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { Clock, ArrowRight, TrendingUp } from 'lucide-react';
-import { getRecentArticles } from '@/lib/articles';
+import { getRecentArticlesMeta } from '@/lib/articles';
 import { franchises } from '@/lib/franchise-config';
 
 // Map French article categories to wiki SPA internal routes
@@ -32,7 +32,7 @@ export default function RecentArticles() {
   const t = useTranslations('recent');
   const tArticle = useTranslations('article');
   const locale = useLocale();
-  const articles = getRecentArticles(6);
+  const articles = getRecentArticlesMeta(6);
 
   // Split: first article large, rest in grid
   const [featured, ...rest] = articles;

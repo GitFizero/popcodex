@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { Calendar, FileText, ArrowRight, Clock, Sword, Map, Shield, BookOpen, Compass, Newspaper, BarChart3 } from 'lucide-react';
 import { FranchiseConfig } from '@/lib/franchise-config';
-import { ArticleData, getArticlesByFranchise } from '@/lib/articles';
+import { ArticleMeta, getArticlesMetaByFranchise } from '@/lib/articles';
 
 /* ================================================================
    CRIMSON DESERT — PYWEL CHRONICLES WIKI HOMEPAGE
@@ -196,9 +196,9 @@ export default function CrimsonWikiHome({ franchise }: CrimsonWikiHomeProps) {
   const t = useTranslations('franchise');
   const tUniverse = useTranslations('universe');
   const tArticle = useTranslations('article');
-  const articles = getArticlesByFranchise(franchise.id);
+  const articles = getArticlesMetaByFranchise(franchise.id);
 
-  const articlesByCategory: Record<string, ArticleData[]> = {};
+  const articlesByCategory: Record<string, ArticleMeta[]> = {};
   articles.forEach(article => {
     if (!articlesByCategory[article.category]) {
       articlesByCategory[article.category] = [];

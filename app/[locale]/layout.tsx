@@ -14,8 +14,10 @@ export function generateStaticParams() {
 const CRITICAL_FONTS = 'https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;700&family=Instrument+Sans:wght@400;500;600;700&family=Cinzel+Decorative:wght@400;700&display=swap';
 
 // Non-critical fonts: loaded asynchronously after page render
-// Deferred fonts: all remaining fonts loaded after initial paint
-const DEFERRED_FONTS = 'https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel:wght@400;600;700&family=Cinzel+Decorative:wght@400;700&family=DM+Sans:wght@400;500;600;700&family=Barlow+Condensed:wght@400;600;700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400&family=IM+Fell+English:ital@0;1&family=Rajdhani:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Noto+Sans+KR:wght@400;500;700&display=swap';
+// Deferred fonts: universe-specific fonts loaded after initial paint
+const DEFERRED_FONTS = 'https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel:wght@400;600;700&family=Cinzel+Decorative:wght@400;700&family=DM+Sans:wght@400;500;600;700&family=Barlow+Condensed:wght@400;600;700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400&family=IM+Fell+English:ital@0;1&family=Rajdhani:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap';
+// Korean font: only loaded for ko locale
+const KR_FONTS = 'https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap';
 
 export default async function LocaleLayout({
   children,
@@ -34,6 +36,12 @@ export default async function LocaleLayout({
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#08080f" />
+        {/* Prevent theme flash: apply saved theme before first paint */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `(function(){try{var t=localStorage.getItem('theme');if(t==='dark')document.documentElement.setAttribute('data-theme','dark')}catch(e){}})()`,
+          }}
+        />
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.svg" />
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2920984102033876" crossOrigin="anonymous"></script>
@@ -56,12 +64,25 @@ export default async function LocaleLayout({
         <noscript>
           <link href={DEFERRED_FONTS} rel="stylesheet" />
         </noscript>
+        {/* Korean font: only loaded when locale is ko */}
+        {locale === 'ko' && (
+          <>
+            <link rel="preload" href={KR_FONTS} as="style" />
+            <link href={KR_FONTS} rel="stylesheet" />
+          </>
+        )}
       </head>
       <body
         className="antialiased"
         style={{ fontFamily: '"Instrument Sans", system-ui, sans-serif' }}
       >
         <NextIntlClientProvider locale={locale} messages={messages}>
+          <a
+            href="#main-content"
+            className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[100] focus:px-4 focus:py-2 focus:rounded-md focus:bg-[var(--color-accent)] focus:text-white focus:outline-none"
+          >
+            {messages.accessibility?.skipToContent || 'Skip to main content'}
+          </a>
           <Header />
           <main id="main-content">
             <UniverseTransition>

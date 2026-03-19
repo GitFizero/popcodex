@@ -6,11 +6,11 @@ import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { ArrowRight, Calendar } from 'lucide-react';
 import { getAllFranchiseIds, franchises, FranchiseConfig } from '@/lib/franchise-config';
-import { getArticlesByFranchise } from '@/lib/articles';
+import { getArticlesMetaByFranchise } from '@/lib/articles';
 
 function UniverseCard({ franchise, locale, index }: { franchise: FranchiseConfig; locale: string; index: number }) {
   const t = useTranslations('universe');
-  const articleCount = getArticlesByFranchise(franchise.id).length;
+  const articleCount = getArticlesMetaByFranchise(franchise.id).length;
   const releaseDate = new Date(franchise.releaseDate);
   const dateStr = releaseDate.toLocaleDateString(locale === 'en' ? 'en-US' : locale, { day: 'numeric', month: 'long', year: 'numeric' });
   const secondary = franchise.theme.accentSecondary || franchise.accentColor;
@@ -185,7 +185,7 @@ export default function UniverseGrid() {
           {t('title')}
         </h2>
         <p className="mt-2 text-sm text-[var(--color-text-secondary)] max-w-md">
-          {locale === 'fr' ? 'Choisissez un univers et plongez dans son encyclopédie.' : locale === 'es' ? 'Elige un universo y sumérgete en su enciclopedia.' : 'Choose a universe and dive into its encyclopedia.'}
+          {t('subtitle')}
         </p>
       </motion.div>
 

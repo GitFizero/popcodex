@@ -16,6 +16,14 @@ export interface ArticleData {
   relatedSlugs?: string[];
 }
 
+/** Article without full content — used for list/index pages to reduce memory */
+export type ArticleMeta = Omit<ArticleData, 'content'>;
+
+function stripContent(article: ArticleData): ArticleMeta {
+  const { content, ...meta } = article;
+  return meta;
+}
+
 // Base articles (will be merged with franchise-specific imports)
 const baseArticles: ArticleData[] = [
   {
@@ -1584,6 +1592,18 @@ export function getArticleBySlug(franchise: string, slug: string): ArticleData |
 
 export function getRecentArticles(limit: number = 5): ArticleData[] {
   return [...articles].sort((a, b) => new Date(b.updatedAt).getTime() - new Date(a.updatedAt).getTime()).slice(0, limit);
+}
+
+/** Metadata-only variants — use on list/index pages to avoid loading full article content */
+export function getArticlesMetaByFranchise(franchise: string): ArticleMeta[] {
+  return articles.filter(a => a.franchise === franchise).map(stripContent);
+}
+
+export function getRecentArticlesMeta(limit: number = 5): ArticleMeta[] {
+  return [...articles]
+    .sort((a, b) => new Date(b.updatedAt).getTime() - new Date(a.updatedAt).getTime())
+    .slice(0, limit)
+    .map(stripContent);
 }
 
 export function getCategoryForArticle(franchise: FranchiseId, categorySlug: string, locale: string): string | undefined {

@@ -274,7 +274,7 @@ export default function HeroSection() {
           >
             <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
             <span className="text-sm text-white/60">
-              {allFranchises.length} {locale === 'en' ? 'universes to explore' : locale === 'es' ? 'universos por explorar' : locale === 'pt' ? 'universos para explorar' : 'univers à explorer'}
+              {t('universesCount', { count: allFranchises.length })}
             </span>
           </motion.div>
 

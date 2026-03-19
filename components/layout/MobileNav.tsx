@@ -5,7 +5,7 @@ import { useLocale, useTranslations } from 'next-intl';
 import Link from 'next/link';
 import { Menu, X, ChevronRight } from 'lucide-react';
 import { getFranchisesByMediaType } from '@/lib/franchise-config';
-import { getArticlesByFranchise } from '@/lib/articles';
+import { getArticlesMetaByFranchise } from '@/lib/articles';
 import Logo from './Logo';
 import ThemeToggle from './ThemeToggle';
 import LanguageSwitcher from './LanguageSwitcher';
@@ -56,7 +56,7 @@ export default function MobileNav() {
               {gamesOpen && (
                 <div className="pl-3 space-y-1">
                   {games.map((franchise) => {
-                    const count = getArticlesByFranchise(franchise.id).length;
+                    const count = getArticlesMetaByFranchise(franchise.id).length;
                     return (
                       <Link
                         key={franchise.id}

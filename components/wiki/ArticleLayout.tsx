@@ -21,9 +21,19 @@ interface ArticleLayoutProps {
   nextArticle?: { slug: string; title: string; href: string } | null;
 }
 
+function escapeHtml(str: string): string {
+  return str
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#x27;');
+}
+
 function renderMarkdown(content: string): string {
-  let html = content;
-  // Headings
+  // First, escape all HTML in the raw content to prevent XSS
+  let html = escapeHtml(content);
+  // Headings (now safe since content is escaped)
   html = html.replace(/^### (.+)$/gm, (_, text) => {
     const id = text.toLowerCase().replace(/[^a-zà-ÿ0-9\s-]/g, '').replace(/\s+/g, '-');
     return `<h3 id="${id}" class="text-lg font-semibold mt-8 mb-3" style="font-family: var(--font-display)">${text}</h3>`;
