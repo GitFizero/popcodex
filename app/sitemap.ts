@@ -60,5 +60,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
   }
 
+  // Legal pages
+  const legalPages = ['mentions-legales', 'politique-confidentialite'];
+  for (const page of legalPages) {
+    for (const locale of locales) {
+      entries.push({
+        url: `${BASE_URL}/${locale}/legal/${page}`,
+        lastModified: new Date(),
+        changeFrequency: 'yearly',
+        priority: 0.3,
+        alternates: {
+          languages: Object.fromEntries(locales.map(l => [l, `${BASE_URL}/${l}/legal/${page}`])),
+        },
+      });
+    }
+  }
+
   return entries;
 }
