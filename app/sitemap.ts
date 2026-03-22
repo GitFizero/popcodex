@@ -3,7 +3,7 @@ import { locales } from '@/lib/i18n/config';
 import { getAllFranchiseIds, getFranchiseById } from '@/lib/franchise-config';
 import { getArticlesByFranchise } from '@/lib/articles';
 
-const BASE_URL = 'https://popcodex.com';
+const BASE_URL = 'https://www.popcodex.com';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const entries: MetadataRoute.Sitemap = [];

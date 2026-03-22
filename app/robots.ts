@@ -6,9 +6,14 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: '*',
         allow: '/',
-        disallow: ['/api/', '/studio/'],
+        disallow: [
+          '/api/',
+          '/studio/',
+          '/*/search',
+          '/*/search?*',
+        ],
       },
     ],
-    sitemap: 'https://popcodex.com/sitemap.xml',
+    sitemap: 'https://www.popcodex.com/sitemap.xml',
   };
 }

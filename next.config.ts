@@ -18,6 +18,34 @@ const nextConfig: NextConfig = {
       ],
     },
   ],
+  redirects: async () => [
+    // Redirect old URLs without locale prefix to /fr/ version
+    {
+      source: '/crimson-desert/blog/:slug',
+      destination: '/fr/crimson-desert/actualites/:slug',
+      permanent: true,
+    },
+    {
+      source: '/crimson-desert/:path*',
+      destination: '/fr/crimson-desert/:path*',
+      permanent: true,
+    },
+    {
+      source: '/gta-vi/:path*',
+      destination: '/fr/gta-vi/:path*',
+      permanent: true,
+    },
+    {
+      source: '/fable/:path*',
+      destination: '/fr/fable/:path*',
+      permanent: true,
+    },
+    {
+      source: '/wolverine/:path*',
+      destination: '/fr/wolverine/:path*',
+      permanent: true,
+    },
+  ],
 };
 
 export default withNextIntl(nextConfig);
