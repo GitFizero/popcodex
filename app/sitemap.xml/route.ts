@@ -31,7 +31,10 @@ function buildEntries(): SitemapEntry[] {
     lastmod: now,
     changefreq: 'daily',
     priority: 1.0,
-    alternates: Object.fromEntries(locales.map(l => [l, `${BASE_URL}/${l}`])),
+    alternates: {
+      ...Object.fromEntries(locales.map(l => [l, `${BASE_URL}/${l}`])),
+      'x-default': `${BASE_URL}/${defaultLocale}`,
+    },
   });
 
   // Franchise hubs
@@ -41,7 +44,10 @@ function buildEntries(): SitemapEntry[] {
       lastmod: now,
       changefreq: 'daily',
       priority: 0.9,
-      alternates: Object.fromEntries(locales.map(l => [l, `${BASE_URL}/${l}/${franchiseId}`])),
+      alternates: {
+        ...Object.fromEntries(locales.map(l => [l, `${BASE_URL}/${l}/${franchiseId}`])),
+        'x-default': `${BASE_URL}/${defaultLocale}/${franchiseId}`,
+      },
     });
   }
 
@@ -59,10 +65,13 @@ function buildEntries(): SitemapEntry[] {
         lastmod: new Date(article.updatedAt).toISOString(),
         changefreq: 'weekly',
         priority: 0.8,
-        alternates: Object.fromEntries(locales.map(l => {
-          const lCatSlug = cat?.slug[l] || article.category;
-          return [l, `${BASE_URL}/${l}/${franchiseId}/${lCatSlug}/${article.slug}`];
-        })),
+        alternates: {
+          ...Object.fromEntries(locales.map(l => {
+            const lCatSlug = cat?.slug[l] || article.category;
+            return [l, `${BASE_URL}/${l}/${franchiseId}/${lCatSlug}/${article.slug}`];
+          })),
+          'x-default': `${BASE_URL}/${defaultLocale}/${franchiseId}/${defaultCatSlug}/${article.slug}`,
+        },
       });
     }
   }
@@ -82,7 +91,10 @@ function buildEntries(): SitemapEntry[] {
         lastmod: now,
         changefreq: 'weekly',
         priority: 0.7,
-        alternates: Object.fromEntries(locales.map(l => [l, `${BASE_URL}/${l}/${wiki}/${page}`])),
+        alternates: {
+          ...Object.fromEntries(locales.map(l => [l, `${BASE_URL}/${l}/${wiki}/${page}`])),
+          'x-default': `${BASE_URL}/${defaultLocale}/${wiki}/${page}`,
+        },
       });
     }
   }
@@ -102,7 +114,10 @@ function buildEntries(): SitemapEntry[] {
         lastmod: now,
         changefreq: 'weekly',
         priority: 0.6,
-        alternates: Object.fromEntries(locales.map(l => [l, `${BASE_URL}/${l}/${wiki}/blog/${article.slug}`])),
+        alternates: {
+          ...Object.fromEntries(locales.map(l => [l, `${BASE_URL}/${l}/${wiki}/blog/${article.slug}`])),
+          'x-default': `${BASE_URL}/${defaultLocale}/${wiki}/blog/${article.slug}`,
+        },
       });
     }
   }

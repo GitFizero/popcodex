@@ -29,7 +29,10 @@ export function generateBaseMetadata(locale: string): Metadata {
     metadataBase: new URL(BASE_URL),
     alternates: {
       canonical: `${BASE_URL}/${locale}`,
-      languages: Object.fromEntries(ALL_LOCALES.map(l => [l, `${BASE_URL}/${l}`])),
+      languages: {
+        ...Object.fromEntries(ALL_LOCALES.map(l => [l, `${BASE_URL}/${l}`])),
+        'x-default': `${BASE_URL}/fr`,
+      },
     },
     openGraph: {
       title: titles[locale] || titles.fr,
@@ -61,7 +64,10 @@ export function generateFranchiseMetadata(franchise: FranchiseConfig, locale: st
     description,
     alternates: {
       canonical: `${BASE_URL}/${locale}/${franchise.id}`,
-      languages: Object.fromEntries(ALL_LOCALES.map(l => [l, `${BASE_URL}/${l}/${franchise.id}`])),
+      languages: {
+        ...Object.fromEntries(ALL_LOCALES.map(l => [l, `${BASE_URL}/${l}/${franchise.id}`])),
+        'x-default': `${BASE_URL}/fr/${franchise.id}`,
+      },
     },
     openGraph: {
       title,
@@ -85,12 +91,15 @@ export function generateArticleMetadata(article: ArticleData, franchise: Franchi
     description,
     alternates: {
       canonical: url,
-      languages: Object.fromEntries(
-        ALL_LOCALES.map(l => {
-          const catSlug = franchise.categories.find(c => c.slug.fr === article.category)?.slug[l] || article.category;
-          return [l, `${BASE_URL}/${l}/${franchise.id}/${catSlug}/${article.slug}`];
-        })
-      ),
+      languages: {
+        ...Object.fromEntries(
+          ALL_LOCALES.map(l => {
+            const catSlug = franchise.categories.find(c => c.slug.fr === article.category)?.slug[l] || article.category;
+            return [l, `${BASE_URL}/${l}/${franchise.id}/${catSlug}/${article.slug}`];
+          })
+        ),
+        'x-default': `${BASE_URL}/fr/${franchise.id}/${franchise.categories.find(c => c.slug.fr === article.category)?.slug.fr || article.category}/${article.slug}`,
+      },
     },
     openGraph: {
       title: article.title[locale] || article.title.fr,
@@ -140,7 +149,10 @@ export function generateWikiMetadata(franchiseId: string, franchise: FranchiseCo
     description,
     alternates: {
       canonical: `${BASE_URL}${path}`,
-      languages: Object.fromEntries(ALL_LOCALES.map(l => [l, `${BASE_URL}/${l}/${franchiseId}${wikiPage ? `/${wikiPage}` : ''}`])),
+      languages: {
+        ...Object.fromEntries(ALL_LOCALES.map(l => [l, `${BASE_URL}/${l}/${franchiseId}${wikiPage ? `/${wikiPage}` : ''}`])),
+        'x-default': `${BASE_URL}/fr/${franchiseId}${wikiPage ? `/${wikiPage}` : ''}`,
+      },
     },
     openGraph: {
       title,

@@ -9,14 +9,6 @@ export function generateWebsiteJsonLd(locale: string) {
     '@type': 'WebSite',
     name: 'PopCodex',
     url: `${BASE_URL}/${locale}`,
-    potentialAction: {
-      '@type': 'SearchAction',
-      target: {
-        '@type': 'EntryPoint',
-        urlTemplate: `${BASE_URL}/${locale}/search?q={search_term_string}`,
-      },
-      'query-input': 'required name=search_term_string',
-    },
   };
 }
 

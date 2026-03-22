@@ -54,9 +54,12 @@ export function generateWikiSectionMetadata(
     description,
     alternates: {
       canonical: `${BASE_URL}${path}`,
-      languages: Object.fromEntries(
-        ALL_LOCALES.map(l => [l, `${BASE_URL}/${l}/${franchiseId}${!isIndex ? `/${section}` : ''}`])
-      ),
+      languages: {
+        ...Object.fromEntries(
+          ALL_LOCALES.map(l => [l, `${BASE_URL}/${l}/${franchiseId}${!isIndex ? `/${section}` : ''}`])
+        ),
+        'x-default': `${BASE_URL}/fr/${franchiseId}${!isIndex ? `/${section}` : ''}`,
+      },
     },
     openGraph: {
       title,
@@ -93,9 +96,12 @@ export function generateWikiBlogArticleMetadata(
     description,
     alternates: {
       canonical: `${BASE_URL}${path}`,
-      languages: Object.fromEntries(
-        ALL_LOCALES.map(l => [l, `${BASE_URL}/${l}/${franchiseId}/blog/${article.slug}`])
-      ),
+      languages: {
+        ...Object.fromEntries(
+          ALL_LOCALES.map(l => [l, `${BASE_URL}/${l}/${franchiseId}/blog/${article.slug}`])
+        ),
+        'x-default': `${BASE_URL}/fr/${franchiseId}/blog/${article.slug}`,
+      },
     },
     openGraph: {
       title: article.title[locale] || article.title.en || article.title.fr,
