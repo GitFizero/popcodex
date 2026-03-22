@@ -21,7 +21,7 @@ export default async function MentionsLegales({ params }: { params: Promise<{ lo
         <h2 className="text-lg font-semibold text-[var(--color-text)] mt-8 mb-4" style={{ fontFamily: 'var(--font-display)' }}>
           {locale === 'fr' ? 'Éditeur du site' : 'Website Publisher'}
         </h2>
-        <p>PopCodex — popcodex.com</p>
+        <p>PopCodex — www.popcodex.com</p>
         <h2 className="text-lg font-semibold text-[var(--color-text)] mt-8 mb-4" style={{ fontFamily: 'var(--font-display)' }}>
           {locale === 'fr' ? 'Hébergement' : 'Hosting'}
         </h2>
