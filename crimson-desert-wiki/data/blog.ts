@@ -7513,4 +7513,324 @@ La patch 1.01.00 ha aggiunto 5 nuove cavalcature evocabili: Orso Bianco, Zanna d
     },
     relatedSlugs: ['crimson-desert-beginner-guide-10-essential-tips', 'crimson-desert-combat-system-lock-stamina-parry-spirit', 'all-weapons-combat-styles-crimson-desert'],
   },
+  // ─── ARTICLE 27 — MARCH 2026 UPDATES ───
+  {
+    id: 'march-2026-updates',
+    slug: 'crimson-desert-march-2026-updates-patches-sales-records',
+    category: 'NEWS',
+    coverImage: pywelPanorama,
+    author: 'Pywel Wiki',
+    publishedAt: '2026-03-30',
+    readingTime: 12,
+    tags: [
+      { fr: 'mise à jour', en: 'update', es: 'actualización', it: 'aggiornamento', ko: '업데이트' },
+      { fr: 'patch notes', en: 'patch notes', es: 'notas del parche', it: 'note della patch', ko: '패치 노트' },
+      { fr: 'Pearl Abyss', en: 'Pearl Abyss', es: 'Pearl Abyss', it: 'Pearl Abyss', ko: '펄어비스' },
+      { fr: 'montures', en: 'mounts', es: 'monturas', it: 'cavalcature', ko: '탈것' },
+      { fr: 'qualité de vie', en: 'quality of life', es: 'calidad de vida', it: 'qualità della vita', ko: '편의성 개선' },
+    ],
+    title: {
+      fr: 'Crimson Desert : toutes les mises à jour de mars 2026 (Patchs 1.00.02, 1.00.03, 1.01.00)',
+      en: 'Crimson Desert: All March 2026 Updates (Patches 1.00.02, 1.00.03, 1.01.00)',
+      es: 'Crimson Desert: todas las actualizaciones de marzo 2026 (Parches 1.00.02, 1.00.03, 1.01.00)',
+      it: 'Crimson Desert: tutti gli aggiornamenti di marzo 2026 (Patch 1.00.02, 1.00.03, 1.01.00)',
+      ko: '크림슨 디저트: 2026년 3월 전체 업데이트 (패치 1.00.02, 1.00.03, 1.01.00)',
+    },
+    excerpt: {
+      fr: '5 mises à jour en 10 jours : Pearl Abyss bat des records de réactivité. Nouvelles montures, équilibrage, QoL massive et remplacement de l\'art IA.',
+      en: '5 updates in 10 days: Pearl Abyss sets records for responsiveness. New mounts, balance changes, massive QoL and AI art replaced.',
+      es: '5 actualizaciones en 10 días: Pearl Abyss establece récords de rapidez. Nuevas monturas, equilibrio, QoL masiva y arte IA reemplazado.',
+      it: '5 aggiornamenti in 10 giorni: Pearl Abyss stabilisce record di reattività. Nuove cavalcature, bilanciamento, QoL massiva e arte IA sostituita.',
+      ko: '10일 만에 5번의 업데이트: 펄어비스가 대응 속도 기록을 세웠습니다. 새로운 탈것, 밸런스 조정, 대규모 편의성 개선 및 AI 아트 교체.',
+    },
+    seoTitle: {
+      fr: 'Crimson Desert Patch Notes Mars 2026 | Toutes les MAJ 1.00.02, 1.00.03, 1.01.00',
+      en: 'Crimson Desert Patch Notes March 2026 | All Updates 1.00.02, 1.00.03, 1.01.00',
+      es: 'Crimson Desert Notas del Parche Marzo 2026 | Todas las Actualizaciones',
+      it: 'Crimson Desert Patch Notes Marzo 2026 | Tutti gli Aggiornamenti',
+      ko: '크림슨 디저트 패치 노트 2026년 3월 | 모든 업데이트 정리',
+    },
+    seoDescription: {
+      fr: 'Résumé complet des patchs 1.00.02, 1.00.03 et 1.01.00 de Crimson Desert. Nouvelles montures, équilibrage des boss, QoL et remplacement de l\'art IA. Pearl Abyss 2026.',
+      en: 'Complete summary of Crimson Desert patches 1.00.02, 1.00.03 and 1.01.00. New mounts, boss balance, QoL improvements and AI art replaced. Pearl Abyss 2026.',
+      es: 'Resumen completo de los parches 1.00.02, 1.00.03 y 1.01.00 de Crimson Desert. Nuevas monturas, equilibrio de jefes, mejoras QoL y arte IA reemplazado.',
+      it: 'Riepilogo completo delle patch 1.00.02, 1.00.03 e 1.01.00 di Crimson Desert. Nuove cavalcature, bilanciamento boss, miglioramenti QoL e arte IA sostituita.',
+      ko: '크림슨 디저트 패치 1.00.02, 1.00.03, 1.01.00 전체 요약. 새로운 탈것, 보스 밸런스, 편의성 개선 및 AI 아트 교체.',
+    },
+    content: {
+      fr: `Crimson Desert est sorti le 19 mars 2026 et Pearl Abyss a enchaîné **5 mises à jour en seulement 10 jours**, un rythme de réactivité post-lancement rarement vu dans l'industrie. Comme le rapporte [IGN France](https://fr.ign.com/crimson-desert/87006/news/les-mises-a-jour-de-crimson-desert-ravissent-les-fans-mais-certains-estiment-quelles-rendent-le-jeu), les fans sont ravis mais certains estiment que les patches rendent le jeu trop facile. Selon [Gamewave](https://gamewave.fr/crimson-desert/crimson-desert-bat-son-record-de-joueurs-dix-jours-apres-sa-sortie/), le jeu a battu son record de joueurs simultanés dix jours après sa sortie. Voici le détail complet de chaque mise à jour.
+
+## Patch 1.00.02 — 20 mars 2026
+
+Le premier patch est arrivé dès le lendemain du lancement :
+
+- **Tutoriel Abyss Gears** ajouté au début du Chapitre 3 pour mieux expliquer le système
+- Améliorations d'ergonomie du **mode Logement**
+- La difficulté des QTE de capture augmente désormais **progressivement**
+- **Dégâts mortels instantanés de l'ours supprimés**, dégâts globaux réduits
+- Les cinématiques récemment vues peuvent être **avancées plus rapidement**
+
+## Patch 1.00.03 — 25 mars 2026 (mise à jour majeure)
+
+Le patch le plus conséquent en termes de correctifs et d'équilibrage :
+
+### Combat & Difficulté
+- **PV et attaque réduits** pour les ennemis de début de jeu et certains boss de quête principale
+- **Consommation d'endurance réduite** pour le blocage
+- Modification des patterns d'attaque de **Kearush le Tueur**
+- **Jauge d'étourdissement augmentée** lors d'une parade réussie
+- Les **faiblesses des boss** s'affichent même sans avoir acquis le savoir correspondant
+- Difficulté réduite des embuscades vers le **Reed Devil**
+- Difficulté de la lutte au bras de fer et du tir à l'arc réduite
+
+### Contenu & Exploration
+- **Nouveaux Abyss Nexus** ajoutés à travers Pywel
+- **Stockage privé** disponible aux logements de Hernand et au Camp de Howling Hill
+- Découverte automatique des **filons de minerai** (8m) et **outils** (2m)
+- Portée de détection de la **lanterne** augmentée
+- Temps d'acquisition des connaissances réduit
+- Force Palm accessible plus tôt
+
+### Restauration & Économie
+- **Restauration de PV** de la nourriture et ingrédients augmentée
+- Prix des consommables de **Carl réduits** (de 10 à 1 pièce d'argent)
+- **Enregistrement automatique** de la nourriture dans les emplacements rapides
+
+### Contrôles & Interface
+- Raccourcis menu rapides (**I/K/J/M**)
+- Réactivité améliorée des contrôles clavier/souris et manette
+- Connaissances/Notifications déplacées vers l'onglet **Journal**
+
+### Performance
+- **PS5/Xbox** : sortie 120Hz séparée en option (défaut : 60Hz)
+- Corrections de stabilité et crashs sur toutes les plateformes
+
+## Patch 1.01.00 — 28 mars 2026 (plus grosse mise à jour)
+
+La mise à jour la plus ambitieuse, apportant du contenu neuf et des changements majeurs de qualité de vie :
+
+### Nouvelles montures invoquables
+**5 nouvelles montures** que les joueurs peuvent débloquer et invoquer :
+- 🐻 **Ours Blanc** — monture lente mais très résistante
+- 🐺 **Croc d'Argent** (Silver Fang) — loup rapide et agile
+- 🦌 **Cerf Blanc des Neiges** — excellent en terrain montagneux
+- 🦅 **Roc** — oiseau géant pour le voyage aérien longue distance
+
+### Vol & Exploration
+- **Correction du vol** : plus de micro-arrêt avant le planage
+- **Coût d'endurance réduit** pour rester en l'air
+- Nouveaux **coffres de matériaux** à travers Pywel
+- **Temps de chargement réduits** pour le voyage rapide et la résurrection
+
+### Artisanat & Économie
+- **Jetons de Raffinement** pour améliorer l'équipement jusqu'au Stade 4
+- Option **"Fabriquer maintenant"** pour l'artisanat
+- Possibilité de **cuisiner plusieurs plats différents** en même temps
+- Les puits donnent désormais **5 eaux** au lieu d'une
+
+### Changements notables
+- **L'art généré par IA a été remplacé par de vrais dessins** (demande majeure de la communauté)
+- Modification du système de **Points de Crime et de Contribution**
+- Indication ajoutée à l'approche d'une **porte verrouillée**
+- **PS5** : option "Sortie 4K Fixe" pour une image plus nette, upscaling FSR automatique sur PS5 de base en mode Performance
+
+## Impact sur la réception
+
+Ces mises à jour rapides ont eu un impact spectaculaire :
+- Les avis Steam sont passés de **"Mitigé" à "Très Positif"**
+- Le jeu a atteint un **nouveau record de 276 261 joueurs simultanés** au deuxième week-end
+- Pearl Abyss a été unanimement salué pour sa réactivité exceptionnelle
+
+Consultez notre [article sur les records de ventes](/blog/crimson-desert-sales-records-player-count-steam-2026) et nos [astuces avancées](/blog/crimson-desert-advanced-tips-tricks-combat-exploration-2026) mises à jour avec les changements des patches.`,
+
+      en: `Crimson Desert launched on March 19, 2026, and Pearl Abyss delivered **5 updates in just 10 days** — a post-launch responsiveness rate rarely seen in the industry. As reported by [IGN France](https://fr.ign.com/crimson-desert/87006/news/les-mises-a-jour-de-crimson-desert-ravissent-les-fans-mais-certains-estiment-quelles-rendent-le-jeu), fans are delighted but some feel the patches make the game too easy. According to [Gamewave](https://gamewave.fr/crimson-desert/crimson-desert-bat-son-record-de-joueurs-dix-jours-apres-sa-sortie/), the game broke its concurrent player record ten days after launch. Here's the complete breakdown of each update.
+
+## Patch 1.00.02 — March 20, 2026
+
+The first patch arrived just one day after launch:
+
+- **Abyss Gears tutorial** added at the start of Chapter 3
+- **Housing mode** usability improvements
+- QTE difficulty for captures now **gradually increases**
+- **Bear instant-kill damage removed**, overall damage adjusted
+- Recently viewed cutscenes can be **fast forwarded more quickly**
+
+## Patch 1.00.03 — March 25, 2026 (Major Update)
+
+The most substantial patch in terms of fixes and balancing:
+
+### Combat & Difficulty
+- **Reduced HP and attack** for early-game enemies and main quest bosses
+- **Reduced stamina consumption** for blocking
+- Modified **Kearush the Slayer** attack patterns
+- **Increased parry stun gauge** accumulation
+- **Boss weaknesses displayed** even without acquiring the corresponding knowledge
+- Reduced ambush difficulty approaching the **Reed Devil**
+
+### Content & Exploration
+- **New Abyss Nexuses** added across Pywel
+- **Private Storage** at Hernand lodgings and Howling Hill Camp
+- Auto-discover **ore veins** (8m) and **tools** (2m)
+- **Lantern** clue detection range increased
+- Force Palm accessible earlier
+
+### Restoration & Economy
+- **Food HP restoration increased**
+- **Carl's restorative item prices reduced** (10 → 1 Silver)
+- **Auto-register food** to quick slots
+
+### Controls & UI
+- Quick menu shortcuts (**I/K/J/M**)
+- Improved keyboard/mouse and controller responsiveness
+- Knowledge/Notifications moved to **Journal** tab
+
+### Performance
+- **PS5/Xbox**: 120Hz output separated as optional (default: 60Hz)
+- Stability fixes across all platforms
+
+## Patch 1.01.00 — March 28, 2026 (Biggest Update)
+
+The most ambitious update, bringing new content and major quality-of-life changes:
+
+### New Summonable Mounts
+**5 new mounts** players can unlock and summon:
+- 🐻 **White Bear** — slow but highly durable
+- 🐺 **Silver Fang** — fast and agile wolf
+- 🦌 **Snowwhite Deer** — excellent in mountainous terrain
+- 🦅 **Roc** — giant bird for long-distance aerial travel
+
+### Flight & Exploration
+- **Gliding fix**: no more brief stop before gliding
+- **Reduced stamina cost** for staying airborne
+- New **material chests** throughout Pywel
+- **Reduced loading times** for fast travel and revival
+
+### Crafting & Economy
+- **Refinement Coins** for tempering equipment up to Stage 4
+- **"Make Now"** crafting option
+- **Cook multiple different food items** at once
+- Wells now give **5 water**
+
+### Notable Changes
+- **AI-generated art replaced with real artwork** (major community request)
+- Crime and Contribution Point loss changes
+- Prompt added when approaching a **locked door**
+- **PS5**: "Fixed 4K Output" option for sharper image, FSR upscaling on base PS5 in Performance Mode
+
+## Impact on Reception
+
+These rapid updates had a spectacular impact:
+- Steam reviews went from **"Mixed" to "Very Positive"**
+- The game reached a **new record of 276,261 concurrent players** on the second weekend
+- Pearl Abyss was unanimously praised for exceptional responsiveness
+
+Check our [sales records article](/blog/crimson-desert-sales-records-player-count-steam-2026) and our [advanced tips](/blog/crimson-desert-advanced-tips-tricks-combat-exploration-2026) updated with patch changes.`,
+
+      es: `Crimson Desert se lanzó el 19 de marzo de 2026 y Pearl Abyss entregó **5 actualizaciones en solo 10 días**, un ritmo de respuesta post-lanzamiento pocas veces visto en la industria. Según informó [IGN France](https://fr.ign.com/crimson-desert/87006/news/les-mises-a-jour-de-crimson-desert-ravissent-les-fans-mais-certains-estiment-quelles-rendent-le-jeu), los fans están encantados pero algunos creen que los parches hacen el juego demasiado fácil. Según [Gamewave](https://gamewave.fr/crimson-desert/crimson-desert-bat-son-record-de-joueurs-dix-jours-apres-sa-sortie/), el juego batió su récord de jugadores simultáneos diez días después de su lanzamiento.
+
+## Parche 1.00.02 — 20 de marzo de 2026
+
+- **Tutorial de Abyss Gears** al inicio del Capítulo 3
+- Mejoras de usabilidad del **modo Vivienda**
+- La dificultad QTE de capturas aumenta **gradualmente**
+- **Daño letal instantáneo del oso eliminado**
+- Las cinemáticas pueden **avanzarse más rápido**
+
+## Parche 1.00.03 — 25 de marzo de 2026 (Actualización Mayor)
+
+- **Reducción de PV y ataque** de enemigos iniciales y jefes principales
+- **Menor consumo de resistencia** al bloquear
+- Patrones de ataque de **Kearush** modificados
+- **Mayor acumulación de aturdimiento** al realizar un parry
+- **Debilidades de los jefes visibles** sin necesidad de conocimiento previo
+- Nuevos **Abyss Nexus** por todo Pywel
+- **Almacenamiento privado** en alojamientos de Hernand y Campamento Howling Hill
+- **Restauración de PV de comida aumentada**, precios de Carl reducidos (10 → 1 Plata)
+- Atajos de menú rápidos (**I/K/J/M**)
+- **PS5/Xbox**: salida 120Hz como opción separada
+
+## Parche 1.01.00 — 28 de marzo de 2026 (Mayor Actualización)
+
+- **5 nuevas monturas invocables**: Oso Blanco, Colmillo de Plata, Ciervo de las Nieves, Roc
+- **Corrección del planeo**: sin más paradas breves, menor coste de resistencia
+- **Monedas de Refinamiento** para mejorar equipamiento hasta Fase 4
+- Opción **"Fabricar Ahora"**, cocinar múltiples platos a la vez
+- **Arte IA reemplazado por arte real**
+- Pozos dan **5 aguas**, indicación en puertas cerradas
+- **PS5**: opción "Salida 4K Fija"
+
+Los reviews de Steam pasaron de **"Mixtas" a "Muy Positivas"** y el juego alcanzó un nuevo récord de **276.261 jugadores simultáneos**. Consulta nuestro [artículo de récords de ventas](/blog/crimson-desert-sales-records-player-count-steam-2026) y nuestros [consejos avanzados](/blog/crimson-desert-advanced-tips-tricks-combat-exploration-2026).`,
+
+      it: `Crimson Desert è uscito il 19 marzo 2026 e Pearl Abyss ha rilasciato **5 aggiornamenti in soli 10 giorni**, un tasso di reattività post-lancio raramente visto nel settore. Come riportato da [IGN France](https://fr.ign.com/crimson-desert/87006/news/les-mises-a-jour-de-crimson-desert-ravissent-les-fans-mais-certains-estiment-quelles-rendent-le-jeu), i fan sono entusiasti ma alcuni ritengono che le patch rendano il gioco troppo facile. Secondo [Gamewave](https://gamewave.fr/crimson-desert/crimson-desert-bat-son-record-de-joueurs-dix-jours-apres-sa-sortie/), il gioco ha battuto il suo record di giocatori simultanei dieci giorni dopo il lancio.
+
+## Patch 1.00.02 — 20 marzo 2026
+
+- **Tutorial Abyss Gears** all'inizio del Capitolo 3
+- Miglioramenti di usabilità della **modalità Abitazione**
+- Difficoltà QTE delle catture ora **aumenta gradualmente**
+- **Danno letale istantaneo dell'orso rimosso**
+- Le cutscene possono essere **avanzate più velocemente**
+
+## Patch 1.00.03 — 25 marzo 2026 (Aggiornamento Maggiore)
+
+- **Riduzione di PV e attacco** dei nemici iniziali e boss della storia principale
+- **Minor consumo di resistenza** nel blocco
+- Pattern d'attacco di **Kearush** modificati
+- **Maggiore accumulo di stordimento** su parry riuscito
+- **Debolezze dei boss visibili** senza conoscenza necessaria
+- Nuovi **Abyss Nexus** in tutto Pywel
+- **Deposito privato** negli alloggi di Hernand e al Campo di Howling Hill
+- **Recupero PV dal cibo aumentato**, prezzi di Carl ridotti (10 → 1 Argento)
+- Scorciatoie menu rapide (**I/K/J/M**)
+- **PS5/Xbox**: uscita 120Hz come opzione separata
+
+## Patch 1.01.00 — 28 marzo 2026 (Aggiornamento Più Grande)
+
+- **5 nuove cavalcature evocabili**: Orso Bianco, Zanna d'Argento, Cervo delle Nevi, Roc
+- **Correzione del volo**: niente più fermate brevi, minor costo di resistenza
+- **Monete di Raffinamento** per potenziare equipaggiamento fino allo Stadio 4
+- Opzione **"Fabbrica Ora"**, cucinare più piatti contemporaneamente
+- **Arte IA sostituita con arte reale**
+- I pozzi danno **5 acque**, indicazione per porte chiuse
+- **PS5**: opzione "Uscita 4K Fissa"
+
+Le recensioni Steam sono passate da **"Nella media" a "Molto Positive"** e il gioco ha raggiunto un nuovo record di **276.261 giocatori simultanei**. Consultate il nostro [articolo sui record di vendite](/blog/crimson-desert-sales-records-player-count-steam-2026) e i nostri [consigli avanzati](/blog/crimson-desert-advanced-tips-tricks-combat-exploration-2026).`,
+
+      ko: `크림슨 디저트는 2026년 3월 19일 출시되었으며, 펄어비스는 **단 10일 만에 5번의 업데이트**를 제공했습니다. 이는 업계에서 좀처럼 보기 힘든 출시 후 대응 속도입니다. [IGN France](https://fr.ign.com/crimson-desert/87006/news/les-mises-a-jour-de-crimson-desert-ravissent-les-fans-mais-certains-estiment-quelles-rendent-le-jeu)에 따르면 팬들은 기뻐하지만 일부는 패치가 게임을 너무 쉽게 만든다고 생각합니다. [Gamewave](https://gamewave.fr/crimson-desert/crimson-desert-bat-son-record-de-joueurs-dix-jours-apres-sa-sortie/)에 의하면 출시 10일 후 동시접속자 기록을 경신했습니다.
+
+## 패치 1.00.02 — 2026년 3월 20일
+
+- 3장 시작 시 **심연 기어 튜토리얼** 추가
+- **주거 모드** 사용성 개선
+- 포획 QTE 난이도 **점진적 증가**
+- **곰의 즉사 데미지 제거**
+- 최근 본 컷씬 **빨리 감기 개선**
+
+## 패치 1.00.03 — 2026년 3월 25일 (주요 업데이트)
+
+- 초반 적과 메인 퀘스트 보스의 **체력과 공격력 감소**
+- 방어 시 **스태미나 소비 감소**
+- **케아러시 공격 패턴** 수정
+- 패리 시 **스턴 게이지 축적 증가**
+- 지식 없이도 **보스 약점 표시**
+- 파이웰 전역에 **새로운 심연 넥서스** 추가
+- 에르난드 숙소와 하울링 힐 캠프에 **개인 보관함**
+- **음식 체력 회복 증가**, 칼의 가격 인하 (10 → 1 실버)
+- 빠른 메뉴 단축키 (**I/K/J/M**)
+- **PS5/Xbox**: 120Hz 출력 옵션 분리
+
+## 패치 1.01.00 — 2026년 3월 28일 (최대 업데이트)
+
+- **5종의 소환 가능 탈것**: 백곰, 은송곳니, 눈사슴, 록
+- **활공 수정**: 짧은 정지 없음, 스태미나 비용 감소
+- **정련 코인**으로 장비 4단계까지 강화
+- **"지금 제작"** 옵션, 여러 음식 동시 조리
+- **AI 아트를 실제 아트로 교체**
+- 우물에서 **물 5개** 제공, 잠긴 문 표시 추가
+- **PS5**: "고정 4K 출력" 옵션
+
+스팀 리뷰가 **"복합적"에서 "매우 긍정적"**으로 변경되었으며, **276,261명의 동시접속자** 신기록을 달성했습니다. [판매 기록 글](/blog/crimson-desert-sales-records-player-count-steam-2026)과 패치 변경 사항이 반영된 [고급 팁](/blog/crimson-desert-advanced-tips-tricks-combat-exploration-2026)을 확인하세요.`,
+    },
+    relatedSlugs: ['crimson-desert-sales-records-player-count-steam-2026', 'crimson-desert-first-impressions-previews-roundup', 'crimson-desert-denuvo-drm-performance-controversy'],
+  },
 ];
