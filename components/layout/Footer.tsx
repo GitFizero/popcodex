@@ -1,3 +1,5 @@
+'use client';
+
 import { useLocale, useTranslations } from 'next-intl';
 import Link from 'next/link';
 import { getAllFranchiseIds, franchises } from '@/lib/franchise-config';

@@ -5,11 +5,11 @@ import { useLocale, useTranslations } from 'next-intl';
 import Link from 'next/link';
 import { ChevronDown, ArrowRight } from 'lucide-react';
 import { franchises, getFranchisesByMediaType, FranchiseConfig } from '@/lib/franchise-config';
-import { getArticlesByFranchise } from '@/lib/articles';
+import { getArticlesMetaByFranchise } from '@/lib/articles';
 
 function FranchiseCard({ franchise, locale, index }: { franchise: FranchiseConfig; locale: string; index: number }) {
   const t = useTranslations('nav');
-  const articleCount = getArticlesByFranchise(franchise.id).length;
+  const articleCount = getArticlesMetaByFranchise(franchise.id).length;
   const releaseDate = new Date(franchise.releaseDate);
   const isReleased = releaseDate <= new Date();
 

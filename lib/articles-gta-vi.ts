@@ -2112,4 +2112,999 @@ The backcountry of Leonida. Far from everything. Close to nothing legal.
     tags: ["codes triche gta 6","cheats","astuces","ps5","xbox","pc"],
     relatedSlugs: ["gta-6-toutes-les-armes-confirmees","gta-6-tous-les-vehicules-confirmes"],
   },
+
+  // ============================================================
+  // OFFICIAL MEDIA (3)
+  // ============================================================
+
+  // ---- Screenshots officiels ----
+  {
+    slug: 'gta-6-screenshots-officiels',
+    franchise: 'gta-vi',
+    category: 'actualites',
+    title: {
+      fr: 'GTA 6 : Les 70 Screenshots Officiels de Rockstar Games',
+      en: 'GTA 6: All 70 Official Screenshots from Rockstar Games',
+      es: 'GTA 6: Las 70 Capturas de Pantalla Oficiales de Rockstar Games',
+      pt: 'GTA 6: As 70 Capturas de Tela Oficiais da Rockstar Games',
+      it: 'GTA 6: I 70 Screenshot Ufficiali di Rockstar Games',
+      ko: 'GTA 6: Rockstar Games 공식 스크린샷 70장 전체 공개',
+    },
+    excerpt: {
+      fr: "Découvrez les 70 captures d'écran officielles de GTA VI publiées par Rockstar Games. Vice City, plages de Leonida, vie nocturne, véhicules et paysages à couper le souffle.",
+      en: "Discover all 70 official GTA VI screenshots released by Rockstar Games. Vice City, Leonida beaches, nightlife, vehicles, and breathtaking landscapes.",
+      es: "Descubre las 70 capturas de pantalla oficiales de GTA VI publicadas por Rockstar Games. Vice City, playas de Leonida, vida nocturna, vehículos y paisajes impresionantes.",
+      pt: "Descubra as 70 capturas de tela oficiais de GTA VI publicadas pela Rockstar Games. Vice City, praias de Leonida, vida noturna, veículos e paisagens deslumbrantes.",
+      it: "Scopri i 70 screenshot ufficiali di GTA VI pubblicati da Rockstar Games. Vice City, spiagge di Leonida, vita notturna, veicoli e paesaggi mozzafiato.",
+      ko: "Rockstar Games가 공개한 GTA VI 공식 스크린샷 70장을 확인하세요. Vice City, Leonida 해변, 나이트라이프, 차량, 숨막히는 풍경까지.",
+    },
+    content: {
+      fr: `## Les 70 screenshots officiels de GTA VI
+
+Rockstar Games a publié 70 captures d'écran officielles de Grand Theft Auto VI sur sa page dédiée rockstargames.com/VI/downloads/. Ces images offrent un aperçu inédit du monde ouvert le plus ambitieux jamais créé par le studio.
+
+## Vice City sous tous les angles
+
+Les screenshots dévoilent une Vice City réinventée dans ses moindres détails. Le centre-ville brille de néons et de gratte-ciels modernes, tandis que les quartiers résidentiels affichent une diversité architecturale impressionnante. On y découvre des rues animées, des centres commerciaux, des marinas et des boulevards bordés de palmiers.
+
+## Les plages et la nature de Leonida
+
+Plusieurs captures mettent en valeur les plages paradisiaques de l'État de Leonida : sable blanc, eaux turquoise, couchers de soleil spectaculaires. Les Everglades sont également représentés avec leurs marécages, leur faune sauvage et leur végétation luxuriante. Des zones rurales, des champs et des petites villes complètent le tableau.
+
+## Vie nocturne et ambiance urbaine
+
+La vie nocturne de Vice City est omniprésente : clubs illuminés, enseignes au néon, rues bondées la nuit, reflets sur les chaussées mouillées. L'atmosphère rappelle le Miami des années 2020, avec une touche de glamour et de danger.
+
+## Véhicules et action
+
+De nombreux screenshots présentent les véhicules du jeu : supercars, muscle cars, motos, bateaux, jet-skis et hélicoptères. Des scènes d'action montrent des poursuites policières, des braquages et des cascades spectaculaires.
+
+## Qualité graphique et détails
+
+La fidélité graphique est remarquable : reflets ray-tracing, éclairage volumétrique, détails des textures, animations des PNJ et effets météorologiques dynamiques. Chaque image témoigne de la puissance du RAGE engine nouvelle génération.
+
+**Source :** [rockstargames.com/VI/downloads/](https://www.rockstargames.com/VI/downloads/)`,
+      en: `## All 70 Official GTA VI Screenshots
+
+Rockstar Games released 70 official screenshots of Grand Theft Auto VI on their dedicated page rockstargames.com/VI/downloads/. These images provide an unprecedented look at the most ambitious open world the studio has ever created.
+
+## Vice City from Every Angle
+
+The screenshots reveal a Vice City reimagined in extraordinary detail. Downtown shines with neon lights and modern skyscrapers, while residential neighborhoods showcase impressive architectural diversity. Busy streets, shopping malls, marinas, and palm-lined boulevards are all on display.
+
+## Leonida's Beaches and Nature
+
+Several captures highlight the paradise beaches of the State of Leonida: white sand, turquoise waters, spectacular sunsets. The Everglades are also represented with their swamps, wildlife, and lush vegetation. Rural areas, farmlands, and small towns complete the picture.
+
+## Nightlife and Urban Atmosphere
+
+Vice City's nightlife is everywhere: illuminated clubs, neon signs, crowded night streets, reflections on wet pavement. The atmosphere evokes 2020s Miami with a touch of glamour and danger.
+
+## Vehicles and Action
+
+Numerous screenshots showcase the game's vehicles: supercars, muscle cars, motorcycles, boats, jet skis, and helicopters. Action scenes depict police chases, heists, and spectacular stunts.
+
+## Graphics Quality and Details
+
+The graphical fidelity is remarkable: ray-tracing reflections, volumetric lighting, texture detail, NPC animations, and dynamic weather effects. Every image demonstrates the power of the next-generation RAGE engine.
+
+**Source:** [rockstargames.com/VI/downloads/](https://www.rockstargames.com/VI/downloads/)`,
+      es: `## Las 70 capturas de pantalla oficiales de GTA VI
+
+Rockstar Games ha publicado 70 capturas de pantalla oficiales de Grand Theft Auto VI en su página dedicada rockstargames.com/VI/downloads/. Estas imágenes ofrecen una vista sin precedentes del mundo abierto más ambicioso jamás creado por el estudio.
+
+## Vice City desde todos los ángulos
+
+Las capturas revelan una Vice City reinventada con un nivel de detalle extraordinario. El centro de la ciudad brilla con luces de neón y rascacielos modernos, mientras que los barrios residenciales muestran una diversidad arquitectónica impresionante. Calles animadas, centros comerciales, puertos deportivos y bulevares bordeados de palmeras.
+
+## Playas y naturaleza de Leonida
+
+Varias capturas destacan las playas paradisíacas del Estado de Leonida: arena blanca, aguas turquesas, atardeceres espectaculares. Los Everglades también están representados con sus pantanos, fauna salvaje y vegetación exuberante. Zonas rurales y pequeños pueblos completan el panorama.
+
+## Vida nocturna y ambiente urbano
+
+La vida nocturna de Vice City está por todas partes: clubes iluminados, letreros de neón, calles abarrotadas de noche, reflejos en el pavimento mojado. La atmósfera evoca el Miami de los años 2020 con un toque de glamour y peligro.
+
+## Vehículos y acción
+
+Numerosas capturas muestran los vehículos del juego: supercoches, muscle cars, motos, barcos, motos acuáticas y helicópteros. Escenas de acción con persecuciones policiales, atracos y acrobacias espectaculares.
+
+## Calidad gráfica
+
+La fidelidad gráfica es notable: reflejos ray-tracing, iluminación volumétrica, detalle de texturas, animaciones de PNJ y efectos climáticos dinámicos.
+
+**Fuente:** [rockstargames.com/VI/downloads/](https://www.rockstargames.com/VI/downloads/)`,
+      pt: `## As 70 capturas de tela oficiais de GTA VI
+
+A Rockstar Games publicou 70 capturas de tela oficiais de Grand Theft Auto VI na sua página dedicada rockstargames.com/VI/downloads/. Essas imagens oferecem uma visão sem precedentes do mundo aberto mais ambicioso já criado pelo estúdio.
+
+## Vice City de todos os ângulos
+
+As capturas revelam uma Vice City reinventada com detalhes extraordinários. O centro da cidade brilha com luzes neon e arranha-céus modernos, enquanto os bairros residenciais exibem diversidade arquitetônica impressionante. Ruas movimentadas, shopping centers, marinas e bulevares ladeados por palmeiras.
+
+## Praias e natureza de Leonida
+
+Várias capturas destacam as praias paradisíacas do Estado de Leonida: areia branca, águas turquesa, pores do sol espetaculares. Os Everglades também são representados com seus pântanos, fauna selvagem e vegetação exuberante. Áreas rurais e pequenas cidades completam o cenário.
+
+## Vida noturna e ambiente urbano
+
+A vida noturna de Vice City está em toda parte: clubes iluminados, letreiros neon, ruas lotadas à noite, reflexos no asfalto molhado. A atmosfera evoca a Miami dos anos 2020 com um toque de glamour e perigo.
+
+## Veículos e ação
+
+Numerosas capturas mostram os veículos do jogo: supercarros, muscle cars, motos, barcos, jet skis e helicópteros. Cenas de ação com perseguições policiais, assaltos e acrobacias espetaculares.
+
+## Qualidade gráfica
+
+A fidelidade gráfica é notável: reflexos ray-tracing, iluminação volumétrica, detalhes de texturas, animações de NPCs e efeitos climáticos dinâmicos.
+
+**Fonte:** [rockstargames.com/VI/downloads/](https://www.rockstargames.com/VI/downloads/)`,
+      it: `## I 70 screenshot ufficiali di GTA VI
+
+Rockstar Games ha pubblicato 70 screenshot ufficiali di Grand Theft Auto VI sulla pagina dedicata rockstargames.com/VI/downloads/. Queste immagini offrono uno sguardo senza precedenti sul mondo aperto più ambizioso mai creato dallo studio.
+
+## Vice City da ogni angolazione
+
+Gli screenshot rivelano una Vice City reinventata con dettagli straordinari. Il centro città brilla di luci al neon e grattacieli moderni, mentre i quartieri residenziali mostrano una diversità architettonica impressionante. Strade animate, centri commerciali, porti turistici e viali fiancheggiati da palme.
+
+## Spiagge e natura di Leonida
+
+Diverse catture mettono in risalto le spiagge paradisiache dello Stato di Leonida: sabbia bianca, acque turchesi, tramonti spettacolari. Anche le Everglades sono rappresentate con le loro paludi, la fauna selvatica e la vegetazione rigogliosa. Zone rurali e piccole città completano il quadro.
+
+## Vita notturna e atmosfera urbana
+
+La vita notturna di Vice City è ovunque: club illuminati, insegne al neon, strade affollate di notte, riflessi sul pavimento bagnato. L'atmosfera evoca la Miami degli anni 2020 con un tocco di glamour e pericolo.
+
+## Veicoli e azione
+
+Numerosi screenshot mostrano i veicoli del gioco: supercar, muscle car, moto, barche, moto d'acqua ed elicotteri. Scene d'azione con inseguimenti della polizia, rapine e acrobazie spettacolari.
+
+## Qualità grafica
+
+La fedeltà grafica è notevole: riflessi ray-tracing, illuminazione volumetrica, dettaglio delle texture, animazioni degli NPC ed effetti meteorologici dinamici.
+
+**Fonte:** [rockstargames.com/VI/downloads/](https://www.rockstargames.com/VI/downloads/)`,
+      ko: `## GTA VI 공식 스크린샷 70장 전체
+
+Rockstar Games가 rockstargames.com/VI/downloads/ 전용 페이지에서 Grand Theft Auto VI의 공식 스크린샷 70장을 공개했습니다. 이 이미지들은 스튜디오 역사상 가장 야심찬 오픈 월드를 전례 없이 보여줍니다.
+
+## 모든 각도에서 본 Vice City
+
+스크린샷은 놀라운 디테일로 재탄생한 Vice City를 보여줍니다. 도심은 네온 불빛과 현대적인 고층 빌딩으로 빛나고, 주거 지역은 인상적인 건축 다양성을 보여줍니다. 활기찬 거리, 쇼핑몰, 마리나, 야자수가 늘어선 대로가 펼쳐집니다.
+
+## Leonida의 해변과 자연
+
+여러 캡처가 Leonida 주의 파라다이스 해변을 강조합니다: 하얀 모래, 청록색 바다, 장엄한 석양. Everglades도 늪지, 야생 동물, 울창한 식물과 함께 등장합니다. 시골 지역과 작은 마을이 풍경을 완성합니다.
+
+## 나이트라이프와 도시 분위기
+
+Vice City의 나이트라이프가 곳곳에 있습니다: 조명이 빛나는 클럽, 네온 간판, 밤에 붐비는 거리, 젖은 도로 위의 반사. 글래머와 위험이 공존하는 2020년대 마이애미 분위기를 자아냅니다.
+
+## 차량과 액션
+
+다수의 스크린샷이 게임 차량을 보여줍니다: 슈퍼카, 머슬카, 오토바이, 보트, 제트스키, 헬리콥터. 경찰 추격전, 강도, 스턴트 액션 장면도 포함됩니다.
+
+## 그래픽 품질과 디테일
+
+그래픽 충실도가 놀랍습니다: 레이트레이싱 반사, 볼류메트릭 라이팅, 텍스처 디테일, NPC 애니메이션, 동적 날씨 효과. 모든 이미지가 차세대 RAGE 엔진의 성능을 보여줍니다.
+
+**출처:** [rockstargames.com/VI/downloads/](https://www.rockstargames.com/VI/downloads/)`,
+    },
+    author: "L'équipe PopCodex",
+    publishedAt: '2026-03-14',
+    updatedAt: '2026-03-14',
+    readTime: 8,
+    tags: ["screenshots gta 6","captures d'écran","rockstar games","vice city","leonida","images officielles"],
+    relatedSlugs: ["gta-6-artwork-wallpapers-officiels","gta-6-trailers-videos-officiels"],
+  },
+
+  // ---- Artworks & Wallpapers officiels ----
+  {
+    slug: 'gta-6-artwork-wallpapers-officiels',
+    franchise: 'gta-vi',
+    category: 'actualites',
+    title: {
+      fr: 'GTA 6 : Les 17 Artworks et Wallpapers Officiels',
+      en: 'GTA 6: All 17 Official Artworks and Wallpapers',
+      es: 'GTA 6: Los 17 Artworks y Wallpapers Oficiales',
+      pt: 'GTA 6: Os 17 Artworks e Wallpapers Oficiais',
+      it: 'GTA 6: I 17 Artwork e Wallpaper Ufficiali',
+      ko: 'GTA 6: 공식 아트워크 및 월페이퍼 17종 전체',
+    },
+    excerpt: {
+      fr: "Les 17 artworks et wallpapers officiels de GTA VI par Rockstar Games. Style néon, portraits de personnages, paysages de Vice City et esthétique unique.",
+      en: "All 17 official GTA VI artworks and wallpapers by Rockstar Games. Neon style, character portraits, Vice City landscapes, and unique aesthetics.",
+      es: "Los 17 artworks y wallpapers oficiales de GTA VI de Rockstar Games. Estilo neón, retratos de personajes, paisajes de Vice City y estética única.",
+      pt: "Os 17 artworks e wallpapers oficiais de GTA VI da Rockstar Games. Estilo neon, retratos de personagens, paisagens de Vice City e estética única.",
+      it: "I 17 artwork e wallpaper ufficiali di GTA VI di Rockstar Games. Stile neon, ritratti dei personaggi, paesaggi di Vice City ed estetica unica.",
+      ko: "Rockstar Games의 GTA VI 공식 아트워크 및 월페이퍼 17종. 네온 스타일, 캐릭터 초상화, Vice City 풍경, 독특한 미학.",
+    },
+    content: {
+      fr: `## Les 17 artworks officiels de GTA VI
+
+Rockstar Games a mis à disposition 17 artworks et wallpapers officiels de Grand Theft Auto VI sur rockstargames.com/VI/downloads/. Ces illustrations incarnent l'identité visuelle du jeu et sont devenues des images iconiques avant même la sortie.
+
+## Un style visuel néon et solaire
+
+L'esthétique des artworks de GTA VI mêle les néons vibrants de la vie nocturne de Vice City à la lumière dorée du soleil de Floride. Les couleurs dominantes — rose, violet, orange, turquoise — créent une palette immédiatement reconnaissable qui distingue GTA VI de tous ses prédécesseurs.
+
+## Portraits de personnages
+
+Plusieurs artworks présentent les personnages principaux dans un style graphique distinctif. Lucia et Jason apparaissent dans des poses iconiques, rappelant les couvertures classiques de la série GTA. Les illustrations révèlent leurs tenues, expressions et attitudes, donnant vie à ces protagonistes avant même de les contrôler.
+
+## Paysages et scènes de Vice City
+
+Des artworks panoramiques capturent l'essence de Vice City : la skyline au coucher du soleil, les plages bondées, les rues du centre-ville la nuit, les marécages mystérieux des Everglades. Chaque illustration raconte une histoire et invite le joueur à explorer ce monde.
+
+## Esthétique et direction artistique
+
+La direction artistique de GTA VI s'inspire du street art, de la culture latino-américaine et de l'ambiance tropicale de la Floride. Les artworks intègrent des éléments de typographie stylisée, des motifs floraux et des références culturelles qui enrichissent l'univers visuel du jeu.
+
+## Formats wallpaper disponibles
+
+Les wallpapers sont disponibles en haute résolution pour desktop et mobile, permettant aux fans de personnaliser leurs appareils avec l'art officiel de GTA VI.
+
+**Source :** [rockstargames.com/VI/downloads/](https://www.rockstargames.com/VI/downloads/)`,
+      en: `## All 17 Official GTA VI Artworks
+
+Rockstar Games has made 17 official artworks and wallpapers for Grand Theft Auto VI available on rockstargames.com/VI/downloads/. These illustrations embody the game's visual identity and have become iconic images even before release.
+
+## A Neon and Sun-Soaked Visual Style
+
+GTA VI's artwork aesthetic blends the vibrant neons of Vice City nightlife with Florida's golden sunlight. The dominant colors — pink, purple, orange, turquoise — create an instantly recognizable palette that sets GTA VI apart from all its predecessors.
+
+## Character Portraits
+
+Several artworks feature the main characters in a distinctive graphic style. Lucia and Jason appear in iconic poses reminiscent of classic GTA series covers. The illustrations reveal their outfits, expressions, and attitudes, bringing these protagonists to life before players even control them.
+
+## Vice City Landscapes and Scenes
+
+Panoramic artworks capture the essence of Vice City: the skyline at sunset, crowded beaches, downtown streets at night, the mysterious Everglades swamps. Each illustration tells a story and invites the player to explore this world.
+
+## Aesthetics and Art Direction
+
+GTA VI's art direction draws inspiration from street art, Latin American culture, and Florida's tropical vibe. The artworks incorporate stylized typography, floral motifs, and cultural references that enrich the game's visual universe.
+
+## Available Wallpaper Formats
+
+Wallpapers are available in high resolution for desktop and mobile, allowing fans to customize their devices with official GTA VI art.
+
+**Source:** [rockstargames.com/VI/downloads/](https://www.rockstargames.com/VI/downloads/)`,
+      es: `## Los 17 artworks oficiales de GTA VI
+
+Rockstar Games ha puesto a disposición 17 artworks y wallpapers oficiales de Grand Theft Auto VI en rockstargames.com/VI/downloads/. Estas ilustraciones encarnan la identidad visual del juego y se han convertido en imágenes icónicas incluso antes del lanzamiento.
+
+## Un estilo visual de neón y sol
+
+La estética de los artworks de GTA VI mezcla los neones vibrantes de la vida nocturna de Vice City con la luz dorada del sol de Florida. Los colores dominantes — rosa, púrpura, naranja, turquesa — crean una paleta reconocible al instante.
+
+## Retratos de personajes
+
+Varios artworks presentan a los personajes principales en un estilo gráfico distintivo. Lucia y Jason aparecen en poses icónicas que recuerdan las portadas clásicas de la serie GTA. Las ilustraciones revelan sus atuendos, expresiones y actitudes.
+
+## Paisajes y escenas de Vice City
+
+Artworks panorámicos capturan la esencia de Vice City: el horizonte al atardecer, playas llenas, calles del centro de noche, los misteriosos pantanos de los Everglades. Cada ilustración cuenta una historia e invita al jugador a explorar este mundo.
+
+## Estética y dirección artística
+
+La dirección artística de GTA VI se inspira en el arte callejero, la cultura latinoamericana y el ambiente tropical de Florida. Los artworks incorporan tipografía estilizada, motivos florales y referencias culturales.
+
+## Formatos de wallpaper disponibles
+
+Los wallpapers están disponibles en alta resolución para escritorio y móvil.
+
+**Fuente:** [rockstargames.com/VI/downloads/](https://www.rockstargames.com/VI/downloads/)`,
+      pt: `## Os 17 artworks oficiais de GTA VI
+
+A Rockstar Games disponibilizou 17 artworks e wallpapers oficiais de Grand Theft Auto VI em rockstargames.com/VI/downloads/. Essas ilustrações incorporam a identidade visual do jogo e se tornaram imagens icônicas antes mesmo do lançamento.
+
+## Um estilo visual neon e ensolarado
+
+A estética dos artworks de GTA VI mistura os neons vibrantes da vida noturna de Vice City com a luz dourada do sol da Flórida. As cores dominantes — rosa, roxo, laranja, turquesa — criam uma paleta instantaneamente reconhecível.
+
+## Retratos de personagens
+
+Vários artworks apresentam os personagens principais em um estilo gráfico distintivo. Lucia e Jason aparecem em poses icônicas que lembram as capas clássicas da série GTA. As ilustrações revelam suas roupas, expressões e atitudes.
+
+## Paisagens e cenas de Vice City
+
+Artworks panorâmicos capturam a essência de Vice City: o horizonte ao pôr do sol, praias lotadas, ruas do centro à noite, os misteriosos pântanos dos Everglades. Cada ilustração conta uma história e convida o jogador a explorar este mundo.
+
+## Estética e direção artística
+
+A direção artística de GTA VI se inspira na arte de rua, na cultura latino-americana e na vibe tropical da Flórida. Os artworks incorporam tipografia estilizada, motivos florais e referências culturais.
+
+## Formatos de wallpaper disponíveis
+
+Os wallpapers estão disponíveis em alta resolução para desktop e mobile.
+
+**Fonte:** [rockstargames.com/VI/downloads/](https://www.rockstargames.com/VI/downloads/)`,
+      it: `## I 17 artwork ufficiali di GTA VI
+
+Rockstar Games ha reso disponibili 17 artwork e wallpaper ufficiali di Grand Theft Auto VI su rockstargames.com/VI/downloads/. Queste illustrazioni incarnano l'identità visiva del gioco e sono diventate immagini iconiche ancor prima dell'uscita.
+
+## Uno stile visivo al neon e solare
+
+L'estetica degli artwork di GTA VI mescola i neon vibranti della vita notturna di Vice City con la luce dorata del sole della Florida. I colori dominanti — rosa, viola, arancione, turchese — creano una palette immediatamente riconoscibile.
+
+## Ritratti dei personaggi
+
+Diversi artwork presentano i personaggi principali in uno stile grafico distintivo. Lucia e Jason appaiono in pose iconiche che ricordano le copertine classiche della serie GTA. Le illustrazioni rivelano i loro outfit, espressioni e atteggiamenti.
+
+## Paesaggi e scene di Vice City
+
+Artwork panoramici catturano l'essenza di Vice City: lo skyline al tramonto, spiagge affollate, strade del centro di notte, le misteriose paludi delle Everglades. Ogni illustrazione racconta una storia e invita il giocatore a esplorare questo mondo.
+
+## Estetica e direzione artistica
+
+La direzione artistica di GTA VI si ispira alla street art, alla cultura latinoamericana e all'atmosfera tropicale della Florida. Gli artwork incorporano tipografia stilizzata, motivi floreali e riferimenti culturali.
+
+## Formati wallpaper disponibili
+
+I wallpaper sono disponibili in alta risoluzione per desktop e mobile.
+
+**Fonte:** [rockstargames.com/VI/downloads/](https://www.rockstargames.com/VI/downloads/)`,
+      ko: `## GTA VI 공식 아트워크 17종 전체
+
+Rockstar Games가 rockstargames.com/VI/downloads/에서 Grand Theft Auto VI의 공식 아트워크 및 월페이퍼 17종을 공개했습니다. 이 일러스트레이션은 게임의 시각적 정체성을 구현하며 출시 전부터 상징적인 이미지가 되었습니다.
+
+## 네온과 태양이 빛나는 비주얼 스타일
+
+GTA VI 아트워크의 미학은 Vice City 나이트라이프의 생생한 네온과 플로리다의 황금빛 햇살을 결합합니다. 지배적인 색상인 핑크, 퍼플, 오렌지, 터콰이즈는 GTA VI만의 즉시 알아볼 수 있는 팔레트를 만듭니다.
+
+## 캐릭터 초상화
+
+여러 아트워크가 독특한 그래픽 스타일로 주요 캐릭터를 보여줍니다. Lucia와 Jason은 GTA 시리즈 클래식 커버를 연상시키는 아이코닉한 포즈로 등장합니다. 일러스트레이션은 의상, 표정, 태도를 드러냅니다.
+
+## Vice City 풍경과 장면
+
+파노라마 아트워크가 Vice City의 본질을 포착합니다: 석양의 스카이라인, 붐비는 해변, 밤의 도심 거리, 신비로운 Everglades 늪지. 각 일러스트레이션은 이야기를 전하며 플레이어를 탐험으로 초대합니다.
+
+## 미학과 아트 디렉션
+
+GTA VI의 아트 디렉션은 스트리트 아트, 라틴 아메리카 문화, 플로리다의 열대 분위기에서 영감을 받았습니다. 아트워크는 스타일리시한 타이포그래피, 꽃 모티프, 문화적 레퍼런스를 담고 있습니다.
+
+## 월페이퍼 형식
+
+월페이퍼는 데스크톱 및 모바일용 고해상도로 제공됩니다.
+
+**출처:** [rockstargames.com/VI/downloads/](https://www.rockstargames.com/VI/downloads/)`,
+    },
+    author: "L'équipe PopCodex",
+    publishedAt: '2026-03-14',
+    updatedAt: '2026-03-14',
+    readTime: 6,
+    tags: ["artworks gta 6","wallpapers","rockstar games","vice city","direction artistique","illustrations officielles"],
+    relatedSlugs: ["gta-6-screenshots-officiels","gta-6-trailers-videos-officiels"],
+  },
+
+  // ---- Trailers & Vidéos officiels ----
+  {
+    slug: 'gta-6-trailers-videos-officiels',
+    franchise: 'gta-vi',
+    category: 'trailers',
+    title: {
+      fr: 'GTA 6 : Les 10 Trailers et Vidéos Officiels de Rockstar Games',
+      en: 'GTA 6: All 10 Official Trailers and Videos from Rockstar Games',
+      es: 'GTA 6: Los 10 Trailers y Videos Oficiales de Rockstar Games',
+      pt: 'GTA 6: Os 10 Trailers e Vídeos Oficiais da Rockstar Games',
+      it: 'GTA 6: I 10 Trailer e Video Ufficiali di Rockstar Games',
+      ko: 'GTA 6: Rockstar Games 공식 트레일러 및 영상 10편 전체',
+    },
+    excerpt: {
+      fr: "Tous les trailers et vidéos officiels de GTA VI : Trailer 1 (décembre 2023), Trailer 2, révélations gameplay et plus encore. Chronologie complète.",
+      en: "All official GTA VI trailers and videos: Trailer 1 (December 2023), Trailer 2, gameplay reveals, and more. Complete timeline.",
+      es: "Todos los trailers y videos oficiales de GTA VI: Trailer 1 (diciembre 2023), Trailer 2, revelaciones de gameplay y más. Cronología completa.",
+      pt: "Todos os trailers e vídeos oficiais de GTA VI: Trailer 1 (dezembro 2023), Trailer 2, revelações de gameplay e mais. Cronologia completa.",
+      it: "Tutti i trailer e video ufficiali di GTA VI: Trailer 1 (dicembre 2023), Trailer 2, rivelazioni gameplay e altro. Cronologia completa.",
+      ko: "GTA VI 공식 트레일러 및 영상 전체: Trailer 1(2023년 12월), Trailer 2, 게임플레이 공개 등. 전체 타임라인.",
+    },
+    content: {
+      fr: `## Les 10 vidéos officielles de GTA VI
+
+Rockstar Games a publié 10 vidéos officielles de Grand Theft Auto VI, disponibles sur rockstargames.com/VI/downloads/. Voici la chronologie complète de toutes les révélations vidéo.
+
+## Trailer 1 — Décembre 2023
+
+Le premier trailer de GTA VI a été dévoilé le 5 décembre 2023, devenant instantanément la bande-annonce la plus visionnée de l'histoire du jeu vidéo. En 90 secondes, Rockstar a présenté l'État fictif de Leonida, la ville de Vice City réinventée, et les deux protagonistes : Lucia et Jason. Le trailer a révélé une esthétique inspirée des réseaux sociaux modernes, des scènes de plage, de la vie urbaine et des indices sur l'histoire de Bonnie & Clyde du duo.
+
+## Trailer 2 — Révélation majeure
+
+Le deuxième trailer a approfondi l'univers de GTA VI en montrant davantage de Vice City, les Everglades, et les mécaniques de jeu. Des séquences spectaculaires de poursuites en voiture, de braquages et d'interactions entre personnages ont confirmé l'ambition narrative du projet. La diversité des environnements — urbains, ruraux, maritimes — a impressionné la communauté.
+
+## Vidéos de gameplay
+
+Plusieurs vidéos de gameplay ont été diffusées, révélant les mécaniques de combat, la conduite améliorée, le système de couverture, et les interactions avec les PNJ. Les vidéos ont montré le cycle jour/nuit dynamique, les conditions météorologiques changeantes et la densité du monde ouvert.
+
+## Vidéos thématiques
+
+D'autres vidéos se concentrent sur des aspects spécifiques : la bande-son du jeu, les véhicules, la personnalisation des personnages et l'univers en ligne. Chaque vidéo a apporté de nouvelles informations sur le contenu du jeu.
+
+## Analyses des trailers
+
+### Ce que révèle le Trailer 1
+- Vice City moderne avec gratte-ciels et néons
+- Lucia sortant du Leonida Penitentiary
+- Jason et Lucia ensemble dans un muscle car
+- Scènes inspirées des réseaux sociaux (TikTok, Instagram)
+- Faune des Everglades (alligators, flamants roses)
+- Diversité culturelle et ambiance latino
+
+### Ce que révèle le Trailer 2
+- Mécaniques de braquage évoluées
+- Système de combat amélioré
+- Variété des véhicules (terrestres, maritimes, aériens)
+- Interactions PNJ plus réalistes
+- Environnements destructibles
+
+## Impact culturel
+
+Les trailers de GTA VI ont battu tous les records de vues sur YouTube, générant des milliards de vues combinées et une couverture médiatique mondiale sans précédent pour un jeu vidéo.
+
+**Source :** [rockstargames.com/VI/downloads/](https://www.rockstargames.com/VI/downloads/)`,
+      en: `## All 10 Official GTA VI Videos
+
+Rockstar Games has released 10 official videos for Grand Theft Auto VI, available on rockstargames.com/VI/downloads/. Here is the complete timeline of all video reveals.
+
+## Trailer 1 — December 2023
+
+The first GTA VI trailer was unveiled on December 5, 2023, instantly becoming the most-viewed video game trailer in history. In 90 seconds, Rockstar introduced the fictional State of Leonida, a reimagined Vice City, and two protagonists: Lucia and Jason. The trailer revealed an aesthetic inspired by modern social media, beach scenes, urban life, and hints at the duo's Bonnie & Clyde storyline.
+
+## Trailer 2 — Major Reveal
+
+The second trailer delved deeper into GTA VI's universe, showcasing more of Vice City, the Everglades, and gameplay mechanics. Spectacular sequences of car chases, heists, and character interactions confirmed the project's narrative ambition. The diversity of environments — urban, rural, maritime — impressed the community.
+
+## Gameplay Videos
+
+Several gameplay videos were released, revealing combat mechanics, improved driving, the cover system, and NPC interactions. The videos showed the dynamic day/night cycle, changing weather conditions, and the open world's density.
+
+## Thematic Videos
+
+Other videos focused on specific aspects: the game's soundtrack, vehicles, character customization, and the online universe. Each video brought new information about the game's content.
+
+## Trailer Analysis
+
+### What Trailer 1 Reveals
+- Modern Vice City with skyscrapers and neon
+- Lucia leaving Leonida Penitentiary
+- Jason and Lucia together in a muscle car
+- Social media-inspired scenes (TikTok, Instagram)
+- Everglades wildlife (alligators, flamingos)
+- Cultural diversity and Latin atmosphere
+
+### What Trailer 2 Reveals
+- Evolved heist mechanics
+- Improved combat system
+- Vehicle variety (land, sea, air)
+- More realistic NPC interactions
+- Destructible environments
+
+## Cultural Impact
+
+GTA VI's trailers broke all YouTube viewing records, generating billions of combined views and unprecedented worldwide media coverage for a video game.
+
+**Source:** [rockstargames.com/VI/downloads/](https://www.rockstargames.com/VI/downloads/)`,
+      es: `## Los 10 videos oficiales de GTA VI
+
+Rockstar Games ha publicado 10 videos oficiales de Grand Theft Auto VI, disponibles en rockstargames.com/VI/downloads/. Aquí está la cronología completa de todas las revelaciones en video.
+
+## Trailer 1 — Diciembre 2023
+
+El primer trailer de GTA VI se reveló el 5 de diciembre de 2023, convirtiéndose instantáneamente en el trailer de videojuegos más visto de la historia. En 90 segundos, Rockstar presentó el estado ficticio de Leonida, una Vice City reinventada y dos protagonistas: Lucia y Jason. El trailer reveló una estética inspirada en las redes sociales modernas, escenas de playa, vida urbana e indicios de la historia de Bonnie & Clyde del dúo.
+
+## Trailer 2 — Revelación mayor
+
+El segundo trailer profundizó en el universo de GTA VI, mostrando más de Vice City, los Everglades y las mecánicas de juego. Secuencias espectaculares de persecuciones en coche, atracos e interacciones entre personajes confirmaron la ambición narrativa del proyecto.
+
+## Videos de gameplay
+
+Se publicaron varios videos de gameplay que revelaron mecánicas de combate, conducción mejorada, sistema de cobertura e interacciones con PNJ. Los videos mostraron el ciclo día/noche dinámico, condiciones meteorológicas cambiantes y la densidad del mundo abierto.
+
+## Análisis de los trailers
+
+### Lo que revela el Trailer 1
+- Vice City moderna con rascacielos y neón
+- Lucia saliendo del Leonida Penitentiary
+- Jason y Lucia juntos en un muscle car
+- Escenas inspiradas en redes sociales
+- Fauna de los Everglades (caimanes, flamencos)
+
+### Lo que revela el Trailer 2
+- Mecánicas de atraco evolucionadas
+- Sistema de combate mejorado
+- Variedad de vehículos
+- Interacciones más realistas con PNJ
+
+## Impacto cultural
+
+Los trailers de GTA VI rompieron todos los récords de vistas en YouTube, generando miles de millones de vistas combinadas.
+
+**Fuente:** [rockstargames.com/VI/downloads/](https://www.rockstargames.com/VI/downloads/)`,
+      pt: `## Os 10 vídeos oficiais de GTA VI
+
+A Rockstar Games publicou 10 vídeos oficiais de Grand Theft Auto VI, disponíveis em rockstargames.com/VI/downloads/. Aqui está a cronologia completa de todas as revelações em vídeo.
+
+## Trailer 1 — Dezembro 2023
+
+O primeiro trailer de GTA VI foi revelado em 5 de dezembro de 2023, tornando-se instantaneamente o trailer de videogame mais assistido da história. Em 90 segundos, a Rockstar apresentou o estado fictício de Leonida, uma Vice City reinventada e dois protagonistas: Lucia e Jason. O trailer revelou uma estética inspirada nas redes sociais modernas, cenas de praia, vida urbana e dicas da história Bonnie & Clyde da dupla.
+
+## Trailer 2 — Revelação importante
+
+O segundo trailer aprofundou o universo de GTA VI, mostrando mais de Vice City, os Everglades e mecânicas de gameplay. Sequências espetaculares de perseguições de carro, assaltos e interações entre personagens confirmaram a ambição narrativa do projeto.
+
+## Vídeos de gameplay
+
+Vários vídeos de gameplay foram lançados, revelando mecânicas de combate, direção melhorada, sistema de cobertura e interações com NPCs. Os vídeos mostraram o ciclo dia/noite dinâmico, condições climáticas variáveis e a densidade do mundo aberto.
+
+## Análise dos trailers
+
+### O que o Trailer 1 revela
+- Vice City moderna com arranha-céus e neon
+- Lucia saindo do Leonida Penitentiary
+- Jason e Lucia juntos em um muscle car
+- Cenas inspiradas em redes sociais
+- Fauna dos Everglades (jacarés, flamingos)
+
+### O que o Trailer 2 revela
+- Mecânicas de assalto evoluídas
+- Sistema de combate melhorado
+- Variedade de veículos
+- Interações mais realistas com NPCs
+
+## Impacto cultural
+
+Os trailers de GTA VI quebraram todos os recordes de visualizações no YouTube, gerando bilhões de visualizações combinadas.
+
+**Fonte:** [rockstargames.com/VI/downloads/](https://www.rockstargames.com/VI/downloads/)`,
+      it: `## I 10 video ufficiali di GTA VI
+
+Rockstar Games ha pubblicato 10 video ufficiali di Grand Theft Auto VI, disponibili su rockstargames.com/VI/downloads/. Ecco la cronologia completa di tutte le rivelazioni video.
+
+## Trailer 1 — Dicembre 2023
+
+Il primo trailer di GTA VI è stato svelato il 5 dicembre 2023, diventando istantaneamente il trailer di videogiochi più visto della storia. In 90 secondi, Rockstar ha presentato lo stato fittizio di Leonida, una Vice City reinventata e due protagonisti: Lucia e Jason. Il trailer ha rivelato un'estetica ispirata ai social media moderni, scene di spiaggia, vita urbana e indizi sulla storia Bonnie & Clyde del duo.
+
+## Trailer 2 — Rivelazione importante
+
+Il secondo trailer ha approfondito l'universo di GTA VI, mostrando più di Vice City, le Everglades e le meccaniche di gioco. Sequenze spettacolari di inseguimenti in auto, rapine e interazioni tra personaggi hanno confermato l'ambizione narrativa del progetto.
+
+## Video di gameplay
+
+Diversi video di gameplay sono stati rilasciati, rivelando meccaniche di combattimento, guida migliorata, sistema di copertura e interazioni con gli NPC. I video hanno mostrato il ciclo giorno/notte dinamico, condizioni meteorologiche variabili e la densità del mondo aperto.
+
+## Analisi dei trailer
+
+### Cosa rivela il Trailer 1
+- Vice City moderna con grattacieli e neon
+- Lucia che esce dal Leonida Penitentiary
+- Jason e Lucia insieme in una muscle car
+- Scene ispirate ai social media
+- Fauna delle Everglades (alligatori, fenicotteri)
+
+### Cosa rivela il Trailer 2
+- Meccaniche di rapina evolute
+- Sistema di combattimento migliorato
+- Varietà di veicoli
+- Interazioni NPC più realistiche
+
+## Impatto culturale
+
+I trailer di GTA VI hanno battuto tutti i record di visualizzazioni su YouTube, generando miliardi di visualizzazioni combinate.
+
+**Fonte:** [rockstargames.com/VI/downloads/](https://www.rockstargames.com/VI/downloads/)`,
+      ko: `## GTA VI 공식 영상 10편 전체
+
+Rockstar Games가 rockstargames.com/VI/downloads/에서 Grand Theft Auto VI의 공식 영상 10편을 공개했습니다. 모든 영상 공개의 전체 타임라인입니다.
+
+## 트레일러 1 — 2023년 12월
+
+GTA VI의 첫 번째 트레일러는 2023년 12월 5일에 공개되어 즉시 비디오 게임 역사상 가장 많이 본 트레일러가 되었습니다. 90초 동안 Rockstar는 가상의 Leonida 주, 재탄생한 Vice City, 두 주인공 Lucia와 Jason을 소개했습니다. 트레일러는 현대 소셜 미디어에서 영감을 받은 미학, 해변 장면, 도시 생활, 듀오의 보니 & 클라이드 스토리라인의 힌트를 보여주었습니다.
+
+## 트레일러 2 — 주요 공개
+
+두 번째 트레일러는 GTA VI 세계관을 더 깊이 탐구하며 Vice City, Everglades, 게임플레이 메커니즘을 더 많이 보여주었습니다. 자동차 추격전, 강도, 캐릭터 상호작용의 장엄한 시퀀스가 프로젝트의 서사적 야망을 확인했습니다.
+
+## 게임플레이 영상
+
+여러 게임플레이 영상이 공개되어 전투 메커니즘, 개선된 운전, 엄폐 시스템, NPC 상호작용을 보여주었습니다. 동적 주야간 순환, 변화하는 날씨 조건, 오픈 월드의 밀도를 보여주었습니다.
+
+## 트레일러 분석
+
+### 트레일러 1이 보여주는 것
+- 고층 빌딩과 네온이 있는 현대적 Vice City
+- Leonida Penitentiary를 나서는 Lucia
+- 머슬카에 함께 탄 Jason과 Lucia
+- 소셜 미디어에서 영감받은 장면
+- Everglades 야생 동물 (악어, 플라밍고)
+
+### 트레일러 2가 보여주는 것
+- 진화된 강도 메커니즘
+- 개선된 전투 시스템
+- 다양한 차량 (육상, 해상, 항공)
+- 더 현실적인 NPC 상호작용
+
+## 문화적 영향
+
+GTA VI 트레일러는 YouTube의 모든 조회수 기록을 깨며 수십억 조회수를 기록했습니다.
+
+**출처:** [rockstargames.com/VI/downloads/](https://www.rockstargames.com/VI/downloads/)`,
+    },
+    author: "L'équipe PopCodex",
+    publishedAt: '2026-03-14',
+    updatedAt: '2026-03-14',
+    readTime: 10,
+    tags: ["trailers gta 6","vidéos officielles","rockstar games","trailer 1","trailer 2","gameplay"],
+    relatedSlugs: ["gta-6-screenshots-officiels","gta-6-artwork-wallpapers-officiels"],
+  },
+
+  // ---- GTA 6 : Tout ce que les leaks révèlent sur le gameplay ----
+  {
+    slug: 'gta-6-leaks-gameplay',
+    franchise: 'gta-vi',
+    category: 'gameplay',
+    title: {
+      fr: 'GTA VI : tout ce que les leaks révèlent sur le gameplay',
+      en: 'GTA VI: Everything Leaks Reveal About Gameplay',
+      es: 'GTA VI: todo lo que las filtraciones revelan sobre el gameplay',
+      pt: 'GTA VI: tudo que os vazamentos revelam sobre o gameplay',
+      it: 'GTA VI: tutto ciò che i leak rivelano sul gameplay',
+      ko: 'GTA VI: 유출로 밝혀진 게임플레이 정보 총정리',
+    },
+    excerpt: {
+      fr: "Synthèse des fuites et leaks sur le gameplay de GTA VI : système de recherche à 6 étoiles, jauge de relation, évolution du poids, zones sous-marines et plus. Infos officielles vs leaks.",
+      en: "Summary of GTA VI gameplay leaks: 6-star wanted system, relationship gauge, weight evolution, underwater zones and more. Official info vs leaks.",
+      es: "Resumen de las filtraciones de gameplay de GTA VI: sistema de búsqueda de 6 estrellas, barra de relación, evolución de peso, zonas submarinas y más.",
+      pt: "Resumo dos vazamentos de gameplay de GTA VI: sistema de procurado de 6 estrelas, medidor de relacionamento, evolução de peso, zonas subaquáticas e mais.",
+      it: "Riepilogo dei leak sul gameplay di GTA VI: sistema di ricerca a 6 stelle, barra relazione, evoluzione peso, zone sottomarine e altro.",
+      ko: "GTA VI 게임플레이 유출 총정리: 6성 수배 시스템, 관계 게이지, 체중 변화, 수중 구역 등.",
+    },
+    content: {
+      fr: `## Avertissement
+
+Cet article compile des informations issues de **fuites (leaks)** et de sources non officielles. Sauf mention contraire, ces éléments n'ont **pas été confirmés officiellement** par Rockstar Games. Traitez ces informations avec prudence.
+
+## Système de recherche à 6 étoiles (confirmé)
+
+Le retour du système de recherche à **6 étoiles** a été confirmé par les trailers officiels. C'est un retour aux sources pour la franchise, GTA V ayant réduit le système à 5 étoiles. Le sixième niveau déclenche une réponse militaire massive, avec des véhicules blindés et des forces spéciales.
+
+## Jauge de relation inspirée de RDR2 (leak)
+
+⚠️ **Source : leak — non confirmé officiellement**
+
+Selon les fuites du mega-leak de 2022, GTA VI intégrerait un **système de relation entre Lucia et Jason** inspiré du compagnonnage dans Red Dead Redemption 2. Les interactions entre les deux protagonistes évolueraient en fonction des choix du joueur, affectant les dialogues, les missions disponibles et potentiellement la fin du jeu.
+
+## Évolution du poids des personnages (leak)
+
+⚠️ **Source : leak — non confirmé officiellement**
+
+Les personnages verraient leur **apparence physique évoluer** en fonction du gameplay : manger fréquemment ferait prendre du poids, tandis que l'exercice physique et le combat rapprocheraient d'un physique athlétique. Ce système rappelle celui de GTA: San Andreas mais avec un niveau de détail supérieur.
+
+## +700 bâtiments accessibles (confirmé)
+
+Le monde ouvert de Leonida contient plus de **700 bâtiments accessibles** : boutiques, centres commerciaux, restaurants, bars, salles de sport, etc. Ce chiffre, confirmé par plusieurs sources, représente un bond qualitatif majeur par rapport à GTA V où les intérieurs étaient rares.
+
+## Police IA améliorée (confirmé)
+
+Les forces de l'ordre de Leonida disposent d'une **IA significativement améliorée**. Les policiers peuvent **mémoriser les visages**, les **véhicules** et les **délits passés** du joueur. Commettre des crimes répétés dans une même zone devient de plus en plus risqué, car la police vous reconnaîtra et réagira plus agressivement.
+
+## Météo dynamique : tempêtes tropicales (confirmé)
+
+La Floride de Leonida est soumise à des **conditions météorologiques dynamiques** incluant des **tempêtes tropicales et ouragans**. Ces événements réduisent la visibilité et modifient l'adhérence au sol, affectant directement la conduite et le combat. C'est un élément de gameplay, pas seulement cosmétique.
+
+## Zones sous-marines explorables (confirmé via trailers)
+
+Les trailers officiels ont montré des séquences de **plongée sous-marine**, confirmant la présence de zones aquatiques explorables. Les eaux autour de Leonida — inspirées des côtes de Floride — abriteraient des épaves, de la faune marine (requins, dauphins) et potentiellement du contenu lié aux trafics maritimes.
+
+## Arsenal d'armes limité pour plus de réalisme (leak)
+
+⚠️ **Source : leak — non confirmé officiellement**
+
+Contrairement aux précédents GTA où le joueur pouvait transporter un arsenal entier, GTA VI limiterait le **nombre d'armes transportables** simultanément. Ce choix de design viserait plus de réalisme, obligeant le joueur à planifier ses chargements avant chaque mission, similaire à l'approche de Red Dead Redemption 2.
+
+## Synthèse : officiel vs leak
+
+| Élément | Statut |
+|---------|--------|
+| 6 étoiles de recherche | ✅ Confirmé |
+| Zones sous-marines | ✅ Confirmé (trailers) |
+| 700+ bâtiments accessibles | ✅ Confirmé |
+| Police IA améliorée | ✅ Confirmé |
+| Météo dynamique (ouragans) | ✅ Confirmé |
+| Jauge de relation | ⚠️ Leak non confirmé |
+| Évolution du poids | ⚠️ Leak non confirmé |
+| Arsenal limité | ⚠️ Leak non confirmé |`,
+      en: `## Disclaimer
+
+This article compiles information from **leaks** and unofficial sources. Unless otherwise noted, these elements have **not been officially confirmed** by Rockstar Games. Treat this information with caution.
+
+## 6-Star Wanted System (Confirmed)
+
+The return of the **6-star** wanted system was confirmed through official trailers. It's a return to form for the franchise, as GTA V reduced the system to 5 stars. The sixth level triggers a massive military response with armored vehicles and special forces.
+
+## RDR2-Inspired Relationship Gauge (Leak)
+
+⚠️ **Source: leak — not officially confirmed**
+
+According to the 2022 mega-leak, GTA VI would feature a **relationship system between Lucia and Jason** inspired by Red Dead Redemption 2's companionship. Interactions between the protagonists would evolve based on player choices, affecting dialogue, available missions and potentially the ending.
+
+## Character Weight Evolution (Leak)
+
+⚠️ **Source: leak — not officially confirmed**
+
+Characters would see their **physical appearance evolve** based on gameplay: frequent eating would cause weight gain, while exercise and combat would build an athletic physique. Similar to GTA: San Andreas but with greater detail.
+
+## 700+ Enterable Buildings (Confirmed)
+
+Leonida's open world contains over **700 enterable buildings**: shops, malls, restaurants, bars, gyms, etc. — a massive leap from GTA V.
+
+## Smarter Police AI (Confirmed)
+
+Law enforcement in Leonida features **significantly improved AI**. Cops can **remember faces**, **vehicles** and **past offenses**. Repeated crimes in the same area become increasingly risky.
+
+## Dynamic Weather: Tropical Storms (Confirmed)
+
+Leonida's Florida setting features **dynamic weather** including **tropical storms and hurricanes** that reduce visibility and alter ground grip, directly affecting driving and combat.
+
+## Explorable Underwater Zones (Confirmed via Trailers)
+
+Official trailers showed **scuba diving** sequences, confirming explorable aquatic zones around Leonida.
+
+## Limited Weapon Arsenal for Realism (Leak)
+
+⚠️ **Source: leak — not officially confirmed**
+
+GTA VI would limit the **number of weapons carried** simultaneously, similar to RDR2's approach.
+
+## Summary: Official vs Leak
+
+| Element | Status |
+|---------|--------|
+| 6-star wanted | ✅ Confirmed |
+| Underwater zones | ✅ Confirmed (trailers) |
+| 700+ enterable buildings | ✅ Confirmed |
+| Smarter police AI | ✅ Confirmed |
+| Dynamic weather (hurricanes) | ✅ Confirmed |
+| Relationship gauge | ⚠️ Unconfirmed leak |
+| Weight evolution | ⚠️ Unconfirmed leak |
+| Limited arsenal | ⚠️ Unconfirmed leak |`,
+      es: `## Aviso
+
+Este artículo compila información de **filtraciones (leaks)** no confirmadas oficialmente por Rockstar Games.
+
+## Sistema de búsqueda de 6 estrellas (confirmado)
+
+Retorno del sistema de **6 estrellas** confirmado por los tráilers oficiales.
+
+## Otros leaks no confirmados
+
+- **Barra de relación** entre Lucia y Jason inspirada en RDR2
+- **Evolución del peso** de los personajes según el gameplay
+- **+700 interiores visitables** en Leonida
+- **Zonas submarinas** confirmadas vía tráilers
+- **Arsenal de armas limitado** para más realismo
+
+⚠️ Siempre distinguir entre información oficial y leaks no confirmados.`,
+      pt: `## Aviso
+
+Este artigo compila informações de **vazamentos (leaks)** não confirmados oficialmente pela Rockstar Games.
+
+## Sistema de procurado de 6 estrelas (confirmado)
+
+Retorno do sistema de **6 estrelas** confirmado pelos trailers oficiais.
+
+## Outros vazamentos não confirmados
+
+- **Medidor de relacionamento** entre Lucia e Jason inspirado em RDR2
+- **Evolução do peso** dos personagens conforme o gameplay
+- **+700 interiores visitáveis** em Leonida
+- **Zonas subaquáticas** confirmadas via trailers
+- **Arsenal de armas limitado** para mais realismo`,
+      it: `## Avvertenza
+
+Questo articolo raccoglie informazioni da **leak** non confermati ufficialmente da Rockstar Games.
+
+## Sistema di ricerca a 6 stelle (confermato)
+
+Ritorno del sistema a **6 stelle** confermato dai trailer ufficiali.
+
+## Altri leak non confermati
+
+- **Barra relazione** tra Lucia e Jason ispirata a RDR2
+- **Evoluzione del peso** dei personaggi in base al gameplay
+- **+700 interni visitabili** a Leonida
+- **Zone sottomarine** confermate via trailer
+- **Arsenale armi limitato** per più realismo`,
+      ko: `## 주의
+
+이 기사는 Rockstar Games에서 공식 확인하지 않은 **유출(leaks)** 정보를 정리한 것입니다.
+
+## 6성 수배 시스템 (확정)
+
+공식 트레일러를 통해 **6성** 수배 시스템 복귀가 확인되었습니다.
+
+## 기타 미확인 유출
+
+- RDR2에서 영감받은 Lucia와 Jason 간 **관계 게이지**
+- 게임플레이에 따른 캐릭터 **체중 변화**
+- Leonida에 **700개 이상 방문 가능 인테리어**
+- 트레일러를 통해 확인된 **수중 구역**
+- 더 많은 리얼리즘을 위한 **제한된 무기 보유**`,
+    },
+    infobox: {
+      'Étoiles': '6 (confirmé)',
+      'Zones sous-marines': 'Confirmé (trailers)',
+      'Jauge relation': 'Leak non confirmé',
+      'Intérieurs': '+700 (leak)',
+    },
+    author: "L'équipe PopCodex",
+    publishedAt: '2026-03-14',
+    updatedAt: '2026-03-14',
+    readTime: 7,
+    tags: ['gta-vi', 'gameplay', 'leaks', 'rumeurs', 'rockstar'],
+    relatedSlugs: ['lucia-caminos', 'jason-duval', 'carte-vice-city-gta-6-tous-les-lieux-confirmes'],
+  },
+
+  // ---- GTA 6 : prix, éditions et version PC ----
+  {
+    slug: 'gta-6-prix-editions-pc',
+    franchise: 'gta-vi',
+    category: 'actualites',
+    title: {
+      fr: 'GTA VI : prix, éditions et version PC — tout savoir',
+      en: 'GTA VI: Price, Editions and PC Version — Everything You Need to Know',
+      es: 'GTA VI: precio, ediciones y versión PC — todo lo que debes saber',
+      pt: 'GTA VI: preço, edições e versão PC — tudo o que precisa saber',
+      it: 'GTA VI: prezzo, edizioni e versione PC — tutto quello che devi sapere',
+      ko: 'GTA VI: 가격, 에디션 및 PC 버전 — 알아야 할 모든 것',
+    },
+    excerpt: {
+      fr: "GTA VI sortira le 19 novembre 2026 sur PS5 et Xbox Series X|S au prix de 70-80 €. La version PC est estimée 12 à 18 mois après. Point sur les éditions et le prix.",
+      en: "GTA VI launches November 19, 2026 on PS5 and Xbox Series X|S at $69.99-79.99. The PC version is estimated 12-18 months later. Details on editions and pricing.",
+      es: "GTA VI sale el 19 de noviembre de 2026 en PS5 y Xbox Series X|S a 70-80 €. La versión PC se estima 12-18 meses después. Detalles sobre ediciones y precio.",
+      pt: "GTA VI sai em 19 de novembro de 2026 no PS5 e Xbox Series X|S a 70-80 €. A versão PC estimada para 12-18 meses depois. Detalhes sobre edições e preço.",
+      it: "GTA VI esce il 19 novembre 2026 su PS5 e Xbox Series X|S a 70-80 €. La versione PC è stimata 12-18 mesi dopo. Dettagli su edizioni e prezzo.",
+      ko: "GTA VI는 2026년 11월 19일 PS5 및 Xbox Series X|S에서 69.99-79.99달러에 출시됩니다. PC 버전은 12-18개월 후 예상. 에디션 및 가격 정보.",
+    },
+    content: {
+      fr: `## Prix de GTA VI
+
+Le prix de GTA VI est attendu dans la fourchette de **70 à 80 €** pour l'édition standard, en ligne avec la tarification AAA actuelle. Take-Two Interactive, la maison mère de Rockstar Games, a précédemment indiqué que le prix refléterait la valeur du contenu proposé. Pour comparaison, les jeux AAA récents comme Spider-Man 2 ou Hogwarts Legacy se sont vendus à 79,99 € sur PS5.
+
+## Éditions disponibles
+
+À ce jour, Rockstar Games n'a **pas encore annoncé officiellement** les différentes éditions de GTA VI. Cependant, en se basant sur les pratiques habituelles de l'industrie et les précédents de Rockstar (RDR2, GTA V), voici ce qui est attendu :
+
+- **Édition Standard** (~69,99-79,99 €) — le jeu de base
+- **Éditions Spéciales** (~99,99-129,99 €) — bonus cosmétiques et contenu en jeu
+- **Éditions Collector** (~200-300+ €) — éléments physiques, artbook, figurines, etc.
+
+⚠️ Les détails précis des éditions ne sont **pas encore confirmés** par Rockstar. Les fourchettes de prix sont basées sur les pratiques de l'industrie et les prix habituels de Take-Two.
+
+## Plateformes au lancement : consoles uniquement
+
+GTA VI sera disponible au lancement **exclusivement sur consoles** :
+- **PlayStation 5**
+- **Xbox Series X|S**
+
+Pas de version PS4 ni Xbox One. Le jeu exploite pleinement les capacités du matériel de nouvelle génération.
+
+## Version PC : 12 à 18 mois après
+
+La **version PC de GTA VI** n'est **pas prévue au lancement**. En se basant sur le précédent de GTA V (sorti en septembre 2013 sur consoles, avril 2015 sur PC — soit 18 mois d'écart) et Red Dead Redemption 2 (octobre 2018 sur consoles, novembre 2019 sur PC — 13 mois), la version PC est estimée entre **fin 2027 et mi-2028**.
+
+Cette stratégie permet à Rockstar de :
+- Maximiser les ventes consoles au lancement
+- Optimiser le portage PC avec du temps supplémentaire
+- Créer un second événement commercial avec la sortie PC
+
+## Précommandes
+
+Les précommandes ne sont **pas encore ouvertes** à la date de rédaction de cet article (mars 2026). Elles seront probablement annoncées quelques mois avant la sortie de novembre 2026.
+
+## Résumé
+
+| Élément | Information |
+|---------|------------|
+| Sortie consoles | 19 novembre 2026 |
+| Prix estimé | 70-80 € (standard) |
+| Plateformes | PS5, Xbox Series X|S |
+| Version PC | Estimée fin 2027 / mi-2028 |
+| Éditions collector | Non encore annoncées |
+| Précommandes | Non encore ouvertes |`,
+      en: `## GTA VI Pricing
+
+GTA VI is expected to cost **$69.99-79.99** for the standard edition, in line with current AAA pricing. Take-Two Interactive has indicated the price will reflect the value of the content offered.
+
+## Available Editions
+
+Rockstar Games has **not yet officially announced** GTA VI editions. Based on industry practices and Rockstar's history (RDR2, GTA V), expected editions include:
+
+- **Standard Edition** (~$69.99) — base game
+- **Special Edition** (~$89.99-99.99) — cosmetic bonuses and in-game content
+- **Ultimate/Collector Edition** (~$119.99-149.99+) — physical items, artbook, etc.
+
+⚠️ These editions are **not yet confirmed**.
+
+## Launch Platforms: Consoles Only
+
+GTA VI launches **exclusively on consoles**:
+- **PlayStation 5**
+- **Xbox Series X|S**
+
+No PS4, no Xbox One. The game fully leverages next-gen hardware.
+
+## PC Version: 12-18 Months Later
+
+The **PC version** is **not planned for launch**. Based on GTA V (18-month gap) and RDR2 (13-month gap), the PC version is estimated between **late 2027 and mid-2028**.
+
+## Summary
+
+| Element | Information |
+|---------|------------|
+| Console launch | November 19, 2026 |
+| Estimated price | $69.99-79.99 (standard) |
+| Platforms | PS5, Xbox Series X|S |
+| PC version | Est. late 2027 / mid-2028 |
+| Collector editions | Not yet announced |
+| Pre-orders | Not yet open |`,
+      es: `## Precio de GTA VI
+
+El precio esperado es de **70-80 €** para la edición estándar. Las ediciones especiales y collector **no han sido anunciadas oficialmente**.
+
+## Plataformas al lanzamiento
+
+Solo **PS5 y Xbox Series X|S**. Sin PS4 ni Xbox One. La **versión PC** se estima **12-18 meses después** (finales de 2027 / mediados de 2028), basándose en los precedentes de GTA V y RDR2.
+
+## Resumen
+
+Sortie : 19 de noviembre de 2026. Precio : 70-80 €. PC : finales de 2027 / mediados de 2028.`,
+      pt: `## Preço de GTA VI
+
+O preço esperado é de **70-80 €** para a edição padrão. As edições especiais e collector **não foram anunciadas oficialmente**.
+
+## Plataformas no lançamento
+
+Apenas **PS5 e Xbox Series X|S**. Sem PS4 nem Xbox One. A **versão PC** é estimada **12-18 meses depois** (final de 2027 / meados de 2028), com base nos precedentes de GTA V e RDR2.
+
+## Resumo
+
+Lançamento: 19 de novembro de 2026. Preço: 70-80 €. PC: final de 2027 / meados de 2028.`,
+      it: `## Prezzo di GTA VI
+
+Il prezzo previsto è di **70-80 €** per l'edizione standard. Le edizioni speciali e collector **non sono state ancora annunciate**.
+
+## Piattaforme al lancio
+
+Solo **PS5 e Xbox Series X|S**. Niente PS4 né Xbox One. La **versione PC** è stimata **12-18 mesi dopo** (fine 2027 / metà 2028), basandosi sui precedenti di GTA V e RDR2.
+
+## Riepilogo
+
+Uscita: 19 novembre 2026. Prezzo: 70-80 €. PC: fine 2027 / metà 2028.`,
+      ko: `## GTA VI 가격
+
+스탠다드 에디션 예상 가격은 **69.99-79.99달러**입니다. 특별판 및 컬렉터 에디션은 **아직 공식 발표되지 않았습니다**.
+
+## 출시 플랫폼
+
+**PS5 및 Xbox Series X|S**만 해당. PS4, Xbox One 없음. **PC 버전**은 GTA V와 RDR2 선례에 따라 **12-18개월 후** (2027년 말 / 2028년 중반) 예상.
+
+## 요약
+
+출시: 2026년 11월 19일. 가격: 69.99-79.99달러. PC: 2027년 말 / 2028년 중반.`,
+    },
+    infobox: {
+      'Sortie': '19 novembre 2026',
+      'Prix': '70-80 € (estimé)',
+      'Plateformes': 'PS5, Xbox Series X|S',
+      'Version PC': 'Estimée fin 2027 / mi-2028',
+      'Éditions': 'Non encore annoncées',
+    },
+    author: "L'équipe PopCodex",
+    publishedAt: '2026-03-14',
+    updatedAt: '2026-03-14',
+    readTime: 5,
+    tags: ['gta-vi', 'actualites', 'prix', 'editions', 'pc', 'rockstar'],
+    relatedSlugs: ['lucia-caminos', 'jason-duval', 'gta-6-leaks-gameplay'],
+  },
 ];

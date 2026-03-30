@@ -6,10 +6,14 @@ import { generateVideoGameJsonLd, generateBreadcrumbJsonLd } from '@/lib/seo/jso
 import FranchiseHub from '@/components/wiki/FranchiseHub';
 import { locales } from '@/lib/i18n/config';
 
+// Crimson Desert is served by its own dedicated wiki SPA route
+const WIKI_FRANCHISES = ['crimson-desert', 'gta-vi', 'fable', 'wolverine'];
+
 export async function generateStaticParams() {
   const params: { locale: string; franchise: string }[] = [];
   for (const locale of locales) {
     for (const id of getAllFranchiseIds()) {
+      if (WIKI_FRANCHISES.includes(id)) continue;
       params.push({ locale, franchise: id });
     }
   }
@@ -18,6 +22,7 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string; franchise: string }> }) {
   const { locale, franchise: franchiseId } = await params;
+  if (WIKI_FRANCHISES.includes(franchiseId)) return {};
   const franchise = getFranchiseById(franchiseId);
   if (!franchise) return {};
   return generateFranchiseMetadata(franchise, locale);
@@ -26,6 +31,13 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 export default async function FranchisePage({ params }: { params: Promise<{ locale: string; franchise: string }> }) {
   const { locale, franchise: franchiseId } = await params;
   setRequestLocale(locale);
+
+  // Wiki franchises are handled by their own dedicated route
+  // (e.g. app/[locale]/crimson-desert/[[...path]]/page.tsx)
+  // If this route is reached anyway, bail out so Next.js falls through
+  if (WIKI_FRANCHISES.includes(franchiseId)) {
+    notFound();
+  }
 
   const franchise = getFranchiseById(franchiseId);
   if (!franchise) notFound();

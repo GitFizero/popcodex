@@ -1,7 +1,7 @@
 import { ArticleData } from '../articles';
 import { FranchiseConfig } from '../franchise-config';
 
-const BASE_URL = 'https://popcodex.com';
+const BASE_URL = 'https://www.popcodex.com';
 
 export function generateWebsiteJsonLd(locale: string) {
   return {
@@ -9,14 +9,6 @@ export function generateWebsiteJsonLd(locale: string) {
     '@type': 'WebSite',
     name: 'PopCodex',
     url: `${BASE_URL}/${locale}`,
-    potentialAction: {
-      '@type': 'SearchAction',
-      target: {
-        '@type': 'EntryPoint',
-        urlTemplate: `${BASE_URL}/${locale}/search?q={search_term_string}`,
-      },
-      'query-input': 'required name=search_term_string',
-    },
   };
 }
 

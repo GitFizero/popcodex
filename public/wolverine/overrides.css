@@ -1,0 +1,39 @@
+/* Wolverine Wiki — Override popcodex chrome */
+body:has(.wolverine-wiki) > header,
+body:has(.wolverine-wiki) > footer,
+body:has(.wolverine-wiki) > div > header,
+body:has(.wolverine-wiki) > div > footer {
+  display: none !important;
+}
+
+body:has(.wolverine-wiki) {
+  background: hsl(0 0% 3%) !important;
+  font-family: 'DM Sans', sans-serif !important;
+}
+
+/* Noir mode: fix selector — class is on <html>, not on .wolverine-wiki */
+.noir-mode .wolverine-wiki {
+  filter: grayscale(0.85) contrast(1.3);
+}
+.noir-mode .wolverine-wiki::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(ellipse at center, transparent 40%, rgba(0, 0, 0, 0.4) 100%);
+  pointer-events: none;
+  z-index: 9998;
+}
+
+/* Claw slash effect */
+@keyframes clawSlash {
+  0% { clip-path: polygon(0 0, 0 0, 0 100%, 0 100%); }
+  100% { clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); }
+}
+
+@keyframes sparks {
+  0% { opacity: 1; transform: translateY(0) scale(1); }
+  100% { opacity: 0; transform: translateY(-20px) scale(0); }
+}

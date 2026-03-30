@@ -1,0 +1,26 @@
+/* ================================================================
+   CRIMSON DESERT WIKI — Layout overrides for popcodex integration
+   Hides popcodex chrome when the wiki SPA is active
+   ================================================================ */
+
+/* Hide popcodex's Header/Footer/skip-nav when wiki is active */
+body:has(.crimson-desert-wiki) > header,
+body:has(.crimson-desert-wiki) > footer,
+body:has(.crimson-desert-wiki) > .skip-nav,
+body:has(.crimson-desert-wiki) > div > header,
+body:has(.crimson-desert-wiki) > div > footer,
+body:has(.crimson-desert-wiki) > div > .skip-nav {
+  display: none !important;
+}
+
+/* Override popcodex body styles when wiki is active */
+body:has(.crimson-desert-wiki) {
+  background: hsl(10 50% 1.4%) !important;
+  font-family: 'Crimson Text', serif !important;
+  font-size: 120% !important;
+}
+
+/* Ensure the wiki container takes full viewport */
+.crimson-desert-wiki {
+  min-height: 100vh;
+}

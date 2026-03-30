@@ -36,6 +36,8 @@ export interface FranchiseConfig {
   name: Record<string, string>;
   description: Record<string, string>;
   categories: FranchiseCategory[];
+  /** Cover image path for homepage cards (relative to /public) */
+  coverImage?: string;
 }
 
 export const franchises: Record<FranchiseId, FranchiseConfig> = {
@@ -43,6 +45,7 @@ export const franchises: Record<FranchiseId, FranchiseConfig> = {
     id: 'gta-vi',
     mediaType: 'games',
     accentColor: '#FF1493',
+    coverImage: '/gta-vi/jason-lucia-hero-landscape.jpg',
     theme: {
       accentColor: '#FF1493',
       accentSecondary: '#00FFFF',
@@ -54,7 +57,7 @@ export const franchises: Record<FranchiseId, FranchiseConfig> = {
       bgGradient: 'linear-gradient(180deg, hsl(220 67% 2%) 0%, hsl(216 56% 4%) 30%, hsl(214 40% 7%) 100%)',
       heroPattern: 'linear-gradient(hsl(189 100% 50% / 0.03) 1px, transparent 1px), linear-gradient(90deg, hsl(189 100% 50% / 0.03) 1px, transparent 1px)',
     },
-    releaseDate: '2026-05-26',
+    releaseDate: '2026-11-19',
     developer: 'Rockstar Games',
     publisher: 'Take-Two Interactive / Rockstar Games',
     platforms: ['PS5', 'Xbox Series X/S'],
@@ -108,6 +111,7 @@ export const franchises: Record<FranchiseId, FranchiseConfig> = {
     id: 'crimson-desert',
     mediaType: 'games',
     accentColor: '#DC2626',
+    coverImage: '/crimson-desert/pywel-panorama.jpg',
     theme: {
       accentColor: '#DC2626',
       accentSecondary: '#D4A946',
@@ -169,6 +173,7 @@ export const franchises: Record<FranchiseId, FranchiseConfig> = {
     id: 'fable',
     mediaType: 'games',
     accentColor: '#22C55E',
+    coverImage: '/fable/cover-landscape.jpg',
     theme: {
       accentColor: '#22C55E',
       accentSecondary: '#FACC15',
@@ -226,6 +231,7 @@ export const franchises: Record<FranchiseId, FranchiseConfig> = {
     id: 'wolverine',
     mediaType: 'games',
     accentColor: '#EAB308',
+    coverImage: '/wolverine/cover-landscape.jpg',
     theme: {
       accentColor: '#EAB308',
       accentSecondary: '#DC2626',

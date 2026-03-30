@@ -1,0 +1,36 @@
+import type { Translations } from '@/fable-wiki/context/I18nContext';
+
+export interface GlossaryEntry {
+  id: string;
+  term: string;
+  category: 'CHARACTER' | 'LOCATION' | 'FACTION' | 'MECHANIC' | 'CREATURE' | 'ITEM';
+  definition: Translations;
+  relatedLink?: string;
+}
+
+export const glossaryEntries: GlossaryEntry[] = [
+  { id: 'hero', term: 'The Hero', category: 'CHARACTER', definition: { fr: "Protagoniste jouable de Fable. Ne a Briar Hill, il decouvre ses pouvoirs heroiques et entreprend une quete a travers Albion.", en: "Fable's playable protagonist. Born in Briar Hill, they discover heroic powers and embark on a quest across Albion." }, relatedLink: '/characters' },
+  { id: 'humphry', term: 'Humphry', category: 'CHARACTER', definition: { fr: "Ancien heros d'Albion force de sortir de sa retraite. Interprete par Matt King. Compagnon du Heros.", en: "Former hero of Albion forced out of retirement. Voiced by Matt King. The Hero's companion." }, relatedLink: '/characters' },
+  { id: 'dave', term: 'Dave', category: 'CHARACTER', definition: { fr: "Un geant interprete par Richard Ayoade. Personnage humoristique et philosophe malgre sa taille.", en: "A giant voiced by Richard Ayoade. Humorous and philosophical character despite his size." }, relatedLink: '/characters' },
+  { id: 'stranger', term: 'The Stranger', category: 'CHARACTER', definition: { fr: "Antagoniste mysterieux qui petrifie le village de Briar Hill avec une magie ancienne.", en: "Mysterious antagonist who petrifies Briar Hill village with ancient magic." }, relatedLink: '/characters' },
+  { id: 'grandmother', term: 'Grandmother', category: 'CHARACTER', definition: { fr: "Figure maternelle et mentor du Heros. Mentionne la Guilde des Heros avant d'etre petrifiee.", en: "The Hero's maternal figure and mentor. Mentions the Heroes' Guild before being petrified." }, relatedLink: '/characters' },
+  { id: 'albion', term: 'Albion', category: 'LOCATION', definition: { fr: "Le monde dans lequel se deroule Fable. Un royaume medieval fantastique rempli de magie, de creatures et d'aventures.", en: "The world in which Fable takes place. A medieval fantasy realm filled with magic, creatures, and adventure." }, relatedLink: '/world' },
+  { id: 'bowerstone', term: 'Bowerstone', category: 'LOCATION', definition: { fr: "Capitale d'Albion, centre du commerce et siege de la Guilde des Heros.", en: "Capital of Albion, hub of commerce and home to the Heroes' Guild." }, relatedLink: '/world' },
+  { id: 'briar-hill', term: 'Briar Hill', category: 'LOCATION', definition: { fr: "Village natal du Heros. Paisible campagne petrifiee par l'Etranger.", en: "The Hero's home village. Peaceful countryside petrified by the Stranger." }, relatedLink: '/world' },
+  { id: 'bloodstone', term: 'Bloodstone', category: 'LOCATION', definition: { fr: "Region sombre et dangereuse. Repaire de pirates et de brigands.", en: 'Dark and treacherous region. Den of pirates and brigands.' }, relatedLink: '/world' },
+  { id: 'fairfax-castle', term: 'Fairfax Castle', category: 'LOCATION', definition: { fr: "Forteresse ancienne, siege du pouvoir d'Albion. Construite sur des ruines de l'Ancien Royaume.", en: "Ancient fortress, seat of Albion's power. Built on Old Kingdom ruins." }, relatedLink: '/world' },
+  { id: 'the-wilds', term: 'The Wilds', category: 'LOCATION', definition: { fr: "Forets indomptees d'Albion, territoire des Balverines et des Hobbes.", en: "Albion's untamed forests, territory of Balverines and Hobbes." }, relatedLink: '/world' },
+  { id: 'heroes-guild', term: "Heroes' Guild", category: 'FACTION', definition: { fr: "Institution legendaire qui forme les heros d'Albion. Fondee a l'epoque de l'Ancien Royaume.", en: "Legendary institution training Albion's heroes. Founded during the Old Kingdom era." }, relatedLink: '/lore' },
+  { id: 'old-kingdom', term: 'Old Kingdom', category: 'FACTION', definition: { fr: "Ancienne civilisation qui regnait sur Albion avec une magie incommensurable.", en: 'Ancient civilization that ruled Albion with immeasurable magic.' }, relatedLink: '/lore' },
+  { id: 'balverine', term: 'Balverine', category: 'CREATURE', definition: { fr: "Loup-garou d'Albion. Creature terrifiante hantant les forets, capable de transformer ses victimes.", en: "Albion's werewolf. Terrifying creature haunting forests, capable of transforming its victims." }, relatedLink: '/lore' },
+  { id: 'hobbe', term: 'Hobbe', category: 'CREATURE', definition: { fr: "Creature gobeline vivant dans des terriers souterrains. Kidnappe les enfants selon la legende.", en: 'Goblin-like creature dwelling in underground burrows. Kidnaps children according to legend.' }, relatedLink: '/lore' },
+  { id: 'hollow-man', term: 'Hollow Man', category: 'CREATURE', definition: { fr: "Mort-vivant spectral hantant les ruines et les cimetieres d'Albion.", en: "Spectral undead haunting Albion's ruins and graveyards." }, relatedLink: '/lore' },
+  { id: 'troll', term: 'Troll', category: 'CREATURE', definition: { fr: "Creature massive de roche et de terre, extremement resistante et dangereuse.", en: 'Massive creature of rock and earth, extremely resilient and dangerous.' }, relatedLink: '/lore' },
+  { id: 'style-weaving', term: 'Style-Weaving', category: 'MECHANIC', definition: { fr: "Systeme de combat signature de Fable permettant de combiner Force, Adresse et Volonte de maniere fluide.", en: "Fable's signature combat system allowing fluid combination of Strength, Skill, and Will." }, relatedLink: '/combat' },
+  { id: 'the-will', term: 'The Will', category: 'MECHANIC', definition: { fr: "Discipline magique heroique. Permet de lancer des sorts devastateurs comme boules de feu, eclairs et guerison.", en: 'Heroic magic discipline. Allows casting devastating spells like fireballs, lightning, and healing.' }, relatedLink: '/combat' },
+  { id: 'the-strength', term: 'The Strength', category: 'MECHANIC', definition: { fr: "Discipline physique de melee. Gouverne le maniement des armes et la puissance brute.", en: 'Physical melee discipline. Governs weapon wielding and brute power.' }, relatedLink: '/combat' },
+  { id: 'the-skill', term: 'The Skill', category: 'MECHANIC', definition: { fr: "Discipline de combat a distance. Maitrise de l'arc, de la precision et de la furtivite.", en: 'Ranged combat discipline. Mastery of bow, precision, and stealth.' }, relatedLink: '/combat' },
+  { id: 'reputation', term: 'Reputation System', category: 'MECHANIC', definition: { fr: "Systeme de reputation morale. Les choix du joueur influencent l'apparence du Heros et les reactions des PNJ.", en: "Moral reputation system. Player choices influence the Hero's appearance and NPC reactions." }, relatedLink: '/combat' },
+  { id: 'petrification', term: 'Petrification', category: 'MECHANIC', definition: { fr: "Magie ancienne utilisee par l'Etranger pour transformer Briar Hill en pierre.", en: "Ancient magic used by the Stranger to turn Briar Hill to stone." }, relatedLink: '/story' },
+  { id: 'playground-games', term: 'Playground Games', category: 'FACTION', definition: { fr: "Studio de developpement britannique (Forza Horizon) chargedu reboot de Fable.", en: 'British development studio (Forza Horizon) tasked with the Fable reboot.' }, relatedLink: '/about' },
+];

@@ -4,19 +4,40 @@ import { useLocale, useTranslations } from 'next-intl';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { Clock, ArrowRight, TrendingUp } from 'lucide-react';
-import { getRecentArticles } from '@/lib/articles';
+import { getRecentArticlesMeta } from '@/lib/articles';
 import { franchises } from '@/lib/franchise-config';
+
+// Map French article categories to wiki SPA internal routes
+const CATEGORY_TO_WIKI_ROUTE: Record<string, string> = {
+  personnages: '/characters',
+  lieux: '/world',
+  vehicules: '/world',
+  armes: '/weapons',
+  gameplay: '/combat',
+  guides: '/guides',
+  actualites: '/blog',
+  trailers: '/trailers',
+  regions: '/world',
+  combat: '/combat',
+  lore: '/lore',
+  analyse: '/blog',
+  creatures: '/world',
+  classes: '/lore',
+  traditions: '/lore',
+  pouvoirs: '/combat',
+  ennemis: '/characters',
+};
 
 export default function RecentArticles() {
   const t = useTranslations('recent');
   const tArticle = useTranslations('article');
   const locale = useLocale();
-  const articles = getRecentArticles(6);
+  const articles = getRecentArticlesMeta(6);
 
   // Split: first article large, rest in grid
   const [featured, ...rest] = articles;
   const featuredFranchise = franchises[featured.franchise as keyof typeof franchises];
-  const featuredCatSlug = featuredFranchise.categories.find(c => c.slug.fr === featured.category)?.slug[locale] || featured.category;
+  const featuredWikiRoute = CATEGORY_TO_WIKI_ROUTE[featured.category] || '/';
 
   return (
     <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
@@ -46,7 +67,7 @@ export default function RecentArticles() {
           className="lg:row-span-2"
         >
           <Link
-            href={`/${locale}/${featuredFranchise.id}/${featuredCatSlug}/${featured.slug}`}
+            href={`/${locale}/${featuredFranchise.id}${featuredWikiRoute}`}
             className="group flex flex-col h-full rounded-[var(--radius-card)] border border-[var(--color-border)] hover:border-[var(--color-border-hover)] bg-[var(--color-bg-elevated)] overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-xl no-underline"
           >
             {/* Color header area */}
@@ -111,7 +132,7 @@ export default function RecentArticles() {
         {/* Remaining articles in a compact stack */}
         {rest.map((article, i) => {
           const franchise = franchises[article.franchise as keyof typeof franchises];
-          const catSlug = franchise.categories.find(c => c.slug.fr === article.category)?.slug[locale] || article.category;
+          const wikiRoute = CATEGORY_TO_WIKI_ROUTE[article.category] || '/';
           return (
             <motion.div
               key={article.slug}
@@ -121,7 +142,7 @@ export default function RecentArticles() {
               transition={{ duration: 0.4, delay: i * 0.08 }}
             >
               <Link
-                href={`/${locale}/${franchise.id}/${catSlug}/${article.slug}`}
+                href={`/${locale}/${franchise.id}${wikiRoute}`}
                 className="group flex items-start gap-4 p-4 rounded-[var(--radius-card)] border border-[var(--color-border)] hover:border-[var(--color-border-hover)] bg-[var(--color-bg-elevated)] transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md no-underline"
               >
                 {/* Color dot */}

@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { Calendar, FileText, ArrowRight, Clock, Sword, Map, Shield, BookOpen, Compass, Newspaper, BarChart3 } from 'lucide-react';
 import { FranchiseConfig } from '@/lib/franchise-config';
-import { ArticleData, getArticlesByFranchise } from '@/lib/articles';
+import { ArticleMeta, getArticlesMetaByFranchise } from '@/lib/articles';
 
 /* ================================================================
    CRIMSON DESERT — PYWEL CHRONICLES WIKI HOMEPAGE
@@ -196,9 +196,9 @@ export default function CrimsonWikiHome({ franchise }: CrimsonWikiHomeProps) {
   const t = useTranslations('franchise');
   const tUniverse = useTranslations('universe');
   const tArticle = useTranslations('article');
-  const articles = getArticlesByFranchise(franchise.id);
+  const articles = getArticlesMetaByFranchise(franchise.id);
 
-  const articlesByCategory: Record<string, ArticleData[]> = {};
+  const articlesByCategory: Record<string, ArticleMeta[]> = {};
   articles.forEach(article => {
     if (!articlesByCategory[article.category]) {
       articlesByCategory[article.category] = [];
@@ -290,14 +290,15 @@ export default function CrimsonWikiHome({ franchise }: CrimsonWikiHomeProps) {
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.3 }}
-            className="text-gradient-gold shimmer text-6xl sm:text-7xl lg:text-9xl font-bold"
+            className="text-6xl sm:text-7xl lg:text-9xl font-bold leading-[0.9]"
             style={{
               fontFamily: franchise.theme.fontDisplay,
               letterSpacing: '0.08em',
               textTransform: 'uppercase',
             }}
           >
-            Crimson Desert
+            <span className="text-gradient-gold shimmer block">Crimson</span>
+            <span className="text-gradient-crimson block">Desert</span>
           </motion.h1>
 
           {/* Subtitle */}

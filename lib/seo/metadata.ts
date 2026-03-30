@@ -3,7 +3,7 @@ import { FranchiseConfig } from '../franchise-config';
 import { ArticleData } from '../articles';
 import { locales } from '../i18n/config';
 
-const BASE_URL = 'https://popcodex.com';
+const BASE_URL = 'https://www.popcodex.com';
 const ALL_LOCALES = locales;
 
 export function generateBaseMetadata(locale: string): Metadata {
@@ -29,7 +29,10 @@ export function generateBaseMetadata(locale: string): Metadata {
     metadataBase: new URL(BASE_URL),
     alternates: {
       canonical: `${BASE_URL}/${locale}`,
-      languages: Object.fromEntries(ALL_LOCALES.map(l => [l, `${BASE_URL}/${l}`])),
+      languages: {
+        ...Object.fromEntries(ALL_LOCALES.map(l => [l, `${BASE_URL}/${l}`])),
+        'x-default': `${BASE_URL}/fr`,
+      },
     },
     openGraph: {
       title: titles[locale] || titles.fr,
@@ -38,6 +41,7 @@ export function generateBaseMetadata(locale: string): Metadata {
       siteName: 'PopCodex',
       locale: locale,
       type: 'website',
+      images: [{ url: `${BASE_URL}/og-image.svg`, width: 1200, height: 630, alt: 'PopCodex' }],
     },
     twitter: {
       card: 'summary_large_image',
@@ -54,12 +58,16 @@ export function generateBaseMetadata(locale: string): Metadata {
 export function generateFranchiseMetadata(franchise: FranchiseConfig, locale: string): Metadata {
   const title = `${franchise.name[locale] || franchise.name.fr} | PopCodex`;
   const description = franchise.description[locale] || franchise.description.fr;
+  const ogImage = franchise.coverImage ? `${BASE_URL}${franchise.coverImage}` : `${BASE_URL}/og-image.svg`;
   return {
     title,
     description,
     alternates: {
       canonical: `${BASE_URL}/${locale}/${franchise.id}`,
-      languages: Object.fromEntries(ALL_LOCALES.map(l => [l, `${BASE_URL}/${l}/${franchise.id}`])),
+      languages: {
+        ...Object.fromEntries(ALL_LOCALES.map(l => [l, `${BASE_URL}/${l}/${franchise.id}`])),
+        'x-default': `${BASE_URL}/fr/${franchise.id}`,
+      },
     },
     openGraph: {
       title,
@@ -68,8 +76,9 @@ export function generateFranchiseMetadata(franchise: FranchiseConfig, locale: st
       siteName: 'PopCodex',
       locale,
       type: 'website',
+      images: [{ url: ogImage, width: 1200, height: 630, alt: franchise.name[locale] || franchise.name.fr }],
     },
-    twitter: { card: 'summary_large_image', title, description },
+    twitter: { card: 'summary_large_image', title, description, images: [ogImage] },
   };
 }
 
@@ -82,12 +91,15 @@ export function generateArticleMetadata(article: ArticleData, franchise: Franchi
     description,
     alternates: {
       canonical: url,
-      languages: Object.fromEntries(
-        ALL_LOCALES.map(l => {
-          const catSlug = franchise.categories.find(c => c.slug.fr === article.category)?.slug[l] || article.category;
-          return [l, `${BASE_URL}/${l}/${franchise.id}/${catSlug}/${article.slug}`];
-        })
-      ),
+      languages: {
+        ...Object.fromEntries(
+          ALL_LOCALES.map(l => {
+            const catSlug = franchise.categories.find(c => c.slug.fr === article.category)?.slug[l] || article.category;
+            return [l, `${BASE_URL}/${l}/${franchise.id}/${catSlug}/${article.slug}`];
+          })
+        ),
+        'x-default': `${BASE_URL}/fr/${franchise.id}/${franchise.categories.find(c => c.slug.fr === article.category)?.slug.fr || article.category}/${article.slug}`,
+      },
     },
     openGraph: {
       title: article.title[locale] || article.title.fr,
@@ -99,7 +111,58 @@ export function generateArticleMetadata(article: ArticleData, franchise: Franchi
       publishedTime: article.publishedAt,
       modifiedTime: article.updatedAt,
       authors: [article.author],
+      images: [{ url: `${BASE_URL}/og-image.svg`, width: 1200, height: 630, alt: article.title[locale] || article.title.fr }],
     },
-    twitter: { card: 'summary_large_image', title: article.title[locale] || article.title.fr, description },
+    twitter: {
+      card: 'summary_large_image',
+      title: article.title[locale] || article.title.fr,
+      description,
+      images: [`${BASE_URL}/og-image.svg`],
+    },
+  };
+}
+
+export function generateWikiMetadata(franchiseId: string, franchise: FranchiseConfig, locale: string, wikiPage?: string): Metadata {
+  const pageNames: Record<string, Record<string, string>> = {
+    characters: { fr: 'Personnages', en: 'Characters', es: 'Personajes', pt: 'Personagens', it: 'Personaggi', ko: '캐릭터' },
+    story: { fr: 'Histoire', en: 'Story', es: 'Historia', pt: 'História', it: 'Storia', ko: '스토리' },
+    world: { fr: 'Monde', en: 'World', es: 'Mundo', pt: 'Mundo', it: 'Mondo', ko: '세계' },
+    weapons: { fr: 'Armes', en: 'Weapons', es: 'Armas', pt: 'Armas', it: 'Armi', ko: '무기' },
+    combat: { fr: 'Combat', en: 'Combat', es: 'Combate', pt: 'Combate', it: 'Combattimento', ko: '전투' },
+    lore: { fr: 'Savoir', en: 'Lore', es: 'Trasfondo', pt: 'Conhecimento', it: 'Sapere', ko: '로어' },
+    gallery: { fr: 'Galerie', en: 'Gallery', es: 'Galería', pt: 'Galeria', it: 'Galleria', ko: '갤러리' },
+  };
+
+  const pageName = wikiPage && pageNames[wikiPage]
+    ? (pageNames[wikiPage][locale] || pageNames[wikiPage].en)
+    : '';
+  const franchiseName = franchise.name[locale] || franchise.name.fr;
+  const title = pageName
+    ? `${pageName} — ${franchiseName} Wiki | PopCodex`
+    : `${franchiseName} Wiki | PopCodex`;
+  const description = franchise.description[locale] || franchise.description.fr;
+  const path = wikiPage ? `/${locale}/${franchiseId}/${wikiPage}` : `/${locale}/${franchiseId}`;
+  const ogImage = franchise.coverImage ? `${BASE_URL}${franchise.coverImage}` : `${BASE_URL}/og-image.svg`;
+
+  return {
+    title,
+    description,
+    alternates: {
+      canonical: `${BASE_URL}${path}`,
+      languages: {
+        ...Object.fromEntries(ALL_LOCALES.map(l => [l, `${BASE_URL}/${l}/${franchiseId}${wikiPage ? `/${wikiPage}` : ''}`])),
+        'x-default': `${BASE_URL}/fr/${franchiseId}${wikiPage ? `/${wikiPage}` : ''}`,
+      },
+    },
+    openGraph: {
+      title,
+      description,
+      url: `${BASE_URL}${path}`,
+      siteName: 'PopCodex',
+      locale,
+      type: 'website',
+      images: [{ url: ogImage, width: 1200, height: 630, alt: franchiseName }],
+    },
+    twitter: { card: 'summary_large_image', title, description, images: [ogImage] },
   };
 }

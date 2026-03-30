@@ -6,9 +6,43 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: '*',
         allow: '/',
-        disallow: ['/api/', '/studio/'],
+        disallow: ['/api/', '/studio/', '/_next/', '/*/search', '/search'],
+      },
+      {
+        userAgent: 'Googlebot',
+        allow: '/',
+        disallow: ['/api/', '/studio/', '/*/search', '/search'],
+      },
+      {
+        userAgent: 'GPTBot',
+        disallow: ['/'],
+      },
+      {
+        userAgent: 'ChatGPT-User',
+        disallow: ['/'],
+      },
+      {
+        userAgent: 'CCBot',
+        disallow: ['/'],
+      },
+      {
+        userAgent: 'anthropic-ai',
+        disallow: ['/'],
+      },
+      {
+        userAgent: 'Google-Extended',
+        disallow: ['/'],
+      },
+      {
+        userAgent: 'FacebookBot',
+        allow: '/',
+      },
+      {
+        userAgent: 'Twitterbot',
+        allow: '/',
       },
     ],
-    sitemap: 'https://popcodex.com/sitemap.xml',
+    sitemap: 'https://www.popcodex.com/sitemap.xml',
+    host: 'https://www.popcodex.com',
   };
 }
