@@ -7019,4 +7019,498 @@ PS5 Pro에서 활성화: 사실적인 글로벌 일루미네이션, 수면과 �
     },
     relatedSlugs: ['crimson-desert-editions-standard-deluxe-collector-compared', 'crimson-desert-first-impressions-previews-roundup'],
   },
+
+  // ─── ARTICLE — SALES RECORDS & PLAYER COUNT ───
+  {
+    id: 'sales-records-2026',
+    slug: 'crimson-desert-sales-records-player-count-steam-2026',
+    category: 'NEWS',
+    coverImage: hernandCity,
+    author: 'Pywel Wiki',
+    publishedAt: '2026-03-30',
+    readingTime: 8,
+    tags: [
+      { fr: 'ventes', en: 'sales', es: 'ventas', it: 'vendite', ko: '판매' },
+      { fr: 'records', en: 'records', es: 'récords', it: 'record', ko: '기록' },
+      { fr: 'Steam', en: 'Steam', es: 'Steam', it: 'Steam', ko: 'Steam' },
+      { fr: 'lancement', en: 'launch', es: 'lanzamiento', it: 'lancio', ko: '출시' },
+      { fr: 'Pearl Abyss', en: 'Pearl Abyss', es: 'Pearl Abyss', it: 'Pearl Abyss', ko: '펄어비스' },
+    ],
+    title: {
+      fr: 'Crimson Desert : records de ventes, pics de joueurs et impact Steam en chiffres',
+      en: 'Crimson Desert: Record-Breaking Sales, Player Count & Steam Impact in Numbers',
+      es: 'Crimson Desert: récords de ventas, picos de jugadores e impacto en Steam en cifras',
+      it: 'Crimson Desert: record di vendite, picchi di giocatori e impatto su Steam in numeri',
+      ko: '크림슨 디저트: 판매 기록, 동시 접속자 수 및 Steam 영향 총정리',
+    },
+    excerpt: {
+      fr: 'Crimson Desert pulvérise les records : 363 000 pré-ventes Steam, 276 261 joueurs simultanés, 3 millions d\'unités vendues en 5 jours et un score Steam passé de « Mitigé » à « Très positif ».',
+      en: 'Crimson Desert shatters records: 363,000 Steam pre-sales, 276,261 concurrent players, 3 million units sold in 5 days, and a Steam score that evolved from "Mixed" to "Very Positive."',
+      es: 'Crimson Desert rompe récords: 363 000 preventas en Steam, 276 261 jugadores simultáneos, 3 millones de unidades vendidas en 5 días y una puntuación en Steam que pasó de «Mixta» a «Muy positiva».',
+      it: 'Crimson Desert frantuma i record: 363.000 prevendite su Steam, 276.261 giocatori simultanei, 3 milioni di unità vendute in 5 giorni e un punteggio Steam passato da "Nella media" a "Molto positivo".',
+      ko: '크림슨 디저트 기록 경신: Steam 사전 판매 363,000건, 동시 접속자 276,261명, 5일 만에 300만 장 판매, Steam 평가 "복합적"에서 "매우 긍정적"으로 변화.',
+    },
+    seoTitle: {
+      fr: 'Crimson Desert ventes records Steam | 276K joueurs simultanés & 3M vendus | 2026',
+      en: 'Crimson Desert Record Sales Steam | 276K Concurrent Players & 3M Sold | 2026',
+      es: 'Crimson Desert ventas récord Steam | 276K jugadores simultáneos y 3M vendidos | 2026',
+      it: 'Crimson Desert vendite record Steam | 276K giocatori simultanei e 3M venduti | 2026',
+      ko: '크림슨 디저트 Steam 판매 기록 | 동시 접속 276K & 300만 장 판매 | 2026',
+    },
+    seoDescription: {
+      fr: 'Bilan chiffré du lancement de Crimson Desert : 363K pré-ventes Steam, 20M$ de revenus, 276K pic concurrent, 3M d\'unités, score Steam « Très positif ». Pearl Abyss 2026.',
+      en: 'Crimson Desert launch by the numbers: 363K Steam pre-sales, $20M+ revenue, 276K peak concurrent, 3M units sold, Steam score "Very Positive." Pearl Abyss 2026.',
+      es: 'Balance del lanzamiento de Crimson Desert: 363K preventas Steam, 20M$ ingresos, 276K pico simultáneo, 3M unidades, puntuación Steam «Muy positiva». Pearl Abyss 2026.',
+      it: 'Bilancio del lancio di Crimson Desert: 363K prevendite Steam, 20M$ ricavi, 276K picco simultaneo, 3M unità, punteggio Steam "Molto positivo". Pearl Abyss 2026.',
+      ko: '크림슨 디저트 출시 수치 정리: Steam 사전 판매 363K, 매출 2,000만 달러 이상, 동시 접속 276K, 300만 장 판매, Steam "매우 긍정적" 평가. 펄어비스 2026.',
+    },
+    content: {
+      fr: `Crimson Desert est officiellement l'un des plus grands lancements de 2026. En à peine dix jours, le jeu de Pearl Abyss a enchaîné les records sur Steam, atteint des pics de joueurs impressionnants et contribué à un record historique de la plateforme Valve. Voici le bilan complet, chiffres à l'appui.
+
+## Pré-ventes record sur Steam
+
+Avant même sa sortie le 19 mars, Crimson Desert affichait des chiffres de pré-vente exceptionnels sur Steam : **363 000 copies pré-vendues**, générant plus de **20 millions de dollars de revenus bruts** rien que sur Steam. Le 16 mars à lui seul a représenté 10 % du total des ventes, soit environ **2,6 millions de dollars en une seule journée**.
+
+Pour mettre ces chiffres en perspective, Kingdom Come: Deliverance 2 avait enregistré 5,2 millions de dollars de pré-commandes trois jours avant son lancement. Crimson Desert a réalisé près de **dix fois ce montant** sur la même période. Un signal clair de l'engouement massif autour du titre de Pearl Abyss.
+
+## Pics de joueurs simultanés
+
+Au lancement, Crimson Desert a atteint **240 000 joueurs simultanés** sur Steam. Le premier week-end a vu ce chiffre grimper à **248 530 joueurs**. Mais c'est le deuxième week-end, après la publication de plusieurs patchs correctifs, qui a marqué un nouveau record : **276 261 joueurs simultanés**, preuve que les mises à jour rapides de Pearl Abyss ont convaincu de nouveaux joueurs de franchir le pas.
+
+## Ventes toutes plateformes
+
+Les chiffres de ventes globaux sont tout aussi impressionnants :
+
+- **2 millions d'unités vendues** dans les premières 24 heures (toutes plateformes confondues)
+- **3 millions d'unités** atteints dès le 24 mars, soit 5 jours après le lancement
+- Les estimations actuelles indiquent une trajectoire vers les **5 millions d'unités**
+
+## Impact sur Steam : un record historique
+
+Le succès de Crimson Desert a directement contribué à un événement historique pour Steam. Le 22 mars 2026, la plateforme de Valve a enregistré un nouveau record absolu de **42,3 millions d'utilisateurs connectés simultanément**. Si Crimson Desert n'est pas le seul facteur, sa contribution à cette affluence record est indéniable.
+
+## Réception critique : de « Mitigé » à « Très positif »
+
+L'histoire de la réception critique de Crimson Desert est remarquable. Sur Metacritic, le jeu affiche une note de **78**. Sur Steam, les évaluations ont évolué de manière significative :
+
+- Au lancement : évaluations **« Mitigées »**, principalement dues à des problèmes techniques et à la présence de Denuvo
+- Dix jours plus tard : évaluations **« Très positives »**, grâce à la réactivité exceptionnelle de Pearl Abyss
+
+Ce retournement s'explique par un rythme de mises à jour rarement vu dans l'industrie : **5 patchs en 10 jours**. Pearl Abyss a été salué par la communauté pour sa rapidité de réponse aux retours des joueurs. Parmi les corrections notables, le studio a remplacé des illustrations générées par IA par de véritables créations artistiques, répondant à une demande forte de la communauté.
+
+## Contexte et perspectives
+
+Crimson Desert s'impose comme l'un des lancements les plus marquants de 2026. Sa contribution au record d'utilisateurs Steam, la vitesse de croissance de sa base de joueurs après les patchs et la trajectoire positive de ses évaluations en font un cas d'école en matière de gestion de lancement.
+
+Pour Pearl Abyss, ces résultats représentent une validation spectaculaire de leur stratégie. L'action de la société a vraisemblablement bénéficié de ces performances commerciales, et la dynamique actuelle laisse entrevoir un succès durable.
+
+---
+
+**Sources :** [Gamewave](https://gamewave.fr/crimson-desert/crimson-desert-bat-son-record-de-joueurs-dix-jours-apres-sa-sortie/) | [IGN France](https://fr.ign.com/crimson-desert/87006/news/les-mises-a-jour-de-crimson-desert-ravissent-les-fans-mais-certains-estiment-quelles-rendent-le-jeu)`,
+
+      en: `Crimson Desert is officially one of the biggest launches of 2026. In just ten days, Pearl Abyss's action RPG has broken Steam records, reached impressive player peaks, and contributed to a historic milestone for Valve's platform. Here is the full breakdown, backed by numbers.
+
+## Record-Breaking Steam Pre-Sales
+
+Before its March 19 launch, Crimson Desert posted exceptional pre-sale numbers on Steam: **363,000 copies pre-sold**, generating over **$20 million in gross revenue** on Steam alone. March 16 alone accounted for 10% of total sales, roughly **$2.6 million in a single day**.
+
+For context, Kingdom Come: Deliverance 2 had $5.2 million in pre-orders three days before its launch. Crimson Desert achieved nearly **ten times that amount** over the same period. A clear signal of the massive anticipation around Pearl Abyss's title.
+
+## Concurrent Player Peaks
+
+At launch, Crimson Desert hit **240,000 concurrent players** on Steam. The first weekend saw that number climb to **248,530 players**. But it was the second weekend, following several hotfix patches, that set a new record: **276,261 concurrent players**, proving that Pearl Abyss's rapid updates convinced new players to jump in.
+
+## Cross-Platform Sales
+
+Global sales figures are equally impressive:
+
+- **2 million units sold** in the first 24 hours (all platforms combined)
+- **3 million units** reached by March 24, just 5 days after launch
+- Current estimates point toward a trajectory of **5 million units**
+
+## Steam Impact: A Historic Record
+
+Crimson Desert's success directly contributed to a historic event for Steam. On March 22, 2026, Valve's platform recorded a new all-time record of **42.3 million concurrent users**. While Crimson Desert was not the sole factor, its contribution to this record-breaking traffic is undeniable.
+
+## Critical Reception: From "Mixed" to "Very Positive"
+
+The story of Crimson Desert's critical reception is remarkable. On Metacritic, the game holds a score of **78**. On Steam, reviews evolved significantly:
+
+- At launch: **"Mixed"** reviews, primarily due to technical issues and the presence of Denuvo
+- Ten days later: **"Very Positive"** reviews, thanks to Pearl Abyss's exceptional responsiveness
+
+This turnaround is explained by an update pace rarely seen in the industry: **5 patches in 10 days**. Pearl Abyss has been praised by the community for their remarkably fast response to player feedback. Among the notable fixes, the studio replaced AI-generated art with real artwork, addressing a major community request.
+
+## Context and Outlook
+
+Crimson Desert stands as one of the most significant launches of 2026. Its contribution to Steam's all-time user record, the speed of its player base growth after patches, and the positive trajectory of its reviews make it a textbook case in launch management.
+
+For Pearl Abyss, these results represent a spectacular validation of their strategy. The company's stock has likely benefited from these commercial performances, and the current momentum suggests sustained long-term success.
+
+---
+
+**Sources:** [Gamewave](https://gamewave.fr/crimson-desert/crimson-desert-bat-son-record-de-joueurs-dix-jours-apres-sa-sortie/) | [IGN France](https://fr.ign.com/crimson-desert/87006/news/les-mises-a-jour-de-crimson-desert-ravissent-les-fans-mais-certains-estiment-quelles-rendent-le-jeu)`,
+
+      es: `Crimson Desert es oficialmente uno de los mayores lanzamientos de 2026. En apenas diez días, el RPG de acción de Pearl Abyss ha batido récords en Steam, alcanzado picos de jugadores impresionantes y contribuido a un hito histórico para la plataforma de Valve. Aquí está el balance completo, respaldado por cifras.
+
+## Preventas récord en Steam
+
+Antes de su lanzamiento el 19 de marzo, Crimson Desert registró cifras de preventa excepcionales en Steam: **363 000 copias prevendidas**, generando más de **20 millones de dólares en ingresos brutos** solo en Steam. El 16 de marzo por sí solo representó el 10 % del total de ventas, unos **2,6 millones de dólares en un solo día**.
+
+Para poner estas cifras en perspectiva, Kingdom Come: Deliverance 2 registró 5,2 millones de dólares en reservas tres días antes de su lanzamiento. Crimson Desert logró casi **diez veces esa cantidad** en el mismo período.
+
+## Picos de jugadores simultáneos
+
+En el lanzamiento, Crimson Desert alcanzó **240 000 jugadores simultáneos** en Steam. El primer fin de semana vio esa cifra subir a **248 530 jugadores**. Pero fue el segundo fin de semana, tras la publicación de varios parches, el que marcó un nuevo récord: **276 261 jugadores simultáneos**, prueba de que las actualizaciones rápidas de Pearl Abyss convencieron a nuevos jugadores.
+
+## Ventas en todas las plataformas
+
+Las cifras de ventas globales son igualmente impresionantes:
+
+- **2 millones de unidades vendidas** en las primeras 24 horas (todas las plataformas)
+- **3 millones de unidades** alcanzados el 24 de marzo, solo 5 días después del lanzamiento
+- Las estimaciones actuales apuntan a una trayectoria de **5 millones de unidades**
+
+## Impacto en Steam: un récord histórico
+
+El éxito de Crimson Desert contribuyó directamente a un evento histórico para Steam. El 22 de marzo de 2026, la plataforma de Valve registró un nuevo récord absoluto de **42,3 millones de usuarios conectados simultáneamente**.
+
+## Recepción crítica: de «Mixta» a «Muy positiva»
+
+La historia de la recepción de Crimson Desert es notable. En Metacritic, el juego tiene una nota de **78**. En Steam, las evaluaciones evolucionaron significativamente:
+
+- En el lanzamiento: evaluaciones **«Mixtas»**, principalmente por problemas técnicos y la presencia de Denuvo
+- Diez días después: evaluaciones **«Muy positivas»**, gracias a la excepcional capacidad de respuesta de Pearl Abyss
+
+Este cambio se explica por un ritmo de actualizaciones rara vez visto: **5 parches en 10 días**. Pearl Abyss fue elogiado por la comunidad por su rapidez de respuesta. Entre las correcciones destacadas, el estudio reemplazó ilustraciones generadas por IA por arte real, respondiendo a una demanda importante de la comunidad.
+
+## Contexto y perspectivas
+
+Crimson Desert se impone como uno de los lanzamientos más significativos de 2026. Su contribución al récord de usuarios de Steam, la velocidad de crecimiento de su base de jugadores tras los parches y la trayectoria positiva de sus evaluaciones lo convierten en un caso de estudio en gestión de lanzamientos.
+
+---
+
+**Fuentes:** [Gamewave](https://gamewave.fr/crimson-desert/crimson-desert-bat-son-record-de-joueurs-dix-jours-apres-sa-sortie/) | [IGN France](https://fr.ign.com/crimson-desert/87006/news/les-mises-a-jour-de-crimson-desert-ravissent-les-fans-mais-certains-estiment-quelles-rendent-le-jeu)`,
+
+      it: `Crimson Desert è ufficialmente uno dei più grandi lanci del 2026. In appena dieci giorni, l'action RPG di Pearl Abyss ha battuto record su Steam, raggiunto picchi di giocatori impressionanti e contribuito a un traguardo storico per la piattaforma di Valve. Ecco il bilancio completo, supportato dai numeri.
+
+## Prevendite record su Steam
+
+Prima del lancio del 19 marzo, Crimson Desert ha registrato numeri di prevendita eccezionali su Steam: **363.000 copie prevendute**, generando oltre **20 milioni di dollari di ricavi lordi** solo su Steam. Il 16 marzo da solo ha rappresentato il 10% delle vendite totali, circa **2,6 milioni di dollari in un singolo giorno**.
+
+Per contestualizzare, Kingdom Come: Deliverance 2 aveva registrato 5,2 milioni di dollari di preordini tre giorni prima del lancio. Crimson Desert ha raggiunto quasi **dieci volte quella cifra** nello stesso periodo.
+
+## Picchi di giocatori simultanei
+
+Al lancio, Crimson Desert ha raggiunto **240.000 giocatori simultanei** su Steam. Il primo weekend ha visto il numero salire a **248.530 giocatori**. Ma è stato il secondo weekend, dopo la pubblicazione di diverse patch correttive, a segnare un nuovo record: **276.261 giocatori simultanei**, dimostrando che gli aggiornamenti rapidi di Pearl Abyss hanno convinto nuovi giocatori a unirsi.
+
+## Vendite su tutte le piattaforme
+
+Le cifre di vendita globali sono altrettanto impressionanti:
+
+- **2 milioni di unità vendute** nelle prime 24 ore (tutte le piattaforme)
+- **3 milioni di unità** raggiunti entro il 24 marzo, appena 5 giorni dopo il lancio
+- Le stime attuali indicano una traiettoria verso i **5 milioni di unità**
+
+## Impatto su Steam: un record storico
+
+Il successo di Crimson Desert ha contribuito direttamente a un evento storico per Steam. Il 22 marzo 2026, la piattaforma di Valve ha registrato un nuovo record assoluto di **42,3 milioni di utenti connessi simultaneamente**.
+
+## Ricezione critica: da "Nella media" a "Molto positivo"
+
+La storia della ricezione critica di Crimson Desert è notevole. Su Metacritic, il gioco ha un punteggio di **78**. Su Steam, le recensioni si sono evolute in modo significativo:
+
+- Al lancio: recensioni **"Nella media"**, principalmente a causa di problemi tecnici e della presenza di Denuvo
+- Dieci giorni dopo: recensioni **"Molto positivo"**, grazie all'eccezionale reattività di Pearl Abyss
+
+Questo cambiamento si spiega con un ritmo di aggiornamenti raramente visto nell'industria: **5 patch in 10 giorni**. Pearl Abyss è stata elogiata dalla comunità per la velocità di risposta ai feedback dei giocatori. Tra le correzioni più significative, lo studio ha sostituito le illustrazioni generate dall'IA con vera arte, rispondendo a una richiesta importante della comunità.
+
+## Contesto e prospettive
+
+Crimson Desert si afferma come uno dei lanci più significativi del 2026. Il suo contributo al record di utenti Steam, la velocità di crescita della base giocatori dopo le patch e la traiettoria positiva delle recensioni lo rendono un caso esemplare di gestione del lancio.
+
+---
+
+**Fonti:** [Gamewave](https://gamewave.fr/crimson-desert/crimson-desert-bat-son-record-de-joueurs-dix-jours-apres-sa-sortie/) | [IGN France](https://fr.ign.com/crimson-desert/87006/news/les-mises-a-jour-de-crimson-desert-ravissent-les-fans-mais-certains-estiment-quelles-rendent-le-jeu)`,
+
+      ko: `크림슨 디저트는 공식적으로 2026년 최대 규모의 출시작 중 하나입니다. 불과 10일 만에 펄어비스의 액션 RPG는 Steam 기록을 경신하고, 인상적인 동시 접속자 수를 달성했으며, Valve 플랫폼의 역사적인 이정표에 기여했습니다. 수치로 뒷받침된 전체 분석을 정리합니다.
+
+## Steam 사전 판매 기록
+
+3월 19일 출시 전, 크림슨 디저트는 Steam에서 놀라운 사전 판매 수치를 기록했습니다: **363,000건의 사전 판매**, Steam에서만 **2,000만 달러 이상의 총 매출**을 달성했습니다. 3월 16일 하루만으로 전체 판매의 10%, 약 **260만 달러**를 기록했습니다.
+
+비교하자면, 킹덤 컴: 딜리버런스 2는 출시 3일 전에 520만 달러의 예약 판매를 기록했습니다. 크림슨 디저트는 같은 기간 동안 거의 **10배에 달하는 금액**을 달성했습니다. 펄어비스 타이틀에 대한 엄청난 기대감의 명확한 신호입니다.
+
+## 동시 접속자 피크
+
+출시 시점에 크림슨 디저트는 Steam에서 **동시 접속자 240,000명**을 달성했습니다. 첫 번째 주말에는 **248,530명**으로 증가했습니다. 그러나 여러 핫픽스 패치 이후의 두 번째 주말에 새로운 기록이 세워졌습니다: **동시 접속자 276,261명**. 이는 펄어비스의 신속한 업데이트가 새로운 플레이어들을 유입시켰음을 증명합니다.
+
+## 전체 플랫폼 판매
+
+글로벌 판매 수치도 마찬가지로 인상적입니다:
+
+- 출시 후 24시간 내 **200만 장 판매** (전체 플랫폼 합산)
+- 출시 5일 만인 3월 24일까지 **300만 장** 달성
+- 현재 추정치는 **500만 장**을 향한 궤도를 가리킵니다
+
+## Steam 영향: 역사적 기록
+
+크림슨 디저트의 성공은 Steam의 역사적인 이벤트에 직접 기여했습니다. 2026년 3월 22일, Valve의 플랫폼은 **동시 접속 사용자 4,230만 명**이라는 새로운 역대 기록을 세웠습니다. 크림슨 디저트가 유일한 요인은 아니지만, 이 기록적인 트래픽에 대한 기여는 부정할 수 없습니다.
+
+## 비평 수용: "복합적"에서 "매우 긍정적"으로
+
+크림슨 디저트의 비평 수용 이야기는 주목할 만합니다. Metacritic에서 게임은 **78점**을 기록하고 있습니다. Steam에서 평가는 크게 변화했습니다:
+
+- 출시 시: 기술적 문제와 Denuvo 존재로 인한 **"복합적"** 평가
+- 10일 후: 펄어비스의 뛰어난 대응력 덕분에 **"매우 긍정적"** 평가
+
+이 반전은 업계에서 좀처럼 보기 어려운 업데이트 속도로 설명됩니다: **10일간 5개의 패치**. 펄어비스는 플레이어 피드백에 대한 놀랍도록 빠른 대응으로 커뮤니티의 찬사를 받았습니다. 특히 주목할 만한 수정 사항으로, 스튜디오는 AI 생성 아트를 실제 아트워크로 교체하여 커뮤니티의 주요 요청에 응답했습니다.
+
+## 맥락과 전망
+
+크림슨 디저트는 2026년 가장 중요한 출시작 중 하나로 자리매김했습니다. Steam 역대 사용자 기록에 대한 기여, 패치 후 플레이어 기반의 빠른 성장 속도, 그리고 평가의 긍정적 궤적은 이를 출시 관리의 교과서적 사례로 만듭니다.
+
+펄어비스에게 이 결과는 전략의 극적인 검증을 의미합니다. 회사의 주가는 이러한 상업적 성과에 긍정적 영향을 받았을 가능성이 높으며, 현재의 모멘텀은 지속적인 장기 성공을 시사합니다.
+
+---
+
+**출처:** [Gamewave](https://gamewave.fr/crimson-desert/crimson-desert-bat-son-record-de-joueurs-dix-jours-apres-sa-sortie/) | [IGN France](https://fr.ign.com/crimson-desert/87006/news/les-mises-a-jour-de-crimson-desert-ravissent-les-fans-mais-certains-estiment-quelles-rendent-le-jeu)`,
+    },
+    relatedSlugs: ['crimson-desert-march-2026-updates-patches-sales-records', 'crimson-desert-first-impressions-previews-roundup', 'crimson-desert-denuvo-drm-performance-controversy'],
+  },
+
+  // ─── ARTICLE — ADVANCED TIPS & TRICKS ───
+  {
+    id: 'advanced-tips-2026',
+    slug: 'crimson-desert-advanced-tips-tricks-combat-exploration-2026',
+    category: 'GUIDE',
+    coverImage: combatGoblin,
+    author: 'Pywel Wiki',
+    publishedAt: '2026-03-30',
+    readingTime: 10,
+    tags: [
+      { fr: 'guide avancé', en: 'advanced guide', es: 'guía avanzada', it: 'guida avanzata', ko: '고급 가이드' },
+      { fr: 'astuces', en: 'tips', es: 'consejos', it: 'consigli', ko: '팁' },
+      { fr: 'combat', en: 'combat', es: 'combate', it: 'combattimento', ko: '전투' },
+      { fr: 'exploration', en: 'exploration', es: 'exploración', it: 'esplorazione', ko: '탐험' },
+      { fr: 'camp', en: 'camp', es: 'campamento', it: 'campo', ko: '캠프' },
+      { fr: 'montures', en: 'mounts', es: 'monturas', it: 'cavalcature', ko: '탈것' },
+    ],
+    title: {
+      fr: 'Crimson Desert : astuces avancées pour le combat, l\'exploration et la gestion du camp',
+      en: 'Crimson Desert: Advanced Tips & Tricks for Combat, Exploration & Camp Management',
+      es: 'Crimson Desert: consejos avanzados para combate, exploración y gestión del campamento',
+      it: 'Crimson Desert: trucchi avanzati per combattimento, esplorazione e gestione del campo',
+      ko: '크림슨 디저트: 전투, 탐험 및 캠프 관리를 위한 고급 팁과 요령',
+    },
+    excerpt: {
+      fr: 'Maîtrisez Crimson Desert avec nos astuces avancées : système de soin par la nourriture, maîtrise du combat, secrets d\'exploration, économie, camp et montures. Inclut les changements des patchs 1.00.03 et 1.01.00.',
+      en: 'Master Crimson Desert with our advanced tips: food-based healing system, combat mastery, exploration secrets, economy, camp management and mounts. Includes patch 1.00.03 and 1.01.00 changes.',
+      es: 'Domina Crimson Desert con nuestros consejos avanzados: sistema de curación por comida, maestría en combate, secretos de exploración, economía, campamento y monturas. Incluye cambios de los parches 1.00.03 y 1.01.00.',
+      it: 'Padroneggia Crimson Desert con i nostri trucchi avanzati: sistema di cura tramite cibo, padronanza del combattimento, segreti di esplorazione, economia, campo e cavalcature. Include le modifiche delle patch 1.00.03 e 1.01.00.',
+      ko: '크림슨 디저트 고급 팁: 음식 기반 치유 시스템, 전투 마스터리, 탐험 비밀, 경제, 캠프 관리 및 탈것. 패치 1.00.03 및 1.01.00 변경 사항 포함.',
+    },
+    seoTitle: {
+      fr: 'Crimson Desert astuces avancées | Combat, exploration, camp | Guide expert 2026',
+      en: 'Crimson Desert Advanced Tips | Combat, Exploration, Camp | Expert Guide 2026',
+      es: 'Crimson Desert consejos avanzados | Combate, exploración, campamento | Guía experta 2026',
+      it: 'Crimson Desert trucchi avanzati | Combattimento, esplorazione, campo | Guida esperta 2026',
+      ko: '크림슨 디저트 고급 팁 | 전투, 탐험, 캠프 | 전문가 가이드 2026',
+    },
+    seoDescription: {
+      fr: 'Guide avancé Crimson Desert : soin par nourriture, combat agressif, parade et Encounter, exploration Abyss, camp, montures et patchs 1.00.03/1.01.00. Pearl Abyss 2026.',
+      en: 'Crimson Desert advanced guide: food healing, aggressive combat, parry & Encounter, Abyss exploration, camp, mounts and patches 1.00.03/1.01.00. Pearl Abyss 2026.',
+      es: 'Guía avanzada Crimson Desert: curación por comida, combate agresivo, parada y Encounter, exploración Abyss, campamento, monturas y parches 1.00.03/1.01.00. Pearl Abyss 2026.',
+      it: 'Guida avanzata Crimson Desert: cura tramite cibo, combattimento aggressivo, parata e Encounter, esplorazione Abyss, campo, cavalcature e patch 1.00.03/1.01.00. Pearl Abyss 2026.',
+      ko: '크림슨 디저트 고급 가이드: 음식 치유, 공격적 전투, 패리 & 인카운터, 심연 탐험, 캠프, 탈것 및 패치 1.00.03/1.01.00. 펄어비스 2026.',
+    },
+    content: {
+      fr: `Vous avez terminé les premières heures de Crimson Desert et vous cherchez à optimiser votre expérience ? Ce guide avancé complète notre [guide du débutant](/blog/crimson-desert-beginner-guide-10-essential-tips) avec des astuces pour joueurs expérimentés, incluant les changements majeurs des patchs 1.00.03 et 1.01.00.
+
+## Soin et nourriture
+
+Il n'existe aucune potion de soin dans Crimson Desert : la nourriture est votre unique source de régénération. La recette de Soupe Claire, débloquée au début de l'Acte 3, restaure 180 PV et sa version de base reste la plus efficace en rapport coût/bénéfice. Pour les combats de boss difficiles, gardez toujours 30 soupes et 50 steaks en réserve.
+
+Astuce cruciale : vous pouvez manger tout en attaquant. Spammez vos attaques et votre soin simultanément pour maintenir la pression. Depuis le patch 1.01.00, vous pouvez cuisiner plusieurs aliments en une seule fois, ce qui rend la préparation bien plus rapide.
+
+## Maîtrise du combat
+
+Soyez AGRESSIF. Ne jouez pas défensivement : les kill chains sont la clé de la victoire. Utilisez Ctrl/LB pour verrouiller une cible et bloquer ; un timing précis transforme votre blocage en parade. Au niveau 2, vous débloquez une esquive parfaite améliorée, et au niveau 3, vous obtenez Encounter, qui interrompt les attaques ennemies.
+
+**Encounter est la PRIORITÉ ABSOLUE dans l'arbre de compétences.** Investissez dedans dès que possible. Depuis le patch 1.00.03, l'accumulation de la jauge d'étourdissement par parade a été augmentée et la consommation d'endurance en blocage a été réduite, rendant le jeu défensif plus viable en complément de l'agressivité.
+
+## Secrets d'exploration
+
+Pour le voyage rapide : ouvrez la carte → passez en vue Abyss → sélectionnez un point Nexus. De nouveaux Nexus Abyss ont été ajoutés à travers Pywel dans les patchs récents.
+
+La réflexion de lumière de l'épée (L1+R1 / LB+RB) révèle les éléments Abyss sous forme d'orbes lumineux : utilisez-la partout pour ne rien manquer. Depuis le patch 1.00.03, les veines de minerai sont auto-découvertes dans un rayon de 8 m et les outils dans un rayon de 2 m. La portée de détection des indices par la lanterne a également été augmentée.
+
+## Inventaire et économie
+
+Les emplacements d'inventaire supplémentaires s'obtiennent via les quêtes secondaires : Hernand propose à lui seul 5 quêtes de ce type. Après avoir lu un livre ou une recette, vendez-le : le contenu est sauvegardé dans votre journal.
+
+La chasse aux primes à Hernand est la meilleure méthode pour gagner de l'argent. N'oubliez pas le Manoir Lioncrest qui contient la Plaque des Gardiens de Laiton, le Bouclier Rhonid et un lingot d'or de 500 Argent. Depuis le patch 1.00.03, un stockage privé est disponible au logement de Hernand.
+
+## Gestion du camp
+
+Le camp se débloque entièrement à partir du Chapitre 4, et c'est LE système dans lequel investir pour le farming à long terme. Depuis le patch 1.01.00, les Pièces de Raffinement permettent de tempérer votre équipement jusqu'au Stade 4, et de nouveaux coffres de matériaux sont disséminés à travers Pywel.
+
+## Priorités de build
+
+Investissez d'abord dans la santé et l'endurance plutôt que dans de nouveaux talents. L'armure lourde est prioritaire car il n'y a aucune pénalité de poids ! Depuis le patch 1.00.03, Force Palm est accessible plus tôt dans la progression.
+
+## Montures
+
+Le patch 1.01.00 a ajouté 5 nouvelles montures invocables : Ours Blanc, Croc d'Argent, Cerf des Neiges et Roc. Le vol plané a été amélioré : plus d'arrêt bref avant de planer et une consommation d'endurance réduite. Consultez notre [guide du système de combat](/blog/crimson-desert-combat-system-lock-stamina-parry-spirit) et notre [guide des armes](/blog/all-weapons-combat-styles-crimson-desert) pour aller encore plus loin.`,
+      en: `Finished the opening hours of Crimson Desert and looking to optimize your experience? This advanced guide complements our [beginner guide](/blog/crimson-desert-beginner-guide-10-essential-tips) with tips for experienced players, including major changes from patches 1.00.03 and 1.01.00.
+
+## Healing & Food
+
+There are no healing potions in Crimson Desert — food is your only healing source. The Clear Soup recipe, unlocked at the start of Act 3, restores 180 HP and its basic version is the most cost-effective. For tough boss fights, always keep 30 soups and 50 steaks in reserve.
+
+Crucial tip: you can eat while attacking. Spam your attacks and healing simultaneously to maintain pressure. Since patch 1.01.00, you can cook multiple food items at once, making preparation much faster.
+
+## Combat Mastery
+
+Be AGGRESSIVE. Don't play defensively — kill chains are the way to victory. Use Ctrl/LB to lock on and block; precise timing turns your block into a parry. At Level 2, you unlock an improved perfect dodge, and at Level 3, you get Encounter, which interrupts enemy attacks.
+
+**Encounter is the TOP PRIORITY in the skill tree.** Invest in it as soon as possible. Since patch 1.00.03, parry stun gauge accumulation has been increased and blocking stamina consumption has been reduced, making defensive play more viable as a complement to aggression.
+
+## Exploration Secrets
+
+For fast travel: open the map → switch to Abyss view → select a Nexus point. New Abyss Nexuses have been added across Pywel in recent patches.
+
+The sword light reflection (L1+R1 / LB+RB) reveals Abyss elements as glowing orbs — use it everywhere so you don't miss anything. Since patch 1.00.03, ore veins are auto-discovered within 8m and tools within 2m. Lantern clue detection range has also been boosted.
+
+## Inventory & Economy
+
+Extra inventory slots come from side quests — Hernand alone has 5 such quests. After reading a book or recipe, sell it: the content is saved in your journal.
+
+Bounty hunting at Hernand is the best money-making method. Don't forget Lioncrest Manor, which contains the Brass Wardens Plate, the Rhonid Shield, and a 500 Silver gold bar. Since patch 1.00.03, Private Storage is now available at Hernand lodgings.
+
+## Camp Management
+
+Camp fully unlocks from Chapter 4, and it is THE system to invest in for long-term farming. Since patch 1.01.00, Refinement Coins allow you to temper equipment up to Stage 4, and new material chests are scattered throughout Pywel.
+
+## Build Priorities
+
+Invest in health and endurance FIRST, not new talents. Heavy armor is the priority because there is no weight penalty! Since patch 1.00.03, Force Palm is accessible earlier in progression.
+
+## Mounts
+
+Patch 1.01.00 added 5 new summonable mounts: White Bear, Silver Fang, Snowwhite Deer, and Roc. Gliding has been improved: no more brief stop before gliding and reduced stamina cost. Check out our [combat system guide](/blog/crimson-desert-combat-system-lock-stamina-parry-spirit) and our [weapons guide](/blog/all-weapons-combat-styles-crimson-desert) to go even further.`,
+      es: `¿Terminaste las primeras horas de Crimson Desert y quieres optimizar tu experiencia? Esta guía avanzada complementa nuestra [guía para principiantes](/blog/crimson-desert-beginner-guide-10-essential-tips) con consejos para jugadores experimentados, incluyendo los cambios importantes de los parches 1.00.03 y 1.01.00.
+
+## Curación y comida
+
+No existen pociones de curación en Crimson Desert: la comida es tu única fuente de regeneración. La receta de Sopa Clara, desbloqueada al inicio del Acto 3, restaura 180 PV y su versión básica es la más rentable. Para combates de jefes difíciles, ten siempre 30 sopas y 50 filetes en reserva.
+
+Truco crucial: puedes comer mientras atacas. Spamea tus ataques y curación simultáneamente para mantener la presión. Desde el parche 1.01.00, puedes cocinar varios alimentos a la vez, lo que hace la preparación mucho más rápida.
+
+## Maestría en combate
+
+Sé AGRESIVO. No juegues a la defensiva: las kill chains son el camino hacia la victoria. Usa Ctrl/LB para fijar objetivo y bloquear; un timing preciso convierte tu bloqueo en parada. En el nivel 2 desbloqueas una esquiva perfecta mejorada, y en el nivel 3 obtienes Encounter, que interrumpe los ataques enemigos.
+
+**Encounter es la PRIORIDAD MÁXIMA en el árbol de habilidades.** Invierte en ella lo antes posible. Desde el parche 1.00.03, la acumulación de la barra de aturdimiento por parada ha sido aumentada y el consumo de resistencia al bloquear se ha reducido, haciendo el juego defensivo más viable como complemento de la agresividad.
+
+## Secretos de exploración
+
+Para el viaje rápido: abre el mapa → cambia a vista Abyss → selecciona un punto Nexus. Se han añadido nuevos Nexus Abyss por todo Pywel en los parches recientes.
+
+El reflejo de luz de la espada (L1+R1 / LB+RB) revela los elementos Abyss como orbes brillantes: úsalo en todas partes para no perderte nada. Desde el parche 1.00.03, las vetas de mineral se descubren automáticamente en un radio de 8 m y las herramientas en un radio de 2 m. El alcance de detección de pistas de la linterna también ha sido aumentado.
+
+## Inventario y economía
+
+Las ranuras de inventario adicionales se obtienen a través de misiones secundarias: solo Hernand tiene 5 misiones de este tipo. Después de leer un libro o receta, véndelo: el contenido se guarda en tu diario.
+
+La caza de recompensas en Hernand es el mejor método para ganar dinero. No olvides la Mansión Lioncrest, que contiene la Placa de los Guardianes de Latón, el Escudo Rhonid y un lingote de oro de 500 Plata. Desde el parche 1.00.03, hay almacenamiento privado disponible en el alojamiento de Hernand.
+
+## Gestión del campamento
+
+El campamento se desbloquea completamente a partir del Capítulo 4, y es EL sistema en el que invertir para el farming a largo plazo. Desde el parche 1.01.00, las Monedas de Refinamiento permiten templar tu equipo hasta el Nivel 4, y nuevos cofres de materiales están distribuidos por todo Pywel.
+
+## Prioridades de build
+
+Invierte primero en salud y resistencia, NO en nuevos talentos. La armadura pesada es prioritaria porque ¡no hay penalización de peso! Desde el parche 1.00.03, Force Palm es accesible antes en la progresión.
+
+## Monturas
+
+El parche 1.01.00 añadió 5 nuevas monturas invocables: Oso Blanco, Colmillo de Plata, Ciervo de las Nieves y Roc. El planeo ha sido mejorado: ya no hay parada breve antes de planear y el coste de resistencia se ha reducido. Consulta nuestra [guía del sistema de combate](/blog/crimson-desert-combat-system-lock-stamina-parry-spirit) y nuestra [guía de armas](/blog/all-weapons-combat-styles-crimson-desert) para profundizar aún más.`,
+      it: `Hai finito le prime ore di Crimson Desert e vuoi ottimizzare la tua esperienza? Questa guida avanzata integra la nostra [guida per principianti](/blog/crimson-desert-beginner-guide-10-essential-tips) con consigli per giocatori esperti, incluse le modifiche importanti delle patch 1.00.03 e 1.01.00.
+
+## Cura e cibo
+
+Non esistono pozioni curative in Crimson Desert: il cibo è la tua unica fonte di rigenerazione. La ricetta della Zuppa Chiara, sbloccata all'inizio dell'Atto 3, ripristina 180 PV e la sua versione base è la più conveniente. Per i combattimenti contro i boss difficili, tieni sempre 30 zuppe e 50 bistecche di riserva.
+
+Trucco fondamentale: puoi mangiare mentre attacchi. Spamma i tuoi attacchi e la cura simultaneamente per mantenere la pressione. Dalla patch 1.01.00, puoi cucinare più alimenti contemporaneamente, rendendo la preparazione molto più rapida.
+
+## Padronanza del combattimento
+
+Sii AGGRESSIVO. Non giocare in difesa: le kill chain sono la via verso la vittoria. Usa Ctrl/LB per bloccare il bersaglio e parare; un timing preciso trasforma il blocco in parata. Al livello 2 sblocchi una schivata perfetta migliorata, e al livello 3 ottieni Encounter, che interrompe gli attacchi nemici.
+
+**Encounter è la PRIORITÀ ASSOLUTA nell'albero delle abilità.** Investi il prima possibile. Dalla patch 1.00.03, l'accumulo della barra di stordimento da parata è stato aumentato e il consumo di resistenza nel blocco è stato ridotto, rendendo il gioco difensivo più praticabile come complemento all'aggressività.
+
+## Segreti di esplorazione
+
+Per il viaggio rapido: apri la mappa → passa alla vista Abyss → seleziona un punto Nexus. Nuovi Nexus Abyss sono stati aggiunti in tutta Pywel nelle patch recenti.
+
+Il riflesso di luce della spada (L1+R1 / LB+RB) rivela gli elementi Abyss come sfere luminose: usalo ovunque per non perderti nulla. Dalla patch 1.00.03, le vene di minerale vengono scoperte automaticamente entro 8 m e gli strumenti entro 2 m. La portata di rilevamento degli indizi della lanterna è stata aumentata.
+
+## Inventario ed economia
+
+Gli slot di inventario aggiuntivi si ottengono tramite le missioni secondarie: solo Hernand ne ha 5. Dopo aver letto un libro o una ricetta, vendilo: il contenuto è salvato nel tuo diario.
+
+La caccia alle taglie a Hernand è il miglior metodo per guadagnare denaro. Non dimenticare il Maniero Lioncrest, che contiene la Placca dei Guardiani di Ottone, lo Scudo Rhonid e un lingotto d'oro da 500 Argento. Dalla patch 1.00.03, è disponibile un deposito privato presso gli alloggi di Hernand.
+
+## Gestione del campo
+
+Il campo si sblocca completamente dal Capitolo 4, ed è IL sistema in cui investire per il farming a lungo termine. Dalla patch 1.01.00, le Monete di Raffinamento permettono di temprare l'equipaggiamento fino allo Stadio 4, e nuovi forzieri di materiali sono sparsi per tutta Pywel.
+
+## Priorità di build
+
+Investi prima in salute e resistenza, NON in nuovi talenti. L'armatura pesante è prioritaria perché non c'è nessuna penalità di peso! Dalla patch 1.00.03, Force Palm è accessibile prima nella progressione.
+
+## Cavalcature
+
+La patch 1.01.00 ha aggiunto 5 nuove cavalcature evocabili: Orso Bianco, Zanna d'Argento, Cervo delle Nevi e Roc. Il volo planato è stato migliorato: niente più arresto breve prima di planare e consumo di resistenza ridotto. Consulta la nostra [guida al sistema di combattimento](/blog/crimson-desert-combat-system-lock-stamina-parry-spirit) e la nostra [guida alle armi](/blog/all-weapons-combat-styles-crimson-desert) per approfondire ulteriormente.`,
+      ko: `크림슨 디저트의 초반 몇 시간을 마치고 경험을 최적화하고 싶으신가요? 이 고급 가이드는 [초보자 가이드](/blog/crimson-desert-beginner-guide-10-essential-tips)를 보완하며, 패치 1.00.03과 1.01.00의 주요 변경 사항을 포함한 숙련된 플레이어를 위한 팁을 제공합니다.
+
+## 치유와 음식
+
+크림슨 디저트에는 치유 물약이 없습니다 — 음식이 유일한 치유 수단입니다. 맑은 수프 레시피는 3막 시작 시 해금되며 180 HP를 회복합니다. 기본 버전이 가장 효율적입니다. 어려운 보스전에는 항상 수프 30개와 스테이크 50개를 비축하세요.
+
+핵심 팁: 공격하면서 먹을 수 있습니다. 공격과 치유를 동시에 스팸하여 압박을 유지하세요. 패치 1.01.00부터 여러 음식을 한 번에 조리할 수 있어 준비가 훨씬 빨라졌습니다.
+
+## 전투 마스터리
+
+공격적으로 플레이하세요. 수비적으로 플레이하지 마세요 — 킬 체인이 승리의 길입니다. Ctrl/LB로 타겟을 고정하고 방어하세요; 정확한 타이밍은 방어를 패리로 바꿉니다. 레벨 2에서 개선된 완벽한 회피를, 레벨 3에서 적의 공격을 중단시키는 인카운터를 해금합니다.
+
+**인카운터는 스킬 트리에서 최우선 순위입니다.** 가능한 빨리 투자하세요. 패치 1.00.03부터 패리 기절 게이지 축적이 증가하고 방어 스태미나 소비가 감소하여, 공격성을 보완하는 수비적 플레이가 더 실용적이 되었습니다.
+
+## 탐험 비밀
+
+빠른 이동: 맵 열기 → 심연 뷰로 전환 → 넥서스 포인트 선택. 최근 패치에서 파이웰 전역에 새로운 심연 넥서스가 추가되었습니다.
+
+검의 빛 반사(L1+R1 / LB+RB)는 심연 요소를 빛나는 구체로 드러냅니다 — 아무것도 놓치지 않도록 어디서든 사용하세요. 패치 1.00.03부터 광맥은 8m 이내, 도구는 2m 이내에서 자동 발견됩니다. 랜턴의 단서 탐지 범위도 향상되었습니다.
+
+## 인벤토리와 경제
+
+추가 인벤토리 슬롯은 사이드 퀘스트에서 얻을 수 있습니다 — 헤르난드에만 이런 퀘스트가 5개 있습니다. 책이나 레시피를 읽은 후 판매하세요: 내용은 일지에 저장됩니다.
+
+헤르난드에서의 현상금 사냥이 최고의 금전 획득 방법입니다. 라이온크레스트 저택을 잊지 마세요 — 황동 수호자 갑옷, 로니드 방패, 500 실버 금괴가 있습니다. 패치 1.00.03부터 헤르난드 숙소에 개인 보관함이 이용 가능합니다.
+
+## 캠프 관리
+
+캠프는 4장부터 완전히 해금되며, 장기적 파밍을 위해 투자해야 할 핵심 시스템입니다. 패치 1.01.00부터 정련 코인으로 장비를 4단계까지 템퍼링할 수 있으며, 파이웰 전역에 새로운 재료 상자가 배치되었습니다.
+
+## 빌드 우선순위
+
+새로운 재능보다 체력과 지구력에 먼저 투자하세요. 무거운 갑옷이 우선입니다 — 무게 패널티가 없습니다! 패치 1.00.03부터 Force Palm이 더 일찍 접근 가능합니다.
+
+## 탈것
+
+패치 1.01.00에서 5종의 새로운 소환 가능 탈것이 추가되었습니다: 백곰, 은송곳니, 눈사슴, 록. 활공이 개선되었습니다: 활공 전 짧은 정지가 없어지고 스태미나 소비가 감소했습니다. [전투 시스템 가이드](/blog/crimson-desert-combat-system-lock-stamina-parry-spirit)와 [무기 가이드](/blog/all-weapons-combat-styles-crimson-desert)도 확인하세요.`,
+    },
+    relatedSlugs: ['crimson-desert-beginner-guide-10-essential-tips', 'crimson-desert-combat-system-lock-stamina-parry-spirit', 'all-weapons-combat-styles-crimson-desert'],
+  },
 ];
