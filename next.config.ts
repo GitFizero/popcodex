@@ -33,24 +33,25 @@ const nextConfig: NextConfig = {
       permanent: true,
     },
     // Redirect any old franchise URL without locale to /fr/
+    // Pattern excludes static files (paths containing a dot) so images/css/js in public/ are not redirected
     {
-      source: '/crimson-desert/:path*',
-      destination: '/fr/crimson-desert/:path*',
+      source: '/crimson-desert/:path((?:[^/.]+)(?:/[^/.]+)*)',
+      destination: '/fr/crimson-desert/:path',
       permanent: true,
     },
     {
-      source: '/gta-vi/:path*',
-      destination: '/fr/gta-vi/:path*',
+      source: '/gta-vi/:path((?:[^/.]+)(?:/[^/.]+)*)',
+      destination: '/fr/gta-vi/:path',
       permanent: true,
     },
     {
-      source: '/wolverine/:path*',
-      destination: '/fr/wolverine/:path*',
+      source: '/wolverine/:path((?:[^/.]+)(?:/[^/.]+)*)',
+      destination: '/fr/wolverine/:path',
       permanent: true,
     },
     {
-      source: '/fable/:path*',
-      destination: '/fr/fable/:path*',
+      source: '/fable/:path((?:[^/.]+)(?:/[^/.]+)*)',
+      destination: '/fr/fable/:path',
       permanent: true,
     },
   ],
