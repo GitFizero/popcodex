@@ -1,11 +1,13 @@
 // @ts-nocheck
-import { useState, useCallback, useRef } from 'react';
+import { useState, useCallback, useRef, lazy, Suspense } from 'react';
 import { regions } from '@/crimson-desert-wiki/data/regions';
 import { useI18n } from '@/crimson-desert-wiki/context/I18nContext';
 import RevealOnScroll from '@/crimson-desert-wiki/components/RevealOnScroll';
 import GoldDivider from '@/crimson-desert-wiki/components/GoldDivider';
 import SEOHead from '@/crimson-desert-wiki/components/SEOHead';
 import { seo } from '@/crimson-desert-wiki/lib/seo';
+
+const InteractiveMap = lazy(() => import('@/crimson-desert-wiki/components/map/InteractiveMap'));
 
 type RegionTab = 'OVERVIEW' | 'LOCATIONS' | 'ENEMIES' | 'QUESTS';
 
@@ -88,48 +90,23 @@ const WorldPage = () => {
       {/* Map container — full width, outside the max-w-7xl wrapper */}
       <div
         ref={mapContainerRef}
-        className={`relative border-y border-border bg-[#1a1a2e] transition-all duration-300 ${
+        className={`relative border-y border-border transition-all duration-300 ${
           mapFullscreen ? 'fixed inset-0 z-[9999]' : ''
         }`}
         style={mapFullscreen ? undefined : { height: 'max(75vh, 550px)' }}
       >
-        <iframe
-          src="https://mapgenie.io/crimson-desert/maps/pywel"
-          title="Crimson Desert Interactive Map — Pywel"
-          className="w-full h-full border-0"
-          loading="lazy"
-          allow="fullscreen"
-          sandbox="allow-scripts allow-same-origin allow-popups allow-forms"
-        />
-
-        {/* Toolbar — top-right corner */}
-        <div className="absolute top-3 right-3 flex items-center gap-2 z-10">
-          <button
-            onClick={() => setMapFullscreen(!mapFullscreen)}
-            className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg font-ui text-[0.6rem] tracking-wider
-              bg-black/70 backdrop-blur-sm border border-white/10 text-white/80 hover:text-white hover:border-white/30 transition-colors"
-          >
-            {mapFullscreen
-              ? (lang === 'fr' ? '✕ Quitter' : '✕ Exit')
-              : (lang === 'fr' ? '⛶ Plein écran' : '⛶ Fullscreen')}
-          </button>
-          <a
-            href="https://mapgenie.io/crimson-desert/maps/pywel"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg font-ui text-[0.6rem] tracking-wider
-              bg-black/70 backdrop-blur-sm border border-white/10 text-white/80 hover:text-white hover:border-white/30 transition-colors"
-          >
-            {lang === 'fr' ? 'Ouvrir MapGenie' : 'Open MapGenie'} ↗
-          </a>
-        </div>
-
-        {/* Attribution — bottom-left, no overlay blocking the map */}
-        <div className="absolute bottom-2 left-3 z-10 pointer-events-none">
-          <span className="font-ui text-[0.5rem] tracking-wider text-white/30">
-            MapGenie
-          </span>
-        </div>
+        <Suspense fallback={
+          <div className="w-full h-full flex items-center justify-center bg-[#1a1f2e]">
+            <span className="font-ui text-sm text-white/40 animate-pulse">
+              {lang === 'fr' ? 'Chargement de la carte...' : 'Loading map...'}
+            </span>
+          </div>
+        }>
+          <InteractiveMap
+            fullscreen={mapFullscreen}
+            onToggleFullscreen={() => setMapFullscreen(f => !f)}
+          />
+        </Suspense>
       </div>
 
       {/* Alternative maps — below the map */}
