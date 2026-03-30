@@ -11,7 +11,7 @@ const MAP_HEIGHT = 1000;
 const MAP_WIDTH = 1000;
 const MAP_BOUNDS: L.LatLngBoundsExpression = [[0, 0], [MAP_HEIGHT, MAP_WIDTH]];
 const MAP_CENTER: L.LatLngExpression = [MAP_HEIGHT / 2, MAP_WIDTH / 2];
-const MAP_IMAGE = '/crimson-desert/cdfullsizemap.webp';
+const MAP_IMAGE = '/pywel-map.webp';
 
 // Convert percentage-based position [y%, x%] to CRS.Simple coordinates
 function toLatLng(pos: [number, number]): L.LatLngExpression {
