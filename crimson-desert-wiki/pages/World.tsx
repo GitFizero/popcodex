@@ -9,8 +9,6 @@ import { seo } from '@/crimson-desert-wiki/lib/seo';
 
 type RegionTab = 'OVERVIEW' | 'LOCATIONS' | 'ENEMIES' | 'QUESTS';
 
-type MapFilter = 'all' | 'resources' | 'quests' | 'mounts' | 'skills' | 'travel' | 'bosses' | 'collectibles' | 'secrets' | 'vendors';
-
 const MAP_STATS_KEYS = [
   'world.map.stats.area',
   'world.map.stats.regions',
@@ -22,14 +20,12 @@ const MAP_STATS_KEYS = [
   'world.map.stats.quests',
 ] as const;
 
-const FILTER_KEYS: MapFilter[] = ['resources', 'quests', 'mounts', 'skills', 'travel', 'bosses', 'collectibles', 'secrets', 'vendors'];
-
 const WorldPage = () => {
   const { lang, t } = useI18n();
-  const [selectedRegion, setSelectedRegion] = useState<typeof regions[number] | null>(null);
   const [regionTabs, setRegionTabs] = useState<Record<string, RegionTab>>({});
-  const [activeFilter, setActiveFilter] = useState<MapFilter>('all');
+  const [mapFullscreen, setMapFullscreen] = useState(false);
   const portalRef = useRef<HTMLDivElement>(null);
+  const mapContainerRef = useRef<HTMLDivElement>(null);
 
   const getTab = (id: string) => regionTabs[id] || 'OVERVIEW';
   const setTab = useCallback((id: string, tab: RegionTab) => {
@@ -81,71 +77,79 @@ const WorldPage = () => {
         {/* Interactive Map Section */}
         <RevealOnScroll className="mt-10">
           <h2 className="font-heading text-lg text-gold-bright text-center mb-4">{t('world.map.interactive_title')}</h2>
-
-          {/* Filter bar */}
-          <div className="mb-4">
-            <h3 className="font-ui text-[0.6rem] tracking-[0.15em] text-text-muted-custom mb-3 text-center">{t('world.map.filters_title')}</h3>
-            <div className="flex flex-wrap justify-center gap-2">
-              <button
-                onClick={() => setActiveFilter('all')}
-                className={`font-ui text-[0.6rem] tracking-wider px-3 py-1.5 rounded-full border transition-colors
-                  ${activeFilter === 'all' ? 'border-gold-mid text-gold-bright bg-gold-mid/10' : 'border-border/50 text-text-muted-custom bg-raised/20 hover:text-text-secondary hover:border-border'}`}
-              >
-                {lang === 'fr' ? '🗺 Tous' : '🗺 All'}
-              </button>
-              {FILTER_KEYS.map(f => (
-                <button
-                  key={f}
-                  onClick={() => setActiveFilter(f)}
-                  className={`font-ui text-[0.6rem] tracking-wider px-3 py-1.5 rounded-full border transition-colors
-                    ${activeFilter === f ? 'border-gold-mid text-gold-bright bg-gold-mid/10' : 'border-border/50 text-text-muted-custom bg-raised/20 hover:text-text-secondary hover:border-border'}`}
-                >
-                  {t(`world.map.filter.${f}`)}
-                </button>
-              ))}
-            </div>
-          </div>
-
-          {/* Map embed */}
-          <div className="relative rounded-lg overflow-hidden border border-border bg-surface" style={{ height: 'min(70vh, 600px)' }}>
-            <iframe
-              src="https://crimsondesert.th.gl/"
-              title="Crimson Desert Interactive Map — Pywel"
-              className="w-full h-full border-0"
-              loading="lazy"
-              allow="fullscreen"
-              referrerPolicy="no-referrer"
-            />
-            <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-card-bg/90 to-transparent px-4 py-3 flex items-center justify-between">
-              <span className="font-ui text-[0.55rem] tracking-wider text-text-muted-custom">
-                {lang === 'fr' ? 'Carte par The Hidden Gaming Lair — Cliquez pour interagir' : 'Map by The Hidden Gaming Lair — Click to interact'}
-              </span>
-              <a
-                href="https://crimsondesert.th.gl/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="font-ui text-[0.6rem] tracking-wider text-gold-bright hover:text-gold-mid transition-colors px-3 py-1 border border-gold-mid/30 rounded-full"
-              >
-                {t('world.map.open_full')} ↗
-              </a>
-            </div>
-          </div>
-
-          {/* Alternative maps */}
-          <div className="mt-4 flex flex-wrap justify-center gap-3">
-            {[
-              { name: 'MapGenie', url: 'https://mapgenie.io/crimson-desert/maps/pywel' },
-              { name: 'Map Master', url: 'https://mapmaster.io/games/crimson-desert' },
-              { name: 'Game8', url: 'https://game8.co/games/Crimson-Desert/archives/585760' },
-              { name: 'IMapp', url: 'https://crimson-desert.interactivemap.app/' },
-            ].map(m => (
-              <a key={m.name} href={m.url} target="_blank" rel="noopener noreferrer"
-                className="font-ui text-[0.55rem] tracking-wider text-text-secondary hover:text-gold-bright transition-colors px-3 py-1.5 rounded-full border border-border/30 hover:border-gold-mid/30">
-                {m.name} ↗
-              </a>
-            ))}
-          </div>
+          <p className="font-ui text-[0.6rem] tracking-wider text-text-muted-custom text-center mb-6">
+            {lang === 'fr'
+              ? 'Carte interactive avec marqueurs, filtres et recherche — zoomez, cliquez sur les marqueurs pour les détails'
+              : 'Interactive map with markers, filters and search — zoom, click markers for details'}
+          </p>
         </RevealOnScroll>
+      </div>
+
+      {/* Map container — full width, outside the max-w-7xl wrapper */}
+      <div
+        ref={mapContainerRef}
+        className={`relative border-y border-border bg-[#1a1a2e] transition-all duration-300 ${
+          mapFullscreen ? 'fixed inset-0 z-[9999]' : ''
+        }`}
+        style={mapFullscreen ? undefined : { height: 'max(75vh, 550px)' }}
+      >
+        <iframe
+          src="https://mapgenie.io/crimson-desert/maps/pywel"
+          title="Crimson Desert Interactive Map — Pywel"
+          className="w-full h-full border-0"
+          loading="lazy"
+          allow="fullscreen"
+          sandbox="allow-scripts allow-same-origin allow-popups allow-forms"
+        />
+
+        {/* Toolbar — top-right corner */}
+        <div className="absolute top-3 right-3 flex items-center gap-2 z-10">
+          <button
+            onClick={() => setMapFullscreen(!mapFullscreen)}
+            className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg font-ui text-[0.6rem] tracking-wider
+              bg-black/70 backdrop-blur-sm border border-white/10 text-white/80 hover:text-white hover:border-white/30 transition-colors"
+          >
+            {mapFullscreen
+              ? (lang === 'fr' ? '✕ Quitter' : '✕ Exit')
+              : (lang === 'fr' ? '⛶ Plein écran' : '⛶ Fullscreen')}
+          </button>
+          <a
+            href="https://mapgenie.io/crimson-desert/maps/pywel"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg font-ui text-[0.6rem] tracking-wider
+              bg-black/70 backdrop-blur-sm border border-white/10 text-white/80 hover:text-white hover:border-white/30 transition-colors"
+          >
+            {lang === 'fr' ? 'Ouvrir MapGenie' : 'Open MapGenie'} ↗
+          </a>
+        </div>
+
+        {/* Attribution — bottom-left, no overlay blocking the map */}
+        <div className="absolute bottom-2 left-3 z-10 pointer-events-none">
+          <span className="font-ui text-[0.5rem] tracking-wider text-white/30">
+            MapGenie
+          </span>
+        </div>
+      </div>
+
+      {/* Alternative maps — below the map */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="mt-4 mb-8 flex flex-wrap justify-center gap-3">
+          <span className="font-ui text-[0.55rem] tracking-wider text-text-muted-custom self-center mr-2">
+            {lang === 'fr' ? 'Autres cartes :' : 'Other maps:'}
+          </span>
+          {[
+            { name: 'The Hidden Gaming Lair', url: 'https://crimsondesert.th.gl/' },
+            { name: 'Map Master', url: 'https://mapmaster.io/games/crimson-desert' },
+            { name: 'Game8', url: 'https://game8.co/games/Crimson-Desert/archives/585760' },
+            { name: 'IMapp', url: 'https://crimson-desert.interactivemap.app/' },
+          ].map(m => (
+            <a key={m.name} href={m.url} target="_blank" rel="noopener noreferrer"
+              className="font-ui text-[0.55rem] tracking-wider text-text-secondary hover:text-gold-bright transition-colors px-3 py-1.5 rounded-full border border-border/30 hover:border-gold-mid/30">
+              {m.name} ↗
+            </a>
+          ))}
+        </div>
 
         {/* Fast Travel System */}
         <RevealOnScroll className="mt-16">
