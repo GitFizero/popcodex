@@ -10,12 +10,14 @@ export const seo = {
       en: 'Crimson Desert Wiki | Release Date March 19 2026 | PS5 PC Steam Gameplay',
       es: 'Crimson Desert Wiki | Fecha Lanzamiento 19 Marzo 2026 PS5 PC Steam',
       it: 'Crimson Desert Wiki | Data Uscita 19 Marzo 2026 PS5 PC Steam | Gameplay',
+      de: 'Crimson Desert Wiki | Erscheinungsdatum 19. März 2026 PS5 PC Steam | Gameplay',
     } as LangMap,
     desc: {
       fr: 'Wiki fan Crimson Desert : date de sortie 19 mars 2026 sur PS5, Xbox Series X|S, PC Steam. 3 personnages jouables, 6 armes, monde ouvert de Pywel, combat et 5 chapitres. Pearl Abyss.',
       en: 'Crimson Desert fan wiki: release date March 19, 2026 on PS5, Xbox Series X|S & PC Steam. 3 playable characters, 6 weapons, open world Pywel, combat system & 5-chapter story. Pearl Abyss.',
       es: 'Wiki fan Crimson Desert: fecha 19 marzo 2026 en PS5, Xbox Series X|S, PC Steam. 3 personajes jugables, 6 armas, mundo abierto de Pywel, combate y 5 capítulos. Pearl Abyss.',
       it: 'Wiki fan Crimson Desert: uscita 19 marzo 2026 su PS5, Xbox Series X|S, PC Steam. 3 personaggi giocabili, 6 armi, mondo aperto di Pywel, combattimento e 5 capitoli. Pearl Abyss.',
+      de: 'Crimson Desert Fan-Wiki: Erscheinungsdatum 19. März 2026 auf PS5, Xbox Series X|S, PC Steam. 3 spielbare Charaktere, 6 Waffen, offene Welt Pywel, Kampfsystem und 5 Kapitel. Pearl Abyss.',
     } as LangMap,
   },
   characters: {
@@ -24,12 +26,14 @@ export const seo = {
       en: 'Crimson Desert Characters | Kliff Macduff, Damiane, Oongka | Full Guide',
       es: 'Personajes Crimson Desert | Kliff Macduff, Damiane, Oongka | Guía Completa',
       it: 'Personaggi Crimson Desert | Kliff Macduff, Damiane, Oongka | Guida Completa',
+      de: 'Crimson Desert Charaktere | Kliff Macduff, Damiane, Oongka | Kompletter Guide',
     } as LangMap,
     desc: {
       fr: 'Les 3 personnages jouables de Crimson Desert : Kliff Macduff (protagoniste, épée), Damiane (lames, vent), Oongka (force brute). Biographies, compétences, armes et PNJ. Sortie 19 mars 2026.',
       en: 'All 3 playable Crimson Desert characters: Kliff Macduff (protagonist, sword), Damiane (blades, wind), Oongka (strength). Bios, skills, weapons & NPCs. Releasing March 19, 2026.',
       es: 'Los 3 personajes jugables de Crimson Desert: Kliff Macduff (protagonista), Damiane (hojas, viento), Oongka (fuerza). Biografías, habilidades, armas y PNJ. 19 marzo 2026.',
       it: 'I 3 personaggi giocabili di Crimson Desert: Kliff Macduff (protagonista), Damiane (lame, vento), Oongka (forza). Biografie, abilità, armi e NPC. 19 marzo 2026.',
+      de: 'Alle 3 spielbaren Crimson Desert Charaktere: Kliff Macduff (Protagonist, Schwert), Damiane (Klingen, Wind), Oongka (Stärke). Biografien, Fähigkeiten, Waffen und NPCs. 19. März 2026.',
     } as LangMap,
   },
   story: {
@@ -38,12 +42,14 @@ export const seo = {
       en: 'Crimson Desert Story | 5 Chapters, Plot & Complete Lore Guide',
       es: 'Historia Crimson Desert | 5 Capítulos, Trama y Lore Completo',
       it: 'Storia Crimson Desert | 5 Capitoli, Trama e Lore Completo',
+      de: 'Crimson Desert Geschichte | 5 Kapitel, Handlung und komplette Lore',
     } as LangMap,
     desc: {
       fr: "L'histoire de Crimson Desert en 5 chapitres : Nuit des Ours Noirs, continent de Pywel, Abysse. Kliff Macduff et les Crinières Grises. Durée 50-80h. Sortie PS5 PC 19 mars 2026.",
       en: 'Crimson Desert story across 5 chapters: Night of the Black Bears, continent of Pywel, the Abysse. Kliff Macduff and the Greymanes. 50-80h gameplay. Release March 19, 2026.',
       es: 'La historia de Crimson Desert en 5 capítulos: Noche de los Osos Negros, continente de Pywel, Abismo. Kliff Macduff y los Greymanes. 50-80h. 19 marzo 2026.',
       it: 'La storia di Crimson Desert in 5 capitoli: Notte degli Orsi Neri, continente di Pywel, Abisso. Kliff Macduff e i Greymanes. 50-80h. 19 marzo 2026.',
+      de: 'Die Geschichte von Crimson Desert in 5 Kapiteln: Nacht der Schwarzbären, Kontinent Pywel, der Abgrund. Kliff Macduff und die Greymanes. 50-80 Std. 19. März 2026.',
     } as LangMap,
   },
   world: {
@@ -52,6 +58,7 @@ export const seo = {
       en: 'Crimson Desert Open World Map | 5 Regions of Pywel | Exploration Guide',
       es: 'Mapa Mundo Abierto Crimson Desert | 5 Regiones de Pywel | Exploración',
       it: 'Mappa Mondo Aperto Crimson Desert | 5 Regioni di Pywel | Esplorazione',
+      de: 'Crimson Desert Offene Welt Karte | 5 Regionen von Pywel | Erkundung',
     } as LangMap,
     desc: {
       fr: "Carte du monde ouvert de Crimson Desert : Pywel et ses 5 régions (Hernand, Pailune, Déméniss, Délésyie, Désert Pourpre). Plus grand que Skyrim et RDR2. Sortie PS5 PC 19 mars 2026.",
