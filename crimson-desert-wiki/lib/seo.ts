@@ -65,6 +65,7 @@ export const seo = {
       en: "Crimson Desert open world map: Pywel and its 5 regions (Hernand, Pailune, Demeniss, Delesyie, Crimson Desert). Larger than Skyrim & RDR2. Release March 19, 2026.",
       es: 'Mapa del mundo abierto de Crimson Desert: Pywel y sus 5 regiones. Más grande que Skyrim y RDR2. Lanzamiento 19 marzo 2026.',
       it: 'Mappa del mondo aperto di Crimson Desert: Pywel e le sue 5 regioni. Più grande di Skyrim e RDR2. Uscita 19 marzo 2026.',
+      de: 'Crimson Desert offene Welt Karte: Pywel und seine 5 Regionen (Hernand, Pailune, Demeniss, Delesyie, Purpurwüste). Größer als Skyrim und RDR2. 19. März 2026.',
     } as LangMap,
   },
   combat: {
@@ -73,12 +74,14 @@ export const seo = {
       en: 'Crimson Desert Combat | 6 Weapons, Magic, Bosses & Skill Tree | Guide',
       es: 'Combate Crimson Desert | 6 Armas, Magia, Jefes y Habilidades | Guía',
       it: 'Combattimento Crimson Desert | 6 Armi, Magia, Boss e Abilità | Guida',
+      de: 'Crimson Desert Kampf | 6 Waffen, Magie, Bosse & Fertigkeitenbaum | Guide',
     } as LangMap,
     desc: {
       fr: 'Système de combat Crimson Desert : 6 armes (épée, lance, arc, poings, robot, dragon), 3 magies élémentaires, skill tree et 4 boss épiques. Guide complet. Sortie 19 mars 2026.',
       en: 'Crimson Desert combat system: 6 weapons (sword, spear, bow, fists, robot, dragon), 3 elemental magics, skill tree & 4 epic bosses. Full guide. Release March 19, 2026.',
       es: 'Sistema de combate Crimson Desert: 6 armas, 3 magias elementales, árbol de habilidades y 4 jefes épicos. Guía completa. 19 marzo 2026.',
       it: 'Sistema di combattimento Crimson Desert: 6 armi, 3 magie elementali, albero abilità e 4 boss epici. Guida completa. 19 marzo 2026.',
+      de: 'Crimson Desert Kampfsystem: 6 Waffen (Schwert, Speer, Bogen, Fäuste, Roboter, Drache), 3 Elementarmagien, Fertigkeitenbaum und 4 epische Bosse. Kompletter Guide. 19. März 2026.',
     } as LangMap,
   },
   lore: {
@@ -87,12 +90,14 @@ export const seo = {
       en: 'Crimson Desert Lore Encyclopedia | Factions, Abysse & Pywel',
       es: 'Enciclopedia Lore Crimson Desert | Facciones, Abismo y Pywel',
       it: 'Enciclopedia Lore Crimson Desert | Fazioni, Abisso e Pywel',
+      de: 'Crimson Desert Lore-Enzyklopädie | Fraktionen, Abgrund & Pywel',
     } as LangMap,
     desc: {
       fr: "Encyclopédie du lore Crimson Desert : Greymanes, Ours Noirs, Abysse, continent de Pywel. Toutes les entrées cross-référencées. Sortie PS5 PC 19 mars 2026. Pearl Abyss.",
       en: 'Crimson Desert lore encyclopedia: Greymanes, Black Bears, Abysse, Pywel continent. All cross-referenced entries. Release March 19, 2026. Pearl Abyss.',
       es: 'Enciclopedia lore Crimson Desert: Greymanes, Osos Negros, Abismo, Pywel. Todas las entradas cruzadas. 19 marzo 2026. Pearl Abyss.',
       it: 'Enciclopedia lore Crimson Desert: Greymanes, Orsi Neri, Abisso, Pywel. Tutte le voci con riferimenti incrociati. 19 marzo 2026.',
+      de: 'Crimson Desert Lore-Enzyklopädie: Greymanes, Schwarzbären, Abgrund, Kontinent Pywel. Alle Querverweise. 19. März 2026. Pearl Abyss.',
     } as LangMap,
   },
   glossary: {
@@ -101,12 +106,14 @@ export const seo = {
       en: 'Crimson Desert Glossary | All Game Terms Explained',
       es: 'Glosario Crimson Desert | Todos los Términos del Juego Explicados',
       it: 'Glossario Crimson Desert | Tutti i Termini del Gioco Spiegati',
+      de: 'Crimson Desert Glossar | Alle Spielbegriffe erklärt',
     } as LangMap,
     desc: {
       fr: 'Glossaire complet Crimson Desert : personnages, lieux, factions, mécaniques, créatures et objets. Dictionnaire du jeu Pearl Abyss. Sortie 19 mars 2026.',
       en: 'Complete Crimson Desert glossary: characters, locations, factions, mechanics, creatures and items. Pearl Abyss game dictionary. Release March 19, 2026.',
       es: 'Glosario completo Crimson Desert: personajes, lugares, facciones, mecánicas, criaturas y objetos. Diccionario Pearl Abyss. 19 marzo 2026.',
       it: 'Glossario completo Crimson Desert: personaggi, luoghi, fazioni, meccaniche, creature e oggetti. Dizionario Pearl Abyss. 19 marzo 2026.',
+      de: 'Vollständiges Crimson Desert Glossar: Charaktere, Orte, Fraktionen, Mechaniken, Kreaturen und Gegenstände. Pearl Abyss Spielwörterbuch. 19. März 2026.',
     } as LangMap,
   },
   guides: {
@@ -115,6 +122,7 @@ export const seo = {
       en: 'Crimson Desert Guides | Weapons, Bosses, Beginner & Exploration',
       es: 'Guías Crimson Desert | Armas, Jefes, Principiante y Exploración',
       it: 'Guide Crimson Desert | Armi, Boss, Principiante ed Esplorazione',
+      de: 'Crimson Desert Guides | Waffen, Bosse, Einsteiger & Erkundung',
     } as LangMap,
     desc: {
       fr: 'Tous les guides Crimson Desert : armes et styles de combat, boss, astuces débutant, carte du monde et personnages. Stratégies complètes. Sortie 19 mars 2026.',
