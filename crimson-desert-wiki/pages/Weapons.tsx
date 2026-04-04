@@ -193,8 +193,8 @@ const weapons: WeaponInfo[] = [
   },
   {
     id: 'unarmed',
-    name: { fr: 'Mains nues et prises', en: 'Unarmed & Grapples', es: 'Puños y agarres', it: 'Mani nude e prese', ko: '맨손 전투와 그래플', pt: 'Desarmado e agarrões' },
-    category: { fr: 'Mêlée — Physique', en: 'Melee — Physical', es: 'Cuerpo a cuerpo — Físico', it: 'Mischia — Fisico', ko: '근접 — 물리', pt: 'Corpo a corpo — Físico' },
+    name: { fr: 'Mains nues et prises', en: 'Unarmed & Grapples', es: 'Puños y agarres', it: 'Mani nude e prese', ko: '맨손 전투와 그래플', pt: 'Desarmado e agarrões', de: 'Unbewaffnet & Griffe' },
+    category: { fr: 'Mêlée — Physique', en: 'Melee — Physical', es: 'Cuerpo a cuerpo — Físico', it: 'Mischia — Fisico', ko: '근접 — 물리', pt: 'Corpo a corpo — Físico', de: 'Nahkampf — Physisch' },
     description: {
       fr: "Le combat à mains nues et les prises ajoutent une dimension physique brute au système de combat. Les démonstrations montrent Kliff saisissant ses ennemis pour les projeter, les plaquer au sol ou les précipiter du haut des falaises.",
       en: "Unarmed combat and grappling add a raw physical dimension. Gameplay demonstrations show Kliff grabbing enemies to throw them, slam them to the ground, or hurl them off cliffsides.",
@@ -202,6 +202,7 @@ const weapons: WeaponInfo[] = [
       it: "Il combattimento a mani nude e le prese aggiungono una dimensione fisica bruta. Le dimostrazioni mostrano Kliff che afferra i nemici per scagliarli, schiacciarli al suolo o precipitarli dalle scogliere.",
       ko: '맨손 전투와 그래플은 원시적인 물리적 차원을 추가합니다. 게임플레이 시연에서 클리프가 적을 잡아 던지고, 바닥에 내리치고, 절벽에서 떨어뜨리는 모습을 보여줍니다.',
       pt: 'Combate desarmado e agarrões adicionam uma dimensão física bruta. Demonstrações de gameplay mostram Kliff agarrando inimigos para arremessá-los, esmagá-los no chão ou jogá-los de penhascos.',
+      de: 'Unbewaffneter Kampf und Griffe fügen eine rohe physische Dimension hinzu. Gameplay-Demonstrationen zeigen Kliff, wie er Feinde greift, um sie zu werfen, zu Boden zu schmettern oder von Klippen zu stürzen.',
     },
     playstyle: {
       fr: "Intègre pleinement la physique de l'environnement. Moments de combat spectaculaires et imprévisibles.",
@@ -210,6 +211,7 @@ const weapons: WeaponInfo[] = [
       it: "Integra pienamente la fisica dell'ambiente. Momenti di combattimento spettacolari e imprevedibili.",
       ko: '환경 물리를 완전히 통합. 화려하고 예측 불가능한 전투 순간.',
       pt: 'Integra plenamente a física do ambiente. Momentos de combate espetaculares e imprevisíveis.',
+      de: 'Integriert die Umgebungsphysik vollständig. Spektakuläre und unvorhersehbare Kampfmomente.',
     },
     icon: '👊',
   },
@@ -223,6 +225,7 @@ const sectionTexts = {
     it: "Crimson Desert presenta 8 tipi di armi confermati, ciascuno con il proprio stile di combattimento. Il gioco di Pearl Abyss punta sulla fluidità, le transizioni dinamiche tra armi e l'interazione con l'ambiente.",
     ko: '크림슨 디저트는 각각 고유한 전투 스타일을 가진 8가지 확인된 무기 유형을 제공합니다. 펄어비스의 게임은 유연한 무기 사용, 전투 중 동적 무기 전환, 환경과의 상호작용을 강조합니다.',
     pt: 'Crimson Desert apresenta 8 tipos de armas confirmados, cada um com seu próprio estilo de combate. O jogo da Pearl Abyss enfatiza o uso fluido de armas, troca dinâmica de armas durante o combate e interação com o ambiente.',
+    de: 'Crimson Desert bietet 8 bestätigte Waffentypen, jeder mit eigenem Kampfstil. Pearl Abyss setzt auf fließenden Waffeneinsatz, dynamischen Waffenwechsel im Kampf und Umgebungsinteraktion.',
   } as L,
   switchingTitle: {
     fr: 'Changement d\'arme en combat',
@@ -231,6 +234,7 @@ const sectionTexts = {
     it: 'Cambio arma in combattimento',
     ko: '전투 중 무기 전환',
     pt: 'Troca de arma durante o combate',
+    de: 'Waffenwechsel im Kampf',
   } as L,
   switchingDesc: {
     fr: "L'une des mécaniques les plus remarquables de Crimson Desert est la possibilité de changer d'arme en plein combat. Les séquences de gameplay montrent des transitions fluides d'une épée à un arc, ou d'une grande épée à des doubles lames, sans rupture de rythme. Cette mécanique encourage l'expérimentation et l'adaptation en temps réel.",
@@ -239,6 +243,7 @@ const sectionTexts = {
     it: "Una delle meccaniche più notevoli di Crimson Desert è la possibilità di cambiare arma durante il combattimento. Le sequenze di gameplay mostrano transizioni fluide dalla spada all'arco, o dallo spadone alle doppie lame, senza interruzione del ritmo.",
     ko: '크림슨 디저트의 가장 주목할 만한 메카닉 중 하나는 전투 중 무기를 전환할 수 있는 능력입니다. 게임플레이 시퀀스에서 검에서 활로, 또는 대검에서 쌍검으로 리듬을 깨지 않고 유연하게 전환하는 모습을 보여줍니다.',
     pt: 'Uma das mecânicas mais notáveis de Crimson Desert é a capacidade de trocar de arma durante o combate. Sequências de gameplay mostram transições fluidas de espada para arco, ou de espadão para lâminas duplas, sem quebrar o ritmo. Essa mecânica incentiva a experimentação e a adaptação em tempo real.',
+    de: 'Eine der bemerkenswertesten Mechaniken von Crimson Desert ist die Möglichkeit, mitten im Kampf die Waffe zu wechseln. Gameplay-Sequenzen zeigen fließende Übergänge vom Schwert zum Bogen oder vom Großschwert zu Doppelklingen, ohne den Rhythmus zu brechen. Diese Mechanik fördert Experimentierfreude und Echtzeit-Anpassung.',
   } as L,
   envTitle: {
     fr: "Interaction avec l'environnement",
@@ -247,6 +252,7 @@ const sectionTexts = {
     it: "Interazione con l'ambiente",
     ko: '환경 상호작용',
     pt: 'Interação com o ambiente',
+    de: 'Umgebungsinteraktion',
   } as L,
   envDesc: {
     fr: "Le système de combat repose sur un moteur physique avancé. Les armes lourdes font chanceler les ennemis, les objets de l'environnement peuvent être utilisés comme armes improvisées, et le terrain influence directement le déroulement des combats.",
@@ -255,6 +261,7 @@ const sectionTexts = {
     it: "Il sistema di combattimento si basa su un motore fisico avanzato. Le armi pesanti fanno barcollare i nemici, gli oggetti dell'ambiente possono essere usati come armi improvvisate e il terreno influenza direttamente lo svolgimento dei combattimenti.",
     ko: '전투 시스템은 고급 물리 엔진에 의존합니다. 무거운 무기는 적을 비틀거리게 하고, 환경 오브젝트를 즉석 무기로 사용할 수 있으며, 지형이 전투 전개에 직접 영향을 미칩니다.',
     pt: 'O sistema de combate depende de um motor de física avançado. Armas pesadas fazem os inimigos cambalear, objetos do ambiente podem servir como armas improvisadas, e o terreno influencia diretamente como os combates se desenrolam.',
+    de: 'Das Kampfsystem basiert auf einer fortschrittlichen Physik-Engine. Schwere Waffen bringen Feinde ins Wanken, Umgebungsobjekte können als improvisierte Waffen dienen, und das Gelände beeinflusst direkt den Kampfverlauf.',
   } as L,
   sourceNote: {
     fr: "Toutes les informations sur cette page proviennent de séquences de gameplay officielles et de communications de Pearl Abyss.",
@@ -263,6 +270,7 @@ const sectionTexts = {
     it: 'Tutte le informazioni di questa pagina provengono da sequenze di gameplay ufficiali e comunicazioni di Pearl Abyss.',
     ko: '이 페이지의 모든 정보는 공식 게임플레이 영상과 펄어비스 공식 발표에서 가져왔습니다.',
     pt: 'Todas as informações nesta página provêm de filmagens oficiais de gameplay e comunicações da Pearl Abyss.',
+    de: 'Alle Informationen auf dieser Seite stammen aus offiziellem Gameplay-Material und Mitteilungen von Pearl Abyss.',
   } as L,
 };
 
@@ -277,6 +285,7 @@ const WeaponsPage = () => {
     it: 'ARMI DI CRIMSON DESERT',
     ko: '크림슨 디저트 무기',
     pt: 'ARMAS DE CRIMSON DESERT',
+    de: 'CRIMSON DESERT WAFFEN',
   } as L;
 
   const subtitle = {
@@ -286,17 +295,18 @@ const WeaponsPage = () => {
     it: '8 tipi di armi confermati',
     ko: '8가지 확인된 무기 유형',
     pt: '8 tipos de armas confirmados',
+    de: '8 bestätigte Waffentypen',
   } as L;
 
-  const meleeLabel = { fr: 'ARMES DE MÊLÉE', en: 'MELEE WEAPONS', es: 'ARMAS CUERPO A CUERPO', it: 'ARMI DA MISCHIA', ko: '근접 무기', pt: 'ARMAS CORPO A CORPO' } as L;
-  const rangedLabel = { fr: 'ARMES À DISTANCE', en: 'RANGED WEAPONS', es: 'ARMAS A DISTANCIA', it: 'ARMI A DISTANZA', ko: '원거리 무기', pt: 'ARMAS À DISTÂNCIA' } as L;
-  const mechanicsLabel = { fr: 'MÉCANIQUES DE COMBAT', en: 'COMBAT MECHANICS', es: 'MECÁNICAS DE COMBATE', it: 'MECCANICHE DI COMBATTIMENTO', ko: '전투 메카닉', pt: 'MECÂNICAS DE COMBATE' } as L;
+  const meleeLabel = { fr: 'ARMES DE MÊLÉE', en: 'MELEE WEAPONS', es: 'ARMAS CUERPO A CUERPO', it: 'ARMI DA MISCHIA', ko: '근접 무기', pt: 'ARMAS CORPO A CORPO', de: 'NAHKAMPFWAFFEN' } as L;
+  const rangedLabel = { fr: 'ARMES À DISTANCE', en: 'RANGED WEAPONS', es: 'ARMAS A DISTANCIA', it: 'ARMI A DISTANZA', ko: '원거리 무기', pt: 'ARMAS À DISTÂNCIA', de: 'FERNKAMPFWAFFEN' } as L;
+  const mechanicsLabel = { fr: 'MÉCANIQUES DE COMBAT', en: 'COMBAT MECHANICS', es: 'MECÁNICAS DE COMBATE', it: 'MECCANICHE DI COMBATTIMENTO', ko: '전투 메카닉', pt: 'MECÂNICAS DE COMBATE', de: 'KAMPFMECHANIKEN' } as L;
 
   const meleeWeapons = weapons.filter(w => !['bow', 'musket'].includes(w.id));
   const rangedWeapons = weapons.filter(w => ['bow', 'musket'].includes(w.id));
 
-  const blogLink = { fr: 'Lire le guide complet des armes →', en: 'Read the full weapons guide →', es: 'Leer la guía completa de armas →', it: 'Leggi la guida completa alle armi →', ko: '무기 가이드 전체 읽기 →', pt: 'Leia o guia completo de armas →' } as L;
-  const combatLink = { fr: 'Voir la page Combat →', en: 'See the Combat page →', es: 'Ver la página de Combate →', it: 'Vedi la pagina Combattimento →', ko: '전투 페이지 보기 →', pt: 'Ver a página de Combate →' } as L;
+  const blogLink = { fr: 'Lire le guide complet des armes →', en: 'Read the full weapons guide →', es: 'Leer la guía completa de armas →', it: 'Leggi la guida completa alle armi →', ko: '무기 가이드 전체 읽기 →', pt: 'Leia o guia completo de armas →', de: 'Den vollständigen Waffenguide lesen →' } as L;
+  const combatLink = { fr: 'Voir la page Combat →', en: 'See the Combat page →', es: 'Ver la página de Combate →', it: 'Vedi la pagina Combattimento →', ko: '전투 페이지 보기 →', pt: 'Ver a página de Combate →', de: 'Zur Kampfseite →' } as L;
 
   return (
     <main id="main-content" className="relative z-10 min-h-screen pt-20">
