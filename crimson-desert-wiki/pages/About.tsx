@@ -44,6 +44,12 @@ const triviaAll: Record<Lang, string[]> = {
     "Os jogadores podem trocar de arma durante o combate sem nenhuma interação com menus.",
     "O mundo aberto possui clima dinâmico que afeta o combate e a exploração.",
   ],
+  de: [
+    "Crimson Desert wurde ursprünglich als Prequel zu Black Desert Online angekündigt, bevor es ein eigenständiges Spiel wurde.",
+    "Das Spiel befindet sich seit über 7 Jahren bei Pearl Abyss in Entwicklung.",
+    "Spieler können mitten im Kampf die Waffe wechseln, ohne ein Menü zu öffnen.",
+    "Die offene Welt bietet dynamisches Wetter, das Kampf und Erkundung beeinflusst.",
+  ],
 };
 
 const creditRoles: Record<Lang, { role: string; name: string }[]> = {
@@ -88,6 +94,13 @@ const creditRoles: Record<Lang, { role: string; name: string }[]> = {
     { role: 'Design e Desenvolvimento', name: 'Fan Dev Team' },
     { role: 'Verificação de conteúdo', name: 'Pywel Cartographers Guild' },
     { role: 'Imagens do jogo', name: '© Pearl Abyss — Kit de Fã oficial' },
+  ],
+  de: [
+    { role: 'Leitender Redakteur', name: 'Community-Mitwirkende' },
+    { role: 'Lore-Recherche', name: 'The Greymane Scholars' },
+    { role: 'Design & Entwicklung', name: 'Fan Dev Team' },
+    { role: 'Inhaltsüberprüfung', name: 'Pywel Cartographers Guild' },
+    { role: 'Spielbilder', name: '© Pearl Abyss — Offizielles Fan-Kit' },
   ],
 };
 
