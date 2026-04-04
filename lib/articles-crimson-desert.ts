@@ -15,6 +15,7 @@ export const crimsonDesertArticles: ArticleData[] = [
       pt: 'Kliff',
       it: 'Kliff',
       ko: 'Kliff',
+      de: 'Kliff',
     },
     excerpt: {
       fr: "Chef des Crinières Grises et personnage principal de Crimson Desert. Autrefois leader incontesté, son monde a été brisé lors de la Nuit des Ours Noirs.",
@@ -23,6 +24,7 @@ export const crimsonDesertArticles: ArticleData[] = [
       pt: "Chef des Crinières Grises et personnage principal de Crimson Desert. Autrefois leader incontesté, son monde a été brisé lors de la Nuit des Ours Noirs.",
       it: "Capo dei Greymanes e protagonista di Crimson Desert. Un tempo leader indiscusso, il suo mondo è stato distrutto durante la Notte degli Orsi Neri.",
       ko: "그레이메인의 리더이자 크림슨 디저트의 주인공. 한때 확고한 리더였으나, 검은 곰의 밤에 세계가 산산조각이 났습니다.",
+      de: "Leader of the Greymanes and main character of Crimson Desert. Once the unquestioned leader, his world was shattered during the Night of the Black Bears.",
     },
     content: {
       fr: `## Kliff — Chef des Crinières Grises
@@ -80,6 +82,7 @@ Kliff è un combattente versatile in prima linea che impugna spadone, lancia e a
       pt: 'Damiane',
       it: 'Damiane',
       ko: 'Damiane',
+      de: 'Damiane',
     },
     excerpt: {
       fr: "Damiane est un personnage jouable de type glass cannon dans Crimson Desert. Haute agilité, faible HP, elle manie la rapière, la claymore, le mousquet et les sorts à distance.",
@@ -88,6 +91,7 @@ Kliff è un combattente versatile in prima linea che impugna spadone, lancia e a
       pt: "Damiane é uma personagem jogável do tipo glass cannon em Crimson Desert. Alta agilidade, poucos HP, usa florete, claymore, mosquete e feitiços à distância.",
       it: "Damiane è un personaggio giocabile di tipo glass cannon in Crimson Desert. Alta agilità, pochi HP, impugna stocco, claymore, moschetto e incantesimi a distanza.",
       ko: "다미안은 크림슨 디저트의 글래스 캐논 플레이어블 캐릭터입니다. 높은 민첩성, 낮은 HP, 레이피어, 클레이모어, 머스킷, 원거리 주문을 사용합니다.",
+      de: "Damiane is a glass cannon playable character in Crimson Desert. High agility, low HP, she wields rapier, claymore, musket and ranged spells.",
     },
     content: {
       fr: `## Damiane — Glass cannon des Crinières Grises
@@ -234,6 +238,7 @@ Si **sblocca dopo il prologo di Kliff** (~4-5 ore). Dopo si può **cambiare al v
       pt: 'Oongka',
       it: 'Oongka',
       ko: 'Oongka',
+      de: 'Oongka',
     },
     excerpt: {
       fr: "Oongka est un personnage jouable de type brute dans Crimson Desert. Haute force et défense, faible agilité. Il manie une hache gigantesque et inflige des attaques de zone dévastatrices.",
@@ -242,6 +247,7 @@ Si **sblocca dopo il prologo di Kliff** (~4-5 ore). Dopo si può **cambiare al v
       pt: "Oongka é um personagem jogável do tipo bruto em Crimson Desert. Alta força e defesa, baixa agilidade. Empunha um machado gigantesco e desfere ataques de área devastadores.",
       it: "Oongka è un personaggio giocabile di tipo bruto in Crimson Desert. Alta forza e difesa, bassa agilità. Impugna un'ascia gigantesca e infligge attacchi ad area devastanti.",
       ko: "웅카는 크림슨 디저트의 브루트 타입 플레이어블 캐릭터입니다. 높은 힘과 방어력, 낮은 민첩성. 거대한 도끼로 파괴적인 광역 공격을 합니다.",
+      de: "Oongka is a brute-type playable character in Crimson Desert. High strength and defense, low agility. He wields a massive axe and deals devastating area attacks.",
     },
     content: {
       fr: `## Oongka — La Brute des Crinières Grises
@@ -365,6 +371,7 @@ Ideale per giocatori che preferiscono uno stile **tank**. Eccellente contro grup
       pt: 'Hexe Marie',
       it: 'Hexe Marie',
       ko: 'Hexe Marie',
+      de: 'Hexe Marie',
     },
     excerpt: {
       fr: "Une sorcière mystérieuse drapée de plumes de corbeau. Sa magie plie la réalité elle-même.",
@@ -373,6 +380,7 @@ Ideale per giocatori che preferiscono uno stile **tank**. Eccellente contro grup
       pt: "Une sorcière mystérieuse drapée de plumes de corbeau. Sa magie plie la réalité elle-même.",
       it: "Una strega misteriosa avvolta in piume di corvo. La sua magia piega la realtà stessa.",
       ko: "까마귀 깃털을 두른 신비로운 마녀. 그녀의 마법은 현실 자체를 왜곡합니다.",
+      de: "A mysterious sorceress draped in raven feathers. Her magic bends reality itself.",
     },
     content: {
       fr: `## Hexe Marie — La Sorcière aux Plumes de Corbeau
@@ -416,6 +424,7 @@ Hexe Marie è una figura enigmatica in Crimson Desert, una strega le cui origini
       pt: 'Roi Gobelin',
       it: 'Re Goblin',
       ko: '고블린 왕',
+      de: 'Goblin King',
     },
     excerpt: {
       fr: "Souverain des territoires gobelin, aperçu dans les bandes-annonces officielles.",
@@ -424,6 +433,7 @@ Hexe Marie è una figura enigmatica in Crimson Desert, una strega le cui origini
       pt: "Souverain des territoires gobelin, aperçu dans les bandes-annonces officielles.",
       it: "Sovrano dei territori goblin, avvistato nei trailer ufficiali.",
       ko: "고블린 영토의 통치자. 공식 트레일러에서 확인됨.",
+      de: "Ruler of goblin territories, seen in official trailers.",
     },
     content: {
       fr: `## Roi Gobelin — Souverain des Gobelins
@@ -470,6 +480,7 @@ Il Re Goblin è il sovrano dei territori goblin in Crimson Desert. Avvistato nei
       pt: 'Hernand',
       it: 'Hernand',
       ko: 'Hernand',
+      de: 'Hernand',
     },
     excerpt: {
       fr: "Une cité commerçante animée servant de carrefour de Pywel, où marchands, mercenaires et secrets convergent.",
@@ -478,6 +489,7 @@ Il Re Goblin è il sovrano dei territori goblin in Crimson Desert. Avvistato nei
       pt: "Une cité commerçante animée servant de carrefour de Pywel, où marchands, mercenaires et secrets convergent.",
       it: "Una vivace città commerciale che funge da crocevia di Pywel, dove mercanti, mercenari e segreti convergono.",
       ko: "상인, 용병, 비밀이 모여드는 파이웰의 교차로 역할을 하는 활기찬 교역 도시.",
+      de: "A bustling trade city serving as the crossroads of Pywel, where merchants, mercenaries, and secrets converge.",
     },
     content: {
       fr: `## Hernand — Le Carrefour de Pywel
@@ -517,6 +529,7 @@ Hernand è una vivace città commerciale nel cuore del continente di Pywel. Situ
       pt: 'Pailune',
       it: 'Pailune',
       ko: 'Pailune',
+      de: 'Pailune',
     },
     excerpt: {
       fr: "Autrefois patrie florissante des mercenaires Greymanes, désormais une ruine — un monument à la Nuit des Ours Noirs.",
@@ -525,6 +538,7 @@ Hernand è una vivace città commerciale nel cuore del continente di Pywel. Situ
       pt: "Autrefois patrie florissante des mercenaires Greymanes, désormais une ruine — un monument à la Nuit des Ours Noirs.",
       it: "Un tempo patria fiorente dei mercenari Greymanes, ora una rovina — un monumento alla Notte degli Orsi Neri.",
       ko: "한때 그레이메인 용병들의 번성한 고향이었으나, 이제는 폐허 — 검은 곰의 밤을 기억하는 기념비.",
+      de: "Once a thriving homeland of the Greymane mercenaries, now a ruin — a monument to the Night of the Black Bears.",
     },
     content: {
       fr: `## Pailune — La Patrie Perdue
@@ -564,6 +578,7 @@ Pailune era un tempo la casa dei Greymanes, una comunità fiorente di mercenari 
       pt: 'Déméniss',
       it: 'Déméniss',
       ko: 'Déméniss',
+      de: 'Déméniss',
     },
     excerpt: {
       fr: "Un territoire déchiré par la guerre où chaque faction se bat pour le contrôle.",
@@ -572,6 +587,7 @@ Pailune era un tempo la casa dei Greymanes, una comunità fiorente di mercenari 
       pt: "Un territoire déchiré par la guerre où chaque faction se bat pour le contrôle.",
       it: "Un territorio devastato dalla guerra dove ogni fazione lotta per il controllo.",
       ko: "모든 세력이 지배권을 놓고 다투는 전쟁으로 폐허가 된 변경 지역.",
+      de: "A war-torn borderland where every faction vies for control.",
     },
     content: {
       fr: `## Déméniss — La Terre de Conflits
@@ -611,6 +627,7 @@ Déméniss è un territorio di confine devastato dalla guerra nel mondo di Crims
       pt: 'Délésyie',
       it: 'Délésyie',
       ko: 'Délésyie',
+      de: 'Délésyie',
     },
     excerpt: {
       fr: "Enveloppée d'une brume perpétuelle, Délésyie cache des ruines anciennes et des artefacts d'une puissance immense.",
@@ -619,6 +636,7 @@ Déméniss è un territorio di confine devastato dalla guerra nel mondo di Crims
       pt: "Enveloppée d'une brume perpétuelle, Délésyie cache des ruines anciennes et des artefacts d'une puissance immense.",
       it: "Avvolta in una nebbia perpetua, Délésyie nasconde rovine antiche e artefatti di immenso potere.",
       ko: "영원한 안개에 싸인 델레시에는 고대 유적과 거대한 힘의 유물을 숨기고 있습니다.",
+      de: "Shrouded in perpetual mist, Délésyie hides ancient ruins and artifacts of immense power.",
     },
     content: {
       fr: `## Délésyie — Le Voile de Brume
@@ -658,6 +676,7 @@ Délésyie è una regione misteriosa di Crimson Desert, avvolta in una nebbia pe
       pt: 'Désert Pourpre',
       it: 'Il Deserto Cremisi',
       ko: '진홍의 사막',
+      de: 'The Crimson Desert',
     },
     excerpt: {
       fr: "Le vaste désert aux sables cramoisis qui donne son nom au jeu.",
@@ -666,6 +685,7 @@ Délésyie è una regione misteriosa di Crimson Desert, avvolta in una nebbia pe
       pt: "Le vaste désert aux sables cramoisis qui donne son nom au jeu.",
       it: "Il vasto deserto dalle sabbie cremisi che dà il nome al gioco.",
       ko: "게임 이름의 유래가 된 진홍빛 모래의 광활한 사막.",
+      de: "The vast desert of crimson sands that gives the game its name.",
     },
     content: {
       fr: `## Désert Pourpre — Les Sables Cramoisis
@@ -709,6 +729,7 @@ Il Deserto Cremisi è la vasta distesa di sabbie cremisi che dà il nome al gioc
       pt: 'Les Crinières Grises',
       it: 'I Greymanes',
       ko: '그레이메인',
+      de: 'The Greymanes',
     },
     excerpt: {
       fr: "La bande de mercenaires au cœur de l'histoire de Crimson Desert, liée par la loyauté et forgée par la tragédie.",
@@ -717,6 +738,7 @@ Il Deserto Cremisi è la vasta distesa di sabbie cremisi che dà il nome al gioc
       pt: "La bande de mercenaires au cœur de l'histoire de Crimson Desert, liée par la loyauté et forgée par la tragédie.",
       it: "La banda di mercenari al cuore della storia di Crimson Desert, legati dalla lealtà e forgiati dalla tragedia.",
       ko: "크림슨 디저트 이야기의 중심에 있는 용병단. 충성으로 맺어지고 비극으로 단련되었습니다.",
+      de: "The mercenary band at the heart of Crimson Desert's story, bound by loyalty and forged by tragedy.",
     },
     content: {
       fr: `## Les Crinières Grises — Fraternité de Mercenaires
@@ -756,6 +778,7 @@ I Greymanes sono una banda di mercenari che forma il cuore della storia di Crims
       pt: 'La Nuit des Ours Noirs',
       it: 'La Notte degli Orsi Neri',
       ko: '검은 곰의 밤',
+      de: 'The Night of the Black Bears',
     },
     excerpt: {
       fr: "L'événement dévastateur qui a détruit Pailune et dispersé les Crinières Grises à travers Pywel.",
@@ -764,6 +787,7 @@ I Greymanes sono una banda di mercenari che forma il cuore della storia di Crims
       pt: "L'événement dévastateur qui a détruit Pailune et dispersé les Crinières Grises à travers Pywel.",
       it: "L'evento devastante che distrusse Pailune e disperse i Greymanes attraverso Pywel.",
       ko: "파일룬을 파괴하고 그레이메인을 파이웰 전역에 흩어지게 한 파괴적인 사건.",
+      de: "The devastating event that destroyed Pailune and scattered the Greymanes across Pywel.",
     },
     content: {
       fr: `## La Nuit des Ours Noirs — Le Point de Rupture
@@ -803,6 +827,7 @@ La Notte degli Orsi Neri è l'evento cardine di Crimson Desert, il momento in cu
       pt: "L'Abysse",
       it: "L'Abisso",
       ko: '심연',
+      de: 'The Abyss',
     },
     excerpt: {
       fr: "Une menace surnaturelle mystérieuse qui grandit dans l'ombre, menaçant d'engloutir tout Pywel.",
@@ -811,6 +836,7 @@ La Notte degli Orsi Neri è l'evento cardine di Crimson Desert, il momento in cu
       pt: "Une menace surnaturelle mystérieuse qui grandit dans l'ombre, menaçant d'engloutir tout Pywel.",
       it: "Una misteriosa minaccia soprannaturale che cresce nell'ombra, minacciando di consumare tutto Pywel.",
       ko: "그림자 속에서 성장하며 파이웰 전체를 삼키려 위협하는 신비로운 초자연적 위협.",
+      de: "A mysterious supernatural threat growing in the shadows, threatening to consume all of Pywel.",
     },
     content: {
       fr: `## L'Abysse — La Menace dans l'Ombre
@@ -850,6 +876,7 @@ L'Abisso è la minaccia soprannaturale centrale di Crimson Desert, una forza mis
       pt: 'Le Continent de Pywel',
       it: 'Il Continente di Pywel',
       ko: '파이웰 대륙',
+      de: 'The Continent of Pywel',
     },
     excerpt: {
       fr: "Le vaste continent déchiré par la guerre qui sert de cadre à Crimson Desert, abritant des dizaines de factions rivales.",
@@ -858,6 +885,7 @@ L'Abisso è la minaccia soprannaturale centrale di Crimson Desert, una forza mis
       pt: "Le vaste continent déchiré par la guerre qui sert de cadre à Crimson Desert, abritant des dizaines de factions rivales.",
       it: "Il vasto continente devastato dalla guerra che funge da ambientazione per Crimson Desert, sede di decine di fazioni rivali.",
       ko: "수십 개의 적대 세력이 거주하는, 전쟁으로 폐허가 된 크림슨 디저트의 배경이 되는 광활한 대륙.",
+      de: "The vast war-torn continent that serves as the setting for Crimson Desert, home to dozens of rival factions.",
     },
     content: {
       fr: `## Le Continent de Pywel — Le Monde de Crimson Desert
@@ -900,6 +928,7 @@ Pywel è il vasto continente che funge da ambientazione per Crimson Desert. Dila
       pt: 'Guia técnico e desempenho',
       it: 'Guida tecnica e prestazioni',
       ko: '기술 가이드 & 성능',
+      de: 'Technical Guide & Performance',
     },
     excerpt: {
       fr: "Comparatif des performances PS5, PS5 Pro et PC pour Crimson Desert : résolution, framerate, taille du jeu et configurations recommandées.",
@@ -908,6 +937,7 @@ Pywel è il vasto continente che funge da ambientazione per Crimson Desert. Dila
       pt: 'Comparativo de desempenho no PS5, PS5 Pro e PC para Crimson Desert: resolução, framerate, tamanho do jogo e configurações recomendadas.',
       it: 'Confronto prestazioni su PS5, PS5 Pro e PC per Crimson Desert: risoluzione, framerate, dimensioni del gioco e specifiche consigliate.',
       ko: '크림슨 디저트 PS5, PS5 Pro, PC 성능 비교: 해상도, 프레임레이트, 게임 용량, 권장 사양.',
+      de: 'Performance comparison across PS5, PS5 Pro and PC for Crimson Desert: resolution, framerate, game size and recommended specs.',
     },
     content: {
       fr: `## Performances sur PS5
@@ -1043,6 +1073,7 @@ PC에서는 네이티브 4K까지 지원합니다. 1440p 60 FPS 높은 설정에
       pt: 'Guia de pré-download e horários de lançamento',
       it: 'Guida al preload e orari di lancio',
       ko: '사전 다운로드 및 출시 시간 가이드',
+      de: 'Preload & Launch Times Guide',
     },
     excerpt: {
       fr: "Tout savoir sur le préchargement de Crimson Desert (48h avant), les horaires de lancement par région et les plateformes disponibles au day one.",
@@ -1051,6 +1082,7 @@ PC에서는 네이티브 4K까지 지원합니다. 1440p 60 FPS 높은 설정에
       pt: 'Tudo sobre o pré-download de Crimson Desert (48h antes), horários de lançamento por região e plataformas disponíveis no dia de lançamento.',
       it: 'Tutto sul preload di Crimson Desert (48h prima), orari di lancio per regione e piattaforme disponibili al day one.',
       ko: '크림슨 디저트 사전 다운로드(48시간 전), 지역별 출시 시간 및 출시일 이용 가능 플랫폼 정보.',
+      de: 'Everything about Crimson Desert preloading (48h before), launch times by region and available platforms on day one.',
     },
     content: {
       fr: `## Préchargement
@@ -1216,6 +1248,7 @@ PC (Steam, Epic), PlayStation 5, Xbox Series X|S — 시한부 독점 없음.`,
       pt: 'Como desbloquear personagens em Crimson Desert',
       it: 'Come sbloccare i personaggi in Crimson Desert',
       ko: '크림슨 디저트에서 캐릭터 해금하는 방법',
+      de: 'How to Unlock Characters in Crimson Desert',
     },
     excerpt: {
       fr: "Guide complet pour débloquer Damiane et Oongka dans Crimson Desert : prologue obligatoire avec Kliff, ordre de déblocage et système de switch à la volée.",
@@ -1224,6 +1257,7 @@ PC (Steam, Epic), PlayStation 5, Xbox Series X|S — 시한부 독점 없음.`,
       pt: "Guia completo para desbloquear Damiane e Oongka em Crimson Desert: prólogo obrigatório com Kliff, ordem de desbloqueio e sistema de troca em tempo real.",
       it: "Guida completa per sbloccare Damiane e Oongka in Crimson Desert: prologo obbligatorio con Kliff, ordine di sblocco e sistema di cambio al volo.",
       ko: "크림슨 디저트에서 다미안과 웅카 해금 완전 가이드: 클리프 프롤로그 필수, 해금 순서 및 즉석 전환 시스템.",
+      de: "Complete guide to unlocking Damiane and Oongka in Crimson Desert: mandatory Kliff prologue, unlock order and on-the-fly switching system.",
     },
     content: {
       fr: `## Prologue obligatoire avec Kliff
@@ -1373,6 +1407,7 @@ Cambio tra personaggi nel mondo aperto in stile **GTA 5**. **La storia principal
       pt: 'Crimson Desert: horário de lançamento e tamanho do download',
       it: 'Crimson Desert: orario di lancio e dimensione del download',
       ko: '크림슨 디저트: 출시 시간 및 다운로드 크기',
+      de: 'Crimson Desert: Launch Time and Download Size',
     },
     excerpt: {
       fr: "Crimson Desert sort le 19 mars 2026 à 23h heure de Paris. La version physique PS5 nécessite un téléchargement de +48 Go pour jouer hors ligne. Toutes les infos.",
@@ -1381,6 +1416,7 @@ Cambio tra personaggi nel mondo aperto in stile **GTA 5**. **La storia principal
       pt: "Crimson Desert sai em 19 de março de 2026 às 23h CET. A versão física do PS5 requer download de +48 GB para jogar offline.",
       it: "Crimson Desert esce il 19 marzo 2026 alle 23:00 CET. La versione fisica PS5 richiede un download di +48 GB per giocare offline.",
       ko: "크림슨 디저트는 2026년 3월 19일 CET 오후 11시에 출시됩니다. PS5 물리 버전은 오프라인 플레이를 위해 48 GB 이상의 다운로드가 필요합니다.",
+      de: "Crimson Desert launches March 19, 2026 at 11 PM CET. The physical PS5 version requires a 48+ GB download to play offline. All the details.",
     },
     content: {
       fr: `## Date et heure de sortie
@@ -1506,6 +1542,7 @@ Il disco Blu-ray **non contiene l'intero gioco**. È necessario un **download ob
       pt: 'Crimson Desert no PC: Denuvo confirmado — o que muda',
       it: 'Crimson Desert su PC: Denuvo confermato — cosa cambia',
       ko: '크림슨 디저트 PC: Denuvo 확정 — 변화점',
+      de: 'Crimson Desert on PC: Denuvo Confirmed — What It Means',
     },
     excerpt: {
       fr: "Pearl Abyss confirme l'utilisation de Denuvo comme DRM pour la version PC de Crimson Desert, à quelques jours de la sortie. Analyse de l'impact potentiel sur les performances.",
@@ -1514,6 +1551,7 @@ Il disco Blu-ray **non contiene l'intero gioco**. È necessario un **download ob
       pt: "Pearl Abyss confirma o uso do Denuvo como DRM para a versão PC de Crimson Desert, a poucos dias do lançamento. Análise do impacto potencial no desempenho.",
       it: "Pearl Abyss conferma l'uso di Denuvo come DRM per la versione PC di Crimson Desert, a pochi giorni dal lancio. Analisi dell'impatto potenziale sulle prestazioni.",
       ko: "Pearl Abyss가 크림슨 디저트 PC 버전의 Denuvo DRM 사용을 출시 며칠 전 확정했습니다. 성능 영향 분석.",
+      de: "Pearl Abyss confirms Denuvo DRM for Crimson Desert's PC version, just days before launch. Analysis of potential performance impact.",
     },
     content: {
       fr: `## Denuvo confirmé pour Crimson Desert PC

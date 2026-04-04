@@ -13,7 +13,7 @@ export interface BlogArticle {
   author: string;
   publishedAt: string;
   readingTime: number;
-  tags: { fr: string; en: string; es?: string; pt?: string; it?: string; ko?: string }[];
+  tags: { fr: string; en: string; es?: string; pt?: string; it?: string; ko?: string; de?: string }[];
   seoTitle: Translations;
   seoDescription: Translations;
   relatedSlugs?: string[];
@@ -382,11 +382,11 @@ Marvel's Wolverine si preannuncia come uno dei giochi cardine del 2026. Con la c
     publishedAt: '2026-03-15',
     readingTime: 12,
     tags: [
-      { fr: 'date de sortie', en: 'release date', es: 'fecha de lanzamiento', pt: 'data de lancamento', it: 'data di uscita', ko: '출시일' },
-      { fr: 'Insomniac Games', en: 'Insomniac Games', es: 'Insomniac Games', pt: 'Insomniac Games', it: 'Insomniac Games', ko: '인섬니악 게임즈' },
-      { fr: 'PS5', en: 'PS5', es: 'PS5', pt: 'PS5', it: 'PS5', ko: 'PS5' },
-      { fr: 'exclusivite', en: 'exclusive', es: 'exclusivo', pt: 'exclusivo', it: 'esclusiva', ko: '독점' },
-      { fr: 'Logan', en: 'Logan', es: 'Logan', pt: 'Logan', it: 'Logan', ko: '로건' },
+      { fr: 'date de sortie', en: 'release date', es: 'fecha de lanzamiento', pt: 'data de lancamento', it: 'data di uscita', ko: '출시일', de: 'release date' },
+      { fr: 'Insomniac Games', en: 'Insomniac Games', es: 'Insomniac Games', pt: 'Insomniac Games', it: 'Insomniac Games', ko: '인섬니악 게임즈', de: 'Insomniac Games' },
+      { fr: 'PS5', en: 'PS5', es: 'PS5', pt: 'PS5', it: 'PS5', ko: 'PS5', de: 'PS5' },
+      { fr: 'exclusivite', en: 'exclusive', es: 'exclusivo', pt: 'exclusivo', it: 'esclusiva', ko: '독점', de: 'exclusive' },
+      { fr: 'Logan', en: 'Logan', es: 'Logan', pt: 'Logan', it: 'Logan', ko: '로건', de: 'Logan' },
     ],
     seoTitle: {
       fr: "Marvel's Wolverine | Date de sortie & infos | Guide 2026",
@@ -550,10 +550,10 @@ Insomniac ha confermato che Marvel's Wolverine sara un gioco **classificato M (M
     publishedAt: '2026-03-10',
     readingTime: 8,
     tags: [
-      { fr: 'Gameplay', en: 'Gameplay', es: 'Gameplay', pt: 'Gameplay', it: 'Gameplay', ko: '게임플레이' },
-      { fr: 'Combat', en: 'Combat', es: 'Combate', pt: 'Combate', it: 'Combattimento', ko: '전투' },
-      { fr: 'Monde ouvert', en: 'Open World', es: 'Mundo abierto', pt: 'Mundo aberto', it: 'Mondo aperto', ko: '오픈 월드' },
-      { fr: 'Regeneration', en: 'Regeneration', es: 'Regeneracion', pt: 'Regeneracao', it: 'Rigenerazione', ko: '재생' },
+      { fr: 'Gameplay', en: 'Gameplay', es: 'Gameplay', pt: 'Gameplay', it: 'Gameplay', ko: '게임플레이', de: 'Gameplay' },
+      { fr: 'Combat', en: 'Combat', es: 'Combate', pt: 'Combate', it: 'Combattimento', ko: '전투', de: 'Combat' },
+      { fr: 'Monde ouvert', en: 'Open World', es: 'Mundo abierto', pt: 'Mundo aberto', it: 'Mondo aperto', ko: '오픈 월드', de: 'Open World' },
+      { fr: 'Regeneration', en: 'Regeneration', es: 'Regeneracion', pt: 'Regeneracao', it: 'Rigenerazione', ko: '재생', de: 'Regeneration' },
     ],
     seoTitle: {
       fr: "Gameplay Marvel's Wolverine : combat, monde semi-ouvert, regeneration | Guide complet",
@@ -719,10 +719,10 @@ Diversi rumor suggeriscono apparizioni di altri cattivi classici: **Sabretooth**
     publishedAt: '2026-03-11',
     readingTime: 9,
     tags: [
-      { fr: 'Vilains', en: 'Villains', es: 'Villanos', pt: 'Viloes', it: 'Cattivi', ko: '빌런' },
-      { fr: 'Omega Red', en: 'Omega Red', es: 'Omega Red', pt: 'Omega Red', it: 'Omega Red', ko: '오메가 레드' },
-      { fr: 'Sentinelles', en: 'Sentinels', es: 'Centinelas', pt: 'Sentinelas', it: 'Sentinelle', ko: '센티널' },
-      { fr: 'Lore', en: 'Lore', es: 'Lore', pt: 'Lore', it: 'Lore', ko: '로어' },
+      { fr: 'Vilains', en: 'Villains', es: 'Villanos', pt: 'Viloes', it: 'Cattivi', ko: '빌런', de: 'Villains' },
+      { fr: 'Omega Red', en: 'Omega Red', es: 'Omega Red', pt: 'Omega Red', it: 'Omega Red', ko: '오메가 레드', de: 'Omega Red' },
+      { fr: 'Sentinelles', en: 'Sentinels', es: 'Centinelas', pt: 'Sentinelas', it: 'Sentinelle', ko: '센티널', de: 'Sentinels' },
+      { fr: 'Lore', en: 'Lore', es: 'Lore', pt: 'Lore', it: 'Lore', ko: '로어', de: 'Lore' },
     ],
     seoTitle: {
       fr: "Vilains de Marvel's Wolverine : Omega Red, Sentinelles, Maraudeurs | Analyse complete",
@@ -884,10 +884,10 @@ Il successo di Spider-Man e l'ambizione di Wolverine suggeriscono che Insomniac 
     publishedAt: '2026-03-12',
     readingTime: 7,
     tags: [
-      { fr: 'Terre-1048', en: 'Earth-1048', es: 'Tierra-1048', pt: 'Terra-1048', it: 'Terra-1048', ko: '어스-1048' },
-      { fr: 'Spider-Man', en: 'Spider-Man', es: 'Spider-Man', pt: 'Spider-Man', it: 'Spider-Man', ko: '스파이더맨' },
-      { fr: 'Univers partage', en: 'Shared Universe', es: 'Universo compartido', pt: 'Universo compartilhado', it: 'Universo condiviso', ko: '공유 유니버스' },
-      { fr: 'Lore', en: 'Lore', es: 'Lore', pt: 'Lore', it: 'Lore', ko: '로어' },
+      { fr: 'Terre-1048', en: 'Earth-1048', es: 'Tierra-1048', pt: 'Terra-1048', it: 'Terra-1048', ko: '어스-1048', de: 'Earth-1048' },
+      { fr: 'Spider-Man', en: 'Spider-Man', es: 'Spider-Man', pt: 'Spider-Man', it: 'Spider-Man', ko: '스파이더맨', de: 'Spider-Man' },
+      { fr: 'Univers partage', en: 'Shared Universe', es: 'Universo compartido', pt: 'Universo compartilhado', it: 'Universo condiviso', ko: '공유 유니버스', de: 'Shared Universe' },
+      { fr: 'Lore', en: 'Lore', es: 'Lore', pt: 'Lore', it: 'Lore', ko: '로어', de: 'Lore' },
     ],
     seoTitle: {
       fr: "Marvel's Wolverine et Spider-Man : univers Terre-1048 et connexions | Analyse Lore",
@@ -1057,10 +1057,10 @@ Wolverine e stato interpretato da molti attori. **Hugh Jackman** rimane l'incarn
     publishedAt: '2026-03-13',
     readingTime: 6,
     tags: [
-      { fr: 'Doublage', en: 'Voice Acting', es: 'Doblaje', pt: 'Dublagem', it: 'Doppiaggio', ko: '성우' },
-      { fr: 'Liam McIntyre', en: 'Liam McIntyre', es: 'Liam McIntyre', pt: 'Liam McIntyre', it: 'Liam McIntyre', ko: '리암 맥킨타이어' },
-      { fr: 'Acteurs', en: 'Actors', es: 'Actores', pt: 'Atores', it: 'Attori', ko: '배우' },
-      { fr: 'News', en: 'News', es: 'Noticias', pt: 'Noticias', it: 'Notizie', ko: '뉴스' },
+      { fr: 'Doublage', en: 'Voice Acting', es: 'Doblaje', pt: 'Dublagem', it: 'Doppiaggio', ko: '성우', de: 'Voice Acting' },
+      { fr: 'Liam McIntyre', en: 'Liam McIntyre', es: 'Liam McIntyre', pt: 'Liam McIntyre', it: 'Liam McIntyre', ko: '리암 맥킨타이어', de: 'Liam McIntyre' },
+      { fr: 'Acteurs', en: 'Actors', es: 'Actores', pt: 'Atores', it: 'Attori', ko: '배우', de: 'Actors' },
+      { fr: 'News', en: 'News', es: 'Noticias', pt: 'Noticias', it: 'Notizie', ko: '뉴스', de: 'News' },
     ],
     seoTitle: {
       fr: "Liam McIntyre doubleur de Wolverine : tout sur l'acteur de Marvel's Wolverine",

@@ -13,7 +13,7 @@ export interface BlogArticle {
   author: string;
   publishedAt: string;
   readingTime: number;
-  tags: { fr: string; en: string; es?: string; pt?: string; it?: string; ko?: string }[];
+  tags: { fr: string; en: string; es?: string; pt?: string; it?: string; ko?: string; de?: string }[];
   seoTitle: Translations;
   seoDescription: Translations;
   relatedSlugs?: string[];
@@ -29,9 +29,9 @@ export const blogArticles: BlogArticle[] = [
     publishedAt: '2026-03-13',
     readingTime: 8,
     tags: [
-      { fr: 'armes', en: 'weapons', es: 'armas' },
-      { fr: 'guide', en: 'guide', es: 'guia' },
-      { fr: 'gameplay', en: 'gameplay', es: 'jugabilidad' },
+      { fr: 'armes', en: 'weapons', es: 'armas', de: 'weapons' },
+      { fr: 'guide', en: 'guide', es: 'guia', de: 'guide' },
+      { fr: 'gameplay', en: 'gameplay', es: 'jugabilidad', de: 'gameplay' },
     ],
     title: {
       fr: 'Toutes les armes confirmees dans GTA VI',
@@ -69,9 +69,9 @@ export const blogArticles: BlogArticle[] = [
     publishedAt: '2026-03-13',
     readingTime: 10,
     tags: [
-      { fr: 'carte', en: 'map', es: 'mapa' },
-      { fr: 'vice city', en: 'vice city', es: 'vice city' },
-      { fr: 'exploration', en: 'exploration', es: 'exploracion' },
+      { fr: 'carte', en: 'map', es: 'mapa', de: 'map' },
+      { fr: 'vice city', en: 'vice city', es: 'vice city', de: 'vice city' },
+      { fr: 'exploration', en: 'exploration', es: 'exploracion', de: 'exploration' },
     ],
     title: {
       fr: 'Vice City : carte et tous les lieux confirmes',
@@ -109,8 +109,8 @@ export const blogArticles: BlogArticle[] = [
     publishedAt: '2026-03-13',
     readingTime: 7,
     tags: [
-      { fr: 'vehicules', en: 'vehicles', es: 'vehiculos' },
-      { fr: 'guide', en: 'guide', es: 'guia' },
+      { fr: 'vehicules', en: 'vehicles', es: 'vehiculos', de: 'vehicles' },
+      { fr: 'guide', en: 'guide', es: 'guia', de: 'guide' },
     ],
     title: {
       fr: 'Tous les vehicules confirmes dans GTA VI',
@@ -148,9 +148,9 @@ export const blogArticles: BlogArticle[] = [
     publishedAt: '2026-03-13',
     readingTime: 9,
     tags: [
-      { fr: 'gameplay', en: 'gameplay', es: 'jugabilidad' },
-      { fr: 'mecaniques', en: 'mechanics', es: 'mecanicas' },
-      { fr: 'analyse', en: 'analysis', es: 'analisis' },
+      { fr: 'gameplay', en: 'gameplay', es: 'jugabilidad', de: 'gameplay' },
+      { fr: 'mecaniques', en: 'mechanics', es: 'mecanicas', de: 'mechanics' },
+      { fr: 'analyse', en: 'analysis', es: 'analisis', de: 'analysis' },
     ],
     title: {
       fr: 'Mecaniques de gameplay : quoi de neuf dans GTA VI',
@@ -188,10 +188,10 @@ export const blogArticles: BlogArticle[] = [
     publishedAt: '2026-03-13',
     readingTime: 12,
     tags: [
-      { fr: 'personnages', en: 'characters', es: 'personajes' },
-      { fr: 'lucia', en: 'lucia', es: 'lucia' },
-      { fr: 'jason', en: 'jason', es: 'jason' },
-      { fr: 'lore', en: 'lore', es: 'lore' },
+      { fr: 'personnages', en: 'characters', es: 'personajes', de: 'characters' },
+      { fr: 'lucia', en: 'lucia', es: 'lucia', de: 'lucia' },
+      { fr: 'jason', en: 'jason', es: 'jason', de: 'jason' },
+      { fr: 'lore', en: 'lore', es: 'lore', de: 'lore' },
     ],
     title: {
       fr: 'Plongee dans les personnages : Lucia & Jason',
@@ -230,12 +230,12 @@ export const blogArticles: BlogArticle[] = [
     publishedAt: '2026-03-15',
     readingTime: 14,
     tags: [
-      { fr: 'date de sortie', en: 'release date', es: 'fecha de lanzamiento', pt: 'data de lançamento', it: 'data di uscita', ko: '출시일' },
-      { fr: 'Rockstar', en: 'Rockstar', es: 'Rockstar', pt: 'Rockstar', it: 'Rockstar', ko: '록스타' },
-      { fr: 'Vice City', en: 'Vice City', es: 'Vice City', pt: 'Vice City', it: 'Vice City', ko: '바이스 시티' },
-      { fr: 'Leonida', en: 'Leonida', es: 'Leonida', pt: 'Leonida', it: 'Leonida', ko: '레오니다' },
-      { fr: 'Lucia', en: 'Lucia', es: 'Lucia', pt: 'Lucia', it: 'Lucia', ko: '루시아' },
-      { fr: 'Jason', en: 'Jason', es: 'Jason', pt: 'Jason', it: 'Jason', ko: '제이슨' },
+      { fr: 'date de sortie', en: 'release date', es: 'fecha de lanzamiento', pt: 'data de lançamento', it: 'data di uscita', ko: '출시일', de: 'release date' },
+      { fr: 'Rockstar', en: 'Rockstar', es: 'Rockstar', pt: 'Rockstar', it: 'Rockstar', ko: '록스타', de: 'Rockstar' },
+      { fr: 'Vice City', en: 'Vice City', es: 'Vice City', pt: 'Vice City', it: 'Vice City', ko: '바이스 시티', de: 'Vice City' },
+      { fr: 'Leonida', en: 'Leonida', es: 'Leonida', pt: 'Leonida', it: 'Leonida', ko: '레오니다', de: 'Leonida' },
+      { fr: 'Lucia', en: 'Lucia', es: 'Lucia', pt: 'Lucia', it: 'Lucia', ko: '루시아', de: 'Lucia' },
+      { fr: 'Jason', en: 'Jason', es: 'Jason', pt: 'Jason', it: 'Jason', ko: '제이슨', de: 'Jason' },
     ],
     title: {
       fr: 'GTA 6 : date de sortie, gameplay et tout ce que l\'on sait',
@@ -244,6 +244,7 @@ export const blogArticles: BlogArticle[] = [
       pt: 'GTA 6: data de lançamento, gameplay e tudo que sabemos',
       it: 'GTA 6: data di uscita, gameplay e tutto ciò che sappiamo',
       ko: 'GTA 6: 출시일, 게임플레이, 알려진 모든 정보',
+      de: 'GTA 6: Release Date, Gameplay & Everything We Know',
     },
     excerpt: {
       fr: 'Guide complet sur GTA 6 : date de sortie le 19 novembre 2026, double protagoniste Lucia & Jason, Vice City et Leonida, moteur RAGE amélioré et plus.',
@@ -252,6 +253,7 @@ export const blogArticles: BlogArticle[] = [
       pt: 'Guia completo do GTA 6: lançamento em 19 de novembro de 2026, protagonistas Lucia e Jason, Vice City e Leonida.',
       it: 'Guida completa a GTA 6: uscita 19 novembre 2026, protagonisti Lucia e Jason, Vice City e Leonida.',
       ko: 'GTA 6 완벽 가이드: 2026년 11월 19일 출시, 듀얼 주인공 루시아 & 제이슨, 바이스 시티와 레오니다.',
+      de: 'Complete guide to GTA 6: November 19, 2026 release date, dual protagonists Lucia & Jason, Vice City and Leonida, improved RAGE engine and more.',
     },
     seoTitle: {
       fr: 'GTA 6 | Date de sortie & tout savoir | Guide 2026',
@@ -260,6 +262,7 @@ export const blogArticles: BlogArticle[] = [
       pt: 'GTA 6 | Data de lançamento | Guia completo 2026',
       it: 'GTA 6 | Data di uscita | Guida completa 2026',
       ko: 'GTA 6 | 출시일 & 총정리 | 가이드 2026',
+      de: 'GTA 6 | Release Date & Everything We Know | Guide 2026',
     },
     seoDescription: {
       fr: 'Tout sur GTA 6 : sortie 19 novembre 2026, PS5/Xbox Series, Lucia & Jason, Vice City, Leonida. Rockstar Games.',
@@ -268,6 +271,7 @@ export const blogArticles: BlogArticle[] = [
       pt: 'Tudo sobre GTA 6: lançamento 19 novembro 2026, PS5/Xbox Series, Lucia e Jason, Vice City. Rockstar Games.',
       it: 'Tutto su GTA 6: uscita 19 novembre 2026, PS5/Xbox Series, Lucia e Jason, Vice City. Rockstar Games.',
       ko: 'GTA 6 총정리: 2026년 11월 19일 출시, PS5/Xbox Series, 루시아 & 제이슨, 바이스 시티. 록스타 게임즈.',
+      de: 'Everything about GTA 6: November 19, 2026 release, PS5/Xbox Series, Lucia & Jason, Vice City, Leonida. Rockstar Games.',
     },
     content: {
       fr: `GTA 6 est le jeu le plus attendu de la décennie. Rockstar Games a confirmé une sortie le **19 novembre 2026**, et les détails continuent d'émerger. Voici tout ce que l'on sait.
@@ -434,10 +438,10 @@ PS5와 Xbox Series X|S 전용. PS4나 Xbox One 없음. PC는 나중에.
     publishedAt: '2026-03-15',
     readingTime: 8,
     tags: [
-      { fr: 'trailer', en: 'trailer', es: 'tráiler', pt: 'trailer', it: 'trailer', ko: '트레일러' },
-      { fr: 'annonce', en: 'announcement', es: 'anuncio', pt: 'anúncio', it: 'annuncio', ko: '발표' },
-      { fr: 'rumeurs', en: 'rumors', es: 'rumores', pt: 'rumores', it: 'voci', ko: '루머' },
-      { fr: 'marketing', en: 'marketing', es: 'marketing', pt: 'marketing', it: 'marketing', ko: '마케팅' },
+      { fr: 'trailer', en: 'trailer', es: 'tráiler', pt: 'trailer', it: 'trailer', ko: '트레일러', de: 'trailer' },
+      { fr: 'annonce', en: 'announcement', es: 'anuncio', pt: 'anúncio', it: 'annuncio', ko: '발표', de: 'announcement' },
+      { fr: 'rumeurs', en: 'rumors', es: 'rumores', pt: 'rumores', it: 'voci', ko: '루머', de: 'rumors' },
+      { fr: 'marketing', en: 'marketing', es: 'marketing', pt: 'marketing', it: 'marketing', ko: '마케팅', de: 'marketing' },
     ],
     title: {
       fr: 'GTA 6 Trailer 3 : quand sera le prochain reveal ?',
@@ -446,6 +450,7 @@ PS5와 Xbox Series X|S 전용. PS4나 Xbox One 없음. PC는 나중에.
       pt: 'GTA 6 Trailer 3: quando será a próxima revelação?',
       it: 'GTA 6 Trailer 3: quando sarà la prossima rivelazione?',
       ko: 'GTA 6 트레일러 3: 다음 공개는 언제?',
+      de: 'GTA 6 Trailer 3: When Will the Next Reveal Be?',
     },
     excerpt: {
       fr: 'Analyse des indices sur le prochain trailer de GTA 6 : fin du roadmap GTA Online, identifiants PlayStation et campagne marketing estivale.',
@@ -454,6 +459,7 @@ PS5와 Xbox Series X|S 전용. PS4나 Xbox One 없음. PC는 나중에.
       pt: 'Análise das pistas sobre o próximo trailer de GTA 6.',
       it: 'Analisi degli indizi sul prossimo trailer di GTA 6.',
       ko: 'GTA 6 다음 트레일러 단서 분석.',
+      de: 'Analysis of clues about the next GTA 6 trailer: GTA Online roadmap end, PlayStation identifiers, and summer marketing campaign.',
     },
     seoTitle: {
       fr: 'GTA 6 Trailer 3 | Quand ? Rumeurs & indices | 2026',
@@ -462,6 +468,7 @@ PS5와 Xbox Series X|S 전용. PS4나 Xbox One 없음. PC는 나중에.
       pt: 'GTA 6 Trailer 3 | Quando? Rumores | 2026',
       it: 'GTA 6 Trailer 3 | Quando? Voci e indizi | 2026',
       ko: 'GTA 6 트레일러 3 | 언제? 루머 & 단서 | 2026',
+      de: 'GTA 6 Trailer 3 | When? Rumors & Clues | 2026',
     },
     seoDescription: {
       fr: 'Quand sort le trailer 3 de GTA 6 ? Indices : roadmap GTA Online, fuites PlayStation, marketing été 2026. Rockstar Games.',
@@ -470,6 +477,7 @@ PS5와 Xbox Series X|S 전용. PS4나 Xbox One 없음. PC는 나중에.
       pt: 'Quando sai o trailer 3 de GTA 6? Pistas do roadmap e marketing. Rockstar Games.',
       it: 'Quando esce il trailer 3 di GTA 6? Indizi dal roadmap e marketing. Rockstar Games.',
       ko: 'GTA 6 트레일러 3은 언제? 로드맵과 마케팅 단서. 록스타 게임즈.',
+      de: 'When is GTA 6 trailer 3? Clues: GTA Online roadmap, PlayStation leaks, summer 2026 marketing. Rockstar Games.',
     },
     content: {
       fr: `Le dernier trailer de GTA 6 — le second — est sorti en 2024, et depuis, le silence de Rockstar alimente les spéculations. Quand verrons-nous le troisième trailer ?
@@ -578,10 +586,10 @@ GTA 온라인 로드맵이 2026년 4월 1일에 중단됩니다. GTA 6 식별자
     publishedAt: '2026-03-15',
     readingTime: 7,
     tags: [
-      { fr: 'prix', en: 'price', es: 'precio', pt: 'preço', it: 'prezzo', ko: '가격' },
-      { fr: 'précommande', en: 'preorder', es: 'reserva', pt: 'pré-venda', it: 'preordine', ko: '사전 주문' },
-      { fr: 'éditions', en: 'editions', es: 'ediciones', pt: 'edições', it: 'edizioni', ko: '에디션' },
-      { fr: 'Game Pass', en: 'Game Pass', es: 'Game Pass', pt: 'Game Pass', it: 'Game Pass', ko: '게임 패스' },
+      { fr: 'prix', en: 'price', es: 'precio', pt: 'preço', it: 'prezzo', ko: '가격', de: 'price' },
+      { fr: 'précommande', en: 'preorder', es: 'reserva', pt: 'pré-venda', it: 'preordine', ko: '사전 주문', de: 'preorder' },
+      { fr: 'éditions', en: 'editions', es: 'ediciones', pt: 'edições', it: 'edizioni', ko: '에디션', de: 'editions' },
+      { fr: 'Game Pass', en: 'Game Pass', es: 'Game Pass', pt: 'Game Pass', it: 'Game Pass', ko: '게임 패스', de: 'Game Pass' },
     ],
     title: {
       fr: 'GTA 6 : prix, éditions et précommandes — à quoi s\'attendre',
@@ -590,6 +598,7 @@ GTA 온라인 로드맵이 2026년 4월 1일에 중단됩니다. GTA 6 식별자
       pt: 'GTA 6: preço, edições e pré-venda — o que esperar',
       it: 'GTA 6: prezzo, edizioni e preordini — cosa aspettarsi',
       ko: 'GTA 6: 가격, 에디션, 사전 주문 — 기대할 것',
+      de: 'GTA 6: Price, Editions & Pre-orders — What to Expect',
     },
     excerpt: {
       fr: 'Analyse des prix estimés, éditions potentielles et précommandes de GTA 6. Ce que les précédents GTA nous apprennent.',
@@ -598,6 +607,7 @@ GTA 온라인 로드맵이 2026년 4월 1일에 중단됩니다. GTA 6 식별자
       pt: 'Análise de preços estimados, edições e pré-vendas de GTA 6.',
       it: 'Analisi dei prezzi stimati, edizioni e preordini di GTA 6.',
       ko: 'GTA 6 예상 가격, 잠재적 에디션, 사전 주문 분석.',
+      de: 'Analysis of estimated prices, potential editions and pre-orders for GTA 6. What previous GTAs tell us.',
     },
     seoTitle: {
       fr: 'Prix GTA 6 | Éditions & Précommande | Guide 2026',
@@ -606,6 +616,7 @@ GTA 온라인 로드맵이 2026년 4월 1일에 중단됩니다. GTA 6 식별자
       pt: 'Preço GTA 6 | Edições e Pré-venda | Guia 2026',
       it: 'Prezzo GTA 6 | Edizioni e Preordine | Guida 2026',
       ko: 'GTA 6 가격 | 에디션 & 사전 주문 | 가이드 2026',
+      de: 'GTA 6 Price | Editions & Pre-order | Guide 2026',
     },
     seoDescription: {
       fr: 'Prix et éditions de GTA 6 : estimation 69,99 $, éditions standard/spéciale/collector. Précommandes et Game Pass. Rockstar Games 2026.',
@@ -614,6 +625,7 @@ GTA 온라인 로드맵이 2026년 4월 1일에 중단됩니다. GTA 6 식별자
       pt: 'Preço e edições de GTA 6: estimativa $69,99. Pré-vendas e Game Pass. Rockstar Games 2026.',
       it: 'Prezzo ed edizioni di GTA 6: stima $69,99. Preordini e Game Pass. Rockstar Games 2026.',
       ko: 'GTA 6 가격과 에디션: 예상 $69.99. 사전 주문과 게임 패스. 록스타 게임즈 2026.',
+      de: 'GTA 6 price and editions: estimated $69.99, standard/special/collector editions. Pre-orders and Game Pass. Rockstar Games 2026.',
     },
     content: {
       fr: `Rockstar Games n'a encore annoncé aucun prix officiel ni ouvert les précommandes pour GTA 6. Voici ce que les analystes prévoient et ce que l'histoire de la franchise nous enseigne.
@@ -685,10 +697,10 @@ PC will likely arrive **after consoles**, following Rockstar's typical pattern.`
     publishedAt: '2026-03-15',
     readingTime: 10,
     tags: [
-      { fr: 'industrie', en: 'industry', es: 'industria', pt: 'indústria', it: 'industria', ko: '산업' },
-      { fr: 'calendrier', en: 'calendar', es: 'calendario', pt: 'calendário', it: 'calendario', ko: '캘린더' },
-      { fr: 'Q4', en: 'Q4', es: 'Q4', pt: 'Q4', it: 'Q4', ko: 'Q4' },
-      { fr: 'impact', en: 'impact', es: 'impacto', pt: 'impacto', it: 'impatto', ko: '영향' },
+      { fr: 'industrie', en: 'industry', es: 'industria', pt: 'indústria', it: 'industria', ko: '산업', de: 'industry' },
+      { fr: 'calendrier', en: 'calendar', es: 'calendario', pt: 'calendário', it: 'calendario', ko: '캘린더', de: 'calendar' },
+      { fr: 'Q4', en: 'Q4', es: 'Q4', pt: 'Q4', it: 'Q4', ko: 'Q4', de: 'Q4' },
+      { fr: 'impact', en: 'impact', es: 'impacto', pt: 'impacto', it: 'impatto', ko: '영향', de: 'impact' },
     ],
     title: {
       fr: 'GTA 6 et le calendrier gaming 2026 : le Q4 fantôme',
@@ -697,6 +709,7 @@ PC will likely arrive **after consoles**, following Rockstar's typical pattern.`
       pt: 'GTA 6 e o calendário gaming 2026: o Q4 fantasma',
       it: 'GTA 6 e il calendario gaming 2026: il Q4 fantasma',
       ko: 'GTA 6과 2026 게이밍 캘린더: 유령 Q4',
+      de: 'GTA 6 and the 2026 Gaming Calendar: The Ghost Q4',
     },
     excerpt: {
       fr: 'Comment GTA 6 a vidé le Q4 2026 : aucun AAA majeur n\'ose sortir en même temps que Rockstar. Analyse de l\'effet iceberg.',
@@ -705,6 +718,7 @@ PC will likely arrive **after consoles**, following Rockstar's typical pattern.`
       pt: 'Como GTA 6 esvaziou o Q4 2026. Análise do efeito iceberg.',
       it: 'Come GTA 6 ha svuotato il Q4 2026. Analisi dell\'effetto iceberg.',
       ko: 'GTA 6이 2026년 Q4를 비운 방법. 아이스버그 효과 분석.',
+      de: 'How GTA 6 emptied Q4 2026: no major AAA dares release alongside Rockstar. Analysis of the iceberg effect.',
     },
     seoTitle: {
       fr: 'GTA 6 impact calendrier 2026 | Q4 vide | Analyse',
@@ -713,6 +727,7 @@ PC will likely arrive **after consoles**, following Rockstar's typical pattern.`
       pt: 'GTA 6 impacto calendário 2026 | Q4 vazio | Análise',
       it: 'GTA 6 impatto calendario 2026 | Q4 vuoto | Analisi',
       ko: 'GTA 6 2026 캘린더 영향 | 빈 Q4 | 분석',
+      de: 'GTA 6 2026 Calendar Impact | Empty Q4 | Analysis',
     },
     seoDescription: {
       fr: 'L\'impact de GTA 6 sur le calendrier gaming 2026. Q4 vide, effet iceberg, reports en cascade. Analyse complète.',
@@ -721,6 +736,7 @@ PC will likely arrive **after consoles**, following Rockstar's typical pattern.`
       pt: 'Impacto do GTA 6 no calendário 2026. Q4 vazio e efeito iceberg.',
       it: 'Impatto di GTA 6 sul calendario 2026. Q4 vuoto ed effetto iceberg.',
       ko: 'GTA 6의 2026 게이밍 캘린더 영향. 빈 Q4와 아이스버그 효과.',
+      de: 'GTA 6 impact on 2026 gaming calendar. Empty Q4, iceberg effect, cascading delays. Complete analysis.',
     },
     content: {
       fr: `GTA 6 ne se contente pas d'être le jeu le plus attendu de 2026 — il a littéralement redessiné le calendrier de sorties de toute l'industrie. Le quatrième trimestre 2026 ressemble à un désert, et c'est entièrement la faute de Rockstar.
@@ -788,10 +804,10 @@ If Rockstar delays again, Q4 will be empty for nothing.`,
     publishedAt: '2026-03-15',
     readingTime: 6,
     tags: [
-      { fr: 'Game Pass', en: 'Game Pass', es: 'Game Pass', pt: 'Game Pass', it: 'Game Pass', ko: '게임 패스' },
-      { fr: 'Xbox', en: 'Xbox', es: 'Xbox', pt: 'Xbox', it: 'Xbox', ko: 'Xbox' },
-      { fr: 'prix', en: 'price', es: 'precio', pt: 'preço', it: 'prezzo', ko: '가격' },
-      { fr: 'abonnement', en: 'subscription', es: 'suscripción', pt: 'assinatura', it: 'abbonamento', ko: '구독' },
+      { fr: 'Game Pass', en: 'Game Pass', es: 'Game Pass', pt: 'Game Pass', it: 'Game Pass', ko: '게임 패스', de: 'Game Pass' },
+      { fr: 'Xbox', en: 'Xbox', es: 'Xbox', pt: 'Xbox', it: 'Xbox', ko: 'Xbox', de: 'Xbox' },
+      { fr: 'prix', en: 'price', es: 'precio', pt: 'preço', it: 'prezzo', ko: '가격', de: 'price' },
+      { fr: 'abonnement', en: 'subscription', es: 'suscripción', pt: 'assinatura', it: 'abbonamento', ko: '구독', de: 'subscription' },
     ],
     title: {
       fr: 'GTA 6 sur Game Pass ? Pourquoi c\'est très improbable',
@@ -800,6 +816,7 @@ If Rockstar delays again, Q4 will be empty for nothing.`,
       pt: 'GTA 6 no Game Pass? Por que é muito improvável',
       it: 'GTA 6 su Game Pass? Perché è molto improbabile',
       ko: 'GTA 6 게임 패스? 왜 매우 가능성이 낮은지',
+      de: 'GTA 6 on Game Pass? Why It\'s Very Unlikely',
     },
     excerpt: {
       fr: 'GTA 6 sera-t-il sur Xbox Game Pass au lancement ? Analyse des raisons économiques et stratégiques qui rendent cette hypothèse quasi impossible.',
@@ -808,6 +825,7 @@ If Rockstar delays again, Q4 will be empty for nothing.`,
       pt: 'GTA 6 estará no Game Pass no lançamento? Análise econômica.',
       it: 'GTA 6 sarà su Game Pass al lancio? Analisi economica.',
       ko: 'GTA 6이 출시 시 게임 패스에? 경제적 분석.',
+      de: 'Will GTA 6 be on Xbox Game Pass at launch? Analysis of economic and strategic reasons making this hypothesis nearly impossible.',
     },
     seoTitle: {
       fr: 'GTA 6 Game Pass | Improbable au lancement | Analyse',
@@ -816,6 +834,7 @@ If Rockstar delays again, Q4 will be empty for nothing.`,
       pt: 'GTA 6 Game Pass | Improvável no lançamento | Análise',
       it: 'GTA 6 Game Pass | Improbabile al lancio | Analisi',
       ko: 'GTA 6 게임 패스 | 출시 시 가능성 낮음 | 분석',
+      de: 'GTA 6 Game Pass | Unlikely at Launch | Analysis',
     },
     seoDescription: {
       fr: 'GTA 6 sur Game Pass day one ? Improbable. Take-Two mise sur la vente plein tarif. Revenus projetés de 3 milliards $+. Analyse complète.',
@@ -824,6 +843,7 @@ If Rockstar delays again, Q4 will be empty for nothing.`,
       pt: 'GTA 6 no Game Pass no lançamento? Improvável. Take-Two aposta em vendas a preço cheio.',
       it: 'GTA 6 su Game Pass al lancio? Improbabile. Take-Two punta sulla vendita a prezzo pieno.',
       ko: 'GTA 6 게임 패스 출시 시? 가능성 낮음. 테이크투는 정가 판매에 주력.',
+      de: 'GTA 6 on Game Pass day one? Unlikely. Take-Two banks on full-price sales. Projected $3B+ revenue. Complete analysis.',
     },
     content: {
       fr: `La question revient régulièrement : GTA 6 sera-t-il disponible sur Xbox Game Pass dès le jour de sa sortie ? La réponse courte est non, et voici pourquoi.

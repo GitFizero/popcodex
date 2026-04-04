@@ -25,8 +25,8 @@ interface WeaponInfo {
 const weapons: WeaponInfo[] = [
   {
     id: 'sword-shield',
-    name: { fr: 'Épée et bouclier', en: 'Sword & Shield', es: 'Espada y escudo', it: 'Spada e scudo', ko: '검과 방패', pt: 'Espada e escudo' },
-    category: { fr: 'Mêlée — Équilibré', en: 'Melee — Balanced', es: 'Cuerpo a cuerpo — Equilibrado', it: 'Mischia — Equilibrato', ko: '근접 — 균형', pt: 'Corpo a corpo — Equilibrado' },
+    name: { fr: 'Épée et bouclier', en: 'Sword & Shield', es: 'Espada y escudo', it: 'Spada e scudo', ko: '검과 방패', pt: 'Espada e escudo', de: 'Schwert & Schild' },
+    category: { fr: 'Mêlée — Équilibré', en: 'Melee — Balanced', es: 'Cuerpo a cuerpo — Equilibrado', it: 'Mischia — Equilibrato', ko: '근접 — 균형', pt: 'Corpo a corpo — Equilibrado', de: 'Nahkampf — Ausgewogen' },
     description: {
       fr: "La combinaison classique offrant un gameplay équilibré entre attaque et défense. Le bouclier permet de bloquer et de parer les coups ennemis, tandis que l'épée offre des combos rapides et polyvalents.",
       en: 'The classic combination offering balanced gameplay between offense and defense. The shield allows blocking and parrying enemy strikes, while the sword delivers quick, versatile combos.',
@@ -34,6 +34,7 @@ const weapons: WeaponInfo[] = [
       it: "La combinazione classica che offre un gameplay equilibrato tra attacco e difesa. Lo scudo permette di bloccare e parare i colpi nemici, mentre la spada offre combo rapide e versatili.",
       ko: '공격과 방어 사이의 균형 잡힌 게임플레이를 제공하는 클래식 조합. 방패로 적의 공격을 막고 패리하며, 검으로 빠르고 다양한 콤보를 연결합니다.',
       pt: 'A combinação clássica oferecendo jogabilidade equilibrada entre ataque e defesa. O escudo permite bloquear e aparar golpes inimigos, enquanto a espada oferece combos rápidos e versáteis.',
+      de: 'Die klassische Kombination bietet ausgewogenes Gameplay zwischen Angriff und Verteidigung. Der Schild ermöglicht das Blocken und Parieren feindlicher Angriffe, während das Schwert schnelle, vielseitige Kombos liefert.',
     },
     playstyle: {
       fr: "Idéal pour les joueurs qui découvrent le système de combat. Versatile face à tous les types d'ennemis.",
@@ -42,13 +43,14 @@ const weapons: WeaponInfo[] = [
       it: "Ideale per i giocatori che scoprono il sistema di combattimento. Versatile contro tutti i tipi di nemici.",
       ko: '전투 시스템을 처음 접하는 플레이어에게 이상적. 모든 유형의 적에게 다재다능.',
       pt: 'Ideal para jogadores novos no sistema de combate. Versátil contra todos os tipos de inimigos.',
+      de: 'Ideal für Spieler, die das Kampfsystem entdecken. Vielseitig gegen alle Feindtypen.',
     },
     icon: '🗡️',
   },
   {
     id: 'spear',
-    name: { fr: 'Lance', en: 'Spear', es: 'Lanza', it: 'Lancia', ko: '창', pt: 'Lança' },
-    category: { fr: 'Mêlée — Portée', en: 'Melee — Range', es: 'Cuerpo a cuerpo — Alcance', it: 'Mischia — Portata', ko: '근접 — 사거리', pt: 'Corpo a corpo — Alcance' },
+    name: { fr: 'Lance', en: 'Spear', es: 'Lanza', it: 'Lancia', ko: '창', pt: 'Lança', de: 'Speer' },
+    category: { fr: 'Mêlée — Portée', en: 'Melee — Range', es: 'Cuerpo a cuerpo — Alcance', it: 'Mischia — Portata', ko: '근접 — 사거리', pt: 'Corpo a corpo — Alcance', de: 'Nahkampf — Reichweite' },
     description: {
       fr: "Les lances excellent dans le contrôle de la distance. Leur portée supérieure permet de frapper les ennemis tout en restant hors de leur zone d'attaque.",
       en: "Spears excel at distance control. Their superior reach lets you strike enemies while staying outside their attack range.",
@@ -56,6 +58,7 @@ const weapons: WeaponInfo[] = [
       it: "Le lance eccellono nel controllo della distanza. La loro portata superiore permette di colpire i nemici rimanendo fuori dalla loro zona d'attacco.",
       ko: '창은 거리 조절에 탁월합니다. 뛰어난 사거리로 적의 공격 범위 밖에서 공격할 수 있습니다.',
       pt: 'Lanças se destacam no controle de distância. Seu alcance superior permite atingir inimigos enquanto permanece fora da zona de ataque deles.',
+      de: 'Speere zeichnen sich durch Distanzkontrolle aus. Ihre überlegene Reichweite ermöglicht es, Feinde zu treffen, während man außerhalb ihrer Angriffszone bleibt.',
     },
     playstyle: {
       fr: "Style tactique et mesuré, avec des attaques de poussée puissantes. Excellent en combat de groupe.",
@@ -64,13 +67,14 @@ const weapons: WeaponInfo[] = [
       it: "Stile tattico e misurato, con potenti attacchi di affondo. Eccellente negli scontri di gruppo.",
       ko: '강력한 찌르기 공격을 활용한 전술적이고 신중한 스타일. 그룹 전투에서 탁월.',
       pt: 'Estilo tático e medido, com poderosos ataques de estocada. Excelente em combates em grupo.',
+      de: 'Taktischer, bedachter Stil mit kraftvollen Stoßangriffen. Hervorragend im Gruppenkampf.',
     },
     icon: '🔱',
   },
   {
     id: 'greatsword',
-    name: { fr: 'Grande épée', en: 'Greatsword', es: 'Espadón', it: 'Spadone', ko: '대검', pt: 'Espadão' },
-    category: { fr: 'Mêlée — Puissance', en: 'Melee — Power', es: 'Cuerpo a cuerpo — Potencia', it: 'Mischia — Potenza', ko: '근접 — 파워', pt: 'Corpo a corpo — Poder' },
+    name: { fr: 'Grande épée', en: 'Greatsword', es: 'Espadón', it: 'Spadone', ko: '대검', pt: 'Espadão', de: 'Großschwert' },
+    category: { fr: 'Mêlée — Puissance', en: 'Melee — Power', es: 'Cuerpo a cuerpo — Potencia', it: 'Mischia — Potenza', ko: '근접 — 파워', pt: 'Corpo a corpo — Poder', de: 'Nahkampf — Kraft' },
     description: {
       fr: "Les grandes épées sacrifient la vitesse pour une puissance brute dévastatrice. Chaque frappe inflige des dégâts massifs et peut déstabiliser les ennemis les plus coriaces.",
       en: "Greatswords sacrifice speed for devastating raw power. Every strike deals massive damage and can stagger even the toughest enemies.",
@@ -78,6 +82,7 @@ const weapons: WeaponInfo[] = [
       it: "Gli spadoni sacrificano la velocità per una potenza bruta devastante. Ogni colpo infligge danni massicci e può destabilizzare anche i nemici più coriacei.",
       ko: '대검은 속도를 희생하고 파괴적인 순수 파워를 제공합니다. 모든 공격이 막대한 피해를 주며 가장 강인한 적도 비틀거리게 합니다.',
       pt: 'Espadões sacrificam velocidade por poder bruto devastador. Cada golpe causa dano massivo e pode desestabilizar até os inimigos mais resistentes.',
+      de: 'Großschwerter opfern Geschwindigkeit für verheerende rohe Kraft. Jeder Schlag verursacht massiven Schaden und kann selbst die zähesten Feinde ins Wanken bringen.',
     },
     playstyle: {
       fr: "Le timing est crucial : les ouvertures sont courtes, mais une attaque bien placée peut changer le cours d'un affrontement.",
@@ -86,13 +91,14 @@ const weapons: WeaponInfo[] = [
       it: "Il tempismo è fondamentale: le finestre d'attacco sono brevi, ma un colpo ben piazzato può cambiare le sorti dello scontro.",
       ko: '타이밍이 중요합니다: 공격 기회는 짧지만, 잘 배치된 공격 하나가 전투의 흐름을 바꿀 수 있습니다.',
       pt: 'O timing é crucial: as aberturas são curtas, mas um golpe bem colocado pode mudar o rumo da batalha.',
+      de: 'Timing ist entscheidend: Angriffsfenster sind kurz, aber ein gut platzierter Treffer kann den Kampf wenden.',
     },
     icon: '⚔️',
   },
   {
     id: 'axe',
-    name: { fr: 'Hache', en: 'Axe', es: 'Hacha', it: 'Ascia', ko: '도끼', pt: 'Machado' },
-    category: { fr: 'Mêlée — Agression', en: 'Melee — Aggression', es: 'Cuerpo a cuerpo — Agresión', it: 'Mischia — Aggressione', ko: '근접 — 공격적', pt: 'Corpo a corpo — Agressão' },
+    name: { fr: 'Hache', en: 'Axe', es: 'Hacha', it: 'Ascia', ko: '도끼', pt: 'Machado', de: 'Axt' },
+    category: { fr: 'Mêlée — Agression', en: 'Melee — Aggression', es: 'Cuerpo a cuerpo — Agresión', it: 'Mischia — Aggressione', ko: '근접 — 공격적', pt: 'Corpo a corpo — Agressão', de: 'Nahkampf — Aggression' },
     description: {
       fr: "Les haches incarnent l'agressivité pure. Elles offrent des dégâts élevés avec un rythme de combat soutenu.",
       en: "Axes embody pure aggression. They deliver high damage with a relentless combat tempo.",
@@ -100,6 +106,7 @@ const weapons: WeaponInfo[] = [
       it: "Le asce incarnano l'aggressività pura. Offrono danni elevati con un ritmo di combattimento sostenuto.",
       ko: '도끼는 순수한 공격성을 구현합니다. 끊임없는 전투 템포로 높은 피해를 줍니다.',
       pt: 'Machados incorporam pura agressividade. Oferecem dano elevado com um ritmo de combate implacável.',
+      de: 'Äxte verkörpern pure Aggression. Sie liefern hohen Schaden mit einem unerbittlichen Kampftempo.',
     },
     playstyle: {
       fr: "Combos brutales et satisfaisantes. Particulièrement efficaces contre les ennemis en armure.",
@@ -108,13 +115,14 @@ const weapons: WeaponInfo[] = [
       it: "Combo brutali e soddisfacenti. Particolarmente efficaci contro i nemici corazzati.",
       ko: '잔인하고 만족스러운 콤보. 특히 갑옷 입은 적에게 효과적.',
       pt: 'Combos brutais e satisfatórios. Particularmente eficazes contra inimigos blindados.',
+      de: 'Brutale und befriedigende Kombos. Besonders effektiv gegen gepanzerte Feinde.',
     },
     icon: '🪓',
   },
   {
     id: 'dual-blades',
-    name: { fr: 'Doubles lames', en: 'Dual Blades', es: 'Dobles espadas', it: 'Doppie lame', ko: '쌍검', pt: 'Lâminas duplas' },
-    category: { fr: 'Mêlée — Vitesse', en: 'Melee — Speed', es: 'Cuerpo a cuerpo — Velocidad', it: 'Mischia — Velocità', ko: '근접 — 속도', pt: 'Corpo a corpo — Velocidade' },
+    name: { fr: 'Doubles lames', en: 'Dual Blades', es: 'Dobles espadas', it: 'Doppie lame', ko: '쌍검', pt: 'Lâminas duplas', de: 'Doppelklingen' },
+    category: { fr: 'Mêlée — Vitesse', en: 'Melee — Speed', es: 'Cuerpo a cuerpo — Velocidad', it: 'Mischia — Velocità', ko: '근접 — 속도', pt: 'Corpo a corpo — Velocidade', de: 'Nahkampf — Geschwindigkeit' },
     description: {
       fr: "Les doubles lames privilégient la vitesse et l'agilité. Ce style permet d'enchaîner les attaques à un rythme effréné.",
       en: "Dual blades prioritize speed and agility. This style allows chaining attacks at a frantic pace.",
@@ -122,6 +130,7 @@ const weapons: WeaponInfo[] = [
       it: "Le doppie lame privilegiano velocità e agilità. Questo stile permette di concatenare attacchi a ritmo frenetico.",
       ko: '쌍검은 속도와 민첩성을 우선시합니다. 이 스타일은 광적인 속도로 공격을 연결할 수 있습니다.',
       pt: 'Lâminas duplas priorizam velocidade e agilidade. Este estilo permite encadear ataques em ritmo frenético.',
+      de: 'Doppelklingen setzen auf Geschwindigkeit und Wendigkeit. Dieser Stil ermöglicht es, Angriffe in rasendem Tempo zu verketten.',
     },
     playstyle: {
       fr: "Idéal pour l'esquive et le repositionnement rapide. Chaque coup individuel inflige moins de dégâts mais les enchaînements compensent.",
@@ -130,13 +139,14 @@ const weapons: WeaponInfo[] = [
       it: "Ideale per schivate e riposizionamento rapido. Ogni singolo colpo infligge meno danni ma le combo compensano.",
       ko: '회피와 빠른 재배치에 이상적. 개별 공격은 적은 피해를 주지만 콤보가 보상합니다.',
       pt: 'Ideal para esquiva e reposicionamento rápido. Cada golpe individual causa menos dano, mas os combos compensam.',
+      de: 'Ideal zum Ausweichen und schnellen Repositionieren. Einzelne Treffer verursachen weniger Schaden, aber Kombos gleichen dies aus.',
     },
     icon: '🔪',
   },
   {
     id: 'bow',
-    name: { fr: 'Arc', en: 'Bow', es: 'Arco', it: 'Arco', ko: '활', pt: 'Arco' },
-    category: { fr: 'Distance — Précision', en: 'Ranged — Precision', es: 'Distancia — Precisión', it: 'Distanza — Precisione', ko: '원거리 — 정밀', pt: 'Distância — Precisão' },
+    name: { fr: 'Arc', en: 'Bow', es: 'Arco', it: 'Arco', ko: '활', pt: 'Arco', de: 'Bogen' },
+    category: { fr: 'Distance — Précision', en: 'Ranged — Precision', es: 'Distancia — Precisión', it: 'Distanza — Precisione', ko: '원거리 — 정밀', pt: 'Distância — Precisão', de: 'Fernkampf — Präzision' },
     description: {
       fr: "L'arc est l'arme de choix pour les combats à distance. Il permet de toucher les ennemis avant qu'ils ne puissent réagir.",
       en: "The bow is the weapon of choice for ranged combat. It allows engaging enemies before they can react.",
@@ -144,6 +154,7 @@ const weapons: WeaponInfo[] = [
       it: "L'arco è l'arma d'elezione per il combattimento a distanza. Permette di colpire i nemici prima che possano reagire.",
       ko: '활은 원거리 전투를 위한 최적의 무기입니다. 적이 반응하기 전에 공격할 수 있습니다.',
       pt: 'O arco é a arma ideal para combate à distância. Permite atingir inimigos antes que possam reagir.',
+      de: 'Der Bogen ist die Waffe der Wahl für den Fernkampf. Er ermöglicht es, Feinde zu treffen, bevor sie reagieren können.',
     },
     playstyle: {
       fr: "Tirs de précision sur les points faibles des ennemis et des boss. Avantage stratégique en terrain ouvert.",
@@ -152,13 +163,14 @@ const weapons: WeaponInfo[] = [
       it: "Tiri di precisione sui punti deboli di nemici e boss. Vantaggio strategico in terreno aperto.",
       ko: '적과 보스의 약점을 노리는 정밀 사격. 개방된 지형에서 전략적 이점.',
       pt: 'Tiros de precisão nos pontos fracos de inimigos e chefes. Vantagem estratégica em terreno aberto.',
+      de: 'Präzisionsschüsse auf Schwachstellen von Feinden und Bossen. Strategischer Vorteil im offenen Gelände.',
     },
     icon: '🏹',
   },
   {
     id: 'musket',
-    name: { fr: 'Mousquet', en: 'Musket', es: 'Mosquete', it: 'Moschetto', ko: '머스킷', pt: 'Mosquete' },
-    category: { fr: 'Distance — Puissance', en: 'Ranged — Power', es: 'Distancia — Potencia', it: 'Distanza — Potenza', ko: '원거리 — 파워', pt: 'Distância — Poder' },
+    name: { fr: 'Mousquet', en: 'Musket', es: 'Mosquete', it: 'Moschetto', ko: '머스킷', pt: 'Mosquete', de: 'Muskete' },
+    category: { fr: 'Distance — Puissance', en: 'Ranged — Power', es: 'Distancia — Potencia', it: 'Distanza — Potenza', ko: '원거리 — 파워', pt: 'Distância — Poder', de: 'Fernkampf — Kraft' },
     description: {
       fr: "Le mousquet représente une option à distance unique dans l'univers médiéval-fantastique. Plus puissant que l'arc par tir, il offre des dégâts concentrés sur un seul impact.",
       en: "The musket represents a unique ranged option in the medieval-fantasy setting. More powerful than the bow per shot, it delivers concentrated damage in a single impact.",
@@ -166,6 +178,7 @@ const weapons: WeaponInfo[] = [
       it: "Il moschetto rappresenta un'opzione a distanza unica nell'universo medievale-fantastico. Più potente dell'arco per singolo colpo, offre danni concentrati in un solo impatto.",
       ko: '머스킷은 중세 판타지 세계에서 독특한 원거리 옵션입니다. 활보다 한 발당 더 강력하며, 단일 충격에 집중된 피해를 줍니다.',
       pt: 'O mosquete representa uma opção de distância única no cenário medieval-fantástico. Mais poderoso que o arco por disparo, oferece dano concentrado em um único impacto.',
+      de: 'Die Muskete stellt eine einzigartige Fernkampfoption im mittelalterlich-fantastischen Setting dar. Stärker als der Bogen pro Schuss, liefert sie konzentrierten Schaden in einem einzigen Einschlag.',
     },
     playstyle: {
       fr: "Arme de précision avec un temps de rechargement plus long. Idéale pour ouvrir un combat ou punir les ouvertures.",
@@ -174,6 +187,7 @@ const weapons: WeaponInfo[] = [
       it: "Arma di precisione con tempo di ricarica più lungo. Ideale per aprire un combattimento o punire le aperture del nemico.",
       ko: '재장전 시간이 더 긴 정밀 무기. 전투를 시작하거나 빈틈을 노리는 데 이상적.',
       pt: 'Arma de precisão com tempo de recarga mais longo. Ideal para abrir um combate ou punir aberturas.',
+      de: 'Präzisionswaffe mit längerer Nachladezeit. Ideal zum Eröffnen eines Kampfes oder zum Bestrafen von Blößen.',
     },
     icon: '🔫',
   },

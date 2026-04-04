@@ -106,15 +106,15 @@ const images: GalleryImage[] = [
 ];
 
 const categoryLabels: Record<Category, Record<Lang, string>> = {
-  ALL: { fr: 'Tout', en: 'All', es: 'Todo', it: 'Tutto', ko: '전체', pt: 'Todos' },
-  LANDSCAPES: { fr: 'Paysages', en: 'Landscapes', es: 'Paisajes', it: 'Paesaggi', ko: '풍경', pt: 'Paisagens' },
-  CHARACTERS: { fr: 'Personnages', en: 'Characters', es: 'Personajes', it: 'Personaggi', ko: '캐릭터', pt: 'Personagens' },
-  COMBAT: { fr: 'Combat', en: 'Combat', es: 'Combate', it: 'Combattimento', ko: '전투', pt: 'Combate' },
-  BOSSES: { fr: 'Boss', en: 'Bosses', es: 'Jefes', it: 'Boss', ko: '보스', pt: 'Chefes' },
+  ALL: { fr: 'Tout', en: 'All', es: 'Todo', it: 'Tutto', ko: '전체', pt: 'Todos', de: 'Alle' },
+  LANDSCAPES: { fr: 'Paysages', en: 'Landscapes', es: 'Paisajes', it: 'Paesaggi', ko: '풍경', pt: 'Paisagens', de: 'Landschaften' },
+  CHARACTERS: { fr: 'Personnages', en: 'Characters', es: 'Personajes', it: 'Personaggi', ko: '캐릭터', pt: 'Personagens', de: 'Charaktere' },
+  COMBAT: { fr: 'Combat', en: 'Combat', es: 'Combate', it: 'Combattimento', ko: '전투', pt: 'Combate', de: 'Kampf' },
+  BOSSES: { fr: 'Boss', en: 'Bosses', es: 'Jefes', it: 'Boss', ko: '보스', pt: 'Chefes', de: 'Bosse' },
 };
 
-const galleryTitle: Record<Lang, string> = { fr: 'Galerie', en: 'Gallery', es: 'Galería', it: 'Galleria', ko: '갤러리', pt: 'Galeria' };
-const galleryH1: Record<Lang, string> = { fr: 'Galerie — Crimson Desert', en: 'Gallery — Crimson Desert', es: 'Galería — Crimson Desert', it: 'Galleria — Crimson Desert', ko: '갤러리 — Crimson Desert', pt: 'Galeria — Crimson Desert' };
+const galleryTitle: Record<Lang, string> = { fr: 'Galerie', en: 'Gallery', es: 'Galería', it: 'Galleria', ko: '갤러리', pt: 'Galeria', de: 'Galerie' };
+const galleryH1: Record<Lang, string> = { fr: 'Galerie — Crimson Desert', en: 'Gallery — Crimson Desert', es: 'Galería — Crimson Desert', it: 'Galleria — Crimson Desert', ko: '갤러리 — Crimson Desert', pt: 'Galeria — Crimson Desert', de: 'Galerie — Crimson Desert' };
 const galleryDisclaimer: Record<Lang, string> = {
   fr: 'Toutes les images sont la propriété de Pearl Abyss. Ce site est un wiki fan non-officiel.',
   en: 'All images are property of Pearl Abyss. This is an unofficial fan wiki.',
@@ -122,9 +122,10 @@ const galleryDisclaimer: Record<Lang, string> = {
   it: 'Tutte le immagini sono proprietà di Pearl Abyss. Questo è un wiki fan non ufficiale.',
   ko: '모든 이미지는 Pearl Abyss의 자산입니다. 이것은 비공식 팬 위키입니다.',
   pt: 'Todas as imagens são propriedade da Pearl Abyss. Este é um wiki de fãs não oficial.',
+  de: 'Alle Bilder sind Eigentum von Pearl Abyss. Dies ist ein inoffizielles Fan-Wiki.',
 };
-const fanUse: Record<Lang, string> = { fr: 'Utilisation fan non-commerciale', en: 'Non-commercial fan use', es: 'Uso fan no comercial', it: 'Uso fan non commerciale', ko: '비상업적 팬 사용', pt: 'Uso de fã não comercial' };
-const closeLabel: Record<Lang, string> = { fr: 'Fermer', en: 'Close', es: 'Cerrar', it: 'Chiudi', ko: '닫기', pt: 'Fechar' };
+const fanUse: Record<Lang, string> = { fr: 'Utilisation fan non-commerciale', en: 'Non-commercial fan use', es: 'Uso fan no comercial', it: 'Uso fan non commerciale', ko: '비상업적 팬 사용', pt: 'Uso de fã não comercial', de: 'Nicht-kommerzielle Fan-Nutzung' };
+const closeLabel: Record<Lang, string> = { fr: 'Fermer', en: 'Close', es: 'Cerrar', it: 'Chiudi', ko: '닫기', pt: 'Fechar', de: 'Schließen' };
 
 const Gallery = () => {
   const { lang, t } = useI18n();

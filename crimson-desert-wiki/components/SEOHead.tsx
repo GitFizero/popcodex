@@ -34,6 +34,7 @@ const LOCALE_MAP: Record<Lang, string> = {
   pt: 'pt_BR',
   it: 'it_IT',
   ko: 'ko_KR',
+  de: 'de_DE',
 };
 
 const KEYWORDS: Record<Lang, string> = {
@@ -43,6 +44,7 @@ const KEYWORDS: Record<Lang, string> = {
   pt: 'crimson desert, crimson desert data de lancamento, crimson desert ps5, crimson desert gameplay, crimson desert jogo, crimson desert multiplayer, crimson desert plataformas, crimson desert lancamento, pearl abyss, kliff macduff, pywel, crimson desert wiki',
   it: 'crimson desert, crimson desert data di uscita, crimson desert ps5, crimson desert gameplay, crimson desert gioco, crimson desert multigiocatore, crimson desert piattaforme, crimson desert uscita, pearl abyss, kliff macduff, pywel, crimson desert wiki',
   ko: '크림슨 디저트, 크림슨 디저트 출시일, 크림슨 디저트 PS5, 크림슨 디저트 게임플레이, 크림슨 디저트 게임, 크림슨 디저트 멀티플레이, 크림슨 디저트 플랫폼, 크림슨 디저트 출시, 펄어비스, 클리프 맥더프, 파이웰, 크림슨 디저트 위키',
+  de: 'crimson desert, crimson desert erscheinungsdatum, crimson desert ps5, crimson desert gameplay, crimson desert spiel, crimson desert mehrspieler, crimson desert plattformen, crimson desert release, pearl abyss, kliff macduff, pywel, crimson desert wiki',
 };
 
 const SEOHead = ({

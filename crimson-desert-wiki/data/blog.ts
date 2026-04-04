@@ -13,7 +13,7 @@ export interface BlogArticle {
   author: string;
   publishedAt: string;
   readingTime: number;
-  tags: { fr: string; en: string; es?: string; pt?: string; it?: string; ko?: string }[];
+  tags: { fr: string; en: string; es?: string; pt?: string; it?: string; ko?: string; de?: string }[];
   seoTitle: Translations;
   seoDescription: Translations;
   relatedSlugs?: string[];
@@ -31,6 +31,7 @@ const combatGoblin = '/crimson-desert/combat-goblin.jpg';
 const lakeVillage = '/crimson-desert/lake-village.jpg';
 const pcSpecs = '/crimson-desert/pc-specs.png';
 const pywelGardens = '/crimson-desert/pywel-gardens.jpg';
+const mountainCastle = '/crimson-desert/mountain-castle.jpg';
 
 export const blogArticles: BlogArticle[] = [
   // ─── ARTICLE 1 — WEAPONS ───
@@ -43,10 +44,10 @@ export const blogArticles: BlogArticle[] = [
     publishedAt: '2026-03-08',
     readingTime: 10,
     tags: [
-      { fr: 'armes', en: 'weapons', es: 'armas', it: 'armi' },
-      { fr: 'combat', en: 'combat', es: 'combate', it: 'combattimento' },
-      { fr: 'guide', en: 'guide', es: 'guía', it: 'guida' },
-      { fr: 'mécanique de jeu', en: 'game mechanics', es: 'mecánicas de juego', it: 'meccaniche di gioco' },
+      { fr: 'armes', en: 'weapons', es: 'armas', it: 'armi', de: 'weapons' },
+      { fr: 'combat', en: 'combat', es: 'combate', it: 'combattimento', de: 'combat' },
+      { fr: 'guide', en: 'guide', es: 'guía', it: 'guida', de: 'guide' },
+      { fr: 'mécanique de jeu', en: 'game mechanics', es: 'mecánicas de juego', it: 'meccaniche di gioco', de: 'game mechanics' },
     ],
     title: {
       fr: 'Toutes les armes de Crimson Desert : types, styles de combat et mécaniques expliquées',
@@ -54,6 +55,7 @@ export const blogArticles: BlogArticle[] = [
       es: 'Todas las armas de Crimson Desert: tipos, estilos de combate y mecánicas explicadas',
       it: 'Tutte le armi di Crimson Desert: tipi, stili di combattimento e meccaniche spiegate',
       ko: '크림슨 디저트 전체 무기: 유형, 전투 스타일 및 메카닉 설명',
+      de: 'All Crimson Desert Weapons: Types, Combat Styles & Mechanics Explained',
     },
     excerpt: {
       fr: 'Guide complet des 8 types d\'armes confirmés dans Crimson Desert : épée & bouclier, lance, grande épée, hache, doubles lames, arc, mousquet et combat à mains nues.',
@@ -61,6 +63,7 @@ export const blogArticles: BlogArticle[] = [
       es: 'Guía completa de los 8 tipos de armas confirmados en Crimson Desert: espada y escudo, lanza, espadón, hacha, doble espada, arco, mosquete y combate cuerpo a cuerpo.',
       it: 'Guida completa agli 8 tipi di armi confermati in Crimson Desert: spada e scudo, lancia, spadone, ascia, doppie lame, arco, moschetto e combattimento a mani nude.',
       ko: '크림슨 디저트의 8가지 확인된 무기 유형 완벽 가이드: 검과 방패, 창, 대검, 도끼, 쌍검, 활, 머스킷, 맨손 전투.',
+      de: 'Complete guide to the 8 confirmed weapon types in Crimson Desert: sword & shield, spear, greatsword, axe, dual blades, bow, musket rifle, and unarmed combat.',
     },
     seoTitle: {
       fr: 'Toutes les armes Crimson Desert | 8 types d\'armes, combat & mécaniques | Guide 2026',
@@ -68,6 +71,7 @@ export const blogArticles: BlogArticle[] = [
       es: 'Todas las armas Crimson Desert | 8 tipos de armas, combate y mecánicas | Guía 2026',
       it: 'Tutte le armi Crimson Desert | 8 tipi di armi, combattimento e meccaniche | Guida 2026',
       ko: '크림슨 디저트 무기 전체 | 8가지 무기 유형, 전투 스타일 & 메카닉 가이드 2026',
+      de: 'All Crimson Desert Weapons | 8 Weapon Types, Combat Styles & Mechanics Guide 2026',
     },
     seoDescription: {
       fr: 'Guide des 8 armes de Crimson Desert : épée, lance, grande épée, hache, doubles lames, arc, mousquet et mains nues. Mécaniques, combos et stratégies de combat. Pearl Abyss 2026.',
@@ -75,6 +79,7 @@ export const blogArticles: BlogArticle[] = [
       es: 'Guía de las 8 armas de Crimson Desert: espada, lanza, espadón, hacha, doble espada, arco, mosquete y manos. Mecánicas de combate, combos y estrategias. Pearl Abyss 2026.',
       it: 'Guida alle 8 armi di Crimson Desert: spada, lancia, spadone, ascia, doppie lame, arco, moschetto e mani nude. Meccaniche di combattimento, combo e strategie. Pearl Abyss 2026.',
       ko: '크림슨 디저트 8가지 무기 가이드: 검, 창, 대검, 도끼, 쌍검, 활, 머스킷, 맨손. 전투 메카닉, 콤보 & 전략. 펄어비스 2026.',
+      de: 'Guide to all 8 Crimson Desert weapons: sword & shield, spear, greatsword, axe, dual blades, bow, musket & unarmed. Combat mechanics, combos & strategies. Pearl Abyss 2026.',
     },
     content: {
       fr: `Les armes sont au cœur de l'expérience de Crimson Desert. Contrairement à de nombreux RPG qui limitent le joueur à une seule classe d'arme, le jeu de Pearl Abyss mise sur la fluidité, les transitions dynamiques et l'interaction avec l'environnement. Voici un guide complet des 8 types d'armes confirmés.
@@ -274,10 +279,10 @@ La scelta dell'arma dipende dal tuo stile di gioco. I giocatori aggressivi prefe
     publishedAt: '2026-03-08',
     readingTime: 8,
     tags: [
-      { fr: 'Kliff', en: 'Kliff', es: 'Kliff', it: 'Kliff' },
-      { fr: 'personnage', en: 'character', es: 'personaje', it: 'personaggio' },
-      { fr: 'lore', en: 'lore', es: 'lore', it: 'lore' },
-      { fr: 'Greymanes', en: 'Greymanes', es: 'Greymanes', it: 'Greymanes' },
+      { fr: 'Kliff', en: 'Kliff', es: 'Kliff', it: 'Kliff', de: 'Kliff' },
+      { fr: 'personnage', en: 'character', es: 'personaje', it: 'personaggio', de: 'character' },
+      { fr: 'lore', en: 'lore', es: 'lore', it: 'lore', de: 'lore' },
+      { fr: 'Greymanes', en: 'Greymanes', es: 'Greymanes', it: 'Greymanes', de: 'Greymanes' },
     ],
     title: {
       fr: 'Qui est Kliff Macduff ? Origines, histoire et parcours du protagoniste de Crimson Desert',
@@ -285,6 +290,7 @@ La scelta dell'arma dipende dal tuo stile di gioco. I giocatori aggressivi prefe
       es: '¿Quién es Kliff Macduff? Orígenes, historia y trayectoria del protagonista de Crimson Desert',
       it: 'Chi è Kliff Macduff? Origini, storia e percorso del protagonista di Crimson Desert',
       ko: '클리프 맥더프는 누구인가? 크림슨 디저트 주인공의 기원, 이야기 & 여정',
+      de: 'Who Is Kliff Macduff? Origins, Story & Journey of Crimson Desert\'s Protagonist',
     },
     excerpt: {
       fr: 'Découvrez l\'histoire complète de Kliff Macduff, chef des Crinières Grises et protagoniste principal de Crimson Desert. De Pailune aux sables cramoisis, son parcours de vengeance et de rédemption.',
@@ -292,6 +298,7 @@ La scelta dell'arma dipende dal tuo stile di gioco. I giocatori aggressivi prefe
       es: 'Descubre la historia completa de Kliff Macduff, líder de los Greymanes y protagonista principal de Crimson Desert. De Pailune a las arenas carmesí, su viaje de venganza y redención.',
       it: 'Scopri la storia completa di Kliff Macduff, leader dei Greymanes e protagonista principale di Crimson Desert. Da Pailune alle sabbie cremisi, il suo viaggio di vendetta e redenzione.',
       ko: '그레이메인의 리더이자 크림슨 디저트의 주인공 클리프 맥더프의 전체 이야기. 파일룬에서 진홍 사막까지, 복수와 구원의 여정.',
+      de: 'Discover the full story of Kliff Macduff, leader of the Greymanes and main protagonist of Crimson Desert. From Pailune to the crimson sands, his journey of vengeance and redemption.',
     },
     seoTitle: {
       fr: 'Kliff Macduff Crimson Desert | Histoire, origines & Greymanes | Wiki Lore',
@@ -299,6 +306,7 @@ La scelta dell'arma dipende dal tuo stile di gioco. I giocatori aggressivi prefe
       es: 'Kliff Macduff Crimson Desert | Historia, orígenes y Greymanes | Wiki Lore',
       it: 'Kliff Macduff Crimson Desert | Storia, origini e Greymanes | Wiki Lore',
       ko: '클리프 맥더프 크림슨 디저트 | 스토리, 기원 & 그레이메인 | 세계관 위키',
+      de: 'Kliff Macduff Crimson Desert | Story, Origins & Greymanes | Lore Wiki',
     },
     seoDescription: {
       fr: 'Tout sur Kliff Macduff, le protagoniste de Crimson Desert. Chef des Crinières Grises, origines à Pailune, attaque des Ours Noirs, quête de vengeance sur le continent de Pywel. Pearl Abyss 2026.',
@@ -306,6 +314,7 @@ La scelta dell'arma dipende dal tuo stile di gioco. I giocatori aggressivi prefe
       es: 'Todo sobre Kliff Macduff, protagonista de Crimson Desert. Líder de los Greymanes, orígenes en Pailune, ataque de los Osos Negros, búsqueda de venganza en Pywel. Pearl Abyss 2026.',
       it: 'Tutto su Kliff Macduff, protagonista di Crimson Desert. Leader dei Greymanes, origini a Pailune, attacco degli Orsi Neri, ricerca di vendetta attraverso Pywel. Pearl Abyss 2026.',
       ko: '크림슨 디저트 주인공 클리프 맥더프의 모든 것. 그레이메인 리더, 파일룬 출신, 검은 곰 부대 공격, 파이웰 대륙의 복수 여정. 펄어비스 2026.',
+      de: 'Everything about Kliff Macduff, Crimson Desert\'s protagonist. Leader of the Greymanes, origins in Pailune, Black Bears attack, quest for vengeance across Pywel. Pearl Abyss 2026.',
     },
     content: {
       fr: `Kliff Macduff est le personnage principal de Crimson Desert, le jeu d'action-aventure en monde ouvert développé par Pearl Abyss. Ancien chef incontesté des Crinières Grises (Greymanes), un groupe de mercenaires liés par la loyauté plutôt que par l'argent, Kliff voit son monde basculer en une seule nuit tragique.
@@ -449,10 +458,10 @@ Pearl Abyss ha concepito Kliff come un personaggio autentico, le cui motivazioni
     publishedAt: '2026-03-08',
     readingTime: 12,
     tags: [
-      { fr: 'boss', en: 'boss', es: 'jefe', it: 'boss' },
-      { fr: 'guide', en: 'guide', es: 'guía', it: 'guida' },
-      { fr: 'combat', en: 'combat', es: 'combate', it: 'combattimento' },
-      { fr: 'stratégie', en: 'strategy', es: 'estrategia', it: 'strategia' },
+      { fr: 'boss', en: 'boss', es: 'jefe', it: 'boss', de: 'boss' },
+      { fr: 'guide', en: 'guide', es: 'guía', it: 'guida', de: 'guide' },
+      { fr: 'combat', en: 'combat', es: 'combate', it: 'combattimento', de: 'combat' },
+      { fr: 'stratégie', en: 'strategy', es: 'estrategia', it: 'strategia', de: 'strategy' },
     ],
     title: {
       fr: 'Guide des boss de Crimson Desert : Staglord, Queen Stoneback Crab, Reed Devil et White Horn',
@@ -460,6 +469,7 @@ Pearl Abyss ha concepito Kliff come un personaggio autentico, le cui motivazioni
       es: 'Guía de jefes de Crimson Desert: Staglord, Queen Stoneback Crab, Reed Devil y White Horn',
       it: 'Guida ai boss di Crimson Desert: Staglord, Queen Stoneback Crab, Reed Devil e White Horn',
       ko: '크림슨 디저트 보스 가이드: Staglord, Queen Stoneback Crab, Reed Devil & White Horn',
+      de: 'Crimson Desert Boss Guide: Staglord, Queen Stoneback Crab, Reed Devil & White Horn',
     },
     excerpt: {
       fr: 'Stratégies et conseils pour vaincre les 4 boss majeurs de Crimson Desert. Patterns d\'attaque, faiblesses et mécaniques détaillées pour chaque affrontement.',
@@ -467,6 +477,7 @@ Pearl Abyss ha concepito Kliff come un personaggio autentico, le cui motivazioni
       es: 'Estrategias y consejos para derrotar a los 4 jefes principales de Crimson Desert. Patrones de ataque, debilidades y mecánicas detalladas de cada enfrentamiento.',
       it: 'Strategie e consigli per sconfiggere i 4 boss principali di Crimson Desert. Pattern d\'attacco, debolezze e meccaniche dettagliate per ogni scontro.',
       ko: '크림슨 디저트 4대 보스 공략법. 공격 패턴, 약점, 각 전투의 상세 메카닉.',
+      de: 'Strategies and tips to defeat the 4 major bosses of Crimson Desert. Attack patterns, weaknesses, and detailed mechanics for each encounter.',
     },
     seoTitle: {
       fr: 'Guide Boss Crimson Desert | Staglord, Stoneback Crab, Reed Devil, White Horn | Astuces 2026',
@@ -474,6 +485,7 @@ Pearl Abyss ha concepito Kliff come un personaggio autentico, le cui motivazioni
       es: 'Guía de jefes Crimson Desert | Staglord, Stoneback Crab, Reed Devil, White Horn | Consejos 2026',
       it: 'Guida boss Crimson Desert | Staglord, Stoneback Crab, Reed Devil, White Horn | Consigli 2026',
       ko: '크림슨 디저트 보스 가이드 | Staglord, Stoneback Crab, Reed Devil, White Horn | 공략 2026',
+      de: 'Crimson Desert Boss Guide | Staglord, Stoneback Crab, Reed Devil, White Horn | Tips 2026',
     },
     seoDescription: {
       fr: 'Guide complet des boss de Crimson Desert : Staglord, Queen Stoneback Crab, Reed Devil et White Horn. Patterns d\'attaque, stratégies et astuces pour vaincre chaque boss. Pearl Abyss 2026.',
@@ -481,6 +493,7 @@ Pearl Abyss ha concepito Kliff come un personaggio autentico, le cui motivazioni
       es: 'Guía completa de jefes de Crimson Desert: Staglord, Queen Stoneback Crab, Reed Devil y White Horn. Patrones de ataque, estrategias y consejos. Pearl Abyss 2026.',
       it: 'Guida completa ai boss di Crimson Desert: Staglord, Queen Stoneback Crab, Reed Devil e White Horn. Pattern d\'attacco, strategie e consigli. Pearl Abyss 2026.',
       ko: '크림슨 디저트 보스 완벽 가이드: Staglord, Queen Stoneback Crab, Reed Devil & White Horn. 공격 패턴, 전략 및 공략법. 펄어비스 2026.',
+      de: 'Complete Crimson Desert boss guide: Staglord, Queen Stoneback Crab, Reed Devil & White Horn. Attack patterns, strategies and tips to beat every boss. Pearl Abyss 2026.',
     },
     content: {
       fr: `Les combats de boss sont l'une des expériences les plus marquantes de Crimson Desert. Pearl Abyss a conçu des affrontements spectaculaires qui mettent à l'épreuve la maîtrise du système de combat. Voici un guide détaillé des quatre boss majeurs révélés lors de la Gamescom 2024.
@@ -712,10 +725,10 @@ Indipendentemente dal boss che affronti, alcuni principi restano costanti in Cri
     publishedAt: '2026-03-08',
     readingTime: 9,
     tags: [
-      { fr: 'monde ouvert', en: 'open world', es: 'mundo abierto', it: 'mondo aperto' },
-      { fr: 'carte', en: 'map', es: 'mapa', it: 'mappa' },
-      { fr: 'Pywel', en: 'Pywel', es: 'Pywel', it: 'Pywel' },
-      { fr: 'exploration', en: 'exploration', es: 'exploración', it: 'esplorazione' },
+      { fr: 'monde ouvert', en: 'open world', es: 'mundo abierto', it: 'mondo aperto', de: 'open world' },
+      { fr: 'carte', en: 'map', es: 'mapa', it: 'mappa', de: 'map' },
+      { fr: 'Pywel', en: 'Pywel', es: 'Pywel', it: 'Pywel', de: 'Pywel' },
+      { fr: 'exploration', en: 'exploration', es: 'exploración', it: 'esplorazione', de: 'exploration' },
     ],
     title: {
       fr: 'Carte du monde de Crimson Desert : les 5 régions de Pywel et leurs secrets',
@@ -723,6 +736,7 @@ Indipendentemente dal boss che affronti, alcuni principi restano costanti in Cri
       es: 'Mapa del mundo de Crimson Desert: las 5 regiones de Pywel y sus secretos',
       it: 'Mappa del mondo di Crimson Desert: le 5 regioni di Pywel e i loro segreti',
       ko: '크림슨 디저트 월드맵: 파이웰의 5개 지역과 그 비밀',
+      de: 'Crimson Desert World Map: The 5 Regions of Pywel and Their Secrets',
     },
     excerpt: {
       fr: 'Explorez le continent de Pywel : 5 régions distinctes, une carte massive et près de 3000 éléments de connaissance à découvrir dans le monde ouvert de Crimson Desert.',
@@ -730,6 +744,7 @@ Indipendentemente dal boss che affronti, alcuni principi restano costanti in Cri
       es: 'Explora el continente de Pywel: 5 regiones distintas, un mapa masivo y cerca de 3000 piezas de conocimiento por descubrir en el mundo abierto de Crimson Desert.',
       it: 'Esplora il continente di Pywel: 5 regioni distinte, una mappa enorme e quasi 3000 elementi di conoscenza da scoprire nel mondo aperto di Crimson Desert.',
       ko: '파이웰 대륙 탐험: 5개 고유 지역, 거대한 맵, 크림슨 디저트 오픈 월드에서 발견할 약 3,000개의 지식 항목.',
+      de: 'Explore the continent of Pywel: 5 distinct regions, a massive map, and nearly 3,000 knowledge entries to discover across Crimson Desert\'s open world.',
     },
     seoTitle: {
       fr: 'Carte Crimson Desert | 5 régions de Pywel, taille carte & secrets | Guide monde ouvert 2026',
@@ -737,6 +752,7 @@ Indipendentemente dal boss che affronti, alcuni principi restano costanti in Cri
       es: 'Mapa Crimson Desert | 5 regiones de Pywel, tamaño y secretos | Guía mundo abierto 2026',
       it: 'Mappa Crimson Desert | 5 regioni di Pywel, dimensioni e segreti | Guida mondo aperto 2026',
       ko: '크림슨 디저트 맵 | 파이웰 5개 지역, 맵 크기 & 비밀 | 오픈 월드 가이드 2026',
+      de: 'Crimson Desert Map | 5 Pywel Regions, Map Size & Secrets | Open World Guide 2026',
     },
     seoDescription: {
       fr: 'Guide carte de Crimson Desert : les 5 régions de Pywel, taille de la carte (plus grande que Skyrim), 3000 éléments de connaissance et moyens de transport. Pearl Abyss 2026.',
@@ -744,6 +760,7 @@ Indipendentemente dal boss che affronti, alcuni principi restano costanti in Cri
       es: 'Guía del mapa de Crimson Desert: las 5 regiones de Pywel, tamaño del mapa (más grande que Skyrim), 3000 piezas de conocimiento y medios de transporte. Pearl Abyss 2026.',
       it: 'Guida mappa di Crimson Desert: le 5 regioni di Pywel, dimensioni della mappa (più grande di Skyrim), 3000 elementi di conoscenza e mezzi di trasporto. Pearl Abyss 2026.',
       ko: '크림슨 디저트 맵 가이드: 파이웰 5개 지역, 맵 크기(스카이림보다 큼), 3,000개 지식 항목, 이동 수단. 펄어비스 오픈 월드 게임 2026.',
+      de: 'Crimson Desert map guide: all 5 Pywel regions, map size (bigger than Skyrim), 3,000 knowledge entries, traversal options. Pearl Abyss open world game 2026.',
     },
     content: {
       fr: `Le continent de Pywel est le théâtre de Crimson Desert. Ce monde ouvert massif, que Pearl Abyss a construit pendant plus de sept ans, est l'un des plus ambitieux jamais créés pour un jeu d'action-aventure. Des rumeurs suggèrent que la carte serait deux fois plus grande que celle de Skyrim et plus vaste que celle de Red Dead Redemption 2.
@@ -895,10 +912,10 @@ Pywel non è uno sfondo statico. Il mondo si evolve con un ciclo giorno/notte e 
     publishedAt: '2026-03-08',
     readingTime: 7,
     tags: [
-      { fr: 'comparaison', en: 'comparison', es: 'comparación', it: 'confronto' },
-      { fr: 'Black Desert', en: 'Black Desert', es: 'Black Desert', it: 'Black Desert' },
-      { fr: 'analyse', en: 'analysis', es: 'análisis', it: 'analisi' },
-      { fr: 'multijoueur', en: 'multiplayer', es: 'multijugador', it: 'multigiocatore' },
+      { fr: 'comparaison', en: 'comparison', es: 'comparación', it: 'confronto', de: 'comparison' },
+      { fr: 'Black Desert', en: 'Black Desert', es: 'Black Desert', it: 'Black Desert', de: 'Black Desert' },
+      { fr: 'analyse', en: 'analysis', es: 'análisis', it: 'analisi', de: 'analysis' },
+      { fr: 'multijoueur', en: 'multiplayer', es: 'multijugador', it: 'multigiocatore', de: 'multiplayer' },
     ],
     title: {
       fr: 'Crimson Desert vs Black Desert Online : quelles différences ? Faut-il avoir joué à BDO ?',
@@ -906,6 +923,7 @@ Pywel non è uno sfondo statico. Il mondo si evolve con un ciclo giorno/notte e 
       es: 'Crimson Desert vs Black Desert Online: ¿cuáles son las diferencias? ¿Hay que haber jugado a BDO?',
       it: 'Crimson Desert vs Black Desert Online: quali sono le differenze? Bisogna aver giocato a BDO?',
       ko: '크림슨 디저트 vs 검은사막: 차이점은? BDO를 먼저 플레이해야 할까?',
+      de: 'Crimson Desert vs Black Desert Online: What Are the Differences? Do You Need to Play BDO First?',
     },
     excerpt: {
       fr: 'Crimson Desert et Black Desert Online partagent le même univers, mais sont deux expériences radicalement différentes. Voici tout ce qui les distingue et pourquoi vous n\'avez pas besoin de jouer à BDO.',
@@ -913,6 +931,7 @@ Pywel non è uno sfondo statico. Il mondo si evolve con un ciclo giorno/notte e 
       es: 'Crimson Desert y Black Desert Online comparten el mismo universo, pero son experiencias radicalmente diferentes. Todo lo que los distingue y por qué no necesitas haber jugado a BDO.',
       it: 'Crimson Desert e Black Desert Online condividono lo stesso universo, ma sono esperienze radicalmente diverse. Tutto ciò che li distingue e perché non serve aver giocato a BDO.',
       ko: '크림슨 디저트와 검은사막 온라인은 같은 세계관을 공유하지만 완전히 다른 경험입니다. 두 게임의 차이점과 BDO를 먼저 할 필요가 없는 이유.',
+      de: 'Crimson Desert and Black Desert Online share the same universe but are radically different experiences. Here\'s everything that sets them apart and why you don\'t need to play BDO first.',
     },
     seoTitle: {
       fr: 'Crimson Desert vs Black Desert Online | Différences, solo vs MMO | Comparaison 2026',
@@ -920,6 +939,7 @@ Pywel non è uno sfondo statico. Il mondo si evolve con un ciclo giorno/notte e 
       es: 'Crimson Desert vs Black Desert Online | Diferencias, solo vs MMO | Comparación 2026',
       it: 'Crimson Desert vs Black Desert Online | Differenze, solo vs MMO | Confronto 2026',
       ko: '크림슨 디저트 vs 검은사막 온라인 | 차이점, 솔로 vs MMO | 비교 2026',
+      de: 'Crimson Desert vs Black Desert Online | Differences, Solo vs MMO | Comparison 2026',
     },
     seoDescription: {
       fr: 'Comparaison Crimson Desert vs Black Desert Online : solo vs MMO, combat, histoire, monde ouvert. Faut-il avoir joué à BDO ? Toutes les différences expliquées. Pearl Abyss 2026.',
@@ -927,6 +947,7 @@ Pywel non è uno sfondo statico. Il mondo si evolve con un ciclo giorno/notte e 
       es: 'Comparación Crimson Desert vs Black Desert Online: solo vs MMO, combate, historia, mundo abierto. ¿Hay que haber jugado a BDO? Todas las diferencias explicadas. Pearl Abyss 2026.',
       it: 'Confronto Crimson Desert vs Black Desert Online: solo vs MMO, combattimento, storia, mondo aperto. Bisogna aver giocato a BDO? Tutte le differenze spiegate. Pearl Abyss 2026.',
       ko: '크림슨 디저트 vs 검은사막 온라인 비교: 솔로 vs MMO, 전투, 스토리, 오픈 월드. BDO 플레이 필요? 모든 차이점 설명. 펄어비스 2026.',
+      de: 'Crimson Desert vs Black Desert Online comparison: solo vs MMO, combat, story, open world. Do you need to play BDO? All differences explained. Pearl Abyss 2026.',
     },
     content: {
       fr: `Crimson Desert et Black Desert Online sont tous deux développés par Pearl Abyss et se déroulent dans le même univers. Mais les similitudes s'arrêtent largement là. Voici une analyse complète de ce qui distingue ces deux jeux et pourquoi il n'est absolument pas nécessaire d'avoir joué à BDO pour profiter de Crimson Desert.
@@ -1078,10 +1099,10 @@ Crimson Desert rappresenta l'evoluzione di Pearl Abyss come studio. Dove Black D
     publishedAt: '2026-03-08',
     readingTime: 9,
     tags: [
-      { fr: 'personnages', en: 'characters', es: 'personajes', it: 'personaggi' },
-      { fr: 'Kliff', en: 'Kliff', es: 'Kliff', it: 'Kliff' },
-      { fr: 'Damiane', en: 'Damiane', es: 'Damiane', it: 'Damiane' },
-      { fr: 'Oongka', en: 'Oongka', es: 'Oongka', it: 'Oongka' },
+      { fr: 'personnages', en: 'characters', es: 'personajes', it: 'personaggi', de: 'characters' },
+      { fr: 'Kliff', en: 'Kliff', es: 'Kliff', it: 'Kliff', de: 'Kliff' },
+      { fr: 'Damiane', en: 'Damiane', es: 'Damiane', it: 'Damiane', de: 'Damiane' },
+      { fr: 'Oongka', en: 'Oongka', es: 'Oongka', it: 'Oongka', de: 'Oongka' },
     ],
     title: {
       fr: 'Kliff, Damiane et Oongka : comparaison des 3 personnages jouables de Crimson Desert',
@@ -1089,6 +1110,7 @@ Crimson Desert rappresenta l'evoluzione di Pearl Abyss come studio. Dove Black D
       es: 'Kliff, Damiane y Oongka: comparación de los 3 personajes jugables de Crimson Desert',
       it: 'Kliff, Damiane e Oongka: confronto tra i 3 personaggi giocabili di Crimson Desert',
       ko: '클리프, 다미안 & 웅카: 크림슨 디저트 3명의 플레이어블 캐릭터 비교',
+      de: 'Kliff, Damiane & Oongka: Comparing Crimson Desert\'s 3 Playable Characters',
     },
     excerpt: {
       fr: 'Analyse détaillée des 3 héros jouables : Kliff le mercenaire polyvalent, Damiane la combattante agile et Oongka le colosse brutal. Armes exclusives, styles et rôles narratifs.',
@@ -1096,6 +1118,7 @@ Crimson Desert rappresenta l'evoluzione di Pearl Abyss come studio. Dove Black D
       es: 'Análisis detallado de los 3 héroes jugables: Kliff el mercenario versátil, Damiane la luchadora ágil y Oongka el coloso brutal. Armas exclusivas, estilos y roles narrativos.',
       it: 'Analisi dettagliata dei 3 eroi giocabili: Kliff il mercenario versatile, Damiane la combattente agile e Oongka il colosso brutale. Armi esclusive, stili e ruoli narrativi.',
       ko: '3명의 플레이어블 영웅 상세 분석: 다재다능한 용병 클리프, 민첩한 전투원 다미안, 거대한 전사 웅카. 전용 무기, 스타일 & 내러티브 역할.',
+      de: 'Detailed analysis of the 3 playable heroes: Kliff the versatile mercenary, Damiane the agile fighter, and Oongka the brutal colossus. Exclusive weapons, styles & narrative roles.',
     },
     seoTitle: {
       fr: 'Personnages jouables Crimson Desert | Kliff vs Damiane vs Oongka | Guide comparatif 2026',
@@ -1103,6 +1126,7 @@ Crimson Desert rappresenta l'evoluzione di Pearl Abyss come studio. Dove Black D
       es: 'Personajes jugables Crimson Desert | Kliff vs Damiane vs Oongka | Guía comparativa 2026',
       it: 'Personaggi giocabili Crimson Desert | Kliff vs Damiane vs Oongka | Guida comparativa 2026',
       ko: '크림슨 디저트 플레이어블 캐릭터 | 클리프 vs 다미안 vs 웅카 | 비교 가이드 2026',
+      de: 'Crimson Desert Playable Characters | Kliff vs Damiane vs Oongka | Comparison Guide 2026',
     },
     seoDescription: {
       fr: 'Comparaison des 3 personnages jouables de Crimson Desert : Kliff Macduff, Damiane et Oongka. Armes exclusives, compétences, styles de combat et rôles dans l\'histoire. Pearl Abyss 2026.',
@@ -1110,6 +1134,7 @@ Crimson Desert rappresenta l'evoluzione di Pearl Abyss come studio. Dove Black D
       es: 'Comparación de los 3 personajes jugables de Crimson Desert: Kliff Macduff, Damiane y Oongka. Armas exclusivas, habilidades, estilos de combate y roles en la historia. Pearl Abyss 2026.',
       it: 'Confronto tra i 3 personaggi giocabili di Crimson Desert: Kliff Macduff, Damiane e Oongka. Armi esclusive, abilità, stili di combattimento e ruoli nella storia. Pearl Abyss 2026.',
       ko: '크림슨 디저트 3명의 플레이어블 캐릭터 비교: 클리프 맥더프, 다미안 & 웅카. 전용 무기, 스킬, 전투 스타일 & 스토리 역할. 펄어비스 2026.',
+      de: 'Comparison of Crimson Desert\'s 3 playable characters: Kliff Macduff, Damiane & Oongka. Exclusive weapons, skills, combat styles & story roles. Pearl Abyss 2026.',
     },
     content: {
       fr: `Crimson Desert propose trois personnages jouables, chacun avec un style de combat unique, des armes exclusives et un rôle distinct dans la narration. Contrairement à un système de classes traditionnel, ces héros sont des personnages à part entière avec leur propre histoire et motivations.
@@ -1309,9 +1334,9 @@ Per una prima partita, Kliff è la scelta naturale: è il protagonista principal
     publishedAt: '2026-03-08',
     readingTime: 8,
     tags: [
-      { fr: 'guide débutant', en: 'beginner guide', es: 'guía para principiantes', it: 'guida per principianti' },
-      { fr: 'astuces', en: 'tips', es: 'consejos', it: 'consigli' },
-      { fr: 'progression', en: 'progression', es: 'progresión', it: 'progressione' },
+      { fr: 'guide débutant', en: 'beginner guide', es: 'guía para principiantes', it: 'guida per principianti', de: 'beginner guide' },
+      { fr: 'astuces', en: 'tips', es: 'consejos', it: 'consigli', de: 'tips' },
+      { fr: 'progression', en: 'progression', es: 'progresión', it: 'progressione', de: 'progression' },
     ],
     title: {
       fr: 'Guide du débutant Crimson Desert : 10 conseils essentiels avant de commencer',
@@ -1319,6 +1344,7 @@ Per una prima partita, Kliff è la scelta naturale: è il protagonista principal
       es: 'Guía del principiante Crimson Desert: 10 consejos esenciales antes de empezar',
       it: 'Guida per principianti Crimson Desert: 10 consigli essenziali prima di iniziare',
       ko: '크림슨 디저트 초보자 가이드: 시작 전 필수 10가지 팁',
+      de: 'Crimson Desert Beginner Guide: 10 Essential Tips Before You Start',
     },
     excerpt: {
       fr: 'Tout ce que vous devez savoir avant de lancer Crimson Desert : combat, exploration, progression, armes et survie dans le monde ouvert de Pywel.',
@@ -1326,6 +1352,7 @@ Per una prima partita, Kliff è la scelta naturale: è il protagonista principal
       es: 'Todo lo que necesitas saber antes de lanzar Crimson Desert: combate, exploración, progresión, armas y supervivencia en el mundo abierto de Pywel.',
       it: 'Tutto quello che devi sapere prima di lanciare Crimson Desert: combattimento, esplorazione, progressione, armi e sopravvivenza nel mondo aperto di Pywel.',
       ko: '크림슨 디저트 시작 전 알아야 할 모든 것: 전투, 탐험, 성장, 무기, 파이웰 오픈 월드 생존.',
+      de: 'Everything you need to know before launching Crimson Desert: combat, exploration, progression, weapons, and survival in the open world of Pywel.',
     },
     seoTitle: {
       fr: 'Guide débutant Crimson Desert | 10 conseils essentiels | Astuces 2026',
@@ -1333,6 +1360,7 @@ Per una prima partita, Kliff è la scelta naturale: è il protagonista principal
       es: 'Guía principiante Crimson Desert | 10 consejos esenciales | Trucos 2026',
       it: 'Guida principianti Crimson Desert | 10 consigli essenziali | Suggerimenti 2026',
       ko: '크림슨 디저트 초보자 가이드 | 필수 10가지 팁 | 스타터 가이드 2026',
+      de: 'Crimson Desert Beginner Guide | 10 Essential Tips | Starter Guide 2026',
     },
     seoDescription: {
       fr: 'Guide du débutant Crimson Desert : 10 conseils essentiels pour bien commencer. Combat, exploration, armes, progression et survie dans Pywel. Pearl Abyss 2026.',
@@ -1340,6 +1368,7 @@ Per una prima partita, Kliff è la scelta naturale: è il protagonista principal
       es: 'Guía del principiante Crimson Desert: 10 consejos esenciales para empezar bien. Combate, exploración, armas, progresión y supervivencia en Pywel. Pearl Abyss 2026.',
       it: 'Guida per principianti Crimson Desert: 10 consigli essenziali per iniziare bene. Combattimento, esplorazione, armi, progressione e sopravvivenza a Pywel. Pearl Abyss 2026.',
       ko: '크림슨 디저트 초보자 가이드: 시작을 위한 필수 10가지 팁. 전투, 탐험, 무기, 성장 & 파이웰 생존. 펄어비스 2026.',
+      de: 'Crimson Desert beginner guide: 10 essential tips to get started. Combat, exploration, weapons, progression & survival in Pywel. Pearl Abyss 2026.',
     },
     content: {
       fr: `Crimson Desert est une aventure ambitieuse avec un système de combat profond et un monde ouvert dense. Voici 10 conseils essentiels pour bien débuter votre aventure dans Pywel.
@@ -1523,10 +1552,10 @@ Crimson Desert offre tra 50 e 80 ore di contenuto principale. Non affrettate la 
     publishedAt: '2026-03-08',
     readingTime: 8,
     tags: [
-      { fr: 'performances', en: 'performance', es: 'rendimiento', it: 'prestazioni' },
-      { fr: 'PS5', en: 'PS5', es: 'PS5', it: 'PS5' },
-      { fr: 'PC', en: 'PC', es: 'PC', it: 'PC' },
-      { fr: 'graphismes', en: 'graphics', es: 'gráficos', it: 'grafica' },
+      { fr: 'performances', en: 'performance', es: 'rendimiento', it: 'prestazioni', de: 'performance' },
+      { fr: 'PS5', en: 'PS5', es: 'PS5', it: 'PS5', de: 'PS5' },
+      { fr: 'PC', en: 'PC', es: 'PC', it: 'PC', de: 'PC' },
+      { fr: 'graphismes', en: 'graphics', es: 'gráficos', it: 'grafica', de: 'graphics' },
     ],
     title: {
       fr: 'Crimson Desert sur PS5 et PC : performances, graphismes et configurations requises',
@@ -1534,6 +1563,7 @@ Crimson Desert offre tra 50 e 80 ore di contenuto principale. Non affrettate la 
       es: 'Crimson Desert en PS5 y PC: rendimiento, gráficos y requisitos del sistema',
       it: 'Crimson Desert su PS5 e PC: prestazioni, grafica e requisiti di sistema',
       ko: '크림슨 디저트 PS5 & PC: 성능, 그래픽 & 시스템 요구사양',
+      de: 'Crimson Desert on PS5 & PC: Performance, Graphics & System Requirements',
     },
     excerpt: {
       fr: 'Analyse technique complète : modes graphiques PS5, configurations PC minimales et recommandées, moteur BlackSpace, ray-tracing et résolutions supportées.',
@@ -1541,6 +1571,7 @@ Crimson Desert offre tra 50 e 80 ore di contenuto principale. Non affrettate la 
       es: 'Análisis técnico completo: modos gráficos PS5, configuraciones PC mínimas y recomendadas, motor BlackSpace, ray-tracing y resoluciones soportadas.',
       it: 'Analisi tecnica completa: modalità grafiche PS5, configurazioni PC minime e raccomandate, motore BlackSpace, ray-tracing e risoluzioni supportate.',
       ko: '완전 기술 분석: PS5 그래픽 모드, PC 최소/권장 사양, BlackSpace 엔진, 레이트레이싱, 지원 해상도.',
+      de: 'Complete technical analysis: PS5 graphics modes, minimum and recommended PC specs, BlackSpace engine, ray-tracing, and supported resolutions.',
     },
     seoTitle: {
       fr: 'Crimson Desert PS5 PC | Performances, graphismes, config requise | Analyse technique 2026',
@@ -1548,6 +1579,7 @@ Crimson Desert offre tra 50 e 80 ore di contenuto principale. Non affrettate la 
       es: 'Crimson Desert PS5 PC | Rendimiento, gráficos y requisitos | Análisis técnico 2026',
       it: 'Crimson Desert PS5 PC | Prestazioni, grafica e requisiti | Analisi tecnica 2026',
       ko: '크림슨 디저트 PS5 PC | 성능, 그래픽 & 시스템 요구사양 | 기술 분석 2026',
+      de: 'Crimson Desert PS5 PC | Performance, Graphics & System Requirements | Tech Analysis 2026',
     },
     seoDescription: {
       fr: 'Analyse technique Crimson Desert : performances PS5 (4K, 60fps), config PC requise, moteur BlackSpace, ray-tracing. Comparaison des modes graphiques. Pearl Abyss 2026.',
@@ -1555,6 +1587,7 @@ Crimson Desert offre tra 50 e 80 ore di contenuto principale. Non affrettate la 
       es: 'Análisis técnico Crimson Desert: rendimiento PS5 (4K, 60fps), requisitos PC, motor BlackSpace, ray-tracing. Comparación de modos gráficos. Pearl Abyss 2026.',
       it: 'Analisi tecnica Crimson Desert: prestazioni PS5 (4K, 60fps), requisiti PC, motore BlackSpace, ray-tracing. Confronto modalità grafiche. Pearl Abyss 2026.',
       ko: '크림슨 디저트 기술 분석: PS5 성능 (4K, 60fps), PC 시스템 요구사양, BlackSpace 엔진, 레이트레이싱. 그래픽 모드 비교. 펄어비스 2026.',
+      de: 'Crimson Desert tech analysis: PS5 performance (4K, 60fps), PC system requirements, BlackSpace engine, ray-tracing. Graphics modes comparison. Pearl Abyss 2026.',
     },
     content: {
       fr: `Crimson Desert tourne sur le moteur propriétaire BlackSpace de Pearl Abyss, une évolution du moteur utilisé pour Black Desert Online. Voici tout ce que l'on sait sur les performances et les configurations techniques du jeu.
@@ -1754,9 +1787,9 @@ Crimson Desert rappresenta un salto tecnico significativo per Pearl Abyss. Il mo
     publishedAt: '2026-03-08',
     readingTime: 9,
     tags: [
-      { fr: 'développement', en: 'development', es: 'desarrollo', it: 'sviluppo' },
-      { fr: 'Pearl Abyss', en: 'Pearl Abyss', es: 'Pearl Abyss', it: 'Pearl Abyss' },
-      { fr: 'histoire du jeu', en: 'game history', es: 'historia del juego', it: 'storia del gioco' },
+      { fr: 'développement', en: 'development', es: 'desarrollo', it: 'sviluppo', de: 'development' },
+      { fr: 'Pearl Abyss', en: 'Pearl Abyss', es: 'Pearl Abyss', it: 'Pearl Abyss', de: 'Pearl Abyss' },
+      { fr: 'histoire du jeu', en: 'game history', es: 'historia del juego', it: 'storia del gioco', de: 'game history' },
     ],
     title: {
       fr: 'L\'histoire du développement de Crimson Desert : 7 ans de création, du MMO au solo',
@@ -1764,6 +1797,7 @@ Crimson Desert rappresenta un salto tecnico significativo per Pearl Abyss. Il mo
       es: 'La historia del desarrollo de Crimson Desert: 7 años de creación, del MMO al solo',
       it: 'La storia dello sviluppo di Crimson Desert: 7 anni di creazione, dall\'MMO al single-player',
       ko: '크림슨 디저트 개발 역사: MMO에서 싱글플레이어까지 7년의 여정',
+      de: 'Crimson Desert Development History: 7 Years from MMO to Single-Player',
     },
     excerpt: {
       fr: 'Retour sur 7 ans de développement : de l\'annonce en 2019 comme prequel MMO de Black Desert à la transformation en aventure solo narrative. Les pivots, les reports et la vision de Pearl Abyss.',
@@ -1771,6 +1805,7 @@ Crimson Desert rappresenta un salto tecnico significativo per Pearl Abyss. Il mo
       es: 'Repaso de 7 años de desarrollo: del anuncio en 2019 como precuela MMO de Black Desert a su transformación en aventura solo narrativa. Los pivotes, retrasos y la visión de Pearl Abyss.',
       it: 'Ripercorriamo 7 anni di sviluppo: dall\'annuncio nel 2019 come prequel MMO di Black Desert alla trasformazione in avventura single-player narrativa. I pivot, i ritardi e la visione di Pearl Abyss.',
       ko: '7년간의 개발을 돌아보며: 2019년 검은사막 MMO 프리퀄 발표부터 내러티브 싱글플레이어 어드벤처로의 변신까지. 방향 전환, 연기, 펄어비스의 비전.',
+      de: 'Looking back at 7 years of development: from the 2019 announcement as a Black Desert MMO prequel to its transformation into a narrative single-player adventure. The pivots, delays, and Pearl Abyss\'s vision.',
     },
     seoTitle: {
       fr: 'Histoire du développement Crimson Desert | 7 ans de MMO au solo | Chronologie Pearl Abyss',
@@ -1778,6 +1813,7 @@ Crimson Desert rappresenta un salto tecnico significativo per Pearl Abyss. Il mo
       es: 'Historia del desarrollo Crimson Desert | 7 años del MMO al solo | Cronología Pearl Abyss',
       it: 'Storia dello sviluppo Crimson Desert | 7 anni da MMO a solo | Cronologia Pearl Abyss',
       ko: '크림슨 디저트 개발 역사 | MMO에서 솔로까지 7년 | 펄어비스 타임라인',
+      de: 'Crimson Desert Development History | 7 Years from MMO to Solo | Pearl Abyss Timeline',
     },
     seoDescription: {
       fr: 'Chronologie du développement de Crimson Desert par Pearl Abyss : 7 ans du concept MMO à l\'aventure solo. Annonces, pivots, reports et évolution du jeu jusqu\'à sa sortie 2026.',
@@ -1785,6 +1821,7 @@ Crimson Desert rappresenta un salto tecnico significativo per Pearl Abyss. Il mo
       es: 'Cronología del desarrollo de Crimson Desert por Pearl Abyss: 7 años del concepto MMO a la aventura solo. Anuncios, pivotes, retrasos y evolución del juego hasta su lanzamiento 2026.',
       it: 'Cronologia dello sviluppo di Crimson Desert di Pearl Abyss: 7 anni dal concetto MMO all\'avventura single-player. Annunci, pivot, ritardi ed evoluzione fino all\'uscita 2026.',
       ko: '펄어비스의 크림슨 디저트 개발 타임라인: MMO 컨셉에서 싱글플레이어 어드벤처까지 7년. 발표, 방향 전환, 연기 & 2026년 출시까지의 진화.',
+      de: 'Crimson Desert development timeline by Pearl Abyss: 7 years from MMO concept to single-player adventure. Announcements, pivots, delays & game evolution to 2026 release.',
     },
     content: {
       fr: `Le développement de Crimson Desert est une histoire fascinante de transformation créative. En sept ans, le projet est passé d'un prequel MMO de Black Desert Online à l'une des aventures solo les plus ambitieuses de la génération. Voici la chronologie complète.
@@ -1952,10 +1989,10 @@ Sette anni di sviluppo sono un tempo insolito, anche per un gioco AAA. Questo te
     publishedAt: '2026-03-08',
     readingTime: 10,
     tags: [
-      { fr: 'factions', en: 'factions', es: 'facciones', it: 'fazioni' },
-      { fr: 'Crinières Grises', en: 'Greymanes', es: 'Greymanes', it: 'Greymanes' },
-      { fr: 'Ours Noirs', en: 'Black Bears', es: 'Osos Negros', it: 'Orsi Neri' },
-      { fr: 'Abysse', en: 'Abyss', es: 'Abismo', it: 'Abisso' },
+      { fr: 'factions', en: 'factions', es: 'facciones', it: 'fazioni', de: 'factions' },
+      { fr: 'Crinières Grises', en: 'Greymanes', es: 'Greymanes', it: 'Greymanes', de: 'Greymanes' },
+      { fr: 'Ours Noirs', en: 'Black Bears', es: 'Osos Negros', it: 'Orsi Neri', de: 'Black Bears' },
+      { fr: 'Abysse', en: 'Abyss', es: 'Abismo', it: 'Abisso', de: 'Abyss' },
     ],
     title: {
       fr: 'Les factions de Crimson Desert : Crinières Grises, Ours Noirs et la menace de l\'Abysse',
@@ -1963,6 +2000,7 @@ Sette anni di sviluppo sono un tempo insolito, anche per un gioco AAA. Questo te
       es: 'Las facciones de Crimson Desert: Greymanes, Osos Negros y la amenaza del Abismo',
       it: 'Le fazioni di Crimson Desert: Greymanes, Orsi Neri e la minaccia dell\'Abisso',
       ko: '크림슨 디저트 세력: 그레이메인, 검은 곰 부대 & 심연의 위협 설명',
+      de: 'Crimson Desert Factions: Greymanes, Black Bears & the Abyss Threat Explained',
     },
     excerpt: {
       fr: 'Plongée dans les factions qui façonnent le continent de Pywel : les Crinières Grises de Kliff, les redoutables Ours Noirs et les entités mystérieuses de l\'Abysse.',
@@ -1970,6 +2008,7 @@ Sette anni di sviluppo sono un tempo insolito, anche per un gioco AAA. Questo te
       es: 'Inmersión en las facciones que dan forma al continente de Pywel: los Greymanes de Kliff, los temibles Osos Negros y las misteriosas entidades del Abismo.',
       it: 'Immersione nelle fazioni che plasmano il continente di Pywel: i Greymanes di Kliff, i temibili Orsi Neri e le misteriose entità dell\'Abisso.',
       ko: '파이웰 대륙을 형성하는 세력 심층 분석: 클리프의 그레이메인, 두려운 검은 곰 부대, 신비로운 심연의 존재들.',
+      de: 'Deep dive into the factions that shape the continent of Pywel: Kliff\'s Greymanes, the fearsome Black Bears, and the mysterious Abyss entities.',
     },
     seoTitle: {
       fr: 'Factions Crimson Desert | Crinières Grises, Ours Noirs, Abysse | Lore complet 2026',
@@ -1977,6 +2016,7 @@ Sette anni di sviluppo sono un tempo insolito, anche per un gioco AAA. Questo te
       es: 'Facciones Crimson Desert | Greymanes, Osos Negros, Abismo | Lore completo 2026',
       it: 'Fazioni Crimson Desert | Greymanes, Orsi Neri, Abisso | Lore completo 2026',
       ko: '크림슨 디저트 세력 | 그레이메인, 검은 곰, 심연 | 완전 세계관 가이드 2026',
+      de: 'Crimson Desert Factions | Greymanes, Black Bears, Abyss | Complete Lore Guide 2026',
     },
     seoDescription: {
       fr: 'Guide complet des factions de Crimson Desert : Crinières Grises (Greymanes), Ours Noirs (Black Bears) et les entités de l\'Abysse. Lore, leaders et conflits de Pywel. Pearl Abyss 2026.',
@@ -1984,6 +2024,7 @@ Sette anni di sviluppo sono un tempo insolito, anche per un gioco AAA. Questo te
       es: 'Guía completa de las facciones de Crimson Desert: Greymanes, Osos Negros y entidades del Abismo. Lore, líderes y conflictos de Pywel. Pearl Abyss 2026.',
       it: 'Guida completa alle fazioni di Crimson Desert: Greymanes, Orsi Neri e entità dell\'Abisso. Lore, leader e conflitti di Pywel. Pearl Abyss 2026.',
       ko: '크림슨 디저트 세력 완벽 가이드: 그레이메인, 검은 곰 부대 & 심연의 존재들. 세계관, 리더 & 파이웰의 갈등. 펄어비스 2026.',
+      de: 'Complete guide to Crimson Desert factions: Greymanes, Black Bears & Abyss entities. Lore, leaders & conflicts of Pywel. Pearl Abyss 2026.',
     },
     content: {
       fr: `Le continent de Pywel est déchiré par les conflits entre factions. Comprendre ces groupes est essentiel pour appréhender l'histoire et les enjeux de Crimson Desert. Voici un guide complet des trois factions majeures.
@@ -2231,9 +2272,9 @@ Il sistema di fazioni influenza direttamente il gameplay. Alleanze e rivalità d
     publishedAt: '2026-03-08',
     readingTime: 8,
     tags: [
-      { fr: 'easter eggs', en: 'easter eggs', es: 'easter eggs', it: 'easter eggs' },
-      { fr: 'secrets', en: 'secrets', es: 'secretos', it: 'segreti' },
-      { fr: 'guide', en: 'guide', es: 'guía', it: 'guida' },
+      { fr: 'easter eggs', en: 'easter eggs', es: 'easter eggs', it: 'easter eggs', de: 'easter eggs' },
+      { fr: 'secrets', en: 'secrets', es: 'secretos', it: 'segreti', de: 'secrets' },
+      { fr: 'guide', en: 'guide', es: 'guía', it: 'guida', de: 'guide' },
     ],
     title: {
       fr: 'Easter Eggs Crimson Desert : tous les secrets et références cachées',
@@ -2241,6 +2282,7 @@ Il sistema di fazioni influenza direttamente il gameplay. Alleanze e rivalità d
       es: 'Easter Eggs Crimson Desert: todos los secretos y referencias ocultas',
       it: 'Easter Eggs Crimson Desert: tutti i segreti e i riferimenti nascosti',
       ko: '크림슨 디저트 이스터에그: 모든 숨겨진 비밀 & 레퍼런스',
+      de: 'Crimson Desert Easter Eggs: All Hidden Secrets & References',
     },
     excerpt: {
       fr: 'Découvrez tous les easter eggs et secrets cachés dans Crimson Desert. Références à Black Desert Online, clins d\'œil culturels et surprises dissimulées dans le monde de Pywel.',
@@ -2248,6 +2290,7 @@ Il sistema di fazioni influenza direttamente il gameplay. Alleanze e rivalità d
       es: 'Descubre todos los easter eggs y secretos ocultos en Crimson Desert. Referencias a Black Desert Online, guiños culturales y sorpresas escondidas en Pywel.',
       it: 'Scopri tutti gli easter eggs e i segreti nascosti in Crimson Desert. Riferimenti a Black Desert Online, citazioni culturali e sorprese nascoste in Pywel.',
       ko: '크림슨 디저트의 모든 이스터에그와 숨겨진 비밀. 검은사막 온라인 레퍼런스, 문화적 오마주, 파이웰 곳곳에 숨겨진 서프라이즈.',
+      de: 'Discover all easter eggs and hidden secrets in Crimson Desert. Black Desert Online references, cultural nods, and surprises hidden throughout Pywel.',
     },
     seoTitle: {
       fr: 'Easter Eggs Crimson Desert | Tous les Secrets Cachés | Guide 2026',
@@ -2255,6 +2298,7 @@ Il sistema di fazioni influenza direttamente il gameplay. Alleanze e rivalità d
       es: 'Easter Eggs Crimson Desert | Todos los Secretos Ocultos | Guía 2026',
       it: 'Easter Eggs Crimson Desert | Tutti i Segreti Nascosti | Guida 2026',
       ko: '크림슨 디저트 이스터에그 | 모든 숨겨진 비밀 & 레퍼런스 | 가이드 2026',
+      de: 'Crimson Desert Easter Eggs | All Hidden Secrets & References | Guide 2026',
     },
     seoDescription: {
       fr: 'Liste complète des easter eggs et secrets cachés dans Crimson Desert. Références à Black Desert Online, objets rares et lieux secrets dans Pywel. Pearl Abyss 2026.',
@@ -2262,6 +2306,7 @@ Il sistema di fazioni influenza direttamente il gameplay. Alleanze e rivalità d
       es: 'Lista completa de easter eggs y secretos ocultos en Crimson Desert. Referencias a Black Desert Online, objetos raros y lugares secretos en Pywel. Pearl Abyss 2026.',
       it: 'Lista completa degli easter eggs e segreti nascosti in Crimson Desert. Riferimenti a Black Desert Online, oggetti rari e luoghi segreti a Pywel. Pearl Abyss 2026.',
       ko: '크림슨 디저트 이스터에그와 숨겨진 비밀 전체 목록. 검은사막 온라인 레퍼런스, 희귀 아이템, 파이웰의 비밀 장소. 펄어비스 2026.',
+      de: 'Complete list of easter eggs and hidden secrets in Crimson Desert. Black Desert Online references, rare items and secret locations in Pywel. Pearl Abyss 2026.',
     },
     content: {
       fr: `Crimson Desert regorge de secrets cachés, de clins d'œil et de références dissimulées par Pearl Abyss dans chaque recoin du monde de Pywel. Voici notre guide complet des easter eggs découverts (et à découvrir) dans le jeu.
@@ -2533,9 +2578,9 @@ Consultate la nostra [guida al mondo di Pywel](/world) per individuare le zone p
     publishedAt: '2026-03-08',
     readingTime: 6,
     tags: [
-      { fr: 'cheat codes', en: 'cheat codes', es: 'trucos', it: 'trucchi' },
-      { fr: 'astuces', en: 'tips', es: 'consejos', it: 'consigli' },
-      { fr: 'guide', en: 'guide', es: 'guía', it: 'guida' },
+      { fr: 'cheat codes', en: 'cheat codes', es: 'trucos', it: 'trucchi', de: 'cheat codes' },
+      { fr: 'astuces', en: 'tips', es: 'consejos', it: 'consigli', de: 'tips' },
+      { fr: 'guide', en: 'guide', es: 'guía', it: 'guida', de: 'guide' },
     ],
     title: {
       fr: 'Cheat Codes Crimson Desert : codes triche, commandes console et astuces',
@@ -2543,6 +2588,7 @@ Consultate la nostra [guida al mondo di Pywel](/world) per individuare le zone p
       es: 'Cheat Codes Crimson Desert: trucos, comandos de consola y consejos',
       it: 'Cheat Codes Crimson Desert: trucchi, comandi console e consigli',
       ko: '크림슨 디저트 치트 코드: 콘솔 명령어, 치트 & 팁',
+      de: 'Crimson Desert Cheat Codes: Console Commands, Cheats & Tips',
     },
     excerpt: {
       fr: 'Tous les cheat codes et commandes console de Crimson Desert. Codes triche pour débloquer des armes, de l\'argent, des compétences et plus encore.',
@@ -2550,6 +2596,7 @@ Consultate la nostra [guida al mondo di Pywel](/world) per individuare le zone p
       es: 'Todos los cheat codes y comandos de consola de Crimson Desert. Desbloquea armas, dinero, habilidades y más.',
       it: 'Tutti i cheat codes e comandi console di Crimson Desert. Sblocca armi, denaro, abilità e altro ancora.',
       ko: '크림슨 디저트 모든 치트 코드와 콘솔 명령어. 무기, 돈, 스킬 등을 해금하세요.',
+      de: 'All Crimson Desert cheat codes and console commands. Unlock weapons, money, skills and more with these cheats.',
     },
     seoTitle: {
       fr: 'Cheat Codes Crimson Desert | Codes Triche & Commandes Console | 2026',
@@ -2557,6 +2604,7 @@ Consultate la nostra [guida al mondo di Pywel](/world) per individuare le zone p
       es: 'Cheat Codes Crimson Desert | Trucos y Comandos de Consola | 2026',
       it: 'Cheat Codes Crimson Desert | Trucchi e Comandi Console | 2026',
       ko: '크림슨 디저트 치트 코드 | 콘솔 명령어 & 치트 | 2026',
+      de: 'Crimson Desert Cheat Codes | Console Commands & Cheats | 2026',
     },
     seoDescription: {
       fr: 'Liste complète des cheat codes et commandes console pour Crimson Desert. Codes triche PC, PS5, Xbox Series. Armes, argent, invincibilité. Pearl Abyss 2026.',
@@ -2564,6 +2612,7 @@ Consultate la nostra [guida al mondo di Pywel](/world) per individuare le zone p
       es: 'Lista completa de cheat codes y comandos de consola para Crimson Desert. Trucos PC, PS5, Xbox Series. Armas, dinero, invencibilidad. Pearl Abyss 2026.',
       it: 'Lista completa dei cheat codes e comandi console per Crimson Desert. Trucchi PC, PS5, Xbox Series. Armi, denaro, invincibilità. Pearl Abyss 2026.',
       ko: '크림슨 디저트 치트 코드 및 콘솔 명령어 전체 목록. PC, PS5, Xbox Series 치트. 무기, 돈, 무적. 펄어비스 2026.',
+      de: 'Complete list of cheat codes and console commands for Crimson Desert. PC, PS5, Xbox Series cheats. Weapons, money, invincibility. Pearl Abyss 2026.',
     },
     content: {
       fr: `Crimson Desert dispose-t-il de cheat codes ? Ce guide rassemble toutes les informations connues sur les codes triche, commandes console et astuces pour le jeu de Pearl Abyss.
@@ -2883,10 +2932,10 @@ Se scopri un cheat code o un trucco, faccelo sapere! Aggiorneremo questa guida m
     publishedAt: '2026-03-09',
     readingTime: 8,
     tags: [
-      { fr: 'actualité', en: 'news', es: 'noticias', it: 'notizie' },
-      { fr: 'embargo', en: 'embargo', es: 'embargo', it: 'embargo' },
-      { fr: 'contenu', en: 'content', es: 'contenido', it: 'contenuto' },
-      { fr: 'codex', en: 'codex', es: 'códice', it: 'codice' },
+      { fr: 'actualité', en: 'news', es: 'noticias', it: 'notizie', de: 'news' },
+      { fr: 'embargo', en: 'embargo', es: 'embargo', it: 'embargo', de: 'embargo' },
+      { fr: 'contenu', en: 'content', es: 'contenido', it: 'contenuto', de: 'content' },
+      { fr: 'codex', en: 'codex', es: 'códice', it: 'codice', de: 'codex' },
     ],
     title: {
       fr: 'Crimson Desert post-embargo : toutes les nouvelles infos révélées (codex, contenu, mécaniques)',
@@ -2894,6 +2943,7 @@ Se scopri un cheat code o un trucco, faccelo sapere! Aggiorneremo questa guida m
       es: 'Crimson Desert post-embargo: toda la nueva información revelada (códice, contenido, mecánicas)',
       it: 'Crimson Desert post-embargo: tutte le nuove info rivelate (codice, contenuto, meccaniche)',
       ko: '크림슨 디저트 엠바고 해제: 공개된 모든 새로운 정보 (코덱스, 콘텐츠, 메카닉)',
+      de: 'Crimson Desert Post-Embargo: All New Info Revealed (Codex, Content, Mechanics)',
     },
     excerpt: {
       fr: 'Suite à la levée de l\'embargo, des créateurs ont révélé le codex complet : 467 PNJ, 110 factions, 76 boss, 573 territoires, 29 montures et bien plus. Récap complet.',
@@ -2901,6 +2951,7 @@ Se scopri un cheat code o un trucco, faccelo sapere! Aggiorneremo questa guida m
       es: 'Tras el levantamiento del embargo, los creadores revelaron el códice completo: 467 NPCs, 110 facciones, 76 jefes, 573 territorios, 29 monturas y más. Resumen completo.',
       it: 'Dopo la fine dell\'embargo, i creator hanno rivelato il codice completo: 467 NPC, 110 fazioni, 76 boss, 573 territori, 29 cavalcature e molto altro. Riepilogo completo.',
       ko: '엠바고 해제 후 크리에이터들이 전체 코덱스를 공개: NPC 467명, 세력 110개, 보스 76개, 영토 573개, 탈것 29종 등. 완전 요약.',
+      de: 'Following the embargo lift, creators revealed the full codex: 467 NPCs, 110 factions, 76 bosses, 573 territories, 29 mounts and much more. Complete recap.',
     },
     seoTitle: {
       fr: 'Crimson Desert Post-Embargo | 467 PNJ, 76 Boss, 110 Factions | Récap Complet 2026',
@@ -2908,6 +2959,7 @@ Se scopri un cheat code o un trucco, faccelo sapere! Aggiorneremo questa guida m
       es: 'Crimson Desert Post-Embargo | 467 NPCs, 76 Jefes, 110 Facciones | Resumen 2026',
       it: 'Crimson Desert Post-Embargo | 467 NPC, 76 Boss, 110 Fazioni | Riepilogo 2026',
       ko: '크림슨 디저트 엠바고 해제 | NPC 467명, 보스 76개, 세력 110개 | 완전 요약 2026',
+      de: 'Crimson Desert Post-Embargo | 467 NPCs, 76 Bosses, 110 Factions | Full Recap 2026',
     },
     seoDescription: {
       fr: 'Récap post-embargo Crimson Desert : codex révélé avec 467 PNJ, 110 factions, 573 territoires, 401 créatures, 76 boss, 29 montures, 430 aventures. Toutes les nouvelles infos.',
@@ -2915,6 +2967,7 @@ Se scopri un cheat code o un trucco, faccelo sapere! Aggiorneremo questa guida m
       es: 'Resumen post-embargo Crimson Desert: códice con 467 NPCs, 110 facciones, 573 territorios, 401 criaturas, 76 jefes, 29 monturas, 430 aventuras.',
       it: 'Riepilogo post-embargo Crimson Desert: codice con 467 NPC, 110 fazioni, 573 territori, 401 creature, 76 boss, 29 cavalcature, 430 avventure.',
       ko: '크림슨 디저트 엠바고 해제 요약: NPC 467명, 세력 110개, 영토 573개, 생물 401종, 보스 76개, 탈것 29종, 모험 430개 코덱스 공개.',
+      de: 'Crimson Desert post-embargo recap: codex revealed with 467 NPCs, 110 factions, 573 territories, 401 creatures, 76 bosses, 29 mounts, 430 adventures. All new info.',
     },
     content: {
       fr: `Suite à la levée de l'embargo pour Crimson Desert, plusieurs créateurs de contenu ont partagé des détails inédits sur le jeu de Pearl Abyss. Voici un récap complet de toutes les informations confirmées.
@@ -3162,10 +3215,10 @@ Crimson Desert si profila come uno dei giochi più ambiziosi del 2026. I numeri 
     publishedAt: '2026-03-09',
     readingTime: 10,
     tags: [
-      { fr: 'arbre de compétences', en: 'skill tree', es: 'árbol de habilidades', it: 'albero abilità' },
-      { fr: 'kliff', en: 'kliff', es: 'kliff', it: 'kliff' },
-      { fr: 'guide', en: 'guide', es: 'guía', it: 'guida' },
-      { fr: 'compétences', en: 'skills', es: 'habilidades', it: 'abilità' },
+      { fr: 'arbre de compétences', en: 'skill tree', es: 'árbol de habilidades', it: 'albero abilità', de: 'skill tree' },
+      { fr: 'kliff', en: 'kliff', es: 'kliff', it: 'kliff', de: 'kliff' },
+      { fr: 'guide', en: 'guide', es: 'guía', it: 'guida', de: 'guide' },
+      { fr: 'compétences', en: 'skills', es: 'habilidades', it: 'abilità', de: 'skills' },
     ],
     title: {
       fr: 'Arbre de compétences de Kliff : Stamina, Esprit et Santé — Guide complet',
@@ -3173,6 +3226,7 @@ Crimson Desert si profila come uno dei giochi più ambiziosi del 2026. I numeri 
       es: 'Árbol de habilidades de Kliff: Aguante, Espíritu y Salud — Guía completa',
       it: 'Albero delle abilità di Kliff: Stamina, Spirito e Salute — Guida completa',
       ko: '클리프 스킬 트리: 스태미나, 정신 & 체력 — 완전 가이드',
+      de: 'Kliff\'s Skill Tree: Stamina, Spirit & Health — Complete Guide',
     },
     excerpt: {
       fr: 'Tout sur l\'arbre de compétences de Kliff : 3 branches (Stamina bleu, Esprit vert, Santé rouge), 48 points à répartir, compétences partagées entre personnages et mécanique d\'observation.',
@@ -3180,6 +3234,7 @@ Crimson Desert si profila come uno dei giochi più ambiziosi del 2026. I numeri 
       es: 'Todo sobre el árbol de habilidades de Kliff: 3 ramas (Aguante azul, Espíritu verde, Salud rojo), 48 puntos a repartir, habilidades compartidas y mecánica de observación.',
       it: 'Tutto sull\'albero delle abilità di Kliff: 3 rami (Stamina blu, Spirito verde, Salute rosso), 48 punti da distribuire, abilità condivise e meccanica di osservazione.',
       ko: '클리프 스킬 트리의 모든 것: 3개 분기 (스태미나 파랑, 정신 초록, 체력 빨강), 48포인트 배분, 캐릭터 간 공유 스킬, 관찰 메카닉.',
+      de: 'Everything about Kliff\'s skill tree: 3 branches (Stamina blue, Spirit green, Health red), 48 points to allocate, shared skills between characters and observation mechanic.',
     },
     seoTitle: {
       fr: 'Arbre de compétences Kliff Crimson Desert | Stamina, Esprit, Santé | Guide 2026',
@@ -3187,6 +3242,7 @@ Crimson Desert si profila come uno dei giochi più ambiziosi del 2026. I numeri 
       es: 'Árbol habilidades Kliff Crimson Desert | Aguante, Espíritu, Salud | Guía 2026',
       it: 'Albero abilità Kliff Crimson Desert | Stamina, Spirito, Salute | Guida 2026',
       ko: '클리프 스킬 트리 크림슨 디저트 | 스태미나, 정신, 체력 | 가이드 2026',
+      de: 'Kliff Skill Tree Crimson Desert | Stamina, Spirit, Health | Guide 2026',
     },
     seoDescription: {
       fr: 'Guide complet de l\'arbre de compétences de Kliff dans Crimson Desert : 3 branches (Stamina, Esprit, Santé), 48 points, artefacts, compétences partagées et observation. Pearl Abyss 2026.',
@@ -3194,6 +3250,7 @@ Crimson Desert si profila come uno dei giochi più ambiziosi del 2026. I numeri 
       es: 'Guía completa del árbol de habilidades de Kliff en Crimson Desert: 3 ramas, 48 puntos, artefactos, habilidades compartidas y observación. Pearl Abyss 2026.',
       it: 'Guida completa all\'albero delle abilità di Kliff in Crimson Desert: 3 rami, 48 punti, artefatti, abilità condivise e osservazione. Pearl Abyss 2026.',
       ko: '크림슨 디저트 클리프 스킬 트리 완전 가이드: 3개 분기 (스태미나, 정신, 체력), 48포인트, 아티팩트, 공유 스킬 & 관찰 메카닉. 펄어비스 2026.',
+      de: 'Complete Kliff skill tree guide in Crimson Desert: 3 branches (Stamina, Spirit, Health), 48 points, artifacts, shared skills & observation mechanic. Pearl Abyss 2026.',
     },
     content: {
       fr: `L'arbre de compétences de Crimson Desert est l'une des mécaniques centrales du jeu. Grâce aux informations partagées post-embargo, on connaît désormais en détail sa structure pour Kliff Macduff. Voici le guide complet.
@@ -3463,10 +3520,10 @@ Consulta la nostra [guida ai boss](/blog/boss-guide-staglord-stoneback-crab-reed
     publishedAt: '2026-03-09',
     readingTime: 8,
     tags: [
-      { fr: 'factions', en: 'factions', es: 'facciones', it: 'fazioni' },
-      { fr: 'monnaie', en: 'currency', es: 'moneda', it: 'valuta' },
-      { fr: 'réputation', en: 'reputation', es: 'reputación', it: 'reputazione' },
-      { fr: 'guide', en: 'guide', es: 'guía', it: 'guida' },
+      { fr: 'factions', en: 'factions', es: 'facciones', it: 'fazioni', de: 'factions' },
+      { fr: 'monnaie', en: 'currency', es: 'moneda', it: 'valuta', de: 'currency' },
+      { fr: 'réputation', en: 'reputation', es: 'reputación', it: 'reputazione', de: 'reputation' },
+      { fr: 'guide', en: 'guide', es: 'guía', it: 'guida', de: 'guide' },
     ],
     title: {
       fr: 'Factions, monnaies régionales et réputation dans Crimson Desert — Guide complet',
@@ -3474,6 +3531,7 @@ Consulta la nostra [guida ai boss](/blog/boss-guide-staglord-stoneback-crab-reed
       es: 'Facciones, monedas regionales y reputación en Crimson Desert — Guía completa',
       it: 'Fazioni, valute regionali e reputazione in Crimson Desert — Guida completa',
       ko: '크림슨 디저트의 세력, 지역 화폐 & 평판 — 완벽 가이드',
+      de: 'Factions, Regional Currencies & Reputation in Crimson Desert — Complete Guide',
     },
     excerpt: {
       fr: '110 factions, des monnaies par région, des ouvriers à recruter et un système de réputation profond. Tout sur le système de factions de Crimson Desert.',
@@ -3481,6 +3539,7 @@ Consulta la nostra [guida ai boss](/blog/boss-guide-staglord-stoneback-crab-reed
       es: '110 facciones, monedas por región, trabajadores para reclutar y un sistema de reputación profundo. Todo sobre el sistema de facciones de Crimson Desert.',
       it: '110 fazioni, valute per regione, lavoratori da reclutare e un sistema di reputazione profondo. Tutto sul sistema di fazioni di Crimson Desert.',
       ko: '110개 세력, 지역별 화폐, 모집 가능한 일꾼, 깊이 있는 평판 시스템. 크림슨 디저트의 세력 시스템 완벽 정리.',
+      de: '110 factions, regional currencies, workers to recruit and a deep reputation system. Everything about Crimson Desert\'s faction system.',
     },
     seoTitle: {
       fr: 'Factions Crimson Desert | 110 Factions, Monnaies Régionales & Réputation | Guide 2026',
@@ -3488,6 +3547,7 @@ Consulta la nostra [guida ai boss](/blog/boss-guide-staglord-stoneback-crab-reed
       es: 'Facciones Crimson Desert | 110 Facciones, Monedas Regionales y Reputación | Guía 2026',
       it: 'Fazioni Crimson Desert | 110 Fazioni, Valute Regionali e Reputazione | Guida 2026',
       ko: '크림슨 디저트 세력 | 110개 세력, 지역 화폐 & 평판 | 가이드 2026',
+      de: 'Crimson Desert Factions | 110 Factions, Regional Currencies & Reputation | Guide 2026',
     },
     seoDescription: {
       fr: 'Guide des 110 factions de Crimson Desert : monnaies régionales, réputation, recrutement d\'ouvriers, items régionaux uniques et accès aux zones verrouillées. Pearl Abyss 2026.',
@@ -3495,6 +3555,7 @@ Consulta la nostra [guida ai boss](/blog/boss-guide-staglord-stoneback-crab-reed
       es: 'Guía de las 110 facciones de Crimson Desert: monedas regionales, reputación, reclutamiento de trabajadores y objetos regionales únicos. Pearl Abyss 2026.',
       it: 'Guida alle 110 fazioni di Crimson Desert: valute regionali, reputazione, reclutamento lavoratori e oggetti regionali unici. Pearl Abyss 2026.',
       ko: '크림슨 디저트 110개 세력 가이드: 지역 화폐, 평판, 일꾼 모집, 고유 지역 아이템 & 잠긴 구역 접근. 펄어비스 2026.',
+      de: 'Guide to Crimson Desert\'s 110 factions: regional currencies, reputation, worker recruitment, unique regional items & locked zone access. Pearl Abyss 2026.',
     },
     content: {
       fr: `Le système de factions de Crimson Desert est bien plus profond que ce que les premiers trailers laissaient supposer. Avec 110 factions confirmées dans le codex, c'est un pilier central de l'expérience. Voici tout ce qu'on sait.
@@ -3766,10 +3827,10 @@ Consulta la nostra [guida alle regioni di Pywel](/blog/pywel-world-map-5-regions
     publishedAt: '2026-03-09',
     readingTime: 9,
     tags: [
-      { fr: 'combat', en: 'combat', es: 'combate', it: 'combattimento' },
-      { fr: 'analyse', en: 'analysis', es: 'análisis', it: 'analisi' },
-      { fr: 'stamina', en: 'stamina', es: 'aguante', it: 'stamina' },
-      { fr: 'mécanique', en: 'mechanic', es: 'mecánica', it: 'meccanica' },
+      { fr: 'combat', en: 'combat', es: 'combate', it: 'combattimento', de: 'combat' },
+      { fr: 'analyse', en: 'analysis', es: 'análisis', it: 'analisi', de: 'analysis' },
+      { fr: 'stamina', en: 'stamina', es: 'aguante', it: 'stamina', de: 'stamina' },
+      { fr: 'mécanique', en: 'mechanic', es: 'mecánica', it: 'meccanica', de: 'mechanic' },
     ],
     title: {
       fr: 'Le système de combat décrypté : lock, stamina, parades, esprit et destruction',
@@ -3777,6 +3838,7 @@ Consulta la nostra [guida alle regioni di Pywel](/blog/pywel-world-map-5-regions
       es: 'Sistema de combate decodificado: lock, aguante, paradas, espíritu y destrucción',
       it: 'Sistema di combattimento decodificato: lock, stamina, parate, spirito e distruzione',
       ko: '전투 시스템 해부: 락온, 스태미나, 패링, 정신력 & 환경 파괴',
+      de: 'Combat System Decoded: Lock, Stamina, Parries, Spirit & Destruction',
     },
     excerpt: {
       fr: 'Soft lock vs hard lock, stamina sur les parades, attaques rouges imbloquables, esprit qui se régénère sur les kills, destruction de l\'environnement et interactions élémentaires.',
@@ -3784,6 +3846,7 @@ Consulta la nostra [guida alle regioni di Pywel](/blog/pywel-world-map-5-regions
       es: 'Soft lock vs hard lock, aguante en paradas, ataques rojos imbloqueables, espíritu que se regenera con eliminaciones, destrucción ambiental e interacciones elementales.',
       it: 'Soft lock vs hard lock, stamina sulle parate, attacchi rossi imblocabili, spirito che si rigenera sulle uccisioni, distruzione ambientale e interazioni elementali.',
       ko: '소프트 락 vs 하드 락, 패링 시 스태미나 소모, 방어 불가 빨간 공격, 킬 시 정신력 회복, 환경 파괴와 속성 상호작용.',
+      de: 'Soft lock vs hard lock, stamina on parries, unblockable red attacks, spirit regenerating on kills, environmental destruction and elemental interactions.',
     },
     seoTitle: {
       fr: 'Combat Crimson Desert | Soft Lock, Stamina, Parades & Esprit | Analyse 2026',
@@ -3791,6 +3854,7 @@ Consulta la nostra [guida alle regioni di Pywel](/blog/pywel-world-map-5-regions
       es: 'Combate Crimson Desert | Soft Lock, Aguante, Paradas y Espíritu | Análisis 2026',
       it: 'Combattimento Crimson Desert | Soft Lock, Stamina, Parate e Spirito | Analisi 2026',
       ko: '크림슨 디저트 전투 | 소프트 락, 스태미나, 패링 & 정신력 | 분석 2026',
+      de: 'Crimson Desert Combat | Soft Lock, Stamina, Parries & Spirit | Analysis 2026',
     },
     seoDescription: {
       fr: 'Analyse complète du combat de Crimson Desert : soft lock vs hard lock, stamina, parades, esquives, jauge d\'esprit, destruction environnement, éléments. Pearl Abyss 2026.',
@@ -3798,6 +3862,7 @@ Consulta la nostra [guida alle regioni di Pywel](/blog/pywel-world-map-5-regions
       es: 'Análisis completo del combate de Crimson Desert: soft vs hard lock, aguante, paradas, esquivas, espíritu, destrucción del entorno, elementos. Pearl Abyss 2026.',
       it: 'Analisi completa del combattimento di Crimson Desert: soft vs hard lock, stamina, parate, schivate, spirito, distruzione ambientale, elementi. Pearl Abyss 2026.',
       ko: '크림슨 디저트 전투 완벽 분석: 소프트 vs 하드 락, 스태미나, 패링, 회피, 정신력 게이지, 환경 파괴, 속성. 펄어비스 2026.',
+      de: 'Complete Crimson Desert combat analysis: soft lock vs hard lock, stamina, parries, dodges, spirit gauge, environmental destruction, elements. Pearl Abyss 2026.',
     },
     content: {
       fr: `Les informations post-embargo ont révélé des détails cruciaux sur le système de combat de Crimson Desert. De la gestion de la stamina aux interactions élémentaires, voici l'analyse complète.
@@ -4100,10 +4165,10 @@ Consulta la nostra [guida alle armi](/blog/all-weapons-combat-styles-crimson-des
     publishedAt: '2026-03-09',
     readingTime: 9,
     tags: [
-      { fr: 'exploration', en: 'exploration', es: 'exploración', it: 'esplorazione' },
-      { fr: 'monde ouvert', en: 'open world', es: 'mundo abierto', it: 'mondo aperto' },
-      { fr: 'montures', en: 'mounts', es: 'monturas', it: 'cavalcature' },
-      { fr: 'guide', en: 'guide', es: 'guía', it: 'guida' },
+      { fr: 'exploration', en: 'exploration', es: 'exploración', it: 'esplorazione', de: 'exploration' },
+      { fr: 'monde ouvert', en: 'open world', es: 'mundo abierto', it: 'mondo aperto', de: 'open world' },
+      { fr: 'montures', en: 'mounts', es: 'monturas', it: 'cavalcature', de: 'mounts' },
+      { fr: 'guide', en: 'guide', es: 'guía', it: 'guida', de: 'guide' },
     ],
     title: {
       fr: 'Exploration, clochers, montures, connaissance et craft — Guide Crimson Desert',
@@ -4111,6 +4176,7 @@ Consulta la nostra [guida alle armi](/blog/all-weapons-combat-styles-crimson-des
       es: 'Exploración, campanarios, monturas, conocimiento y fabricación — Guía Crimson Desert',
       it: 'Esplorazione, campanili, cavalcature, conoscenza e crafting — Guida Crimson Desert',
       ko: '탐험, 종탑, 탈것, 지식 & 제작 — 크림슨 디저트 가이드',
+      de: 'Exploration, Bell Towers, Mounts, Knowledge & Crafting — Crimson Desert Guide',
     },
     excerpt: {
       fr: 'Clochers façon Assassin\'s Creed, 29 montures, dalles mystiques, système de connaissance, cuisine, craft et lanterne magique. Tout sur l\'exploration de Pywel.',
@@ -4118,6 +4184,7 @@ Consulta la nostra [guida alle armi](/blog/all-weapons-combat-styles-crimson-des
       es: 'Campanarios estilo Assassin\'s Creed, 29 monturas, losas místicas, sistema de conocimiento, cocina, fabricación y linterna mágica. Todo sobre la exploración de Pywel.',
       it: 'Campanili stile Assassin\'s Creed, 29 cavalcature, lastre mistiche, sistema di conoscenza, cucina, crafting e lanterna magica. Tutto sull\'esplorazione di Pywel.',
       ko: '어쌔신 크리드 스타일 종탑, 29종 탈것, 신비한 석판, 지식 시스템, 요리, 제작, 마법 랜턴. 파이웰 탐험의 모든 것.',
+      de: 'Assassin\'s Creed-style bell towers, 29 mounts, mystic slabs, knowledge system, cooking, crafting and magic lantern. Everything about Pywel exploration.',
     },
     seoTitle: {
       fr: 'Exploration Crimson Desert | Clochers, Montures, Connaissance & Craft | Guide 2026',
@@ -4125,6 +4192,7 @@ Consulta la nostra [guida alle armi](/blog/all-weapons-combat-styles-crimson-des
       es: 'Exploración Crimson Desert | Campanarios, Monturas, Conocimiento y Craft | Guía 2026',
       it: 'Esplorazione Crimson Desert | Campanili, Cavalcature, Conoscenza e Crafting | Guida 2026',
       ko: '크림슨 디저트 탐험 | 종탑, 탈것, 지식 & 제작 | 가이드 2026',
+      de: 'Crimson Desert Exploration | Bell Towers, Mounts, Knowledge & Craft | Guide 2026',
     },
     seoDescription: {
       fr: 'Guide exploration Crimson Desert : clochers, dalles mystiques, 29 montures, système de connaissance, cuisine, craft, lanterne et 573 territoires. Pearl Abyss 2026.',
@@ -4132,6 +4200,7 @@ Consulta la nostra [guida alle armi](/blog/all-weapons-combat-styles-crimson-des
       es: 'Guía exploración Crimson Desert: campanarios, losas místicas, 29 monturas, sistema de conocimiento, cocina, fabricación y 573 territorios. Pearl Abyss 2026.',
       it: 'Guida esplorazione Crimson Desert: campanili, lastre mistiche, 29 cavalcature, sistema di conoscenza, cucina, crafting e 573 territori. Pearl Abyss 2026.',
       ko: '크림슨 디저트 탐험 가이드: 종탑, 신비한 석판, 29종 탈것, 지식 시스템, 요리, 제작, 랜턴 & 573개 영토. 펄어비스 2026.',
+      de: 'Crimson Desert exploration guide: bell towers, mystic slabs, 29 mounts, knowledge system, cooking, crafting, lantern & 573 territories. Pearl Abyss 2026.',
     },
     content: {
       fr: `Le monde de Pywel est absolument gigantesque avec 573 territoires à découvrir. Voici le guide complet des mécaniques d'exploration révélées post-embargo.
@@ -4509,11 +4578,11 @@ Consulta la nostra guida alle [5 regioni di Pywel](/blog/pywel-world-map-5-regio
     publishedAt: '2026-03-10',
     readingTime: 5,
     tags: [
-      { fr: 'configuration PC', en: 'PC specs', es: 'requisitos PC', it: 'requisiti PC' },
-      { fr: 'console', en: 'console', es: 'consola', it: 'console' },
-      { fr: 'Mac', en: 'Mac', es: 'Mac', it: 'Mac' },
-      { fr: 'performances', en: 'performance', es: 'rendimiento', it: 'prestazioni' },
-      { fr: 'configuration requise', en: 'system requirements', es: 'requisitos del sistema', it: 'requisiti di sistema' },
+      { fr: 'configuration PC', en: 'PC specs', es: 'requisitos PC', it: 'requisiti PC', de: 'PC specs' },
+      { fr: 'console', en: 'console', es: 'consola', it: 'console', de: 'console' },
+      { fr: 'Mac', en: 'Mac', es: 'Mac', it: 'Mac', de: 'Mac' },
+      { fr: 'performances', en: 'performance', es: 'rendimiento', it: 'prestazioni', de: 'performance' },
+      { fr: 'configuration requise', en: 'system requirements', es: 'requisitos del sistema', it: 'requisiti di sistema', de: 'system requirements' },
     ],
     title: {
       fr: 'Configuration PC, Console et Mac de Crimson Desert : toutes les spécifications officielles',
@@ -4521,6 +4590,7 @@ Consulta la nostra guida alle [5 regioni di Pywel](/blog/pywel-world-map-5-regio
       es: 'Especificaciones PC, Consola y Mac de Crimson Desert: todos los requisitos oficiales',
       it: 'Specifiche PC, Console e Mac di Crimson Desert: tutti i requisiti ufficiali',
       ko: '크림슨 디저트 PC, 콘솔 & Mac 사양: 공식 시스템 요구사항 전체',
+      de: 'Crimson Desert PC, Console & Mac Specs: All Official System Requirements',
     },
     excerpt: {
       fr: 'Pearl Abyss dévoile les configurations PC requises (Minimum à Ultra), les performances console (PS5, Xbox) et les spécifications Mac pour Crimson Desert. DirectX 12, 150 Go SSD et 16 Go RAM minimum.',
@@ -4528,6 +4598,7 @@ Consulta la nostra guida alle [5 regioni di Pywel](/blog/pywel-world-map-5-regio
       es: 'Pearl Abyss revela los requisitos PC de Crimson Desert (Mínimo a Ultra), rendimiento en consola (PS5, Xbox) y especificaciones Mac. DirectX 12, 150 GB SSD y 16 GB RAM mínimo.',
       it: 'Pearl Abyss rivela i requisiti PC di Crimson Desert (Minimo a Ultra), le prestazioni console (PS5, Xbox) e le specifiche Mac. DirectX 12, 150 GB SSD e 16 GB RAM minimo.',
       ko: '펄어비스가 크림슨 디저트 PC 요구사항(최소~울트라), 콘솔 성능(PS5, Xbox), Mac 사양을 공개. DirectX 12, 150GB SSD, 16GB RAM 최소.',
+      de: 'Pearl Abyss reveals Crimson Desert PC requirements (Minimum to Ultra), console performance specs (PS5, Xbox) and Mac specifications. DirectX 12, 150 GB SSD and 16 GB RAM minimum.',
     },
     seoTitle: {
       fr: 'Config PC Crimson Desert | Minimum, Recommandée, Ultra + Console & Mac | 2026',
@@ -4535,6 +4606,7 @@ Consulta la nostra guida alle [5 regioni di Pywel](/blog/pywel-world-map-5-regio
       es: 'Requisitos PC Crimson Desert | Mínimo, Recomendado, Ultra + Consola & Mac | 2026',
       it: 'Requisiti PC Crimson Desert | Minimo, Raccomandato, Ultra + Console & Mac | 2026',
       ko: '크림슨 디저트 PC 사양 | 최소, 권장, 울트라 + 콘솔 & Mac | 2026',
+      de: 'Crimson Desert PC Specs | Minimum, Recommended, Ultra + Console & Mac | 2026',
     },
     seoDescription: {
       fr: 'Configuration PC officielle Crimson Desert : Minimum (GTX 1060), Recommandée (RTX 2080), Ultra (RTX 5070 Ti). Specs PS5, Xbox Series X|S, ROG Ally et Mac. 150 Go SSD, 16 Go RAM. Pearl Abyss 2026.',
@@ -4542,6 +4614,7 @@ Consulta la nostra guida alle [5 regioni di Pywel](/blog/pywel-world-map-5-regio
       es: 'Requisitos PC oficiales Crimson Desert: Mínimo (GTX 1060), Recomendado (RTX 2080), Ultra (RTX 5070 Ti). PS5, Xbox Series X|S, ROG Ally y Mac. 150 GB SSD, 16 GB RAM. Pearl Abyss 2026.',
       it: 'Requisiti PC ufficiali Crimson Desert: Minimo (GTX 1060), Raccomandato (RTX 2080), Ultra (RTX 5070 Ti). PS5, Xbox Series X|S, ROG Ally e Mac. 150 GB SSD, 16 GB RAM. Pearl Abyss 2026.',
       ko: '크림슨 디저트 공식 PC 사양: 최소(GTX 1060), 권장(RTX 2080), 울트라(RTX 5070 Ti). PS5, Xbox Series X|S, ROG Ally & Mac 사양. 150GB SSD, 16GB RAM. 펄어비스 2026.',
+      de: 'Official Crimson Desert PC specs: Minimum (GTX 1060), Recommended (RTX 2080), Ultra (RTX 5070 Ti). PS5, Xbox Series X|S, ROG Ally & Mac specs. 150 GB SSD, 16 GB RAM. Pearl Abyss 2026.',
     },
     content: {
       fr: `Pearl Abyss a officiellement publié les spécifications de performance de Crimson Desert pour PC, consoles et Mac. Avant de jouer, assurez-vous que votre matériel respecte au minimum les exigences minimales.
@@ -4902,10 +4975,10 @@ Xbox Series X는 PS5와 유사한 성능으로 퍼포먼스/퀄리티 모드를 
     publishedAt: '2026-03-14',
     readingTime: 6,
     tags: [
-      { fr: 'trailer', en: 'trailer', es: 'tráiler', it: 'trailer' },
-      { fr: 'bande-annonce', en: 'announcement', es: 'anuncio', it: 'annuncio' },
-      { fr: 'Pearl Abyss', en: 'Pearl Abyss', es: 'Pearl Abyss', it: 'Pearl Abyss' },
-      { fr: 'gameplay', en: 'gameplay', es: 'gameplay', it: 'gameplay' },
+      { fr: 'trailer', en: 'trailer', es: 'tráiler', it: 'trailer', de: 'trailer' },
+      { fr: 'bande-annonce', en: 'announcement', es: 'anuncio', it: 'annuncio', de: 'announcement' },
+      { fr: 'Pearl Abyss', en: 'Pearl Abyss', es: 'Pearl Abyss', it: 'Pearl Abyss', de: 'Pearl Abyss' },
+      { fr: 'gameplay', en: 'gameplay', es: 'gameplay', it: 'gameplay', de: 'gameplay' },
     ],
     title: {
       fr: 'Trailer officiel de Crimson Desert : analyse complète et détails révélés',
@@ -4913,6 +4986,7 @@ Xbox Series X는 PS5와 유사한 성능으로 퍼포먼스/퀄리티 모드를 
       es: 'Tráiler oficial de Crimson Desert: análisis completo y detalles revelados',
       it: 'Trailer ufficiale di Crimson Desert: analisi completa e dettagli rivelati',
       ko: '크림슨 디저트 공식 트레일러: 완전 분석 및 공개 세부 사항',
+      de: 'Crimson Desert Official Trailer: Full Analysis & Revealed Details',
     },
     excerpt: {
       fr: 'Analyse détaillée du trailer officiel de Crimson Desert par Pearl Abyss. Monde ouvert, combat, personnages et tout ce que la bande-annonce nous révèle.',
@@ -4920,6 +4994,7 @@ Xbox Series X는 PS5와 유사한 성능으로 퍼포먼스/퀄리티 모드를 
       es: 'Análisis detallado del tráiler oficial de Crimson Desert por Pearl Abyss. Mundo abierto, combate, personajes y todo lo que el tráiler nos revela.',
       it: 'Analisi dettagliata del trailer ufficiale di Crimson Desert di Pearl Abyss. Mondo aperto, combattimento, personaggi e tutto ciò che il trailer ci rivela.',
       ko: '펄어비스의 크림슨 디저트 공식 트레일러 상세 분석. 오픈 월드, 전투, 캐릭터 등 트레일러가 보여주는 모든 것.',
+      de: 'Detailed analysis of the official Crimson Desert trailer by Pearl Abyss. Open world, combat, characters, and everything the trailer reveals.',
     },
     seoTitle: {
       fr: 'Trailer Crimson Desert | Analyse Complète Bande-Annonce Officielle | 2026',
@@ -4927,6 +5002,7 @@ Xbox Series X는 PS5와 유사한 성능으로 퍼포먼스/퀄리티 모드를 
       es: 'Tráiler Crimson Desert | Análisis Completo del Avance Oficial | 2026',
       it: 'Trailer Crimson Desert | Analisi Completa Trailer Ufficiale | 2026',
       ko: '크림슨 디저트 트레일러 | 공식 트레일러 완전 분석 | 2026',
+      de: 'Crimson Desert Trailer | Full Official Trailer Analysis | 2026',
     },
     seoDescription: {
       fr: 'Analyse du trailer officiel de Crimson Desert : monde ouvert de Pywel, système de combat, personnages, boss fights et date de sortie. Pearl Abyss 2026.',
@@ -4934,6 +5010,7 @@ Xbox Series X는 PS5와 유사한 성능으로 퍼포먼스/퀄리티 모드를 
       es: 'Análisis del tráiler oficial de Crimson Desert: mundo abierto de Pywel, sistema de combate, personajes, peleas contra jefes y fecha de lanzamiento. Pearl Abyss 2026.',
       it: 'Analisi del trailer ufficiale di Crimson Desert: mondo aperto di Pywel, sistema di combattimento, personaggi, boss fight e data di uscita. Pearl Abyss 2026.',
       ko: '크림슨 디저트 공식 트레일러 분석: 피웰 오픈 월드, 전투 시스템, 캐릭터, 보스 전투 및 출시일. 펄어비스 2026.',
+      de: 'Analysis of the official Crimson Desert trailer: Pywel open world, combat system, characters, boss fights and release date. Pearl Abyss 2026.',
     },
     content: {
       fr: `Le trailer officiel de Crimson Desert a enfin été dévoilé par Pearl Abyss, et il ne déçoit pas. Plongeons dans une analyse détaillée de tout ce que cette bande-annonce révèle sur le jeu le plus attendu de 2026.
@@ -5124,11 +5201,11 @@ Questo trailer conferma che Crimson Desert ha il potenziale di ridefinire il gen
     publishedAt: '2026-03-15',
     readingTime: 8,
     tags: [
-      { fr: 'sortie', en: 'release', es: 'lanzamiento', pt: 'lançamento', it: 'uscita', ko: '출시' },
-      { fr: 'lancement', en: 'launch', es: 'lanzamiento', pt: 'lançamento', it: 'lancio', ko: '런칭' },
-      { fr: 'préchargement', en: 'preload', es: 'precarga', pt: 'pré-download', it: 'precaricamento', ko: '사전 다운로드' },
-      { fr: 'horaires', en: 'times', es: 'horarios', pt: 'horários', it: 'orari', ko: '시간' },
-      { fr: 'FAQ', en: 'FAQ', es: 'FAQ', pt: 'FAQ', it: 'FAQ', ko: 'FAQ' },
+      { fr: 'sortie', en: 'release', es: 'lanzamiento', pt: 'lançamento', it: 'uscita', ko: '출시', de: 'release' },
+      { fr: 'lancement', en: 'launch', es: 'lanzamiento', pt: 'lançamento', it: 'lancio', ko: '런칭', de: 'launch' },
+      { fr: 'préchargement', en: 'preload', es: 'precarga', pt: 'pré-download', it: 'precaricamento', ko: '사전 다운로드', de: 'preload' },
+      { fr: 'horaires', en: 'times', es: 'horarios', pt: 'horários', it: 'orari', ko: '시간', de: 'times' },
+      { fr: 'FAQ', en: 'FAQ', es: 'FAQ', pt: 'FAQ', it: 'FAQ', ko: 'FAQ', de: 'FAQ' },
     ],
     title: {
       fr: 'Crimson Desert : horaires de sortie mondiale, préchargement et FAQ de lancement',
@@ -5137,6 +5214,7 @@ Questo trailer conferma che Crimson Desert ha il potenziale di ridefinire il gen
       pt: 'Crimson Desert: horários de lançamento mundial, pré-download e FAQ de lançamento',
       it: 'Crimson Desert: orari di uscita mondiale, precaricamento e FAQ di lancio',
       ko: '크림슨 디저트: 전 세계 출시 시간, 사전 다운로드 및 런칭 FAQ',
+      de: 'Crimson Desert: Worldwide Release Times, Pre-Load & Launch FAQ',
     },
     excerpt: {
       fr: 'Tous les horaires de sortie de Crimson Desert par fuseau horaire, les dates de préchargement, la taille du jeu, le patch Day 1 et les réponses aux questions fréquentes avant le lancement du 19 mars 2026.',
@@ -5145,6 +5223,7 @@ Questo trailer conferma che Crimson Desert ha il potenziale di ridefinire il gen
       pt: 'Todos os horários de lançamento de Crimson Desert por fuso horário, datas de pré-download, tamanho do jogo, patch do dia 1 e respostas às perguntas frequentes antes do lançamento de 19 de março de 2026.',
       it: 'Tutti gli orari di uscita di Crimson Desert per fuso orario, date di precaricamento, dimensioni del gioco, patch del Day 1 e risposte alle domande frequenti prima del lancio del 19 marzo 2026.',
       ko: '크림슨 디저트 시간대별 출시 시간, 사전 다운로드 날짜, 게임 용량, Day 1 패치 및 2026년 3월 19일 런칭 전 자주 묻는 질문 답변.',
+      de: 'All Crimson Desert release times by timezone, pre-load dates, game size, Day 1 patch details and answers to frequently asked questions ahead of the March 19, 2026 launch.',
     },
     seoTitle: {
       fr: 'Crimson Desert horaires sortie mondiale | Préchargement & FAQ lancement | Mars 2026',
@@ -5153,6 +5232,7 @@ Questo trailer conferma che Crimson Desert ha il potenziale di ridefinire il gen
       pt: 'Crimson Desert horários lançamento mundial | Pré-download e FAQ | Março 2026',
       it: 'Crimson Desert orari uscita mondiale | Precaricamento e FAQ lancio | Marzo 2026',
       ko: '크림슨 디저트 전 세계 출시 시간 | 사전 다운로드 & 런칭 FAQ | 2026년 3월',
+      de: 'Crimson Desert Worldwide Release Times | Pre-Load & Launch FAQ | March 2026',
     },
     seoDescription: {
       fr: 'Horaires de sortie Crimson Desert par fuseau horaire, préchargement 17 mars, taille 150 Go, patch Day 1, langues et FAQ complète. Pearl Abyss 2026.',
@@ -5161,6 +5241,7 @@ Questo trailer conferma che Crimson Desert ha il potenziale di ridefinire il gen
       pt: 'Horários de lançamento Crimson Desert por fuso horário, pré-download 17 março, tamanho 150 GB, patch dia 1, idiomas e FAQ completa. Pearl Abyss 2026.',
       it: 'Orari di uscita Crimson Desert per fuso orario, precaricamento 17 marzo, dimensione 150 GB, patch Day 1, lingue e FAQ completa. Pearl Abyss 2026.',
       ko: '크림슨 디저트 시간대별 출시 시간, 3월 17일 사전 다운로드, 150GB 용량, Day 1 패치, 언어 및 전체 FAQ. 펄어비스 2026.',
+      de: 'Crimson Desert release times by timezone, March 17 pre-load, 150 GB size, Day 1 patch, languages and complete FAQ. Pearl Abyss 2026.',
     },
     content: {
       fr: `Crimson Desert, le très attendu action-RPG en monde ouvert de Pearl Abyss, arrive enfin le **19 mars 2026**. Après des années de développement et de démonstrations impressionnantes, le moment est presque venu de poser les pieds sur le continent de Pywel. Voici tout ce que vous devez savoir avant le jour J : horaires précis, préchargement, configuration requise et réponses à toutes vos questions.
@@ -5548,11 +5629,11 @@ Il lancio di Crimson Desert si preannuncia come uno degli eventi gaming più imp
     publishedAt: '2026-03-15',
     readingTime: 7,
     tags: [
-      { fr: 'éditions', en: 'editions', es: 'ediciones', pt: 'edições', it: 'edizioni', ko: '에디션' },
-      { fr: 'précommande', en: 'preorder', es: 'reserva', pt: 'pré-venda', it: 'preordine', ko: '사전 예약' },
-      { fr: 'collector', en: 'collector', es: 'coleccionista', pt: 'colecionador', it: 'collector', ko: '컬렉터' },
-      { fr: 'deluxe', en: 'deluxe', es: 'deluxe', pt: 'deluxe', it: 'deluxe', ko: '디럭스' },
-      { fr: 'bonus', en: 'bonus', es: 'bonus', pt: 'bônus', it: 'bonus', ko: '보너스' },
+      { fr: 'éditions', en: 'editions', es: 'ediciones', pt: 'edições', it: 'edizioni', ko: '에디션', de: 'editions' },
+      { fr: 'précommande', en: 'preorder', es: 'reserva', pt: 'pré-venda', it: 'preordine', ko: '사전 예약', de: 'preorder' },
+      { fr: 'collector', en: 'collector', es: 'coleccionista', pt: 'colecionador', it: 'collector', ko: '컬렉터', de: 'collector' },
+      { fr: 'deluxe', en: 'deluxe', es: 'deluxe', pt: 'deluxe', it: 'deluxe', ko: '디럭스', de: 'deluxe' },
+      { fr: 'bonus', en: 'bonus', es: 'bonus', pt: 'bônus', it: 'bonus', ko: '보너스', de: 'bonus' },
     ],
     title: {
       fr: 'Crimson Desert : éditions Standard, Deluxe et Collector comparées — quel pack choisir ?',
@@ -5561,6 +5642,7 @@ Il lancio di Crimson Desert si preannuncia come uno degli eventi gaming più imp
       pt: 'Crimson Desert: edições Standard, Deluxe e Collector comparadas — qual pack escolher?',
       it: 'Crimson Desert: edizioni Standard, Deluxe e Collector a confronto — quale scegliere?',
       ko: '크림슨 디저트: 스탠다드, 디럭스, 컬렉터 에디션 비교 — 어떤 팩을 선택할까?',
+      de: 'Crimson Desert: Standard, Deluxe & Collector Editions Compared — Which Pack to Choose?',
     },
     excerpt: {
       fr: 'Comparatif détaillé des 3 éditions de Crimson Desert : contenu de chaque pack, bonus de précommande, exclusivités PS5 et disponibilité du Deluxe Pack après le lancement.',
@@ -5569,6 +5651,7 @@ Il lancio di Crimson Desert si preannuncia come uno degli eventi gaming più imp
       pt: 'Comparação detalhada das 3 edições de Crimson Desert: conteúdo de cada pack, bônus de pré-venda, exclusivos PS5 e disponibilidade do Deluxe Pack após o lançamento.',
       it: 'Confronto dettagliato delle 3 edizioni di Crimson Desert: contenuto di ogni pack, bonus preordine, esclusive PS5 e disponibilità del Deluxe Pack dopo il lancio.',
       ko: '크림슨 디저트 3개 에디션 상세 비교: 각 팩 내용물, 사전 예약 보너스, PS5 독점 및 런칭 후 디럭스 팩 판매 가능 여부.',
+      de: 'Detailed comparison of Crimson Desert\'s 3 editions: contents of each pack, preorder bonuses, PS5 exclusives and Deluxe Pack availability after launch.',
     },
     seoTitle: {
       fr: 'Crimson Desert éditions Standard Deluxe Collector | Comparatif complet | Guide 2026',
@@ -5577,6 +5660,7 @@ Il lancio di Crimson Desert si preannuncia come uno degli eventi gaming più imp
       pt: 'Crimson Desert edições Standard Deluxe Collector | Comparação completa | Guia 2026',
       it: 'Crimson Desert edizioni Standard Deluxe Collector | Confronto completo | Guida 2026',
       ko: '크림슨 디저트 스탠다드 디럭스 컬렉터 에디션 | 전체 비교 | 가이드 2026',
+      de: 'Crimson Desert Standard Deluxe Collector Editions | Full Comparison | Guide 2026',
     },
     seoDescription: {
       fr: 'Comparatif des éditions Standard, Deluxe et Collector de Crimson Desert. Bonus précommande, Khaled Shield, exclusivités PS5, Deluxe Pack. Pearl Abyss 2026.',
@@ -5585,6 +5669,7 @@ Il lancio di Crimson Desert si preannuncia come uno degli eventi gaming più imp
       pt: 'Comparação das edições Standard, Deluxe e Collector de Crimson Desert. Bônus pré-venda, Khaled Shield, exclusivos PS5, Deluxe Pack. Pearl Abyss 2026.',
       it: 'Confronto delle edizioni Standard, Deluxe e Collector di Crimson Desert. Bonus preordine, Khaled Shield, esclusive PS5, Deluxe Pack. Pearl Abyss 2026.',
       ko: '크림슨 디저트 스탠다드, 디럭스, 컬렉터 에디션 비교. 사전 예약 보너스, Khaled Shield, PS5 독점, 디럭스 팩. 펄어비스 2026.',
+      de: 'Comparison of Crimson Desert Standard, Deluxe and Collector editions. Preorder bonuses, Khaled Shield, PS5 exclusives, Deluxe Pack. Pearl Abyss 2026.',
     },
     content: {
       fr: `Crimson Desert sera disponible en trois éditions distinctes au lancement le 19 mars 2026 : Standard, Deluxe et Collector. Chaque version propose un contenu différent, et il peut être difficile de s'y retrouver entre les bonus de précommande, les exclusivités plateformes et les packs additionnels. Ce guide détaillé vous aidera à faire le bon choix.
@@ -6004,11 +6089,11 @@ Mac App Store에서 디지털 스탠다드 에디션으로만 이용 가능합�
     publishedAt: '2026-03-15',
     readingTime: 10,
     tags: [
-      { fr: 'preview', en: 'preview', es: 'preview', pt: 'preview', it: 'anteprima', ko: '프리뷰' },
-      { fr: 'impressions', en: 'impressions', es: 'impresiones', pt: 'impressões', it: 'impressioni', ko: '인상' },
-      { fr: 'test', en: 'test', es: 'prueba', pt: 'teste', it: 'test', ko: '테스트' },
-      { fr: 'avis', en: 'review', es: 'opinión', pt: 'análise', it: 'recensione', ko: '리뷰' },
-      { fr: 'presse', en: 'press', es: 'prensa', pt: 'imprensa', it: 'stampa', ko: '언론' },
+      { fr: 'preview', en: 'preview', es: 'preview', pt: 'preview', it: 'anteprima', ko: '프리뷰', de: 'preview' },
+      { fr: 'impressions', en: 'impressions', es: 'impresiones', pt: 'impressões', it: 'impressioni', ko: '인상', de: 'impressions' },
+      { fr: 'test', en: 'test', es: 'prueba', pt: 'teste', it: 'test', ko: '테스트', de: 'test' },
+      { fr: 'avis', en: 'review', es: 'opinión', pt: 'análise', it: 'recensione', ko: '리뷰', de: 'review' },
+      { fr: 'presse', en: 'press', es: 'prensa', pt: 'imprensa', it: 'stampa', ko: '언론', de: 'press' },
     ],
     title: {
       fr: 'Crimson Desert : synthèse des premières impressions et previews de la presse',
@@ -6017,6 +6102,7 @@ Mac App Store에서 디지털 스탠다드 에디션으로만 이용 가능합�
       pt: 'Crimson Desert: resumo das primeiras impressões e previews da imprensa',
       it: 'Crimson Desert: sintesi delle prime impressioni e anteprime della stampa',
       ko: '크림슨 디저트: 언론 프리뷰 및 첫 인상 종합 정리',
+      de: 'Crimson Desert: First Impressions & Press Preview Roundup',
     },
     excerpt: {
       fr: 'Synthèse des previews de Crimson Desert par la presse spécialisée : combat acclamé, monde comparé à RDR2, performances PS5 Pro et points de vigilance avant la sortie.',
@@ -6025,6 +6111,7 @@ Mac App Store에서 디지털 스탠다드 에디션으로만 이용 가능합�
       pt: 'Resumo das previews de Crimson Desert: combate aclamado, mundo comparado ao RDR2, desempenho no PS5 Pro e pontos de atenção antes do lançamento.',
       it: 'Sintesi delle anteprime di Crimson Desert: combattimento acclamato, mondo paragonato a RDR2, prestazioni PS5 Pro e punti da monitorare prima del lancio.',
       ko: '크림슨 디저트 언론 프리뷰 종합: 호평받은 전투, RDR2에 비견되는 세계, PS5 Pro 성능 및 출시 전 주의 사항.',
+      de: 'Summary of Crimson Desert press previews: acclaimed combat, world compared to RDR2, PS5 Pro performance and concerns to watch before launch.',
     },
     seoTitle: {
       fr: 'Crimson Desert previews presse | Premières impressions combat & monde ouvert | 2026',
@@ -6033,6 +6120,7 @@ Mac App Store에서 디지털 스탠다드 에디션으로만 이용 가능합�
       pt: 'Crimson Desert previews imprensa | Primeiras impressões combate e mundo aberto | 2026',
       it: 'Crimson Desert anteprime stampa | Prime impressioni combattimento e mondo aperto | 2026',
       ko: '크림슨 디저트 언론 프리뷰 | 전투 & 오픈 월드 첫 인상 | 2026',
+      de: 'Crimson Desert Press Previews | First Impressions Combat & Open World | 2026',
     },
     seoDescription: {
       fr: 'Synthèse des previews presse de Crimson Desert. Combat comparé à Devil May Cry, monde ouvert niveau RDR2, PS5 Pro PSSR, 50h en première zone. Pearl Abyss 2026.',
@@ -6041,6 +6129,7 @@ Mac App Store에서 디지털 스탠다드 에디션으로만 이용 가능합�
       pt: 'Resumo previews imprensa Crimson Desert. Combate comparado a Devil May Cry, mundo aberto nível RDR2, PS5 Pro PSSR, 50h na primeira zona. Pearl Abyss 2026.',
       it: 'Sintesi anteprime stampa Crimson Desert. Combattimento paragonato a Devil May Cry, mondo aperto livello RDR2, PS5 Pro PSSR, 50h nella prima zona. Pearl Abyss 2026.',
       ko: '크림슨 디저트 언론 프리뷰 종합. 데빌 메이 크라이에 비견되는 전투, RDR2급 오픈 월드, PS5 Pro PSSR, 첫 번째 지역에서 50시간. 펄어비스 2026.',
+      de: 'Crimson Desert press preview roundup. Combat compared to Devil May Cry, open world RDR2-level, PS5 Pro PSSR, 50h in first zone. Pearl Abyss 2026.',
     },
     content: {
       fr: `À quelques jours de la sortie de Crimson Desert, les premières impressions de la presse spécialisée affluent. Les principales publications gaming internationales ont eu accès à une version avancée du jeu, et leurs retours dressent un portrait fascinant de ce qui attend les joueurs le 19 mars 2026. Voici notre synthèse complète, sans citations directes, basée sur les previews du PlayStation Blog, d'IGN, de PC Gamer, de Digital Foundry et de GameSpot.
@@ -6300,11 +6389,11 @@ Le prime impressioni sono molto positive. Il combattimento è un nuovo riferimen
     publishedAt: '2026-03-15',
     readingTime: 6,
     tags: [
-      { fr: 'Denuvo', en: 'Denuvo', es: 'Denuvo', pt: 'Denuvo', it: 'Denuvo', ko: 'Denuvo' },
-      { fr: 'DRM', en: 'DRM', es: 'DRM', pt: 'DRM', it: 'DRM', ko: 'DRM' },
-      { fr: 'PC', en: 'PC', es: 'PC', pt: 'PC', it: 'PC', ko: 'PC' },
-      { fr: 'performance', en: 'performance', es: 'rendimiento', pt: 'desempenho', it: 'prestazioni', ko: '성능' },
-      { fr: 'controverse', en: 'controversy', es: 'controversia', pt: 'controvérsia', it: 'controversia', ko: '논란' },
+      { fr: 'Denuvo', en: 'Denuvo', es: 'Denuvo', pt: 'Denuvo', it: 'Denuvo', ko: 'Denuvo', de: 'Denuvo' },
+      { fr: 'DRM', en: 'DRM', es: 'DRM', pt: 'DRM', it: 'DRM', ko: 'DRM', de: 'DRM' },
+      { fr: 'PC', en: 'PC', es: 'PC', pt: 'PC', it: 'PC', ko: 'PC', de: 'PC' },
+      { fr: 'performance', en: 'performance', es: 'rendimiento', pt: 'desempenho', it: 'prestazioni', ko: '성능', de: 'performance' },
+      { fr: 'controverse', en: 'controversy', es: 'controversia', pt: 'controvérsia', it: 'controversia', ko: '논란', de: 'controversy' },
     ],
     title: {
       fr: 'Crimson Desert et Denuvo DRM : impact sur les performances et controverse expliquée',
@@ -6313,6 +6402,7 @@ Le prime impressioni sono molto positive. Il combattimento è un nuovo riferimen
       pt: 'Crimson Desert e Denuvo DRM: impacto no desempenho e controvérsia explicada',
       it: 'Crimson Desert e Denuvo DRM: impatto sulle prestazioni e controversia spiegata',
       ko: '크림슨 디저트와 Denuvo DRM: 성능 영향 및 논란 설명',
+      de: 'Crimson Desert and Denuvo DRM: Performance Impact & Controversy Explained',
     },
     excerpt: {
       fr: 'Crimson Desert intègre Denuvo DRM sur PC. Pearl Abyss assure que les performances ne sont pas impactées. Analyse factuelle de la situation et des deux côtés du débat.',
@@ -6321,6 +6411,7 @@ Le prime impressioni sono molto positive. Il combattimento è un nuovo riferimen
       pt: 'Crimson Desert integra Denuvo DRM no PC. A Pearl Abyss garante que o desempenho não é afetado. Análise factual da situação e dos dois lados do debate.',
       it: 'Crimson Desert integra Denuvo DRM su PC. Pearl Abyss assicura che le prestazioni non sono impattate. Analisi fattuale della situazione e di entrambi i lati del dibattito.',
       ko: '크림슨 디저트가 PC에 Denuvo DRM을 포함합니다. 펄어비스는 성능에 영향이 없다고 주장합니다. 상황과 양측 주장에 대한 사실 분석.',
+      de: 'Crimson Desert includes Denuvo DRM on PC. Pearl Abyss claims performance is not impacted. Factual analysis of the situation and both sides of the debate.',
     },
     seoTitle: {
       fr: 'Crimson Desert Denuvo DRM PC | Performance & controverse | Analyse 2026',
@@ -6329,6 +6420,7 @@ Le prime impressioni sono molto positive. Il combattimento è un nuovo riferimen
       pt: 'Crimson Desert Denuvo DRM PC | Desempenho e controvérsia | Análise 2026',
       it: 'Crimson Desert Denuvo DRM PC | Prestazioni e controversia | Analisi 2026',
       ko: '크림슨 디저트 Denuvo DRM PC | 성능 & 논란 | 분석 2026',
+      de: 'Crimson Desert Denuvo DRM PC | Performance & Controversy | Analysis 2026',
     },
     seoDescription: {
       fr: 'Analyse du Denuvo DRM dans Crimson Desert sur PC. Position de Pearl Abyss, BlackSpace Engine, retours des previews et contexte de la controverse. 2026.',
@@ -6337,6 +6429,7 @@ Le prime impressioni sono molto positive. Il combattimento è un nuovo riferimen
       pt: 'Análise do Denuvo DRM em Crimson Desert no PC. Posição da Pearl Abyss, BlackSpace Engine, feedback de previews e contexto da controvérsia. 2026.',
       it: 'Analisi del Denuvo DRM in Crimson Desert su PC. Posizione di Pearl Abyss, BlackSpace Engine, feedback anteprime e contesto della controversia. 2026.',
       ko: '크림슨 디저트 PC Denuvo DRM 분석. 펄어비스 입장, BlackSpace Engine, 프리뷰 피드백 및 논란 맥락. 2026.',
+      de: 'Analysis of Denuvo DRM in Crimson Desert on PC. Pearl Abyss position, BlackSpace Engine, preview feedback and controversy context. 2026.',
     },
     content: {
       fr: `La confirmation de la présence de Denuvo comme protection anti-piratage dans la version PC de Crimson Desert a suscité des réactions dans la communauté gaming. Ce sujet mérite une analyse factuelle et équilibrée, présentant les arguments des deux camps sans parti pris.
@@ -6612,11 +6705,11 @@ Denuvo의 존재는 커뮤니티를 정당하게 나누고 있습니다. PC 플�
     publishedAt: '2026-03-15',
     readingTime: 8,
     tags: [
-      { fr: 'PS5 Pro', en: 'PS5 Pro', es: 'PS5 Pro', pt: 'PS5 Pro', it: 'PS5 Pro', ko: 'PS5 Pro' },
-      { fr: 'PSSR', en: 'PSSR', es: 'PSSR', pt: 'PSSR', it: 'PSSR', ko: 'PSSR' },
-      { fr: 'performance', en: 'performance', es: 'rendimiento', pt: 'desempenho', it: 'prestazioni', ko: '성능' },
-      { fr: 'Digital Foundry', en: 'Digital Foundry', es: 'Digital Foundry', pt: 'Digital Foundry', it: 'Digital Foundry', ko: 'Digital Foundry' },
-      { fr: '4K', en: '4K', es: '4K', pt: '4K', it: '4K', ko: '4K' },
+      { fr: 'PS5 Pro', en: 'PS5 Pro', es: 'PS5 Pro', pt: 'PS5 Pro', it: 'PS5 Pro', ko: 'PS5 Pro', de: 'PS5 Pro' },
+      { fr: 'PSSR', en: 'PSSR', es: 'PSSR', pt: 'PSSR', it: 'PSSR', ko: 'PSSR', de: 'PSSR' },
+      { fr: 'performance', en: 'performance', es: 'rendimiento', pt: 'desempenho', it: 'prestazioni', ko: '성능', de: 'performance' },
+      { fr: 'Digital Foundry', en: 'Digital Foundry', es: 'Digital Foundry', pt: 'Digital Foundry', it: 'Digital Foundry', ko: 'Digital Foundry', de: 'Digital Foundry' },
+      { fr: '4K', en: '4K', es: '4K', pt: '4K', it: '4K', ko: '4K', de: '4K' },
     ],
     title: {
       fr: 'Crimson Desert sur PS5 Pro : analyse PSSR, modes graphiques et performances Digital Foundry',
@@ -6625,6 +6718,7 @@ Denuvo의 존재는 커뮤니티를 정당하게 나누고 있습니다. PC 플�
       pt: 'Crimson Desert no PS5 Pro: análise PSSR, modos gráficos e desempenho Digital Foundry',
       it: 'Crimson Desert su PS5 Pro: analisi PSSR, modalità grafiche e prestazioni Digital Foundry',
       ko: '크림슨 디저트 PS5 Pro: PSSR 분석, 그래픽 모드 및 Digital Foundry 성능',
+      de: 'Crimson Desert on PS5 Pro: PSSR Analysis, Graphics Modes & Digital Foundry Performance',
     },
     excerpt: {
       fr: 'Analyse complète des performances de Crimson Desert sur PS5 Pro : trois modes graphiques testés par Digital Foundry, PSSR version 2, ray-tracing, DualSense et comparaison avec la PS5 de base.',
@@ -6633,6 +6727,7 @@ Denuvo의 존재는 커뮤니티를 정당하게 나누고 있습니다. PC 플�
       pt: 'Análise completa do desempenho de Crimson Desert no PS5 Pro: três modos gráficos testados pelo Digital Foundry, PSSR versão 2, ray-tracing, DualSense e comparação com o PS5 base.',
       it: 'Analisi completa delle prestazioni di Crimson Desert su PS5 Pro: tre modalità grafiche testate da Digital Foundry, PSSR versione 2, ray-tracing, DualSense e confronto con la PS5 base.',
       ko: '크림슨 디저트 PS5 Pro 성능 완전 분석: Digital Foundry가 테스트한 세 가지 그래픽 모드, PSSR 버전 2, 레이트레이싱, DualSense 및 기본 PS5와의 비교.',
+      de: 'Complete performance analysis of Crimson Desert on PS5 Pro: three graphics modes tested by Digital Foundry, PSSR version 2, ray-tracing, DualSense and comparison with base PS5.',
     },
     seoTitle: {
       fr: 'Crimson Desert PS5 Pro | PSSR 4K ray-tracing performance | Digital Foundry analyse 2026',
@@ -6641,6 +6736,7 @@ Denuvo의 존재는 커뮤니티를 정당하게 나누고 있습니다. PC 플�
       pt: 'Crimson Desert PS5 Pro | PSSR 4K ray-tracing desempenho | Digital Foundry análise 2026',
       it: 'Crimson Desert PS5 Pro | PSSR 4K ray-tracing prestazioni | Digital Foundry analisi 2026',
       ko: '크림슨 디저트 PS5 Pro | PSSR 4K 레이트레이싱 성능 | Digital Foundry 분석 2026',
+      de: 'Crimson Desert PS5 Pro | PSSR 4K Ray-Tracing Performance | Digital Foundry Analysis 2026',
     },
     seoDescription: {
       fr: 'Analyse PS5 Pro de Crimson Desert : modes Optimal, Balanced, Quality. PSSR v2 4K, ray-tracing, DualSense haptique, FSR 3, comparaison PS5. Digital Foundry 2026.',
@@ -6649,6 +6745,7 @@ Denuvo의 존재는 커뮤니티를 정당하게 나누고 있습니다. PC 플�
       pt: 'Análise PS5 Pro de Crimson Desert: modos Optimal, Balanced, Quality. PSSR v2 4K, ray-tracing, DualSense háptico, FSR 3, comparação PS5. Digital Foundry 2026.',
       it: 'Analisi PS5 Pro di Crimson Desert: modalità Optimal, Balanced, Quality. PSSR v2 4K, ray-tracing, DualSense aptico, FSR 3, confronto PS5. Digital Foundry 2026.',
       ko: '크림슨 디저트 PS5 Pro 분석: Optimal, Balanced, Quality 모드. PSSR v2 4K, 레이트레이싱, DualSense 햅틱, FSR 3, PS5 비교. Digital Foundry 2026.',
+      de: 'Crimson Desert PS5 Pro analysis: Optimal, Balanced, Quality modes. PSSR v2 4K, ray-tracing, DualSense haptics, FSR 3, PS5 comparison. Digital Foundry 2026.',
     },
     content: {
       fr: `L'une des questions les plus attendues avant le lancement de Crimson Desert concerne ses performances sur PS5 Pro. Digital Foundry, la référence en matière d'analyse technique dans le jeu vidéo, a eu l'occasion de tester en profondeur la version PS5 Pro du jeu. Leurs conclusions sont très éclairantes et nous permettent de dresser un portrait précis de ce que les joueurs PlayStation peuvent attendre.
@@ -7030,11 +7127,11 @@ PS5 Pro에서 활성화: 사실적인 글로벌 일루미네이션, 수면과 �
     publishedAt: '2026-03-30',
     readingTime: 8,
     tags: [
-      { fr: 'ventes', en: 'sales', es: 'ventas', it: 'vendite', ko: '판매' },
-      { fr: 'records', en: 'records', es: 'récords', it: 'record', ko: '기록' },
-      { fr: 'Steam', en: 'Steam', es: 'Steam', it: 'Steam', ko: 'Steam' },
-      { fr: 'lancement', en: 'launch', es: 'lanzamiento', it: 'lancio', ko: '출시' },
-      { fr: 'Pearl Abyss', en: 'Pearl Abyss', es: 'Pearl Abyss', it: 'Pearl Abyss', ko: '펄어비스' },
+      { fr: 'ventes', en: 'sales', es: 'ventas', it: 'vendite', ko: '판매', de: 'sales' },
+      { fr: 'records', en: 'records', es: 'récords', it: 'record', ko: '기록', de: 'records' },
+      { fr: 'Steam', en: 'Steam', es: 'Steam', it: 'Steam', ko: 'Steam', de: 'Steam' },
+      { fr: 'lancement', en: 'launch', es: 'lanzamiento', it: 'lancio', ko: '출시', de: 'launch' },
+      { fr: 'Pearl Abyss', en: 'Pearl Abyss', es: 'Pearl Abyss', it: 'Pearl Abyss', ko: '펄어비스', de: 'Pearl Abyss' },
     ],
     title: {
       fr: 'Crimson Desert : records de ventes, pics de joueurs et impact Steam en chiffres',
@@ -7042,6 +7139,7 @@ PS5 Pro에서 활성화: 사실적인 글로벌 일루미네이션, 수면과 �
       es: 'Crimson Desert: récords de ventas, picos de jugadores e impacto en Steam en cifras',
       it: 'Crimson Desert: record di vendite, picchi di giocatori e impatto su Steam in numeri',
       ko: '크림슨 디저트: 판매 기록, 동시 접속자 수 및 Steam 영향 총정리',
+      de: 'Crimson Desert: Record-Breaking Sales, Player Count & Steam Impact in Numbers',
     },
     excerpt: {
       fr: 'Crimson Desert pulvérise les records : 363 000 pré-ventes Steam, 276 261 joueurs simultanés, 3 millions d\'unités vendues en 5 jours et un score Steam passé de « Mitigé » à « Très positif ».',
@@ -7049,6 +7147,7 @@ PS5 Pro에서 활성화: 사실적인 글로벌 일루미네이션, 수면과 �
       es: 'Crimson Desert rompe récords: 363 000 preventas en Steam, 276 261 jugadores simultáneos, 3 millones de unidades vendidas en 5 días y una puntuación en Steam que pasó de «Mixta» a «Muy positiva».',
       it: 'Crimson Desert frantuma i record: 363.000 prevendite su Steam, 276.261 giocatori simultanei, 3 milioni di unità vendute in 5 giorni e un punteggio Steam passato da "Nella media" a "Molto positivo".',
       ko: '크림슨 디저트 기록 경신: Steam 사전 판매 363,000건, 동시 접속자 276,261명, 5일 만에 300만 장 판매, Steam 평가 "복합적"에서 "매우 긍정적"으로 변화.',
+      de: 'Crimson Desert shatters records: 363,000 Steam pre-sales, 276,261 concurrent players, 3 million units sold in 5 days, and a Steam score that evolved from "Mixed" to "Very Positive."',
     },
     seoTitle: {
       fr: 'Crimson Desert ventes records Steam | 276K joueurs simultanés & 3M vendus | 2026',
@@ -7056,6 +7155,7 @@ PS5 Pro에서 활성화: 사실적인 글로벌 일루미네이션, 수면과 �
       es: 'Crimson Desert ventas récord Steam | 276K jugadores simultáneos y 3M vendidos | 2026',
       it: 'Crimson Desert vendite record Steam | 276K giocatori simultanei e 3M venduti | 2026',
       ko: '크림슨 디저트 Steam 판매 기록 | 동시 접속 276K & 300만 장 판매 | 2026',
+      de: 'Crimson Desert Record Sales Steam | 276K Concurrent Players & 3M Sold | 2026',
     },
     seoDescription: {
       fr: 'Bilan chiffré du lancement de Crimson Desert : 363K pré-ventes Steam, 20M$ de revenus, 276K pic concurrent, 3M d\'unités, score Steam « Très positif ». Pearl Abyss 2026.',
@@ -7063,6 +7163,7 @@ PS5 Pro에서 활성화: 사실적인 글로벌 일루미네이션, 수면과 �
       es: 'Balance del lanzamiento de Crimson Desert: 363K preventas Steam, 20M$ ingresos, 276K pico simultáneo, 3M unidades, puntuación Steam «Muy positiva». Pearl Abyss 2026.',
       it: 'Bilancio del lancio di Crimson Desert: 363K prevendite Steam, 20M$ ricavi, 276K picco simultaneo, 3M unità, punteggio Steam "Molto positivo". Pearl Abyss 2026.',
       ko: '크림슨 디저트 출시 수치 정리: Steam 사전 판매 363K, 매출 2,000만 달러 이상, 동시 접속 276K, 300만 장 판매, Steam "매우 긍정적" 평가. 펄어비스 2026.',
+      de: 'Crimson Desert launch by the numbers: 363K Steam pre-sales, $20M+ revenue, 276K peak concurrent, 3M units sold, Steam score "Very Positive." Pearl Abyss 2026.',
     },
     content: {
       fr: `Crimson Desert est officiellement l'un des plus grands lancements de 2026. En à peine dix jours, le jeu de Pearl Abyss a enchaîné les records sur Steam, atteint des pics de joueurs impressionnants et contribué à un record historique de la plateforme Valve. Voici le bilan complet, chiffres à l'appui.
@@ -7289,12 +7390,12 @@ Crimson Desert si afferma come uno dei lanci più significativi del 2026. Il suo
     publishedAt: '2026-03-30',
     readingTime: 10,
     tags: [
-      { fr: 'guide avancé', en: 'advanced guide', es: 'guía avanzada', it: 'guida avanzata', ko: '고급 가이드' },
-      { fr: 'astuces', en: 'tips', es: 'consejos', it: 'consigli', ko: '팁' },
-      { fr: 'combat', en: 'combat', es: 'combate', it: 'combattimento', ko: '전투' },
-      { fr: 'exploration', en: 'exploration', es: 'exploración', it: 'esplorazione', ko: '탐험' },
-      { fr: 'camp', en: 'camp', es: 'campamento', it: 'campo', ko: '캠프' },
-      { fr: 'montures', en: 'mounts', es: 'monturas', it: 'cavalcature', ko: '탈것' },
+      { fr: 'guide avancé', en: 'advanced guide', es: 'guía avanzada', it: 'guida avanzata', ko: '고급 가이드', de: 'advanced guide' },
+      { fr: 'astuces', en: 'tips', es: 'consejos', it: 'consigli', ko: '팁', de: 'tips' },
+      { fr: 'combat', en: 'combat', es: 'combate', it: 'combattimento', ko: '전투', de: 'combat' },
+      { fr: 'exploration', en: 'exploration', es: 'exploración', it: 'esplorazione', ko: '탐험', de: 'exploration' },
+      { fr: 'camp', en: 'camp', es: 'campamento', it: 'campo', ko: '캠프', de: 'camp' },
+      { fr: 'montures', en: 'mounts', es: 'monturas', it: 'cavalcature', ko: '탈것', de: 'mounts' },
     ],
     title: {
       fr: 'Crimson Desert : astuces avancées pour le combat, l\'exploration et la gestion du camp',
@@ -7302,6 +7403,7 @@ Crimson Desert si afferma come uno dei lanci più significativi del 2026. Il suo
       es: 'Crimson Desert: consejos avanzados para combate, exploración y gestión del campamento',
       it: 'Crimson Desert: trucchi avanzati per combattimento, esplorazione e gestione del campo',
       ko: '크림슨 디저트: 전투, 탐험 및 캠프 관리를 위한 고급 팁과 요령',
+      de: 'Crimson Desert: Advanced Tips & Tricks for Combat, Exploration & Camp Management',
     },
     excerpt: {
       fr: 'Maîtrisez Crimson Desert avec nos astuces avancées : système de soin par la nourriture, maîtrise du combat, secrets d\'exploration, économie, camp et montures. Inclut les changements des patchs 1.00.03 et 1.01.00.',
@@ -7309,6 +7411,7 @@ Crimson Desert si afferma come uno dei lanci più significativi del 2026. Il suo
       es: 'Domina Crimson Desert con nuestros consejos avanzados: sistema de curación por comida, maestría en combate, secretos de exploración, economía, campamento y monturas. Incluye cambios de los parches 1.00.03 y 1.01.00.',
       it: 'Padroneggia Crimson Desert con i nostri trucchi avanzati: sistema di cura tramite cibo, padronanza del combattimento, segreti di esplorazione, economia, campo e cavalcature. Include le modifiche delle patch 1.00.03 e 1.01.00.',
       ko: '크림슨 디저트 고급 팁: 음식 기반 치유 시스템, 전투 마스터리, 탐험 비밀, 경제, 캠프 관리 및 탈것. 패치 1.00.03 및 1.01.00 변경 사항 포함.',
+      de: 'Master Crimson Desert with our advanced tips: food-based healing system, combat mastery, exploration secrets, economy, camp management and mounts. Includes patch 1.00.03 and 1.01.00 changes.',
     },
     seoTitle: {
       fr: 'Crimson Desert astuces avancées | Combat, exploration, camp | Guide expert 2026',
@@ -7316,6 +7419,7 @@ Crimson Desert si afferma come uno dei lanci più significativi del 2026. Il suo
       es: 'Crimson Desert consejos avanzados | Combate, exploración, campamento | Guía experta 2026',
       it: 'Crimson Desert trucchi avanzati | Combattimento, esplorazione, campo | Guida esperta 2026',
       ko: '크림슨 디저트 고급 팁 | 전투, 탐험, 캠프 | 전문가 가이드 2026',
+      de: 'Crimson Desert Advanced Tips | Combat, Exploration, Camp | Expert Guide 2026',
     },
     seoDescription: {
       fr: 'Guide avancé Crimson Desert : soin par nourriture, combat agressif, parade et Encounter, exploration Abyss, camp, montures et patchs 1.00.03/1.01.00. Pearl Abyss 2026.',
@@ -7323,6 +7427,7 @@ Crimson Desert si afferma come uno dei lanci più significativi del 2026. Il suo
       es: 'Guía avanzada Crimson Desert: curación por comida, combate agresivo, parada y Encounter, exploración Abyss, campamento, monturas y parches 1.00.03/1.01.00. Pearl Abyss 2026.',
       it: 'Guida avanzata Crimson Desert: cura tramite cibo, combattimento aggressivo, parata e Encounter, esplorazione Abyss, campo, cavalcature e patch 1.00.03/1.01.00. Pearl Abyss 2026.',
       ko: '크림슨 디저트 고급 가이드: 음식 치유, 공격적 전투, 패리 & 인카운터, 심연 탐험, 캠프, 탈것 및 패치 1.00.03/1.01.00. 펄어비스 2026.',
+      de: 'Crimson Desert advanced guide: food healing, aggressive combat, parry & Encounter, Abyss exploration, camp, mounts and patches 1.00.03/1.01.00. Pearl Abyss 2026.',
     },
     content: {
       fr: `Vous avez terminé les premières heures de Crimson Desert et vous cherchez à optimiser votre expérience ? Ce guide avancé complète notre [guide du débutant](/blog/crimson-desert-beginner-guide-10-essential-tips) avec des astuces pour joueurs expérimentés, incluant les changements majeurs des patchs 1.00.03 et 1.01.00.
@@ -7523,11 +7628,11 @@ La patch 1.01.00 ha aggiunto 5 nuove cavalcature evocabili: Orso Bianco, Zanna d
     publishedAt: '2026-03-30',
     readingTime: 12,
     tags: [
-      { fr: 'mise à jour', en: 'update', es: 'actualización', it: 'aggiornamento', ko: '업데이트' },
-      { fr: 'patch notes', en: 'patch notes', es: 'notas del parche', it: 'note della patch', ko: '패치 노트' },
-      { fr: 'Pearl Abyss', en: 'Pearl Abyss', es: 'Pearl Abyss', it: 'Pearl Abyss', ko: '펄어비스' },
-      { fr: 'montures', en: 'mounts', es: 'monturas', it: 'cavalcature', ko: '탈것' },
-      { fr: 'qualité de vie', en: 'quality of life', es: 'calidad de vida', it: 'qualità della vita', ko: '편의성 개선' },
+      { fr: 'mise à jour', en: 'update', es: 'actualización', it: 'aggiornamento', ko: '업데이트', de: 'update' },
+      { fr: 'patch notes', en: 'patch notes', es: 'notas del parche', it: 'note della patch', ko: '패치 노트', de: 'patch notes' },
+      { fr: 'Pearl Abyss', en: 'Pearl Abyss', es: 'Pearl Abyss', it: 'Pearl Abyss', ko: '펄어비스', de: 'Pearl Abyss' },
+      { fr: 'montures', en: 'mounts', es: 'monturas', it: 'cavalcature', ko: '탈것', de: 'mounts' },
+      { fr: 'qualité de vie', en: 'quality of life', es: 'calidad de vida', it: 'qualità della vita', ko: '편의성 개선', de: 'quality of life' },
     ],
     title: {
       fr: 'Crimson Desert : toutes les mises à jour de mars 2026 (Patchs 1.00.02, 1.00.03, 1.01.00)',
@@ -7535,6 +7640,7 @@ La patch 1.01.00 ha aggiunto 5 nuove cavalcature evocabili: Orso Bianco, Zanna d
       es: 'Crimson Desert: todas las actualizaciones de marzo 2026 (Parches 1.00.02, 1.00.03, 1.01.00)',
       it: 'Crimson Desert: tutti gli aggiornamenti di marzo 2026 (Patch 1.00.02, 1.00.03, 1.01.00)',
       ko: '크림슨 디저트: 2026년 3월 전체 업데이트 (패치 1.00.02, 1.00.03, 1.01.00)',
+      de: 'Crimson Desert: All March 2026 Updates (Patches 1.00.02, 1.00.03, 1.01.00)',
     },
     excerpt: {
       fr: '5 mises à jour en 10 jours : Pearl Abyss bat des records de réactivité. Nouvelles montures, équilibrage, QoL massive et remplacement de l\'art IA.',
@@ -7542,6 +7648,7 @@ La patch 1.01.00 ha aggiunto 5 nuove cavalcature evocabili: Orso Bianco, Zanna d
       es: '5 actualizaciones en 10 días: Pearl Abyss establece récords de rapidez. Nuevas monturas, equilibrio, QoL masiva y arte IA reemplazado.',
       it: '5 aggiornamenti in 10 giorni: Pearl Abyss stabilisce record di reattività. Nuove cavalcature, bilanciamento, QoL massiva e arte IA sostituita.',
       ko: '10일 만에 5번의 업데이트: 펄어비스가 대응 속도 기록을 세웠습니다. 새로운 탈것, 밸런스 조정, 대규모 편의성 개선 및 AI 아트 교체.',
+      de: '5 updates in 10 days: Pearl Abyss sets records for responsiveness. New mounts, balance changes, massive QoL and AI art replaced.',
     },
     seoTitle: {
       fr: 'Crimson Desert Patch Notes Mars 2026 | Toutes les MAJ 1.00.02, 1.00.03, 1.01.00',
@@ -7549,6 +7656,7 @@ La patch 1.01.00 ha aggiunto 5 nuove cavalcature evocabili: Orso Bianco, Zanna d
       es: 'Crimson Desert Notas del Parche Marzo 2026 | Todas las Actualizaciones',
       it: 'Crimson Desert Patch Notes Marzo 2026 | Tutti gli Aggiornamenti',
       ko: '크림슨 디저트 패치 노트 2026년 3월 | 모든 업데이트 정리',
+      de: 'Crimson Desert Patch Notes March 2026 | All Updates 1.00.02, 1.00.03, 1.01.00',
     },
     seoDescription: {
       fr: 'Résumé complet des patchs 1.00.02, 1.00.03 et 1.01.00 de Crimson Desert. Nouvelles montures, équilibrage des boss, QoL et remplacement de l\'art IA. Pearl Abyss 2026.',
@@ -7556,6 +7664,7 @@ La patch 1.01.00 ha aggiunto 5 nuove cavalcature evocabili: Orso Bianco, Zanna d
       es: 'Resumen completo de los parches 1.00.02, 1.00.03 y 1.01.00 de Crimson Desert. Nuevas monturas, equilibrio de jefes, mejoras QoL y arte IA reemplazado.',
       it: 'Riepilogo completo delle patch 1.00.02, 1.00.03 e 1.01.00 di Crimson Desert. Nuove cavalcature, bilanciamento boss, miglioramenti QoL e arte IA sostituita.',
       ko: '크림슨 디저트 패치 1.00.02, 1.00.03, 1.01.00 전체 요약. 새로운 탈것, 보스 밸런스, 편의성 개선 및 AI 아트 교체.',
+      de: 'Complete summary of Crimson Desert patches 1.00.02, 1.00.03 and 1.01.00. New mounts, boss balance, QoL improvements and AI art replaced. Pearl Abyss 2026.',
     },
     content: {
       fr: `Crimson Desert est sorti le 19 mars 2026 et Pearl Abyss a enchaîné **5 mises à jour en seulement 10 jours**, un rythme de réactivité post-lancement rarement vu dans l'industrie. Comme le rapporte [IGN France](https://fr.ign.com/crimson-desert/87006/news/les-mises-a-jour-de-crimson-desert-ravissent-les-fans-mais-certains-estiment-quelles-rendent-le-jeu), les fans sont ravis mais certains estiment que les patches rendent le jeu trop facile. Selon [Gamewave](https://gamewave.fr/crimson-desert/crimson-desert-bat-son-record-de-joueurs-dix-jours-apres-sa-sortie/), le jeu a battu son record de joueurs simultanés dix jours après sa sortie. Voici le détail complet de chaque mise à jour.
@@ -7832,5 +7941,795 @@ Le recensioni Steam sono passate da **"Nella media" a "Molto Positive"** e il gi
 스팀 리뷰가 **"복합적"에서 "매우 긍정적"**으로 변경되었으며, **276,261명의 동시접속자** 신기록을 달성했습니다. [판매 기록 글](/blog/crimson-desert-sales-records-player-count-steam-2026)과 패치 변경 사항이 반영된 [고급 팁](/blog/crimson-desert-advanced-tips-tricks-combat-exploration-2026)을 확인하세요.`,
     },
     relatedSlugs: ['crimson-desert-sales-records-player-count-steam-2026', 'crimson-desert-first-impressions-previews-roundup', 'crimson-desert-denuvo-drm-performance-controversy'],
+  },
+
+  // ─── ARTICLE 28 — PATCH 1.02.00 ───
+  {
+    id: 'patch-1-02-00',
+    slug: 'crimson-desert-patch-1-02-00-storage-headgear-qol-april-2026',
+    category: 'NEWS',
+    coverImage: hernandCity,
+    author: 'Pywel Wiki',
+    publishedAt: '2026-04-04',
+    readingTime: 8,
+    tags: [
+      { fr: 'mise à jour', en: 'update', es: 'actualización', it: 'aggiornamento', ko: '업데이트' },
+      { fr: 'patch notes', en: 'patch notes', es: 'notas del parche', it: 'note della patch', ko: '패치 노트' },
+      { fr: 'qualité de vie', en: 'quality of life', es: 'calidad de vida', it: 'qualità della vita', ko: '편의성 개선' },
+      { fr: 'stockage', en: 'storage', es: 'almacenamiento', it: 'archiviazione', ko: '보관함' },
+    ],
+    title: {
+      fr: 'Crimson Desert Patch 1.02.00 : stockage étendu, casques masquables et améliorations QoL massives',
+      en: 'Crimson Desert Patch 1.02.00: Expanded Storage, Headgear Toggle & Massive QoL Improvements',
+      es: 'Crimson Desert Parche 1.02.00: almacenamiento ampliado, ocultación de cascos y mejoras masivas de QoL',
+      pt: 'Crimson Desert Patch 1.02.00: armazenamento expandido, alternância de capacetes e melhorias massivas de QoL',
+      it: 'Crimson Desert Patch 1.02.00: deposito espanso, visibilità elmetti e miglioramenti QoL massicci',
+      ko: '크림슨 디저트 패치 1.02.00: 보관함 확장, 투구 표시 전환 및 대규모 편의성 개선',
+    },
+    excerpt: {
+      fr: 'Pearl Abyss poursuit son rythme effréné de mises à jour avec le patch 1.02.00 : stockage privé jusqu\'à 1000 emplacements, option de visibilité des casques et nouveaux contrôles de mouvement.',
+      en: 'Pearl Abyss continues its breakneck update pace with patch 1.02.00: private storage up to 1000 slots, headgear visibility toggle, and new movement controls.',
+      es: 'Pearl Abyss mantiene su frenético ritmo de actualizaciones con el parche 1.02.00: almacenamiento privado de hasta 1000 espacios, opción de visibilidad de cascos y nuevos controles de movimiento.',
+      pt: 'Pearl Abyss mantém seu ritmo frenético de atualizações com o patch 1.02.00: armazenamento privado de até 1000 espaços, alternância de visibilidade de capacetes e novos controles de movimento.',
+      it: 'Pearl Abyss prosegue il suo ritmo frenetico di aggiornamenti con la patch 1.02.00: deposito privato fino a 1000 slot, opzione visibilità elmetti e nuovi controlli di movimento.',
+      ko: '펄어비스가 패치 1.02.00으로 빠른 업데이트 속도를 이어갑니다: 개인 보관함 최대 1000칸, 투구 표시 전환, 새로운 이동 컨트롤.',
+    },
+    seoTitle: {
+      fr: 'Patch 1.02.00 Crimson Desert | Stockage, Casques, QoL | Avril 2026',
+      en: 'Patch 1.02.00 Crimson Desert | Storage, Headgear Toggle, QoL | April 2026',
+      es: 'Parche 1.02.00 Crimson Desert | Almacenamiento, Cascos, QoL | Abril 2026',
+      pt: 'Patch 1.02.00 Crimson Desert | Armazenamento, Capacetes, QoL | Abril 2026',
+      it: 'Patch 1.02.00 Crimson Desert | Deposito, Elmetti, QoL | Aprile 2026',
+      ko: '패치 1.02.00 크림슨 디저트 | 보관함, 투구, 편의성 | 2026년 4월',
+    },
+    seoDescription: {
+      fr: 'Détail complet du patch 1.02.00 de Crimson Desert : stockage privé étendu à 1000 emplacements, visibilité des casques, contrôles de mouvement classiques et améliorations PS5 Pro. Pearl Abyss avril 2026.',
+      en: 'Full breakdown of Crimson Desert patch 1.02.00: private storage expanded to 1000 slots, headgear visibility toggle, classic movement controls, and PS5 Pro improvements. Pearl Abyss April 2026.',
+      es: 'Desglose completo del parche 1.02.00 de Crimson Desert: almacenamiento privado ampliado a 1000 espacios, visibilidad de cascos, controles de movimiento clásicos y mejoras PS5 Pro. Pearl Abyss abril 2026.',
+      pt: 'Análise completa do patch 1.02.00 de Crimson Desert: armazenamento privado expandido para 1000 espaços, alternância de visibilidade de capacetes, controles de movimento clássicos e melhorias PS5 Pro. Pearl Abyss abril 2026.',
+      it: 'Analisi completa della patch 1.02.00 di Crimson Desert: deposito privato espanso a 1000 slot, visibilità elmetti, controlli di movimento classici e miglioramenti PS5 Pro. Pearl Abyss aprile 2026.',
+      ko: '크림슨 디저트 패치 1.02.00 전체 분석: 개인 보관함 1000칸 확장, 투구 표시 전환, 클래식 이동 컨트롤, PS5 Pro 개선. 펄어비스 2026년 4월.',
+    },
+    content: {
+      fr: `Pearl Abyss ne ralentit pas. Deux semaines après le lancement de Crimson Desert, le studio coréen déploie le patch 1.02.00, sa septième mise à jour depuis la sortie. Cette cadence de mises à jour est sans précédent dans l'industrie AAA et confirme l'engagement du studio envers sa communauté.
+
+## Extension massive du stockage privé
+
+La demande la plus récurrente des joueurs a été entendue : la capacité du stockage privé peut désormais être étendue de 240 emplacements jusqu'à un maximum de **1000 emplacements**. Cette extension dépend de votre progression dans l'expansion du camp des Greymanes. C'est une amélioration considérable pour les collectionneurs et les joueurs qui explorent chaque recoin de [Pywel](/world) — le monde ouvert regorge de trésors, d'équipements et de matériaux de craft qui saturaient rapidement l'ancien système.
+
+## Visibilité des casques : enfin le choix
+
+L'une des fonctionnalités les plus demandées par la communauté est enfin là. Le patch ajoute une option de **Visibilité des Casques** avec quatre choix : Toujours Afficher / Afficher en Combat / Masquer en Cinématiques / Toujours Masquer. Les joueurs peuvent ainsi profiter du design de [Kliff](/characters) et des autres personnages sans sacrifier les statistiques défensives. Une option qui paraît simple mais qui change radicalement l'expérience visuelle.
+
+## Nouveaux contrôles de mouvement
+
+Une option « Contrôles de Mouvement » a été ajoutée dans le menu Paramètres > Entrée, avec deux modes : Basique et Classique. Le mode Classique reproduit un schéma de déplacement plus traditionnel qui plaira aux habitués des RPG d'action japonais. C'est le genre de flexibilité qui montre que Pearl Abyss écoute des profils de joueurs très différents.
+
+## Améliorations PS5 Pro et corrections multiplateforme
+
+Le patch inclut également des optimisations pour la PS5 Pro, des corrections de bugs d'affichage sur Xbox Series X/S et des améliorations de stabilité sur toutes les plateformes. Le jeu est disponible sur Steam (PC), Steam (Mac), PlayStation, Xbox et Epic Games Store. La version Mac App Store suivra ultérieurement. Consultez notre [récapitulatif des mises à jour de mars](/blog/crimson-desert-march-2026-updates-patches-sales-records) pour le contexte complet, ou nos [astuces avancées](/blog/crimson-desert-advanced-tips-tricks-combat-exploration-2026) mises à jour avec les changements du patch.`,
+
+      en: `Pearl Abyss is not slowing down. Two weeks after Crimson Desert's launch, the Korean studio has deployed patch 1.02.00 — its seventh update since release. This update cadence is unprecedented in the AAA industry and confirms the studio's commitment to its community.
+
+## Massive Private Storage Expansion
+
+The most requested player feature has been delivered: private storage capacity can now be expanded from 240 slots up to a maximum of **1,000 slots**. This expansion depends on your progress with the Greymane camp expansion. It is a massive improvement for collectors and players who explore every corner of [Pywel](/world) — the open world is packed with treasures, equipment, and crafting materials that quickly overwhelmed the old system.
+
+## Headgear Visibility: Finally a Choice
+
+One of the most community-requested features has arrived. The patch adds a **Headgear Visibility** option with four choices: Always Show / Show in Combat / Hide in Cutscenes / Always Hide. Players can now enjoy the design of [Kliff](/characters) and other characters without sacrificing defensive stats. A seemingly simple option that radically changes the visual experience.
+
+## New Movement Controls
+
+A "Movement Controls" option has been added under Settings > Input, offering two modes: Basic and Classic. Classic mode reproduces a more traditional movement scheme that will appeal to fans of Japanese action RPGs. This kind of flexibility shows Pearl Abyss is listening to very different player profiles.
+
+## PS5 Pro Improvements and Cross-Platform Fixes
+
+The patch also includes PS5 Pro optimizations, display bug fixes on Xbox Series X/S, and stability improvements across all platforms. The game is available on Steam (PC), Steam (Mac), PlayStation, Xbox, and Epic Games Store, with the Mac App Store version coming later. Check our [March updates recap](/blog/crimson-desert-march-2026-updates-patches-sales-records) for full context, or our updated [advanced tips](/blog/crimson-desert-advanced-tips-tricks-combat-exploration-2026) reflecting the patch changes.`,
+
+      es: `Pearl Abyss no se detiene. Dos semanas después del lanzamiento de Crimson Desert, el estudio coreano despliega el parche 1.02.00, su séptima actualización desde el lanzamiento. Este ritmo de actualizaciones no tiene precedentes en la industria AAA y confirma el compromiso del estudio con su comunidad.
+
+## Expansión masiva del almacenamiento privado
+
+La solicitud más recurrente de los jugadores ha sido escuchada: la capacidad del almacenamiento privado ahora puede ampliarse de 240 espacios hasta un máximo de **1000 espacios**. Esta expansión depende de tu progreso con la expansión del campamento Greymane. Es una mejora considerable para coleccionistas y jugadores que exploran cada rincón de [Pywel](/world) — el mundo abierto está repleto de tesoros, equipamiento y materiales de crafteo que saturaban rápidamente el sistema anterior.
+
+## Visibilidad de cascos: por fin la elección
+
+Una de las funcionalidades más pedidas por la comunidad ha llegado. El parche añade la opción de **Visibilidad de Cascos** con cuatro opciones: Siempre Mostrar / Mostrar en Combate / Ocultar en Cinemáticas / Siempre Ocultar. Los jugadores pueden disfrutar del diseño de [Kliff](/characters) y otros personajes sin sacrificar estadísticas defensivas.
+
+## Nuevos controles de movimiento
+
+Se ha añadido una opción de "Controles de Movimiento" en Ajustes > Entrada, con dos modos: Básico y Clásico. El modo Clásico reproduce un esquema de movimiento más tradicional que gustará a los fans de los RPG de acción japoneses. Este tipo de flexibilidad demuestra que Pearl Abyss escucha perfiles de jugadores muy diferentes.
+
+## Mejoras PS5 Pro y correcciones multiplataforma
+
+El parche incluye optimizaciones para PS5 Pro, correcciones de errores visuales en Xbox Series X/S y mejoras de estabilidad en todas las plataformas. Consulta nuestro [resumen de actualizaciones de marzo](/blog/crimson-desert-march-2026-updates-patches-sales-records) y nuestros [consejos avanzados](/blog/crimson-desert-advanced-tips-tricks-combat-exploration-2026) actualizados.`,
+
+      pt: `Pearl Abyss não desacelera. Duas semanas após o lançamento de Crimson Desert, o estúdio coreano implanta o patch 1.02.00, sua sétima atualização desde o lançamento. Esse ritmo de atualizações é sem precedentes na indústria AAA e confirma o comprometimento do estúdio com sua comunidade.
+
+## Expansão massiva do armazenamento privado
+
+O pedido mais recorrente dos jogadores foi atendido: a capacidade do armazenamento privado agora pode ser expandida de 240 espaços até um máximo de **1000 espaços**. Essa expansão depende do seu progresso na expansão do acampamento Greymane. É uma melhoria considerável para colecionadores e jogadores que exploram cada canto de [Pywel](/world).
+
+## Visibilidade de capacetes: finalmente a escolha
+
+O patch adiciona a opção de **Visibilidade de Capacetes** com quatro escolhas: Sempre Mostrar / Mostrar em Combate / Ocultar em Cinemáticas / Sempre Ocultar. Os jogadores podem agora aproveitar o design de [Kliff](/characters) sem sacrificar estatísticas defensivas.
+
+## Novos controles de movimento
+
+Uma opção de "Controles de Movimento" foi adicionada em Configurações > Entrada, com dois modos: Básico e Clássico. O modo Clássico reproduz um esquema de movimento mais tradicional.
+
+## Melhorias PS5 Pro e correções multiplataforma
+
+O patch inclui otimizações para PS5 Pro, correções de bugs de exibição no Xbox Series X/S e melhorias de estabilidade em todas as plataformas. Confira nosso [resumo de atualizações de março](/blog/crimson-desert-march-2026-updates-patches-sales-records) e nossas [dicas avançadas](/blog/crimson-desert-advanced-tips-tricks-combat-exploration-2026) atualizadas.`,
+
+      it: `Pearl Abyss non rallenta. Due settimane dopo il lancio di Crimson Desert, lo studio coreano rilascia la patch 1.02.00, il suo settimo aggiornamento dal lancio. Questa cadenza di aggiornamenti è senza precedenti nell'industria AAA e conferma l'impegno dello studio verso la sua comunità.
+
+## Espansione massiccia del deposito privato
+
+La richiesta più ricorrente dei giocatori è stata accolta: la capacità del deposito privato può ora essere estesa da 240 slot fino a un massimo di **1000 slot**. Questa espansione dipende dal progresso con l'espansione del campo Greymane. È un miglioramento considerevole per i collezionisti e i giocatori che esplorano ogni angolo di [Pywel](/world).
+
+## Visibilità degli elmetti: finalmente la scelta
+
+La patch aggiunge un'opzione di **Visibilità degli Elmetti** con quattro scelte: Mostra Sempre / Mostra in Combattimento / Nascondi nelle Cutscene / Nascondi Sempre. I giocatori possono ora godersi il design di [Kliff](/characters) senza sacrificare le statistiche difensive.
+
+## Nuovi controlli di movimento
+
+Un'opzione "Controlli di Movimento" è stata aggiunta in Impostazioni > Input, con due modalità: Base e Classica. La modalità Classica riproduce uno schema di movimento più tradizionale.
+
+## Miglioramenti PS5 Pro e correzioni multipiattaforma
+
+La patch include ottimizzazioni per PS5 Pro, correzioni di bug grafici su Xbox Series X/S e miglioramenti di stabilità su tutte le piattaforme. Consultate il nostro [riepilogo degli aggiornamenti di marzo](/blog/crimson-desert-march-2026-updates-patches-sales-records) e i nostri [consigli avanzati](/blog/crimson-desert-advanced-tips-tricks-combat-exploration-2026) aggiornati.`,
+
+      ko: `펄어비스가 속도를 늦추지 않습니다. 크림슨 디저트 출시 2주 후, 한국 스튜디오는 출시 이후 7번째 업데이트인 패치 1.02.00을 배포했습니다. 이러한 업데이트 속도는 AAA 업계에서 전례가 없으며, 커뮤니티에 대한 스튜디오의 헌신을 확인시켜 줍니다.
+
+## 개인 보관함 대규모 확장
+
+가장 많이 요청된 기능이 구현되었습니다: 개인 보관함 용량이 240칸에서 최대 **1,000칸**까지 확장 가능합니다. 이 확장은 그레이메인 캠프 확장 진행도에 따라 달라집니다. [파이웰](/world)의 모든 구석을 탐험하는 수집가와 플레이어에게 엄청난 개선입니다.
+
+## 투구 표시: 드디어 선택권
+
+커뮤니티에서 가장 많이 요청한 기능이 도착했습니다. 패치에 **투구 표시** 옵션이 추가되어 4가지 선택이 가능합니다: 항상 표시 / 전투 시 표시 / 컷씬 시 숨김 / 항상 숨김. 이제 방어 수치를 희생하지 않고도 [클리프](/characters)와 다른 캐릭터의 디자인을 즐길 수 있습니다.
+
+## 새로운 이동 컨트롤
+
+설정 > 입력에 "이동 컨트롤" 옵션이 추가되어 기본과 클래식 두 가지 모드를 제공합니다. 클래식 모드는 일본 액션 RPG 팬들에게 익숙한 전통적인 이동 방식을 재현합니다.
+
+## PS5 Pro 개선 및 크로스 플랫폼 수정
+
+패치에는 PS5 Pro 최적화, Xbox Series X/S 화면 버그 수정, 모든 플랫폼의 안정성 개선이 포함됩니다. [3월 업데이트 요약](/blog/crimson-desert-march-2026-updates-patches-sales-records)과 패치 변경 사항이 반영된 [고급 팁](/blog/crimson-desert-advanced-tips-tricks-combat-exploration-2026)을 확인하세요.`,
+    },
+    relatedSlugs: ['crimson-desert-march-2026-updates-patches-sales-records', 'crimson-desert-advanced-tips-tricks-combat-exploration-2026', 'crimson-desert-ps5-pro-performance-pssr-analysis'],
+  },
+
+  // ─── ARTICLE 29 — SALES & CRITICAL RECEPTION ───
+  {
+    id: 'sales-critical-reception-april-2026',
+    slug: 'crimson-desert-4-million-sales-critical-reception-metacritic-2026',
+    category: 'ANALYSIS',
+    coverImage: charactersGroup,
+    author: 'Pywel Wiki',
+    publishedAt: '2026-04-02',
+    readingTime: 10,
+    tags: [
+      { fr: 'ventes', en: 'sales', es: 'ventas', it: 'vendite', ko: '판매' },
+      { fr: 'critique', en: 'review', es: 'crítica', it: 'recensione', ko: '리뷰' },
+      { fr: 'Metacritic', en: 'Metacritic', es: 'Metacritic', it: 'Metacritic', ko: '메타크리틱' },
+      { fr: 'Pearl Abyss', en: 'Pearl Abyss', es: 'Pearl Abyss', it: 'Pearl Abyss', ko: '펄어비스' },
+      { fr: 'analyse', en: 'analysis', es: 'análisis', it: 'analisi', ko: '분석' },
+    ],
+    title: {
+      fr: 'Crimson Desert : 4 millions de ventes, 200 millions de dollars et une réception critique divisée — analyse complète',
+      en: 'Crimson Desert: 4 Million Sales, $200M Revenue & a Divided Critical Reception — Full Analysis',
+      es: 'Crimson Desert: 4 millones de ventas, 200 millones de dólares y una recepción crítica dividida — análisis completo',
+      pt: 'Crimson Desert: 4 milhões de vendas, US$ 200 milhões e uma recepção crítica dividida — análise completa',
+      it: 'Crimson Desert: 4 milioni di vendite, 200 milioni di dollari e una ricezione critica divisa — analisi completa',
+      ko: '크림슨 디저트: 400만 판매, 2억 달러 수익 및 엇갈린 평가 — 전체 분석',
+    },
+    excerpt: {
+      fr: '2 millions en 24 heures, 4 millions en deux semaines, mais un Metacritic de 78 qui a fait chuter l\'action Pearl Abyss. Analyse des chiffres, des critiques et de ce que cela signifie pour l\'avenir.',
+      en: '2 million in 24 hours, 4 million in two weeks, but a Metacritic score of 78 that tanked Pearl Abyss stock. Analysis of the numbers, the reviews, and what it means going forward.',
+      es: '2 millones en 24 horas, 4 millones en dos semanas, pero un Metacritic de 78 que hundió las acciones de Pearl Abyss. Análisis de las cifras, las críticas y lo que significa para el futuro.',
+      pt: '2 milhões em 24 horas, 4 milhões em duas semanas, mas um Metacritic de 78 que derrubou as ações da Pearl Abyss. Análise dos números, das críticas e do que isso significa para o futuro.',
+      it: '2 milioni in 24 ore, 4 milioni in due settimane, ma un Metacritic di 78 che ha fatto crollare il titolo Pearl Abyss. Analisi dei numeri, delle recensioni e di cosa significa per il futuro.',
+      ko: '24시간 만에 200만, 2주 만에 400만, 하지만 메타크리틱 78점으로 펄어비스 주가 하락. 수치, 리뷰, 향후 의미 분석.',
+    },
+    seoTitle: {
+      fr: 'Crimson Desert Ventes & Critiques | 4M ventes, Metacritic 78 | Analyse 2026',
+      en: 'Crimson Desert Sales & Reviews | 4M Sales, Metacritic 78 | Analysis 2026',
+      es: 'Crimson Desert Ventas y Críticas | 4M ventas, Metacritic 78 | Análisis 2026',
+      pt: 'Crimson Desert Vendas e Críticas | 4M vendas, Metacritic 78 | Análise 2026',
+      it: 'Crimson Desert Vendite e Recensioni | 4M vendite, Metacritic 78 | Analisi 2026',
+      ko: '크림슨 디저트 판매 & 리뷰 | 400만 판매, 메타크리틱 78 | 분석 2026',
+    },
+    seoDescription: {
+      fr: 'Analyse complète des ventes de Crimson Desert (4 millions, 200M$) et de la réception critique (Metacritic 78). Chiffres Steam, PS5, réaction des investisseurs et perspectives. Pearl Abyss 2026.',
+      en: 'Full analysis of Crimson Desert sales (4 million, $200M) and critical reception (Metacritic 78). Steam numbers, PS5 figures, investor reaction, and outlook. Pearl Abyss 2026.',
+      es: 'Análisis completo de las ventas de Crimson Desert (4 millones, 200M$) y la recepción crítica (Metacritic 78). Cifras Steam, PS5, reacción de inversores y perspectivas. Pearl Abyss 2026.',
+      pt: 'Análise completa das vendas de Crimson Desert (4 milhões, US$200M) e recepção crítica (Metacritic 78). Números Steam, PS5, reação dos investidores e perspectivas. Pearl Abyss 2026.',
+      it: 'Analisi completa delle vendite di Crimson Desert (4 milioni, 200M$) e della ricezione critica (Metacritic 78). Numeri Steam, PS5, reazione degli investitori e prospettive. Pearl Abyss 2026.',
+      ko: '크림슨 디저트 판매 완전 분석 (400만, 2억 달러) 및 비평 수용 (메타크리틱 78). 스팀 수치, PS5 수치, 투자자 반응 및 전망. 펄어비스 2026.',
+    },
+    content: {
+      fr: `Crimson Desert est un paradoxe commercial fascinant. Le jeu de Pearl Abyss a dépassé les 2 millions de copies vendues en seulement 24 heures, puis 3 millions en une semaine, pour atteindre 4 millions de ventes en moins de deux semaines — générant environ 200 millions de dollars de revenus selon les estimations d'analystes. Et pourtant, les investisseurs ont vendu massivement le jour du lancement. Comment expliquer cette contradiction ?
+
+## Les chiffres vertigineux
+
+Les chiffres de vente sont impressionnants à tous les niveaux. Les 2 millions de copies en 24 heures placent Crimson Desert parmi les lancements les plus réussis de 2026. Sur Steam, le jeu a atteint un pic de **276 261 joueurs simultanés**, un chiffre qui le place dans le top 10 des lancements PC de l'année. Fait notable : la PlayStation 5 représente près de **la moitié des revenus totaux**, confirmant que Crimson Desert a trouvé un public massif sur console. La stratégie multiplateforme de Pearl Abyss, longtemps questionnée, s'avère payante.
+
+## Un Metacritic à 78 : le seuil symbolique manqué
+
+Malgré ces ventes spectaculaires, la réception critique a été plus mesurée. Le Metacritic de **78/100** (basé sur 93 critiques presse pour la version PC) et un score OpenCritic de **79/100** placent le jeu dans la catégorie « bon mais pas excellent ». Les investisseurs visaient un score supérieur à 80 — un seuil symbolique qui conditionne le potentiel commercial à long terme d'un AAA. Le score de 78, après sept ans de développement, a déclenché une vente massive d'actions le jour de la sortie.
+
+## Ce que les critiques ont aimé et détesté
+
+Les graphismes et le design du monde ont été **quasi unanimement salués**. La plupart des critiques s'accordent sur le fait que Pywel est visuellement époustouflant et riche en détails environnementaux. Le [système de combat](/blog/crimson-desert-combat-system-lock-stamina-parry-spirit) a également été très bien reçu, avec ses mécaniques de parry, sa physique et sa flexibilité dans le changement d'armes. En revanche, le point faible principal identifié est le **récit et les arcs narratifs des personnages**, jugés décevants par rapport à l'ambition du monde. Les notes vont de 5/10 chez Gamekult à 19/20 chez JeuxActu — un écart qui illustre à quel point les opinions divergent.
+
+## Steam : du « Moyen » au « Très Positif »
+
+L'histoire la plus remarquable est celle des avis Steam. Au lancement, les retours joueurs étaient classés « Moyens » en raison de problèmes de performance, d'un manque d'options de qualité de vie et de frustrations liées à la difficulté. Mais grâce au [rythme effréné de patchs](/blog/crimson-desert-march-2026-updates-patches-sales-records), les avis sont passés à **« Très Positif »** en moins de dix jours. C'est le deuxième jeu le mieux noté de 2026 par les utilisateurs Metacritic. Cette trajectoire ascendante suggère que Crimson Desert a le potentiel de devenir un classique si Pearl Abyss maintient ce rythme de mises à jour.`,
+
+      en: `Crimson Desert is a fascinating commercial paradox. Pearl Abyss's game surpassed 2 million copies sold in just 24 hours, then 3 million in a week, reaching 4 million sales in under two weeks — generating approximately $200 million in revenue according to analyst estimates. And yet investors sold heavily on launch day. How do we explain this contradiction?
+
+## The Staggering Numbers
+
+The sales figures are impressive at every level. The 2 million copies in 24 hours place Crimson Desert among the most successful launches of 2026. On Steam, the game peaked at **276,261 concurrent players**, a figure that puts it in the top 10 PC launches of the year. Notably, PlayStation 5 accounts for nearly **half of all revenue**, confirming Crimson Desert found a massive console audience. Pearl Abyss's multiplatform strategy, long questioned, has proven worthwhile.
+
+## A Metacritic of 78: The Missed Symbolic Threshold
+
+Despite spectacular sales, critical reception was more measured. The Metacritic score of **78/100** (based on 93 press reviews for the PC version) and an OpenCritic score of **79/100** place the game in the "good but not great" category. Investors were targeting a score above 80 — a symbolic threshold that conditions the long-term commercial potential of a AAA title. The score of 78, after seven years of development, triggered a massive stock sell-off on release day.
+
+## What Critics Loved and Hated
+
+Graphics and world design were **almost universally praised**. Most critics agree that Pywel is visually stunning and rich in environmental detail. The [combat system](/blog/crimson-desert-combat-system-lock-stamina-parry-spirit) was also very well received, with its parry mechanics, physics, and weapon-switching flexibility. The main weakness identified was the **narrative and character arcs**, judged disappointing relative to the world's ambition. Scores ranged from 5/10 at Gamekult to 19/20 at JeuxActu — a spread that illustrates how sharply opinions diverge.
+
+## Steam: From "Mixed" to "Very Positive"
+
+The most remarkable story is Steam reviews. At launch, player feedback was classified as "Mixed" due to performance issues, lack of quality-of-life options, and difficulty frustrations. But thanks to the [relentless patching pace](/blog/crimson-desert-march-2026-updates-patches-sales-records), reviews shifted to **"Very Positive"** in under ten days. It is the second highest user-rated game of 2026 on Metacritic. This upward trajectory suggests Crimson Desert has the potential to become a classic if Pearl Abyss maintains this update cadence.`,
+
+      es: `Crimson Desert es una fascinante paradoja comercial. El juego de Pearl Abyss superó los 2 millones de copias vendidas en solo 24 horas, luego 3 millones en una semana, alcanzando 4 millones de ventas en menos de dos semanas — generando aproximadamente 200 millones de dólares en ingresos según estimaciones de analistas. Y sin embargo, los inversores vendieron masivamente el día del lanzamiento.
+
+## Las cifras vertiginosas
+
+Las cifras de ventas son impresionantes. Los 2 millones de copias en 24 horas sitúan a Crimson Desert entre los lanzamientos más exitosos de 2026. En Steam, el juego alcanzó un pico de **276.261 jugadores simultáneos**. PlayStation 5 representa casi **la mitad de todos los ingresos**, confirmando que el juego encontró una audiencia masiva en consola.
+
+## Un Metacritic de 78: el umbral simbólico fallido
+
+La puntuación de Metacritic de **78/100** basada en 93 críticas de prensa y un OpenCritic de **79/100** sitúan el juego en la categoría "bueno pero no excelente". Los inversores apuntaban a una puntuación superior a 80, y el 78 tras siete años de desarrollo provocó una venta masiva de acciones. Los gráficos y el diseño del mundo fueron elogiados universalmente, pero la **narrativa y los arcos de personajes** fueron el punto débil principal.
+
+## Steam: de "Mixto" a "Muy Positivo"
+
+Gracias al [ritmo frenético de parches](/blog/crimson-desert-march-2026-updates-patches-sales-records), las reseñas de Steam pasaron de "Mixtas" a **"Muy Positivas"** en menos de diez días. Es el segundo juego mejor valorado por usuarios de 2026 en Metacritic. Esta trayectoria ascendente sugiere que Crimson Desert tiene potencial para convertirse en un clásico si Pearl Abyss mantiene este ritmo.`,
+
+      pt: `Crimson Desert é um paradoxo comercial fascinante. O jogo da Pearl Abyss superou 2 milhões de cópias vendidas em apenas 24 horas, depois 3 milhões em uma semana, alcançando 4 milhões em menos de duas semanas — gerando aproximadamente US$ 200 milhões em receita. E no entanto, os investidores venderam pesado no dia do lançamento.
+
+## Os números impressionantes
+
+Os 2 milhões de cópias em 24 horas colocam Crimson Desert entre os lançamentos mais bem-sucedidos de 2026. No Steam, o jogo atingiu um pico de **276.261 jogadores simultâneos**. O PlayStation 5 representa quase **metade de toda a receita**.
+
+## Metacritic de 78: o limiar simbólico perdido
+
+A pontuação do Metacritic de **78/100** e o OpenCritic de **79/100** colocam o jogo na categoria "bom, mas não excelente". Os investidores visavam uma pontuação acima de 80, e o 78 após sete anos de desenvolvimento causou uma venda massiva de ações. Os gráficos foram universalmente elogiados, mas a **narrativa** foi o ponto fraco principal.
+
+## Steam: de "Misto" a "Muito Positivo"
+
+Graças ao [ritmo frenético de patches](/blog/crimson-desert-march-2026-updates-patches-sales-records), as avaliações do Steam passaram de "Mistas" para **"Muito Positivas"** em menos de dez dias. Esta trajetória ascendente sugere que Crimson Desert tem potencial para se tornar um clássico.`,
+
+      it: `Crimson Desert è un affascinante paradosso commerciale. Il gioco di Pearl Abyss ha superato i 2 milioni di copie vendute in sole 24 ore, poi 3 milioni in una settimana, raggiungendo 4 milioni di vendite in meno di due settimane — generando circa 200 milioni di dollari di ricavi. Eppure gli investitori hanno venduto massicciamente il giorno del lancio.
+
+## I numeri vertiginosi
+
+I 2 milioni di copie in 24 ore collocano Crimson Desert tra i lanci più riusciti del 2026. Su Steam, il gioco ha raggiunto un picco di **276.261 giocatori simultanei**. PlayStation 5 rappresenta quasi **la metà di tutti i ricavi**, confermando che il gioco ha trovato un pubblico massiccio su console.
+
+## Un Metacritic di 78: la soglia simbolica mancata
+
+Il punteggio Metacritic di **78/100** e l'OpenCritic di **79/100** collocano il gioco nella categoria "buono ma non eccellente". Gli investitori puntavano a un punteggio superiore a 80, e il 78 dopo sette anni di sviluppo ha scatenato una vendita massiccia di azioni. La grafica è stata universalmente elogiata, ma la **narrativa e gli archi dei personaggi** sono stati il punto debole principale.
+
+## Steam: da "Nella Media" a "Molto Positivo"
+
+Grazie al [ritmo frenetico delle patch](/blog/crimson-desert-march-2026-updates-patches-sales-records), le recensioni Steam sono passate da "Nella Media" a **"Molto Positivo"** in meno di dieci giorni. È il secondo gioco meglio valutato dagli utenti del 2026 su Metacritic.`,
+
+      ko: `크림슨 디저트는 매력적인 상업적 역설입니다. 펄어비스의 게임은 단 24시간 만에 200만 장, 일주일 만에 300만 장, 2주 만에 400만 장 판매를 돌파하여 분석가 추정 약 2억 달러의 수익을 창출했습니다. 그런데도 투자자들은 출시일에 대량 매도했습니다.
+
+## 놀라운 수치
+
+24시간 200만 장 판매는 크림슨 디저트를 2026년 가장 성공적인 출시작 중 하나로 만들었습니다. 스팀에서 **276,261명의 동시접속자** 피크를 기록했습니다. 플레이스테이션 5가 **전체 수익의 거의 절반**을 차지하며, 콘솔에서 대규모 관객을 확보했음을 확인했습니다.
+
+## 메타크리틱 78: 놓친 상징적 기준
+
+메타크리틱 **78/100** (PC 버전 93개 언론 리뷰 기준)과 오픈크리틱 **79/100**은 게임을 "좋지만 훌륭하지는 않은" 카테고리에 놓았습니다. 투자자들은 80점 이상을 목표로 했고, 7년 개발 후 78점은 출시일 대규모 주식 매도를 촉발했습니다. 그래픽은 보편적으로 칭찬받았지만, **스토리와 캐릭터 아크**가 주요 약점으로 지적되었습니다.
+
+## 스팀: "복합적"에서 "매우 긍정적"으로
+
+[빠른 패치 속도](/blog/crimson-desert-march-2026-updates-patches-sales-records) 덕분에 스팀 리뷰가 10일 만에 "복합적"에서 **"매우 긍정적"**으로 전환되었습니다. 메타크리틱 유저 평점 2026년 2위입니다. 이 상승 궤적은 펄어비스가 업데이트 속도를 유지한다면 크림슨 디저트가 클래식이 될 잠재력이 있음을 시사합니다.`,
+    },
+    relatedSlugs: ['crimson-desert-sales-records-player-count-steam-2026', 'crimson-desert-first-impressions-previews-roundup', 'crimson-desert-combat-system-lock-stamina-parry-spirit'],
+  },
+
+  // ─── ARTICLE 30 — PEARL ABYSS FUTURE PLANS ───
+  {
+    id: 'pearl-abyss-future-plans',
+    slug: 'crimson-desert-pearl-abyss-dlc-multiplayer-future-plans-2026',
+    category: 'NEWS',
+    coverImage: mountainCastle,
+    author: 'Pywel Wiki',
+    publishedAt: '2026-04-03',
+    readingTime: 9,
+    tags: [
+      { fr: 'Pearl Abyss', en: 'Pearl Abyss', es: 'Pearl Abyss', it: 'Pearl Abyss', ko: '펄어비스' },
+      { fr: 'DLC', en: 'DLC', es: 'DLC', it: 'DLC', ko: 'DLC' },
+      { fr: 'multijoueur', en: 'multiplayer', es: 'multijugador', it: 'multigiocatore', ko: '멀티플레이어' },
+      { fr: 'avenir', en: 'future', es: 'futuro', it: 'futuro', ko: '미래' },
+    ],
+    title: {
+      fr: 'Pearl Abyss révèle ses plans pour Crimson Desert : DLC gratuit, multijoueur et regrets sur le scénario',
+      en: 'Pearl Abyss Reveals Crimson Desert Plans: Free DLC Priority, Multiplayer Testing & Story Regrets',
+      es: 'Pearl Abyss revela sus planes para Crimson Desert: DLC gratuito, multijugador y arrepentimientos sobre la historia',
+      pt: 'Pearl Abyss revela planos para Crimson Desert: DLC gratuito, teste de multijogador e arrependimentos sobre a história',
+      it: 'Pearl Abyss rivela i piani per Crimson Desert: DLC gratuito, test multigiocatore e rimpianti sulla storia',
+      ko: '펄어비스 크림슨 디저트 계획 공개: 무료 DLC 우선, 멀티플레이어 테스트 및 스토리 아쉬움',
+    },
+    excerpt: {
+      fr: 'Le PDG de Pearl Abyss reconnaît les faiblesses narratives, confirme que le contenu gratuit est la priorité, et révèle que le multijoueur a été testé en interne. Un nouveau jeu (DukeV) est aussi en développement.',
+      en: 'Pearl Abyss CEO acknowledges narrative weaknesses, confirms free content is the priority, and reveals multiplayer was tested internally. A new game (DukeV) is also in development.',
+      es: 'El CEO de Pearl Abyss reconoce debilidades narrativas, confirma que el contenido gratuito es la prioridad y revela que el multijugador fue probado internamente. Un nuevo juego (DukeV) también está en desarrollo.',
+      pt: 'O CEO da Pearl Abyss reconhece fraquezas narrativas, confirma que o conteúdo gratuito é prioridade e revela que o multijogador foi testado internamente. Um novo jogo (DukeV) também está em desenvolvimento.',
+      it: 'Il CEO di Pearl Abyss riconosce le debolezze narrative, conferma che il contenuto gratuito è la priorità e rivela che il multigiocatore è stato testato internamente. Un nuovo gioco (DukeV) è anche in sviluppo.',
+      ko: '펄어비스 CEO가 스토리 약점을 인정하고, 무료 콘텐츠가 우선임을 확인하며, 멀티플레이어를 내부 테스트했음을 밝혔습니다. 새 게임(DukeV)도 개발 중입니다.',
+    },
+    seoTitle: {
+      fr: 'Pearl Abyss Plans Crimson Desert | DLC, Multijoueur, Scénario | 2026',
+      en: 'Pearl Abyss Crimson Desert Plans | DLC, Multiplayer, Story | 2026',
+      es: 'Pearl Abyss Planes Crimson Desert | DLC, Multijugador, Historia | 2026',
+      pt: 'Pearl Abyss Planos Crimson Desert | DLC, Multijogador, História | 2026',
+      it: 'Pearl Abyss Piani Crimson Desert | DLC, Multigiocatore, Storia | 2026',
+      ko: '펄어비스 크림슨 디저트 계획 | DLC, 멀티플레이어, 스토리 | 2026',
+    },
+    seoDescription: {
+      fr: 'Le CEO de Pearl Abyss parle de l\'avenir de Crimson Desert : contenu gratuit prioritaire, DLC payant à long terme, multijoueur testé en interne, regrets sur le scénario et nouveau jeu DukeV.',
+      en: 'Pearl Abyss CEO discusses Crimson Desert future: free content priority, paid DLC long-term, multiplayer internally tested, story regrets, and new game DukeV in development.',
+      es: 'El CEO de Pearl Abyss habla del futuro de Crimson Desert: contenido gratuito prioritario, DLC de pago a largo plazo, multijugador probado internamente, arrepentimientos sobre la historia y nuevo juego DukeV.',
+      pt: 'O CEO da Pearl Abyss discute o futuro de Crimson Desert: conteúdo gratuito prioritário, DLC pago a longo prazo, multijogador testado internamente, arrependimentos sobre a história e novo jogo DukeV.',
+      it: 'Il CEO di Pearl Abyss discute il futuro di Crimson Desert: contenuto gratuito prioritario, DLC a pagamento a lungo termine, multigiocatore testato internamente, rimpianti sulla storia e nuovo gioco DukeV.',
+      ko: '펄어비스 CEO가 크림슨 디저트 미래 논의: 무료 콘텐츠 우선, 유료 DLC 장기 계획, 멀티플레이어 내부 테스트, 스토리 아쉬움, 신작 DukeV 개발 중.',
+    },
+    content: {
+      fr: `Dans une série d'interviews suivant le lancement de Crimson Desert, le PDG de Pearl Abyss, Heo Jin-Young, a levé le voile sur la vision à long terme du studio pour son ambitieux RPG d'action. Ses déclarations dessinent un avenir prometteur, mais aussi une franchise qui reconnaît honnêtement ses faiblesses.
+
+## « Nous sommes partiellement d'accord sur la déception narrative »
+
+C'est la déclaration qui a fait le plus de bruit. Le PDG a publiquement admis que l'équipe « est partiellement d'accord avec la déception des joueurs concernant le scénario ». Il a expliqué que l'équipe de développement a fait de son mieux pour combler les lacunes dans un temps limité, mais s'est finalement concentrée sur sa force principale : le gameplay. Cette franchise est rare dans l'industrie et a été bien accueillie par la communauté, qui y voit un signe de maturité et d'écoute.
+
+## Contenu gratuit d'abord, DLC payant ensuite
+
+Heo Jin-Young a été clair sur la stratégie de monétisation post-lancement. Rien n'est décidé concernant les DLC payants — la priorité actuelle est de sortir des **patchs gratuits**. Le PDG a expliqué le raisonnement : « Vendre des packs d'extension est une approche, mais il y a aussi des jeux qui génèrent des revenus en stimulant les ventes du jeu de base grâce à l'expansion du contenu. Nous voulons prendre des décisions stratégiques qui aident Crimson Desert à se vendre davantage en tant que titre principal. » Les DLC payants restent un objectif à long terme pour que le jeu soit « aimé pendant longtemps ».
+
+## Le multijoueur a été testé en interne
+
+Lors d'un appel aux résultats de février 2026, le PDG a révélé que le studio a **testé le multijoueur en interne**. L'ajout post-lancement est envisagé. La fenêtre la plus réaliste serait un **test bêta fin 2026**, pour un lancement début 2027. Aucun détail sur le format n'a été partagé, mais la communauté spécule sur un mode duo coopératif pour les donjons et les boss.
+
+## DukeV : le prochain jeu de Pearl Abyss
+
+Pearl Abyss a confirmé que le travail sur son prochain jeu, baptisé **DukeV**, a déjà commencé. Il utilisera le même moteur BlackSpace Engine que Crimson Desert. Cette annonce soulève des questions sur le rythme du contenu post-lancement de Crimson Desert, mais le studio a assuré que les deux équipes sont distinctes. Consultez notre [analyse des ventes et critiques](/blog/crimson-desert-4-million-sales-critical-reception-metacritic-2026) pour comprendre les enjeux financiers, et notre [récapitulatif des patchs de mars](/blog/crimson-desert-march-2026-updates-patches-sales-records) pour voir la cadence actuelle.`,
+
+      en: `In a series of interviews following Crimson Desert's launch, Pearl Abyss CEO Heo Jin-Young lifted the curtain on the studio's long-term vision for its ambitious action RPG. His statements paint a promising future — but also a franchise that honestly acknowledges its weaknesses.
+
+## "We Partially Agree on the Narrative Disappointment"
+
+This was the statement that made the biggest waves. The CEO publicly admitted that the team "partially agrees with the disappointment users feel about the story." He explained that the development team did its best to fill gaps within limited time but ultimately focused on their core strength: gameplay. This kind of candor is rare in the industry and was well received by the community, who see it as a sign of maturity and genuine listening.
+
+## Free Content First, Paid DLC Later
+
+Heo Jin-Young was clear about the post-launch monetization strategy. Nothing has been decided regarding paid DLC — the current priority is releasing **free patches**. The CEO explained the reasoning: "While selling expansion packs is one approach, there are also games that generate revenue by boosting sales of the base game through content expansion. We want to make strategic decisions that help Crimson Desert sell more as a main title." Paid DLC remains a long-term goal to make the game "loved for a long time."
+
+## Multiplayer Was Tested Internally
+
+During a February 2026 earnings call, the CEO revealed the studio had **tested multiplayer internally**. Post-launch addition is on the table. The most realistic window would be a **late 2026 beta test**, with a launch in early 2027. No details on the format have been shared, but the community speculates on a co-op duo mode for dungeons and bosses.
+
+## DukeV: Pearl Abyss's Next Game
+
+Pearl Abyss confirmed that work on its next game, called **DukeV**, has already begun. It will use the same BlackSpace Engine as Crimson Desert. This raises questions about the pace of Crimson Desert's post-launch content, but the studio has assured that the two teams are separate. Check our [sales and reviews analysis](/blog/crimson-desert-4-million-sales-critical-reception-metacritic-2026) for the financial context, and our [March patches recap](/blog/crimson-desert-march-2026-updates-patches-sales-records) to see the current cadence.`,
+
+      es: `En una serie de entrevistas tras el lanzamiento de Crimson Desert, el CEO de Pearl Abyss, Heo Jin-Young, reveló la visión a largo plazo del estudio. Sus declaraciones pintan un futuro prometedor, pero también una franquicia que reconoce honestamente sus debilidades.
+
+## « Estamos parcialmente de acuerdo con la decepción narrativa »
+
+El CEO admitió públicamente que el equipo « está parcialmente de acuerdo con la decepción de los usuarios sobre la historia ». Explicó que el equipo hizo todo lo posible para llenar vacíos en un tiempo limitado, pero se centró en su fortaleza principal: el gameplay. Esta franqueza fue bien recibida por la comunidad.
+
+## Contenido gratuito primero, DLC de pago después
+
+Nada está decidido sobre DLC de pago — la prioridad actual son los **parches gratuitos**. El CEO explicó: « Vender packs de expansión es un enfoque, pero hay juegos que generan ingresos impulsando las ventas del juego base. Queremos decisiones estratégicas que ayuden a Crimson Desert a venderse más como título principal. »
+
+## El multijugador fue probado internamente
+
+El CEO reveló que el estudio **probó el multijugador internamente**. La ventana más realista sería una **beta a finales de 2026**, con lanzamiento a principios de 2027. La comunidad especula sobre un modo cooperativo para mazmorras y jefes.
+
+## DukeV: el próximo juego de Pearl Abyss
+
+Pearl Abyss confirmó que el trabajo en **DukeV** ya comenzó, usando el mismo motor BlackSpace Engine. Consulta nuestro [análisis de ventas](/blog/crimson-desert-4-million-sales-critical-reception-metacritic-2026) y el [resumen de parches de marzo](/blog/crimson-desert-march-2026-updates-patches-sales-records).`,
+
+      pt: `Em uma série de entrevistas após o lançamento de Crimson Desert, o CEO da Pearl Abyss, Heo Jin-Young, revelou a visão de longo prazo do estúdio. Suas declarações pintam um futuro promissor, mas também uma franquia que reconhece honestamente suas fraquezas.
+
+## « Concordamos parcialmente com a decepção narrativa »
+
+O CEO admitiu publicamente que a equipe « concorda parcialmente com a decepção dos usuários sobre a história ». Explicou que a equipe fez o possível para preencher lacunas em tempo limitado, mas focou em sua força principal: gameplay.
+
+## Conteúdo gratuito primeiro, DLC pago depois
+
+Nada foi decidido sobre DLC pago — a prioridade atual são os **patches gratuitos**. O CEO explicou: « Vender pacotes de expansão é uma abordagem, mas há jogos que geram receita impulsionando vendas do jogo base. »
+
+## Multijogador foi testado internamente
+
+O CEO revelou que o estúdio **testou o multijogador internamente**. A janela mais realista seria um **beta no final de 2026**, com lançamento no início de 2027.
+
+## DukeV: o próximo jogo da Pearl Abyss
+
+A Pearl Abyss confirmou que o trabalho em **DukeV** já começou, usando o mesmo motor BlackSpace Engine. Confira nossa [análise de vendas](/blog/crimson-desert-4-million-sales-critical-reception-metacritic-2026) e o [resumo de patches de março](/blog/crimson-desert-march-2026-updates-patches-sales-records).`,
+
+      it: `In una serie di interviste dopo il lancio di Crimson Desert, il CEO di Pearl Abyss Heo Jin-Young ha rivelato la visione a lungo termine dello studio. Le sue dichiarazioni dipingono un futuro promettente, ma anche un franchise che riconosce onestamente le sue debolezze.
+
+## « Siamo parzialmente d'accordo sulla delusione narrativa »
+
+Il CEO ha ammesso pubblicamente che il team « è parzialmente d'accordo con la delusione degli utenti sulla storia ». Ha spiegato che il team ha fatto del suo meglio per colmare le lacune in un tempo limitato, ma si è concentrato sulla sua forza principale: il gameplay. Questa franchezza è stata ben accolta dalla comunità.
+
+## Contenuto gratuito prima, DLC a pagamento dopo
+
+Nulla è stato deciso riguardo ai DLC a pagamento — la priorità attuale sono le **patch gratuite**. Il CEO ha spiegato: « Vendere pacchetti di espansione è un approccio, ma ci sono giochi che generano ricavi stimolando le vendite del gioco base. »
+
+## Il multigiocatore è stato testato internamente
+
+Il CEO ha rivelato che lo studio ha **testato il multigiocatore internamente**. La finestra più realistica sarebbe un **test beta a fine 2026**, con lancio a inizio 2027.
+
+## DukeV: il prossimo gioco di Pearl Abyss
+
+Pearl Abyss ha confermato che il lavoro su **DukeV** è già iniziato, utilizzando lo stesso motore BlackSpace Engine. Consultate la nostra [analisi delle vendite](/blog/crimson-desert-4-million-sales-critical-reception-metacritic-2026) e il [riepilogo delle patch di marzo](/blog/crimson-desert-march-2026-updates-patches-sales-records).`,
+
+      ko: `크림슨 디저트 출시 후 일련의 인터뷰에서 펄어비스 CEO 허진영은 야심찬 액션 RPG에 대한 스튜디오의 장기 비전을 공개했습니다. 그의 발언은 유망한 미래를 그리지만, 동시에 약점을 솔직히 인정하는 프랜차이즈를 보여줍니다.
+
+## « 스토리 실망에 부분적으로 동의합니다 »
+
+가장 큰 파장을 일으킨 발언이었습니다. CEO는 팀이 « 스토리에 대한 사용자의 실망에 부분적으로 동의한다 »고 공개적으로 인정했습니다. 개발팀이 제한된 시간 내에 공백을 메우기 위해 최선을 다했지만 결국 핵심 강점인 게임플레이에 집중했다고 설명했습니다.
+
+## 무료 콘텐츠 우선, 유료 DLC는 나중에
+
+유료 DLC에 대해 결정된 것은 없으며, 현재 우선순위는 **무료 패치**입니다. CEO는 « 확장팩 판매도 방법이지만, 콘텐츠 확장으로 기본 게임 판매를 촉진하여 수익을 창출하는 게임도 있습니다. 크림슨 디저트가 메인 타이틀로서 더 많이 팔릴 수 있는 전략적 결정을 내리고 싶습니다 »라고 설명했습니다.
+
+## 멀티플레이어 내부 테스트 완료
+
+2026년 2월 실적 발표에서 CEO는 스튜디오가 **멀티플레이어를 내부적으로 테스트**했음을 밝혔습니다. 가장 현실적인 일정은 **2026년 말 베타 테스트**, 2027년 초 출시입니다.
+
+## DukeV: 펄어비스의 다음 게임
+
+펄어비스는 **DukeV**라는 차기작 작업이 이미 시작되었음을 확인했으며, 크림슨 디저트와 동일한 BlackSpace Engine을 사용합니다. [판매 분석](/blog/crimson-desert-4-million-sales-critical-reception-metacritic-2026)과 [3월 패치 요약](/blog/crimson-desert-march-2026-updates-patches-sales-records)을 확인하세요.`,
+    },
+    relatedSlugs: ['crimson-desert-4-million-sales-critical-reception-metacritic-2026', 'crimson-desert-march-2026-updates-patches-sales-records', 'crimson-desert-development-history-7-years'],
+  },
+
+  // ─── ARTICLE 31 — HIDDEN SECRETS & DARK FOG LANTERN ───
+  {
+    id: 'hidden-secrets-dark-fog-lantern',
+    slug: 'crimson-desert-hidden-secrets-dark-fog-lantern-illusory-walls-guide',
+    category: 'GUIDE',
+    coverImage: forestBridge,
+    author: 'Pywel Wiki',
+    publishedAt: '2026-04-01',
+    readingTime: 11,
+    tags: [
+      { fr: 'secrets', en: 'secrets', es: 'secretos', it: 'segreti', ko: '비밀' },
+      { fr: 'lanterne', en: 'lantern', es: 'linterna', it: 'lanterna', ko: '랜턴' },
+      { fr: 'exploration', en: 'exploration', es: 'exploración', it: 'esplorazione', ko: '탐험' },
+      { fr: 'guide', en: 'guide', es: 'guía', it: 'guida', ko: '가이드' },
+      { fr: 'murs illusoires', en: 'illusory walls', es: 'paredes ilusorias', it: 'muri illusori', ko: '환상의 벽' },
+    ],
+    title: {
+      fr: 'Crimson Desert : guide de la Lanterne du Brouillard Sombre, murs illusoires et tous les secrets cachés',
+      en: 'Crimson Desert: Dark Fog Lantern Guide, Illusory Walls & All Hidden Secrets Explained',
+      es: 'Crimson Desert: guía de la Linterna de Niebla Oscura, paredes ilusorias y todos los secretos ocultos',
+      pt: 'Crimson Desert: guia da Lanterna de Névoa Escura, paredes ilusórias e todos os segredos ocultos',
+      it: 'Crimson Desert: guida alla Lanterna della Nebbia Oscura, muri illusori e tutti i segreti nascosti',
+      ko: '크림슨 디저트: 어둠 안개 랜턴 가이드, 환상의 벽 및 모든 숨겨진 비밀',
+    },
+    excerpt: {
+      fr: 'La Lanterne du Brouillard Sombre transforme votre exploration de Pywel. Guide complet : comment l\'obtenir, les murs illusoires, les artefacts de l\'Abîme et les 2341 trésors cachés à découvrir.',
+      en: 'The Dark Fog Lantern transforms your exploration of Pywel. Complete guide: how to get it, illusory walls, Abyss Artifacts, and the 2,341 hidden treasures waiting to be found.',
+      es: 'La Linterna de Niebla Oscura transforma tu exploración de Pywel. Guía completa: cómo obtenerla, paredes ilusorias, Artefactos del Abismo y los 2341 tesoros ocultos por descubrir.',
+      pt: 'A Lanterna de Névoa Escura transforma sua exploração de Pywel. Guia completo: como obtê-la, paredes ilusórias, Artefatos do Abismo e os 2341 tesouros escondidos a descobrir.',
+      it: 'La Lanterna della Nebbia Oscura trasforma la vostra esplorazione di Pywel. Guida completa: come ottenerla, muri illusori, Artefatti dell\'Abisso e i 2341 tesori nascosti da scoprire.',
+      ko: '어둠 안개 랜턴이 파이웰 탐험을 완전히 바꿉니다. 완벽 가이드: 획득 방법, 환상의 벽, 심연 유물, 발견해야 할 2,341개의 숨겨진 보물.',
+    },
+    seoTitle: {
+      fr: 'Lanterne Brouillard Sombre Crimson Desert | Murs Illusoires, Secrets | Guide 2026',
+      en: 'Dark Fog Lantern Crimson Desert | Illusory Walls, Secrets | Guide 2026',
+      es: 'Linterna Niebla Oscura Crimson Desert | Paredes Ilusorias, Secretos | Guía 2026',
+      pt: 'Lanterna Névoa Escura Crimson Desert | Paredes Ilusórias, Segredos | Guia 2026',
+      it: 'Lanterna Nebbia Oscura Crimson Desert | Muri Illusori, Segreti | Guida 2026',
+      ko: '어둠 안개 랜턴 크림슨 디저트 | 환상의 벽, 비밀 | 가이드 2026',
+    },
+    seoDescription: {
+      fr: 'Guide complet de la Lanterne du Brouillard Sombre dans Crimson Desert. Murs illusoires, fragments de mémoire, artefacts de l\'Abîme, passages secrets et 2341 trésors cachés. Exploration Pywel 2026.',
+      en: 'Complete guide to the Dark Fog Lantern in Crimson Desert. Illusory walls, memory fragments, Abyss Artifacts, secret passages, and 2,341 hidden treasures. Pywel exploration 2026.',
+      es: 'Guía completa de la Linterna de Niebla Oscura en Crimson Desert. Paredes ilusorias, fragmentos de memoria, Artefactos del Abismo, pasajes secretos y 2341 tesoros ocultos. Exploración Pywel 2026.',
+      pt: 'Guia completo da Lanterna de Névoa Escura em Crimson Desert. Paredes ilusórias, fragmentos de memória, Artefatos do Abismo, passagens secretas e 2341 tesouros ocultos. Exploração Pywel 2026.',
+      it: 'Guida completa alla Lanterna della Nebbia Oscura in Crimson Desert. Muri illusori, frammenti di memoria, Artefatti dell\'Abisso, passaggi segreti e 2341 tesori nascosti. Esplorazione Pywel 2026.',
+      ko: '크림슨 디저트 어둠 안개 랜턴 완벽 가이드. 환상의 벽, 기억 조각, 심연 유물, 비밀 통로, 2,341개 숨겨진 보물. 파이웰 탐험 2026.',
+    },
+    content: {
+      fr: `Pywel est immense, et Pearl Abyss y a caché tellement de secrets que même après 80 heures de jeu, vous tomberez encore sur des surprises. Le véritable « game changer » pour la chasse aux secrets est un objet que beaucoup de joueurs ratent : la Lanterne du Brouillard Sombre. Voici le guide définitif pour maîtriser l'exploration secrète de Crimson Desert.
+
+## Comment obtenir la Lanterne du Brouillard Sombre
+
+La Lanterne du Brouillard Sombre s'obtient via la quête de faction de la **Maison Alfonso** à Hernand, spécifiquement la mission « Structure Transcendante » qui suit « Le Poids de l'Héritage ». Cette quête n'est pas dans le chemin principal — il faut explorer les quêtes de faction dans [Hernand](/world) pour la débloquer. Une fois obtenue, la lanterne améliorée révèle des éléments invisibles à l'œil nu : **fragments de mémoire**, **indices cachés**, **artefacts de l'Abîme scellés**, **lueurs bleues** et **hologrammes de fantômes**.
+
+## Les murs illusoires : le secret le mieux gardé
+
+Certains murs dans Crimson Desert sont **illusoires**. Si votre lanterne met en surbrillance un mur mais que rien ne se passe quand vous appuyez sur Interagir, **traversez-le**. Le mur se dissout pour révéler un passage caché ou une salle secrète. L'approche systématique : activez votre lanterne (L1/LB) dans chaque grotte et ruine. Si un marqueur apparaît sur un mur sans interaction, essayez de marcher dedans. Ces murs cachent souvent des équipements uniques ou des fragments de lore sur [les factions](/blog/crimson-desert-factions-greymanes-black-bears-abyss).
+
+## La technique des cairns et cascades
+
+La communauté a découvert un indice visuel subtil : si vous voyez une petite **tour de pierres empilées (cairn)** devant une cascade, cela signifie qu'il y a un trésor derrière. Il y a généralement soit un coffre avec un équipement unique, soit du minerai rare. Cet indice fonctionne dans toutes les régions de Pywel, des plaines dorées aux montagnes enneigées.
+
+## Lanterne standard vs Lumière Directrice
+
+Le jeu propose deux outils d'exploration complémentaires. La **Lanterne** (L1/LB) met en surbrillance le butin proche, les mémoires, les objets destructibles et les points d'intérêt. La **Lumière Directrice** (L1+R1 / LB+RB) révèle les artefacts distants, les points de voyage rapide et les emplacements de puzzles sous forme de marqueurs lumineux à l'horizon. Utilisez la Lanterne pour l'exploration de proximité et la Lumière Directrice pour planifier vos itinéraires dans le [monde ouvert](/blog/crimson-desert-exploration-bell-towers-mounts-knowledge).
+
+## 2 341 trésors et 414 points d'intérêt
+
+La communauté a catalogué **2 341 trésors** et **414 points d'intérêt** répartis sur toute la carte. Des cartes interactives sont disponibles en ligne pour suivre votre progression. Pour les complétistes, c'est un défi monumental qui récompense l'exploration systématique — et la Lanterne du Brouillard Sombre rend cette quête infiniment plus agréable. Consultez notre [guide du débutant](/blog/crimson-desert-beginner-guide-10-essential-tips) si vous débutez votre aventure, ou nos [astuces avancées](/blog/crimson-desert-advanced-tips-tricks-combat-exploration-2026) pour optimiser votre exploration.`,
+
+      en: `Pywel is massive, and Pearl Abyss has hidden so much stuff in it that even after 80 hours of gameplay, you will still stumble upon surprises. The true game-changer for secret hunting is an item many players miss: the Dark Fog Lantern. Here is the definitive guide to mastering Crimson Desert's secret exploration.
+
+## How to Get the Dark Fog Lantern
+
+The Dark Fog Lantern is obtained via the **Alfonso House** faction quest in Hernand, specifically the "Transcendent Structure" mission that follows "The Weight of Legacy." This quest is not on the main path — you need to explore faction quests in [Hernand](/world) to unlock it. Once obtained, the enhanced lantern reveals elements invisible to the naked eye: **memory fragments**, **hidden clues**, **sealed Abyss Artifacts**, **blue glows**, and **ghost holograms**.
+
+## Illusory Walls: The Best-Kept Secret
+
+Some walls in Crimson Desert are **illusory**. If your lantern highlights a wall but nothing happens when you press Interact, **walk into it**. The wall dissolves to reveal a hidden passage or secret room. The systematic approach: activate your lantern (L1/LB) in every cave and ruin. If a marker appears on a wall without interaction, try walking through it. These walls often hide unique equipment or lore fragments about [the factions](/blog/crimson-desert-factions-greymanes-black-bears-abyss).
+
+## The Cairn and Waterfall Technique
+
+The community has discovered a subtle visual clue: if you see a small **stacked rock tower (cairn)** in front of a waterfall, it means there is treasure behind it. There is usually either a treasure chest with unique equipment or rare ore. This clue works across all regions of Pywel, from the golden plains to the snowy mountains.
+
+## Standard Lantern vs Guiding Light
+
+The game offers two complementary exploration tools. The **Lantern** (L1/LB) highlights nearby loot, memories, destructible objects, and points of interest. The **Guiding Light** (L1+R1 / LB+RB) reveals distant artifacts, fast travel spots, and puzzle locations as luminous markers on the horizon. Use the Lantern for close-range exploration and the Guiding Light for planning routes across the [open world](/blog/crimson-desert-exploration-bell-towers-mounts-knowledge).
+
+## 2,341 Treasures and 414 Points of Interest
+
+The community has catalogued **2,341 treasures** and **414 points of interest** scattered across the entire map. Interactive maps are available online to track your progress. For completionists, this is a monumental challenge that rewards systematic exploration — and the Dark Fog Lantern makes this quest infinitely more enjoyable. Check our [beginner's guide](/blog/crimson-desert-beginner-guide-10-essential-tips) if you are starting your adventure, or our [advanced tips](/blog/crimson-desert-advanced-tips-tricks-combat-exploration-2026) to optimize your exploration.`,
+
+      es: `Pywel es inmenso, y Pearl Abyss ha escondido tantos secretos que incluso después de 80 horas de juego seguirás encontrando sorpresas. El verdadero cambio de juego para la caza de secretos es un objeto que muchos jugadores pasan por alto: la Linterna de Niebla Oscura.
+
+## Cómo obtener la Linterna de Niebla Oscura
+
+La Linterna se obtiene mediante la misión de facción de la **Casa Alfonso** en Hernand, específicamente la misión « Estructura Trascendente » que sigue a « El Peso del Legado ». Esta misión no está en el camino principal. Una vez obtenida, la linterna mejorada revela: **fragmentos de memoria**, **pistas ocultas**, **Artefactos del Abismo sellados**, **brillos azules** y **hologramas fantasma**.
+
+## Paredes ilusorias: el secreto mejor guardado
+
+Algunas paredes en Crimson Desert son **ilusorias**. Si tu linterna resalta una pared pero no pasa nada al pulsar Interactuar, **camina a través de ella**. La pared se disuelve revelando un pasaje oculto. Activa tu linterna (L1/LB) en cada cueva y ruina. Estas paredes suelen esconder equipamiento único o fragmentos de lore sobre [las facciones](/blog/crimson-desert-factions-greymanes-black-bears-abyss).
+
+## La técnica de los cairns y cascadas
+
+La comunidad ha descubierto una pista visual sutil: si ves una pequeña **torre de piedras apiladas** frente a una cascada, significa que hay un tesoro detrás. Generalmente hay un cofre con equipo único o mineral raro.
+
+## 2.341 tesoros y 414 puntos de interés
+
+La comunidad ha catalogado **2.341 tesoros** y **414 puntos de interés** repartidos por todo el mapa. Hay mapas interactivos disponibles en línea. Consulta nuestra [guía para principiantes](/blog/crimson-desert-beginner-guide-10-essential-tips) o nuestros [consejos avanzados](/blog/crimson-desert-advanced-tips-tricks-combat-exploration-2026).`,
+
+      pt: `Pywel é imenso, e Pearl Abyss escondeu tantos segredos que mesmo após 80 horas de jogo, você ainda encontrará surpresas. O verdadeiro divisor de águas para caça de segredos é um item que muitos jogadores perdem: a Lanterna de Névoa Escura.
+
+## Como obter a Lanterna de Névoa Escura
+
+A Lanterna é obtida através da missão de facção da **Casa Alfonso** em Hernand, especificamente a missão "Estrutura Transcendente" que segue "O Peso do Legado". Uma vez obtida, revela: **fragmentos de memória**, **pistas ocultas**, **Artefatos do Abismo selados**, **brilhos azuis** e **hologramas fantasma**.
+
+## Paredes ilusórias: o segredo mais bem guardado
+
+Algumas paredes são **ilusórias**. Se sua lanterna destaca uma parede mas nada acontece ao pressionar Interagir, **caminhe através dela**. A parede se dissolve revelando uma passagem secreta. Ative sua lanterna (L1/LB) em cada caverna e ruína.
+
+## A técnica dos cairns e cachoeiras
+
+Se você vir uma **torre de pedras empilhadas** na frente de uma cachoeira, há tesouro atrás. Geralmente um baú com equipamento único ou minério raro.
+
+## 2.341 tesouros e 414 pontos de interesse
+
+A comunidade catalogou **2.341 tesouros** e **414 pontos de interesse**. Confira nosso [guia para iniciantes](/blog/crimson-desert-beginner-guide-10-essential-tips) ou nossas [dicas avançadas](/blog/crimson-desert-advanced-tips-tricks-combat-exploration-2026).`,
+
+      it: `Pywel è immenso, e Pearl Abyss ha nascosto così tanti segreti che anche dopo 80 ore di gioco continuerete a trovare sorprese. Il vero game-changer per la caccia ai segreti è un oggetto che molti giocatori perdono: la Lanterna della Nebbia Oscura.
+
+## Come ottenere la Lanterna della Nebbia Oscura
+
+La Lanterna si ottiene tramite la missione di fazione della **Casa Alfonso** a Hernand, specificamente la missione "Struttura Trascendente" che segue "Il Peso dell'Eredità". Una volta ottenuta, rivela: **frammenti di memoria**, **indizi nascosti**, **Artefatti dell'Abisso sigillati**, **bagliori blu** e **ologrammi fantasma**.
+
+## Muri illusori: il segreto meglio custodito
+
+Alcuni muri in Crimson Desert sono **illusori**. Se la vostra lanterna evidenzia un muro ma non succede nulla premendo Interagisci, **camminate attraverso**. Il muro si dissolve rivelando un passaggio segreto. Attivate la lanterna (L1/LB) in ogni grotta e rovina. Questi muri nascondono spesso equipaggiamento unico o frammenti di lore sulle [fazioni](/blog/crimson-desert-factions-greymanes-black-bears-abyss).
+
+## La tecnica dei cairn e delle cascate
+
+La comunità ha scoperto un indizio visivo sottile: se vedete una piccola **torre di pietre impilate** davanti a una cascata, c'è un tesoro dietro.
+
+## 2.341 tesori e 414 punti di interesse
+
+La comunità ha catalogato **2.341 tesori** e **414 punti di interesse** sparsi per tutta la mappa. Consultate la nostra [guida per principianti](/blog/crimson-desert-beginner-guide-10-essential-tips) o i nostri [consigli avanzati](/blog/crimson-desert-advanced-tips-tricks-combat-exploration-2026).`,
+
+      ko: `파이웰은 거대하며, 펄어비스는 80시간 플레이 후에도 놀라움을 발견할 수 있을 만큼 많은 비밀을 숨겨 놓았습니다. 비밀 사냥의 진정한 게임 체인저는 많은 플레이어가 놓치는 아이템인 어둠 안개 랜턴입니다.
+
+## 어둠 안개 랜턴 획득 방법
+
+어둠 안개 랜턴은 에르난드의 **알폰소 가문** 팩션 퀘스트, 구체적으로 "유산의 무게" 다음인 "초월 구조물" 미션을 통해 획득합니다. 메인 경로에 없으므로 [에르난드](/world)의 팩션 퀘스트를 탐험해야 합니다. 획득 후 강화된 랜턴이 **기억 조각**, **숨겨진 단서**, **봉인된 심연 유물**, **푸른 빛**, **유령 홀로그램**을 드러냅니다.
+
+## 환상의 벽: 최고의 비밀
+
+크림슨 디저트의 일부 벽은 **환상**입니다. 랜턴이 벽을 하이라이트하지만 상호작용 시 아무 일도 일어나지 않으면, **벽을 통과하세요**. 벽이 녹으며 숨겨진 통로나 비밀 방이 나타납니다. 모든 동굴과 유적에서 랜턴(L1/LB)을 활성화하세요. [팩션](/blog/crimson-desert-factions-greymanes-black-bears-abyss)에 대한 고유 장비나 로어 조각이 자주 숨겨져 있습니다.
+
+## 돌탑과 폭포 기법
+
+커뮤니티가 발견한 시각적 단서: 폭포 앞에 작은 **돌탑(케른)**이 있으면 뒤에 보물이 있습니다. 보통 고유 장비 상자나 희귀 광석이 있습니다.
+
+## 2,341개 보물과 414개 관심 지점
+
+커뮤니티가 맵 전체에 **2,341개 보물**과 **414개 관심 지점**을 카탈로그했습니다. 온라인에서 대화형 지도를 사용할 수 있습니다. [초보자 가이드](/blog/crimson-desert-beginner-guide-10-essential-tips)나 [고급 팁](/blog/crimson-desert-advanced-tips-tricks-combat-exploration-2026)을 확인하세요.`,
+    },
+    relatedSlugs: ['crimson-desert-easter-eggs-secrets-hidden', 'crimson-desert-exploration-bell-towers-mounts-knowledge', 'crimson-desert-advanced-tips-tricks-combat-exploration-2026'],
+  },
+
+  // ─── ARTICLE 32 — POST-LAUNCH COMBAT COMMUNITY FEEDBACK ───
+  {
+    id: 'combat-community-feedback',
+    slug: 'crimson-desert-combat-system-community-feedback-balance-changes-2026',
+    category: 'ANALYSIS',
+    coverImage: combatAction,
+    author: 'Pywel Wiki',
+    publishedAt: '2026-04-02',
+    readingTime: 10,
+    tags: [
+      { fr: 'combat', en: 'combat', es: 'combate', it: 'combattimento', ko: '전투' },
+      { fr: 'communauté', en: 'community', es: 'comunidad', it: 'comunità', ko: '커뮤니티' },
+      { fr: 'équilibrage', en: 'balance', es: 'equilibrio', it: 'bilanciamento', ko: '밸런스' },
+      { fr: 'analyse', en: 'analysis', es: 'análisis', it: 'analisi', ko: '분석' },
+      { fr: 'difficulté', en: 'difficulty', es: 'dificultad', it: 'difficoltà', ko: '난이도' },
+    ],
+    title: {
+      fr: 'Le système de combat de Crimson Desert après deux semaines : retours communautaires, nerfs et l\'éternel débat sur la difficulté',
+      en: 'Crimson Desert Combat System After Two Weeks: Community Feedback, Nerfs & the Eternal Difficulty Debate',
+      es: 'El sistema de combate de Crimson Desert tras dos semanas: feedback comunitario, nerfs y el eterno debate de la dificultad',
+      pt: 'O sistema de combate de Crimson Desert após duas semanas: feedback da comunidade, nerfs e o eterno debate da dificuldade',
+      it: 'Il sistema di combattimento di Crimson Desert dopo due settimane: feedback della comunità, nerf e l\'eterno dibattito sulla difficoltà',
+      ko: '크림슨 디저트 전투 시스템 2주 후: 커뮤니티 피드백, 너프 및 끝없는 난이도 논쟁',
+    },
+    excerpt: {
+      fr: 'Pearl Abyss a nerfé la difficulté en 10 jours. La communauté est divisée : certains applaudissent, d\'autres estiment que le jeu est devenu trop facile. Analyse des changements et de leur impact sur le gameplay.',
+      en: 'Pearl Abyss nerfed difficulty in 10 days. The community is divided: some applaud, others feel the game became too easy. Analysis of the changes and their impact on gameplay.',
+      es: 'Pearl Abyss nerfeó la dificultad en 10 días. La comunidad está dividida: algunos aplauden, otros sienten que el juego se volvió demasiado fácil. Análisis de los cambios y su impacto.',
+      pt: 'Pearl Abyss nerfou a dificuldade em 10 dias. A comunidade está dividida: alguns aplaudem, outros acham que o jogo ficou fácil demais. Análise das mudanças e seu impacto.',
+      it: 'Pearl Abyss ha nerfato la difficoltà in 10 giorni. La comunità è divisa: alcuni applaudono, altri ritengono che il gioco sia diventato troppo facile. Analisi dei cambiamenti e del loro impatto.',
+      ko: '펄어비스가 10일 만에 난이도를 너프했습니다. 커뮤니티는 분열: 일부는 환영, 일부는 너무 쉬워졌다고 평가. 변경 사항과 게임플레이 영향 분석.',
+    },
+    seoTitle: {
+      fr: 'Combat Crimson Desert Après Lancement | Nerfs, Difficulté, Communauté | Analyse 2026',
+      en: 'Crimson Desert Combat Post-Launch | Nerfs, Difficulty, Community | Analysis 2026',
+      es: 'Combate Crimson Desert Post-Lanzamiento | Nerfs, Dificultad, Comunidad | Análisis 2026',
+      pt: 'Combate Crimson Desert Pós-Lançamento | Nerfs, Dificuldade, Comunidade | Análise 2026',
+      it: 'Combattimento Crimson Desert Post-Lancio | Nerf, Difficoltà, Comunità | Analisi 2026',
+      ko: '크림슨 디저트 전투 출시 후 | 너프, 난이도, 커뮤니티 | 분석 2026',
+    },
+    seoDescription: {
+      fr: 'Analyse des changements de combat post-lancement de Crimson Desert. Nerfs de difficulté, équilibrage des boss, réduction du coût d\'endurance et débat communautaire. Pearl Abyss 2026.',
+      en: 'Analysis of Crimson Desert post-launch combat changes. Difficulty nerfs, boss balance, stamina cost reduction, and community debate. Pearl Abyss 2026.',
+      es: 'Análisis de los cambios de combate post-lanzamiento de Crimson Desert. Nerfs de dificultad, equilibrio de jefes, reducción de coste de resistencia y debate comunitario. Pearl Abyss 2026.',
+      pt: 'Análise das mudanças de combate pós-lançamento de Crimson Desert. Nerfs de dificuldade, equilíbrio de chefes, redução de custo de resistência e debate da comunidade. Pearl Abyss 2026.',
+      it: 'Analisi dei cambiamenti di combattimento post-lancio di Crimson Desert. Nerf di difficoltà, bilanciamento dei boss, riduzione costo resistenza e dibattito della comunità. Pearl Abyss 2026.',
+      ko: '크림슨 디저트 출시 후 전투 변경 분석. 난이도 너프, 보스 밸런스, 스태미나 비용 감소, 커뮤니티 논쟁. 펄어비스 2026.',
+    },
+    content: {
+      fr: `Le système de combat est le joyau de Crimson Desert — et le sujet le plus débattu depuis le lancement. En à peine 10 jours, Pearl Abyss a déployé des modifications majeures à l'équilibrage, suscitant un débat passionné dans la communauté. IGN France rapporte que les fans sont ravis des mises à jour, mais certains estiment qu'elles rendent le jeu trop facile.
+
+## Les nerfs de difficulté : ce qui a changé
+
+Le patch 1.00.03 du 25 mars a introduit les changements les plus significatifs. La **santé et la puissance d'attaque des ennemis de début de jeu et des boss principaux** ont été réduites. Le **coût d'endurance en défense** a été diminué, donnant aux joueurs plus de marge pour bloquer sans être épuisés. Les **patterns d'attaque de Kea Rush** ont été ajustés, et l'accumulation de la **jauge d'étourdissement via le parry** a été augmentée. Ces changements transforment fondamentalement l'expérience des premiers chapitres.
+
+## Le débat qui divise la communauté
+
+La communauté est fracturée. D'un côté, les joueurs qui trouvaient le jeu frustrant au lancement applaudissent les modifications. Les avis Steam sont passés de « Moyens » à « Très Positifs », preuve que la majorité apprécie la direction prise. De l'autre, les joueurs hardcore estiment que Pearl Abyss a cédé trop vite aux plaintes. Ils arguent que le [système de combat](/blog/crimson-desert-combat-system-lock-stamina-parry-spirit) original récompensait la maîtrise et la patience, et que la difficulté faisait partie de l'identité du jeu.
+
+## L'ajout des indices visuels de boss
+
+Un changement subtil mais majeur : les **faiblesses des boss sont désormais visibles** sans avoir acquis la connaissance préalable. Auparavant, il fallait accumuler du savoir sur chaque [boss](/blog/boss-guide-staglord-stoneback-crab-reed-devil-white-horn) via le système de Connaissance pour voir ses points faibles. Maintenant, ces indices sont affichés par défaut. C'est le changement le plus controversé parmi les puristes, qui considèrent que la découverte progressive des faiblesses faisait partie intégrante de l'expérience.
+
+## Notre verdict : un équilibre nécessaire mais risqué
+
+Les nerfs de difficulté étaient probablement nécessaires pour la santé commerciale du jeu — les 4 millions de ventes suggèrent un public large qui n'est pas exclusivement composé de joueurs hardcore. Cependant, Pearl Abyss devrait envisager un **mode Difficulté Plus** ou un New Game+ qui restaure le challenge original. Le jeu a les fondations pour satisfaire les deux publics. Consultez nos [10 astuces essentielles](/blog/crimson-desert-beginner-guide-10-essential-tips) ajustées post-patch et notre [guide des armes](/blog/all-weapons-combat-styles-crimson-desert) pour trouver le style qui vous convient.`,
+
+      en: `The combat system is Crimson Desert's crown jewel — and the most debated topic since launch. In just 10 days, Pearl Abyss deployed major balance changes, sparking a passionate community debate. IGN France reports that fans are thrilled with the updates, but some feel they make the game too easy.
+
+## The Difficulty Nerfs: What Changed
+
+Patch 1.00.03 on March 25 introduced the most significant changes. **Health and attack power of early-game enemies and main quest bosses** were reduced. **Stamina cost while defending** was decreased, giving players more room to block without being drained. **Kea Rush attack patterns** were adjusted, and **stun gauge accumulation via parry** was increased. These changes fundamentally transform the experience of the early chapters.
+
+## The Debate Dividing the Community
+
+The community is fractured. On one side, players who found the game frustrating at launch applaud the changes. Steam reviews shifted from "Mixed" to "Very Positive," evidence that the majority appreciates the direction. On the other, hardcore players feel Pearl Abyss caved too quickly to complaints. They argue that the original [combat system](/blog/crimson-desert-combat-system-lock-stamina-parry-spirit) rewarded mastery and patience, and that the difficulty was part of the game's identity.
+
+## Boss Visual Cues Added
+
+A subtle but major change: **boss weaknesses are now visible** without needing prior knowledge. Previously, you had to accumulate knowledge on each [boss](/blog/boss-guide-staglord-stoneback-crab-reed-devil-white-horn) through the Knowledge system to see weak points. Now these cues display by default. This is the most controversial change among purists, who consider the progressive discovery of weaknesses an integral part of the experience.
+
+## Our Verdict: Necessary But Risky Balance
+
+The difficulty nerfs were likely necessary for the game's commercial health — 4 million sales suggest a broad audience that is not exclusively hardcore gamers. However, Pearl Abyss should consider a **Hard Mode** or New Game+ that restores the original challenge. The game has the foundations to satisfy both audiences. Check our [10 essential tips](/blog/crimson-desert-beginner-guide-10-essential-tips) adjusted for the post-patch era, and our [weapons guide](/blog/all-weapons-combat-styles-crimson-desert) to find the style that suits you.`,
+
+      es: `El sistema de combate es la joya de Crimson Desert — y el tema más debatido desde el lanzamiento. En apenas 10 días, Pearl Abyss desplegó cambios de equilibrio importantes, generando un debate apasionado en la comunidad.
+
+## Los nerfs de dificultad: qué cambió
+
+El parche 1.00.03 del 25 de marzo introdujo los cambios más significativos. La **salud y poder de ataque de enemigos iniciales y jefes principales** se redujeron. El **coste de resistencia en defensa** disminuyó. Los **patrones de ataque de Kea Rush** se ajustaron, y la acumulación de **aturdimiento via parry** aumentó. Estos cambios transforman la experiencia de los primeros capítulos.
+
+## El debate que divide a la comunidad
+
+La comunidad está dividida. Los jugadores que encontraban el juego frustrante al lanzamiento aplauden los cambios — las reseñas de Steam pasaron de "Mixtas" a "Muy Positivas". Pero los jugadores hardcore sienten que Pearl Abyss cedió demasiado rápido. Argumentan que el [sistema de combate](/blog/crimson-desert-combat-system-lock-stamina-parry-spirit) original recompensaba la maestría y la paciencia.
+
+## Indicadores visuales de jefes añadidos
+
+Las **debilidades de los jefes son ahora visibles** sin conocimiento previo. Antes, había que acumular conocimiento sobre cada [jefe](/blog/boss-guide-staglord-stoneback-crab-reed-devil-white-horn) para ver sus puntos débiles. Es el cambio más controvertido entre los puristas.
+
+## Nuestro veredicto: equilibrio necesario pero arriesgado
+
+Los nerfs probablemente eran necesarios para la salud comercial del juego. Sin embargo, Pearl Abyss debería considerar un **Modo Difícil** o New Game+ que restaure el desafío original. Consulta nuestras [10 tips esenciales](/blog/crimson-desert-beginner-guide-10-essential-tips) y nuestra [guía de armas](/blog/all-weapons-combat-styles-crimson-desert).`,
+
+      pt: `O sistema de combate é a joia da coroa de Crimson Desert — e o tópico mais debatido desde o lançamento. Em apenas 10 dias, Pearl Abyss implantou mudanças de equilíbrio importantes, gerando um debate apaixonado na comunidade.
+
+## Os nerfs de dificuldade: o que mudou
+
+O patch 1.00.03 de 25 de março introduziu as mudanças mais significativas. A **saúde e poder de ataque de inimigos iniciais e chefes** foram reduzidos. O **custo de resistência na defesa** diminuiu. Os **padrões de ataque de Kea Rush** foram ajustados, e o acúmulo de **atordoamento via parry** aumentou.
+
+## O debate que divide a comunidade
+
+A comunidade está fraturada. Jogadores que achavam o jogo frustrante aplaudem as mudanças. Jogadores hardcore sentem que Pearl Abyss cedeu rápido demais. Argumentam que o [sistema de combate](/blog/crimson-desert-combat-system-lock-stamina-parry-spirit) original recompensava maestria e paciência.
+
+## Indicadores visuais de chefes adicionados
+
+As **fraquezas dos chefes agora são visíveis** sem conhecimento prévio. Antes, era preciso acumular conhecimento sobre cada [chefe](/blog/boss-guide-staglord-stoneback-crab-reed-devil-white-horn) para ver pontos fracos.
+
+## Nosso veredito: equilíbrio necessário mas arriscado
+
+Os nerfs provavelmente eram necessários. Porém, Pearl Abyss deveria considerar um **Modo Difícil** ou New Game+. Confira nossas [10 dicas essenciais](/blog/crimson-desert-beginner-guide-10-essential-tips) e nosso [guia de armas](/blog/all-weapons-combat-styles-crimson-desert).`,
+
+      it: `Il sistema di combattimento è il gioiello di Crimson Desert — e l'argomento più dibattuto dal lancio. In appena 10 giorni, Pearl Abyss ha distribuito modifiche importanti al bilanciamento, scatenando un dibattito appassionato nella comunità.
+
+## I nerf di difficoltà: cosa è cambiato
+
+La patch 1.00.03 del 25 marzo ha introdotto i cambiamenti più significativi. La **salute e potenza d'attacco dei nemici iniziali e dei boss principali** sono state ridotte. Il **costo di resistenza in difesa** è diminuito. I **pattern d'attacco di Kea Rush** sono stati aggiustati, e l'accumulo di **stordimento via parry** è aumentato.
+
+## Il dibattito che divide la comunità
+
+La comunità è fratturata. I giocatori che trovavano il gioco frustrante al lancio applaudono i cambiamenti — le recensioni Steam sono passate da "Nella Media" a "Molto Positivo". Ma i giocatori hardcore ritengono che Pearl Abyss abbia ceduto troppo in fretta. Sostengono che il [sistema di combattimento](/blog/crimson-desert-combat-system-lock-stamina-parry-spirit) originale ricompensava la padronanza e la pazienza.
+
+## Indicatori visivi dei boss aggiunti
+
+Le **debolezze dei boss sono ora visibili** senza conoscenza preventiva. Prima, bisognava accumulare conoscenza su ogni [boss](/blog/boss-guide-staglord-stoneback-crab-reed-devil-white-horn) per vedere i punti deboli. È il cambiamento più controverso tra i puristi.
+
+## Il nostro verdetto: bilanciamento necessario ma rischioso
+
+I nerf erano probabilmente necessari per la salute commerciale del gioco. Tuttavia, Pearl Abyss dovrebbe considerare una **Modalità Difficile** o New Game+. Consultate i nostri [10 consigli essenziali](/blog/crimson-desert-beginner-guide-10-essential-tips) e la nostra [guida alle armi](/blog/all-weapons-combat-styles-crimson-desert).`,
+
+      ko: `전투 시스템은 크림슨 디저트의 보석이자 출시 이후 가장 뜨거운 논쟁 주제입니다. 단 10일 만에 펄어비스가 주요 밸런스 변경을 배포하여 커뮤니티에서 열정적인 논쟁이 벌어졌습니다.
+
+## 난이도 너프: 무엇이 바뀌었나
+
+3월 25일 패치 1.00.03이 가장 중요한 변경을 도입했습니다. **초반 적과 메인 퀘스트 보스의 체력과 공격력**이 감소했습니다. **방어 시 스태미나 비용**이 줄어들었습니다. **케아 러시 공격 패턴**이 조정되었고, **패리를 통한 스턴 게이지 축적**이 증가했습니다. 이 변경은 초반 챕터의 경험을 근본적으로 바꿉니다.
+
+## 커뮤니티를 나누는 논쟁
+
+커뮤니티가 분열되었습니다. 출시 때 게임이 답답했던 플레이어들은 변경을 환영합니다 — 스팀 리뷰가 "복합적"에서 "매우 긍정적"으로 바뀌었습니다. 반면 하드코어 플레이어들은 펄어비스가 불만에 너무 빨리 굴복했다고 봅니다. 원래 [전투 시스템](/blog/crimson-desert-combat-system-lock-stamina-parry-spirit)이 숙련과 인내를 보상했다고 주장합니다.
+
+## 보스 시각적 단서 추가
+
+**보스 약점이 사전 지식 없이도 표시**됩니다. 이전에는 각 [보스](/blog/boss-guide-staglord-stoneback-crab-reed-devil-white-horn)에 대한 지식을 축적해야 약점을 볼 수 있었습니다. 순수주의자들 사이에서 가장 논란이 되는 변경입니다.
+
+## 우리의 판단: 필요하지만 위험한 밸런스
+
+난이도 너프는 게임의 상업적 건강을 위해 필요했을 것입니다. 하지만 펄어비스는 원래 챌린지를 복원하는 **하드 모드**나 New Game+를 고려해야 합니다. [필수 팁 10가지](/blog/crimson-desert-beginner-guide-10-essential-tips)와 [무기 가이드](/blog/all-weapons-combat-styles-crimson-desert)를 확인하세요.`,
+    },
+    relatedSlugs: ['crimson-desert-combat-system-lock-stamina-parry-spirit', 'crimson-desert-march-2026-updates-patches-sales-records', 'all-weapons-combat-styles-crimson-desert'],
   },
 ];

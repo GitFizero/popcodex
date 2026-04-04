@@ -13,7 +13,7 @@ export interface BlogArticle {
   author: string;
   publishedAt: string;
   readingTime: number;
-  tags: { fr: string; en: string; es?: string; pt?: string; it?: string; ko?: string }[];
+  tags: { fr: string; en: string; es?: string; pt?: string; it?: string; ko?: string; de?: string }[];
   seoTitle: Translations;
   seoDescription: Translations;
   relatedSlugs?: string[];
@@ -29,9 +29,9 @@ export const blogArticles: BlogArticle[] = [
     publishedAt: '2026-03-10',
     readingTime: 8,
     tags: [
-      { fr: 'combat', en: 'combat' },
-      { fr: 'guide', en: 'guide' },
-      { fr: 'mecaniques', en: 'mechanics' },
+      { fr: 'combat', en: 'combat', de: 'combat' },
+      { fr: 'guide', en: 'guide', de: 'guide' },
+      { fr: 'mecaniques', en: 'mechanics', de: 'mechanics' },
     ],
     title: {
       fr: 'Systeme de Combat : Le Style-Weaving Explique',
@@ -118,9 +118,9 @@ All in one fluid sequence. The system rewards players who master all three pilla
     publishedAt: '2026-03-10',
     readingTime: 7,
     tags: [
-      { fr: 'monde', en: 'world' },
-      { fr: 'lore', en: 'lore' },
-      { fr: 'exploration', en: 'exploration' },
+      { fr: 'monde', en: 'world', de: 'world' },
+      { fr: 'lore', en: 'lore', de: 'lore' },
+      { fr: 'exploration', en: 'exploration', de: 'exploration' },
     ],
     title: {
       fr: 'Albion Renait : Toutes les Locations Confirmees',
@@ -193,9 +193,9 @@ Albion's ancient, untamed forests — territory of Balverines and Hobbes. This i
     publishedAt: '2026-03-10',
     readingTime: 6,
     tags: [
-      { fr: 'reputation', en: 'reputation' },
-      { fr: 'mecaniques', en: 'mechanics' },
-      { fr: 'choix moraux', en: 'moral choices' },
+      { fr: 'reputation', en: 'reputation', de: 'reputation' },
+      { fr: 'mecaniques', en: 'mechanics', de: 'mechanics' },
+      { fr: 'choix moraux', en: 'moral choices', de: 'moral choices' },
     ],
     title: {
       fr: 'Systeme de Reputation : Comment Ca Fonctionne',
@@ -276,9 +276,9 @@ Accumulated reputation directly influences the final chapter and game ending, of
     publishedAt: '2026-03-10',
     readingTime: 7,
     tags: [
-      { fr: 'creatures', en: 'creatures' },
-      { fr: 'lore', en: 'lore' },
-      { fr: 'bestiaire', en: 'bestiary' },
+      { fr: 'creatures', en: 'creatures', de: 'creatures' },
+      { fr: 'lore', en: 'lore', de: 'lore' },
+      { fr: 'bestiaire', en: 'bestiary', de: 'bestiary' },
     ],
     title: {
       fr: 'Creatures d\'Albion : Balverines, Hobbes & Plus',
@@ -359,11 +359,11 @@ Massive creatures of rock and earth. Extremely resilient, they regenerate if not
     publishedAt: '2026-03-15',
     readingTime: 12,
     tags: [
-      { fr: 'date de sortie', en: 'release date', es: 'fecha de lanzamiento', pt: 'data de lancamento', it: 'data di uscita', ko: '출시일' },
-      { fr: 'Playground Games', en: 'Playground Games', es: 'Playground Games', pt: 'Playground Games', it: 'Playground Games', ko: 'Playground Games' },
-      { fr: 'Xbox', en: 'Xbox', es: 'Xbox', pt: 'Xbox', it: 'Xbox', ko: 'Xbox' },
-      { fr: 'PS5', en: 'PS5', es: 'PS5', pt: 'PS5', it: 'PS5', ko: 'PS5' },
-      { fr: 'Game Pass', en: 'Game Pass', es: 'Game Pass', pt: 'Game Pass', it: 'Game Pass', ko: 'Game Pass' },
+      { fr: 'date de sortie', en: 'release date', es: 'fecha de lanzamiento', pt: 'data de lancamento', it: 'data di uscita', ko: '출시일', de: 'release date' },
+      { fr: 'Playground Games', en: 'Playground Games', es: 'Playground Games', pt: 'Playground Games', it: 'Playground Games', ko: 'Playground Games', de: 'Playground Games' },
+      { fr: 'Xbox', en: 'Xbox', es: 'Xbox', pt: 'Xbox', it: 'Xbox', ko: 'Xbox', de: 'Xbox' },
+      { fr: 'PS5', en: 'PS5', es: 'PS5', pt: 'PS5', it: 'PS5', ko: 'PS5', de: 'PS5' },
+      { fr: 'Game Pass', en: 'Game Pass', es: 'Game Pass', pt: 'Game Pass', it: 'Game Pass', ko: 'Game Pass', de: 'Game Pass' },
     ],
     title: {
       fr: 'Tout savoir sur Fable 2026 : date de sortie, plateformes et details',
@@ -372,6 +372,7 @@ Massive creatures of rock and earth. Extremely resilient, they regenerate if not
       pt: 'Tudo o que sabemos sobre Fable 2026: data de lancamento, plataformas e detalhes',
       it: 'Tutto quello che sappiamo su Fable 2026: data di uscita, piattaforme e dettagli',
       ko: 'Fable 2026 총정리: 출시일, 플랫폼, 상세 정보',
+      de: 'Everything We Know About Fable 2026: Release Date, Platforms & Details',
     },
     excerpt: {
       fr: "Guide complet sur Fable 2026 : date de sortie, plateformes confirmees, developpeur, Game Pass et tout ce qu'il faut savoir avant la sortie.",
@@ -388,6 +389,7 @@ Massive creatures of rock and earth. Extremely resilient, they regenerate if not
       pt: 'Fable 2026 Data de Lancamento | Guia Completo',
       it: 'Fable 2026 Data di Uscita | Guida Completa',
       ko: 'Fable 2026 출시일 & 정보 | 완벽 가이드',
+      de: 'Fable 2026 Release Date & Info | Complete Guide',
     },
     seoDescription: {
       fr: "Tout savoir sur Fable 2026 : date de sortie automne 2026, Xbox, PC, PS5, Game Pass. Playground Games, reboot d'Albion. Guide complet.",
@@ -396,6 +398,7 @@ Massive creatures of rock and earth. Extremely resilient, they regenerate if not
       pt: 'Tudo sobre Fable 2026: lancamento outono 2026, Xbox, PC, PS5, Game Pass. Playground Games, reboot de Albion. Guia completo.',
       it: 'Tutto su Fable 2026: uscita autunno 2026, Xbox, PC, PS5, Game Pass. Playground Games, reboot di Albion. Guida completa.',
       ko: 'Fable 2026 총정리: 2026년 가을 출시, Xbox, PC, PS5, Game Pass. Playground Games의 알비온 리부트. 완벽 가이드.',
+      de: 'Everything about Fable 2026: autumn 2026 release, Xbox, PC, PS5, Game Pass. Playground Games, Albion reboot. Complete guide.',
     },
     content: {
       fr: `Fable 2026 est l'un des jeux les plus attendus de l'annee. Developpe par Playground Games, le studio britannique celebre pour la serie Forza Horizon, ce nouveau Fable represente un reboot complet de la franchise mythique de Lionhead Studios. Voici absolument tout ce que l'on sait sur le jeu a l'heure actuelle.
@@ -706,11 +709,11 @@ Fable 2026은 이 세대 가장 야심찬 RPG 중 하나가 될 것입니다. Pl
     publishedAt: '2026-03-15',
     readingTime: 9,
     tags: [
-      { fr: 'Developer Direct', en: 'Developer Direct', es: 'Developer Direct', pt: 'Developer Direct', it: 'Developer Direct', ko: 'Developer Direct' },
-      { fr: 'gameplay', en: 'gameplay', es: 'gameplay', pt: 'gameplay', it: 'gameplay', ko: '게임플레이' },
-      { fr: 'reveal', en: 'reveal', es: 'revelacion', pt: 'revelacao', it: 'rivelazione', ko: '공개' },
-      { fr: 'histoire', en: 'story', es: 'historia', pt: 'historia', it: 'storia', ko: '스토리' },
-      { fr: 'Briar Hill', en: 'Briar Hill', es: 'Briar Hill', pt: 'Briar Hill', it: 'Briar Hill', ko: 'Briar Hill' },
+      { fr: 'Developer Direct', en: 'Developer Direct', es: 'Developer Direct', pt: 'Developer Direct', it: 'Developer Direct', ko: 'Developer Direct', de: 'Developer Direct' },
+      { fr: 'gameplay', en: 'gameplay', es: 'gameplay', pt: 'gameplay', it: 'gameplay', ko: '게임플레이', de: 'gameplay' },
+      { fr: 'reveal', en: 'reveal', es: 'revelacion', pt: 'revelacao', it: 'rivelazione', ko: '공개', de: 'reveal' },
+      { fr: 'histoire', en: 'story', es: 'historia', pt: 'historia', it: 'storia', ko: '스토리', de: 'story' },
+      { fr: 'Briar Hill', en: 'Briar Hill', es: 'Briar Hill', pt: 'Briar Hill', it: 'Briar Hill', ko: 'Briar Hill', de: 'Briar Hill' },
     ],
     title: {
       fr: 'Developer Direct Fable 2026 : tout ce qui a ete revele',
@@ -719,6 +722,7 @@ Fable 2026은 이 세대 가장 야심찬 RPG 중 하나가 될 것입니다. Pl
       pt: 'Developer Direct de Fable 2026: tudo o que foi revelado',
       it: 'Developer Direct di Fable 2026: tutto cio che e stato rivelato',
       ko: 'Fable 2026 Developer Direct: 공개된 모든 것',
+      de: 'Fable Developer Direct 2026: Everything Revealed',
     },
     excerpt: {
       fr: "Recap complet du Developer Direct de janvier 2026 : gameplay, histoire de Briar Hill, customisation du heros, combat, et l'annonce surprise PS5.",
@@ -735,6 +739,7 @@ Fable 2026은 이 세대 가장 야심찬 RPG 중 하나가 될 것입니다. Pl
       pt: 'Developer Direct Fable 2026 | Resumo Completo',
       it: 'Developer Direct Fable 2026 | Riepilogo Completo',
       ko: 'Fable 2026 Developer Direct | 전체 요약',
+      de: 'Fable 2026 Developer Direct | Full Recap',
     },
     seoDescription: {
       fr: "Recap du Developer Direct Fable janvier 2026 : gameplay revele, histoire de Briar Hill, customisation, combat, annonce PS5. Playground Games.",
@@ -743,6 +748,7 @@ Fable 2026은 이 세대 가장 야심찬 RPG 중 하나가 될 것입니다. Pl
       pt: 'Resumo do Developer Direct de Fable janeiro 2026: gameplay, historia de Briar Hill, personalizacao, combate, anuncio PS5. Playground Games.',
       it: 'Riepilogo Developer Direct di Fable gennaio 2026: gameplay, storia di Briar Hill, personalizzazione, combattimento, annuncio PS5. Playground Games.',
       ko: 'Fable 2026 Developer Direct 요약: 게임플레이 공개, 브라이어 힐 스토리, 커스터마이징, 전투, PS5 발표. Playground Games.',
+      de: 'Fable Developer Direct January 2026 recap: gameplay revealed, Briar Hill story, customization, combat, PS5 announcement. Playground Games.',
     },
     content: {
       fr: `Le 22 janvier 2026, Microsoft a diffuse un Xbox Developer Direct entierement consacre a Fable, le tres attendu RPG de Playground Games. Pendant pres de 45 minutes, les developpeurs ont offert le premier veritable apercu du jeu en action. Voici un recap complet de tout ce qui a ete revele.
@@ -1019,11 +1025,11 @@ Playground Games는 살아있고 반응하는 NPC 인구를 강조했습니다. 
     publishedAt: '2026-03-15',
     readingTime: 7,
     tags: [
-      { fr: 'PS5', en: 'PS5', es: 'PS5', pt: 'PS5', it: 'PS5', ko: 'PS5' },
-      { fr: 'Xbox', en: 'Xbox', es: 'Xbox', pt: 'Xbox', it: 'Xbox', ko: 'Xbox' },
-      { fr: 'multiplateforme', en: 'multiplatform', es: 'multiplataforma', pt: 'multiplataforma', it: 'multipiattaforma', ko: '멀티플랫폼' },
-      { fr: 'Game Pass', en: 'Game Pass', es: 'Game Pass', pt: 'Game Pass', it: 'Game Pass', ko: 'Game Pass' },
-      { fr: 'strategie', en: 'strategy', es: 'estrategia', pt: 'estrategia', it: 'strategia', ko: '전략' },
+      { fr: 'PS5', en: 'PS5', es: 'PS5', pt: 'PS5', it: 'PS5', ko: 'PS5', de: 'PS5' },
+      { fr: 'Xbox', en: 'Xbox', es: 'Xbox', pt: 'Xbox', it: 'Xbox', ko: 'Xbox', de: 'Xbox' },
+      { fr: 'multiplateforme', en: 'multiplatform', es: 'multiplataforma', pt: 'multiplataforma', it: 'multipiattaforma', ko: '멀티플랫폼', de: 'multiplatform' },
+      { fr: 'Game Pass', en: 'Game Pass', es: 'Game Pass', pt: 'Game Pass', it: 'Game Pass', ko: 'Game Pass', de: 'Game Pass' },
+      { fr: 'strategie', en: 'strategy', es: 'estrategia', pt: 'estrategia', it: 'strategia', ko: '전략', de: 'strategy' },
     ],
     title: {
       fr: 'Fable sur PS5 confirme : la strategie multiplateforme de Xbox',
@@ -1032,6 +1038,7 @@ Playground Games는 살아있고 반응하는 NPC 인구를 강조했습니다. 
       pt: 'Fable na PS5 confirmado: a estrategia multiplataforma da Xbox',
       it: 'Fable su PS5 confermato: la strategia multipiattaforma di Xbox',
       ko: 'Fable PS5 출시 확정: Xbox 멀티플랫폼 전략 분석',
+      de: 'Fable on PS5 Confirmed: Xbox Multiplatform Strategy Explained',
     },
     excerpt: {
       fr: "Fable sort sur PS5 le meme jour que sur Xbox et PC. Analyse de la strategie multiplateforme de Microsoft et de son impact sur la franchise.",
@@ -1048,6 +1055,7 @@ Playground Games는 살아있고 반응하는 NPC 인구를 강조했습니다. 
       pt: 'Fable PS5 Confirmado | Estrategia Xbox Multiplataforma',
       it: 'Fable PS5 Confermato | Strategia Xbox Multipiattaforma',
       ko: 'Fable PS5 확정 | Xbox 멀티플랫폼 전략',
+      de: 'Fable PS5 Confirmed | Xbox Multiplatform Strategy',
     },
     seoDescription: {
       fr: "Fable confirme sur PS5 day one. Strategie multiplateforme Xbox expliquee : Game Pass, pas d'exclusivite temporaire. Impact sur la franchise Fable.",
@@ -1056,6 +1064,7 @@ Playground Games는 살아있고 반응하는 NPC 인구를 강조했습니다. 
       pt: 'Fable confirmado na PS5 dia um. Estrategia multiplataforma Xbox: Game Pass, sem exclusividade temporal. Impacto na franquia Fable.',
       it: 'Fable confermato su PS5 dal primo giorno. Strategia multipiattaforma Xbox: Game Pass, nessuna esclusivita temporanea. Impatto sul franchise Fable.',
       ko: 'Fable PS5 첫날 출시 확정. Xbox 멀티플랫폼 전략 분석: Game Pass, 시한부 독점 없음. Fable 프랜차이즈에 미치는 영향.',
+      de: 'Fable confirmed on PS5 day one. Xbox multiplatform strategy explained: Game Pass, no timed exclusivity. Impact on the Fable franchise.',
     },
     content: {
       fr: `L'annonce a fait l'effet d'une bombe : Fable, l'une des franchises les plus emblematiques de Xbox, sortira sur PlayStation 5 le meme jour que sur Xbox Series X|S et PC. Confirmee lors du Developer Direct de janvier 2026, cette decision marque un tournant historique pour la franchise et pour la strategie globale de Microsoft dans l'industrie du jeu video.
@@ -1308,12 +1317,12 @@ Fable의 PS5 확정은 Microsoft의 새로운 철학의 구체적 실현입니�
     publishedAt: '2026-03-15',
     readingTime: 10,
     tags: [
-      { fr: 'histoire', en: 'story', es: 'historia', pt: 'historia', it: 'storia', ko: '스토리' },
-      { fr: 'lore', en: 'lore', es: 'lore', pt: 'lore', it: 'lore', ko: '로어' },
-      { fr: 'Briar Hill', en: 'Briar Hill', es: 'Briar Hill', pt: 'Briar Hill', it: 'Briar Hill', ko: 'Briar Hill' },
-      { fr: 'heros', en: 'hero', es: 'heroe', pt: 'heroi', it: 'eroe', ko: '영웅' },
-      { fr: 'Albion', en: 'Albion', es: 'Albion', pt: 'Albion', it: 'Albion', ko: '알비온' },
-      { fr: 'choix', en: 'choices', es: 'elecciones', pt: 'escolhas', it: 'scelte', ko: '선택' },
+      { fr: 'histoire', en: 'story', es: 'historia', pt: 'historia', it: 'storia', ko: '스토리', de: 'story' },
+      { fr: 'lore', en: 'lore', es: 'lore', pt: 'lore', it: 'lore', ko: '로어', de: 'lore' },
+      { fr: 'Briar Hill', en: 'Briar Hill', es: 'Briar Hill', pt: 'Briar Hill', it: 'Briar Hill', ko: 'Briar Hill', de: 'Briar Hill' },
+      { fr: 'heros', en: 'hero', es: 'heroe', pt: 'heroi', it: 'eroe', ko: '영웅', de: 'hero' },
+      { fr: 'Albion', en: 'Albion', es: 'Albion', pt: 'Albion', it: 'Albion', ko: '알비온', de: 'Albion' },
+      { fr: 'choix', en: 'choices', es: 'elecciones', pt: 'escolhas', it: 'scelte', ko: '선택', de: 'choices' },
     ],
     title: {
       fr: "L'histoire de Fable 2026 : Briar Hill, le Heros et Albion",
@@ -1322,6 +1331,7 @@ Fable의 PS5 확정은 Microsoft의 새로운 철학의 구체적 실현입니�
       pt: 'A historia de Fable 2026: Briar Hill, o Heroi e Albion',
       it: 'La storia di Fable 2026: Briar Hill, l\'Eroe e Albion',
       ko: 'Fable 2026의 이야기: 브라이어 힐, 영웅, 그리고 알비온',
+      de: 'The Story of Fable 2026: Briar Hill, the Hero, and Albion',
     },
     excerpt: {
       fr: "Tout ce que l'on sait sur l'histoire de Fable 2026 : l'enfance a Briar Hill, la petrification, le monde ouvert d'Albion et le systeme de choix.",
@@ -1338,6 +1348,7 @@ Fable의 PS5 확정은 Microsoft의 새로운 철학의 구체적 실현입니�
       pt: 'Historia Fable 2026 | Briar Hill, Heroi e Albion',
       it: 'Storia Fable 2026 | Briar Hill, Eroe e Albion',
       ko: 'Fable 2026 스토리 | 브라이어 힐, 영웅 & 알비온',
+      de: 'Fable 2026 Story | Briar Hill, Hero & Albion',
     },
     seoDescription: {
       fr: "Histoire de Fable 2026 : enfance a Briar Hill, petrification du village, quete heroique dans Albion. Choix, consequences et lore. Playground Games.",
@@ -1346,6 +1357,7 @@ Fable의 PS5 확정은 Microsoft의 새로운 철학의 구체적 실현입니�
       pt: 'Historia de Fable 2026: infancia em Briar Hill, petrificacao da aldeia, busca heroica em Albion. Escolhas, consequencias e lore. Playground Games.',
       it: 'Storia di Fable 2026: infanzia a Briar Hill, pietrificazione del villaggio, ricerca eroica attraverso Albion. Scelte, conseguenze e lore. Playground Games.',
       ko: 'Fable 2026 스토리: 브라이어 힐에서의 어린 시절, 마을 석화, 알비온에서의 영웅적 여정. 선택, 결과, 로어. Playground Games.',
+      de: 'Fable 2026 story: childhood at Briar Hill, village petrification, heroic quest across Albion. Choices, consequences, and lore. Playground Games.',
     },
     content: {
       fr: `Le nouveau Fable de Playground Games raconte une histoire originale, deconnectee de la trilogie de Lionhead Studios. C'est un reboot dans tous les sens du terme : un nouvel Albion, de nouveaux personnages, une nouvelle mythologie. Mais l'essence de Fable — les choix, les consequences, l'humour britannique et le chaos moral ludique — est plus presente que jamais. Voici tout ce que l'on sait sur l'histoire du jeu.

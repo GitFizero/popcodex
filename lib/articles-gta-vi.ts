@@ -17,6 +17,7 @@ export const gtaViArticles: ArticleData[] = [
       pt: 'Lucia Caminos',
       it: 'Lucia Caminos',
       ko: 'Lucia Caminos',
+      de: 'Lucia Caminos',
     },
     excerpt: {
       fr: 'Protagoniste de GTA VI. Première femme protagoniste de la franchise. Libérée du Leonida Penitentiary, elle veut la belle vie que rêvait sa mère depuis Liberty City.',
@@ -25,6 +26,7 @@ export const gtaViArticles: ArticleData[] = [
       pt: 'Protagonista de GTA VI. Primeira protagonista feminina obrigatória da franquia. Libertada do Leonida Penitentiary, ela quer a boa vida que sua mãe sonhava desde Liberty City.',
       it: 'Protagonista di GTA VI. Prima donna protagonista obbligatoria del franchise. Uscita dal Leonida Penitentiary, vuole la bella vita che sognava sua madre da Liberty City.',
       ko: 'Protagonist of GTA VI. The first mandatory female protagonist in the franchise. Released from Leonida Penitentiary, she wants the good life her mother dreamed of since Liberty City.',
+      de: 'Protagonist of GTA VI. The first mandatory female protagonist in the franchise. Released from Leonida Penitentiary, she wants the good life her mother dreamed of since Liberty City.',
     },
     content: {
       fr: `## Biographie
@@ -223,6 +225,7 @@ Close combat · Survivalist · Strategist
       pt: 'Jason Duval',
       it: 'Jason Duval',
       ko: 'Jason Duval',
+      de: 'Jason Duval',
     },
     excerpt: {
       fr: 'Co-protagoniste de GTA VI. Ex-militaire installé dans les Leonida Keys, il travaille pour Brian Heder. Sa rencontre avec Lucia pourrait tout changer.',
@@ -231,6 +234,7 @@ Close combat · Survivalist · Strategist
       pt: 'Co-protagonista de GTA VI. Ex-militar instalado nos Leonida Keys, trabalha para Brian Heder. Seu encontro com Lucia pode mudar tudo.',
       it: 'Co-protagonista di GTA VI. Ex-militare stabilitosi nei Leonida Keys, lavora per Brian Heder. Il suo incontro con Lucia potrebbe cambiare tutto.',
       ko: 'Co-protagonist of GTA VI. An ex-military man settled in the Leonida Keys, he works for Brian Heder. Meeting Lucia could change everything.',
+      de: 'Co-protagonist of GTA VI. An ex-military man settled in the Leonida Keys, he works for Brian Heder. Meeting Lucia could change everything.',
     },
     content: {
       fr: `## Biographie
@@ -380,6 +384,7 @@ Meeting Lucia could be the best or worst thing to ever happen to him. Jason know
       pt: 'Cal Hampton',
       it: 'Cal Hampton',
       ko: 'Cal Hampton',
+      de: 'Cal Hampton',
     },
     excerpt: {
       fr: "Cal Hampton est l'ami de Jason Duval dans GTA VI. Associé de Brian Heder, il passe ses journées à surveiller les communications Coast Guard. Paranoïaque et attachant.",
@@ -388,6 +393,7 @@ Meeting Lucia could be the best or worst thing to ever happen to him. Jason know
       pt: "Cal Hampton is Jason Duval's friend in GTA VI. An associate of Brian Heder, he spends his days monitoring Coast Guard comms. Paranoid and endearing.",
       it: "Cal Hampton è l'amico di Jason Duval in GTA VI. Associato di Brian Heder, passa le giornate a monitorare le comunicazioni della Coast Guard. Paranoico e affascinante.",
       ko: "Cal Hampton is Jason Duval's friend in GTA VI. An associate of Brian Heder, he spends his days monitoring Coast Guard comms. Paranoid and endearing.",
+      de: "Cal Hampton is Jason Duval's friend in GTA VI. An associate of Brian Heder, he spends his days monitoring Coast Guard comms. Paranoid and endearing.",
     },
     content: {
       fr: `## Biographie
@@ -483,6 +489,7 @@ Cal is at the low tide of America and happy there. Casual paranoia loves company
       pt: 'Boobie Ike',
       it: 'Boobie Ike',
       ko: 'Boobie Ike',
+      de: 'Boobie Ike',
     },
     excerpt: {
       fr: "Boobie Ike est une légende de Vice City dans GTA VI. Son empire couvre l'immobilier, un strip club et Only Raw Records avec Dre'Quan.",
@@ -491,6 +498,7 @@ Cal is at the low tide of America and happy there. Casual paranoia loves company
       pt: "Boobie Ike is a Vice City legend in GTA VI. His empire spans real estate, a strip club, and Only Raw Records with Dre'Quan.",
       it: "Boobie Ike è una leggenda di Vice City in GTA VI. Il suo impero comprende immobili, uno strip club e Only Raw Records con Dre'Quan.",
       ko: "Boobie Ike is a Vice City legend in GTA VI. His empire spans real estate, a strip club, and Only Raw Records with Dre'Quan.",
+      de: "Boobie Ike is a Vice City legend in GTA VI. His empire spans real estate, a strip club, and Only Raw Records with Dre'Quan.",
     },
     content: {
       fr: `## Biographie
@@ -591,6 +599,7 @@ It's his partnership with the young aspiring music mogul Dre'Quan for Only Raw R
       pt: "Dre'Quan Priest",
       it: "Dre'Quan Priest",
       ko: "Dre'Quan Priest",
+      de: "Dre'Quan Priest",
     },
     excerpt: {
       fr: "Dre'Quan Priest est le producteur musical de GTA VI, co-fondateur d'Only Raw Records avec Boobie Ike. Il vient de signer Real Dimez.",
@@ -599,6 +608,7 @@ It's his partnership with the young aspiring music mogul Dre'Quan for Only Raw R
       pt: "Dre'Quan Priest is the music producer in GTA VI, co-founder of Only Raw Records with Boobie Ike. He just signed Real Dimez.",
       it: "Dre'Quan Priest è il produttore musicale di GTA VI, co-fondatore di Only Raw Records con Boobie Ike. Ha appena firmato Real Dimez.",
       ko: "Dre'Quan Priest is the music producer in GTA VI, co-founder of Only Raw Records with Boobie Ike. He just signed Real Dimez.",
+      de: "Dre'Quan Priest is the music producer in GTA VI, co-founder of Only Raw Records with Boobie Ike. He just signed Real Dimez.",
     },
     content: {
       fr: `## Biographie
@@ -699,6 +709,7 @@ Now that he's signed the Real Dimez, Dre'Quan's days of booking acts into Boobie
       pt: 'Real Dimez (Bae-Luxe & Roxy)',
       it: 'Real Dimez (Bae-Luxe e Roxy)',
       ko: 'Real Dimez (Bae-Luxe & Roxy)',
+      de: 'Real Dimez (Bae-Luxe & Roxy)',
     },
     excerpt: {
       fr: "Real Dimez (Bae-Luxe et Roxy) est le duo musical de GTA VI, signé sur Only Raw Records. Amies depuis le lycée, elles ont collaboré avec le rappeur DWNPLY.",
@@ -707,6 +718,7 @@ Now that he's signed the Real Dimez, Dre'Quan's days of booking acts into Boobie
       pt: "Real Dimez (Bae-Luxe & Roxy) is the music duo in GTA VI, signed to Only Raw Records. Friends since high school, they collaborated with rapper DWNPLY.",
       it: "Real Dimez (Bae-Luxe e Roxy) è il duo musicale di GTA VI, sotto contratto con Only Raw Records. Amiche fin dal liceo, hanno collaborato con il rapper DWNPLY.",
       ko: "Real Dimez (Bae-Luxe & Roxy) is the music duo in GTA VI, signed to Only Raw Records. Friends since high school, they collaborated with rapper DWNPLY.",
+      de: "Real Dimez (Bae-Luxe & Roxy) is the music duo in GTA VI, signed to Only Raw Records. Friends since high school, they collaborated with rapper DWNPLY.",
     },
     content: {
       fr: `## Biographie
@@ -807,6 +819,7 @@ An early hit single with local rapper DWNPLY took Real Dimez to new heights. Now
       pt: 'Raul Bautista',
       it: 'Raul Bautista',
       ko: 'Raul Bautista',
+      de: 'Raul Bautista',
     },
     excerpt: {
       fr: 'Raul Bautista est un braqueur de banques vétéran dans GTA VI. Confiant, charmeur et imprudent, il recrute des talents pour ses coups.',
@@ -815,6 +828,7 @@ An early hit single with local rapper DWNPLY took Real Dimez to new heights. Now
       pt: 'Raul Bautista is a veteran bank robber in GTA VI. Confident, charming, and reckless, he recruits talent for his heists.',
       it: 'Raul Bautista è un rapinatore di banche veterano in GTA VI. Sicuro di sé, affascinante e imprudente, recluta talenti per i suoi colpi.',
       ko: 'Raul Bautista is a veteran bank robber in GTA VI. Confident, charming, and reckless, he recruits talent for his heists.',
+      de: 'Raul Bautista is a veteran bank robber in GTA VI. Confident, charming, and reckless, he recruits talent for his heists.',
     },
     content: {
       fr: `## Biographie
@@ -930,6 +944,7 @@ Raul's recklessness raises the stakes with every score. Sooner or later, his cre
       pt: 'Brian Heder',
       it: 'Brian Heder',
       ko: 'Brian Heder',
+      de: 'Brian Heder',
     },
     excerpt: {
       fr: "Brian Heder est un vétéran du trafic de drogue des Leonida Keys dans GTA VI. Il héberge Jason Duval dans une de ses propriétés en échange de services.",
@@ -938,6 +953,7 @@ Raul's recklessness raises the stakes with every score. Sooner or later, his cre
       pt: "Brian Heder is a veteran drug runner from the Leonida Keys in GTA VI. He houses Jason Duval at one of his properties in exchange for services.",
       it: "Brian Heder è un veterano del traffico di droga dei Leonida Keys in GTA VI. Ospita Jason Duval in una delle sue proprietà in cambio di servizi.",
       ko: "Brian Heder is a veteran drug runner from the Leonida Keys in GTA VI. He houses Jason Duval at one of his properties in exchange for services.",
+      de: "Brian Heder is a veteran drug runner from the Leonida Keys in GTA VI. He houses Jason Duval at one of his properties in exchange for services.",
     },
     content: {
       fr: `## Biographie
@@ -1066,6 +1082,7 @@ Brian's letting Jason live rent-free at one of his properties — so long as he 
       pt: 'Vice City',
       it: 'Vice City',
       ko: 'Vice City',
+      de: 'Vice City',
     },
     excerpt: {
       fr: 'Vice City est la métropole principale de GTA VI, inspirée de Miami. Néons, gratte-ciels Art Déco et vie nocturne intense.',
@@ -1074,6 +1091,7 @@ Brian's letting Jason live rent-free at one of his properties — so long as he 
       pt: 'Vice City is the main metropolis of GTA VI, inspired by Miami. Neon lights, Art Deco skyscrapers and intense nightlife.',
       it: 'Vice City è la metropoli principale di GTA VI, ispirata a Miami. Luci al neon, grattacieli Art Déco e vita notturna intensa.',
       ko: 'Vice City is the main metropolis of GTA VI, inspired by Miami. Neon lights, Art Deco skyscrapers and intense nightlife.',
+      de: 'Vice City is the main metropolis of GTA VI, inspired by Miami. Neon lights, Art Deco skyscrapers and intense nightlife.',
     },
     content: {
       fr: `## Description
@@ -1178,6 +1196,7 @@ The sunniest — and darkest — place in America. Inspired by Miami, Florida.
       pt: 'Leonida Keys',
       it: 'Leonida Keys',
       ko: 'Leonida Keys',
+      de: 'Leonida Keys',
     },
     excerpt: {
       fr: 'Au sud de Leonida. Là où les vieux trafiquants coulent des jours tranquilles. Inspiré des Florida Keys.',
@@ -1186,6 +1205,7 @@ The sunniest — and darkest — place in America. Inspired by Miami, Florida.
       pt: 'South of Leonida. Where old drug runners live out their quiet days. Inspired by the Florida Keys.',
       it: 'A sud di Leonida. Dove i vecchi trafficanti vivono i loro giorni tranquilli. Ispirato alle Florida Keys.',
       ko: 'South of Leonida. Where old drug runners live out their quiet days. Inspired by the Florida Keys.',
+      de: 'South of Leonida. Where old drug runners live out their quiet days. Inspired by the Florida Keys.',
     },
     content: {
       fr: `## Description
@@ -1285,6 +1305,7 @@ South of Leonida. Where old drug runners live out their quiet days.
       pt: 'Grassrivers',
       it: 'Grassrivers',
       ko: 'Grassrivers',
+      de: 'Grassrivers',
     },
     excerpt: {
       fr: 'La scène musicale underground de Leonida. Zone de marécages inspirée des Everglades.',
@@ -1293,6 +1314,7 @@ South of Leonida. Where old drug runners live out their quiet days.
       pt: 'The underground music scene of Leonida. Swampland area inspired by the Everglades.',
       it: 'La scena musicale underground di Leonida. Zona paludosa ispirata alle Everglades.',
       ko: 'The underground music scene of Leonida. Swampland area inspired by the Everglades.',
+      de: 'The underground music scene of Leonida. Swampland area inspired by the Everglades.',
     },
     content: {
       fr: `## Description
@@ -1387,6 +1409,7 @@ The underground music scene of Leonida.
       pt: 'Port Gellhorn',
       it: 'Port Gellhorn',
       ko: 'Port Gellhorn',
+      de: 'Port Gellhorn',
     },
     excerpt: {
       fr: 'Le port industriel. Les scores risqués. Les braquages ambitieux.',
@@ -1395,6 +1418,7 @@ The underground music scene of Leonida.
       pt: 'The industrial port. Risky scores. Ambitious heists.',
       it: 'Il porto industriale. I colpi rischiosi. Le rapine ambiziose.',
       ko: 'The industrial port. Risky scores. Ambitious heists.',
+      de: 'The industrial port. Risky scores. Ambitious heists.',
     },
     content: {
       fr: `## Description
@@ -1484,6 +1508,7 @@ The industrial port. Risky scores. Ambitious heists.
       pt: 'Ambrosia',
       it: 'Ambrosia',
       ko: 'Ambrosia',
+      de: 'Ambrosia',
     },
     excerpt: {
       fr: 'Le luxe criminel. Là où les gros paris se jouent. Inspiré de Palm Beach.',
@@ -1492,6 +1517,7 @@ The industrial port. Risky scores. Ambitious heists.
       pt: 'Criminal luxury. Where high stakes are played. Inspired by Palm Beach.',
       it: 'Il lusso criminale. Dove si giocano le grandi scommesse. Ispirato a Palm Beach.',
       ko: 'Criminal luxury. Where high stakes are played. Inspired by Palm Beach.',
+      de: 'Criminal luxury. Where high stakes are played. Inspired by Palm Beach.',
     },
     content: {
       fr: `## Description
@@ -1581,6 +1607,7 @@ Criminal luxury. Where high stakes are played.
       pt: 'Mount Kalaga',
       it: 'Mount Kalaga',
       ko: 'Mount Kalaga',
+      de: 'Mount Kalaga',
     },
     excerpt: {
       fr: "L'arrière-pays de Leonida. Loin de tout. Proche de rien de légal.",
@@ -1589,6 +1616,7 @@ Criminal luxury. Where high stakes are played.
       pt: "The backcountry of Leonida. Far from everything. Close to nothing legal.",
       it: "L'entroterra di Leonida. Lontano da tutto. Vicino a niente di legale.",
       ko: "The backcountry of Leonida. Far from everything. Close to nothing legal.",
+      de: "The backcountry of Leonida. Far from everything. Close to nothing legal.",
     },
     content: {
       fr: `## Description
@@ -1681,6 +1709,7 @@ The backcountry of Leonida. Far from everything. Close to nothing legal.
       pt: "GTA 6 Vice City Map: All Confirmed Locations from Rockstar Games Trailers",
       it: "Mappa di Vice City in GTA 6: Tutte le Location Confermate da Rockstar Games",
       ko: "GTA 6 Vice City Map: All Confirmed Locations from Rockstar Games Trailers",
+      de: "GTA 6 Vice City Map: All Confirmed Locations from Rockstar Games Trailers",
     },
     excerpt: {
       fr: "Analyse complète de la carte de Vice City dans GTA 6, avec tous les lieux, quartiers et zones confirmés à partir des trailers officiels de Rockstar Games.",
@@ -1689,6 +1718,7 @@ The backcountry of Leonida. Far from everything. Close to nothing legal.
       pt: "Complete breakdown of the GTA 6 Vice City map with every confirmed neighborhood, landmark, and zone spotted across both official Rockstar Games trailers.",
       it: "Analisi completa della mappa di Vice City in GTA 6, con tutti i quartieri, monumenti e zone confermati dai trailer ufficiali di Rockstar Games.",
       ko: "Complete breakdown of the GTA 6 Vice City map with every confirmed neighborhood, landmark, and zone spotted across both official Rockstar Games trailers.",
+      de: "Complete breakdown of the GTA 6 Vice City map with every confirmed neighborhood, landmark, and zone spotted across both official Rockstar Games trailers.",
     },
     content: {
       fr: "## Introduction : La carte la plus ambitieuse de Rockstar Games\n\nAvec la sortie de GTA 6 prévue le **19 novembre 2026**, Rockstar Games promet la carte open-world la plus détaillée jamais créée. L'état fictif de **Leonida**, inspiré de la Floride, abrite la ville emblématique de **Vice City** — un retour très attendu par les fans depuis Grand Theft Auto: Vice City (2002).\n\nCet article analyse **tous les lieux confirmés** à partir des deux trailers officiels (décembre 2023 et janvier 2025), des fuites vérifiées et des déclarations officielles de Rockstar Games.\n\n---\n\n## Vice City : Le coeur de Leonida\n\nVice City est la métropole principale de GTA 6, directement inspirée de **Miami, Floride**. Les trailers révèlent une ville vibrante avec des néons, des gratte-ciels Art Déco et une vie nocturne intense.\n\n### Ocean Beach\nLe quartier balnéaire emblématique de Vice City. Les trailers montrent clairement une promenade le long de la plage avec des bâtiments Art Déco colorés, rappelant **Ocean Drive à Miami Beach**.\n\n### Downtown Vice City\nLe centre financier de Vice City, avec des gratte-ciels modernes et des tours de bureaux.\n\n### Little Havana\nUn quartier à forte identité culturelle cubaine, directement inspiré du **quartier de Little Havana à Miami**.\n\n---\n\n## Les Leonida Keys : L'archipel tropical\n\nLes **Leonida Keys** sont un archipel d'îles tropicales au sud de Vice City, inspiré des **Florida Keys**. C'est ici que **Jason Duval** vit et travaille pour **Brian Heder**.\n\n---\n\n## Grassrivers : Les marécages de Leonida\n\n**Grassrivers** est la zone de marécages de l'état de Leonida, clairement inspirée des **Everglades**.\n\n---\n\n## Port Gellhorn : Le port industriel\n\n**Port Gellhorn** est la zone portuaire et industrielle de Leonida.\n\n---\n\n## Ambrosia : La station balnéaire de luxe\n\n**Ambrosia** est une zone balnéaire haut de gamme de Leonida, inspirée de **Palm Beach**.\n\n---\n\n## Mount Kalaga : Le relief intérieur\n\n**Mount Kalaga** représente la partie montagneuse et vallonnée de l'intérieur de Leonida.\n\n---\n\n## Conclusion : Une carte massive et variée\n\nLa carte de GTA 6 s'annonce comme la plus diversifiée de la franchise.\n\n**Sources :** Trailer 1 officiel (décembre 2023), Trailer 2 officiel (janvier 2025), communiqués officiels Rockstar Games.",
@@ -1718,6 +1748,7 @@ The backcountry of Leonida. Far from everything. Close to nothing legal.
       pt: "GTA 6 All Confirmed Vehicles: Complete List of Cars, Boats, Planes & Motorcycles",
       it: "GTA 6: Tutti i Veicoli Confermati — Auto, Barche, Aerei e Moto",
       ko: "GTA 6 All Confirmed Vehicles: Complete List of Cars, Boats, Planes & Motorcycles",
+      de: "GTA 6 All Confirmed Vehicles: Complete List of Cars, Boats, Planes & Motorcycles",
     },
     excerpt: {
       fr: "Liste complète de tous les véhicules confirmés dans GTA 6 : voitures de sport, muscle cars, motos, bateaux, hélicoptères et avions.",
@@ -1726,6 +1757,7 @@ The backcountry of Leonida. Far from everything. Close to nothing legal.
       pt: "Complete list of every confirmed vehicle in GTA 6: sports cars, muscle cars, motorcycles, boats, helicopters and planes spotted across official Rockstar trailers.",
       it: "Lista completa di tutti i veicoli confermati in GTA 6: sportive, muscle car, moto, barche, elicotteri e aerei.",
       ko: "Complete list of every confirmed vehicle in GTA 6: sports cars, muscle cars, motorcycles, boats, helicopters and planes spotted across official Rockstar trailers.",
+      de: "Complete list of every confirmed vehicle in GTA 6: sports cars, muscle cars, motorcycles, boats, helicopters and planes spotted across official Rockstar trailers.",
     },
     content: {
       fr: "## Introduction : Le garage le plus ambitieux de la franchise\n\nGrand Theft Auto 6 promet le catalogue de véhicules le plus vaste de l'histoire de la série. Avec plus de **200 véhicules confirmés** et des estimations qui suggèrent jusqu'à **300+ au lancement**, Rockstar Games repousse les limites.\n\n---\n\n## Voitures de sport et super cars\n\n**Modèles confirmés :**\n- **Chino** — Inspirée de la Ford Thunderbird des années 1970\n- **Comet Retro Custom** — Basée sur la Porsche 911 930 style Rauh-Welt\n\n---\n\n## Muscle Cars et classiques\n\nMuscle cars classiques américaines des années 60-70.\n\n---\n\n## Motos et dirt bikes\n\nMotos de route et dirt bikes pour le terrain accidenté de Grassrivers et Mount Kalaga.\n\n---\n\n## Bateaux et véhicules nautiques\n\nBateaux à moteur, jet-skis, bateaux de pêche, airboats et yachts.\n\n---\n\n## Hélicoptères et avions\n\nHélicoptères civils et militaires, avions de tourisme.\n\n---\n\n## Réalisme et physique améliorés\n\nPoids réaliste, dommages dynamiques, intérieurs détaillés, support première personne.\n\n---\n\n## Conclusion : Un catalogue record\n\n**Sources :** Trailer 1, Trailer 2, Rockstar Games, GTABase, WikiGTA6.",
@@ -1755,6 +1787,7 @@ The backcountry of Leonida. Far from everything. Close to nothing legal.
       pt: "GTA 6 All Confirmed Side Activities & Mini-Games: The Complete List",
       it: "GTA 6: Tutte le Attività Secondarie e Minigiochi Confermati",
       ko: "GTA 6 All Confirmed Side Activities & Mini-Games: The Complete List",
+      de: "GTA 6 All Confirmed Side Activities & Mini-Games: The Complete List",
     },
     excerpt: {
       fr: "Guide complet de toutes les activités secondaires confirmées dans GTA 6 : pêche, MMA, mini-golf, plongée sous-marine, musculation et bien plus encore.",
@@ -1763,6 +1796,7 @@ The backcountry of Leonida. Far from everything. Close to nothing legal.
       pt: "Complete guide to every confirmed side activity in GTA 6: fishing, MMA fighting, mini golf, scuba diving, weightlifting and much more.",
       it: "Guida completa di tutte le attività secondarie confermate in GTA 6: pesca, MMA, mini golf, immersioni subacquee, sollevamento pesi e molto altro.",
       ko: "Complete guide to every confirmed side activity in GTA 6: fishing, MMA fighting, mini golf, scuba diving, weightlifting and much more.",
+      de: "Complete guide to every confirmed side activity in GTA 6: fishing, MMA fighting, mini golf, scuba diving, weightlifting and much more.",
     },
     content: {
       fr: "## Introduction : Un monde ouvert rempli de distractions\n\nGTA 6 ne se limite pas à son histoire principale. Rockstar Games a confirmé à travers le trailer 2 (janvier 2025) une quantité impressionnante d'activités secondaires et de mini-jeux.\n\n---\n\n## Sports et fitness\n\n### Musculation\nJason a été aperçu soulevant des poids dans une salle de sport.\n\n### Combat MMA\nLucia participe à des combats en cage dans un circuit clandestin de MMA.\n\n### Basketball\nDes terrains de basketball extérieurs sont visibles.\n\n### Mini-golf\nCal Hampton est aperçu sur un parcours de mini-golf au thème tropical.\n\n---\n\n## Activités nautiques et plein air\n\nPêche, plongée sous-marine, kayak, chasse, sports nautiques (jet-ski, ski nautique).\n\n---\n\n## Loisirs et vie sociale\n\nBillard, bars, boîtes de nuit, regarder la TV et jouer aux jeux vidéo.\n\n---\n\n## Courses et compétitions\n\nCourses de dirt bike et courses automobiles.\n\n---\n\n## Activités professionnelles\n\nRamassage de déchets, personnalisation de bateaux, missions de livraison, braquages secondaires.\n\n---\n\n## Conclusion : Des centaines d'heures de contenu\n\nAvec plus de **17 activités secondaires confirmées**, GTA 6 promet d'être le jeu Rockstar le plus riche en contenu annexe.\n\n**Sources :** Trailer 2 officiel, Red Bull, Screen Rant, Dexerto, GameSpot, GTABase.",
@@ -1792,6 +1826,7 @@ The backcountry of Leonida. Far from everything. Close to nothing legal.
       pt: "GTA 6 All 9 Confirmed Characters: Complete Backstories & Roles Guide",
       it: "GTA 6: I 9 Personaggi Confermati — Storie e Ruoli Completi",
       ko: "GTA 6 All 9 Confirmed Characters: Complete Backstories & Roles Guide",
+      de: "GTA 6 All 9 Confirmed Characters: Complete Backstories & Roles Guide",
     },
     excerpt: {
       fr: "Profils détaillés des 9 personnages confirmés de GTA 6 : Lucia Caminos, Jason Duval, Cal Hampton, Brian Heder, Boobie Ike et plus.",
@@ -1800,6 +1835,7 @@ The backcountry of Leonida. Far from everything. Close to nothing legal.
       pt: "Detailed profiles of all 9 confirmed GTA 6 characters: Lucia Caminos, Jason Duval, Cal Hampton, Brian Heder, Boobie Ike and more.",
       it: "Profili dettagliati dei 9 personaggi confermati di GTA 6: Lucia Caminos, Jason Duval, Cal Hampton, Brian Heder, Boobie Ike e altri.",
       ko: "Detailed profiles of all 9 confirmed GTA 6 characters: Lucia Caminos, Jason Duval, Cal Hampton, Brian Heder, Boobie Ike and more.",
+      de: "Detailed profiles of all 9 confirmed GTA 6 characters: Lucia Caminos, Jason Duval, Cal Hampton, Brian Heder, Boobie Ike and more.",
     },
     content: {
       fr: "## Introduction : Un casting d'exception pour Leonida\n\nRockstar Games a révélé **9 personnages** à travers les deux trailers officiels et le site web de Rockstar.\n\n---\n\n## Lucia Caminos — La protagoniste\n\nPremière femme protagoniste de la franchise GTA. Purge une peine au Leonida Penitentiary au début du jeu. Forme un duo \"Bonnie et Clyde\" avec Jason.\n\n## Jason Duval — Le second protagoniste\n\nVit dans les Leonida Keys, employé par Brian Heder. Cherche sa place dans un monde criminel dangereux.\n\n## Brian Heder — Le mentor criminel\n\nVieux de la vieille du milieu criminel. Possède un chantier naval dans les Keys. Mentor de Jason.\n\n## Cal Hampton — L'excentrique conspirateur\n\nConspirateur excentrique, le \"Lester de GTA 6\". Aperçu jouant au mini-golf.\n\n## Boobie Ike — Le magnat du disque\n\nDirige le label Only Raw Records. Collabore avec Dre'Quan Priest.\n\n## Dre'Quan Priest — Le rappeur en ascension\n\nRappeur montant de Vice City, travaille avec Boobie Ike et Only Raw Records.\n\n## Real Dimez — La figure du quartier\n\nFigure locale de Vice City avec des connexions dans le milieu urbain.\n\n## Raul Bautista — Le braqueur légendaire\n\nCriminel aguerri, charmeur et imprudent. Toujours à la recherche de talents pour ses braquages.\n\n---\n\n## Conclusion\n\nLes 9 personnages confirmés forment un ensemble diversifié et fascinant.\n\n**Sources :** Trailer 1, Trailer 2, site officiel Rockstar Games, Game Rant, Metro.",
@@ -1829,6 +1865,7 @@ The backcountry of Leonida. Far from everything. Close to nothing legal.
       pt: "GTA 6 Built Without AI: How Rockstar Handcrafted a World Street by Street",
       it: "GTA 6 Costruito Senza IA: Come Rockstar ha Creato un Mondo «Strada per Strada»",
       ko: "GTA 6 Built Without AI: How Rockstar Handcrafted a World Street by Street",
+      de: "GTA 6 Built Without AI: How Rockstar Handcrafted a World Street by Street",
     },
     excerpt: {
       fr: "Rockstar Games et Take-Two confirment que GTA 6 n'utilise aucune IA générative. Le monde est créé à la main, rue par rue, quartier par quartier.",
@@ -1837,6 +1874,7 @@ The backcountry of Leonida. Far from everything. Close to nothing legal.
       pt: "Rockstar Games and Take-Two confirm GTA 6 uses zero generative AI. The world is handcrafted building by building, street by street, neighborhood by neighborhood.",
       it: "Rockstar Games e Take-Two confermano che GTA 6 non usa alcuna IA generativa. Il mondo è creato a mano, strada per strada, quartiere per quartiere.",
       ko: "Rockstar Games and Take-Two confirm GTA 6 uses zero generative AI. The world is handcrafted building by building, street by street, neighborhood by neighborhood.",
+      de: "Rockstar Games and Take-Two confirm GTA 6 uses zero generative AI. The world is handcrafted building by building, street by street, neighborhood by neighborhood.",
     },
     content: {
       fr: "## Introduction : Un choix radical dans l'ère de l'IA\n\nRockstar Games a pris une direction radicalement opposée à l'industrie. Le PDG de Take-Two Interactive, **Strauss Zelnick**, a confirmé que **GTA 6 n'utilise aucune IA générative** dans sa création.\n\n---\n\n## La déclaration de Strauss Zelnick\n\n**\"L'IA générative n'a aucune part dans ce que Rockstar Games construit. Leurs mondes sont artisanaux. C'est ce qui les différencie... Ils sont construits de zéro, bâtiment par bâtiment, rue par rue, quartier par quartier.\"**\n\n---\n\n## Ce que \"rue par rue\" signifie concrètement\n\n- Chaque bâtiment est modélisé individuellement par des artistes 3D\n- Chaque rue est composée manuellement\n- Chaque quartier possède sa propre identité visuelle\n- La végétation et le mobilier urbain sont placés à la main\n- L'éclairage est ajusté zone par zone\n\n---\n\n## Pourquoi Rockstar rejette l'IA générative\n\n1. La qualité artistique\n2. L'identité Rockstar\n3. Le contrôle narratif\n\n---\n\n## La date de sortie : le 19 novembre 2026\n\nTake-Two et Rockstar Games ont confirmé le lancement mondial le **19 novembre 2026** sur PlayStation 5 et Xbox Series X|S.\n\n---\n\n## Conclusion : L'artisanat contre l'automatisation\n\nLe choix de Rockstar de construire GTA 6 sans IA générative est une déclaration d'intention forte.\n\n**Sources :** Sunday Guardian Live, LiveMint, PCGamesN, déclarations de Strauss Zelnick.",
@@ -1866,6 +1904,7 @@ The backcountry of Leonida. Far from everything. Close to nothing legal.
       pt: "GTA 6 All Confirmed Weapons: Guns, Melee & Equipment Complete List",
       it: "GTA 6: Tutte le Armi Confermate — Fucili, Corpo a Corpo e Equipaggiamento",
       ko: "GTA 6 All Confirmed Weapons: Guns, Melee & Equipment Complete List",
+      de: "GTA 6 All Confirmed Weapons: Guns, Melee & Equipment Complete List",
     },
     excerpt: {
       fr: "Arsenal complet de GTA 6 : toutes les armes à feu, armes de mêlée et équipements spéciaux confirmés. Nouvelles mécaniques de combat.",
@@ -1874,6 +1913,7 @@ The backcountry of Leonida. Far from everything. Close to nothing legal.
       pt: "Complete GTA 6 arsenal: every confirmed firearm, melee weapon and special equipment. New combat mechanics revealed by Rockstar Games.",
       it: "Arsenale completo di GTA 6: tutte le armi da fuoco, armi corpo a corpo e equipaggiamento speciale confermato.",
       ko: "Complete GTA 6 arsenal: every confirmed firearm, melee weapon and special equipment. New combat mechanics revealed by Rockstar Games.",
+      de: "Complete GTA 6 arsenal: every confirmed firearm, melee weapon and special equipment. New combat mechanics revealed by Rockstar Games.",
     },
     content: {
       fr: "## Introduction : Un arsenal repensé pour Leonida\n\nLe combat dans GTA 6 s'annonce comme le plus réaliste de la franchise. Arsenal diversifié allant au-delà des armes à feu : crochets de serrure, kits de trauma.\n\n---\n\n## Armes de poing\n- **Revolver .357** — Puissant, visible dans les séquences de braquage\n- **Pistolet semi-automatique** — Arme de base\n\n## Fusils et armes longues\n- **Fusil d'assaut**, **Fusil de chasse**, **Fusil de sniper**\n\n## Armes explosives\n- **RPG**, **Grenades**, **Explosifs de braquage**\n\n## Armes de mêlée\n- **Batte de baseball**, **Couteau**, **Poings** améliorés\n\n## Armes aquatiques (première pour GTA)\n- **Speargun** — Combat et pêche sous-marine\n- **Tir en nageant** — Mécanique inédite\n\n## Équipement spécial\n- **Lock picks**, **Trauma kit**, **Duffel bag**, **Jumelles**\n\n## Nouvelles mécaniques\n- Drive-by depuis pick-ups (360°), armes au sol dynamiques, mode première personne, customisation d'armes\n\n**Sources :** Trailer 1, Trailer 2, WikiGTA6, GTABase.",
@@ -1903,6 +1943,7 @@ The backcountry of Leonida. Far from everything. Close to nothing legal.
       pt: "GTA 6 Soundtrack & Radio Stations: Every Confirmed Song So Far",
       it: "GTA 6: Colonna Sonora e Stazioni Radio — Tutte le Canzoni Confermate",
       ko: "GTA 6 Soundtrack & Radio Stations: Every Confirmed Song So Far",
+      de: "GTA 6 Soundtrack & Radio Stations: Every Confirmed Song So Far",
     },
     excerpt: {
       fr: "Toutes les chansons confirmées de la bande-son de GTA 6 : artistes révélés, stations radio et identité musicale de Vice City.",
@@ -1911,6 +1952,7 @@ The backcountry of Leonida. Far from everything. Close to nothing legal.
       pt: "Every confirmed GTA 6 soundtrack song: revealed artists, radio stations and Vice City's musical identity decoded.",
       it: "Tutte le canzoni confermate della colonna sonora di GTA 6: artisti rivelati, stazioni radio e identità musicale di Vice City.",
       ko: "Every confirmed GTA 6 soundtrack song: revealed artists, radio stations and Vice City's musical identity decoded.",
+      de: "Every confirmed GTA 6 soundtrack song: revealed artists, radio stations and Vice City's musical identity decoded.",
     },
     content: {
       fr: "## Introduction : La musique, ADN de Vice City\n\nLa bande-son a toujours été un pilier de l'identité Grand Theft Auto.\n\n---\n\n## Artistes confirmés\n\n### Neon Indian\nMusicien synthwave/chillwave texan, déjà dans GTA 5 sur Non-Stop-Pop FM. Son retour suggère une station synthwave.\n\n### Panama\nProjet electro/indie australien, déjà dans GTA 5 sur Radio Mirror Park. Renforce la direction synth-pop.\n\n---\n\n## Stations radio attendues\n\n- **Hip-Hop/Rap** — Liée à Boobie Ike et Only Raw Records\n- **Synthwave/Électro** — Neon Indian et Panama\n- **Reggaeton/Latina** — Essentielle pour Vice City\n- **Rock/Pop classique** — Pilier de chaque GTA\n- **Talk Radio** — Tradition satirique GTA\n- **Country/Blues** — Pour Grassrivers et Mount Kalaga\n\n---\n\n## La musique comme élément narratif\n\nBoobie Ike dirige Only Raw Records, Dre'Quan Priest est un rappeur dont l'ascension est un arc narratif.\n\n---\n\n## Conclusion\n\nLa bande-son de GTA 6 s'annonce parmi les plus ambitieuses de la franchise.\n\n**Sources :** GTABase, Beebom, ComicBook, RockstarINTEL, Screen Rant.",
@@ -1940,6 +1982,7 @@ The backcountry of Leonida. Far from everything. Close to nothing legal.
       pt: "GTA 6 Map vs GTA 5: How Much Bigger Is Leonida? Complete Size Comparison",
       it: "GTA 6 vs GTA 5: Quanto è Grande la Mappa di Leonida? Confronto Completo",
       ko: "GTA 6 Map vs GTA 5: How Much Bigger Is Leonida? Complete Size Comparison",
+      de: "GTA 6 Map vs GTA 5: How Much Bigger Is Leonida? Complete Size Comparison",
     },
     excerpt: {
       fr: "Comparaison détaillée entre la carte de GTA 6 (Leonida) et GTA 5 (Los Santos) : taille, densité, lieux accessibles et évolutions graphiques.",
@@ -1948,6 +1991,7 @@ The backcountry of Leonida. Far from everything. Close to nothing legal.
       pt: "Detailed comparison between the GTA 6 map (Leonida) and GTA 5 (Los Santos): size, density, enterable locations and graphical improvements.",
       it: "Confronto dettagliato tra la mappa di GTA 6 (Leonida) e GTA 5 (Los Santos): dimensioni, densità, luoghi accessibili e miglioramenti grafici.",
       ko: "Detailed comparison between the GTA 6 map (Leonida) and GTA 5 (Los Santos): size, density, enterable locations and graphical improvements.",
+      de: "Detailed comparison between the GTA 6 map (Leonida) and GTA 5 (Los Santos): size, density, enterable locations and graphical improvements.",
     },
     content: {
       fr: "## Taille brute de la carte\n\n### GTA 5 — Los Santos : ~75-80 km² | ~250 véhicules\n### GTA 6 — Leonida : ~150+ km² | ~300+ véhicules\n\nLa carte de GTA 6 est **environ 2x plus grande**. Mais c'est la **densité** qui fait la vraie différence.\n\n---\n\n## Densité et lieux accessibles\n\n**GTA 5 :** Bâtiments accessibles limités.\n**GTA 6 :** **700+ lieux accessibles** — chaque bâtiment est construit à la main.\n\n---\n\n## Diversité géographique\n\nVice City + Leonida Keys + Grassrivers + Port Gellhorn + Ambrosia + Mount Kalaga.\n\n---\n\n## Graphismes next-gen\n\nRay-tracing avancé, réflexions temps réel, intérieurs détaillés, météo dynamique, faune interactive.\n\n---\n\n## Conclusion : Un saut générationnel\n\nPas juste \"2x plus grand\" — un saut générationnel en taille, densité, diversité et technologie.\n\n**Sources :** Screen Rant, GrandTheft.gg, Dexerto, KratosMode.",
@@ -1977,6 +2021,7 @@ The backcountry of Leonida. Far from everything. Close to nothing legal.
       pt: "GTA 6 All Confirmed Animals: Wildlife, Hunting & Leonida Ecosystem Guide",
       it: "GTA 6: Tutti gli Animali Confermati — Fauna, Caccia ed Ecosistema di Leonida",
       ko: "GTA 6 All Confirmed Animals: Wildlife, Hunting & Leonida Ecosystem Guide",
+      de: "GTA 6 All Confirmed Animals: Wildlife, Hunting & Leonida Ecosystem Guide",
     },
     excerpt: {
       fr: "Bestiaire complet de GTA 6 : alligators, requins, flamants roses et toute la faune de Leonida. Écosystème réactif et chasse.",
@@ -1985,6 +2030,7 @@ The backcountry of Leonida. Far from everything. Close to nothing legal.
       pt: "Complete GTA 6 bestiary: alligators, sharks, flamingos and all Leonida wildlife. Reactive ecosystem and hunting.",
       it: "Bestiario completo di GTA 6: alligatori, squali, fenicotteri e tutta la fauna di Leonida.",
       ko: "Complete GTA 6 bestiary: alligators, sharks, flamingos and all Leonida wildlife. Reactive ecosystem and hunting.",
+      de: "Complete GTA 6 bestiary: alligators, sharks, flamingos and all Leonida wildlife. Reactive ecosystem and hunting.",
     },
     content: {
       fr: "## Introduction : Leonida est vivante\n\nGTA 6 est un **écosystème vivant**. Les alligators entrent dans les magasins, interagissent avec les PNJ.\n\n---\n\n## Animaux terrestres\n\n### Alligator américain\nL'animal le plus emblématique. Un employé POACH récupère un alligator dans une piscine (Trailer 1). Ils peuplent les marécages de Grassrivers.\n\n### Animaux urbains : chiens, chats, rats dans Vice City.\n\n---\n\n## Oiseaux\n\nFlamants roses (Leonida Keys), pélicans, mouettes (Port Gellhorn), oiseaux tropicaux.\n\n---\n\n## Vie marine\n\nRequins (danger pour la plongée), poissons, dauphins, tortues de mer, raies.\n\n---\n\n## Écosystème réactif\n\nLa faune réagit et interagit : alligators dans les bâtiments, prédateurs qui attaquent, comportements de groupe.\n\n---\n\n## Chasse et service POACH\n\nLa chasse est confirmée dans Grassrivers et Mount Kalaga. Le service POACH gère les alligators.\n\n---\n\n## Animaux par zone\n\n| Zone | Animaux |\n|------|---------|\n| Vice City | Chiens, chats, rats, oiseaux urbains |\n| Leonida Keys | Flamants, pélicans, poissons tropicaux, dauphins |\n| Grassrivers | Alligators, serpents, oiseaux des marais |\n| Océan | Requins, raies, poissons, tortues de mer |\n| Mount Kalaga | Cerfs, rapaces, faune forestière |\n\n**Sources :** GTAViTips, GTASixWiki, GTA6Info, Game Rant, Gameezo.",
@@ -2014,6 +2060,7 @@ The backcountry of Leonida. Far from everything. Close to nothing legal.
       pt: "GTA 6 Online: 32-Player Multiplayer — Everything We Know So Far",
       it: "GTA 6 Online: Multigiocatore 32 Giocatori — Tutto Quello che Sappiamo",
       ko: "GTA 6 Online: 32-Player Multiplayer — Everything We Know So Far",
+      de: "GTA 6 Online: 32-Player Multiplayer — Everything We Know So Far",
     },
     excerpt: {
       fr: "Tout ce que les documents juridiques ont révélé sur GTA 6 Online : lobbies 32 joueurs, tests internes.",
@@ -2022,6 +2069,7 @@ The backcountry of Leonida. Far from everything. Close to nothing legal.
       pt: "Everything court documents revealed about GTA 6 Online: 32-player lobbies, internal testing.",
       it: "Tutto ciò che i documenti giudiziari hanno rivelato su GTA 6 Online: lobby da 32 giocatori.",
       ko: "Everything court documents revealed about GTA 6 Online: 32-player lobbies, internal testing.",
+      de: "Everything court documents revealed about GTA 6 Online: 32-player lobbies, internal testing.",
     },
     content: {
       fr: "## La révélation des documents juridiques\n\nEn janvier 2026, des documents de tribunal ont révélé des messages Discord internes de Rockstar mentionnant des \"tests en ligne de 32 joueurs\".\n\n---\n\n## 32 joueurs : évolution depuis GTA Online\n\nGTA Online actuel : 30 joueurs par lobby. GTA 6 Online : 32 joueurs sur une carte 2x plus grande.\n\n---\n\n## Activités en ligne potentielles\n\n- Courses (300+ véhicules)\n- Braquages coopératifs\n- Combats PvP\n- 17+ activités adaptables au multijoueur\n- Batailles navales dans les Leonida Keys\n- Chasse et pêche compétitives\n\n---\n\n## Modèle économique\n\nGTA Online a généré 8+ milliards. GTA 6 Online adoptera probablement : free-to-play ou inclus, microtransactions, mises à jour gratuites.\n\n---\n\n## Date de lancement estimée\n\nSi GTA 6 sort le 19 novembre 2026, Online entre fin novembre et décembre 2026.\n\n**Sources :** The Gamer, GTABoom, Times of India, Tech4Gamers, AltChar.",
@@ -2051,6 +2099,7 @@ The backcountry of Leonida. Far from everything. Close to nothing legal.
       pt: "GTA 6 Easter Eggs: All Hidden Secrets & References in Leonida",
       it: "GTA 6 Easter Eggs: Tutti i Segreti Nascosti e Riferimenti in Leonida",
       ko: "GTA 6 Easter Eggs: All Hidden Secrets & References in Leonida",
+      de: "GTA 6 Easter Eggs: All Hidden Secrets & References in Leonida",
     },
     excerpt: {
       fr: "Découvrez tous les easter eggs, secrets cachés et références repérés dans les trailers de GTA 6.",
@@ -2059,6 +2108,7 @@ The backcountry of Leonida. Far from everything. Close to nothing legal.
       pt: "Discover every easter egg, hidden secret and reference spotted in GTA 6 trailers.",
       it: "Scopri tutti gli easter egg, segreti nascosti e riferimenti dai trailer di GTA 6.",
       ko: "Discover every easter egg, hidden secret and reference spotted in GTA 6 trailers.",
+      de: "Discover every easter egg, hidden secret and reference spotted in GTA 6 trailers.",
     },
     content: {
       fr: "## Introduction : Rockstar, maître des secrets\n\nRockstar Games est célèbre pour cacher des easter eggs dans chaque recoin de ses mondes ouverts.\n\n---\n\n## Easter Eggs repérés dans les trailers\n\n### Trailer 1 (Décembre 2023)\n\n**Références à Vice City (2002) :**\n- Ocean Beach, panneau Vice City, maillot rose\n\n**Références culturelles :**\n- App \"Finger\" (parodie Twitter/X), influenceuse sur bateau, vidéos virales Florida\n\n### Trailer 2 (Janvier 2025)\n\n**Références musicales :** Flash FM, Malibu Club\n**Références aux anciens GTA :** Tommy Vercetti, Grove Street, Sprunk vs eCola\n\n---\n\n## Easter Eggs de la carte\n\n- Île isolée, lueurs dans les marais de Grassrivers, épave sous-marine, observatoire sur Mount Kalaga\n- Textes sur les murs, codes sur les plaques d'immatriculation\n\n---\n\n## Références à la culture pop floridienne\n\nFlorida Man, Spring Break, alligators, courses de bateaux, architecture Art Déco\n\n---\n\n## Connexions avec l'univers GTA\n\nTommy Vercetti, CJ / Grove Street, Trevor Phillips, Niko Bellic. Entreprises : Sprunk, eCola, Ammu-Nation, Cluckin' Bell / Burger Shot.\n\n---\n\n## Section à compléter à la sortie du jeu\n\nCette section sera massivement enrichie après la sortie de GTA 6 le 19 novembre 2026.\n\n**Sources :** Trailers officiels Rockstar Games, analyses communautaires GTA Forums, Reddit r/GTA6.",
@@ -2088,6 +2138,7 @@ The backcountry of Leonida. Far from everything. Close to nothing legal.
       pt: "GTA 6 Cheat Codes: Complete List of All Cheats",
       it: "GTA 6 Codici Trucchi: Lista Completa di Tutti i Cheats",
       ko: "GTA 6 Cheat Codes: Complete List of All Cheats",
+      de: "GTA 6 Cheat Codes: Complete List of All Cheats",
     },
     excerpt: {
       fr: "Tous les codes de triche de GTA 6 pour PS5, Xbox Series et PC. Armes, véhicules, invincibilité, argent — guide complet.",
@@ -2096,6 +2147,7 @@ The backcountry of Leonida. Far from everything. Close to nothing legal.
       pt: "All GTA 6 cheat codes for PS5, Xbox Series and PC. Weapons, vehicles, invincibility, money — complete guide.",
       it: "Tutti i codici trucchi di GTA 6 per PS5, Xbox Series e PC. Armi, veicoli, invincibilità, soldi.",
       ko: "All GTA 6 cheat codes for PS5, Xbox Series and PC. Weapons, vehicles, invincibility, money — complete guide.",
+      de: "All GTA 6 cheat codes for PS5, Xbox Series and PC. Weapons, vehicles, invincibility, money — complete guide.",
     },
     content: {
       fr: "## Introduction : Les cheats sont-ils de retour dans GTA 6 ?\n\nLes codes de triche font partie de l'ADN de Grand Theft Auto. Rockstar n'a pas encore confirmé leur présence, mais chaque GTA principal les a inclus.\n\n---\n\n## Historique des cheats dans GTA\n\nGTA 5 : invincibilité, armes, spawn véhicules, super saut, météo.\nGTA Vice City (2002) : armes complètes, chars d'assaut, voitures volantes.\n\n---\n\n## Codes attendus dans GTA 6\n\n### Santé et armure\nInvincibilité, santé complète, armure complète, anti-étoiles.\n\n### Armes et munitions\nPacks d'armes 1-3, munitions infinies, tir explosif.\n\n### Spawn de véhicules\nVoiture de sport, moto, hélicoptère, bateau rapide, avion.\n\n### Joueur\nSuper saut, course rapide, nage rapide, chute lente, mode ivre.\n\n### Monde\nMétéo, gravité lunaire, mode émeute, trafic agressif.\n\n---\n\n## Comment entrer les codes\n\nPS5 : séquences de boutons. Xbox Series : boutons Xbox. PC : console ou menu dédié.\n\n---\n\n## Cheats et trophées\n\nL'utilisation de codes désactivera probablement les trophées pour la session en cours.\n\n---\n\n## Section à compléter à la sortie\n\nTous les codes PS5, Xbox Series et PC avec combinaisons exactes seront ajoutés.\n\n**Sources :** Historique des cheats GTA (GTA 3 à GTA 5), analyses communautaires.",
@@ -2129,6 +2181,7 @@ The backcountry of Leonida. Far from everything. Close to nothing legal.
       pt: 'GTA 6: As 70 Capturas de Tela Oficiais da Rockstar Games',
       it: 'GTA 6: I 70 Screenshot Ufficiali di Rockstar Games',
       ko: 'GTA 6: Rockstar Games 공식 스크린샷 70장 전체 공개',
+      de: 'GTA 6: All 70 Official Screenshots from Rockstar Games',
     },
     excerpt: {
       fr: "Découvrez les 70 captures d'écran officielles de GTA VI publiées par Rockstar Games. Vice City, plages de Leonida, vie nocturne, véhicules et paysages à couper le souffle.",
@@ -2137,6 +2190,7 @@ The backcountry of Leonida. Far from everything. Close to nothing legal.
       pt: "Descubra as 70 capturas de tela oficiais de GTA VI publicadas pela Rockstar Games. Vice City, praias de Leonida, vida noturna, veículos e paisagens deslumbrantes.",
       it: "Scopri i 70 screenshot ufficiali di GTA VI pubblicati da Rockstar Games. Vice City, spiagge di Leonida, vita notturna, veicoli e paesaggi mozzafiato.",
       ko: "Rockstar Games가 공개한 GTA VI 공식 스크린샷 70장을 확인하세요. Vice City, Leonida 해변, 나이트라이프, 차량, 숨막히는 풍경까지.",
+      de: "Discover all 70 official GTA VI screenshots released by Rockstar Games. Vice City, Leonida beaches, nightlife, vehicles, and breathtaking landscapes.",
     },
     content: {
       fr: `## Les 70 screenshots officiels de GTA VI
@@ -2310,6 +2364,7 @@ Vice City의 나이트라이프가 곳곳에 있습니다: 조명이 빛나는 �
       pt: 'GTA 6: Os 17 Artworks e Wallpapers Oficiais',
       it: 'GTA 6: I 17 Artwork e Wallpaper Ufficiali',
       ko: 'GTA 6: 공식 아트워크 및 월페이퍼 17종 전체',
+      de: 'GTA 6: All 17 Official Artworks and Wallpapers',
     },
     excerpt: {
       fr: "Les 17 artworks et wallpapers officiels de GTA VI par Rockstar Games. Style néon, portraits de personnages, paysages de Vice City et esthétique unique.",
@@ -2318,6 +2373,7 @@ Vice City의 나이트라이프가 곳곳에 있습니다: 조명이 빛나는 �
       pt: "Os 17 artworks e wallpapers oficiais de GTA VI da Rockstar Games. Estilo neon, retratos de personagens, paisagens de Vice City e estética única.",
       it: "I 17 artwork e wallpaper ufficiali di GTA VI di Rockstar Games. Stile neon, ritratti dei personaggi, paesaggi di Vice City ed estetica unica.",
       ko: "Rockstar Games의 GTA VI 공식 아트워크 및 월페이퍼 17종. 네온 스타일, 캐릭터 초상화, Vice City 풍경, 독특한 미학.",
+      de: "All 17 official GTA VI artworks and wallpapers by Rockstar Games. Neon style, character portraits, Vice City landscapes, and unique aesthetics.",
     },
     content: {
       fr: `## Les 17 artworks officiels de GTA VI
@@ -2491,6 +2547,7 @@ GTA VI의 아트 디렉션은 스트리트 아트, 라틴 아메리카 문화, �
       pt: 'GTA 6: Os 10 Trailers e Vídeos Oficiais da Rockstar Games',
       it: 'GTA 6: I 10 Trailer e Video Ufficiali di Rockstar Games',
       ko: 'GTA 6: Rockstar Games 공식 트레일러 및 영상 10편 전체',
+      de: 'GTA 6: All 10 Official Trailers and Videos from Rockstar Games',
     },
     excerpt: {
       fr: "Tous les trailers et vidéos officiels de GTA VI : Trailer 1 (décembre 2023), Trailer 2, révélations gameplay et plus encore. Chronologie complète.",
@@ -2499,6 +2556,7 @@ GTA VI의 아트 디렉션은 스트리트 아트, 라틴 아메리카 문화, �
       pt: "Todos os trailers e vídeos oficiais de GTA VI: Trailer 1 (dezembro 2023), Trailer 2, revelações de gameplay e mais. Cronologia completa.",
       it: "Tutti i trailer e video ufficiali di GTA VI: Trailer 1 (dicembre 2023), Trailer 2, rivelazioni gameplay e altro. Cronologia completa.",
       ko: "GTA VI 공식 트레일러 및 영상 전체: Trailer 1(2023년 12월), Trailer 2, 게임플레이 공개 등. 전체 타임라인.",
+      de: "All official GTA VI trailers and videos: Trailer 1 (December 2023), Trailer 2, gameplay reveals, and more. Complete timeline.",
     },
     content: {
       fr: `## Les 10 vidéos officielles de GTA VI
@@ -2750,6 +2808,7 @@ GTA VI 트레일러는 YouTube의 모든 조회수 기록을 깨며 수십억 �
       pt: 'GTA VI: tudo que os vazamentos revelam sobre o gameplay',
       it: 'GTA VI: tutto ciò che i leak rivelano sul gameplay',
       ko: 'GTA VI: 유출로 밝혀진 게임플레이 정보 총정리',
+      de: 'GTA VI: Everything Leaks Reveal About Gameplay',
     },
     excerpt: {
       fr: "Synthèse des fuites et leaks sur le gameplay de GTA VI : système de recherche à 6 étoiles, jauge de relation, évolution du poids, zones sous-marines et plus. Infos officielles vs leaks.",
@@ -2758,6 +2817,7 @@ GTA VI 트레일러는 YouTube의 모든 조회수 기록을 깨며 수십억 �
       pt: "Resumo dos vazamentos de gameplay de GTA VI: sistema de procurado de 6 estrelas, medidor de relacionamento, evolução de peso, zonas subaquáticas e mais.",
       it: "Riepilogo dei leak sul gameplay di GTA VI: sistema di ricerca a 6 stelle, barra relazione, evoluzione peso, zone sottomarine e altro.",
       ko: "GTA VI 게임플레이 유출 총정리: 6성 수배 시스템, 관계 게이지, 체중 변화, 수중 구역 등.",
+      de: "Summary of GTA VI gameplay leaks: 6-star wanted system, relationship gauge, weight evolution, underwater zones and more. Official info vs leaks.",
     },
     content: {
       fr: `## Avertissement
@@ -2957,6 +3017,7 @@ Ritorno del sistema a **6 stelle** confermato dai trailer ufficiali.
       pt: 'GTA VI: preço, edições e versão PC — tudo o que precisa saber',
       it: 'GTA VI: prezzo, edizioni e versione PC — tutto quello che devi sapere',
       ko: 'GTA VI: 가격, 에디션 및 PC 버전 — 알아야 할 모든 것',
+      de: 'GTA VI: Price, Editions and PC Version — Everything You Need to Know',
     },
     excerpt: {
       fr: "GTA VI sortira le 19 novembre 2026 sur PS5 et Xbox Series X|S au prix de 70-80 €. La version PC est estimée 12 à 18 mois après. Point sur les éditions et le prix.",
@@ -2965,6 +3026,7 @@ Ritorno del sistema a **6 stelle** confermato dai trailer ufficiali.
       pt: "GTA VI sai em 19 de novembro de 2026 no PS5 e Xbox Series X|S a 70-80 €. A versão PC estimada para 12-18 meses depois. Detalhes sobre edições e preço.",
       it: "GTA VI esce il 19 novembre 2026 su PS5 e Xbox Series X|S a 70-80 €. La versione PC è stimata 12-18 mesi dopo. Dettagli su edizioni e prezzo.",
       ko: "GTA VI는 2026년 11월 19일 PS5 및 Xbox Series X|S에서 69.99-79.99달러에 출시됩니다. PC 버전은 12-18개월 후 예상. 에디션 및 가격 정보.",
+      de: "GTA VI launches November 19, 2026 on PS5 and Xbox Series X|S at $69.99-79.99. The PC version is estimated 12-18 months later. Details on editions and pricing.",
     },
     content: {
       fr: `## Prix de GTA VI

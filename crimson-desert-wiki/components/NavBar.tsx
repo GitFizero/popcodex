@@ -4,8 +4,8 @@ import { useApp } from '@/crimson-desert-wiki/context/AppContext';
 import { useI18n, type Lang } from '@/crimson-desert-wiki/context/I18nContext';
 import { Search, X, Menu, Globe, Moon, Sun, ChevronDown, ArrowLeft } from 'lucide-react';
 
-const LANG_CYCLE: Lang[] = ['fr', 'en', 'es', 'pt', 'it', 'ko'];
-const LANG_LABELS: Record<Lang, string> = { fr: 'FR', en: 'EN', es: 'ES', pt: 'PT', it: 'IT', ko: '한국어' };
+const LANG_CYCLE: Lang[] = ['fr', 'en', 'de', 'es', 'pt', 'it', 'ko'];
+const LANG_LABELS: Record<Lang, string> = { fr: 'FR', en: 'EN', de: 'DE', es: 'ES', pt: 'PT', it: 'IT', ko: '한국어' };
 
 const NavBar = memo(() => {
   const [scrolled, setScrolled] = useState(false);

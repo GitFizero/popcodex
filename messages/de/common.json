@@ -1,0 +1,78 @@
+{
+  "site": {
+    "name": "PopCodex",
+    "tagline": "Die Enzyklopädie deiner Lieblingsuniversen",
+    "description": "PopCodex ist dein enzyklopädischer Führer durch die Universen der Popkultur: Videospiele, Filme, Serien und Comics."
+  },
+  "nav": {
+    "games": "Videospiele",
+    "films": "Filme",
+    "series": "Serien",
+    "search": "Suche nach einem Charakter, Ort, einer Waffe...",
+    "searchShort": "Suchen...",
+    "language": "Sprache",
+    "theme": "Design",
+    "menu": "Menü",
+    "close": "Schließen",
+    "comingSoon": "Demnächst",
+    "viewAll": "Alle anzeigen",
+    "new": "Neu",
+    "articles": "Artikel",
+    "home": "Startseite"
+  },
+  "hero": {
+    "title": "Die Enzyklopädie deiner Lieblingsuniversen",
+    "subtitle": "Entdecke die umfassendsten Wikis zu den Videospielen, Filmen und Serien, die zählen.",
+    "universesCount": "{count} Universen zum Entdecken"
+  },
+  "universe": {
+    "title": "Entdecke unsere Universen",
+    "releaseDate": "Veröffentlichung",
+    "articlesCount": "{count} Artikel",
+    "subtitle": "Wähle ein Universum und tauche in seine Enzyklopädie ein."
+  },
+  "recent": {
+    "title": "Neueste Artikel",
+    "readTime": "{minutes} Min. Lesezeit"
+  },
+  "footer": {
+    "disclaimer": "PopCodex ist eine inoffizielle Community-Website. Alle Marken gehören ihren jeweiligen Eigentümern.",
+    "legal": "Impressum",
+    "privacy": "Datenschutzrichtlinie",
+    "rights": "Alle Rechte vorbehalten."
+  },
+  "franchise": {
+    "wikiProgress": "Wiki-Fortschritt",
+    "lastUpdate": "Letzte Aktualisierung",
+    "totalArticles": "Artikel",
+    "relatedArticles": "Verwandte Artikel",
+    "disclaimer": "PopCodex ist eine inoffizielle Community-Website.",
+    "prev": "Vorheriger Artikel",
+    "next": "Nächster Artikel",
+    "developer": "Entwickler",
+    "platforms": "Plattformen",
+    "publisher": "Publisher"
+  },
+  "article": {
+    "toc": "Inhaltsverzeichnis",
+    "updated": "Aktualisiert am",
+    "published": "Veröffentlicht am",
+    "readTime": "{minutes} Min. Lesezeit",
+    "author": "Von {name}",
+    "showSpoiler": "Spoiler anzeigen",
+    "hideSpoiler": "Spoiler verbergen"
+  },
+  "search": {
+    "title": "Suche",
+    "placeholder": "Suche nach einem Charakter, Ort, einer Waffe...",
+    "noResults": "Keine Ergebnisse gefunden.",
+    "results": "{count} Ergebnisse"
+  },
+  "accessibility": {
+    "skipToContent": "Zum Hauptinhalt springen",
+    "openMenu": "Menü öffnen",
+    "closeMenu": "Menü schließen",
+    "toggleTheme": "Design wechseln",
+    "selectLanguage": "Sprache ändern"
+  }
+}

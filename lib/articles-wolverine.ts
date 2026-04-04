@@ -13,6 +13,7 @@ export const wolverineArticles: ArticleData[] = [
       pt: "James 'Logan' Howlett é o protagonista de Marvel's Wolverine. Um mutante com fator de cura e garras de adamantium.",
       it: "James 'Logan' Howlett è il protagonista di Marvel's Wolverine. Un mutante con fattore di guarigione e artigli in adamantio.",
       ko: "제임스 '로건' 하울렛은 Marvel's Wolverine의 주인공입니다. 치유 인자와 아다만티움 발톱을 가진 뮤턴트로, 마블의 가장 상징적인 영웅 중 하나입니다.",
+      de: "James 'Logan' Howlett is the protagonist of Marvel's Wolverine. A mutant with a healing factor and adamantium claws, he is one of Marvel's most iconic heroes.",
     },
     content: {
       fr: `## Qui est Logan ?
@@ -126,6 +127,7 @@ Earth-1048 유니버스에서 로건은 피터 파커, 마일스 모랄레스와
       pt: 'Raven Darkhölme, conhecida como Mystique, é uma metamorfa mutante e uma das antagonistas mais formidáveis do universo Marvel.',
       it: 'Raven Darkhölme, alias Mystique, è una metamorfa mutante e una delle antagoniste più temibili dell\'universo Marvel.',
       ko: '레이븐 다크홀름(미스틱)은 뮤턴트 변신술사로 마블 유니버스에서 가장 강력한 적대자 중 하나입니다.',
+      de: 'Raven Darkhölme, aka Mystique, is a mutant shapeshifter and one of the most formidable antagonists in the Marvel universe.',
     },
     content: {
       fr: `## Qui est Mystique ?
@@ -191,6 +193,7 @@ Raven Darkhölme (Mystique) è una mutante con il potere della metamorfosi. Può
       pt: 'Arkady Rossovich (Omega Red) é um supersoldado soviético com tentáculos de carbonadium.',
       it: 'Arkady Rossovich (Omega Red) è un supersoldato sovietico con tentacoli in carbonadio.',
       ko: '아르카디 로소비치(오메가 레드)는 카보나디움 촉수를 가진 소련 초병사입니다.',
+      de: 'Arkady Rossovich, aka Omega Red, is a Soviet super-soldier with carbonadium tentacles. He is one of Wolverine\'s most dangerous enemies.',
     },
     content: {
       fr: `## Qui est Omega Red ?
@@ -256,6 +259,7 @@ Arkady Rossovich è un ex serial killer sovietico trasformato in supersoldato. P
       pt: 'As Sentinelas são robôs gigantes projetados para caçar e neutralizar mutantes.',
       it: 'Le Sentinelle sono robot giganti progettati per cacciare e neutralizzare i mutanti.',
       ko: '센티넬은 뮤턴트를 추적하고 무력화하기 위해 설계된 거대 로봇입니다.',
+      de: 'The Sentinels are giant robots designed to hunt and neutralize mutants. Their presence in Marvel\'s Wolverine raises questions about the status of mutants in the Earth-1048 universe.',
     },
     content: {
       fr: `## Que sont les Sentinelles ?
@@ -313,6 +317,7 @@ Le Sentinelle sono robot giganti creati per cacciare i mutanti. La loro presenza
       pt: 'Madripoor é uma nação insular do sudeste asiático, centro do crime internacional.',
       it: "Madripoor è una nazione insulare del sud-est asiatico, centro del crimine internazionale.",
       ko: '마드리푸르는 동남아시아의 섬나라로, 국제 범죄의 중심지입니다.',
+      de: "Madripoor is a Southeast Asian island nation, a hub for international crime. It's one of the main locations in Marvel's Wolverine.",
     },
     content: {
       fr: `## Présentation de Madripoor
@@ -376,6 +381,7 @@ Madripoor è una nazione insulare fittizia del sud-est asiatico nell'universo Ma
       pt: 'As florestas e montanhas do Canadá são o berço de Logan.',
       it: 'Le foreste e montagne del Canada sono la terra natale di Logan.',
       ko: '캐나다의 숲과 산은 로건의 고향이자 Marvel\'s Wolverine의 핵심 배경입니다.',
+      de: "Canada's forests and mountains are Logan's birthplace and a central setting in Marvel's Wolverine.",
     },
     content: {
       fr: `## Le Canada de Logan
@@ -433,6 +439,7 @@ Le terre selvagge dell'Alberta rappresentano il luogo di nascita di Logan. Il gi
       pt: 'As garras de adamantium de Logan são suas armas mais icônicas.',
       it: "Gli artigli in adamantio di Logan sono le sue armi più iconiche.",
       ko: '로건의 아다만티움 발톱은 그의 가장 상징적인 무기입니다.',
+      de: "Logan's adamantium claws are his most iconic weapons. Indestructible and razor-sharp, they are the result of the Weapon X program.",
     },
     content: {
       fr: `## L'Adamantium
@@ -497,6 +504,7 @@ L'adamantio è una lega metallica virtualmente indistruttibile nell'universo Mar
       pt: 'O fator de cura de Logan permite regenerar tecidos em velocidade sobre-humana.',
       it: 'Il fattore di guarigione di Logan gli permette di rigenerare i tessuti a velocità sovrumana.',
       ko: '로건의 치유 인자는 초인적 속도로 조직을 재생하여 뛰어난 수명과 부상 저항력을 부여합니다.',
+      de: "Logan's healing factor allows him to regenerate tissue at superhuman speed, granting him exceptional longevity and resistance to injury.",
     },
     content: {
       fr: `## Le facteur guérisseur mutant
@@ -564,6 +572,7 @@ Il fattore di guarigione di Logan gli permette di rigenerare i tessuti danneggia
       pt: "Marvel's Wolverine oferece gameplay de ação maduro e visceral, desenvolvido pela Insomniac Games para PS5.",
       it: "Marvel's Wolverine offre un gameplay d'azione maturo e viscerale, sviluppato da Insomniac Games per PS5.",
       ko: "Marvel's Wolverine은 인솜니악 게임즈가 PS5용으로 개발한 성숙하고 본능적인 액션 게임플레이를 제공합니다.",
+      de: "Marvel's Wolverine features mature, visceral action gameplay developed by Insomniac Games for PS5.",
     },
     content: {
       fr: `## Système de combat
@@ -629,6 +638,7 @@ Marvel's Wolverine은 잔인하고 본능적인 근접 전투를 강조합니다
       pt: 'Terra-1048 é a designação do universo compartilhado entre Marvel\'s Spider-Man e Marvel\'s Wolverine.',
       it: "Terra-1048 è la designazione dell'universo condiviso tra Marvel's Spider-Man e Marvel's Wolverine.",
       ko: "Earth-1048은 Marvel's Spider-Man과 Marvel's Wolverine이 공유하는 유니버스입니다.",
+      de: "Earth-1048 is the designation of the shared universe between Marvel's Spider-Man and Marvel's Wolverine.",
     },
     content: {
       fr: `## Qu'est-ce que Terre-1048 ?

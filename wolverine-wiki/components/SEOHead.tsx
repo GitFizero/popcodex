@@ -30,6 +30,7 @@ interface SEOHeadProps {
 const LOCALE_MAP: Record<Lang, string> = {
   fr: 'fr_FR',
   en: 'en_US',
+  de: 'de_DE',
   es: 'es_ES',
   pt: 'pt_BR',
   it: 'it_IT',
@@ -39,6 +40,7 @@ const LOCALE_MAP: Record<Lang, string> = {
 const KEYWORDS: Record<Lang, string> = {
   fr: "wolverine, marvel's wolverine, wolverine date de sortie, wolverine ps5, wolverine gameplay, wolverine jeu, insomniac games, logan, weapon x, adamantium, wolverine wiki",
   en: "wolverine, marvel's wolverine, wolverine release date, wolverine ps5, wolverine gameplay, wolverine game, insomniac games, logan, weapon x, adamantium, wolverine wiki",
+  de: "wolverine, marvel's wolverine, wolverine erscheinungsdatum, wolverine ps5, wolverine gameplay, insomniac games, logan, weapon x, adamantium, wolverine wiki",
   es: "wolverine, marvel's wolverine, wolverine fecha de lanzamiento, wolverine ps5, wolverine gameplay, insomniac games, logan, weapon x, adamantium",
   pt: "wolverine, marvel's wolverine, wolverine data de lançamento, wolverine ps5, wolverine gameplay, insomniac games, logan, weapon x, adamantium",
   it: "wolverine, marvel's wolverine, wolverine data di uscita, wolverine ps5, wolverine gameplay, insomniac games, logan, weapon x, adamantium",

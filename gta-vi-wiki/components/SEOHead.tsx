@@ -33,6 +33,7 @@ interface SEOHeadProps {
 const LOCALE_MAP: Record<Lang, string> = {
   fr: 'fr_FR',
   en: 'en_US',
+  de: 'de_DE',
   es: 'es_ES',
   pt: 'pt_BR',
   it: 'it_IT',
@@ -42,6 +43,7 @@ const LOCALE_MAP: Record<Lang, string> = {
 const KEYWORDS: Record<Lang, string> = {
   fr: 'gta vi, gta 6, gta vi date de sortie, gta vi ps5, gta vi gameplay, gta vi vice city, gta vi lucia, gta vi jason, rockstar games, leonida, gta vi wiki',
   en: 'gta vi, gta 6, gta vi release date, gta vi ps5, gta vi gameplay, gta vi vice city, gta vi lucia, gta vi jason, rockstar games, leonida, gta vi wiki',
+  de: 'gta vi, gta 6, gta vi erscheinungsdatum, gta vi ps5, gta vi gameplay, gta vi vice city, gta vi lucia, gta vi jason, rockstar games, leonida, gta vi wiki',
   es: 'gta vi, gta 6, gta vi fecha de lanzamiento, gta vi ps5, gta vi gameplay, gta vi vice city, gta vi lucia, gta vi jason, rockstar games, leonida, gta vi wiki',
   pt: 'gta vi, gta 6, gta vi data de lancamento, gta vi ps5, gta vi gameplay, gta vi vice city, gta vi lucia, gta vi jason, rockstar games, leonida, gta vi wiki',
   it: 'gta vi, gta 6, gta vi data di uscita, gta vi ps5, gta vi gameplay, gta vi vice city, gta vi lucia, gta vi jason, rockstar games, leonida, gta vi wiki',

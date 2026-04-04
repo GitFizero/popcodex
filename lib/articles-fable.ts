@@ -13,6 +13,7 @@ export const fableArticles: ArticleData[] = [
       pt: 'Albion é o mundo fantástico onde se passa Fable. Um reino medieval encantado.',
       it: "Albion è il mondo fantastico in cui si svolge Fable. Un regno medievale incantato.",
       ko: '알비온은 Fable이 펼쳐지는 판타지 세계입니다. 마법, 유머, 위험이 공존하는 마법의 중세 왕국입니다.',
+      de: 'Albion is the fantasy world in which Fable takes place. An enchanted medieval kingdom where magic, humor and danger coexist.',
     },
     content: {
       fr: `## Le monde d'Albion
@@ -106,6 +107,7 @@ Albion è un vasto regno medievale-fantasy descritto come una **"fiaba"**. Luogh
       pt: 'Style Weaving é o sistema de combate inovador de Fable.',
       it: 'Lo Style Weaving è il sistema di combattimento innovativo di Fable.',
       ko: '스타일 위빙은 근접, 마법, 원거리 전투를 실시간으로 혼합하는 Fable의 혁신적 전투 시스템입니다.',
+      de: "Style Weaving is Fable's innovative combat system that allows seamless mixing of melee, magic and ranged combat.",
     },
     content: {
       fr: `## Qu'est-ce que le Style Weaving ?
@@ -175,6 +177,7 @@ Lo Style Weaving permette di passare fluidamente tra combattimento ravvicinato, 
       pt: 'O sistema de escolhas morais de Fable influencia a aparência do herói e o estado de Albion.',
       it: 'Il sistema di scelte morali di Fable influenza l\'aspetto dell\'eroe e lo stato di Albion.',
       ko: 'Fable의 도덕적 선택 시스템은 영웅의 외모, NPC 반응, 알비온의 상태에 영향을 미칩니다.',
+      de: "Fable's moral choice system influences the hero's appearance, NPC reactions, and the state of Albion.",
     },
     content: {
       fr: `## Un pilier de la série Fable
@@ -236,6 +239,7 @@ Dal primo Fable, le scelte morali sono centrali. Le azioni del giocatore determi
       pt: 'O Herói de Albion é o personagem jogável do novo Fable.',
       it: "L'Eroe di Albion è il personaggio giocabile del nuovo Fable.",
       ko: '알비온의 영웅은 새로운 Fable의 플레이어블 캐릭터로, 플레이어의 선택에 따라 형성됩니다.',
+      de: 'The Hero of Albion is the playable character of the new Fable. Customizable and shaped by player choices.',
     },
     content: {
       fr: `## Le Héros
@@ -297,6 +301,7 @@ Il giocatore incarna un Eroe con poteri straordinari. La personalizzazione inclu
       pt: 'Albion abriga criaturas fantásticas: Balverines, Hobbes, Trolls e mais.',
       it: 'Albion ospita creature fantastiche: Balverine, Hobbes, Troll e altro.',
       ko: '알비온에는 발버린, 호브, 트롤 등 환상적인 크리처들이 서식합니다.',
+      de: 'Albion is home to fantastic creatures: Balverines, Hobbes, Trolls and more. Discover the bestiary of the new Fable.',
     },
     content: {
       fr: `## Le bestiaire d'Albion
@@ -370,6 +375,7 @@ Albion ospita Balverine (lupi mannari), Hobbes (creature maliziose), Troll (giga
       pt: 'A magia é onipresente em Albion. Descubra o sistema mágico do novo Fable.',
       it: "La magia è onnipresente ad Albion. Scopri il sistema magico del nuovo Fable.",
       ko: '마법은 알비온 어디에나 존재합니다. 새로운 Fable의 마법 시스템을 알아보세요.',
+      de: 'Magic is omnipresent in Albion. From elemental spells to enchantments, discover the magic system of the new Fable.',
     },
     content: {
       fr: `## La magie à Albion
@@ -435,6 +441,7 @@ La magia è fondamentale in Fable. Le scuole includono Fuoco, Fulmine, Ghiaccio 
       pt: 'A história milenar de Albion é rica em lendas, heróis esquecidos e conflitos épicos.',
       it: "La storia millenaria di Albion è ricca di leggende, eroi dimenticati e conflitti epici.",
       ko: '알비온의 수천 년 역사는 전설, 잊혀진 영웅, 장대한 갈등으로 가득합니다.',
+      de: "Albion's millennia-old history is rich with legends, forgotten heroes and epic conflicts.",
     },
     content: {
       fr: `## Les Anciens
@@ -496,6 +503,7 @@ La storia di Albion include gli Antichi, la Gilda degli Eroi e la misteriosa Cor
       pt: 'O humor é a marca registrada de Fable. Um tom irreverente e tipicamente britânico.',
       it: "L'umorismo è il marchio di Fable. Un tono irriverente e tipicamente britannico.",
       ko: '유머는 Fable의 트레이드마크입니다. 독특하고 불경스러운 영국식 유머가 다른 RPG와 차별화됩니다.',
+      de: "Humor is Fable's hallmark. A quirky, irreverent, typically British tone that sets the series apart from any other RPG.",
     },
     content: {
       fr: `## L'ADN humoristique de Fable
@@ -556,6 +564,7 @@ Fable은 서사적 영웅주의와 기발한 유머를 혼합한 독특한 톤�
       pt: 'Precisa ter jogado os Fable antigos para entender o reboot?',
       it: 'Bisogna aver giocato ai vecchi Fable per capire il reboot?',
       ko: '리부트를 이해하려면 이전 Fable을 플레이해야 하나요?',
+      de: 'Do You Need to Play Old Fable Games to Understand the Reboot?',
     },
     excerpt: {
       fr: "Non ! Le nouveau Fable est un reboot complet, pas une suite. Nouvelle histoire dans Albion, pas de continuité avec la trilogie Lionhead. Accessible aux nouveaux joueurs.",
@@ -564,6 +573,7 @@ Fable은 서사적 영웅주의와 기발한 유머를 혼합한 독특한 톤�
       pt: "Não! O novo Fable é um reboot completo, não uma sequência. Nova história em Albion, sem continuidade com a trilogia da Lionhead. Acessível para novos jogadores.",
       it: "No! Il nuovo Fable è un reboot completo, non un sequel. Nuova storia ad Albion, nessuna continuità con la trilogia Lionhead. Accessibile ai nuovi giocatori.",
       ko: "아닙니다! 새 Fable은 후속작이 아닌 완전한 리부트입니다. 알비온의 새로운 이야기, Lionhead 삼부작과의 연속성 없음. 신규 플레이어도 접근 가능.",
+      de: "No! The new Fable is a full reboot, not a sequel. New story in Albion, no continuity with the Lionhead trilogy. Accessible to new players.",
     },
     content: {
       fr: `## La réponse courte : non
