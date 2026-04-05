@@ -43,7 +43,7 @@ const WorldPage = () => {
     id === 'hernand' ? '🏰' : id === 'pailune' ? '🌿' : id === 'demeniss' ? '⚔' : id === 'delesyie' ? '🌫' : '🏜';
 
   return (
-    <main id="main-content" className="relative z-10 min-h-screen pt-20">
+    <main id="main-content" className="relative z-10 min-h-screen">
       <SEOHead
         title={seo.world.title[lang]}
         description={seo.world.desc[lang]}
@@ -54,49 +54,18 @@ const WorldPage = () => {
           { name: seo.breadcrumb.world[lang], path: '/world' },
         ]}
       />
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <RevealOnScroll><GoldDivider variant="section" title={t('world.title')} /></RevealOnScroll>
-        <h1 className="sr-only">{seo.world.title[lang]}</h1>
+      <h1 className="sr-only">{seo.world.title[lang]}</h1>
 
-        {/* Map subtitle / intro */}
-        <RevealOnScroll className="mt-4">
-          <p className="font-body text-sm text-text-secondary text-center max-w-3xl mx-auto leading-relaxed">
-            {t('world.map.subtitle')}
-          </p>
-        </RevealOnScroll>
-
-        {/* Stats bar */}
-        <RevealOnScroll className="mt-8">
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
-            {MAP_STATS_KEYS.map(key => (
-              <div key={key} className="bg-surface border border-border rounded-lg px-3 py-3 text-center">
-                <span className="font-ui text-[0.65rem] tracking-wider text-gold-bright block">{t(key)}</span>
-              </div>
-            ))}
-          </div>
-        </RevealOnScroll>
-
-        {/* Interactive Map Section */}
-        <RevealOnScroll className="mt-10">
-          <h2 className="font-heading text-lg text-gold-bright text-center mb-4">{t('world.map.interactive_title')}</h2>
-          <p className="font-ui text-[0.6rem] tracking-wider text-text-muted-custom text-center mb-6">
-            {lang === 'fr'
-              ? 'Carte interactive avec marqueurs, filtres et recherche — zoomez, cliquez sur les marqueurs pour les détails'
-              : 'Interactive map with markers, filters and search — zoom, click markers for details'}
-          </p>
-        </RevealOnScroll>
-      </div>
-
-      {/* Map container — full width, outside the max-w-7xl wrapper */}
+      {/* ═══ MAP FIRST — full viewport, no padding ═══ */}
       <div
         ref={mapContainerRef}
-        className={`relative border-y border-border transition-all duration-300 ${
+        className={`relative transition-all duration-300 ${
           mapFullscreen ? 'fixed inset-0 z-[9999]' : ''
         }`}
-        style={mapFullscreen ? undefined : { height: 'max(75vh, 550px)' }}
+        style={mapFullscreen ? undefined : { height: '100svh', minHeight: '500px' }}
       >
         <Suspense fallback={
-          <div className="w-full h-full flex items-center justify-center bg-[#1a1f2e]">
+          <div className="w-full h-full flex items-center justify-center bg-[#0f1119]">
             <span className="font-ui text-sm text-white/40 animate-pulse">
               {lang === 'fr' ? 'Chargement de la carte...' : 'Loading map...'}
             </span>
@@ -109,10 +78,11 @@ const WorldPage = () => {
         </Suspense>
       </div>
 
-      {/* Alternative maps — below the map */}
+      {/* ═══ Content below the map ═══ */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="mt-4 mb-8 flex flex-wrap justify-center gap-3">
-          <span className="font-ui text-[0.55rem] tracking-wider text-text-muted-custom self-center mr-2">
+        {/* Alternative maps */}
+        <div className="mt-4 mb-6 flex flex-wrap justify-center gap-2 sm:gap-3">
+          <span className="font-ui text-[0.55rem] tracking-wider text-text-muted-custom self-center mr-1 sm:mr-2">
             {lang === 'fr' ? 'Autres cartes :' : 'Other maps:'}
           </span>
           {[
@@ -128,19 +98,30 @@ const WorldPage = () => {
           ))}
         </div>
 
+        {/* Stats bar */}
+        <RevealOnScroll className="mt-6">
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 sm:gap-3">
+            {MAP_STATS_KEYS.map(key => (
+              <div key={key} className="bg-surface border border-border rounded-lg px-3 py-2.5 text-center">
+                <span className="font-ui text-[0.6rem] sm:text-[0.65rem] tracking-wider text-gold-bright block">{t(key)}</span>
+              </div>
+            ))}
+          </div>
+        </RevealOnScroll>
+
         {/* Fast Travel System */}
-        <RevealOnScroll className="mt-16">
+        <RevealOnScroll className="mt-12 sm:mt-16">
           <GoldDivider variant="section" title={t('world.fast_travel.title')} />
           <p className="font-body text-sm text-text-secondary text-center max-w-3xl mx-auto mt-4 leading-relaxed">
             {t('world.fast_travel.desc')}
           </p>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-8 max-w-4xl mx-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4 mt-6 sm:mt-8 max-w-4xl mx-auto">
             {[
               { key: 'nexus', icon: '🔵' },
               { key: 'cresset', icon: '🟣' },
               { key: 'skydive', icon: '🪂' },
             ].map(ft => (
-              <div key={ft.key} className="bg-surface border border-border rounded-lg p-5 text-center">
+              <div key={ft.key} className="bg-surface border border-border rounded-lg p-4 sm:p-5 text-center">
                 <span className="text-2xl block mb-2">{ft.icon}</span>
                 <h4 className="font-heading text-sm text-gold-bright mb-2">{t(`world.fast_travel.${ft.key}`)}</h4>
                 <p className="font-body text-xs text-text-muted-custom leading-relaxed">{t(`world.fast_travel.${ft.key}_desc`)}</p>
@@ -150,17 +131,17 @@ const WorldPage = () => {
         </RevealOnScroll>
 
         {/* Region detail cards */}
-        <RevealOnScroll className="mt-16">
+        <RevealOnScroll className="mt-12 sm:mt-16">
           <GoldDivider variant="section" title={t('world.regions_title')} />
         </RevealOnScroll>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 mt-6 sm:mt-8">
           {regions.map((region, i) => {
             const tab = getTab(region.id);
             return (
               <RevealOnScroll key={region.id} stagger={i * 120}>
-                <div className="rounded-lg border overflow-hidden card-hover min-h-[380px] flex flex-col"
+                <div className="rounded-lg border overflow-hidden card-hover min-h-[340px] sm:min-h-[380px] flex flex-col"
                   style={{ borderColor: 'hsl(var(--border-subtle))', boxShadow: 'var(--shadow-card)', background: `linear-gradient(135deg, hsl(var(--bg-card)) 70%, ${region.colorTheme.primary}15 100%)` }}>
-                  <div className="relative p-5 border-b border-border h-40 overflow-hidden" style={{ borderColor: `${region.colorTheme.primary}30` }}>
+                  <div className="relative p-4 sm:p-5 border-b border-border h-32 sm:h-40 overflow-hidden" style={{ borderColor: `${region.colorTheme.primary}30` }}>
                     {region.image && (
                       <img src={region.image} alt={`${region.name} — Crimson Desert`} className="absolute inset-0 w-full h-full object-cover opacity-30" loading="lazy" decoding="async" width={400} height={160} />
                     )}
@@ -178,13 +159,13 @@ const WorldPage = () => {
                   <div className="flex border-b border-border">
                     {(['OVERVIEW', 'LOCATIONS', 'ENEMIES', 'QUESTS'] as const).map(tb => (
                       <button key={tb} onClick={() => setTab(region.id, tb)}
-                        className={`flex-1 font-ui text-[0.55rem] tracking-wider py-2 transition-colors focus-gold
+                        className={`flex-1 font-ui text-[0.5rem] sm:text-[0.55rem] tracking-wider py-2 transition-colors focus-gold
                           ${tab === tb ? 'text-gold-bright border-b-2 border-gold-mid' : 'text-text-muted-custom hover:text-text-secondary'}`}>
                         {tabLabels[tb]}
                       </button>
                     ))}
                   </div>
-                  <div className="p-4 flex-1 overflow-y-auto max-h-[250px]">
+                  <div className="p-3 sm:p-4 flex-1 overflow-y-auto max-h-[250px]">
                     {tab === 'OVERVIEW' && <p className="font-body text-xs text-text-secondary leading-relaxed">{region.overview[lang]}</p>}
                     {tab === 'LOCATIONS' && (
                       <div className="space-y-2">
@@ -230,24 +211,24 @@ const WorldPage = () => {
         </div>
 
         {/* The Abysse */}
-        <div className="mt-16">
+        <div className="mt-12 sm:mt-16">
           <RevealOnScroll>
-            <div ref={portalRef} className="relative rounded-lg overflow-hidden py-16 px-6 text-center"
+            <div ref={portalRef} className="relative rounded-lg overflow-hidden py-12 sm:py-16 px-4 sm:px-6 text-center"
               style={{ background: 'radial-gradient(ellipse at center, hsl(var(--crimson-deep)) 0%, hsl(var(--bg-void)) 70%)' }}>
               <div className="absolute inset-0 opacity-20 pointer-events-none"
                 style={{ background: 'conic-gradient(from 0deg, transparent, hsl(var(--crimson-core)), transparent, hsl(var(--crimson-deep)), transparent)', animation: 'rotate-slow 20s linear infinite' }} />
               <div className="relative z-10">
-                <h2 className="font-display text-3xl sm:text-5xl text-crimson-bright mb-4" style={{ textShadow: '0 0 40px hsl(var(--crimson-glow-strong))' }}>
+                <h2 className="font-display text-2xl sm:text-3xl md:text-5xl text-crimson-bright mb-4" style={{ textShadow: '0 0 40px hsl(var(--crimson-glow-strong))' }}>
                   {t('world.abysse.title')}
                 </h2>
-                <p className="font-body text-base text-text-secondary max-w-2xl mx-auto leading-relaxed">{t('world.abysse.desc')}</p>
-                <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-8 max-w-3xl mx-auto">
+                <p className="font-body text-sm sm:text-base text-text-secondary max-w-2xl mx-auto leading-relaxed">{t('world.abysse.desc')}</p>
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4 mt-6 sm:mt-8 max-w-3xl mx-auto">
                   {[
                     { title: t('world.abysse.rifts'), desc: t('world.abysse.rifts.desc') },
                     { title: t('world.abysse.time'), desc: t('world.abysse.time.desc') },
                     { title: t('world.abysse.thought'), desc: t('world.abysse.thought.desc') },
                   ].map(prop => (
-                    <div key={prop.title} className="bg-void/50 border border-crimson-core/30 rounded-lg p-4 backdrop-blur-sm">
+                    <div key={prop.title} className="bg-void/50 border border-crimson-core/30 rounded-lg p-3 sm:p-4 backdrop-blur-sm">
                       <h4 className="font-heading text-sm text-crimson-bright">{prop.title}</h4>
                       <p className="font-body text-xs text-text-muted-custom mt-2">{prop.desc}</p>
                     </div>
@@ -258,8 +239,8 @@ const WorldPage = () => {
           </RevealOnScroll>
         </div>
 
-        {/* SEO-rich text content for AdSense / Google */}
-        <RevealOnScroll className="mt-16">
+        {/* SEO content */}
+        <RevealOnScroll className="mt-12 sm:mt-16">
           <div className="prose prose-invert max-w-4xl mx-auto">
             <h2 className="font-heading text-lg text-gold-bright mb-4">
               {lang === 'fr' ? 'Guide complet de la carte de Crimson Desert' : 'Crimson Desert Complete Map Guide'}
